@@ -13,7 +13,7 @@ class CertificatesTableSeeder extends Seeder {
 
 			array_map( function( $certificate ) {
 				DB::table('certificates')->insert([
-					'certificate_type' => $certificate
+					'certificate_title' => $certificate
 				]);
 			}, $certificates);
 
