@@ -8,25 +8,21 @@
     <body>
       <table>
          <tr>
-            <th>ID</th><th>Name</th><th>Released</th><th>Length</th><th>Description</th><th>Rating</th>
+            <th>ID</th><th>Name</th><th>Released</th><th>Length</th><th>Description</th><th>Certificate</th><th>Format</th><th>Studio</th><th>Rating</th>
          </tr>
-<?php
-      foreach( $movies as $movie )
-      {
-?>
+         @foreach( $movies as $movie )
          <tr>
-            <td width="20px">
-               <a href="movies/<?php echo $movie['movie_id']; ?>"><?php echo $movie['movie_id']; ?></a>
-            </td>
-            <td width="200px"><?php echo $movie['movie_name']; ?></td>
-            <td width="150px"><?php echo date( 'jS F  Y', strtotime( $movie['movie_release_date'] ) ); ?></td>
-            <td width="50px" ><?php echo $movie['movie_running_time']; ?></td>
-            <td width="300px"><?php echo $movie['movie_bio']; ?></td>
-            <td width="100px"><?php echo $movie['movie_my_rating']; ?></td>
+            <td width="20px"><a href="movies/{{ $movie->movie_id }}">{{ $movie['movie_id'] }}</a></td>
+            <td width="200px">{{ $movie->movie_name }}</td>
+            <td width="150px">{{ date( 'jS F Y', strtotime( $movie->movie_release_date ) ) }} </td>
+            <td width="100px">{{ $movie->movie_running_time }} mins</td>
+            <td width="300px">{{ $movie->movie_bio }}</td>
+            <td width="100px">{{ $movie->certificate_title }}</td>
+            <td width="100px">{{ $movie->format_type }}</td>
+            <td width="100px">{{ $movie->studio_name }}</td>
+            <td width="100px">{{ $movie->movie_my_rating }}</td>
          </tr>
-<?php
-      }
-?>
+         @endforeach
    </table>
     </body>
 </html>
