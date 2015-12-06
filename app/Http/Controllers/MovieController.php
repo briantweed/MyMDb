@@ -10,12 +10,13 @@ class MovieController extends Controller {
 
 	public function index()
 	{
-		return Movies::all();
+		$movies = Movies::all();
+		return view( 'lists.movies.index', compact( 'movies' ) );
 	}
 
-	public function show($id)
+	public function show( $id )
 	{
-		return Movies::ofMovie($id)->get();
+		return Movies::ofMovie( $id )->get();
 	}
 
 }
