@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use App\Movies;
+use App\Cast;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -16,10 +17,11 @@ class MovieController extends Controller {
 
 	public function show( $id )
 	{
-		$movies = Movies::ofMovie( $id )->get();
+		$movies = Movies::ofMovie($id)->get();
 		$movie  = $movies[0];
 		$movie->released = date("jS F Y",strtotime($movie->release_date));
-		return view( 'lists.movies.show', $movie );
+		$movie->cast = Cast::ofMovie($id)->get();
+		return view('lists.movies.show', $movie);
 	}
 
 }

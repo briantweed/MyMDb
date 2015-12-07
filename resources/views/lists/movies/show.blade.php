@@ -14,7 +14,16 @@
       <tr><td>Format :</td><td>{{$format}}</td></tr>
       <tr><td>Studio :</td><td>{{$studio}}</td></tr>
    </table>
-   <br/>
+   <br/><br/>
+   
+   <h4>Actors</h4>
+   <table>
+      @foreach( $cast as $actor )
+         <tr><td width="150px">{{$actor->person_forename}} {{$actor->person_surname}} </td><td width="150px">{{$actor->character_name}}</td></tr>
+      @endforeach
+   </table>
+   <br/><br/>
+
    <a href="{{ action('MovieController@index') }}">back</a>
 
 @stop
