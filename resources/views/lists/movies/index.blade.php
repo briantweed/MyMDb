@@ -1,20 +1,28 @@
-<html>
-   <head>
-      <title>Movies</title>
-      <style>
-         div.movie {background:#f6f6ff;border:1px solid #f0f0f6;border-radius:5px;padding:5px 10px;;margin:5px 0}
-         div.movie:hover {background:#f0f0ff;}
-         div.movie a{display:block;text-decoration:none;color:#222}
-      </style>
-   </head>
-   <body>
-      <h2>Movies</h2>
-      @foreach( $movies as $movie )
-         <div class="movie">
-            <a href="movies/{{ $movie->movie_id }}">
-               {{ $movie->name }} ({{ date( 'Y', strtotime( $movie->release_date ) ) }})
+@extends('app')
+
+
+{{-- Page Title --}}
+@section('title')
+ All Movies
+@stop
+
+
+@section('heading')
+   Movies
+@stop
+
+
+{{-- Page Content --}}
+@section('content')
+
+   @foreach( $movies as $movie )
+      <div class="row align-center">
+         <div class="movie columns small-11 medium-11 large-12">
+            <a href="{{ action('MovieController@show', $movie->movie_id) }}">
+               <i class="ft icon-movie"></i> {{ $movie->name }} ({{ date( 'Y', strtotime( $movie->release_date ) ) }})
             </a>
          </div>
-      @endforeach
-   </body>
-</html>
+      </div>
+   @endforeach
+
+@stop

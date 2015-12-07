@@ -1,0 +1,17 @@
+div.movie {background:#f3f7ff;border:1px solid #f0f0f6;border-radius:5px;padding:5px 10px;margin-bottom:5px}
+div.movie:hover {background:#f0f0ff;}
+div.movie a{display:block;text-decoration:none;color:#222}
+table { width: 750px; }
+table td { vertical-align:top; padding: 3px 10px 3px 0 }
+
+
+/*
+|----------------------------------------------------------------------
+|  Foundation 6 overwrites and additions
+|----------------------------------------------------------------------
+*/
+
+.column.no-padding, .columns.no-padding {
+   padding-left: 0.1rem;
+   padding-right: 0rem;
+}
