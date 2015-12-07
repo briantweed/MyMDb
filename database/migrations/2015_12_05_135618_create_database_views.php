@@ -13,7 +13,7 @@ class CreateDatabaseViews extends Migration
             `s`.`studio_id` AS `studio_id`,
             `f`.`format_id`,`c`.`certificate_id`,
             `m`.`movie_name` as `name`,
-            if(isnull(`m`.`movie_sort_name`),`m`.`movie_name`,`m`.`movie_sort_name`) AS `sort_name`,
+            if(`m`.`movie_sort_name`="",`m`.`movie_name`,`m`.`movie_sort_name`) AS `sort_name`,
             `m`.`movie_release_date` as `release_date`,
             `m`.`movie_my_rating` as `rating`,
             `m`.`movie_running_time` as `running_time`,
@@ -25,7 +25,7 @@ class CreateDatabaseViews extends Migration
          LEFT JOIN `certificates` `c` ON `c`.`certificate_id` = `m`.`movie_certificate_id`
          LEFT JOIN `formats` `f` ON `f`.`format_id` = `m`.`movie_format_id`
          LEFT JOIN `studios` `s` ON `s`.`studio_id` = `m`.`movie_studio_id`
-         ORDER BY if(isnull(`m`.`movie_sort_name`),`m`.`movie_name`,`m`.`movie_sort_name`)
+         ORDER BY if(`m`.`movie_sort_name`="",`m`.`movie_name`,`m`.`movie_sort_name`)
       '); // end of Movie Details
 
 
@@ -124,6 +124,7 @@ class CreateDatabaseViews extends Migration
       DB::statement('DROP VIEW `movie_categories`');
       DB::statement('DROP VIEW `movie_tags`');
       DB::statement('DROP VIEW `movie_viewings`');
+      DB::statement('DROP VIEW `movie_viewings_most_recent`');
    } // end of down
 
 } // end of class
