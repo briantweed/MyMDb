@@ -16,7 +16,10 @@ class MovieController extends Controller {
 
 	public function show( $id )
 	{
-		return Movies::ofMovie( $id )->get();
+		$movies = Movies::ofMovie( $id )->get();
+		$movie  = $movies[0];
+		$movie->released = date("jS F Y",strtotime($movie->release_date));
+		return view( 'lists.movies.show', compact( 'movie' ) );
 	}
 
 }

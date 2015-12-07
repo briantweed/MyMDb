@@ -1,28 +1,20 @@
 <html>
-    <head>
-        <title>Movies</title>
-        <style>
-         table th, table td { text-align:left; padding:3px 5px 10px; vertical-align:top }
-        </style>
-    </head>
-    <body>
-      <table>
-         <tr>
-            <th>ID</th><th>Name</th><th>Released</th><th>Length</th><th>Description</th><th>Certificate</th><th>Format</th><th>Studio</th><th>Rating</th>
-         </tr>
-         @foreach( $movies as $movie )
-         <tr>
-            <td width="20px"><a href="movies/{{ $movie->movie_id }}">{{ $movie['movie_id'] }}</a></td>
-            <td width="200px">{{ $movie->movie_name }}</td>
-            <td width="150px">{{ date( 'jS F Y', strtotime( $movie->movie_release_date ) ) }} </td>
-            <td width="100px">{{ $movie->movie_running_time }} mins</td>
-            <td width="300px">{{ $movie->movie_bio }}</td>
-            <td width="100px">{{ $movie->certificate_title }}</td>
-            <td width="100px">{{ $movie->format_type }}</td>
-            <td width="100px">{{ $movie->studio_name }}</td>
-            <td width="100px">{{ $movie->movie_my_rating }}</td>
-         </tr>
-         @endforeach
-   </table>
-    </body>
+   <head>
+      <title>Movies</title>
+      <style>
+         div.movie {background:#f6f6ff;border:1px solid #f0f0f6;border-radius:5px;padding:5px 10px;;margin:5px 0}
+         div.movie:hover {background:#f0f0ff;}
+         div.movie a{display:block;text-decoration:none;color:#222}
+      </style>
+   </head>
+   <body>
+      <h2>Movies</h2>
+      @foreach( $movies as $movie )
+         <div class="movie">
+            <a href="movies/{{ $movie->movie_id }}">
+               {{ $movie->name }} ({{ date( 'Y', strtotime( $movie->release_date ) ) }})
+            </a>
+         </div>
+      @endforeach
+   </body>
 </html>

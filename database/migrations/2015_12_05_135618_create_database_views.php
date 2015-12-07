@@ -12,15 +12,15 @@ class CreateDatabaseViews extends Migration
          SELECT `m`.`movie_id` AS `movie_id`,
             `s`.`studio_id` AS `studio_id`,
             `f`.`format_id`,`c`.`certificate_id`,
-            `m`.`movie_name`,
-            if(isnull(`m`.`movie_sort_name`),`m`.`movie_name`,`m`.`movie_sort_name`) AS `movie_sort_name`,
-            `m`.`movie_release_date`,
-            `m`.`movie_my_rating`,
-            `m`.`movie_running_time`,
-            `c`.`certificate_title`,
-            `f`.`format_type`,
-            `s`.`studio_name`,
-            `m`.`movie_bio`
+            `m`.`movie_name` as `name`,
+            if(isnull(`m`.`movie_sort_name`),`m`.`movie_name`,`m`.`movie_sort_name`) AS `sort_name`,
+            `m`.`movie_release_date` as `release_date`,
+            `m`.`movie_my_rating` as `rating`,
+            `m`.`movie_running_time` as `running_time`,
+            `c`.`certificate_title` as `certificate`,
+            `f`.`format_type` as `format`,
+            `s`.`studio_name` as `studio`,
+            `m`.`movie_bio` as `description`
          FROM `movies` `m`
          LEFT JOIN `certificates` `c` ON `c`.`certificate_id` = `m`.`movie_certificate_id`
          LEFT JOIN `formats` `f` ON `f`.`format_id` = `m`.`movie_format_id`
@@ -45,7 +45,7 @@ class CreateDatabaseViews extends Migration
          LEFT JOIN `characters` `ch` ON `c`.`cast_character_id` = `ch`.`character_id`
          ORDER BY IF(ISNULL(`m`.`movie_sort_name`), `m`.`movie_name`, `m`.`movie_sort_name`),
             `c`.`cast_order`
-      '); // endof Movie Cast
+      '); // end of Movie Cast
 
 
       // ********** Movie Crew **********
