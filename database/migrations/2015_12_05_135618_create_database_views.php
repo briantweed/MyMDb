@@ -14,6 +14,7 @@ class CreateDatabaseViews extends Migration
             `f`.`format_id`,`c`.`certificate_id`,
             `m`.`movie_name` as `name`,
             if(`m`.`movie_sort_name`="",`m`.`movie_name`,`m`.`movie_sort_name`) AS `sort_name`,
+            `m`.`movie_image_path` as `cover`,
             `m`.`movie_release_date` as `release_date`,
             `m`.`movie_my_rating` as `rating`,
             `m`.`movie_running_time` as `running_time`,
