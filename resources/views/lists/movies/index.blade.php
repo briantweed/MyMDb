@@ -3,7 +3,7 @@
 
 {{-- Page Title --}}
 @section('title')
- All Movies
+   All Movies
 @stop
 
 
@@ -15,14 +15,15 @@
 {{-- Page Content --}}
 @section('content')
 
-   @foreach( $movies as $movie )
-      <div class="row align-center">
-         <div class="movie columns small-11 medium-11 large-12">
+   <div class="row">
+      @foreach( $movies as $movie )
+         <div class="movie columns small-6 medium-3 large-2">
             <a href="{{ action('MovieController@show', $movie->movie_id) }}">
+               <img src="{{ URL::asset('images/covers/') }}/{{$movie->cover}}  " /><br/>
                <i class="ft icon-movie"></i> {{ $movie->name }} ({{ date( 'Y', strtotime( $movie->release_date ) ) }})
             </a>
          </div>
-      </div>
-   @endforeach
+      @endforeach
+   </div>
 
 @stop
