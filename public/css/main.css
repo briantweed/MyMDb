@@ -236,8 +236,10 @@
 |----------------------------------------------------------------------
 */
 
-h1 {
+h1, h2, h3, h4, h5 {
    font-family: "Philosopher";
+   margin: 10px 0 15px 0;
+   border-bottom: 1px solid #999
 }
 
 div.margin-bottom {
@@ -281,22 +283,17 @@ div.movie .row {
    margin-bottom: 0.5em
 }
 
-div.movie h1, div.movie h2, div.movie h3, div.movie h4, div.movie h5 {
-   font-family: "Philosopher";
-   margin: 0 0 20px 0;
-   border-bottom: 1px solid #999
-}
-
 div.movie p {
    margin-bottom: 20px
 }
 
 div.movie img {
-   margin-bottom: 0.7em;
+   margin-bottom: 1em;
+   box-shadow: 1px 1px 4px #555;
 }
 
 div.movie span.rating-display {
-   color: #f1e435;
+   color: #f1de35;
    font-size: 1.2em;
    margin-left: -4px;
 }

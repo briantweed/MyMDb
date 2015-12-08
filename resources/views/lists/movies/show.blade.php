@@ -6,12 +6,6 @@
    {{$name}}
 @stop
 
-
-{{-- ---Page Heading--- --}}
-@section('heading')
-   <h2>&nbsp;</h2>
-@stop
-
 @section('content')
 
    <div class="row movie">
@@ -29,14 +23,14 @@
          {{-- back button --}}
          <div class="row">
             <div class="col-xs-12">
-               <a class="btn btn-info  btn-block" href="{{ action('MovieController@index') }}"><i class="ft icon-back-arrow"></i> back</a>
+               <a class="btn btn-info btn-lg btn-block" href="{{ action('MovieController@index') }}"><i class="ft icon-back-arrow"></i> back</a>
             </div>
          </div>
 
       </div> {{-- end of left column --}}
 
       {{-- right column --}}
-      <div class="col-xs-12 col-sm-7 col-md-6">
+      <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
 
          {{-- film title --}}
          <div class="row">

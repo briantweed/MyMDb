@@ -22,7 +22,7 @@
          <div class="main-title">
             <div class="row">
                <div class="col-xs-12">
-                  @yield('heading')
+                  @yield('heading')&nbsp;
                </div>
             </div>
          </div>
