@@ -15,20 +15,22 @@
 
       <div class="container">
 
-         <div class="navigation">
+         <div class="main-navigation">
             @yield('navigation')
          </div>
 
-         <div class="row align-center">
-            <div class="col-xs-12">
-               <h2>@yield('heading')</h2>
+         <div class="main-title">
+            <div class="row">
+               <div class="col-xs-12">
+                  <h2>@yield('heading')</h2>
+               </div>
             </div>
          </div>
 
-         <div class="main">
+         <div class="main-content">
             @yield('content')
          </div>
-         
+
          <script type="text/javascript" src="js/jquery.min.js"></script>
          @yield('jquery')
 
