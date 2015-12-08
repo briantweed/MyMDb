@@ -236,10 +236,13 @@
 |----------------------------------------------------------------------
 */
 
-div.margin-bottom{ margin-bottom: 2rem }
+h1 {
+   font-family: "Philosopher";
+}
 
-table { width: 750px; }
-table td { vertical-align:top; padding: 3px 10px 3px 0 }
+div.margin-bottom {
+   margin-bottom: 2rem;
+}
 
 
 
@@ -249,7 +252,51 @@ table td { vertical-align:top; padding: 3px 10px 3px 0 }
 |----------------------------------------------------------------------
 */
 
-li.movie { }
-li.movie a { display:block;text-decoration:none;color:#202020 }
-li.movie img { margin-bottom:0.5em }
-li.movie span { display: block; font-size: 0.8em; text-align: center }
+li.movie a {
+   display:block;
+   text-decoration:none;
+   color:#202020;
+}
+
+li.movie img {
+   margin-bottom: 0.7em;
+   box-shadow: 1px 1px 4px #555;
+}
+
+li.movie span {
+   display: block;
+   font-size: 0.8em;
+   text-align: center;
+}
+
+
+
+/*
+|----------------------------------------------------------------------
+|  Movie Details Page
+|----------------------------------------------------------------------
+*/
+
+div.movie .row {
+   margin-bottom: 0.5em
+}
+
+div.movie h1, div.movie h2, div.movie h3, div.movie h4, div.movie h5 {
+   font-family: "Philosopher";
+   margin: 0 0 20px 0;
+   border-bottom: 1px solid #999
+}
+
+div.movie p {
+   margin-bottom: 20px
+}
+
+div.movie img {
+   margin-bottom: 0.7em;
+}
+
+div.movie span.rating-display {
+   color: #f1e435;
+   font-size: 1.2em;
+   margin-left: -4px;
+}

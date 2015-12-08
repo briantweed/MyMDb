@@ -9,7 +9,7 @@
 
 {{-- ---Page Heading--- --}}
 @section('heading')
-   Movies
+   <h1>Movies</h1>
 @stop
 
 
