@@ -27,6 +27,12 @@ class MovieController extends Controller {
 		return view('lists.movies.show', compact('movie'));
 	}
 
+	public function create()
+	{
+		return view('lists.movies.create');
+	}
+
+
 	private function makeRatingStars($rating) {
 		$stars = floor($rating/2);
 		$html = "";
