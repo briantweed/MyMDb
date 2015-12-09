@@ -6,9 +6,7 @@
       <meta charset="UTF-8">
       <title>@yield('title')</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.css') }}" />
-      <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/fontello.css') }}" />
-      <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/main.css') }}" />
+      <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/everything.css') }}" />
    </head>
 
    <body>
