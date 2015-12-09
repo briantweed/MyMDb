@@ -6120,12 +6120,22 @@ button.close {
 |----------------------------------------------------------------------
 */
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif; }
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 15px; }
 
-h1, h2, h3, h4, h5 {
-  font-family: "Philosopher";
+h1 {
+  font-family: "Philosopher", Arial, sans-serif;
+  font-size: 40px;
   margin: 10px 0 15px 0;
   border-bottom: 1px solid #999; }
+
+h2, h3, h4, h5 {
+  font-family: "Arimo", Arial, sans-serif;
+  margin: 10px 0 15px 0;
+  border-bottom: 1px solid #999; }
+
+hr {
+  border-top: 1px solid #999; }
 
 div.margin-bottom {
   margin-bottom: 2rem; }
@@ -6161,8 +6171,14 @@ div.movie .row {
 div.movie p {
   margin-bottom: 20px; }
 
+div.movie a {
+  text-align: left; }
+  div.movie a i {
+    margin-top: 4px;
+    margin-right: 1em; }
+
 div.movie img {
-  margin-bottom: 1em;
+  margin: 0.5em 0;
   box-shadow: 1px 1px 4px #555; }
 
 div.movie span.rating-display {

@@ -2,9 +2,9 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Cast extends Model
+class Crew extends Model
 {
-	protected $table = 'movie_cast';
+	protected $table = 'movie_crew';
 
 	public function scopeOfMovie($query,$id)
 	{

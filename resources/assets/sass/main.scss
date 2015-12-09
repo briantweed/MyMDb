@@ -2,8 +2,11 @@ $widths : 100%, 50%, 33.33333%, 25%, 20%, 16.66667%, 14.28571%, 14.28571%, 11.11
 $blocks : xs, sm, md, lg;
 $media  : 0px, 768px, 992px, 1200px;
 
-$fonts  : "Lato", Helvetica, Arial, sans-serif;
+$main-font  : "Raleway", Arial, sans-serif;
+$header-font : "Philosopher", Arial, sans-serif;
+$subheader-font : "Arimo", Arial, sans-serif;
 $image-shadow : 1px 1px 4px #555;
+$border-color : #999;
 
 /*
 |----------------------------------------------------------------------
@@ -59,13 +62,24 @@ $image-shadow : 1px 1px 4px #555;
 */
 
 body {
-  font-family: $fonts;
+  font-family: $main-font;
+  font-size: 15px;
 }
 
-h1, h2, h3, h4, h5 {
-   font-family: "Philosopher";
+h1 {
+   font-family: $header-font;
+   font-size: 40px;
    margin: 10px 0 15px 0;
-   border-bottom: 1px solid #999
+   border-bottom: 1px solid $border-color;
+}
+h2, h3, h4, h5 {
+   font-family: $subheader-font;
+   margin: 10px 0 15px 0;
+   border-bottom: 1px solid $border-color;
+}
+
+hr {
+ border-top: 1px solid $border-color;
 }
 
 div.margin-bottom {
@@ -122,8 +136,18 @@ div.movie {
       margin-bottom: 20px
    }
 
+   a {
+      text-align: left;
+
+      i {
+         margin-top: 4px;
+         margin-right: 1em;
+      }
+
+   }
+
    img {
-      margin-bottom: 1em;
+      margin: 0.5em 0;
       box-shadow: $image-shadow;
    }
 
@@ -132,7 +156,7 @@ div.movie {
       font-size: 1.2em;
       margin-left: -4px;
    }
-   
+
 }
 
 /*

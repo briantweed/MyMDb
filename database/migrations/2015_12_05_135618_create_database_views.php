@@ -37,8 +37,8 @@ class CreateDatabaseViews extends Migration
             `p`.`person_id`,
             `ch`.`character_id`,
             `m`.`movie_name`,
-            `p`.`person_forename`,
-            `p`.`person_surname`,
+            `p`.`person_forename` as `forename`,
+            `p`.`person_surname` as `surname`,
             `ch`.`character_name`
          FROM `movies` `m`
          JOIN `cast` `c` ON `m`.`movie_id` = `c`.`cast_movie_id`
@@ -55,9 +55,9 @@ class CreateDatabaseViews extends Migration
             `m`.`movie_id`,
             `p`.`person_id`,
             `m`.`movie_name`,
-            `p`.`person_forename`,
-            `p`.`person_surname`,
-            `pos`.`position_title`
+            `p`.`person_forename` as `forename`,
+            `p`.`person_surname` as `surname`,
+            `pos`.`position_title` as `position`
          FROM `movies` `m` JOIN `crew` `c` ON `m`.`movie_id` = `c`.`crew_movie_id`
          JOIN `persons` `p` ON `c`.`crew_person_id` = `p`.`person_id`
          LEFT JOIN `positions` `pos` ON `pos`.`position_id` = `c`.`crew_position_id`
@@ -73,7 +73,7 @@ class CreateDatabaseViews extends Migration
             `m`.`movie_id`,
             `g`.`genre_id`,
             `m`.`movie_name`,
-            `g`.`genre_type`
+            `g`.`genre_type` as `type`
          FROM `movies` `m`
          JOIN `categories` `c` ON `c`.`category_movie_id` = `m`.`movie_id`
          LEFT JOIN `genres` `g` ON `g`.`genre_id` = `c`.`category_genre_id`
@@ -86,7 +86,7 @@ class CreateDatabaseViews extends Migration
             `m`.`movie_id`,
             `k`.`keyword_id`,
             `m`.`movie_name`,
-            `k`.`keyword_word`
+            `k`.`keyword_word` as `word`
          FROM `movies` `m`
          JOIN `tags` `t` ON `t`.`tag_movie_id` = `m`.`movie_id`
          LEFT JOIN `keywords` `k` ON `k`.`keyword_id` = `t`.`tag_keyword_id`
@@ -98,7 +98,7 @@ class CreateDatabaseViews extends Migration
          SELECT
             `m`.`movie_id`,
             `m`.`movie_name`,
-            `v`.`viewing_date`
+            `v`.`viewing_date` as `date`
          FROM `movies` `m`
          JOIN `viewings` `v` ON `v`.`viewing_movie_id` = `m`.`movie_id`
       '); // end of Movie Viewings
@@ -108,8 +108,8 @@ class CreateDatabaseViews extends Migration
       DB::statement( 'CREATE VIEW `movie_viewings_most_recent` AS
          SELECT t1.*
          FROM movie_viewings t1
-         WHERE t1.viewing_date = (
-            SELECT MAX(t2.viewing_date) as viewing_date
+         WHERE t1.date = (
+            SELECT MAX(t2.date) as `date`
                FROM movie_viewings t2
                WHERE t2.movie_id = t1.movie_id
             )
