@@ -5822,7 +5822,7 @@ button.close {
       clear: both; }
   .xs-block-grid-8 > li {
     list-style: none;
-    width: 14.28571%; }
+    width: 12.5%; }
     .xs-block-grid-8 > li :nth-of-type(1n) {
       clear: none; }
     .xs-block-grid-8 > li :nth-of-type(8n+1) {
@@ -5908,7 +5908,7 @@ button.close {
       clear: both; }
   .sm-block-grid-8 > li {
     list-style: none;
-    width: 14.28571%; }
+    width: 12.5%; }
     .sm-block-grid-8 > li :nth-of-type(1n) {
       clear: none; }
     .sm-block-grid-8 > li :nth-of-type(8n+1) {
@@ -5994,7 +5994,7 @@ button.close {
       clear: both; }
   .md-block-grid-8 > li {
     list-style: none;
-    width: 14.28571%; }
+    width: 12.5%; }
     .md-block-grid-8 > li :nth-of-type(1n) {
       clear: none; }
     .md-block-grid-8 > li :nth-of-type(8n+1) {
@@ -6080,7 +6080,7 @@ button.close {
       clear: both; }
   .lg-block-grid-8 > li {
     list-style: none;
-    width: 14.28571%; }
+    width: 12.5%; }
     .lg-block-grid-8 > li :nth-of-type(1n) {
       clear: none; }
     .lg-block-grid-8 > li :nth-of-type(8n+1) {
@@ -6185,6 +6185,8 @@ div.movie span.rating-display {
   color: #f1de35;
   font-size: 1.2em;
   margin-left: -4px; }
+  div.movie span.rating-display i {
+    cursor: default; }
 
 /*
 |----------------------------------------------------------------------

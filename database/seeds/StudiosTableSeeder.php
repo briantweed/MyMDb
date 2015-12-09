@@ -10,7 +10,7 @@ class StudiosTableSeeder extends Seeder {
 		if( !$existing )
 		{
 			$studios = ['20th Century Fox','Canon','Columbia','Disney','Disney Marvel',
-				'Disney Pixar','Dreamworks','Lionsgate','MGM','Orion','Paramount','Summit',
+				'Disney Pixar','Dreamworks','Lionsgate','MGM','Orion','Paramount','Sony','Summit',
 				'Tri-Star','Touchstone','United Artist','Universal','Warner Brothers'];
 
 			array_map( function( $studio ) {
@@ -18,7 +18,7 @@ class StudiosTableSeeder extends Seeder {
 					'studio_name' => $studio
 				]);
 			}, $studios);
-			
+
 		} // end of if
 
 	} // end of method

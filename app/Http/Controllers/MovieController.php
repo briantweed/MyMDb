@@ -1,10 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-use App\Movies;
-use App\Cast;
-use App\Crew;
-use App\Genres;
-use App\Tags;
+use DB;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -14,26 +10,26 @@ class MovieController extends Controller {
 
 	public function index()
 	{
-		$movies = Movies::all();
-		return view( 'lists.movies.index', compact( 'movies' ) );
+		$movies = DB::table('movie_details')->paginate(48);
+		return view( 'lists.movies.index', compact('movies'));
 	}
 
-	public function show( $id )
+	public function show($id)
 	{
-		$movies = Movies::ofMovie($id)->get();
-		$movie  = $movies[0];
+		$movie = DB::table('movie_details')->where('movie_id', $id)->first();
 		$movie->released = date("jS F Y",strtotime($movie->release_date));
-		$movie->cast = Cast::ofMovie($id)->get();
-		$movie->crew = Crew::ofMovie($id)->get();
-		$movie->genres = Genres::ofMovie($id)->get();
-		$movie->tags = Tags::ofMovie($id)->get();
+		$movie->cast = DB::table('movie_cast')->where('movie_id', $id)->get();
+		$movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
+		$movie->genres = DB::table('movie_categories')->where('movie_id', $id)->get();
+		$movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
+		$movie->viewed = date("jS F Y @ H:i",strtotime(DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date')));
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
-		return view('lists.movies.show', $movie);
+		return view('lists.movies.show', compact('movie'));
 	}
 
-	private function makeRatingStars( $rating ) {
+	private function makeRatingStars($rating) {
 		$stars = floor($rating/2);
-		$html  = "";
+		$html = "";
 		for($x=0; $x<$stars; $x++) $html .= "<i class='ft icon-star'></i>";
 		if($rating%2==1) $html .= "<i class='ft icon-star-half'></i>";
 		return $html;

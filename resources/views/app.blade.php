@@ -29,7 +29,9 @@
             @yield('content')
          </div>
 
-         <script type="text/javascript" src="js/jquery.min.js"></script>
+         {!! Html::script('js/jquery.min.js') !!}
+         {!! Html::script('js/bootstrap.min.js') !!}
+
          @yield('jquery')
 
       </div>

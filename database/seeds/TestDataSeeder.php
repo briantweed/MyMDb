@@ -7,7 +7,7 @@ class TestDataSeeder extends Seeder
    public function run()
    {
 
-      // ********** Cast **********
+      //  Cast
       DB::table('cast')->truncate();
       $cast = [ ['1', '1', '1', '1'], ['1', '2', '2', '2'] ];
       array_map( function( $x ) {
@@ -20,11 +20,12 @@ class TestDataSeeder extends Seeder
       }, $cast); // end of Cast
 
 
-      // ********** Categories *********
+      //  Categories *********
       DB::table('categories')->truncate();
       $categories = [
          ['1', '13'],['1', '18'],['2', '12'],['2', '13'],['3', '16'],['3', '22'],['4', '16'],
-         ['4', '22'],['5', '16'],['5', '22'],['6', '16'],['6', '22'],['7', '1']
+         ['4', '22'],['5', '16'],['5', '22'],['6', '16'],['6', '22'],['7', '1'],['8', '1'],
+         ['9', '1'],['9', '22'],['10', '22'],['11', '1'],['11', '24'],['12', '1'],['12', '24']
       ];
       array_map( function( $category ) {
          DB::table('categories')->insert([
@@ -34,7 +35,7 @@ class TestDataSeeder extends Seeder
       }, $categories); // end of category
 
 
-      // ********** Persons **********
+      //  Persons
       DB::table('persons')->truncate();
       $persons = [
          ['Keanu', 'Reeves', '1964-09-02', '', 'Keanu Reeves, whose first name means &#034;cool breeze over the mountains&#034; in Hawaiian, was born in Beirut, Lebanon in 1964, the son of English-born Patricia Taylor, a showgirl, and American-born Samuel Nowlin Reeves, a geologist. Keanu&#039;s father was born in Hawaii, of British, Portuguese, Native Hawaiian, and Chinese ancestry.'],
@@ -53,7 +54,7 @@ class TestDataSeeder extends Seeder
       }, $persons); // end of Persons
 
 
-      // ********** Characters **********
+      //  Characters
       DB::table('characters')->truncate();
       $characters = ['Kai','Oishi'];
       array_map( function( $character ) {
@@ -63,7 +64,7 @@ class TestDataSeeder extends Seeder
       }, $characters); // end of Character
 
 
-      // ********** Crew **********
+      //  Crew
       DB::table('crew')->truncate();
       $crew = [ ['1',	'2', '1'], ['1',	'3', '3'], ['1', '4', '3'] ];
       array_map( function( $x ) {
@@ -75,9 +76,9 @@ class TestDataSeeder extends Seeder
       }, $crew); // end of Crew
 
 
-      // ********** Keywords **********
+      //  Keywords
       DB::table('keywords')->truncate();
-      $keywords = ['Aliens','Dragon','Magic'];
+      $keywords = ['Aliens','Dragon','Magic','MCU'];
       array_map( function( $keyword ) {
          DB::table('keywords')->insert([
             'keyword_word' => $keyword
@@ -85,9 +86,9 @@ class TestDataSeeder extends Seeder
       }, $keywords); // end of Keywords
 
 
-      // ********** Tags **********
+      //  Tags
       DB::table('tags')->truncate();
-      $tags = [ ['3', '1'], ['4', '1'], ['5', '1'], ['6', '1'], ['1', '2'], ['1', '3'] ];
+      $tags = [ ['3', '1'], ['4', '1'], ['5', '1'], ['6', '1'], ['1', '2'], ['1', '3'],['11', '4'] ];
       array_map( function( $tag ) {
          DB::table('tags')->insert([
             'tag_movie_id' => $tag[0],
@@ -96,11 +97,12 @@ class TestDataSeeder extends Seeder
       }, $tags); // end of Tags
 
 
-      // ********** Viewings **********
+      //  Viewings
       DB::table('viewings')->truncate();
       $viewings = [
-         ['1', '2015-12-01'], ['2', '2015-12-02'], ['3', '2015-12-04'], ['4', '2015-11-11'],
-         ['4', '2014-03-11'], ['9', '2015-11-12'], ['9', '2015-12-05'],
+         ['1', '2015-12-01 19:30:00'], ['2', '2015-12-02 18:35:00'], ['3', '2015-12-04 18:00:00'],
+         ['4', '2015-11-11 19:35:00'], ['4', '2014-03-11 20:30:00'], ['9', '2015-11-12 18:30:00'],
+         ['9', '2015-12-05 20:00:00'],
       ];
       array_map( function( $viewing ) {
          DB::table('viewings')->insert([

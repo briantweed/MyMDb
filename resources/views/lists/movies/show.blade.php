@@ -1,11 +1,13 @@
 @extends('app')
 
 
-{{-- ---Page Title--- --}}
+{{-- Page Title --}}
 @section('title')
-   {{$name}}
+   {{$movie->name}}
 @stop
 
+
+{{-- Main Body --}}
 @section('content')
 
    <div class="row movie">
@@ -15,7 +17,7 @@
          {{-- cover image --}}
          <div class="row">
             <div class="col-xs-12">
-               <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$cover}}" />
+               <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" />
             </div>
          </div>
 
@@ -61,91 +63,110 @@
 
          {{-- film title --}}
          <div class="row">
-            <div class="col-xs-12"><h1>{{$name}}<br/></h1></div>
+            <div class="col-xs-12"><h1>{{$movie->name}}<br/></h1></div>
          </div>
 
          {{-- description --}}
          <div class="row">
-            <div class="col-xs-12"><p>{{$description}}</p></div>
+            <div class="col-xs-12"><p>{{$movie->description}}</p></div>
          </div>
 
          {{-- star rating --}}
          <div class="row">
             <div class="col-xs-6 col-lg-3"><b>Rating</b></div>
-            <div class="col-xs-6 col-lg-9"><span class="rating-display">{!!$rating_display!!}</span></div>
+            <div class="col-xs-6 col-lg-9"><span data-toggle='tooltip' data-placement='right' title='{{$movie->rating}} / 10'class="rating-display">{!!$movie->rating_display!!}</span></div>
          </div>
 
          {{-- released --}}
          <div class="row">
             <div class="col-xs-6 col-lg-3"><b>Released</b></div>
-            <div class="col-xs-6 col-lg-9">{{$released}}</div>
+            <div class="col-xs-6 col-lg-9">{{$movie->released}}</div>
          </div>
 
          {{-- running time --}}
          <div class="row">
             <div class="col-xs-6 col-lg-3"><b>Running Time</b></div>
-            <div class="col-xs-6 col-lg-9">{{$running_time}} mins</div>
+            <div class="col-xs-6 col-lg-9">{{$movie->running_time}} mins</div>
          </div>
 
          {{-- certifiate --}}
          <div class="row">
             <div class="col-xs-6 col-lg-3"><b>Certificate</b></div>
-            <div class="col-xs-6 col-lg-9">{{$certificate}}</div>
+            <div class="col-xs-6 col-lg-9">{{$movie->certificate}}</div>
          </div>
 
          {{-- format --}}
          <div class="row">
             <div class="col-xs-6 col-lg-3"><b>Format</b></div>
-            <div class="col-xs-6 col-lg-9">{{$format}}</div>
+            <div class="col-xs-6 col-lg-9">{{$movie->format}}</div>
          </div>
 
          {{-- studio --}}
          <div class="row">
             <div class="col-xs-6 col-lg-3"><b>Studio</b></div>
-            <div class="col-xs-6 col-lg-9">{{$studio}}</div>
+            <div class="col-xs-6 col-lg-9">{{$movie->studio}}</div>
          </div>
 
          {{-- genres --}}
-         <div class="row">
-            <div class="col-xs-6 col-lg-3">
-               <b>Genres</b>
-            </div>
-            {{-- genre list --}}
-            <div class="col-xs-6 col-lg-9">
-               @foreach( $genres as $genre )
-                  {{$genre->type}};
-               @endforeach
-            </div>
-         </div>
+         @if(count($movie->genres) != 0)
 
-         @if(count($tags) != 0)
+            <div class="row">
+               <div class="col-xs-6 col-lg-3">
+                  <b>Genres</b>
+               </div>
+               {{-- genre list --}}
+               <div class="col-xs-6 col-lg-9">
+                  @foreach( $movie->genres as $genre )
+                     {{$genre->type}};
+                  @endforeach
+               </div>
+            </div>
 
-            {{-- genres --}}
+         @endif
+
+         {{-- tags --}}
+         @if(count($movie->tags) != 0)
+
             <div class="row">
                <div class="col-xs-6 col-lg-3">
                   <b>Tags</b>
                </div>
-               {{-- genre list --}}
+               {{-- tag list --}}
                <div class="col-xs-6 col-lg-9">
-                  @foreach( $tags as $tag )
+                  @foreach($movie->tags as $tag)
                      {{$tag->word}};
                   @endforeach
                </div>
             </div>
 
-         @endif {{-- tags --}}
+         @endif
 
-         @if(count($crew) != 0)
+         {{-- last watched --}}
+         @if($movie->viewed !== NULL)
+
+            <div class="row">
+               <div class="col-xs-6 col-lg-3">
+                  <b>Last Viewed</b>
+               </div>
+
+               <div class="col-xs-6 col-lg-9">
+                  {{$movie->viewed}};
+               </div>
+            </div>
+
+         @endif
+
+         {{-- crew --}}
+         @if(count($movie->crew) != 0)
 
             {{-- padding --}}
             <div class="row"><div class="col-xs-12">&nbsp;</div></div>
 
-            {{-- Actors Header --}}
             <div class="row">
                <div class="col-xs-12"><h3>Crew</h3></div>
             </div>
 
-            @foreach( $crew as $emp )
+            @foreach($movie->crew as $emp)
                <div class="row">
                   {{-- actor --}}
                   <div class="col-xs-6 col-lg-3">
@@ -158,19 +179,19 @@
                </div>
             @endforeach
 
-         @endif {{-- crew --}}
+         @endif
 
-         @if(count($cast) != 0)
+         {{-- cast --}}
+         @if(count($movie->cast) != 0)
 
             {{-- padding --}}
             <div class="row"><div class="col-xs-12">&nbsp;</div></div>
 
-            {{-- Actors Header --}}
             <div class="row">
                <div class="col-xs-12"><h3>Cast</h3></div>
             </div>
 
-            @foreach( $cast as $actor )
+            @foreach( $movie->cast as $actor )
                <div class="row">
                   {{-- actor --}}
                   <div class="col-xs-6 col-lg-3">
@@ -183,7 +204,7 @@
                </div>
             @endforeach
 
-         @endif {{-- cast --}}
+         @endif
 
          {{-- padding --}}
          <div class="row"><div class="col-xs-12">&nbsp;</div></div>
@@ -191,5 +212,17 @@
       </div> {{-- end of right column --}}
 
    </div> {{-- end of movie row --}}
+
+@stop
+
+
+{{-- Jquery --}}
+@section('jquery')
+
+   <script type="text/javascript" >
+      $(document).ready( function() {
+         $('[data-toggle="tooltip"]').tooltip();
+      });
+   </script>
 
 @stop

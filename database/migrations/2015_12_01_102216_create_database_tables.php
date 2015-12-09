@@ -113,7 +113,7 @@ class CreateDatabaseTables extends Migration {
 		{
 			$table->increments('viewing_id');
 			$table->integer('viewing_movie_id');
-			$table->date('viewing_date');
+			$table->datetime('viewing_date');
 		});
 
 	} //end of up
