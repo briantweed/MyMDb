@@ -6243,20 +6243,25 @@ hr {
   border-top: 1px solid #999; }
 
 div.margin-bottom {
-  margin-bottom: 2rem; }
+  margin-bottom: 1em; }
 
 div.main-title {
-  padding-top: 80px; }
+  padding-top: 60px; }
 
 .navbar-default a.navbar-brand {
   font-family: "Philosopher", Arial, sans-serif;
   color: #0a506c;
-  font-size: 27px;
-  margin-right: 25px;
-  margin-top: 3px; }
+  font-size: 1.4em;
+  margin-right: 40px;
+  margin-top: 2px; }
 
 .navbar-default a.navbar-brand:hover, .navbar-default a.navbar-brand:focus {
   color: #085878; }
+
+.row-nav {
+  margin: 8px 0 13px; }
+  .row-nav .pagination {
+    margin: 0; }
 
 /*
 |----------------------------------------------------------------------

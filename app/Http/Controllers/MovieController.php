@@ -29,7 +29,7 @@ class MovieController extends Controller {
 
 	public function create()
 	{
-		return view('lists.movies.create');
+		return view('lists.movies.create', compact('movie'));
 	}
 
 

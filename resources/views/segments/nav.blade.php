@@ -14,33 +14,29 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-      <ul class="nav navbar-nav">
-         <li>
-            <a data-toggle='tooltip' data-placement='bottom' title='Movies' href="{{ action('MovieController@index') }}">
-               <i style="font-size:2em" class="ft icon-view-movie"></i>
-               <span class="hidden-sm hidden-md hidden-lg"> - View All Movies</span>
-            </a>
-         </li>
-         <li>
-            <a data-toggle='tooltip' data-placement='bottom' title='People' href="{{ action('PersonController@index') }}">
-               <i style="font-size:2em" class="ft icon-view-user"></i>
-               <span class="hidden-sm hidden-md hidden-lg"> - View All People</span>
-            </a>
-         </li>
-         <li>
-            <a data-toggle='tooltip' data-placement='bottom' title='Characters' href="{{ action('PersonController@index') }}">
-               <i style="font-size:2em" class="ft icon-character"></i>
-               <span class="hidden-sm hidden-md hidden-lg"> - View All Characters</span>
-            </a>
-         </li>
-
-      </ul>
-
       <ul class="nav navbar-nav navbar-right">
          <li>
-            <a data-toggle='tooltip' data-placement='bottom' title='Admin' href="#">
-               <i style="font-size:2em" class="ft icon-admin"></i>
-               <span class="hidden-sm hidden-md hidden-lg"> - Admin</span>
+            <a href="{{ action('MovieController@index') }}">
+               <i style="font-size:1.5em" class="ft icon-view-movie"></i>
+               <span> Movies</span>
+            </a>
+         </li>
+         <li>
+            <a href="{{ action('PersonController@index') }}">
+               <i style="font-size:1.5em" class="ft icon-view-user"></i>
+               <span> People</span>
+            </a>
+         </li>
+         <li>
+            <a href="{{ action('PersonController@index') }}">
+               <i style="font-size:1.5em" class="ft icon-character"></i>
+               <span> Characters</span>
+            </a>
+         </li>
+         <li>
+            <a href="#">
+               <i style="font-size:1.5em" class="ft icon-admin"></i>
+               <span> Admin</span>
             </a>
          </li>
       </ul>
