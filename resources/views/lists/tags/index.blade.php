@@ -20,7 +20,7 @@
       <div class="col-xs-12">
          <ul class="xs-block-grid-4">
             @foreach($keywords as $keyword)
-               <li class="movie">
+               <li>
                   {{$keyword->keyword_id}}) {{$keyword->keyword_word}}
                </li>
             @endforeach

@@ -14,5 +14,6 @@ Route::group(['prefix'=>'lists'], function() {
 	Route::resource('keywords', 'KeywordController', ['only'=>['index','show']]);
 	Route::resource('genres', 'GenreController', ['only'=>['index','show']]);
 	Route::resource('studios', 'StudioController', ['only'=>['index','show']]);
+	Route::resource('viewings', 'ViewingController', ['only'=>['index','show']]);
 
 });

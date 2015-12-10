@@ -11,6 +11,10 @@ class PersonController extends Controller {
 	public function index()
 	{
 		$people = Persons::all();
+		foreach($people as $person)
+		{
+			$person->birthday = date("jS F Y",strtotime($person->person_birthday));
+		}
 		return view( 'lists.people.index', compact('people'));
 	}
 

@@ -9,7 +9,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><i class="ft icon-movie"></i>MyDB</a>
+      <a class="navbar-brand" data-toggle='tooltip' data-placement='bottom' title='Home' href="{{ action('MovieController@index') }}"><i class="ft icon-movie"></i>MyDB</a>
    </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -52,7 +52,7 @@
             </a>
          </li>
          <li>
-            <a data-toggle='tooltip' data-placement='bottom' title='Viewings' href="{{ action('StudioController@index') }}">
+            <a data-toggle='tooltip' data-placement='bottom' title='Viewings' href="{{ action('ViewingController@index') }}">
                <i style="font-size:2em" class="ft icon-viewed"></i>
                <span class="hidden-sm hidden-md hidden-lg"> - All Viewings</span>
             </a>

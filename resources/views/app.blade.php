@@ -22,9 +22,7 @@
             </div>
          </div>
 
-         <div class="main-navigation">
-            @include('segments.nav')
-         </div>
+         @include('segments.nav')
 
          <div class="main-content">
             @yield('content')

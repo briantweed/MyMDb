@@ -6271,7 +6271,8 @@ div.main-title {
   font-family: "Philosopher", Arial, sans-serif;
   color: #0a506c;
   font-size: 27px;
-  margin-right: 25px; }
+  margin-right: 25px;
+  margin-top: 3px; }
 
 .navbar-default a.navbar-brand:hover, .navbar-default a.navbar-brand:focus {
   color: #085878; }

@@ -3,13 +3,13 @@
 
 {{-- Page Title --}}
 @section('title')
-   All Genres
+   Viewing Times
 @stop
 
 
 {{-- Page Heading --}}
 @section('heading')
-   <h1>Genres</h1>
+   <h1>Viewing Times</h1>
 @stop
 
 
@@ -18,10 +18,10 @@
 
    <div class="row">
       <div class="col-xs-12">
-         <ul class="xs-block-grid-4">
-            @foreach($genres as $genre)
+         <ul class="xs-block-grid-1">
+            @foreach($viewings as $viewing)
                <li>
-                  {{$genre->genre_id}}) {{$genre->genre_type}}
+                  {{$viewing->movie_name}} : {{$viewing->viewed}}
                </li>
             @endforeach
          </ul>

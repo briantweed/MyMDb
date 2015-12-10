@@ -20,8 +20,8 @@
       <div class="col-xs-12">
          <ul class="xs-block-grid-1">
             @foreach($people as $person)
-               <li class="movie">
-                  {{$person->person_forename}}) {{$person->person_surname}}
+               <li>
+                  {{$person->person_forename}} {{$person->person_surname}}
                </li>
             @endforeach
          </ul>
