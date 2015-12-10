@@ -33,30 +33,7 @@
                <span class="hidden-sm hidden-md hidden-lg"> - View All Characters</span>
             </a>
          </li>
-         <li>
-            <a data-toggle='tooltip' data-placement='bottom' title='Tags' href="{{ action('KeywordController@index') }}">
-               <i style="font-size:2em" class="ft icon-popcorn"></i>
-               <span class="hidden-sm hidden-md hidden-lg"> - View All Tags</span>
-            </a>
-         </li>
-         <li>
-            <a data-toggle='tooltip' data-placement='bottom' title='Genres' href="{{ action('GenreController@index') }}">
-               <i style="font-size:2em" class="ft icon-genre"></i>
-               <span class="hidden-sm hidden-md hidden-lg"> - View All Genres</span>
-            </a>
-         </li>
-         <li>
-            <a data-toggle='tooltip' data-placement='bottom' title='Studios' href="{{ action('StudioController@index') }}">
-               <i style="font-size:2em" class="ft icon-studio"></i>
-               <span class="hidden-sm hidden-md hidden-lg"> - View All Studios</span>
-            </a>
-         </li>
-         <li>
-            <a data-toggle='tooltip' data-placement='bottom' title='Viewings' href="{{ action('ViewingController@index') }}">
-               <i style="font-size:2em" class="ft icon-viewed"></i>
-               <span class="hidden-sm hidden-md hidden-lg"> - All Viewings</span>
-            </a>
-         </li>
+
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
