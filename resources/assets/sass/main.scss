@@ -7,6 +7,7 @@ $header-font : "Philosopher", Arial, sans-serif;
 $subheader-font : "Arimo", Arial, sans-serif;
 $image-shadow : 1px 1px 4px #555;
 $border-color : #999;
+$transition: all 0.3s;
 
 /*
 |----------------------------------------------------------------------
@@ -36,12 +37,45 @@ $border-color : #999;
 }
 
 
+@mixin button-outline-variant($color) {
+
+   color: $color;
+   background-image: none;
+   background-color: transparent;
+   border-color: $color;
+   transition: $transition;
+
+   &:focus, &.focus, &:active, &.active, .open > &.dropdown-toggle {
+      color: #fff;
+      background-color: $color;
+      border-color: $color;
+   }
+
+   &:hover {
+      color: #fff;
+      background-color: $color;
+      border-color: $color;
+      transition: $transition;
+      }
+
+   &.disabled, &:disabled {
+      &:focus, &.focus {
+         border-color: lighten($color, 20%);
+      }
+
+      &:hover {
+         border-color: lighten($color, 20%);
+      }
+   }
+
+}
 
 
 @mixin column-width($num) {
    list-style: none;
    width: nth($widths, $num);
 }
+
 
 @for $x from 1 through 4 {
    @media( min-width: #{nth($media, $x)} ) {
@@ -53,6 +87,33 @@ $border-color : #999;
          }
       }
    }
+}
+
+/*
+|----------------------------------------------------------------------
+|  Bootstrap 4 Button Outline
+|----------------------------------------------------------------------
+*/
+$brand-primary: #0275d8;
+$brand-success: #5cb85c;
+$brand-info: #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+
+.btn-primary-outline {
+   @include button-outline-variant($brand-primary);
+}
+.btn-info-outline {
+   @include button-outline-variant($brand-info);
+}
+.btn-success-outline {
+   @include button-outline-variant($brand-success);
+}
+.btn-warning-outline {
+   @include button-outline-variant($brand-warning);
+}
+.btn-danger-outline {
+   @include button-outline-variant($brand-danger);
 }
 
 /*
