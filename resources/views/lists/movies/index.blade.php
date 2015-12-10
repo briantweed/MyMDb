@@ -15,7 +15,19 @@
 
 {{-- Main Body --}}
 @section('content')
-
+   <div class="row row-nav">
+      <div class="col-xs-12 col-lg-8">
+        {!! $movies->render() !!}
+      </div>
+      <div class="col-xs-12 col-lg-4">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search...">
+            <span class="input-group-btn">
+               <button class="btn btn-info" type="button">Go</button>
+            </span>
+        </div>
+      </div>
+   </div>
    <div class="row">
       <div class="col-xs-12">
          <ul class="xs-block-grid-3 sm-block-grid-6 md-block-grid-8 lg-block-grid-8">
