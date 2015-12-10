@@ -6,6 +6,7 @@
    All Movies
 @stop
 
+
 {{-- Page Heading --}}
 @section('heading')
    <h1>Movies</h1>

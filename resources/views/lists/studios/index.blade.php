@@ -3,13 +3,13 @@
 
 {{-- Page Title --}}
 @section('title')
-   All People
+   All Studios
 @stop
 
 
 {{-- Page Heading --}}
 @section('heading')
-   <h1>People</h1>
+   <h1>Studios</h1>
 @stop
 
 
@@ -18,14 +18,16 @@
 
    <div class="row">
       <div class="col-xs-12">
-         <ul class="xs-block-grid-1">
-            @foreach($people as $person)
+         <ul class="xs-block-grid-4">
+            @foreach($studios as $studio)
                <li class="movie">
-                  {{$person->person_forename}}) {{$person->person_surname}}
+                  {{$studio->studio_id}}) {{$studio->studio_name}}
                </li>
             @endforeach
          </ul>
       </div>
    </div>
+
+
 
 @stop

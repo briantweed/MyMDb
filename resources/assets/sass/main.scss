@@ -89,11 +89,13 @@ $transition: all 0.3s;
    }
 }
 
+
 /*
 |----------------------------------------------------------------------
 |  Bootstrap 4 Button Outline
 |----------------------------------------------------------------------
 */
+
 $brand-primary: #0275d8;
 $brand-success: #5cb85c;
 $brand-info: #5bc0de;
@@ -147,7 +149,20 @@ div.margin-bottom {
    margin-bottom: 2rem;
 }
 
+div.main-title {
+   padding-top: 80px
+}
 
+.navbar-default a.navbar-brand {
+   font-family: $header-font;
+   color: #0a506c;
+   font-size: 27px;
+   margin-right: 25px;
+}
+
+.navbar-default a.navbar-brand:hover, .navbar-default a.navbar-brand:focus {
+   color: #085878;
+}
 
 /*
 |----------------------------------------------------------------------

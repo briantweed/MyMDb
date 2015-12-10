@@ -1,22 +1,22 @@
 <?php namespace App\Http\Controllers;
 
-use App\Persons;
+use App\Genres;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class PersonController extends Controller {
+class GenreController extends Controller {
 
 	public function index()
 	{
-		$people = Persons::all();
-		return view( 'lists.people.index', compact('people'));
+		$genres = Genres::all();
+		return view( 'lists.genres.index', compact('genres'));
 	}
 
 	public function show($id)
 	{
 		return $this->index();
 	}
-
+	
 }

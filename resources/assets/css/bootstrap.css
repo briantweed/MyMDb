@@ -6245,6 +6245,18 @@ hr {
 div.margin-bottom {
   margin-bottom: 2rem; }
 
+div.main-title {
+  padding-top: 80px; }
+
+.navbar-default a.navbar-brand {
+  font-family: "Philosopher", Arial, sans-serif;
+  color: #0a506c;
+  font-size: 27px;
+  margin-right: 25px; }
+
+.navbar-default a.navbar-brand:hover, .navbar-default a.navbar-brand:focus {
+  color: #085878; }
+
 /*
 |----------------------------------------------------------------------
 |  Movies Index Page

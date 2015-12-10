@@ -13,9 +13,6 @@
 
       <div class="container">
 
-         <div class="main-navigation">
-            @yield('navigation')
-         </div>
 
          <div class="main-title">
             <div class="row">
@@ -25,12 +22,23 @@
             </div>
          </div>
 
+         <div class="main-navigation">
+            @include('segments.nav')
+         </div>
+
          <div class="main-content">
             @yield('content')
          </div>
 
          {!! Html::script('js/jquery.min.js') !!}
          {!! Html::script('js/bootstrap.min.js') !!}
+         <script type="text/javascript" >
+            $(document).ready( function() {
+               $('[data-toggle="tooltip"]').tooltip({
+                  delay: { "show": 500, "hide": 100 }
+               });
+            });
+         </script>
 
          @yield('jquery')
 

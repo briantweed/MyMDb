@@ -1,17 +1,17 @@
 <?php namespace App\Http\Controllers;
 
-use App\Persons;
+use App\Studios;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class PersonController extends Controller {
+class StudioController extends Controller {
 
 	public function index()
 	{
-		$people = Persons::all();
-		return view( 'lists.people.index', compact('people'));
+		$studios = Studios::all();
+		return view( 'lists.studios.index', compact('studios'));
 	}
 
 	public function show($id)

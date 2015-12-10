@@ -1,17 +1,17 @@
 <?php namespace App\Http\Controllers;
 
-use App\Persons;
+use App\Keywords;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class PersonController extends Controller {
+class KeywordController extends Controller {
 
 	public function index()
 	{
-		$people = Persons::all();
-		return view( 'lists.people.index', compact('people'));
+		$keywords = Keywords::all();
+		return view( 'lists.keywords.index', compact('keywords'));
 	}
 
 	public function show($id)
