@@ -28,7 +28,7 @@
             </a>
          </li>
          <li>
-            <a href="{{ action('PersonController@index') }}">
+            <a href="{{ action('CharacterController@index') }}">
                <i style="font-size:1.5em" class="ft icon-character"></i>
                <span> Characters</span>
             </a>
