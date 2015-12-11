@@ -28,7 +28,7 @@
                <span> People</span>
             </a>
          </li>
-         <li class="{{Request::path() == 'lists/characters' ? 'characters-active' : 'character-normal'}}">
+         <li class="{{Request::path() == 'lists/characters' ? 'character-active' : 'character-normal'}}">
             <a href="{{ action('CharacterController@index') }}">
                <i style="font-size:1.5em" class="ft icon-character"></i>
                <span> Characters</span>
