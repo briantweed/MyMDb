@@ -10,6 +10,12 @@
 {{-- Main Body --}}
 @section('content')
 
+   @if (session('status'))
+       <div class="alert alert-success">
+           {{ session('status') }}
+       </div>
+   @endif
+
    <div class="row movie">
 
       {{-- left column --}}

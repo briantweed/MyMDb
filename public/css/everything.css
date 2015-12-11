@@ -6264,8 +6264,8 @@ hr {
 div.margin-bottom {
   margin-bottom: 1em; }
 
-div.main-title {
-  padding-top: 60px; }
+.navbar {
+  min-height: 56px; }
 
 .navbar-default a.navbar-brand {
   font-family: "Philosopher", Arial, sans-serif;
@@ -6274,13 +6274,57 @@ div.main-title {
   margin-right: 40px;
   margin-top: 2px; }
 
-.navbar-default a.navbar-brand:hover, .navbar-default a.navbar-brand:focus {
+.navbar-default:hover, .navbar-default:focus {
   color: #085878; }
 
-.row-nav {
-  margin: 8px 0 13px; }
-  .row-nav .pagination {
-    margin: 0; }
+.navbar-default li.padding-li {
+  height: 51px; }
+
+.navbar-default li.movies-active a i {
+  color: #d1a70f; }
+  .navbar-default li.movies-active a i:hover {
+    color: #d1a70f; }
+
+.navbar-default li.movies-normal a:hover i {
+  color: #d1a70f; }
+
+.navbar-default li.people-active a i {
+  color: #009926; }
+  .navbar-default li.people-active a i:hover {
+    color: #009926; }
+
+.navbar-default li.people-normal a:hover i {
+  color: #009926; }
+
+.navbar-default li.character-active a i {
+  color: #F13224; }
+  .navbar-default li.character-active a i:hover {
+    color: #F13224; }
+
+.navbar-default li.character-normal a:hover i {
+  color: #F13224; }
+
+.navbar-default li.admin-active a i {
+  color: #356DE3; }
+  .navbar-default li.admin-active a i:hover {
+    color: #356DE3; }
+
+.navbar-default li.admin-normal a:hover i {
+  color: #356DE3; }
+
+div.search-bar-container {
+  background: #e8e8ef;
+  position: fixed;
+  z-index: 1050;
+  width: 100%;
+  top: 56px;
+  padding: 8px 0; }
+
+div.main-content {
+  margin-top: 120px; }
+
+.pagination {
+  margin: 0; }
 
 /*
 |----------------------------------------------------------------------

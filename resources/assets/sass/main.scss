@@ -102,6 +102,11 @@ $brand-info: #5bc0de;
 $brand-warning: #f0ad4e;
 $brand-danger: #d9534f;
 
+$movie-link: #d1a70f;
+$people-link: #009926;
+$character-link: #F13224;
+$admin-link: #356DE3;
+
 .btn-primary-outline {
    @include button-outline-variant($brand-primary);
 }
@@ -149,28 +154,83 @@ div.margin-bottom {
    margin-bottom: 1em;
 }
 
-div.main-title {
-   padding-top: 60px
+.navbar {
+   min-height: 56px;
 }
 
-.navbar-default a.navbar-brand {
-   font-family: $header-font;
-   color: #0a506c;
-   font-size: 1.4em;
-   margin-right: 40px;
-   margin-top: 2px;
-}
+.navbar-default {
 
-.navbar-default a.navbar-brand:hover, .navbar-default a.navbar-brand:focus {
-   color: #085878;
-}
-
-.row-nav {
-   margin: 8px 0 13px;
-   .pagination {
-      margin: 0;
+   a.navbar-brand {
+      font-family: $header-font;
+      color: #0a506c;
+      font-size: 1.4em;
+      margin-right: 40px;
+      margin-top: 2px;
    }
+
+   &:hover, &:focus {
+      color: #085878;
+   }
+
+   li{
+
+      &.padding-li {
+         height:51px;
+      }
+
+      &.movies {
+         &-active a i {
+            color: $movie-link;
+            &:hover { color: $movie-link; }
+         }
+         &-normal a:hover i { color: $movie-link; }
+      }
+
+      &.people {
+         &-active a i {
+            color: $people-link;
+            &:hover { color: $people-link; }
+         }
+         &-normal a:hover i { color: $people-link; }
+      }
+
+      &.character {
+         &-active a i {
+            color: $character-link;
+            &:hover { color: $character-link; }
+         }
+         &-normal a:hover i { color: $character-link; }
+      }
+      
+      &.admin {
+         &-active a i {
+            color: $admin-link;
+            &:hover { color: $admin-link; }
+         }
+         &-normal a:hover i { color: $admin-link; }
+      }
+
+   }
+
 }
+
+div.search-bar-container {
+   background: #e8e8ef;
+   position: fixed;
+   z-index: 1050;
+   width: 100%;
+   top: 56px;
+   padding: 8px 0;
+}
+
+div.main-content {
+   margin-top: 120px;
+}
+
+.pagination {
+   margin: 0;
+}
+
 
 /*
 |----------------------------------------------------------------------

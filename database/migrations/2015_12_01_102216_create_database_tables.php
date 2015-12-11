@@ -75,8 +75,9 @@ class CreateDatabaseTables extends Migration {
 			$table->integer('movie_certificate_id');
 			$table->integer('movie_format_id');
 			$table->integer('movie_studio_id');
-			$table->timestamp('movie_added_on');
 			$table->text('movie_bio');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('persons', function(Blueprint $table)
@@ -87,6 +88,8 @@ class CreateDatabaseTables extends Migration {
 			$table->date('person_birthday');
 			$table->string('person_image_path');
 			$table->text('person_bio');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('positions', function(Blueprint $table)

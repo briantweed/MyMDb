@@ -11,17 +11,8 @@
 
    <body>
 
+      @include('segments.nav')
       <div class="container">
-
-         <div class="main-title">
-            <div class="row">
-               <div class="col-xs-12">
-                  @yield('heading')
-               </div>
-            </div>
-         </div>
-
-         @include('segments.nav')
 
          <div class="main-content">
             @yield('content')
@@ -39,7 +30,7 @@
          </script>
 
          @yield('jquery')
-         
+
       </div>
 
    </body>

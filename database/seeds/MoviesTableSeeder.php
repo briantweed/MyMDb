@@ -38,7 +38,8 @@ class MoviesTableSeeder extends Seeder {
 					'movie_format_id' => $movie[7],
 					'movie_studio_id' => $movie[8],
 					'movie_bio' => $movie[9],
-					'movie_added_on' => $now
+					'created_at' => $now,
+					'updated_at' => $now
 				]);
 			}, $movies);
 

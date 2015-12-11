@@ -7,12 +7,6 @@
 @stop
 
 
-{{-- Page Heading --}}
-@section('heading')
-   <h1>Keywords</h1>
-@stop
-
-
 {{-- Main Body --}}
 @section('content')
 

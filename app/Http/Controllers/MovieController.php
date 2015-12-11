@@ -1,17 +1,23 @@
 <?php namespace App\Http\Controllers;
 
 use DB;
+use App\Movies;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
-use Illuminate\Http\Request;
+use Request;
 
 class MovieController extends Controller {
 
 	public function index()
 	{
 		$movies = DB::table('movie_details')->paginate(48);
+		foreach($movies as $movie)
+		{
+			$movie->cover = $movie->cover != "" ? $movie->cover :  substr($movie->sort_name,0,1);
+			$movie->cover_count = strlen($movie->cover);
+		}
 		return view( 'lists.movies.index', compact('movies'));
+		// return $movies;
 	}
 
 	public function show($id)
@@ -29,9 +35,20 @@ class MovieController extends Controller {
 
 	public function create()
 	{
-		return view('lists.movies.create', compact('movie'));
+		$certificates = DB::table('certificates')->lists('certificate_title','certificate_id');
+		$studios = DB::table('studios')->lists('studio_name','studio_id');
+		$formats = DB::table('formats')->lists('format_type','format_id');
+		return view('lists.movies.create', compact('certificates','studios','formats'));
 	}
 
+	public function store()
+	{
+		$post_data = Request::all();
+		$update = Movies::create($post_data);
+		$inserted_id = $update->id;
+		return redirect()->action('MovieController@show', [$inserted_id])
+							  ->with('status', 'Movie Added SUccessfully');
+	}
 
 	private function makeRatingStars($rating) {
 		$stars = floor($rating/2);

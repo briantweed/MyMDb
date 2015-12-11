@@ -3,14 +3,14 @@
 
 {{-- Page Title --}}
 @section('title')
-   {{-- {{$movie->name}} --}}
+   Add New Movie
 @stop
 
 
 {{-- Main Body --}}
 @section('content')
 
-   {!! Form::open() !!}
+   {!! Form::open(['url'=>'lists/movies']) !!}
    <div class="row movie">
 
       {{-- left column --}}
@@ -18,7 +18,7 @@
          {{-- cover image --}}
          <div class="row">
             <div class="col-xs-12">
-               <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/336699?text=add+image">
+               <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=add+image">
             </div>
          </div>
 
@@ -28,29 +28,6 @@
          <div class="row">
             <div class="col-xs-12">
                <a class="btn btn-info btn-lg btn-block" href="{{ action('MovieController@index') }}"><i class="ft icon-back-arrow"></i> back</a>
-            </div>
-         </div>
-
-         {{-- edit button --}}
-         <div class="row">
-            <div class="col-xs-12">
-               <a class="btn btn-success btn-lg btn-block" href="javascript:void(0);"><i class="ft icon-edit"></i> edit</a>
-            </div>
-         </div>
-
-         {{-- view button --}}
-         <div class="row">
-            <div class="col-xs-12">
-               <a class="btn btn-warning btn-lg btn-block" href="javascript:void(0);"><i class="ft icon-view"></i> watching</a>
-            </div>
-         </div>
-
-         <hr/>
-
-         {{-- delete button --}}
-         <div class="row">
-            <div class="col-xs-12">
-               <a class="btn btn-danger btn-lg btn-block" href="javascript:void(0);"><i class="ft icon-delete"></i> delete</a>
             </div>
          </div>
 
@@ -64,130 +41,69 @@
 
          {{-- film title --}}
          <div class="row">
-            <div class="col-xs-12"><h1>...<br/></h1></div>
+            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('movie_name', 'Title') !!}</b></div>
+            <div class="col-xs-6 col-lg-9">{!! Form::text('movie_name','',['class'=>'form-control']) !!}</div>
          </div>
+
+
+         {{-- sprt title --}}
+         <div class="row">
+            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('movie_sort_name', 'Sort Name') !!}</b></div>
+            <div class="col-xs-6 col-lg-9">{!! Form::text('movie_sort_name','',['class'=>'form-control']) !!}</div>
+         </div>
+
 
          {{-- description --}}
          <div class="row">
-            <div class="col-xs-12"><p>...</p></div>
+            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('movie_bio', 'Description') !!}</b></div>
+            <div class="col-xs-6 col-lg-9">{!! Form::textarea('movie_bio','',['class'=>'form-control']); !!}</div>
          </div>
+
 
          {{-- star rating --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('rating', 'Rating') !!}</b></div>
-            <div class="col-xs-6 col-lg-9">{!! Form::selectRange('number', 1, 10,'',['class'=>'form-control']); !!}</div>
+            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('movie_my_rating', 'Rating') !!}</b></div>
+            <div class="col-xs-6 col-lg-9">{!! Form::selectRange('movie_my_rating', 1, 10,'',['class'=>'form-control']); !!}</div>
          </div>
 
          {{-- released --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('released', 'Released') !!}</b></div>
-            <div class="col-xs-6 col-lg-9">{!! Form::text('released','',['class'=>'form-control']) !!}</div>
+            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('movie_release_date', 'Released') !!}</b></div>
+            <div class="col-xs-6 col-lg-9">{!! Form::text('movie_release_date','',['class'=>'form-control']) !!}</div>
          </div>
 
          {{-- running time --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('running_time', 'Running Time') !!}</b></div>
-            <div class="col-xs-6 col-lg-9">{!! Form::text('running_time','',['class'=>'form-control']) !!}</div>
+            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('movie_running_time', 'Running Time') !!}</b></div>
+            <div class="col-xs-6 col-lg-9">{!! Form::text('movie_running_time','',['class'=>'form-control']) !!}</div>
          </div>
 
          {{-- certifiate --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('certificate', 'Certificate') !!}</b></div>
-            <div class="col-xs-6 col-lg-9">{!! Form::text('certificate','',['class'=>'form-control']) !!}</div>
+            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('movie_certificate_id', 'Certificate') !!}</b></div>
+            <div class="col-xs-6 col-lg-9">{!! Form::select('movie_certificate_id', $certificates, '', ['class'=>'form-control']) !!}</div>
          </div>
 
          {{-- format --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('format', 'Format') !!}</b></div>
-            <div class="col-xs-6 col-lg-9">{!! Form::text('format','',['class'=>'form-control']) !!}</div>
+            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('movie_format_id', 'Format') !!}</b></div>
+            <div class="col-xs-6 col-lg-9">{!! Form::select('movie_format_id', $formats, '', ['class'=>'form-control']) !!}</div>
          </div>
 
          {{-- studio --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('studio', 'Studio') !!}</b></div>
-            <div class="col-xs-6 col-lg-9">{!! Form::select('studio', array('L' => 'Large', 'S' => 'Small'),'S',['class'=>'form-control'] ) !!}</div>
+            <div class="col-xs-6 col-lg-3"><b>{!! Form::label('movie_studio_id', 'Studio') !!}</b></div>
+            <div class="col-xs-6 col-lg-9">{!! Form::select('movie_studio_id', $studios, '', ['class'=>'form-control']) !!}</div>
          </div>
 
-         {{-- genres --}}
+         {{-- padding --}}
+         <div class="row"><div class="col-xs-12">&nbsp;</div></div>
 
-            <div class="row">
-               <div class="col-xs-6 col-lg-3">
-                  <b>{!! Form::label('genre', 'Genres') !!}</b>
-               </div>
-               {{-- genre list --}}
-               <div class="col-xs-6 col-lg-9">
-                  {!! Form::select('genre', array('L' => 'Large', 'S' => 'Small'),'S',['class'=>'form-control'] ) !!}
-               </div>
+         <div class="row">
+            <div class="col-xs-6 col-lg-offset-9 col-lg-3">
+               {!! Form::submit('save', ['class' => 'btn btn-primary form-control']) !!}
             </div>
-
-
-         {{-- tags --}}
-
-            <div class="row">
-               <div class="col-xs-6 col-lg-3">
-                  <b>{!! Form::label('tags', 'Tags') !!}</b>
-               </div>
-               {{-- tag list --}}
-               <div class="col-xs-6 col-lg-9">
-                  {!! Form::select('tags', array('L' => 'Large', 'S' => 'Small'),'L',['class'=>'form-control'] ) !!}
-               </div>
-            </div>
-
-
-         {{-- last watched --}}
-
-            <div class="row">
-               <div class="col-xs-6 col-lg-3">
-                  <b>{!! Form::label('viewed', 'Last Viewed') !!}</b>
-               </div>
-
-               <div class="col-xs-6 col-lg-9">
-                  {!! Form::text('viewed','',['class'=>'form-control']) !!}
-               </div>
-            </div>
-
-
-         {{-- crew --}}
-
-            {{-- padding --}}
-            <div class="row"><div class="col-xs-12">&nbsp;</div></div>
-
-            <div class="row">
-               <div class="col-xs-12"><h3>Crew</h3></div>
-            </div>
-
-               <div class="row">
-                  {{-- actor --}}
-                  <div class="col-xs-6 col-lg-3">
-                     ...
-                  </div>
-                  {{-- character --}}
-                  <div class="col-xs-6 col-lg-9">
-                     ...
-                  </div>
-               </div>
-
-
-         {{-- cast --}}
-
-            {{-- padding --}}
-            <div class="row"><div class="col-xs-12">&nbsp;</div></div>
-
-            <div class="row">
-               <div class="col-xs-12"><h3>Cast</h3></div>
-            </div>
-
-               <div class="row">
-                  {{-- actor --}}
-                  <div class="col-xs-6 col-lg-3">
-                     ...
-                  </div>
-                  {{-- character --}}
-                  <div class="col-xs-6 col-lg-9">
-                     <em>...</em>
-                  </div>
-               </div>
-
+         </div>
 
          {{-- padding --}}
          <div class="row"><div class="col-xs-12">&nbsp;</div></div>

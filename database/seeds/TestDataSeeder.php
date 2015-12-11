@@ -8,7 +8,7 @@ class TestDataSeeder extends Seeder
    {
 
       //  Cast
-      DB::table('cast')->truncate();
+      if( DB::table('cast')->count() ) DB::table('cast')->truncate();
       $cast = [ ['1', '1', '1', '1'], ['1', '2', '2', '2'] ];
       array_map( function( $x ) {
          DB::table('cast')->insert([
@@ -21,7 +21,7 @@ class TestDataSeeder extends Seeder
 
 
       //  Categories *********
-      DB::table('categories')->truncate();
+      if( DB::table('categories')->count() ) DB::table('categories')->truncate();
       $categories = [
          ['1', '13'],['1', '18'],['2', '12'],['2', '13'],['3', '16'],['3', '22'],['4', '16'],
          ['4', '22'],['5', '16'],['5', '22'],['6', '16'],['6', '22'],['7', '1'],['8', '1'],
@@ -36,7 +36,7 @@ class TestDataSeeder extends Seeder
 
 
       //  Persons
-      DB::table('persons')->truncate();
+      if( DB::table('persons')->count() ) DB::table('persons')->truncate();
       $persons = [
          ['Keanu', 'Reeves', '1964-09-02', '', 'Keanu Reeves, whose first name means &#034;cool breeze over the mountains&#034; in Hawaiian, was born in Beirut, Lebanon in 1964, the son of English-born Patricia Taylor, a showgirl, and American-born Samuel Nowlin Reeves, a geologist. Keanu&#039;s father was born in Hawaii, of British, Portuguese, Native Hawaiian, and Chinese ancestry.'],
          ['Carl', 'Rinsch', '', '', ''],
@@ -55,7 +55,7 @@ class TestDataSeeder extends Seeder
 
 
       //  Characters
-      DB::table('characters')->truncate();
+      if( DB::table('characters')->count() ) DB::table('characters')->truncate();
       $characters = ['Kai','Oishi'];
       array_map( function( $character ) {
          DB::table('characters')->insert([
@@ -65,7 +65,7 @@ class TestDataSeeder extends Seeder
 
 
       //  Crew
-      DB::table('crew')->truncate();
+      if( DB::table('crew')->count() ) DB::table('crew')->truncate();
       $crew = [ ['1',	'2', '1'], ['1',	'3', '3'], ['1', '4', '3'] ];
       array_map( function( $x ) {
          DB::table('crew')->insert([
@@ -77,7 +77,7 @@ class TestDataSeeder extends Seeder
 
 
       //  Keywords
-      DB::table('keywords')->truncate();
+      if( DB::table('keywords')->count() ) DB::table('keywords')->truncate();
       $keywords = ['Aliens','Dragon','Magic','MCU'];
       array_map( function( $keyword ) {
          DB::table('keywords')->insert([
@@ -87,7 +87,7 @@ class TestDataSeeder extends Seeder
 
 
       //  Tags
-      DB::table('tags')->truncate();
+      if( DB::table('tags')->count() ) DB::table('tags')->truncate();
       $tags = [ ['3', '1'], ['4', '1'], ['5', '1'], ['6', '1'], ['1', '2'], ['1', '3'],['11', '4'] ];
       array_map( function( $tag ) {
          DB::table('tags')->insert([
@@ -98,7 +98,7 @@ class TestDataSeeder extends Seeder
 
 
       //  Viewings
-      DB::table('viewings')->truncate();
+      if( DB::table('viewings')->count() ) DB::table('viewings')->truncate();
       $viewings = [
          ['1', '2015-12-01 19:30:00'], ['2', '2015-12-02 18:35:00'], ['3', '2015-12-04 18:00:00'],
          ['4', '2015-11-11 19:35:00'], ['4', '2014-03-11 20:30:00'], ['9', '2015-11-12 18:30:00'],
