@@ -18,7 +18,7 @@
 
 {{-- input --}}
 @section('input')
-   {!! Form::textarea($field,'',['class'=>'form-control']) !!}
+   {!! Form::select($field, array('' => 'select ...') + $options, $value, ['class'=>'form-control']) !!}
 @overwrite
 
 @include('segments.forms.row')

@@ -19,7 +19,7 @@
 {{-- Main Body --}}
 @section('content')
 
-   {!! Form::open(['url'=>'lists/movies','files' => true]) !!}
+   {!! Form::model($movie, ['method'=>'Patch','url'=>'lists/movies/'.$movie->movie_id,'files' => true]) !!}
       @include('segments.forms.movie.form')
    {!! Form::close() !!}
 

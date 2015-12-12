@@ -40,7 +40,7 @@ class MovieController extends Controller {
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
 		$studios = DB::table('studios')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
-		return view('lists.movies.create', compact('fields','certificates', 'studios', 'formats'));
+		return view('lists.movies.create', compact('fields', 'certificates', 'studios', 'formats'));
 	}
 
 	public function store(ValidateCreateMovie $request)
@@ -51,6 +51,24 @@ class MovieController extends Controller {
 		return redirect()->action('MovieController@show', [$inserted_id])
 							  ->with('status', 'Movie Added Successfully');
 	}
+
+	public function edit($id)
+	{
+		$movie = DB::table('movies')->where('movie_id', $id)->first();
+		$movie->cover = $movie->movie_image_path == "" ? ucwords(substr($movie->movie_sort_name,0,1)) : $movie->movie_image_path;
+		$movie->cover_count = strlen($movie->cover);
+		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
+		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
+		$studios = DB::table('studios')->lists('studio_name', 'studio_id');
+		$formats = DB::table('formats')->lists('format_type', 'format_id');
+		return view('lists.movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats'));
+	}
+
+	public function update($id)
+	{
+
+	}
+
 
 	private function makeRatingStars($rating) {
 		$stars = floor($rating/2);

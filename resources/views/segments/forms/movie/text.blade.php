@@ -1,14 +1,4 @@
 
-<?php
-   $to = $to == "9999" ? date("Y") : $to;
-   $range = [];
-   for($x=$from; $x<=$to; $x++)
-   {
-      $range[$x] = $x;
-   }
-?>
-
-
 {{-- error class --}}
 @section('errorClass')
    {{$errorClass}}
@@ -28,7 +18,7 @@
 
 {{-- input --}}
 @section('input')
-   {!! Form::select($field, array('' => 'select ...') + $range,'',['class'=>'form-control']) !!}
+   {!! Form::text($field, $value, ['class'=>'form-control']) !!}
 @overwrite
 
 @include('segments.forms.row')

@@ -15,7 +15,7 @@ class FormsTableSeeder extends Seeder {
 				['create_movie','1','movie_name','Title','text','','','','','',''],
 				['create_movie','2','movie_sort_name','Sort Name','text','','','','',''],
 				['create_movie','3','movie_bio','Description','textarea','','','','',''],
-				['create_movie','4','movie_my_rating','Rating	','range','4','10','','',''],
+				['create_movie','4','movie_my_rating','Rating','range','1','10','','',''],
 				['create_movie','5','movie_release_date','Released','range','1930','9999','','',''],
 				['create_movie','6','movie_running_time','Running Time','text','','','','',''],
 				['create_movie','7','movie_certificate_id','Certificate','select','','','certificates','',''],
