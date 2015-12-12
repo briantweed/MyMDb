@@ -11,12 +11,12 @@ class GenreController extends Controller {
 	public function index()
 	{
 		$genres = Genres::all();
-		return view( 'lists.genres.index', compact('genres'));
+		return view( 'admin.genres.index', compact('genres'));
 	}
 
 	public function show($id)
 	{
 		return $this->index();
 	}
-	
+
 }

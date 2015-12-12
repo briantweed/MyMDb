@@ -15,7 +15,7 @@ class ViewingController extends Controller {
 		{
 			$viewing->viewed = date("jS F Y @ H:i",strtotime($viewing->date));
 		}
-		return view( 'lists.viewings.index', compact('viewings'));
+		return view( 'admin.viewings.index', compact('viewings'));
 	}
 
 	public function show($id)

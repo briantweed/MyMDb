@@ -11,7 +11,7 @@ class StudioController extends Controller {
 	public function index()
 	{
 		$studios = Studios::all();
-		return view( 'lists.studios.index', compact('studios'));
+		return view( 'admin.studios.index', compact('studios'));
 	}
 
 	public function show($id)

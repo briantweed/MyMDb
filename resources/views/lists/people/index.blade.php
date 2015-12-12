@@ -7,6 +7,16 @@
 @stop
 
 
+{{-- Subnav --}}
+@section('subnav-left')
+   &nbsp;
+@stop
+
+@section('subnav-right')
+
+@stop
+
+
 {{-- Main Body --}}
 @section('content')
 

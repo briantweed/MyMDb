@@ -6230,7 +6230,6 @@ body {
 
 h1 {
   font-family: "Philosopher", Arial, sans-serif;
-  font-size: 40px;
   margin: 10px 0 15px 0;
   border-bottom: 1px solid #999; }
 
@@ -6242,11 +6241,15 @@ h2, h3, h4, h5 {
 hr {
   border-top: 1px solid #999; }
 
+textarea {
+  resize: none; }
+
 div.margin-bottom {
   margin-bottom: 1em; }
 
 .navbar {
-  min-height: 56px; }
+  min-height: 56px;
+  margin-bottom: 0; }
 
 .navbar-default a.navbar-brand {
   font-family: "Philosopher", Arial, sans-serif;
@@ -6261,34 +6264,42 @@ div.margin-bottom {
 .navbar-default li.padding-li {
   height: 51px; }
 
-.navbar-default li.movies-active a i {
-  color: #d1a70f; }
-  .navbar-default li.movies-active a i:hover {
+.navbar-default li.movies-active a {
+  color: #222; }
+  .navbar-default li.movies-active a i {
     color: #d1a70f; }
+    .navbar-default li.movies-active a i:hover {
+      color: #d1a70f; }
 
 .navbar-default li.movies-normal a:hover i {
   color: #d1a70f; }
 
-.navbar-default li.people-active a i {
-  color: #009926; }
-  .navbar-default li.people-active a i:hover {
+.navbar-default li.people-active a {
+  color: #222; }
+  .navbar-default li.people-active a i {
     color: #009926; }
+    .navbar-default li.people-active a i:hover {
+      color: #009926; }
 
 .navbar-default li.people-normal a:hover i {
   color: #009926; }
 
-.navbar-default li.character-active a i {
-  color: #F13224; }
-  .navbar-default li.character-active a i:hover {
+.navbar-default li.character-active a {
+  color: #222; }
+  .navbar-default li.character-active a i {
     color: #F13224; }
+    .navbar-default li.character-active a i:hover {
+      color: #F13224; }
 
 .navbar-default li.character-normal a:hover i {
   color: #F13224; }
 
-.navbar-default li.admin-active a i {
-  color: #356DE3; }
-  .navbar-default li.admin-active a i:hover {
+.navbar-default li.admin-active a {
+  color: #222; }
+  .navbar-default li.admin-active a i {
     color: #356DE3; }
+    .navbar-default li.admin-active a i:hover {
+      color: #356DE3; }
 
 .navbar-default li.admin-normal a:hover i {
   color: #356DE3; }
@@ -6300,6 +6311,8 @@ div.search-bar-container {
   width: 100%;
   top: 56px;
   padding: 8px 0; }
+  div.search-bar-container a {
+    text-decoration: none; }
 
 div.main-content {
   margin-top: 120px; }
@@ -6333,7 +6346,14 @@ li.movie span {
 |----------------------------------------------------------------------
 */
 div.movie .row {
-  margin-bottom: 0.5em; }
+  margin-bottom: 1em; }
+  div.movie .row.form-group.has-error {
+    margin-bottom: 3px; }
+  div.movie .row.has-error label.control-label {
+    font-size: 13px; }
+
+div.movie h2 {
+  font-family: "Philosopher", Arial, sans-serif; }
 
 div.movie p {
   margin-bottom: 20px; }

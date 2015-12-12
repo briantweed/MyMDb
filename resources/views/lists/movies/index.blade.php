@@ -11,8 +11,17 @@
 @stop
 
 {{-- Subnav --}}
-@section('subnav')
+@section('subnav-left')
    @include('segments.links.add_movie')
+@stop
+
+@section('subnav-right')
+   <div class="input-group">
+       <input type="text" class="form-control" placeholder="Search...">
+       <span class="input-group-btn">
+          <button class="btn btn-info" type="button">Go</button>
+       </span>
+   </div>
 @stop
 
 {{-- Main Body --}}
@@ -29,7 +38,7 @@
                      @else
                         <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" alt="{{$movie->name}}" />
                      @endif
-                     <span>{{$movie->name}} ({{date( 'Y', strtotime($movie->release_date))}})</span>
+                     <span>{{$movie->name}} ({{$movie->released}})</span>
                   </a>
                </li>
             @endforeach

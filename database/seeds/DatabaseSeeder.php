@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder {
 		$this->call('GenresTableSeeder');
 		$this->call('PositionsTableSeeder');
 		$this->call('StudiosTableSeeder');
+		$this->call('FormsTableSeeder');
 
 		// Additional Test Data
 		$this->call('MoviesTableSeeder');

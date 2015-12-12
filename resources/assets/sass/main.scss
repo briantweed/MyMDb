@@ -6,7 +6,7 @@ $main-font  : "Raleway", Arial, sans-serif;
 $header-font : "Philosopher", Arial, sans-serif;
 $subheader-font : "Arimo", Arial, sans-serif;
 $image-shadow : 1px 1px 4px #555;
-$border-color : #999;
+$border-color : 1px solid #999;
 $transition: all 0.3s;
 
 /*
@@ -136,18 +136,21 @@ body {
 
 h1 {
    font-family: $header-font;
-   font-size: 40px;
    margin: 10px 0 15px 0;
-   border-bottom: 1px solid $border-color;
+   border-bottom: $border-color;
 }
 h2, h3, h4, h5 {
    font-family: $subheader-font;
    margin: 10px 0 15px 0;
-   border-bottom: 1px solid $border-color;
+   border-bottom: $border-color;
 }
 
 hr {
- border-top: 1px solid $border-color;
+ border-top: $border-color;
+}
+
+textarea {
+   resize: none;
 }
 
 div.margin-bottom {
@@ -156,6 +159,7 @@ div.margin-bottom {
 
 .navbar {
    min-height: 56px;
+   margin-bottom: 0;
 }
 
 .navbar-default {
@@ -179,33 +183,45 @@ div.margin-bottom {
       }
 
       &.movies {
-         &-active a i {
-            color: $movie-link;
-            &:hover { color: $movie-link; }
+         &-active a {
+            color:#222;
+            i {
+               color: $movie-link;
+               &:hover { color: $movie-link; }
+            }
          }
          &-normal a:hover i { color: $movie-link; }
       }
 
       &.people {
-         &-active a i {
-            color: $people-link;
-            &:hover { color: $people-link; }
+         &-active a {
+            color:#222;
+            i {
+               color: $people-link;
+               &:hover { color: $people-link; }
+            }
          }
          &-normal a:hover i { color: $people-link; }
       }
 
       &.character {
-         &-active a i {
-            color: $character-link;
-            &:hover { color: $character-link; }
+         &-active a {
+            color:#222;
+            i {
+               color: $character-link;
+               &:hover { color: $character-link; }
+            }
          }
          &-normal a:hover i { color: $character-link; }
       }
 
       &.admin {
-         &-active a i {
-            color: $admin-link;
-            &:hover { color: $admin-link; }
+         &-active a {
+            color:#222;
+            i {
+               color: $admin-link;
+               &:hover { color: $admin-link; }
+            }
          }
          &-normal a:hover i { color: $admin-link; }
       }
@@ -221,6 +237,10 @@ div.search-bar-container {
    width: 100%;
    top: 56px;
    padding: 8px 0;
+
+   a {
+      text-decoration: none;
+   }
 }
 
 div.main-content {
@@ -273,7 +293,23 @@ li.movie {
 div.movie {
 
    .row {
-      margin-bottom: 0.5em
+      margin-bottom: 1em;
+
+      &.form-group.has-error {
+         margin-bottom:3px;
+      }
+
+      &.has-error {
+
+         label.control-label {
+            font-size: 13px;
+         }
+
+      }
+   }
+
+   h2 {
+      font-family: $header-font;
    }
 
    p {

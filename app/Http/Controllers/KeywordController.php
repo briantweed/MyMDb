@@ -11,7 +11,7 @@ class KeywordController extends Controller {
 	public function index()
 	{
 		$keywords = Keywords::all();
-		return view( 'lists.keywords.index', compact('keywords'));
+		return view( 'admin.keywords.index', compact('keywords'));
 	}
 
 	public function show($id)

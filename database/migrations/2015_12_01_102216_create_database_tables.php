@@ -68,7 +68,7 @@ class CreateDatabaseTables extends Migration {
 			$table->increments('movie_id');
 			$table->string('movie_name');
 			$table->string('movie_sort_name');
-			$table->date('movie_release_date');
+			$table->integer('movie_release_date');
 			$table->integer('movie_my_rating');
 			$table->integer('movie_running_time');
 			$table->string('movie_image_path');

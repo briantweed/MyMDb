@@ -1,9 +1,33 @@
+<?php
+
+   $left_column  = "col-xs-12 col-sm-4 col-md-4 col-lg-3";
+   $right_column = "col-xs-12 col-sm-8 col-md-8 col-lg-offset-1 col-lg-8";
+   $label_class  = "col-xs-6 col-sm-4 col-md-4 col-lg-3";
+   $input_class  = "col-xs-6 col-sm-8 col-md-8 col-lg-9"
+
+?>
+
 @extends('app')
 
 
 {{-- Page Title --}}
 @section('title')
    {{$movie->name}}
+@stop
+
+
+{{-- Subnav --}}
+@section('subnav-left')
+
+@stop
+
+@section('subnav-right')
+   <div class="input-group">
+       <input type="text" class="form-control" placeholder="Search...">
+       <span class="input-group-btn">
+          <button class="btn btn-info" type="button">Go</button>
+       </span>
+   </div>
 @stop
 
 
@@ -19,53 +43,42 @@
    <div class="row movie">
 
       {{-- left column --}}
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+      <div class="{{$left_column}}">
+
          {{-- cover image --}}
          <div class="row">
             <div class="col-xs-12">
-               <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" />
+               @if($movie->cover_count == 1)
+                  <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->name}}" />
+               @else
+                  <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" alt="{{$movie->name}}" />
+               @endif
             </div>
          </div>
 
          <hr/>
 
          {{-- back button --}}
-         <div class="row">
-            <div class="col-xs-12">
-               <a class="btn btn-info btn-lg btn-block" href="{{ action('MovieController@index') }}"><i class="ft icon-back-arrow"></i> back</a>
-            </div>
-         </div>
+         @include('segments.buttons.back')
 
          {{-- edit button --}}
-         <div class="row">
-            <div class="col-xs-12">
-               <a class="btn btn-success btn-lg btn-block" href="javascript:void(0);"><i class="ft icon-edit"></i> edit</a>
-            </div>
-         </div>
+         @include('segments.buttons.edit')
 
          {{-- view button --}}
-         <div class="row">
-            <div class="col-xs-12">
-               <a class="btn btn-warning btn-lg btn-block" href="javascript:void(0);"><i class="ft icon-view"></i> watching</a>
-            </div>
-         </div>
+         @include('segments.buttons.view')
 
          <hr/>
 
          {{-- delete button --}}
-         <div class="row">
-            <div class="col-xs-12">
-               <a class="btn btn-danger-outline btn-lg btn-block" href="javascript:void(0);"><i class="ft icon-delete"></i> delete</a>
-            </div>
-         </div>
+         @include('segments.buttons.delete')
 
          {{-- padding --}}
-         <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+         @include('segments.layout.padding')
 
       </div> {{-- end of left column --}}
 
       {{-- right column --}}
-      <div class="col-xs-12 col-sm-8 col-md-8 col-lg-offset-1 col-lg-8">
+      <div class="{{$right_column}}">
 
          {{-- film title --}}
          <div class="row">
@@ -79,49 +92,49 @@
 
          {{-- star rating --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>Rating</b></div>
-            <div class="col-xs-6 col-lg-9"><span data-toggle='tooltip' data-placement='right' title='{{$movie->rating}} / 10'class="rating-display">{!!$movie->rating_display!!}</span></div>
+            <div class="{{$label_class}}"><b>Rating</b></div>
+            <div class="{{$input_class}}"><span data-toggle='tooltip' data-placement='right' title='{{$movie->rating}} / 10'class="rating-display">{!!$movie->rating_display!!}</span></div>
          </div>
 
          {{-- released --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>Released</b></div>
-            <div class="col-xs-6 col-lg-9">{{$movie->released}}</div>
+            <div class="{{$label_class}}"><b>Released</b></div>
+            <div class="{{$input_class}}">{{$movie->released}}</div>
          </div>
 
          {{-- running time --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>Running Time</b></div>
-            <div class="col-xs-6 col-lg-9">{{$movie->running_time}} mins</div>
+            <div class="{{$label_class}}"><b>Running Time</b></div>
+            <div class="{{$input_class}}">{{$movie->running_time}} mins</div>
          </div>
 
          {{-- certifiate --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>Certificate</b></div>
-            <div class="col-xs-6 col-lg-9">{{$movie->certificate}}</div>
+            <div class="{{$label_class}}"><b>Certificate</b></div>
+            <div class="{{$input_class}}">{{$movie->certificate}}</div>
          </div>
 
          {{-- format --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>Format</b></div>
-            <div class="col-xs-6 col-lg-9">{{$movie->format}}</div>
+            <div class="{{$label_class}}"><b>Format</b></div>
+            <div class="{{$input_class}}">{{$movie->format}}</div>
          </div>
 
          {{-- studio --}}
          <div class="row">
-            <div class="col-xs-6 col-lg-3"><b>Studio</b></div>
-            <div class="col-xs-6 col-lg-9">{{$movie->studio}}</div>
+            <div class="{{$label_class}}"><b>Studio</b></div>
+            <div class="{{$input_class}}">{{$movie->studio}}</div>
          </div>
 
          {{-- genres --}}
          @if(count($movie->genres) != 0)
 
             <div class="row">
-               <div class="col-xs-6 col-lg-3">
+               <div class="{{$label_class}}">
                   <b>Genres</b>
                </div>
                {{-- genre list --}}
-               <div class="col-xs-6 col-lg-9">
+               <div class="{{$input_class}}">
                   @foreach( $movie->genres as $genre )
                      {{$genre->type}};
                   @endforeach
@@ -134,11 +147,11 @@
          @if(count($movie->tags) != 0)
 
             <div class="row">
-               <div class="col-xs-6 col-lg-3">
+               <div class="{{$label_class}}">
                   <b>Tags</b>
                </div>
                {{-- tag list --}}
-               <div class="col-xs-6 col-lg-9">
+               <div class="{{$input_class}}">
                   @foreach($movie->tags as $tag)
                      {{$tag->word}};
                   @endforeach
@@ -151,11 +164,11 @@
          @if($movie->viewed !== NULL)
 
             <div class="row">
-               <div class="col-xs-6 col-lg-3">
+               <div class="{{$label_class}}">
                   <b>Last Viewed</b>
                </div>
 
-               <div class="col-xs-6 col-lg-9">
+               <div class="{{$input_class}}">
                   {{$movie->viewed}};
                </div>
             </div>
@@ -166,7 +179,7 @@
          @if(count($movie->crew) != 0)
 
             {{-- padding --}}
-            <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+            @include('segments.layout.padding')
 
             <div class="row">
                <div class="col-xs-12"><h3>Crew</h3></div>
@@ -175,11 +188,11 @@
             @foreach($movie->crew as $emp)
                <div class="row">
                   {{-- actor --}}
-                  <div class="col-xs-6 col-lg-3">
+                  <div class="{{$label_class}}">
                      {{$emp->forename}} {{$emp->surname}}
                   </div>
                   {{-- character --}}
-                  <div class="col-xs-6 col-lg-9">
+                  <div class="{{$input_class}}">
                      {{$emp->position}}
                   </div>
                </div>
@@ -191,7 +204,7 @@
          @if(count($movie->cast) != 0)
 
             {{-- padding --}}
-            <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+            @include('segments.layout.padding')
 
             <div class="row">
                <div class="col-xs-12"><h3>Cast</h3></div>
@@ -200,11 +213,11 @@
             @foreach( $movie->cast as $actor )
                <div class="row">
                   {{-- actor --}}
-                  <div class="col-xs-6 col-lg-3">
+                  <div class="{{$label_class}}">
                      {{$actor->forename}} {{$actor->surname}}
                   </div>
                   {{-- character --}}
-                  <div class="col-xs-6 col-lg-9">
+                  <div class="{{$input_class}}">
                      <em>{{$actor->character_name}}</em>
                   </div>
                </div>
@@ -213,7 +226,7 @@
          @endif
 
          {{-- padding --}}
-         <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+         @include('segments.layout.padding')
 
       </div> {{-- end of right column --}}
 
