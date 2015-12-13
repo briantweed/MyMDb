@@ -46,6 +46,11 @@ class MovieController extends Controller {
 	public function store(ValidateCreateMovie $request)
 	{
 		$data = $request->all();
+		if ($request->file('movie_image_path')->isValid()) {
+			$image_name = $this->createImageName($request->movie_sort_name);
+			$image = $request->file('movie_image_path')->move('images/covers', $image_name);
+			$data['movie_image_path'] = $image_name;
+		}
 		$data['movie_duplicate'] = $this->checkForDuplicateTitle($request->movie_name);
 		$update = Movies::create($data);
 		$inserted_id = $update->movie_id;
@@ -74,7 +79,8 @@ class MovieController extends Controller {
 	}
 
 
-	private function makeRatingStars($rating) {
+	private function makeRatingStars($rating)
+	{
 		$stars = floor($rating/2);
 		$html = "";
 		for($x=0; $x<$stars; $x++) $html .= "<i class='ft icon-star'></i>";
@@ -82,8 +88,14 @@ class MovieController extends Controller {
 		return $html;
 	}
 
-	private function checkForDuplicateTitle($name) {
+	private function checkForDuplicateTitle($name)
+	{
 		return DB::table('movies')->where('movie_name', $name)->count() > 0 ? true : false;
+	}
+
+	private function createImageName($name)
+	{
+		return str_replace(" ", "_", ucwords(strtolower($name)))."_".date("U").".jpg";
 	}
 
 }
