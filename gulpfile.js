@@ -15,6 +15,7 @@ elixir.config.sourcemaps = false;
 
 elixir(function(mix) {
     mix.sass([
+      "waves.scss",
         "app.scss",
         "main.scss"
     ],'resources/assets/css/bootstrap.css');

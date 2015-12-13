@@ -19,8 +19,8 @@
          </div>
 
          {!! Html::script('js/jquery.min.js') !!}
-         <!-- {!! Html::script('js/jquery-ui.min.js') !!} -->
          {!! Html::script('js/bootstrap.min.js') !!}
+         {!! Html::script('js/waves.js') !!}
 
          <script type="text/javascript" >
 
@@ -42,8 +42,10 @@
 
             });
          </script>
-
-         @yield('jquery')
+         
+         <script>
+            @yield('jquery')
+         </script>
 
       </div>
 

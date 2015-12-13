@@ -48,3 +48,8 @@
    </div>
 
 @stop
+
+@section('jquery')
+   Waves.attach('.movie',['waves-light']);
+   Waves.init();
+@stop

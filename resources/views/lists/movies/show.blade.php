@@ -230,9 +230,7 @@
 
 @stop
 
-
-{{-- Jquery --}}
 @section('jquery')
-
-
+ Waves.attach('.btn', ['waves-circle']);
+   Waves.init();
 @stop
