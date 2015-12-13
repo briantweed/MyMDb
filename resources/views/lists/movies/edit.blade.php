@@ -33,5 +33,7 @@
 
 {{-- Jquery --}}
 @section('jquery')
-
+   Waves.attach('.side-buttons .btn', ['waves-circle']);
+   Waves.attach('.search-bar-container a',['waves-button']);
+   Waves.init();
 @stop

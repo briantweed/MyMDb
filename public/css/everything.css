@@ -19,11 +19,11 @@
 
 /*!
  * Waves v0.7.4
- * http://fian.my.id/Waves 
- * 
- * Copyright 2014 Alfiana E. Sibuea and other contributors 
- * Released under the MIT license 
- * https://github.com/fians/Waves/blob/master/LICENSE 
+ * http://fian.my.id/Waves
+ *
+ * Copyright 2014 Alfiana E. Sibuea and other contributors
+ * Released under the MIT license
+ * https://github.com/fians/Waves/blob/master/LICENSE
  */
 .waves-effect {
   position: relative;
@@ -68,41 +68,8 @@
   transform: translateZ(0);
   -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); }
 
-.waves-button,
-.waves-button:hover,
-.waves-button:visited,
-.waves-button-input {
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  color: inherit;
-  background-color: transparent;
-  font-size: 1em;
-  line-height: 1em;
-  text-align: center;
-  text-decoration: none;
-  z-index: 1; }
-
 .waves-button {
-  padding: 0.85em 1.1em;
   border-radius: 0.2em; }
-
-.waves-button-input {
-  margin: 0;
-  padding: 0.85em 1.1em; }
-
-.waves-input-wrapper {
-  border-radius: 0.2em;
-  vertical-align: bottom; }
-  .waves-input-wrapper.waves-button {
-    padding: 0; }
-  .waves-input-wrapper .waves-button-input {
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1; }
 
 .waves-circle {
   text-align: center;
@@ -117,9 +84,6 @@
   transition: all 300ms; }
   .waves-float:active {
     box-shadow: 0px 8px 20px 1px rgba(0, 0, 0, 0.3); }
-
-.waves-block {
-  display: block; }
 
 /* Firefox Bug: link not triggered */
 a.waves-effect .waves-ripple {
@@ -6492,7 +6456,7 @@ div.search-bar-container {
   position: fixed;
   top: 56px;
   width: 100%;
-  padding: 8px 0;
+  padding: 8px 0 8px;
   border-top: 1px solid #c8c8cf;
   border-bottom: 1px solid #c8c8cf;
   background: #e8e8ef;
@@ -6503,7 +6467,8 @@ div.search-bar-container {
   div.search-bar-container a {
     text-decoration: none;
     line-height: 1.5;
-    margin-right: 20px; }
+    margin-right: 10px;
+    padding: 0 6px; }
 
 div.main-content {
   margin-top: 120px; }

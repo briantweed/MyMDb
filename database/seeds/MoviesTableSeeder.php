@@ -22,7 +22,7 @@ class MoviesTableSeeder extends Seeder {
 				['The Matrix','Matrix 1','1999','The_Matrix_Front.jpg','123','8','6','1','17','He is the one'],
 				['Star Wars','Star Wars 4','1977','Star_Wars_4_Front.jpg','128','10','2','2','1','The Force will be with you, always'],
 				['Avengers Assemble','Avengers 1','2012','Avengers_1_Front.jpg','137','8','4','2','5','When an unexpected enemy emerges that threatens global safety and security, Nick Fury finds himself needing a team that can pull the world back from the brink of disaster. Cue Iron Man, Thor, The Incredible Hulk, Captain America, Black Widow and Hawkeye - The Avengers.'],
-				['The Amazing Spiderman','Amazing Spiderman 1','2012','Amazing_Spiderman_1_Front.jpg','136','6','4','2','12','A wise-cracking, taller Spider-Man this time around. This time he&#039;s up against Lizardman.']
+				['The Amazing Spiderman','Amazing Spiderman 1','2012','Amazing_Spiderman_1_Front.jpg','136','6','4','2','12','A wise-cracking, taller Spider-Man. This time he&#039;s up against Lizardman.']
 			];
 
 			array_map( function( $movie ) {

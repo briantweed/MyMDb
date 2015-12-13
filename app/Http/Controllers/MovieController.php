@@ -48,7 +48,7 @@ class MovieController extends Controller {
 		$data = $request->all();
 		$data['movie_duplicate'] = $this->checkForDuplicateTitle($request->movie_name);
 		$update = Movies::create($data);
-		$inserted_id = $update->id;
+		$inserted_id = $update->movie_id;
 		return redirect()->action('MovieController@show', [$inserted_id])
 							  ->with('status', 'Movie Added Successfully');
 	}

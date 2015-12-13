@@ -20,11 +20,15 @@
 
       <hr/>
 
-      {{-- back button --}}
-      @include('segments.buttons.back')
+      <div class="side-buttons">
 
-      {{-- padding --}}
-      @include('segments.layout.padding')
+         {{-- back button --}}
+         @include('segments.buttons.back')
+
+         {{-- padding --}}
+         @include('segments.layout.padding')
+
+      </div>
 
    </div>
    {{-- end of left column --}}

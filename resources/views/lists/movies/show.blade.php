@@ -9,12 +9,10 @@
 
 @extends('app')
 
-
 {{-- Page Title --}}
 @section('title')
    {{$movie->name}}
 @stop
-
 
 {{-- Subnav --}}
 @section('subnav-left')
@@ -54,22 +52,25 @@
 
          <hr/>
 
-         {{-- back button --}}
-         @include('segments.buttons.back')
+         <div class="side-buttons">
+            {{-- back button --}}
+            @include('segments.buttons.back')
 
-         {{-- edit button --}}
-         @include('segments.buttons.edit')
+            {{-- edit button --}}
+            @include('segments.buttons.edit')
 
-         {{-- view button --}}
-         @include('segments.buttons.view')
+            {{-- view button --}}
+            @include('segments.buttons.view')
 
-         <hr/>
+            <hr/>
 
-         {{-- delete button --}}
-         @include('segments.buttons.delete')
+            {{-- delete button --}}
+            @include('segments.buttons.delete')
 
-         {{-- padding --}}
-         @include('segments.layout.padding')
+            {{-- padding --}}
+            @include('segments.layout.padding')
+
+         </div>
 
       </div> {{-- end of left column --}}
 
@@ -230,7 +231,9 @@
 
 @stop
 
+{{-- Jquery --}}
 @section('jquery')
- Waves.attach('.btn', ['waves-circle']);
+   Waves.attach('.side-buttons .btn', ['waves-circle']);
+   Waves.attach('.search-bar-container a',['waves-button']);
    Waves.init();
 @stop
