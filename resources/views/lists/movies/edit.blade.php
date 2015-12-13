@@ -3,8 +3,14 @@
 
 {{-- Page Title --}}
 @section('title')
-   Add New Movie
+   Edit {{$movie->movie_name}}
 @stop
+
+{{-- Page Heading --}}
+@section('heading')
+   Edit Movie
+@stop
+
 
 {{-- Subnav --}}
 @section('subnav-left')

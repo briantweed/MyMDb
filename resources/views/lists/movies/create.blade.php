@@ -6,6 +6,11 @@
    Add New Movie
 @stop
 
+{{-- Page Heading --}}
+@section('heading')
+   Add New Movie
+@stop
+
 {{-- Subnav --}}
 @section('subnav-left')
    &nbsp;

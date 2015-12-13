@@ -10,7 +10,7 @@ Route::get('/lists', 'MovieController@index');
 Route::get('/admin', 'StudioController@index');
 
 Route::group(['prefix'=>'lists'], function() {
-	Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit']]);
+	Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update']]);
 	Route::resource('people', 'PersonController', ['only'=>['index','show']]);
 	Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);
 });

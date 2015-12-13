@@ -41,7 +41,7 @@
 
       <div class="row">
          <div class="col-xs-12">
-            <h2>Add New Movie</h2>
+            <h2>@yield('heading')</h2>
          </div>
       </div>
 

@@ -5,7 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 class Movies extends Model {
 
 	protected $table = 'movies';
-
+	protected $primaryKey = 'movie_id';
 	protected $fillable = array(
 		'movie_name',
 		'movie_sort_name',

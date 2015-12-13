@@ -45,8 +45,7 @@ class MovieController extends Controller {
 
 	public function store(ValidateCreateMovie $request)
 	{
-		$post_data = $request->all();
-		$update = Movies::create($post_data);
+		$update = Movies::create($request->all());
 		$inserted_id = $update->id;
 		return redirect()->action('MovieController@show', [$inserted_id])
 							  ->with('status', 'Movie Added Successfully');
@@ -64,9 +63,12 @@ class MovieController extends Controller {
 		return view('lists.movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats'));
 	}
 
-	public function update($id)
+	public function update($id, ValidateCreateMovie $request)
 	{
-
+		$movie = Movies::findorfail($id);
+		$movie->update($request->all());
+		return redirect()->action('MovieController@show', [$id])
+							  ->with('status', 'Movie Updated Successfully');
 	}
 
 
