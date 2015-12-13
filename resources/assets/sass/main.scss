@@ -426,9 +426,13 @@ div.movie {
    }
 
    span.rating-display {
-      color: #f1de35;
+      color: #F1DE35;
       font-size: 1.2em;
       margin-left: -4px;
+
+      &.top-rated {
+         color: #F83C3C;
+      }
 
       i {
          cursor:default;

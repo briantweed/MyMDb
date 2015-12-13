@@ -21,6 +21,7 @@ class CreateDatabaseViews extends Migration
             `c`.`certificate_title` as `certificate`,
             `f`.`format_type` as `format`,
             `s`.`studio_name` as `studio`,
+            `m`.`movie_duplicate` as `duplicate`,
             `m`.`movie_bio` as `description`
          FROM `movies` `m`
          LEFT JOIN `certificates` `c` ON `c`.`certificate_id` = `m`.`movie_certificate_id`

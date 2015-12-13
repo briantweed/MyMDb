@@ -17,6 +17,7 @@ class Movies extends Model {
 		'movie_format_id',
 		'movie_studio_id',
 		'movie_bio',
+		'movie_duplicate',
 	);
 
 	public function scopeOfMovie($query,$id)

@@ -6433,9 +6433,11 @@ div.movie img {
   box-shadow: 1px 1px 4px #555; }
 
 div.movie span.rating-display {
-  color: #f1de35;
+  color: #F1DE35;
   font-size: 1.2em;
   margin-left: -4px; }
+  div.movie span.rating-display.top-rated {
+    color: #F83C3C; }
   div.movie span.rating-display i {
     cursor: default; }
 

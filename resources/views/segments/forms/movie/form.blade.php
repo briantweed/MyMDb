@@ -41,7 +41,7 @@
 
       <div class="row">
          <div class="col-xs-12">
-            <h2>@yield('heading')</h2>
+            <h1>@yield('heading')</h1>
          </div>
       </div>
 

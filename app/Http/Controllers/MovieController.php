@@ -45,7 +45,9 @@ class MovieController extends Controller {
 
 	public function store(ValidateCreateMovie $request)
 	{
-		$update = Movies::create($request->all());
+		$data = $request->all();
+		$data['movie_duplicate'] = $this->checkForDuplicateTitle($request->movie_name);
+		$update = Movies::create($data);
 		$inserted_id = $update->id;
 		return redirect()->action('MovieController@show', [$inserted_id])
 							  ->with('status', 'Movie Added Successfully');
@@ -78,6 +80,10 @@ class MovieController extends Controller {
 		for($x=0; $x<$stars; $x++) $html .= "<i class='ft icon-star'></i>";
 		if($rating%2==1) $html .= "<i class='ft icon-star-half'></i>";
 		return $html;
+	}
+
+	private function checkForDuplicateTitle($name) {
+		return DB::table('movies')->where('movie_name', $name)->count() > 0 ? true : false;
 	}
 
 }

@@ -33,7 +33,7 @@
                      @else
                         <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" alt="{{$movie->name}}" />
                      @endif
-                     <span>{{$movie->name}} ({{$movie->released}})</span>
+                     <span>{{$movie->name}} @if($movie->duplicate) ({{$movie->released}}) @endif</span>
                   </a>
                </li>
             @endforeach

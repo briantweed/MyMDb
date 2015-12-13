@@ -75,6 +75,7 @@ class CreateDatabaseTables extends Migration {
 			$table->integer('movie_certificate_id');
 			$table->integer('movie_format_id');
 			$table->integer('movie_studio_id');
+			$table->boolean('movie_duplicate');
 			$table->text('movie_bio');
 			$table->timestamp('updated_at');
 			$table->timestamp('created_at');
