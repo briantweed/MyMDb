@@ -70,6 +70,10 @@
                @include('segments.forms.movie.select', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'field' => $field->form_field, 'options'=> $options, 'value' => $value])
             <?php break;
 
+            case "checkbox": ?>
+            @include('segments.forms.movie.checkbox', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'field' => $field->form_field, 'value' => $value])
+            <?php break;
+
             case "file": ?>
                @include('segments.forms.movie.file', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'field' => $field->form_field, 'value' => $value])
             <?php break;

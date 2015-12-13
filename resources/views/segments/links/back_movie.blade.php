@@ -1,4 +1,4 @@
-<a href="{{ action('MovieController@index') }}">
+<a href="{{  URL::previous() }}">
    <i style="font-size:1.5em" class="ft icon-back"></i>
-   <span> Back</span>
+   <span class="hidden-xs"> Back</span>
 </a>

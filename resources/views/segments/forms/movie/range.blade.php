@@ -31,4 +31,14 @@
    {!! Form::select($field, array('' => 'select ...') + $range, $value, ['class'=>'form-control']) !!}
 @overwrite
 
+{{-- input extra classes --}}
+@section('input_class')
+
+@overwrite
+
+{{-- input extra classes --}}
+@section('input_class')
+
+@overwrite
+
 @include('segments.forms.row')

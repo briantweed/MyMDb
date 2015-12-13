@@ -18,12 +18,13 @@
 
 {{-- input --}}
 @section('input')
-   {!! Form::textarea($field, $value, ['class'=>'form-control']) !!}
+   {!! Form::checkbox($field, '1', $value, ['id' => $field]) !!}
+   {!! Form::label($field, $label) !!}
 @overwrite
 
 {{-- input extra classes --}}
 @section('input_class')
-
+   switch round
 @overwrite
 
 @include('segments.forms.row')

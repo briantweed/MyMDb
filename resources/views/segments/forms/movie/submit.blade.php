@@ -6,7 +6,7 @@
 
 {{-- error message --}}
 @section('errorMessage')
-   
+
 @overwrite
 
 {{-- label --}}
@@ -17,6 +17,11 @@
 {{-- input --}}
 @section('input')
    {!! Form::submit($label, ['class' => $class]) !!}
+@overwrite
+
+{{-- input extra classes --}}
+@section('input_class')
+
 @overwrite
 
 @include('segments.layout.padding')

@@ -12,18 +12,18 @@ class FormsTableSeeder extends Seeder {
 		{
 
 			$fields = [
-				['create_movie','1','movie_name','Title','text','','','','','',''],
-				['create_movie','2','movie_sort_name','Sort Name','text','','','','',''],
-				['create_movie','3','movie_bio','Description','textarea','','','','',''],
-				['create_movie','4','movie_my_rating','Rating','range','1','10','','',''],
-				['create_movie','5','movie_release_date','Released','range','1930','9999','','',''],
-				['create_movie','6','movie_running_time','Running Time','text','','','','',''],
-				['create_movie','7','movie_certificate_id','Certificate','select','','','certificates','',''],
-				['create_movie','8','movie_format_id','Format','select','','','formats','',''],
-				['create_movie','9','movie_studio_id','Studio','select','','','studios','',''],
-				['create_movie','10','movie_image_path','Image','file','','','','hello',''],
-				['create_movie','11','','save','submit','','','','','btn btn-lg btn-block btn-primary'],
-				['create_movie','99','','end','','','','','',''],
+				['create_movie','10','movie_name','Title','text','','','','','',''],
+				['create_movie','20','movie_sort_name','Sort Name','text','','','','',''],
+				['create_movie','30','movie_bio','Description','textarea','','','','',''],
+				['create_movie','40','movie_my_rating','Rating','range','1','10','','',''],
+				['create_movie','50','movie_release_date','Released','range','1930','9999','','',''],
+				['create_movie','60','movie_running_time','Running Time','text','','','','',''],
+				['create_movie','70','movie_certificate_id','Certificate','select','','','certificates','',''],
+				['create_movie','80','movie_format_id','Format','select','','','formats','',''],
+				['create_movie','90','movie_studio_id','Studio','select','','','studios','',''],
+				['create_movie','100','movie_image_path','Image','file','','','','hello',''],
+				['create_movie','110','','save','submit','','','','','btn btn-lg btn-block btn-success'],
+				['create_movie','999','','end','','','','','',''],
 			];
 
 			array_map( function( $field ) {

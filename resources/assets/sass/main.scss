@@ -9,11 +9,94 @@ $image-shadow : 1px 1px 4px #555;
 $border-color : 1px solid #999;
 $transition: all 0.3s;
 
+$brand-primary: #0275d8;
+$brand-success: #5cb85c;
+$brand-info: #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+
+$movie-link: #d1a70f;
+$people-link: #009926;
+$character-link: #F13224;
+$admin-link: #356DE3;
+
+/*
+|----------------------------------------------------------------------
+|  Switches
+|----------------------------------------------------------------------
+*/
+
+
+.switch {
+   border: none;
+   position: relative;
+   border-radius: 1000px;
+
+   label {
+      display: block;
+      margin-bottom: 1em;
+      position: relative;
+      color: transparent;
+      background: #dddddd;
+      text-indent: 100%;
+      width: 4em;
+      height: 2em;
+      cursor: pointer;
+      transition: left 0.15s ease-out;
+      border-radius: 2em;
+
+      &:after {
+         content: "";
+         display: block;
+         background: white;
+         position: absolute;
+         top: 0.4em;
+         left: .25em;
+         width: 1.2em;
+         height: 1.2em;
+         -webkit-transition: left 0.15s ease-out;
+         -moz-transition: left 0.15s ease-out;
+         transition: left 0.15s ease-out;
+         -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+         transform: translate3d(0, 0, 0);
+         border-radius: 2em;
+      }
+
+   }
+
+   input {
+      opacity: 0;
+      position: absolute;
+      top: 9px;
+      left: 10px;
+      padding: 0;
+
+      + label {
+         margin-left: 0;
+         margin-right: 0;
+      }
+
+      &:checked + label {
+         background: $brand-info;
+
+         &:after {
+            left: 2.6em;
+         }
+
+      }
+
+   }
+
+}
+
+
 /*
 |----------------------------------------------------------------------
 |  Block Grid, based on Foundation 5
 |----------------------------------------------------------------------
 */
+
 [class*="block-grid-"] {
 
    display: block;
@@ -96,17 +179,6 @@ $transition: all 0.3s;
 |----------------------------------------------------------------------
 */
 
-$brand-primary: #0275d8;
-$brand-success: #5cb85c;
-$brand-info: #5bc0de;
-$brand-warning: #f0ad4e;
-$brand-danger: #d9534f;
-
-$movie-link: #d1a70f;
-$people-link: #009926;
-$character-link: #F13224;
-$admin-link: #356DE3;
-
 .btn-primary-outline {
    @include button-outline-variant($brand-primary);
 }
@@ -176,6 +248,16 @@ div.margin-bottom {
       color: #085878;
    }
 
+   @media screen and (max-width:nth($media, 2)) {
+      .navbar-collapse {
+         background: #777;
+
+         ul li a {
+            color: #fff;
+         }
+      }
+   }
+
    li{
 
       &.padding-li {
@@ -226,20 +308,32 @@ div.margin-bottom {
          &-normal a:hover i { color: $admin-link; }
       }
 
+      &.searchbar {
+         padding: 10px 25px 10px 20px;
+      }
+
    }
 
 }
 
 div.search-bar-container {
-   background: #e8e8ef;
    position: fixed;
-   z-index: 1050;
-   width: 100%;
    top: 56px;
+   width: 100%;
    padding: 8px 0;
+   border-top: 1px solid #c8c8cf;
+   border-bottom: 1px solid #c8c8cf;
+   background: #e8e8ef;
+   z-index: 1050;
+
+   @media screen and (max-width:nth($media, 2)) {
+      top: 53px;
+   }
 
    a {
       text-decoration: none;
+      line-height: 1.5;
+      margin-right: 20px;
    }
 }
 

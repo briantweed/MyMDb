@@ -21,4 +21,9 @@
    {!! Form::text($field, $value, ['class'=>'form-control']) !!}
 @overwrite
 
+{{-- input extra classes --}}
+@section('input_class')
+
+@overwrite
+
 @include('segments.forms.row')

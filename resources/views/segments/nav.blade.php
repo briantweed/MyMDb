@@ -16,6 +16,9 @@
 
       <ul class="nav navbar-nav navbar-right">
          <li class="padding-li"></li>
+         <li class="hidden-sm hidden-md hidden-lg searchbar">
+            @include('segments.layout.search_bar')
+         </li>
          <li class="{{Request::is('lists/movies*') ? 'movies-active' : 'movies-normal'}}">
             <a href="{{ action('MovieController@index') }}">
                <i style="font-size:1.5em" class="ft icon-view-movie"></i>
@@ -58,7 +61,7 @@
             @yield('subnav-left')
          </div>
 
-         <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+         <div class="hidden-xs col-sm-6 col-md-5 col-lg-4">
             @yield('subnav-right')
          </div>
 

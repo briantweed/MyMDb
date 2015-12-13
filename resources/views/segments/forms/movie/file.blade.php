@@ -21,4 +21,9 @@
    {!! Form::file($field) !!}
 @overwrite
 
+{{-- input extra classes --}}
+@section('input_class')
+
+@overwrite
+
 @include('segments.forms.row')

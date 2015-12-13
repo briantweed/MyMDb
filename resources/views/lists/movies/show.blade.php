@@ -18,17 +18,13 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   {{-- @include('segments.links.back_movie') --}}
+   @include('segments.links.back_movie')
+   @include('segments.links.edit_movie')
    @include('segments.links.edit_movie')
 @stop
 
 @section('subnav-right')
-   <div class="input-group">
-       <input type="text" class="form-control" placeholder="Search...">
-       <span class="input-group-btn">
-          <button class="btn btn-info" type="button">Go</button>
-       </span>
-   </div>
+   @include('segments.layout.search_bar')
 @stop
 
 
