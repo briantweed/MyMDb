@@ -44,6 +44,12 @@
                   <span> Admin</span>
                </a>
             </li>
+            <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
+               <a href="{{ url('auth/logout') }}">
+                  <i style="font-size:1.5em" class="ft icon-login"></i>
+                  <span> Logout</span>
+               </a>
+            </li>
          @else
             <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
                <a href="{{ url('auth/login') }}">
