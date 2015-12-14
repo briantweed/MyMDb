@@ -18,7 +18,7 @@
 
 {{-- input --}}
 @section('input')
-   {!! Form::file($field) !!}
+   {!! Form::file($field) !!} 
 @overwrite
 
 {{-- input extra classes --}}

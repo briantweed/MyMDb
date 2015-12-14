@@ -6,7 +6,7 @@ class FormsTableSeeder extends Seeder {
 
 	public function run()
 	{
-		if( DB::table('forms')->count() ) DB::table('forms')->truncate();
+		// if( DB::table('forms')->count() ) DB::table('forms')->truncate();
 		$existing = DB::table('forms')->count();
 		if( !$existing )
 		{

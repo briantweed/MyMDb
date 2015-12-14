@@ -22,6 +22,51 @@ $admin-link: #356DE3;
 
 /*
 |----------------------------------------------------------------------
+|  Animation
+|----------------------------------------------------------------------
+*/
+
+.ft-2x {
+  font-size: 2em;
+}
+.ft-3x {
+  font-size: 3em;
+}
+.ft-4x {
+  font-size: 4em;
+}
+.ft-5x {
+  font-size: 5em;
+}
+
+.spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}@-webkit-keyframes fa-spin-rev {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-359deg);
+    transform: rotate(-359deg);
+  }
+
+}
+
+/*
+|----------------------------------------------------------------------
 |  Switches
 |----------------------------------------------------------------------
 */
@@ -248,7 +293,7 @@ div.margin-bottom {
       color: #085878;
    }
 
-   @media screen and (max-width:nth($media, 2)) {
+   @media screen and (max-width:767px) {
       .navbar-collapse {
          background: #777;
 
@@ -326,7 +371,7 @@ div.search-bar-container {
    background: #e8e8ef;
    z-index: 1050;
 
-   @media screen and (max-width:nth($media, 2)) {
+   @media screen and (max-width:767px) {
       top: 53px;
    }
 
@@ -415,7 +460,7 @@ div.movie {
       text-align: left;
 
       i {
-         margin-top: 4px;
+         display: inline-block;
          margin-right: 1em;
       }
 
@@ -438,6 +483,10 @@ div.movie {
       i {
          cursor:default;
       }
+   }
+
+   input[type="file"] {
+      display: inline-block;
    }
 
 }

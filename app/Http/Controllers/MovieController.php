@@ -38,7 +38,7 @@ class MovieController extends Controller {
 	{
 		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
-		$studios = DB::table('studios')->lists('studio_name', 'studio_id');
+		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
 		return view('lists.movies.create', compact('fields', 'certificates', 'studios', 'formats'));
 	}
@@ -65,7 +65,7 @@ class MovieController extends Controller {
 		$movie->cover_count = strlen($movie->cover);
 		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
-		$studios = DB::table('studios')->lists('studio_name', 'studio_id');
+		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
 		return view('lists.movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats'));
 	}

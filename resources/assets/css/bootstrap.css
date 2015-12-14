@@ -5823,6 +5823,51 @@ button.close {
 
 /*
 |----------------------------------------------------------------------
+|  Animation
+|----------------------------------------------------------------------
+*/
+.ft-2x {
+  font-size: 2em; }
+
+.ft-3x {
+  font-size: 3em; }
+
+.ft-4x {
+  font-size: 4em; }
+
+.ft-5x {
+  font-size: 5em; }
+
+.spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear; }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@-webkit-keyframes fa-spin-rev {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(-359deg);
+    transform: rotate(-359deg); } }
+
+/*
+|----------------------------------------------------------------------
 |  Switches
 |----------------------------------------------------------------------
 */
@@ -6381,7 +6426,7 @@ div.margin-bottom {
 .navbar-default:hover, .navbar-default:focus {
   color: #085878; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navbar-default .navbar-collapse {
     background: #777; }
     .navbar-default .navbar-collapse ul li a {
@@ -6442,7 +6487,7 @@ div.search-bar-container {
   border-bottom: 1px solid #c8c8cf;
   background: #e8e8ef;
   z-index: 1050; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     div.search-bar-container {
       top: 53px; } }
   div.search-bar-container a {
@@ -6498,7 +6543,7 @@ div.movie p {
 div.movie a {
   text-align: left; }
   div.movie a i {
-    margin-top: 4px;
+    display: inline-block;
     margin-right: 1em; }
 
 div.movie img {
@@ -6513,6 +6558,9 @@ div.movie span.rating-display {
     color: #F83C3C; }
   div.movie span.rating-display i {
     cursor: default; }
+
+div.movie input[type="file"] {
+  display: inline-block; }
 
 /*
 |----------------------------------------------------------------------
