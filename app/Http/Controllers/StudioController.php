@@ -8,15 +8,16 @@ use Illuminate\Http\Request;
 
 class StudioController extends Controller {
 
+	public function __construct()
+	{
+		$this->middleware('auth');
+	}
+
 	public function index()
 	{
 		$studios = Studios::all();
-		return view( 'admin.studios.index', compact('studios'));
-	}
-
-	public function show($id)
-	{
-		return $this->index();
+		$user = $this->checkUserDetails();
+		return view( 'admin.studios.index', compact('studios','user'));
 	}
 
 }

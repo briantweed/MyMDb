@@ -8,15 +8,16 @@ use Illuminate\Http\Request;
 
 class KeywordController extends Controller {
 
+	public function __construct()
+	{
+		$this->middleware('auth');
+	}
+
 	public function index()
 	{
 		$keywords = Keywords::all();
-		return view( 'admin.keywords.index', compact('keywords'));
-	}
-
-	public function show($id)
-	{
-		return $this->index();
+		$user = $this->checkUserDetails();
+		return view( 'admin.keywords.index', compact('keywords','user'));
 	}
 
 }

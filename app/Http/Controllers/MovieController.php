@@ -1,7 +1,6 @@
 <?php namespace App\Http\Controllers;
 
 use DB;
-use Auth;
 use App\Movies;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -89,10 +88,7 @@ class MovieController extends Controller {
 	| --------------------------------------------------
 	*/
 
-	private function checkUserDetails()
-	{
-		return Auth::check() ? ( Auth::user() ? Auth::user() : false ) : false;
-	}
+
 
 	private function makeRatingStars($rating)
 	{

@@ -8,10 +8,16 @@ use Illuminate\Http\Request;
 
 class GenreController extends Controller {
 
+	public function __construct()
+	{
+		$this->middleware('auth');
+	}
+
 	public function index()
 	{
 		$genres = Genres::all();
-		return view( 'admin.genres.index', compact('genres'));
+		$user = $this->checkUserDetails();
+		return view( 'admin.genres.index', compact('genres','user'));
 	}
 
 	public function show($id)
