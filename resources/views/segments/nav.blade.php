@@ -37,12 +37,21 @@
                <span> Characters</span>
             </a>
          </li>
-         <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
-            <a href="{{ action('StudioController@index') }}">
-               <i style="font-size:1.5em" class="ft icon-admin"></i>
-               <span> Admin</span>
-            </a>
-         </li>
+         @if(isset($user) && $user!=false && $user->level==1)
+            <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
+               <a href="{{ action('StudioController@index') }}">
+                  <i style="font-size:1.5em" class="ft icon-admin"></i>
+                  <span> Admin</span>
+               </a>
+            </li>
+         @else
+            <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
+               <a href="{{ url('auth/login') }}">
+                  <i style="font-size:1.5em" class="ft icon-admin"></i>
+                  <span> Login</span>
+               </a>
+            </li>
+         @endif
       </ul>
 
     </div>

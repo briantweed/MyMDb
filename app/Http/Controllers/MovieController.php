@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use DB;
+use Auth;
 use App\Movies;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -16,8 +17,8 @@ class MovieController extends Controller {
 			$movie->cover = $movie->cover == "" ? ucwords(substr($movie->sort_name,0,1)) : $movie->cover;
 			$movie->cover_count = strlen($movie->cover);
 		}
-		return view( 'lists.movies.index', compact('movies'));
-		// return $movies;
+		$user = $this->checkUserDetails();
+		return view( 'lists.movies.index', compact('movies','user'));
 	}
 
 	public function show($id)
@@ -31,7 +32,8 @@ class MovieController extends Controller {
 		$movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
 		$movie->viewed = date("jS F Y @ H:i",strtotime(DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date')));
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
-		return view('lists.movies.show', compact('movie'));
+		$user = $this->checkUserDetails();
+		return view('lists.movies.show', compact('movie','user'));
 	}
 
 	public function create()
@@ -40,7 +42,8 @@ class MovieController extends Controller {
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
 		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
-		return view('lists.movies.create', compact('fields', 'certificates', 'studios', 'formats'));
+		$user = $this->checkUserDetails();
+		return view('lists.movies.create', compact('fields', 'certificates', 'studios', 'formats','user'));
 	}
 
 	public function store(ValidateCreateMovie $request)
@@ -67,7 +70,8 @@ class MovieController extends Controller {
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
 		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
-		return view('lists.movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats'));
+		$user = $this->checkUserDetails();
+		return view('lists.movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats','user'));
 	}
 
 	public function update($id, ValidateCreateMovie $request)
@@ -78,6 +82,17 @@ class MovieController extends Controller {
 							  ->with('status', 'Movie Updated Successfully');
 	}
 
+
+	/*
+	| --------------------------------------------------
+	|		Private Functions
+	| --------------------------------------------------
+	*/
+
+	private function checkUserDetails()
+	{
+		return Auth::check() ? ( Auth::user() ? Auth::user() : false ) : false;
+	}
 
 	private function makeRatingStars($rating)
 	{

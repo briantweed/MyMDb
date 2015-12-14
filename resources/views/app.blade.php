@@ -12,6 +12,7 @@
    <body>
 
       @include('segments.nav')
+
       <div class="container">
 
          <div class="main-content">
@@ -42,7 +43,7 @@
 
             });
          </script>
-         
+
          <script>
             @yield('jquery')
          </script>
