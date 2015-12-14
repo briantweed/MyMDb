@@ -9,7 +9,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" data-toggle='tooltip' data-placement='bottom' title='Home' href="{{ action('MovieController@index') }}"><i class="ft icon-movie"></i>MyMDb</a>
+      <a class="navbar-brand" href="{{ action('MovieController@index') }}"><i class="ft icon-movie"></i> MyMDb</a>
    </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -47,7 +47,7 @@
          @else
             <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
                <a href="{{ url('auth/login') }}">
-                  <i style="font-size:1.5em" class="ft icon-admin"></i>
+                  <i style="font-size:1.5em" class="ft icon-popcorn"></i>
                   <span> Login</span>
                </a>
             </li>
