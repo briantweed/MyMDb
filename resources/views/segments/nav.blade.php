@@ -44,16 +44,16 @@
                   <span> Admin</span>
                </a>
             </li>
-            <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
+            <li class="{{Request::is('auth*') ? 'logout-active' : 'logout-normal'}}">
                <a href="{{ url('auth/logout') }}">
-                  <i style="font-size:1.5em" class="ft icon-login"></i>
+                  <i style="font-size:1.5em" class="ft icon-empire"></i>
                   <span> Logout</span>
                </a>
             </li>
          @else
-            <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
+            <li class="{{Request::is('auth*') ? 'login-active' : 'login-normal'}}">
                <a href="{{ url('auth/login') }}">
-                  <i style="font-size:1.5em" class="ft icon-popcorn"></i>
+                  <i style="font-size:1.5em" class="ft icon-rebel"></i>
                   <span> Login</span>
                </a>
             </li>

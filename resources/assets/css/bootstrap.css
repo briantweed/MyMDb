@@ -5826,6 +5826,9 @@ button.close {
 |  Animation
 |----------------------------------------------------------------------
 */
+.ft-1x {
+  font-size: 1em; }
+
 .ft-2x {
   font-size: 2em; }
 
@@ -5834,9 +5837,6 @@ button.close {
 
 .ft-4x {
   font-size: 4em; }
-
-.ft-5x {
-  font-size: 5em; }
 
 .spin {
   -webkit-animation: fa-spin 2s infinite linear;
@@ -6474,6 +6474,26 @@ div.margin-bottom {
 
 .navbar-default li.admin-normal a:hover i {
   color: #356DE3; }
+
+.navbar-default li.login-active a {
+  color: #222; }
+  .navbar-default li.login-active a i {
+    color: #000000; }
+    .navbar-default li.login-active a i:hover {
+      color: #000000; }
+
+.navbar-default li.login-normal a:hover i {
+  color: #000000; }
+
+.navbar-default li.logout-active a {
+  color: #222; }
+  .navbar-default li.logout-active a i {
+    color: #000000; }
+    .navbar-default li.logout-active a i:hover {
+      color: #000000; }
+
+.navbar-default li.logout-normal a:hover i {
+  color: #000000; }
 
 .navbar-default li.searchbar {
   padding: 10px 25px 10px 20px; }

@@ -30,6 +30,13 @@ class AuthController extends Controller
      *
      * @return void
      */
+
+     public function getRegister()
+     {
+         if( env('DENY_REGISTER') ) return redirect('/');
+         else return view('auth.register');
+      }
+
     public function __construct()
     {
         $this->middleware('guest', ['except' => 'getLogout']);
