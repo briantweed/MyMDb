@@ -31,6 +31,10 @@
                   delay: { "show": 500, "hide": 100 }
                });
 
+               $('.daforce').click( function() {
+                  alert("The Force is strong with this one.");
+               });
+
                // $('#ajaxContent').load('http://www.example.com/paginated/data');
                //
                // $('.pagination a').on('click', function (event) {

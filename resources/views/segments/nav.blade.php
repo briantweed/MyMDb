@@ -27,7 +27,7 @@
          </li>
          <li class="{{Request::is('lists/people*') ? 'people-active' : 'people-normal'}}">
             <a href="{{ action('PersonController@index') }}">
-               <i style="font-size:1.5em" class="ft icon-view-user"></i>
+               <i style="font-size:1.5em" class="ft icon-person"></i>
                <span> People</span>
             </a>
          </li>
