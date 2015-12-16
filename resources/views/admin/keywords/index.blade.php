@@ -6,6 +6,17 @@
    All keywords
 @stop
 
+{{-- Subnav --}}
+@section('subnav-left')
+   @include('segments.links.genres')
+   @include('segments.links.studios')
+   @include('segments.links.keywords')
+   @include('segments.links.viewings')
+@stop
+
+@section('subnav-right')
+   @include('segments.links.logout')
+@stop
 
 {{-- Main Body --}}
 @section('content')

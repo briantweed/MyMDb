@@ -44,12 +44,14 @@
                   <span> Admin</span>
                </a>
             </li>
-            <li class="{{Request::is('auth*') ? 'logout-active' : 'logout-normal'}}">
+         @endif
+         @if(isset($user) && $user!=false)
+            {{-- <li class="{{Request::is('auth*') ? 'logout-active' : 'logout-normal'}}">
                <a href="{{ url('auth/logout') }}">
                   <i style="font-size:1.5em" class="ft icon-empire"></i>
                   <span> Logout</span>
                </a>
-            </li>
+            </li> --}}
          @else
             <li class="{{Request::is('auth*') ? 'login-active' : 'login-normal'}}">
                <a href="{{ url('auth/login') }}">
@@ -76,7 +78,7 @@
             @yield('subnav-left')
          </div>
 
-         <div class="hidden-xs col-sm-6 col-md-5 col-lg-4">
+         <div class="hidden-xs col-sm-6 col-md-5 col-lg-4 text-right">
             @yield('subnav-right')
          </div>
 

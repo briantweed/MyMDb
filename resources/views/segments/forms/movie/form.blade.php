@@ -10,7 +10,10 @@
                @if($movie->cover_count == 1)
                   <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->movie_name}}" />
                @else
-                  <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" alt="{{$movie->movie_name}}" />
+                  <img id="movie-poster" class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" alt="{{$movie->movie_name}}" />
+                  @if( Request::is('lists/movies/*/edit'))
+                     @include('segments.buttons.edit_image')
+                  @endif
                @endif
             @else
                <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">

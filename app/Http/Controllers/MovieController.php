@@ -23,6 +23,7 @@ class MovieController extends Controller {
 	public function show($id)
 	{
 		$movie = DB::table('movie_details')->where('movie_id', $id)->first();
+		if(!$movie) return view('errors.404');
 		$movie->cover = $movie->cover == "" ? ucwords(substr($movie->sort_name,0,1)) : $movie->cover;
 		$movie->cover_count = strlen($movie->cover);
 		$movie->cast = DB::table('movie_cast')->where('movie_id', $id)->get();

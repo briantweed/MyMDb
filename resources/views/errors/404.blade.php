@@ -30,20 +30,18 @@
       <div class="container">
 
          <div class="main-content">
-            @yield('content')
+            <div class="row">
+               <div class="col-xs-8 col-xs-offset-2">
+                  <p style="font-style:italic; font-size:2.5em">"This is not the page you're looking for."</p>
+                  <p style="text-align: right"><a href="{{ action('MovieController@show', 10) }}">Star Wars (1977)</a></p>
+               </div>
+            </div>
          </div>
 
          {!! Html::script('js/jquery.min.js') !!}
          {!! Html::script('js/bootstrap.min.js') !!}
          {!! Html::script('js/waves.js') !!}
-
-         @yield('extensions')
-
          {!! Html::script('js/setup.js') !!}
-
-         <script>
-            @yield('jquery')
-         </script>
 
       </div>
 
