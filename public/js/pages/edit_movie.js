@@ -1,6 +1,3 @@
-Waves.attach('.side-buttons .btn', ['waves-circle']);
-Waves.attach('.search-bar-container a, .nav li',['waves-button'])
-Waves.init();
 
 var featherEditor = new Aviary.Feather({
    apiKey: 'b7b206d4-0932-4bfa-b21e-a4ad8b87bf56',

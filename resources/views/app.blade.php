@@ -27,6 +27,12 @@
 
       @include('segments.nav')
 
+      @if(Request::is('admin*'))
+          @include('segments.subnav_admin')
+      @else
+          @include('segments.subnav_main')
+      @endif
+
       <div class="container">
 
          <div class="main-content">
@@ -39,6 +45,13 @@
          {!! Html::script('js/setup.js') !!}
 
          @yield('extensions')
+
+         <script>
+            Waves.attach('.movie',['waves-light']);
+            Waves.attach('.side-buttons .btn', ['waves-circle']);
+            Waves.attach('.search-bar-container a, .nav li',['waves-button'])
+            Waves.init();
+         </script>
 
          <script>
             @yield('jquery')

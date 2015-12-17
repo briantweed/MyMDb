@@ -23,15 +23,7 @@
 
 {{-- Main Body --}}
 @section('content')
-
    {!! Form::open(['url'=>'lists/movies','files' => true]) !!}
       @include('segments.forms.movie.form')
    {!! Form::close() !!}
-
-@stop
-
-
-{{-- Jquery --}}
-@section('jquery')
-   {!! Html::script('js/pages/create_movie.js') !!}
 @stop

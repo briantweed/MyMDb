@@ -48,8 +48,3 @@
    </div>
 
 @stop
-
-{{-- Jquery --}}
-@section('jquery')
-   {!! Html::script('js/pages/index_movie.js') !!}
-@stop
