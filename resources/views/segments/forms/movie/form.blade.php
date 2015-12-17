@@ -22,12 +22,12 @@
 
       </div>
 
-      <hr/>
-
       <div class="side-buttons">
 
          {{-- delete button --}}
          @if( Request::is('movies/*/edit'))
+            <hr/>
+
             @include('segments.buttons.delete')
          @endif
 

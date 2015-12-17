@@ -261,6 +261,10 @@ h2, h3, h4, h5 {
    border-bottom: $border-color;
 }
 
+a:focus {
+   outline: 0;
+}
+
 hr {
  border-top: $border-color;
 }
@@ -405,7 +409,7 @@ div.search-bar-container {
 }
 
 div.main-content {
-   margin-top: 120px;
+   margin-top: 130px;
 }
 
 .pagination {

@@ -6402,6 +6402,9 @@ h2, h3, h4, h5 {
   margin: 10px 0 15px 0;
   border-bottom: 1px solid #999; }
 
+a:focus {
+  outline: 0; }
+
 hr {
   border-top: 1px solid #999; }
 
@@ -6516,7 +6519,7 @@ div.search-bar-container {
     padding: 0 6px; }
 
 div.main-content {
-  margin-top: 120px; }
+  margin-top: 130px; }
 
 .pagination {
   margin: 0; }

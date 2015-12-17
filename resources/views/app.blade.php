@@ -39,28 +39,13 @@
             @yield('content')
          </div>
 
-         {!! Html::script('js/jquery.min.js') !!}
-         {!! Html::script('js/bootstrap.min.js') !!}
+         {!! Html::script('js/jquery.js') !!}
+         {!! Html::script('js/bootstrap.js') !!}
          {!! Html::script('js/waves.js') !!}
+         {!! Html::script('js/autosize.js') !!}
          {!! Html::script('js/setup.js') !!}
 
          @yield('extensions')
-
-         <script>
-            Waves.attach('li.movie', ['waves-light']);
-            Waves.attach('.side-buttons .btn', ['waves-circle']);
-            Waves.attach('.search-bar-container a, .nav li',['waves-button'])
-            Waves.init();
-
-            $(document).ready(function(){
-               $('#showDetails').click(function(){
-                  $('#movie-details').slideToggle();
-               });
-
-               $('.alert-success').delay(3000).slideUp(250);
-            });
-
-         </script>
 
          <script>
             @yield('jquery')

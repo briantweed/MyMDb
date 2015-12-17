@@ -13,7 +13,7 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   &nbsp;
+   @include('segments.links.back_movie')
 @stop
 
 @section('subnav-right')

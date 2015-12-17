@@ -10,7 +10,7 @@ class MovieController extends Controller {
 
 	public function index()
 	{
-		$movies = DB::table('movie_details')->paginate(24);
+		$movies = DB::table('movie_details')->paginate(48);
 		foreach($movies as $movie)
 		{
 			$movie->cover = $movie->cover == "" ? ucwords(substr($movie->sort_name,0,1)) : $movie->cover;
