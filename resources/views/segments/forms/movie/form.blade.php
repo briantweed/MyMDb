@@ -26,8 +26,10 @@
 
       <div class="side-buttons">
 
-         {{-- back button --}}
-         @include('segments.buttons.back')
+         {{-- delete button --}}
+         @if( Request::is('movies/*/edit'))
+            @include('segments.buttons.delete')
+         @endif
 
          {{-- padding --}}
          @include('segments.layout.padding')

@@ -11,7 +11,7 @@ Route::get('/admin', 'StudioController@index');
 
 Route::post('aviary', 'AviaryController@replaceImage');
 
-Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update']]);
+Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 Route::resource('people', 'PersonController', ['only'=>['index','show']]);
 Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);
 

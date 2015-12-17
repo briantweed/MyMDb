@@ -47,10 +47,19 @@
          @yield('extensions')
 
          <script>
-            Waves.attach('.movie',['waves-light']);
+            Waves.attach('li.movie', ['waves-light']);
             Waves.attach('.side-buttons .btn', ['waves-circle']);
             Waves.attach('.search-bar-container a, .nav li',['waves-button'])
             Waves.init();
+
+            $(document).ready(function(){
+               $('#showDetails').click(function(){
+                  $('#movie-details').slideToggle();
+               });
+
+               $('.alert-success').delay(3000).slideUp(250);
+            });
+
          </script>
 
          <script>

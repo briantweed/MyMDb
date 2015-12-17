@@ -5951,8 +5951,7 @@ button.close {
     display: block;
     float: left;
     height: auto;
-    padding: 0.5em;
-    margin-bottom: 0.5em; }
+    padding: 0.1em 0.5em; }
 
 @media (min-width: 0px) {
   .xs-block-grid-1 > li {
@@ -6559,7 +6558,8 @@ li.movie span.title-wrapper {
   display: block;
   font-size: 0.8em;
   text-align: center;
-  height: 3em; }
+  height: 3em;
+  line-height: 1.2; }
 
 /*
 |----------------------------------------------------------------------
@@ -6609,11 +6609,11 @@ div.movie input[type="file"] {
 
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?67761854');
-  src: url('../font/fontello.eot?67761854#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff?67761854') format('woff'),
-       url('../font/fontello.ttf?67761854') format('truetype'),
-       url('../font/fontello.svg?67761854#fontello') format('svg');
+  src: url('../font/fontello.eot?16607082');
+  src: url('../font/fontello.eot?16607082#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?16607082') format('woff'),
+       url('../font/fontello.ttf?16607082') format('truetype'),
+       url('../font/fontello.svg?16607082#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -6623,7 +6623,7 @@ div.movie input[type="file"] {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?67761854#fontello') format('svg');
+    src: url('../font/fontello.svg?16607082#fontello') format('svg');
   }
 }
 */
@@ -6692,12 +6692,13 @@ div.movie input[type="file"] {
 .icon-person:before { content: '\e81a'; } /* '' */
 .icon-comm:before { content: '\e81b'; } /* '' */
 .icon-delete-movie:before { content: '\e81c'; } /* '' */
-.icon-movie:before { content: '\e81e'; } /* '' */
-.icon-star:before { content: '\e81f'; } /* '' */
-.icon-star-half:before { content: '\e820'; } /* '' */
-.icon-character:before { content: '\e821'; } /* '' */
-.icon-loading:before { content: '\e822'; } /* '' */
-.icon-rebel:before { content: '\e824'; } /* '' */
-.icon-add-user:before { content: '\e825'; } /* '' */
-.icon-empire:before { content: '\e826'; } /* '' */
-.icon-calendar:before { content: '\e827'; } /* '' */
+.icon-movie:before { content: '\e81d'; } /* '' */
+.icon-star:before { content: '\e81e'; } /* '' */
+.icon-star-half:before { content: '\e81f'; } /* '' */
+.icon-character:before { content: '\e820'; } /* '' */
+.icon-loading:before { content: '\e821'; } /* '' */
+.icon-rebel:before { content: '\e822'; } /* '' */
+.icon-add-user:before { content: '\e823'; } /* '' */
+.icon-empire:before { content: '\e824'; } /* '' */
+.icon-calendar:before { content: '\e825'; } /* '' */
+.icon-home:before { content: '\e826'; } /* '' */

@@ -10,7 +10,7 @@ class MovieController extends Controller {
 
 	public function index()
 	{
-		$movies = DB::table('movie_details')->paginate(48);
+		$movies = DB::table('movie_details')->paginate(24);
 		foreach($movies as $movie)
 		{
 			$movie->cover = $movie->cover == "" ? ucwords(substr($movie->sort_name,0,1)) : $movie->cover;
@@ -49,21 +49,28 @@ class MovieController extends Controller {
 	public function store(ValidateCreateMovie $request)
 	{
 		$data = $request->all();
-		if ($request->file('movie_image_path')->isValid()) {
-			$image_name = $this->createImageName($request->movie_sort_name);
-			$image = $request->file('movie_image_path')->move('images/covers', $image_name);
-			$data['movie_image_path'] = $image_name;
+		$data['movie_sort_name'] = $data['movie_sort_name']=="" ? $data['movie_name'] : $data['movie_sort_name'];
+		if($request->hasFile('movie_image_path'))
+		{
+			if ($request->file('movie_image_path')->isValid()) {
+				$image_name = $this->createImageName($data['movie_sort_name']);
+				$image = $request->file('movie_image_path')->move('images/covers', $image_name);
+				$data['movie_image_path'] = $image_name;
+			}
 		}
 		$data['movie_duplicate'] = $this->checkForDuplicateTitle($request->movie_name);
+		foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
+		unset($value);
 		$update = Movies::create($data);
 		$inserted_id = $update->movie_id;
-		return redirect()->action('MovieController@show', [$inserted_id])
+		return redirect()->action('MovieController@edit', [$inserted_id])
 							  ->with('status', 'Movie Added Successfully');
 	}
 
 	public function edit($id)
 	{
 		$movie = DB::table('movies')->where('movie_id', $id)->first();
+		if(!$movie) return view('errors.404');
 		$movie->cover = $movie->movie_image_path == "" ? ucwords(substr($movie->movie_sort_name,0,1)) : $movie->movie_image_path;
 		$movie->cover_count = strlen($movie->cover);
 		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
@@ -77,11 +84,25 @@ class MovieController extends Controller {
 	public function update($id, ValidateCreateMovie $request)
 	{
 		$movie = Movies::findorfail($id);
-		$movie->update($request->all());
-		return redirect()->action('MovieController@show', [$id])
+		$data = $request->all();
+		$data['movie_sort_name'] = $data['movie_sort_name']=="" ? $data['movie_name'] : $data['movie_sort_name'];
+		if($request->hasFile('movie_image_path'))
+		{
+			if($request->file('movie_image_path')->isValid())
+			{
+				$image_name = $this->createImageName($data['movie_sort_name']);
+				$image = $request->file('movie_image_path')->move('images/covers', $image_name);
+				$data['movie_image_path'] = $image_name;
+			}
+		}
+		$movie->update($data);
+		return redirect()->action('MovieController@edit', [$id])
 							  ->with('status', 'Movie Updated Successfully');
 	}
 
+	public function destroy($id) {
+		return $id;
+	}
 
 	/*
 	| --------------------------------------------------

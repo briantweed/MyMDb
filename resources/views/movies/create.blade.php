@@ -23,7 +23,7 @@
 
 {{-- Main Body --}}
 @section('content')
-   {!! Form::open(['url'=>'lists/movies','files' => true]) !!}
+   {!! Form::open(['url'=>'movies','files' => true]) !!}
       @include('segments.forms.movie.form')
    {!! Form::close() !!}
 @stop

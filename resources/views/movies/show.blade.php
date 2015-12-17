@@ -16,6 +16,8 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
+   @include('segments.links.back_movie')
+   @include('segments.links.add_movie')
    @include('segments.links.edit_movie')
 @stop
 
@@ -53,18 +55,13 @@
 
          <div class="side-buttons">
             {{-- back button --}}
-            @include('segments.buttons.back')
+            @include('segments.buttons.home')
 
             {{-- edit button --}}
             @include('segments.buttons.edit')
 
             {{-- view button --}}
             @include('segments.buttons.view')
-
-            <hr/>
-
-            {{-- delete button --}}
-            @include('segments.buttons.delete')
 
             {{-- padding --}}
             @include('segments.layout.padding')

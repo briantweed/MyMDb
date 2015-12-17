@@ -159,8 +159,7 @@ $logout-link: #000000; // black
       display: block;
       float: left;
       height: auto;
-      padding: 0.5em;
-      margin-bottom: 0.5em;
+      padding: 0.1em 0.5em;
    }
 }
 
@@ -439,6 +438,7 @@ li.movie {
       font-size: 0.8em;
       text-align: center;
       height: 3em;
+      line-height: 1.2;
    }
 
 }

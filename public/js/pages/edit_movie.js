@@ -7,7 +7,7 @@ var featherEditor = new Aviary.Feather({
    ],
    displayImageSize: true,
    noCloseButton: false,
-   onClose: function(){
+   onReady: function(){
       $('#movie-poster').addClass('img-responsive');
    },
    onSave: function(imageID, newUrl) {
@@ -21,7 +21,7 @@ var featherEditor = new Aviary.Feather({
             src: $('#movie-poster').attr('src')
          }
      }).done(function(json) {
-        $('#movie-poster').addClass('img-responsive').prop("src", json.src+"?"+json.time);
+        $('#movie-poster').prop("src", json.src+"?"+json.time);
         featherEditor.close();
      });
    }
