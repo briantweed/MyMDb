@@ -17,7 +17,7 @@ class MovieController extends Controller {
 			$movie->cover_count = strlen($movie->cover);
 		}
 		$user = $this->checkUserDetails();
-		return view( 'lists.movies.index', compact('movies','user'));
+		return view( 'movies.index', compact('movies','user'));
 	}
 
 	public function show($id)
@@ -33,7 +33,7 @@ class MovieController extends Controller {
 		$movie->viewed = date("jS F Y @ H:i",strtotime(DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date')));
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
 		$user = $this->checkUserDetails();
-		return view('lists.movies.show', compact('movie','user'));
+		return view('movies.show', compact('movie','user'));
 	}
 
 	public function create()
@@ -43,7 +43,7 @@ class MovieController extends Controller {
 		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
 		$user = $this->checkUserDetails();
-		return view('lists.movies.create', compact('fields', 'certificates', 'studios', 'formats','user'));
+		return view('movies.create', compact('fields', 'certificates', 'studios', 'formats','user'));
 	}
 
 	public function store(ValidateCreateMovie $request)
@@ -71,7 +71,7 @@ class MovieController extends Controller {
 		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
 		$user = $this->checkUserDetails();
-		return view('lists.movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats','user'));
+		return view('movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats','user'));
 	}
 
 	public function update($id, ValidateCreateMovie $request)

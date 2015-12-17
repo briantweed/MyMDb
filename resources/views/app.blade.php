@@ -36,10 +36,9 @@
          {!! Html::script('js/jquery.min.js') !!}
          {!! Html::script('js/bootstrap.min.js') !!}
          {!! Html::script('js/waves.js') !!}
+         {!! Html::script('js/setup.js') !!}
 
          @yield('extensions')
-
-         {!! Html::script('js/setup.js') !!}
 
          <script>
             @yield('jquery')

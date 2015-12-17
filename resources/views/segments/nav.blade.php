@@ -19,19 +19,19 @@
          <li class="hidden-sm hidden-md hidden-lg searchbar">
             @include('segments.layout.search_bar')
          </li>
-         <li class="{{Request::is('lists/movies*') ? 'movies-active' : 'movies-normal'}}">
+         <li class="{{Request::is('movies*') ? 'movies-active' : 'movies-normal'}}">
             <a href="{{ action('MovieController@index') }}">
                <i style="font-size:1.5em" class="ft icon-view-movie"></i>
                <span> Movies</span>
             </a>
          </li>
-         <li class="{{Request::is('lists/people*') ? 'people-active' : 'people-normal'}}">
+         <li class="{{Request::is('people*') ? 'people-active' : 'people-normal'}}">
             <a href="{{ action('PersonController@index') }}">
                <i style="font-size:1.5em" class="ft icon-person"></i>
                <span> People</span>
             </a>
          </li>
-         <li class="{{Request::is('lists/characters*') ? 'character-active' : 'character-normal'}}">
+         <li class="{{Request::is('characters*') ? 'character-active' : 'character-normal'}}">
             <a href="{{ action('CharacterController@index') }}">
                <i style="font-size:1.5em" class="ft icon-character"></i>
                <span> Characters</span>

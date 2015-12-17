@@ -11,7 +11,7 @@
                   <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->movie_name}}" />
                @else
                   <img id="movie-poster" class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" alt="{{$movie->movie_name}}" />
-                  @if( Request::is('lists/movies/*/edit'))
+                  @if( Request::is('movies/*/edit'))
                      @include('segments.buttons.edit_image')
                   @endif
                @endif
@@ -19,6 +19,7 @@
                <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
             @endif
          </div>
+
       </div>
 
       <hr/>
