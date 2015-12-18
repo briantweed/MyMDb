@@ -10,6 +10,7 @@ Route::get('/', 'MovieController@index');
 Route::get('/admin', 'StudioController@index');
 
 Route::post('aviary', 'AviaryController@replaceImage');
+Route::post('filter', 'FilterController@filterMovies');
 
 Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 Route::resource('people', 'PersonController', ['only'=>['index','show']]);

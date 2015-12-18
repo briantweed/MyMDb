@@ -22,6 +22,8 @@
 {{-- Main Body --}}
 @section('content')
 
+   <meta name="_token" content="{!! csrf_token() !!}" />
+
    <div class="row">
       <div class="col-xs-12">
          <ul class="xs-block-grid-3 sm-block-grid-6 md-block-grid-8 lg-block-grid-8">
@@ -46,5 +48,8 @@
          {!! $movies->render() !!}
       </div>
    </div>
+
+   {{-- padding --}}
+   @include('segments.layout.padding')
 
 @stop

@@ -15,7 +15,16 @@ $(document).ready( function() {
 
    // Temp code for the search button
    $('.daforce').click( function() {
-      alert("The Force is strong with this one.");
+      $.ajax({
+         type: "POST",
+         url: "/Laravel/public/filter",
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            val : $('#filter-movie').val(),
+         }
+     }).done(function(html) {
+        alert(html);
+     });
    });
 
    // Show array formatted movie details

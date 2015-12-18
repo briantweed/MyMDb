@@ -16,9 +16,7 @@
 
       <ul class="nav navbar-nav navbar-right">
          <li class="padding-li"></li>
-         <li class="hidden-sm hidden-md hidden-lg searchbar">
-            @include('segments.layout.search_bar')
-         </li>
+
          <li class="{{Request::is('movies*') ? 'movies-active' : 'movies-normal'}}">
             <a href="{{ action('MovieController@index') }}">
                <i style="font-size:1.5em" class="ft icon-view-movie"></i>

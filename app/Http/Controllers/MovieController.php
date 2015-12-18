@@ -115,6 +115,13 @@ class MovieController extends Controller {
 		return $id;
 	}
 
+	public function filter($var) {
+		return "HELLO";
+		if(Request::ajax()) {
+         $data = Request::all();
+			return $data;
+		}
+	}
 /*
 | --------------------------------------------------
 |		Private Functions
