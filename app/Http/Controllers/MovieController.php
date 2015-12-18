@@ -8,6 +8,14 @@ use App\Http\Requests\ValidateCreateMovie;
 
 class MovieController extends Controller {
 
+
+	public $isAdmin;
+
+	public function __construct()
+   {
+  	  $this->isAdmin = $this->checkUserDetails();
+   }
+
 	public function index()
 	{
 		$movies = DB::table('movie_details')->paginate(48);
@@ -16,7 +24,7 @@ class MovieController extends Controller {
 			$movie->cover = $movie->cover == "" ? ucwords(substr($movie->sort_name,0,1)) : $movie->cover;
 			$movie->cover_count = strlen($movie->cover);
 		}
-		$user = $this->checkUserDetails();
+		$user = $this->isAdmin;
 		return view( 'lists.movies.index', compact('movies','user'));
 	}
 
@@ -32,22 +40,24 @@ class MovieController extends Controller {
 		$movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
 		$movie->viewed = date("jS F Y @ H:i",strtotime(DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date')));
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
-		$user = $this->checkUserDetails();
+		$user = $this->isAdmin;
 		return view('lists.movies.show', compact('movie','user'));
 	}
 
 	public function create()
 	{
+		if(!$this->isAdmin) return view('auth.login');
 		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
 		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
-		$user = $this->checkUserDetails();
+		$user = $this->isAdmin;
 		return view('lists.movies.create', compact('fields', 'certificates', 'studios', 'formats','user'));
 	}
 
 	public function store(ValidateCreateMovie $request)
 	{
+		if(!$this->isAdmin) return view('auth.login');
 		$data = $request->all();
 		if ($request->file('movie_image_path')->isValid()) {
 			$image_name = $this->createImageName($request->movie_sort_name);
@@ -63,6 +73,7 @@ class MovieController extends Controller {
 
 	public function edit($id)
 	{
+		if(!$this->isAdmin) return view('auth.login');
 		$movie = DB::table('movies')->where('movie_id', $id)->first();
 		$movie->cover = $movie->movie_image_path == "" ? ucwords(substr($movie->movie_sort_name,0,1)) : $movie->movie_image_path;
 		$movie->cover_count = strlen($movie->cover);
@@ -70,12 +81,13 @@ class MovieController extends Controller {
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
 		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
-		$user = $this->checkUserDetails();
+		$user = $this->isAdmin;
 		return view('lists.movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats','user'));
 	}
 
 	public function update($id, ValidateCreateMovie $request)
 	{
+		if(!$this->isAdmin) return view('auth.login');
 		$movie = Movies::findorfail($id);
 		$movie->update($request->all());
 		return redirect()->action('MovieController@show', [$id])
