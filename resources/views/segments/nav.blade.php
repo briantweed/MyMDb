@@ -19,19 +19,19 @@
          <li class="hidden-sm hidden-md hidden-lg searchbar">
             @include('segments.layout.search_bar')
          </li>
-         <li class="{{Request::is('lists/movies*') ? 'movies-active' : 'movies-normal'}}">
+         <li class="{{Request::is('movies*') ? 'movies-active' : 'movies-normal'}}">
             <a href="{{ action('MovieController@index') }}">
                <i style="font-size:1.5em" class="ft icon-view-movie"></i>
                <span> Movies</span>
             </a>
          </li>
-         <li class="{{Request::is('lists/people*') ? 'people-active' : 'people-normal'}}">
+         <li class="{{Request::is('people*') ? 'people-active' : 'people-normal'}}">
             <a href="{{ action('PersonController@index') }}">
                <i style="font-size:1.5em" class="ft icon-person"></i>
                <span> People</span>
             </a>
          </li>
-         <li class="{{Request::is('lists/characters*') ? 'character-active' : 'character-normal'}}">
+         <li class="{{Request::is('characters*') ? 'character-active' : 'character-normal'}}">
             <a href="{{ action('CharacterController@index') }}">
                <i style="font-size:1.5em" class="ft icon-character"></i>
                <span> Characters</span>
@@ -67,23 +67,3 @@
   </div>
 
 </nav>
-
-<div class="search-bar-container">
-
-   <div class="container">
-
-      <div class="row">
-
-         <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8">
-            @yield('subnav-left')
-         </div>
-
-         <div class="hidden-xs col-sm-6 col-md-5 col-lg-4 text-right">
-            @yield('subnav-right')
-         </div>
-
-      </div>
-
-   </div>
-
-</div>

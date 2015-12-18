@@ -2,8 +2,8 @@
 
    $left_column  = "col-xs-12 col-sm-4 col-md-4 col-lg-3";
    $right_column = "col-xs-12 col-sm-8 col-md-8 col-lg-offset-1 col-lg-8";
-   $label_class  = "col-xs-6 col-sm-4 col-md-4 col-lg-3";
-   $input_class  = "col-xs-6 col-sm-8 col-md-8 col-lg-9"
+   $label_class  = "col-xs-12 col-sm-4 col-md-4 col-lg-3";
+   $input_class  = "col-xs-12 col-sm-8 col-md-8 col-lg-9"
 
 ?>
 
@@ -16,6 +16,8 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
+   @include('segments.links.back_movie')
+   @include('segments.links.add_movie')
    @include('segments.links.edit_movie')
 @stop
 
@@ -53,18 +55,13 @@
 
          <div class="side-buttons">
             {{-- back button --}}
-            @include('segments.buttons.back')
+            @include('segments.buttons.home')
 
             {{-- edit button --}}
             @include('segments.buttons.edit')
 
             {{-- view button --}}
             @include('segments.buttons.view')
-
-            <hr/>
-
-            {{-- delete button --}}
-            @include('segments.buttons.delete')
 
             {{-- padding --}}
             @include('segments.layout.padding')
@@ -228,11 +225,4 @@
 
    </div> {{-- end of movie row --}}
 
-@stop
-
-{{-- Jquery --}}
-@section('jquery')
-   Waves.attach('.side-buttons .btn', ['waves-circle']);
-   Waves.attach('.search-bar-container a, .nav li',['waves-button'])
-   Waves.init();
 @stop

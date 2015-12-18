@@ -27,19 +27,25 @@
 
       @include('segments.nav')
 
+      @if(Request::is('admin*'))
+          @include('segments.subnav_admin')
+      @else
+          @include('segments.subnav_main')
+      @endif
+
       <div class="container">
 
          <div class="main-content">
             @yield('content')
          </div>
 
-         {!! Html::script('js/jquery.min.js') !!}
-         {!! Html::script('js/bootstrap.min.js') !!}
+         {!! Html::script('js/jquery.js') !!}
+         {!! Html::script('js/bootstrap.js') !!}
          {!! Html::script('js/waves.js') !!}
+         {!! Html::script('js/autosize.js') !!}
+         {!! Html::script('js/setup.js') !!}
 
          @yield('extensions')
-
-         {!! Html::script('js/setup.js') !!}
 
          <script>
             @yield('jquery')

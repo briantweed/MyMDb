@@ -33,7 +33,7 @@
                      @else
                         <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" alt="{{$movie->name}}" />
                      @endif
-                     <span class="hidden-xs">{{$movie->name}} @if($movie->duplicate) ({{$movie->released}}) @endif</span>
+                     <span class="title-wrapper hidden-xs">{{$movie->name}} @if($movie->duplicate) ({{$movie->released}}) @endif</span>
                   </a>
                </li>
             @endforeach
@@ -47,11 +47,4 @@
       </div>
    </div>
 
-@stop
-
-{{-- Jquery --}}
-@section('jquery')
-   Waves.attach('.movie',['waves-light']);
-   Waves.attach('.search-bar-container a, .nav li',['waves-button']);
-   Waves.init();
 @stop

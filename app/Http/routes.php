@@ -6,14 +6,15 @@ Route::controllers([
 ]);
 
 Route::get('/', 'MovieController@index');
-Route::get('/lists', 'MovieController@index');
+Route::get('/', 'MovieController@index');
 Route::get('/admin', 'StudioController@index');
 
-Route::group(['prefix'=>'lists'], function() {
-	Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update']]);
-	Route::resource('people', 'PersonController', ['only'=>['index','show']]);
-	Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);
-});
+Route::post('aviary', 'AviaryController@replaceImage');
+
+Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
+Route::resource('people', 'PersonController', ['only'=>['index','show']]);
+Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);
+
 
 Route::group(['prefix'=>'admin'], function() {
 	Route::resource('keywords', 'KeywordController', ['only'=>['index','show']]);

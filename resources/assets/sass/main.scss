@@ -159,8 +159,7 @@ $logout-link: #000000; // black
       display: block;
       float: left;
       height: auto;
-      padding: 0.5em;
-      margin-bottom: 0.5em;
+      padding: 0.2em 0.5em;
    }
 }
 
@@ -260,6 +259,10 @@ h2, h3, h4, h5 {
    font-family: $subheader-font;
    margin: 10px 0 15px 0;
    border-bottom: $border-color;
+}
+
+a:focus {
+   outline: 0;
 }
 
 hr {
@@ -406,7 +409,7 @@ div.search-bar-container {
 }
 
 div.main-content {
-   margin-top: 120px;
+   margin-top: 130px;
 }
 
 .pagination {
@@ -430,7 +433,7 @@ li.movie {
    }
 
    img {
-      margin-bottom: 0.7em;
+      margin-bottom: 0.5em;
       box-shadow: $image-shadow;
    }
 
@@ -438,7 +441,8 @@ li.movie {
       display: block;
       font-size: 0.8em;
       text-align: center;
-      height: 3em;
+      height: 2.8em;
+      line-height: 1.2;
    }
 
 }

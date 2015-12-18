@@ -15,7 +15,7 @@ class PersonController extends Controller {
 		{
 			$person->birthday = date("jS F Y",strtotime($person->person_birthday));
 		}
-		return view( 'lists.people.index', compact('people'));
+		return view( 'people.index', compact('people'));
 	}
 
 	public function show($id)

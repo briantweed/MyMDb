@@ -1,5 +1,12 @@
+Waves.attach('li.movie', ['waves-light']);
+Waves.attach('.side-buttons .btn', ['waves-circle']);
+Waves.attach('.search-bar-container a, .nav li',['waves-button'])
+Waves.init();
 
 $(document).ready( function() {
+
+   // auto size text areas
+   $('#movie_bio').autosize();
 
    // Tooltip configuration
    $('[data-toggle="tooltip"]').tooltip({
@@ -10,6 +17,15 @@ $(document).ready( function() {
    $('.daforce').click( function() {
       alert("The Force is strong with this one.");
    });
+
+   // Show array formatted movie details
+   $('#showDetails').click(function(){
+      $("html, body").animate({ scrollTop: 0 });
+      $('#movie-details').slideToggle();
+   });
+
+   // Hide message boxes after 3 seconds
+   $('.alert-success').delay(3000).slideUp(750);
 
    // Mobile Safari in standalone mode
    if(("standalone" in window.navigator) && window.navigator.standalone) {

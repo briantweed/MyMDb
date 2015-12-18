@@ -11,7 +11,7 @@ class CharacterController extends Controller {
 	public function index()
 	{
 		$characters = Characters::all();
-		return view( 'lists.characters.index', compact('characters'));
+		return view( 'characters.index', compact('characters'));
 	}
 
 	public function show($id)

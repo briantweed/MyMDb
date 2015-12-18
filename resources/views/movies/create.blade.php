@@ -13,7 +13,7 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   &nbsp;
+   @include('segments.links.back_movie')
 @stop
 
 @section('subnav-right')
@@ -23,17 +23,7 @@
 
 {{-- Main Body --}}
 @section('content')
-
-   {!! Form::open(['url'=>'lists/movies','files' => true]) !!}
+   {!! Form::open(['url'=>'movies','files' => true]) !!}
       @include('segments.forms.movie.form')
    {!! Form::close() !!}
-
-@stop
-
-
-{{-- Jquery --}}
-@section('jquery')
-   Waves.attach('.side-buttons .btn', ['waves-circle']);
-   Waves.attach('.search-bar-container a, .nav li',['waves-button'])
-   Waves.init();
 @stop

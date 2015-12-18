@@ -18,7 +18,7 @@
 
 {{-- input --}}
 @section('input')
-   {!! Form::textarea($field, $value, ['class'=>'form-control']) !!}
+   {!! Form::textarea($field, $value, ['class'=>'form-control','rows'=>'3']) !!}
 @overwrite
 
 {{-- input extra classes --}}
