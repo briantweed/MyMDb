@@ -26,7 +26,6 @@
 {{-- Main Body --}}
 @section('content')
 
-   <input id="aviary-api-key" type="hidden" value="{{env('AVIARY_KEY')}}" />
 
    @if (session('status'))
        <div class="alert alert-success">
@@ -39,6 +38,7 @@
    </div>
 
    {!! Form::model($movie, ['method'=>'Patch','url'=>'movies/'.$movie->movie_id,'files' => true]) !!}
+      <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
       @include('segments.forms.movie.form')
    {!! Form::close() !!}
 @stop
