@@ -86,6 +86,22 @@ class TestDataSeeder extends Seeder
       }, $keywords); // end of Keywords
 
 
+
+      if( DB::table('quotes')->count() ) DB::table('quotes')->truncate();
+      $quotes = [
+         ['9','Sooner or later you&#039;re going to realize that there&#039;s a difference between knowing the page and finding the page.'],
+         ['10','This is not the page you&#039;re looking for'],
+         ['22','What&#039;s wrong? Have some trouble?'],
+         ['37','Empty. The opposite of full. This page is supposed to be full! Anyone care to explain?'],
+      ];
+      array_map( function( $quote ) {
+         DB::table('quotes')->insert([
+            'quote_movie_id' => $quote[0],
+            'quote_text' => $quote[1]
+         ]);
+      }, $quotes); // end of Quotes
+
+
       //  Tags
       if( DB::table('tags')->count() ) DB::table('tags')->truncate();
       $tags = [ ['3', '1'], ['4', '1'], ['5', '1'], ['6', '1'], ['1', '2'], ['1', '3'],['11', '4'] ];

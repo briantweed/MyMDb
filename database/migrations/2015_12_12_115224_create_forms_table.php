@@ -5,7 +5,6 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateFormsTable extends Migration
 {
-
    public function up()
    {
       Schema::create('forms', function(Blueprint $table)
