@@ -1,13 +1,19 @@
+
+// Initial setup of wave buttons
 Waves.attach('li.movie', ['waves-light']);
 Waves.attach('.side-buttons .btn', ['waves-circle']);
 Waves.attach('.search-bar-container a, .nav li',['waves-button'])
 Waves.init();
 
-$(document).bind('keypress', function(e) {
-   if(e.keyCode==13) $('.filter-movie-start').trigger('click');
-   if(e.keyCode==27) {
-      $('#filter-movie').val("");
+// Run search with Enter. Reload page with Escape.
+$(document).bind('keypress', function(event) {
+   if(event.keyCode==13) {
+      event.preventDefault();
       $('.filter-movie-start').trigger('click');
+   }
+   if(event.keyCode==27) {
+      event.preventDefault();
+      window.location.reload(true);
    }
 });
 
@@ -15,8 +21,6 @@ $(document).ready( function() {
 
    // auto size text areas
    $('#movie_bio').autosize();
-
-
 
    // Tooltip configuration
    $('[data-toggle="tooltip"]').tooltip({
@@ -34,6 +38,7 @@ $(document).ready( function() {
          }
      }).done(function(html) {
         $('.main-content').html(html);
+        // Reattach waves
         Waves.attach('li.movie', ['waves-light']);
      });
    });
