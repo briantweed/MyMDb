@@ -37,7 +37,8 @@ class MovieController extends Controller {
 		$movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
 		$movie->genres = DB::table('movie_categories')->where('movie_id', $id)->get();
 		$movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
-		$movie->viewed = date("jS F Y @ H:i",strtotime(DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date')));
+		$last_viewed = DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date');
+		$movie->viewed = $last_viewed != "" ? date("jS F Y @ H:i", strtotime($last_viewed)) : NULL;
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
 		$user = $this->isAdmin;
 		return view('movies.show', compact('movie','user'));
