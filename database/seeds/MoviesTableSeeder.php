@@ -48,7 +48,9 @@ class MoviesTableSeeder extends Seeder {
 				['Black Swan','Black Swan','2010','Black_Swan_1450379048.jpg','108','7','6','2','23	','A committed dancer wins the lead role in a production of Tchaikovsky&#039;s Swan Lake only to find herself struggling to maintain her sanity.'],
 				['Bad Lieutenant','Bad Lieutenant','2009','Bad_Lieutenant_1450379307.jpg','122','5','7','2','8','Terence McDonagh is a drug- and gambling-addled detective in post-Katrina New Orleans investigating the killing of five Senegalese immigrants.'],
 				['The Fifth Element','Fifth Element','1997','Fifth_Element_1450452578.jpg','126','7','3','1','24','In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr Zorg at bay.'],
-				
+				['The Cabin in the Woods','Cabin in the Woods','2012','Cabin_In_The_Woods_1450460205.jpg','95','8','6','2','8','Five friends go for a break at a remote cabin in the woods, where they get more than they bargained for. Together, they must discover the truth behind the cabin in the woods.'],
+				['Candyman','Candyman','1992','Candyman_1450460417.jpg','99','7','7','2','25','The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster&#039;s myth.'],
+				['Carlito&#039;s Way','Carlitos Way','1993','Carlitos_Way_1450460535.jpg','144','6','7','2','18','A Puerto Rican former convict, just released from prison, pledges to stay away from drugs and violence despite the pressure around him and lead on to a better life outside of N.Y.C.'], 
 			];
 
 			array_map( function( $movie ) {

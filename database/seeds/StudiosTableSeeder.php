@@ -12,7 +12,7 @@ class StudiosTableSeeder extends Seeder {
 			$studios = ['20th Century Fox','Canon','Columbia','Disney','Disney Marvel',
 				'Disney Pixar','Dreamworks','Lionsgate','MGM','New Line Cinema', 'Orion','Paramount','Sony','Summit',
 				'Tri-Star','Touchstone','United Artist','Universal','Warner Brothers','Manga Entertainment','Unknown',
-				'Independent','Fox Searchlight','Gaumont','Pathe'];
+				'Independent','Fox Searchlight','Gaumont','Pathe','Polygram'];
 
 			array_map( function( $studio ) {
 				DB::table('studios')->insert([
