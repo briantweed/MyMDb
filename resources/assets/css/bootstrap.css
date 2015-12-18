@@ -6414,6 +6414,13 @@ textarea {
 div.margin-bottom {
   margin-bottom: 1em; }
 
+p.error-quote {
+  font-style: italic;
+  font-size: 2.4em; }
+
+p.error-link {
+  text-align: right; }
+
 .navbar {
   min-height: 56px;
   margin-bottom: 0; }

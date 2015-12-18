@@ -47,7 +47,8 @@ class MoviesTableSeeder extends Seeder {
 				['The Dark Knight Rises','Batman 7','2012','Batman_7_1450376745.jpg','164','6','5','2','19','Eight years after the Joker&#039;s reign of anarchy, the Dark Knight is forced to return from his imposed exile to save Gotham City from the brutal guerrilla terrorist Bane with the help of the enigmatic Selina.'],
 				['Black Swan','Black Swan','2010','Black_Swan_1450379048.jpg','108','7','6','2','23	','A committed dancer wins the lead role in a production of Tchaikovsky&#039;s Swan Lake only to find herself struggling to maintain her sanity.'],
 				['Bad Lieutenant','Bad Lieutenant','2009','Bad_Lieutenant_1450379307.jpg','122','5','7','2','8','Terence McDonagh is a drug- and gambling-addled detective in post-Katrina New Orleans investigating the killing of five Senegalese immigrants.'],
-
+				['The Fifth Element','Fifth Element','1997','Fifth_Element_1450452578.jpg','126','7','3','1','24','In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr Zorg at bay.'],
+				
 			];
 
 			array_map( function( $movie ) {

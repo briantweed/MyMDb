@@ -3,18 +3,28 @@ Waves.attach('.side-buttons .btn', ['waves-circle']);
 Waves.attach('.search-bar-container a, .nav li',['waves-button'])
 Waves.init();
 
+$(document).bind('keypress', function(e) {
+   if(e.keyCode==13) $('.filter-movie-start').trigger('click');
+   if(e.keyCode==27) {
+      $('#filter-movie').val("");
+      $('.filter-movie-start').trigger('click');
+   }
+});
+
 $(document).ready( function() {
 
    // auto size text areas
    $('#movie_bio').autosize();
+
+
 
    // Tooltip configuration
    $('[data-toggle="tooltip"]').tooltip({
       delay: { "show": 500, "hide": 100 }
    });
 
-   // Temp code for the search button
-   $('.daforce').click( function() {
+   // Movie search filter
+   $('.filter-movie-start').click( function() {
       $.ajax({
          type: "POST",
          url: "/Laravel/public/filter",
@@ -23,7 +33,8 @@ $(document).ready( function() {
             val : $('#filter-movie').val(),
          }
      }).done(function(html) {
-        alert(html);
+        $('.main-content').html(html);
+        Waves.attach('li.movie', ['waves-light']);
      });
    });
 

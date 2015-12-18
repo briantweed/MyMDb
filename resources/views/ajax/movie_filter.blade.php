@@ -1,34 +1,21 @@
-@extends('app')
+<meta name="_token" content="{!! csrf_token() !!}" />
 
-{{-- Page Title --}}
-@section('title')
-   All Movies
-@stop
-
-{{-- Page Heading --}}
-@section('heading')
-   <h1>Movies</h1>
-@stop
-
-{{-- Subnav --}}
-@section('subnav-left')
-   @include('segments.links.add_movie')
-@stop
-
-@section('subnav-right')
-   <div class="input-group">
-       <input type="text" class="form-control" id="filter-movie" placeholder="Search ...">
-       <span class="input-group-btn">
-          <button class="btn btn-info filter-movie-start" type="button">Go</button>
-       </span>
-   </div>
-@stop
-
-{{-- Main Body --}}
-@section('content')
-
-   <div class="row">
+<div class="row">
+   @if(count($movies))
+      <div class="col-xs-12 alert alert-dismissible alert-success">
+         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+         </button>
+         There
+         @if(count($movies)==1)
+            is <b>1 movie</b> that matches
+         @else
+            are <b>{{count($movies)}} movies</b> that match
+         @endif
+         your search query
+      </div>
       <div class="col-xs-12">
+
          <ul class="xs-block-grid-3 sm-block-grid-6 md-block-grid-8 lg-block-grid-8">
             @foreach($movies as $movie)
                <li class="movie text-center">
@@ -44,15 +31,12 @@
             @endforeach
          </ul>
       </div>
-   </div>
-
-   <div class="row">
-      <div class="col-xs-12">
-         {!! $movies->render() !!}
+   @else
+      <div class="col-xs-8 col-xs-offset-2">
+         <br/><br/>
+         <p class="error-quote">"Empty. The opposite of full. This page is supposed to be full! Anyone care to explain?"</p>
+         <p class="error-link"><a href="{{ action('MovieController@show', 37) }}">The Fifth Element (1997)</a></p>
       </div>
-   </div>
+   @endif
 
-   {{-- padding --}}
-   @include('segments.layout.padding')
-
-@stop
+</div>
