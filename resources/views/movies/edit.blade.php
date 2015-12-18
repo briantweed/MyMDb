@@ -25,7 +25,8 @@
 
 {{-- Main Body --}}
 @section('content')
-   <meta name="_token" content="{!! csrf_token() !!}" />
+
+   <input id="aviary-api-key" type="hidden" value="{{env('AVIARY_KEY')}}" />
 
    @if (session('status'))
        <div class="alert alert-success">
