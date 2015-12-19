@@ -22,6 +22,16 @@
 {{-- Main Body --}}
 @section('content')
 
+   {{-- paginatin --}}
+   {{-- <div class="row">
+      <div class="col-xs-12">
+         {!! $movies->render() !!}
+      </div>
+   </div> --}}
+
+   {{-- padding --}}
+   {{-- @include('segments.layout.padding') --}}
+
    <div class="row">
       <div class="col-xs-12">
          <ul class="xs-block-grid-3 sm-block-grid-6 md-block-grid-8 lg-block-grid-8">
@@ -41,6 +51,7 @@
       </div>
    </div>
 
+   {{-- paginatin --}}
    <div class="row">
       <div class="col-xs-12">
          {!! $movies->render() !!}

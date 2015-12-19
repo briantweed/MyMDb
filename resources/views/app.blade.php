@@ -15,13 +15,14 @@
       <meta name="apple-mobile-web-app-title" content="MyMDb">
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="_token" content="{!! csrf_token() !!}" />
-      
+
       <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ URL::asset('images/app-icon.png') }}">
 
       <link rel="shortcut icon" href="{{ URL::asset('favicon.ico') }}">
       <link rel="shortcut icon" href="{{ URL::asset('myicon.ico') }}">
 
-      <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/everything.css') }}" />
+      <!-- <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/everything.css') }}" /> -->
+      {!! Html::style(elixir('css/mymdb.css')) !!}
    </head>
 
    <body>
@@ -40,11 +41,7 @@
             @yield('content')
          </div>
 
-         {!! Html::script('js/jquery.js') !!}
-         {!! Html::script('js/bootstrap.js') !!}
-         {!! Html::script('js/waves.js') !!}
-         {!! Html::script('js/autosize.js') !!}
-         {!! Html::script('js/setup.js') !!}
+         {!! Html::script(elixir('js/mymdb.js')) !!}
 
          @yield('extensions')
 

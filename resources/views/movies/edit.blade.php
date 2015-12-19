@@ -45,5 +45,5 @@
 
 @section('extensions')
    <script type="text/javascript" src="http://feather.aviary.com/js/feather.js"></script>
-   {!! Html::script('js/pages/edit_movie.js') !!}
+   {!! Html::script('js/edit_movie.js') !!}
 @stop
