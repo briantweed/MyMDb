@@ -23,6 +23,8 @@ $admin-link: #356DE3; // blue
 $login-link: #000000; // black
 $logout-link: #000000; // black
 
+$top-red: #F83C3C;
+
 /*
 |----------------------------------------------------------------------
 |  Animation
@@ -510,18 +512,28 @@ div.movie {
       box-shadow: $image-shadow;
    }
 
-   span.rating-display {
-      color: #F1DE35;
-      font-size: 1.2em;
-      margin-left: -4px;
+   span {
 
-      &.top-rated {
-         color: #F83C3C;
+      &.rating-display {
+         color: #F1DE35;
+         font-size: 1.2em;
+         margin-left: -4px;
+
+         &.top-rated {
+            color: $top-red;
+         }
+
+         i {
+            cursor:default;
+         }
+
       }
 
-      i {
-         cursor:default;
+      &.required {
+         color: $top-red;
+         font-family: Arial;
       }
+
    }
 
    input[type="file"] {

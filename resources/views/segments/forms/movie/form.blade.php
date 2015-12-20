@@ -64,28 +64,28 @@
          switch($field->form_type)
          {
             case "text": ?>
-               @include('segments.forms.movie.text', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'field' => $field->form_field, 'value' => $value])
+               @include('segments.forms.movie.text', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'value' => $value])
             <?php break;
 
             case "textarea": ?>
-               @include('segments.forms.movie.textarea', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'field' => $field->form_field, 'value' => $value])
+               @include('segments.forms.movie.textarea', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'value' => $value])
             <?php break;
 
             case "range": ?>
-               @include('segments.forms.movie.range', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'field' => $field->form_field, 'from' => $field->form_range_from, 'to' => $field->form_range_to, 'value' => $value])
+               @include('segments.forms.movie.range', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'from' => $field->form_range_from, 'to' => $field->form_range_to, 'value' => $value])
             <?php break;
 
             case "select":
                $options = ${$field->form_options}; ?>
-               @include('segments.forms.movie.select', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'field' => $field->form_field, 'options'=> $options, 'value' => $value])
+               @include('segments.forms.movie.select', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'options'=> $options, 'value' => $value])
             <?php break;
 
             case "checkbox": ?>
-            @include('segments.forms.movie.checkbox', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'field' => $field->form_field, 'value' => $value])
+            @include('segments.forms.movie.checkbox', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'value' => $value])
             <?php break;
 
             case "file": ?>
-               @include('segments.forms.movie.file', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'field' => $field->form_field, 'value' => $value])
+               @include('segments.forms.movie.file', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'value' => $value])
             <?php break;
 
             case "hidden": ?>

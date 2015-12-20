@@ -23,7 +23,7 @@
 
 {{-- label --}}
 @section('label')
-   {!! Form::label($field, $label) !!}
+   {!! Form::label($field, $label) !!} @if($required) <span class="required">*</span> @endif
 @overwrite
 
 {{-- input --}}

@@ -13,12 +13,12 @@
 
 {{-- label --}}
 @section('label')
-   {!! Form::label($field, $label) !!}
+   {!! Form::label($field, $label) !!} @if($required) <span class="required">*</span> @endif
 @overwrite
 
 {{-- input --}}
 @section('input')
-   {!! Form::file($field) !!} 
+   {!! Form::file($field) !!}
 @overwrite
 
 {{-- input extra classes --}}

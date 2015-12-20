@@ -6590,6 +6590,10 @@ div.movie span.rating-display {
   div.movie span.rating-display i {
     cursor: default; }
 
+div.movie span.required {
+  color: #F83C3C;
+  font-family: Arial; }
+
 div.movie input[type="file"] {
   display: inline-block; }
 
