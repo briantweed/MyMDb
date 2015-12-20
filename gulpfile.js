@@ -24,6 +24,7 @@ elixir(function(mix) {
       "autosize.js",
       "setup.js",
       paths.lazyload + "jquery.lazyload.js",
+      paths.lazyload + "jquery.scrollstop.js",
    ], 'public/js/mymdb.js')
    .version([
       'public/css/mymdb.css',

@@ -13,6 +13,7 @@ class CreateFormsTable extends Migration
          $table->string('form_name');
          $table->string('form_field');
          $table->string('form_label');
+         $table->boolean('form_required');
          $table->string('form_type');
          $table->integer('form_order');
          $table->integer('form_range_from');

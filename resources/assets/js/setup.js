@@ -19,6 +19,9 @@ $(document).bind('keypress', function(event) {
 
 $(document).ready( function() {
 
+   // Lazy load images
+   $('img.lazy').lazyload();
+
    // auto size text areas
    $('#movie_bio').autosize();
 
