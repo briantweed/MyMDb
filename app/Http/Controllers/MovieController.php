@@ -17,7 +17,7 @@ class MovieController extends Controller {
 
 	public function index()
 	{
-		$movies = DB::table('movie_details')->paginate(48);
+		$movies = DB::table('movie_details')->paginate(1000);
 		foreach($movies as $movie)
 		{
 			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name);
@@ -31,14 +31,14 @@ class MovieController extends Controller {
 	{
 		$movie = DB::table('movie_details')->where('movie_id', $id)->first();
 		if(!$movie) return view('errors.404');
-		$movie->cover = $movie->cover == "" ? ucwords(substr($movie->sort_name,0,1)) : $movie->cover;
+		$movie->cover = $movie->cover == '' ? ucwords(substr($movie->sort_name,0,1)) : $movie->cover;
 		$movie->cover_count = strlen($movie->cover);
 		$movie->cast = DB::table('movie_cast')->where('movie_id', $id)->get();
 		$movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
 		$movie->genres = DB::table('movie_categories')->where('movie_id', $id)->get();
 		$movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
 		$last_viewed = DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date');
-		$movie->viewed = $last_viewed != "" ? date("jS F Y @ H:i", strtotime($last_viewed)) : NULL;
+		$movie->viewed = $last_viewed != '' ? date('jS F Y @ H:i', strtotime($last_viewed)) : NULL;
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
 		$user = $this->isAdmin;
 		return view('movies.show', compact('movie','user'));
@@ -59,7 +59,7 @@ class MovieController extends Controller {
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$data = $request->all();
-		$data['movie_sort_name'] = $data['movie_sort_name']=="" ? $data['movie_name'] : $data['movie_sort_name'];
+		$data['movie_sort_name'] = $data['movie_sort_name']=='' ? $data['movie_name'] : $data['movie_sort_name'];
 		if($request->hasFile('movie_image_path'))
 		{
 			if ($request->file('movie_image_path')->isValid()) {
@@ -82,7 +82,7 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = DB::table('movies')->where('movie_id', $id)->first();
 		if(!$movie) return view('errors.404');
-		$movie->cover = $movie->movie_image_path == "" ? ucwords(substr($movie->movie_sort_name,0,1)) : $movie->movie_image_path;
+		$movie->cover = $movie->movie_image_path == '' ? ucwords(substr($movie->movie_sort_name,0,1)) : $movie->movie_image_path;
 		$movie->cover_count = strlen($movie->cover);
 		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
@@ -97,7 +97,7 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = Movies::findorfail($id);
 		$data = $request->all();
-		$data['movie_sort_name'] = $data['movie_sort_name']=="" ? $data['movie_name'] : $data['movie_sort_name'];
+		$data['movie_sort_name'] = $data['movie_sort_name']=='' ? $data['movie_name'] : $data['movie_sort_name'];
 		if($request->hasFile('movie_image_path'))
 		{
 			if($request->file('movie_image_path')->isValid())
@@ -116,26 +116,18 @@ class MovieController extends Controller {
 		return $id;
 	}
 
-	public function filter($var) {
-		return "HELLO";
-		if(Request::ajax()) {
-         $data = Request::all();
-			return $data;
-		}
-	}
 /*
 | --------------------------------------------------
 |		Private Functions
 | --------------------------------------------------
 */
 
-
 	private function makeRatingStars($rating)
 	{
 		$stars = floor($rating/2);
-		$html = "";
-		for($x=0; $x<$stars; $x++) $html .= "<i class='ft icon-star'></i>";
-		if($rating%2==1) $html .= "<i class='ft icon-star-half'></i>";
+		$html = '';
+		for($x=0; $x<$stars; $x++) $html .= '<i class="ft icon-star"></i>';
+		if($rating%2==1) $html .= '<i class="ft icon-star-half"></i>';
 		return $html;
 	}
 
@@ -146,13 +138,13 @@ class MovieController extends Controller {
 
 	private function createImageName($name)
 	{
-		return str_replace(" ", "_", ucwords(strtolower($name)))."_".date("U").".jpg";
+		return str_replace(' ', '_', ucwords(strtolower($name))).'_'.date('U').'.jpg';
 	}
 
 	private function checkImageExists($src, $name)
 	{
-		list($image,$ext) = explode(".", $src);
-		$protocol = isset($_SERVER["HTTPS"]) ? 'https://' : 'http://';
+		list($image, $ext) = explode('.', $src);
+		$protocol = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
 		$basePath = $protocol.$_SERVER['HTTP_HOST'].'/'.env('BASE_PATH');
 		if(@getimagesize($basePath.'/images/compressed/'.$image.'-compressor.'.$ext))
 		{

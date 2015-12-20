@@ -22,9 +22,9 @@ elixir(function(mix) {
       "bootstrap.js",
       "waves.js",
       "autosize.js",
-      "setup.js",
       paths.lazyload + "jquery.lazyload.js",
       paths.lazyload + "jquery.scrollstop.js",
+      "setup.js",
    ], 'public/js/mymdb.js')
    .version([
       'public/css/mymdb.css',

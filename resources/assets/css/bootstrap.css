@@ -5839,6 +5839,7 @@ button.close {
   font-size: 4em; }
 
 .spin {
+  display: block;
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear; }
 

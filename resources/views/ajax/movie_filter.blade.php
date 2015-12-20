@@ -3,7 +3,7 @@
 <div class="row">
    @if(count($movies))
       <div class="col-xs-12 alert alert-dismissible alert-success">
-         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+         <button type="button" class="close" >
             <span aria-hidden="true">&times;</span>
          </button>
          There
@@ -21,9 +21,9 @@
                <li class="movie text-center">
                   <a href="{{ action('MovieController@show', $movie->movie_id) }}">
                      @if($movie->cover_count == 1)
-                        <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->name}}" />
+                        <img class="img-responsive img-rounded lazy" data-original="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}"  />
                      @else
-                        <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" alt="{{$movie->name}}" />
+                        <img class="img-responsive img-rounded lazy" data-original="{{asset($movie->cover)}}"  />
                      @endif
                      <span class="title-wrapper hidden-xs">{{$movie->name}} @if($movie->duplicate) ({{$movie->released}}) @endif</span>
                   </a>
