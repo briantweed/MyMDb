@@ -24,6 +24,6 @@
 {{-- Main Body --}}
 @section('content')
    {!! Form::open(['url'=>'movies','files' => true]) !!}
-      @include('segments.forms.movie.form')
+      @include('segments.forms.movie_form')
    {!! Form::close() !!}
 @stop

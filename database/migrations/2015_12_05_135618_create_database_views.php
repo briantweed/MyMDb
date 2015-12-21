@@ -38,6 +38,7 @@ class CreateDatabaseViews extends Migration
             `p`.`person_id`,
             `ch`.`character_id`,
             `m`.`movie_name`,
+            `m`.`movie_release_date` as `released`,
             `p`.`person_forename` as `forename`,
             `p`.`person_surname` as `surname`,
             `ch`.`character_name`
