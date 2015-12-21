@@ -4,9 +4,9 @@
    $right_column = "col-xs-12 col-sm-8 col-md-8 col-lg-offset-1 col-lg-8";
    $label_class  = "col-xs-12 col-sm-4 col-md-4 col-lg-3";
    $input_class  = "col-xs-12 col-sm-8 col-md-8 col-lg-9";
-   $role_one     = "col-xs-12 col-sm-4 col-md-4 col-lg-4";
-   $role_two     = "col-xs-12 col-sm-4 col-md-4 col-lg-4";
-   $role_three   = "col-xs-12 col-sm-4 col-md-4 col-lg-4";
+   $role_film    = "col-xs-12 col-sm-4 col-md-4 col-lg-4";
+   $role_char    = "col-xs-12 col-sm-4 col-md-4 col-lg-4";
+   $role_date    = "col-xs-12 col-sm-4 col-md-4 col-lg-4";
 
 ?>
 
@@ -104,9 +104,9 @@
 
             @foreach($roles as $role)
                <div class="row">
-                  <div class="{{$role_one}}"><b>{{$role->movie_name}}</b><br/></div>
-                  <div class="{{$role_two}}"><i>{{$role->character_name}}</i><br/></div>
-                  <div class="{{$role_three}}">{{$role->released}}</div>
+                  <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $role->movie_id) }}"><b>{{$role->movie_name}}</b></a><br/></div>
+                  <div class="{{$role_char}}"><i>{{$role->character_name}}</i><br/></div>
+                  <div class="{{$role_date}}">{{$role->released}}</div>
                </div>
             @endforeach
 
