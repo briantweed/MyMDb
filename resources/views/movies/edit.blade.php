@@ -39,7 +39,7 @@
 
    {!! Form::model($movie, ['method'=>'Patch','url'=>'movies/'.$movie->movie_id,'files' => true]) !!}
       <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
-      @include('segments.forms.movie.form')
+      @include('segments.forms.movie_form')
    {!! Form::close() !!}
 @stop
 

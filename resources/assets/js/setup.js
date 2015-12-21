@@ -29,7 +29,9 @@ $(document).bind('keypress', function(event) {
 $(document).ready( function() {
 
    // Lazy load images
-   $('img.lazy').lazyload();
+   $('img.lazy').lazyload({
+      effect : "fadeIn"
+   });
 
    // auto size text areas
    $('#movie_bio').autosize();

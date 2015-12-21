@@ -23,7 +23,12 @@ class FormsTableSeeder extends Seeder {
 				['create_movie','90','movie_studio_id','Studio','1','select','','','studios','',''],
 				['create_movie','100','movie_image_path','Image','0','file','','','','hello',''],
 				['create_movie','110','','save','0','submit','','','','','btn btn-lg btn-block btn-success'],
-				['create_movie','999','','end','0','','','','','',''],
+				['create_person','10','person_forename','Name','1','text','','','','','',''],
+				['create_person','20','person_surname','Surname','1','text','','','','','',''],
+				['create_person','30','person_birthday','Born','0','text','','','','','',''],
+				['create_person','40','person_bio','Bio','0','textarea','','','','','',''],
+				['create_person','50','person_image_path','Photo','0','file','','','','','',''],
+				['create_person','60','','save','0','submit','','','','','btn btn-lg btn-block btn-success'],
 			];
 
 			array_map( function( $field ) {

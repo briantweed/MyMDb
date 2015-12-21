@@ -38,7 +38,7 @@ class TestDataSeeder extends Seeder
       //  Persons
       if( DB::table('persons')->count() ) DB::table('persons')->truncate();
       $persons = [
-         ['Keanu', 'Reeves', '1964-09-02', '', 'Keanu Reeves, whose first name means &#034;cool breeze over the mountains&#034; in Hawaiian, was born in Beirut, Lebanon in 1964, the son of English-born Patricia Taylor, a showgirl, and American-born Samuel Nowlin Reeves, a geologist. Keanu&#039;s father was born in Hawaii, of British, Portuguese, Native Hawaiian, and Chinese ancestry.'],
+         ['Keanu', 'Reeves', '1964-09-02', 'keanu_reeves.jpg', 'Keanu Reeves, whose first name means &#034;cool breeze over the mountains&#034; in Hawaiian, was born in Beirut, Lebanon in 1964, the son of English-born Patricia Taylor, a showgirl, and American-born Samuel Nowlin Reeves, a geologist. Keanu&#039;s father was born in Hawaii, of British, Portuguese, Native Hawaiian, and Chinese ancestry. After their marriage dissolved, Keanu moved with his mother and younger sister, Kim Reeves, to New York City, then Toronto. Stepfather #1 was Paul Aaron, a stage and film director - he and Patricia divorced within a year, after which she went on to marry (and divorce) rock promoter Robert Miller and hair salon owner Jack Bond. Reeves never reconnected with his biological father. In high school, Reeves was lukewarm toward academics but took a keen interest in ice hockey (as team goalie, he earned the nickname &#034;The Wall&#034;) and drama. He eventually dropped out of school to pursue an acting career. His first popular success was the role of totally rad dude &#034;Ted Logan&#034; in Bill & Ted&#039;s Excellent Adventure (1989). The wacky time-travel movie became something of a cultural phenomenon, and audiences would forever confuse Reeves&#039;s real-life persona with that of his doofy on-screen counterpart. In 1994, the understated actor became a big-budget action star with the release of Speed (1994). Its success heralded an era of five years in which Reeves would alternate between small films, like Feeling Minnesota (1996) and The Last Time I Committed Suicide (1997), and big films like A Walk in the Clouds (1995) and The Devil&#039;s Advocate (1997). After all this, Reeves did the unthinkable and passed on the Speed sequel, but he struck box-office gold again a few years later with the Wachowski siblings&#039; cyberadventure, The Matrix (1999).'],
          ['Carl', 'Rinsch', '', '', ''],
          ['Chris', 'Morgan', '', '', ''],
          ['Hossein', 'Amini', '', '', ''],
@@ -49,6 +49,7 @@ class TestDataSeeder extends Seeder
             'person_forename' => $person[0],
             'person_surname' => $person[1],
             'person_birthday' => $person[2],
+            'person_image_path' => $person[3],
             'person_bio' => $person[4]
          ]);
       }, $persons); // end of Persons
