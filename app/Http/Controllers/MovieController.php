@@ -17,7 +17,7 @@ class MovieController extends Controller {
 
 	public function index()
 	{
-		$movies = DB::table('movie_details')->paginate(1000);
+		$movies = DB::table('movie_details')->paginate(48);
 		foreach($movies as $movie)
 		{
 			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name);
