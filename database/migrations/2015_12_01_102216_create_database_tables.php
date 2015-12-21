@@ -86,9 +86,9 @@ class CreateDatabaseTables extends Migration {
 			$table->increments('person_id');
 			$table->string('person_forename');
 			$table->string('person_surname');
-			$table->date('person_birthday');
-			$table->string('person_image_path');
-			$table->text('person_bio');
+			$table->date('person_birthday')->nullable();
+			$table->string('person_image_path')->nullable();
+			$table->text('person_bio')->nullable();
 			$table->timestamp('updated_at');
 			$table->timestamp('created_at');
 		});

@@ -19,7 +19,7 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   &nbsp;
+   @include('segments.links.back')
 @stop
 
 @section('subnav-right')
@@ -82,6 +82,12 @@
             <div class="{{$input_class}}">{{$person->birthday}}</div>
          </div>
 
+         {{-- age --}}
+         <div class="row">
+            <div class="{{$label_class}}"><b>Age</b></div>
+            <div class="{{$input_class}}">{{$person->age}}</div>
+         </div>
+
          {{-- description --}}
          <div class="row">
             <div class="col-xs-12"><p>{{$person->person_bio}}</p></div>
@@ -106,7 +112,7 @@
 
             {{-- padding --}}
             @include('segments.layout.padding')
-            
+
          @endif
 
       </div> {{-- end of right column --}}

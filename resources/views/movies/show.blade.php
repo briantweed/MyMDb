@@ -16,7 +16,7 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   @include('segments.links.back_movie')
+   @include('segments.links.back')
    @include('segments.links.add_movie')
    @include('segments.links.edit_movie')
 @stop
@@ -182,7 +182,7 @@
                <div class="row">
                   {{-- actor --}}
                   <div class="{{$label_class}}">
-                     {{$emp->forename}} {{$emp->surname}}
+                     <a href="{{ action('PersonController@show', $emp->person_id) }}">{{$emp->forename}} {{$emp->surname}}</a>
                   </div>
                   {{-- character --}}
                   <div class="{{$input_class}}">
@@ -207,7 +207,7 @@
                <div class="row">
                   {{-- actor --}}
                   <div class="{{$label_class}}">
-                     {{$actor->forename}} {{$actor->surname}}
+                     <a href="{{ action('PersonController@show', $actor->person_id) }}">{{$actor->forename}} {{$actor->surname}}</a>
                   </div>
                   {{-- character --}}
                   <div class="{{$input_class}}">

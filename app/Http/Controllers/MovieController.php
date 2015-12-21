@@ -8,7 +8,7 @@ use App\Http\Requests\ValidateCreateMovie;
 
 class MovieController extends Controller {
 
-	public $isAdmin;
+	private $isAdmin;
 
 	public function __construct()
    {
@@ -73,8 +73,7 @@ class MovieController extends Controller {
 		unset($value);
 		$update = Movies::create($data);
 		$inserted_id = $update->movie_id;
-		return redirect()->action('MovieController@edit', [$inserted_id])
-							  ->with('status', 'Movie Added Successfully');
+		return redirect()->action('MovieController@edit', [$inserted_id])->with('status', 'Movie Added Successfully');
 	}
 
 	public function edit($id)
@@ -108,19 +107,16 @@ class MovieController extends Controller {
 			}
 		}
 		$movie->update($data);
-		return redirect()->action('MovieController@edit', [$id])
-							  ->with('status', 'Movie Updated Successfully');
+		return redirect()->action('MovieController@edit', [$id])->with('status', 'Movie Updated Successfully');
 	}
 
-	public function destroy($id) {
-		return $id;
-	}
 
-/*
-| --------------------------------------------------
-|		Private Functions
-| --------------------------------------------------
-*/
+	/*
+	| --------------------------------------------------
+	|		Private Functions
+	| --------------------------------------------------
+	*/
+
 
 	private function makeRatingStars($rating)
 	{

@@ -20,7 +20,7 @@
       <link rel="shortcut icon" href="{{ URL::asset('favicon.ico') }}">
       <link rel="shortcut icon" href="{{ URL::asset('myicon.ico') }}">
 
-      <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/everything.css') }}" />
+      {!! Html::style(elixir('css/mymdb.css')) !!}
    </head>
 
    <body>
@@ -38,10 +38,7 @@
             </div>
          </div>
 
-         {!! Html::script('js/jquery.min.js') !!}
-         {!! Html::script('js/bootstrap.min.js') !!}
-         {!! Html::script('js/waves.js') !!}
-         {!! Html::script('js/setup.js') !!}
+         {!! Html::script(elixir('js/mymdb.js')) !!}
 
       </div>
 

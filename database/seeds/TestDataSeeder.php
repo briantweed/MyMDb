@@ -9,7 +9,7 @@ class TestDataSeeder extends Seeder
 
       //  Cast
       if( DB::table('cast')->count() ) DB::table('cast')->truncate();
-      $cast = [ ['1', '1', '1', '1'], ['1', '2', '2', '2'] ];
+      $cast = [ ['1', '1', '1', '1'], ['1', '5', '2', '2'] ];
       array_map( function( $x ) {
          DB::table('cast')->insert([
             'cast_movie_id' => $x[0],
@@ -38,11 +38,11 @@ class TestDataSeeder extends Seeder
       //  Persons
       if( DB::table('persons')->count() ) DB::table('persons')->truncate();
       $persons = [
-         ['Keanu', 'Reeves', '1964-09-02', 'keanu_reeves.jpg', 'Keanu Reeves, whose first name means &#034;cool breeze over the mountains&#034; in Hawaiian, was born in Beirut, Lebanon in 1964, the son of English-born Patricia Taylor, a showgirl, and American-born Samuel Nowlin Reeves, a geologist. Keanu&#039;s father was born in Hawaii, of British, Portuguese, Native Hawaiian, and Chinese ancestry. After their marriage dissolved, Keanu moved with his mother and younger sister, Kim Reeves, to New York City, then Toronto. Stepfather #1 was Paul Aaron, a stage and film director - he and Patricia divorced within a year, after which she went on to marry (and divorce) rock promoter Robert Miller and hair salon owner Jack Bond. Reeves never reconnected with his biological father. In high school, Reeves was lukewarm toward academics but took a keen interest in ice hockey (as team goalie, he earned the nickname &#034;The Wall&#034;) and drama. He eventually dropped out of school to pursue an acting career. His first popular success was the role of totally rad dude &#034;Ted Logan&#034; in Bill & Ted&#039;s Excellent Adventure (1989). The wacky time-travel movie became something of a cultural phenomenon, and audiences would forever confuse Reeves&#039;s real-life persona with that of his doofy on-screen counterpart. In 1994, the understated actor became a big-budget action star with the release of Speed (1994). Its success heralded an era of five years in which Reeves would alternate between small films, like Feeling Minnesota (1996) and The Last Time I Committed Suicide (1997), and big films like A Walk in the Clouds (1995) and The Devil&#039;s Advocate (1997). After all this, Reeves did the unthinkable and passed on the Speed sequel, but he struck box-office gold again a few years later with the Wachowski siblings&#039; cyberadventure, The Matrix (1999).'],
-         ['Carl', 'Rinsch', '', '', ''],
-         ['Chris', 'Morgan', '', '', ''],
-         ['Hossein', 'Amini', '', '', ''],
-         ['Hiroyuki', 'Sanada', '1960-10-12', '', 'Hiroyuki Sanada was born on the 12th of October, 1960 in Tokyo. He made his film debut when he was 5 in Game of Chance (1965) (Shin\'ichi Chiba played the lead role.) Sanada\'s father died when he was 11. Sanada joined Japan Action Club, organized and run by Sonny Chiba, when he was 12. Sanada first became famous as an action star for his role in The Shogun\'s Samurai (1978).']
+         ['Keanu', 'Reeves', '1964-09-02', 'keanu_reeves.jpg', 'Keanu Reeves, whose first name means &#034;cool breeze over the mountains&#034; in Hawaiian, was born in Beirut, Lebanon in 1964, the son of English-born Patricia Taylor, a showgirl, and American-born Samuel Nowlin Reeves, a geologist. Keanu&#039;s father was born in Hawaii, of British, Portuguese, Native Hawaiian, and Chinese ancestry.\n\n His first popular success was the role of totally rad dude &#034;Ted Logan&#034; in Bill & Ted&#039;s Excellent Adventure (1989). The wacky time-travel movie became something of a cultural phenomenon, and audiences would forever confuse Reeves&#039;s real-life persona with that of his doofy on-screen counterpart. In 1994, the understated actor became a big-budget action star with the release of Speed (1994). Its success heralded an era of five years in which Reeves would alternate between small films, like Feeling Minnesota (1996) and The Last Time I Committed Suicide (1997), and big films like A Walk in the Clouds (1995) and The Devil&#039;s Advocate (1997). After all this, Reeves did the unthinkable and passed on the Speed sequel, but he struck box-office gold again a few years later with the Wachowski siblings&#039; cyberadventure, The Matrix (1999).'],
+         ['Carl', 'Rinsch', NULL, NULL, NULL],
+         ['Chris', 'Morgan', NULL, NULL, NULL],
+         ['Hossein', 'Amini', NULL, NULL, NULL],
+         ['Hiroyuki', 'Sanada', '1960-10-12', NULL, 'Hiroyuki Sanada was born on the 12th of October, 1960 in Tokyo. He made his film debut when he was 5 in Game of Chance (1965) (Shin\'ichi Chiba played the lead role.) Sanada\'s father died when he was 11. Sanada joined Japan Action Club, organized and run by Sonny Chiba, when he was 12. Sanada first became famous as an action star for his role in The Shogun\'s Samurai (1978).']
       ];
       array_map( function( $person ) {
          DB::table('persons')->insert([

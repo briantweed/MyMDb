@@ -9,7 +9,7 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   &nbsp;
+   @include('segments.links.back')
 @stop
 
 @section('subnav-right')
@@ -25,7 +25,7 @@
          <ul class="xs-block-grid-1">
             @foreach($people as $person)
                <li>
-                  {{$person->person_forename}} {{$person->person_surname}}
+                  <a href="{{ action('PersonController@show', $person->person_id) }}">{{$person->person_forename}} {{$person->person_surname}}</a>
                </li>
             @endforeach
          </ul>
