@@ -28,9 +28,12 @@
 
 
    @if (session('status'))
-       <div class="alert alert-success">
-           {{ session('status') }}
-       </div>
+      <div class="col-xs-12 alert alert-dismissible alert-success">
+         <button type="button" class="close" >
+            <span aria-hidden="true">&times;</span>
+         </button>
+         {{ session('status') }}
+      </div>
    @endif
 
    <div id="movie-details" class="alert alert-warning" style="display:none">

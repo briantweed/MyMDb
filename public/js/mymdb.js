@@ -1249,9 +1249,6 @@ $(document).ready( function() {
       $('#movie-details').slideToggle();
    });
 
-   // Hide message boxes after 3 seconds
-   $('.alert-success').delay(3000).slideUp(750);
-
    // Standalone mode
    if(('standalone' in window.navigator) && window.navigator.standalone){
       var link, remotes = false;
