@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 
 class StudioController extends Controller {
 
+	use AdminChecks;
+
 	public function __construct()
 	{
 		$this->middleware('auth');

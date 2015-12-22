@@ -8,7 +8,9 @@ use App\Http\Controllers\Controller;
 
 class PersonController extends Controller {
 
-	private $isAdmin;
+	use ImageFunctions, AdminChecks;
+
+	protected $isAdmin;
 
 	public function __construct()
    {
@@ -29,7 +31,7 @@ class PersonController extends Controller {
 	{
 		$person = DB::table('persons')->where('person_id', $id)->first();
 		if(!$person) return view('errors.404');
-		$person->img = $person->person_image_path==NULL ? ucwords(substr($person->person_forename,0,1)) : $person->person_image_path;
+		$person->img = $this->checkImageExists($person->person_image_path, $person->person_forename, false);
 		$person->img_count = strlen($person->img);
 		$roles = DB::table('movie_cast')->where('person_id', $id)->get();
 		if(!$person) return view('errors.404');

@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 
 class KeywordController extends Controller {
 
+	use AdminChecks;
+
 	public function __construct()
 	{
 		$this->middleware('auth');

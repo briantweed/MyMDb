@@ -8,6 +8,8 @@ use App\Http\Requests\ValidateCreateMovie;
 
 class MovieController extends Controller {
 
+	use ImageFunctions, AdminChecks;
+
 	private $isAdmin;
 
 	public function __construct()
@@ -31,7 +33,7 @@ class MovieController extends Controller {
 	{
 		$movie = DB::table('movie_details')->where('movie_id', $id)->first();
 		if(!$movie) return view('errors.404');
-		$movie->cover = $movie->cover == '' ? ucwords(substr($movie->sort_name,0,1)) : $movie->cover;
+		$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, false);
 		$movie->cover_count = strlen($movie->cover);
 		$movie->cast = DB::table('movie_cast')->where('movie_id', $id)->get();
 		$movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
@@ -81,7 +83,7 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = DB::table('movies')->where('movie_id', $id)->first();
 		if(!$movie) return view('errors.404');
-		$movie->cover = $movie->movie_image_path == '' ? ucwords(substr($movie->movie_sort_name,0,1)) : $movie->movie_image_path;
+		$movie->cover = $this->checkImageExists($movie->movie_image_path, $movie->movie_sort_name, false);
 		$movie->cover_count = strlen($movie->cover);
 		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
@@ -132,25 +134,6 @@ class MovieController extends Controller {
 		return DB::table('movies')->where('movie_name', $name)->count() > 0 ? true : false;
 	}
 
-	private function createImageName($name)
-	{
-		return str_replace(' ', '_', ucwords(strtolower($name))).'_'.date('U').'.jpg';
-	}
 
-	private function checkImageExists($src, $name)
-	{
-		list($image, $ext) = explode('.', $src);
-		$protocol = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
-		$basePath = $protocol.$_SERVER['HTTP_HOST'].'/'.env('BASE_PATH');
-		if(@getimagesize($basePath.'/images/compressed/'.$image.'-compressor.'.$ext))
-		{
-			return 'images/compressed/'.$image.'-compressor.'.$ext;
-		}
-		else if(@getimagesize($basePath.'/images/covers/'.$src))
-		{
-			return 'images/covers/'.$src;
-		}
-		return ucwords(substr($name,0,1));
-	}
 
-}
+} // end fo class

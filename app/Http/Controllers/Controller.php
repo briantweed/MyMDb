@@ -12,9 +12,4 @@ abstract class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    protected function checkUserDetails()
-    {
-      return Auth::check() ? ( Auth::user() ? Auth::user() : false ) : false;
-   }
-
 }

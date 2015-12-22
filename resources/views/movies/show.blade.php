@@ -44,9 +44,9 @@
          <div class="row">
             <div class="col-xs-12">
                @if($movie->cover_count == 1)
-                  <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->name}}" />
+                  <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}"  />
                @else
-                  <img class="img-responsive img-rounded" src="{{asset('images/covers/')}}/{{$movie->cover}}" alt="{{$movie->name}}" />
+                  <img class="img-responsive img-rounded" src="{{asset($movie->cover)}}" />
                @endif
             </div>
          </div>

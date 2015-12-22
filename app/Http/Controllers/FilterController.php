@@ -10,7 +10,9 @@ use App\Http\Controllers\Controller;
 
 class FilterController extends Controller
 {
-   public $isAdmin;
+   use ImageFunctions, AdminChecks;
+
+   protected $isAdmin;
 
 	public function __construct()
    {
@@ -21,31 +23,18 @@ class FilterController extends Controller
    {
       if(Request::ajax()){
          $data = Request::all();
-         $movies = DB::table('movie_details')->where('name',  'LIKE', '%'.$data['val'].'%')->get();
+         $movies = DB::table('movie_details')
+                     ->where('name',  'LIKE', '%'.$data['val'].'%')
+                     ->orWhere('studio',  'LIKE', '%'.$data['val'].'%')
+                     ->get();
          foreach($movies as $movie)
    		{
    			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name);
    			$movie->cover_count = strlen($movie->cover);
    		}
          $user = $this->isAdmin;
-         return (String) view( 'ajax.movie_filter', compact('movies','user'));
+         return (String) view('ajax.movie_filter', compact('movies','user'));
       }
    }
 
-   private function checkImageExists($src, $name)
-	{
-		list($image, $ext) = explode('.', $src);
-		$protocol = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
-		$basePath = $protocol.$_SERVER['HTTP_HOST'].'/'.env('BASE_PATH');
-		if(@getimagesize($basePath.'/images/compressed/'.$image.'-compressor.'.$ext))
-		{
-			return 'images/compressed/'.$image.'-compressor.'.$ext;
-		}
-		else if(@getimagesize($basePath.'/images/covers/'.$src))
-		{
-			return 'images/covers/'.$src;
-		}
-		return ucwords(substr($name,0,1));
-	}
-
-}
+} // end of class
