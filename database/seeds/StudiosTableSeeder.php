@@ -13,7 +13,7 @@ class StudiosTableSeeder extends Seeder {
 				'Disney Pixar','Dreamworks','Lionsgate','MGM','New Line Cinema', 'Orion','Paramount','Sony','Summit',
 				'Tri-Star','Touchstone','United Artist','Universal','Warner Brothers','Manga Entertainment','Unknown',
 				'Independent','Fox Searchlight','Gaumont','Pathe','Polygram','Miramax','Golden Harvest','Weinstein Company',
-				'Momentum'];
+				'Momentum','HBO','AMC'];
 
 			array_map( function( $studio ) {
 				DB::table('studios')->insert([
