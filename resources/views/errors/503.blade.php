@@ -1,47 +1,55 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Be right back.</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+<html lang="en">
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+   <head>
+      <meta charset="UTF-8">
+      <title>@yield('title')</title>
+      <meta name="description" content="MyMDb">
+      <meta name="author" content="Brian Tweed">
+      <meta name="format-detection" content="telephone=no"/>
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                color: #B0BEC5;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi">
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="apple-mobile-web-app-title" content="MyMDb">
+      <meta name="mobile-web-app-capable" content="yes">
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ URL::asset('images/app-icon.png') }}">
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
+      <link rel="shortcut icon" href="{{ URL::asset('favicon.ico') }}">
+      <link rel="shortcut icon" href="{{ URL::asset('myicon.ico') }}">
 
-            .title {
-                font-size: 72px;
-                margin-bottom: 40px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Be right back.</div>
+      {!! Html::style(elixir('css/mymdb.css')) !!}
+   </head>
+
+   <body>
+
+      @include('segments.nav')
+
+      <div class="container">
+
+         <div class="main-content">
+            <div class="row">
+               <div class="col-xs-8 col-xs-offset-2">
+                  <p class="error-quote">"It's a scream, baby. Hold a second, we'll be right back."</p>
+                  <p class="error-link"><a href="javascript:void(0)">Scream (1996)</a></p>
+               </div>
             </div>
-        </div>
-    </body>
+         </div>
+
+         {!! Html::script(elixir('js/mymdb.js')) !!}
+
+         <script>
+            $('document').ready(function(){
+               $('a').click(function(event){
+                  event.preventDefault();
+               });
+            });
+         </script>
+
+      </div>
+
+   </body>
+
 </html>
