@@ -13,7 +13,7 @@ var featherEditor = new Aviary.Feather({
    onSave: function(imageID, newUrl) {
       $.ajax({
          type: "POST",
-         url: '/'+$('body').data('base')+'aviary',
+         url: '/'+$('body').data('base')+'/aviary',
          dataType : "json",
          data: {
             _token: $('meta[name="_token"]').attr('content'),
