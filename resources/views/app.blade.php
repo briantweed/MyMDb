@@ -25,7 +25,7 @@
       {!! Html::style(elixir('css/mymdb.css')) !!}
    </head>
 
-   <body>
+   <body data-base="{{env('BASE_PATH')}}">
 
       @include('segments.nav')
 

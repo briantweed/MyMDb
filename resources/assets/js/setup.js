@@ -46,7 +46,7 @@ $(document).ready( function() {
       $(this).html('<i class="ft icon-loading spin"></i>');
       $.ajax({
          type: 'POST',
-         url: '/Laravel/public/filter',
+         url: '/'+$('body').data('base')+'/filter',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             val: $('#filter-movie').val(),

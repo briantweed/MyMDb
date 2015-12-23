@@ -13,7 +13,7 @@ var featherEditor = new Aviary.Feather({
    onSave: function(imageID, newUrl) {
       $.ajax({
          type: "POST",
-         url: "/Laravel/public/aviary",
+         url: '/'+$('body').data('base')+'aviary',
          dataType : "json",
          data: {
             _token: $('meta[name="_token"]').attr('content'),
@@ -21,6 +21,7 @@ var featherEditor = new Aviary.Feather({
             src: $('#movie-poster').attr('src')
          }
      }).done(function(json) {
+        console.log(json.err);
         $('#movie-poster').prop("src", json.src+"?"+json.time);
         featherEditor.close();
      });
