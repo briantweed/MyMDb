@@ -90,10 +90,16 @@ class TestDataSeeder extends Seeder
 
       if( DB::table('quotes')->count() ) DB::table('quotes')->truncate();
       $quotes = [
+         ['8','Tell these guys where the pages are so no one else gets hurt'],
          ['9','Sooner or later you&#039;re going to realize that there&#039;s a difference between knowing the page and finding the page.'],
          ['10','This is not the page you&#039;re looking for'],
          ['22','What&#039;s wrong? Have some trouble?'],
+         ['25','Damn! Where is that page?'],
+         ['33','We are tonight&#039;s entertainment! I only have one question. Where is the page?'],
          ['37','Empty. The opposite of full. This page is supposed to be full! Anyone care to explain?'],
+         ['55','You don&#039;t think people are going to drive down and not see the page?'],
+         ['96','Boy, it sure would be nice if we had some results, don&#039;t you think?'],
+         ['170','What we got here is ... failure to communicate.'],
       ];
       array_map( function( $quote ) {
          DB::table('quotes')->insert([

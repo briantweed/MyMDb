@@ -34,8 +34,8 @@
    @else
       <div class="col-xs-8 col-xs-offset-2">
          <br/><br/>
-         <p class="error-quote">"Empty. The opposite of full. This page is supposed to be full! Anyone care to explain?"</p>
-         <p class="error-link"><a href="{{ action('MovieController@show', 37) }}">The Fifth Element (1997)</a></p>
+         <p class="error-quote">"{{$quote->text}}"</p>
+         <p class="error-link"><a href="{{ action('MovieController@show', $quote->movie_id) }}">{{$quote->movie_name}} ({{$quote->released}})</a></p>
       </div>
    @endif
 

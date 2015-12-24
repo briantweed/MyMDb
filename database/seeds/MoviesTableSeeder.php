@@ -180,6 +180,8 @@ class MoviesTableSeeder extends Seeder {
 				['The Walking Dead: Season 1','Walking Dead 1','2010','Walking_Dead_1_1450873074.jpg','282','8','6','2','32','Rick Grimes is a former Sheriff&#039;s deputy who has been in a coma for several months after being shot while on duty. When he awakens he discovers that the world has been ravished by a zombie epidemic of apocalyptic proportions. He set off to Atlanta to hopefully find his family.'],
 				['The Walking Dead: Season 2','Walking Dead 2','2011','Walking_Dead_2_1450873146.jpg','554','6','7','2','32','The one on the farm'],
 				['The Walking Dead: Season 3','Walking dead 3','2012','Walking_Dead_3_1450873256.jpg','688','7','7','2','32','The one in the prison'],
+				['Cool Hand Luke','Cool Hand Luke','1967','Cool_Hand_Luke_1450969809.jpg','125','7','6','1','19','A man refuses to conform to life in a rural prison.'],
+				
 			];
 
 			array_map( function( $movie ) {

@@ -26,7 +26,7 @@ class MovieController extends Controller {
 			$movie->cover_count = strlen($movie->cover);
 		}
 		$user = $this->isAdmin;
-		return view( 'movies.index', compact('movies','user'));
+		return view('movies.index', compact('movies', 'user'));
 	}
 
 	public function show($id)
@@ -61,7 +61,7 @@ class MovieController extends Controller {
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$data = $request->all();
-		$data['movie_sort_name'] = $data['movie_sort_name']=='' ? $data['movie_name'] : $data['movie_sort_name'];
+		$data['movie_sort_name'] = $data['movie_sort_name'] == '' ? $data['movie_name'] : $data['movie_sort_name'];
 		if($request->hasFile('movie_image_path'))
 		{
 			if ($request->file('movie_image_path')->isValid()) {
@@ -98,7 +98,7 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = Movies::findorfail($id);
 		$data = $request->all();
-		$data['movie_sort_name'] = $data['movie_sort_name']=='' ? $data['movie_name'] : $data['movie_sort_name'];
+		$data['movie_sort_name'] = $data['movie_sort_name'] =='' ? $data['movie_name'] : $data['movie_sort_name'];
 		if($request->hasFile('movie_image_path'))
 		{
 			if($request->file('movie_image_path')->isValid())
@@ -110,6 +110,12 @@ class MovieController extends Controller {
 		}
 		$movie->update($data);
 		return redirect()->action('MovieController@edit', [$id])->with('status', 'Movie Updated Successfully');
+	}
+
+	public function destroy($id)
+	{
+		DB::table('movies')->where('movie_id', '=', $id)->delete();
+		return redirect()->action('MovieController@edit', [$id-1])->with('status', 'Movie Deleted');
 	}
 
 

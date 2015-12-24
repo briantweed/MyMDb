@@ -28,6 +28,8 @@ $(document).bind('keypress', function(event) {
 
 $(document).ready( function() {
 
+   // new Vivus('Layer_1', {type: 'delayed', duration: 150});
+
    // Lazy load images
    $('img.lazy').lazyload({
       effect : "fadeIn"
