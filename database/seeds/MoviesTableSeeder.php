@@ -180,8 +180,11 @@ class MoviesTableSeeder extends Seeder {
 				['The Walking Dead: Season 1','Walking Dead 1','2010','Walking_Dead_1_1450873074.jpg','282','8','6','2','32','Rick Grimes is a former Sheriff&#039;s deputy who has been in a coma for several months after being shot while on duty. When he awakens he discovers that the world has been ravished by a zombie epidemic of apocalyptic proportions. He set off to Atlanta to hopefully find his family.'],
 				['The Walking Dead: Season 2','Walking Dead 2','2011','Walking_Dead_2_1450873146.jpg','554','6','7','2','32','The one on the farm'],
 				['The Walking Dead: Season 3','Walking dead 3','2012','Walking_Dead_3_1450873256.jpg','688','7','7','2','32','The one in the prison'],
-				['Cool Hand Luke','Cool Hand Luke','1967','Cool_Hand_Luke_1450969809.jpg','125','7','6','1','19','A man refuses to conform to life in a rural prison.'],
-				
+				['Cool Hand Luke','Cool Hand Luke','1967','Cool_Hand_Luke_1451036533.jpg','125','7','6','1','19','A man refuses to conform to life in a rural prison.'],
+				['Inside Out','Inside Out','2015','Inside_Out_1451036267.jpg','95','7','2','2','6','After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.'],
+				['Entourage','Entourage','2015','Entourage_1451036371.jpg','104','7','6','2','31','Movie star Vincent Chase, together with his boys Eric, Turtle, and Johnny, are back - and back in business with super agent-turned-studio head Ari Gold on a risky project that will serve as Vince&#039;s directorial debut.'],
+				['Ant-Man','Ant Man','2015','Ant_Man_1451036434.jpg','117','7','4','2','5','Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.'],
+
 			];
 
 			array_map( function( $movie ) {
