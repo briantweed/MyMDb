@@ -20,7 +20,7 @@
             <?php break;
 
             case "select":
-               $options = ${$field->form_options}; ?>
+               $options = $field->form_options != "" ? ${$field->form_options}; : "" ?>
                @include('segments.forms.select', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'options'=> $options, 'value' => $value])
             <?php break;
 

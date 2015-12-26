@@ -54,7 +54,7 @@ class MovieController extends Controller {
 		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
 		$formats = DB::table('formats')->lists('format_type', 'format_id');
 		$user = $this->isAdmin;
-		return view('movies.create', compact('fields', 'certificates', 'studios', 'formats','user'));
+		return view('movies.create', compact('fields', 'certificates', 'studios', 'formats', 'user'));
 	}
 
 	public function store(ValidateCreateMovie $request)
