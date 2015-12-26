@@ -7,11 +7,11 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   @include('segments.links.add_movie')
+   &nbsp;
 @stop
 
 @section('subnav-right')
-   @include('segments.layout.search_movies')
+
 @stop
 
 {{-- Main Body --}}
@@ -49,7 +49,7 @@
    <div class="row">
 
       {{-- top rated movies --}}
-      <div class="col-xs-6">
+      <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lr-6">
          <div class="row">
             <div class="col-xs-12">
                <h4>Top Rated</h4>
@@ -58,19 +58,23 @@
 
          @foreach($top_rated as $movie)
             <div class="row movie">
-               <div class="col-xs-8">
+               <div class="col-xs-12 col-sm-8">
                   <a href="{{ action('MovieController@show', $movie->movie_id) }}">{{$movie->name}} ({{$movie->released}})</a>
                </div>
-               <div class="col-xs-4">
+               <div class="col-xs-12 col-sm-4">
                   <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$movie->rating}} / 10'>{!!$movie->rating_display!!}</span>
                </div>
             </div>
          @endforeach
 
+         {{-- padding --}}
+         @include('segments.layout.padding')
+
       </div> {{-- end of top rated --}}
 
       {{-- worst rated movies --}}
-      <div class="col-xs-6">
+      <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lr-6">
+
          <div class="row">
             <div class="col-xs-12">
                <h4>Worst Rated</h4>
@@ -79,14 +83,17 @@
 
          @foreach($worst_rated as $movie)
             <div class="row movie">
-               <div class="col-xs-8">
+               <div class="col-xs-12 col-sm-8 col-md-9">
                   <a href="{{ action('MovieController@show', $movie->movie_id) }}">{{$movie->name}} ({{$movie->released}})</a>
                </div>
-               <div class="col-xs-4">
+               <div class="col-xs-12 col-sm-4 col-md-3">
                   <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$movie->rating}} / 10'>{!!$movie->rating_display!!}</span>
                </div>
             </div>
          @endforeach
+
+         {{-- padding --}}
+         @include('segments.layout.padding')
 
       </div> {{-- end of worst rated --}}
 
