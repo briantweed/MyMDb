@@ -93,6 +93,7 @@ class CreateDatabaseTables extends Migration {
 			$table->integer('movie_studio_id');
 			$table->boolean('movie_duplicate');
 			$table->text('movie_bio');
+			$table->timestamp('movie_purchased');
 			$table->timestamp('updated_at');
 			$table->timestamp('created_at');
 		});

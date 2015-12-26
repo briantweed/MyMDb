@@ -6620,6 +6620,8 @@ div.movie span.rating-display {
     color: #F83C3C; }
   div.movie span.rating-display i {
     cursor: default; }
+    div.movie span.rating-display i:before {
+      text-align: left; }
 
 div.movie span.required {
   color: #F83C3C;

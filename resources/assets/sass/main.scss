@@ -450,7 +450,7 @@ div.main-content {
    .modal-footer {
       border-top: none;
    }
-   
+
 }
 
 /*
@@ -546,6 +546,9 @@ div.movie {
 
          i {
             cursor:default;
+            &:before {
+               text-align: left;
+            }
          }
 
       }

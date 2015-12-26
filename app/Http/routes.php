@@ -5,8 +5,9 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('/', 'MovieController@index');
-Route::get('/', 'MovieController@index');
+Route::get('/', 'WelcomeController@index');
+
+
 Route::get('/admin', 'StudioController@index');
 
 Route::post('aviary', 'AviaryController@replaceImage');

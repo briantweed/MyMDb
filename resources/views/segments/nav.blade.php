@@ -9,7 +9,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ action('MovieController@index') }}"><i class="ft icon-movie"></i> MyMDb</a>
+      <a class="navbar-brand" href="{{ action('WelcomeController@index') }}"><i class="ft icon-movie"></i> MyMDb</a>
    </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
