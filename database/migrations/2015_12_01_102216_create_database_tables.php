@@ -15,6 +15,8 @@ class CreateDatabaseTables extends Migration {
 			$table->integer('cast_person_id');
 			$table->integer('cast_character_id');
 			$table->integer('cast_order');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('categories', function(Blueprint $table)
@@ -22,6 +24,8 @@ class CreateDatabaseTables extends Migration {
 			$table->increments('category_id');
 			$table->integer('category_movie_id');
 			$table->integer('category_genre_id');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('certificates', function(Blueprint $table)
@@ -29,12 +33,16 @@ class CreateDatabaseTables extends Migration {
 			$table->increments('certificate_id');
 			$table->string('certificate_title');
 			$table->string('certificate_image');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('characters', function(Blueprint $table)
 		{
 			$table->increments('character_id');
 			$table->string('character_name');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('crew', function(Blueprint $table)
@@ -43,24 +51,32 @@ class CreateDatabaseTables extends Migration {
 			$table->integer('crew_movie_id');
 			$table->integer('crew_person_id');
 			$table->integer('crew_position_id');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('formats', function(Blueprint $table)
 		{
 			$table->increments('format_id');
 			$table->string('format_type');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('genres', function(Blueprint $table)
 		{
 			$table->increments('genre_id');
 			$table->string('genre_type');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('keywords', function(Blueprint $table)
 		{
 			$table->increments('keyword_id');
 			$table->string('keyword_word');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('movies', function(Blueprint $table)
@@ -98,12 +114,16 @@ class CreateDatabaseTables extends Migration {
 			$table->increments('position_id');
 			$table->string('position_title');
 			$table->integer('position_order');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('studios', function(Blueprint $table)
 		{
 			$table->increments('studio_id');
 			$table->string('studio_name');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('tags', function(Blueprint $table)
@@ -111,6 +131,8 @@ class CreateDatabaseTables extends Migration {
 			$table->increments('tag_id');
 			$table->integer('tag_movie_id');
 			$table->integer('tag_keyword_id');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 		Schema::create('viewings', function(Blueprint $table)
@@ -118,6 +140,8 @@ class CreateDatabaseTables extends Migration {
 			$table->increments('viewing_id');
 			$table->integer('viewing_movie_id');
 			$table->datetime('viewing_date');
+			$table->timestamp('updated_at');
+			$table->timestamp('created_at');
 		});
 
 	} //end of up

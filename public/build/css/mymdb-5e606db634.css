@@ -6535,7 +6535,7 @@ div.search-bar-container {
   border-top: 1px solid #c8c8cf;
   border-bottom: 1px solid #c8c8cf;
   background: #e8e8ef;
-  z-index: 1050; }
+  z-index: 1031; }
   @media screen and (max-width: 767px) {
     div.search-bar-container {
       top: 53px; } }
@@ -6550,6 +6550,18 @@ div.main-content {
 
 .pagination {
   margin: 0; }
+
+.modal-content .modal-header {
+  border-bottom: none;
+  border-radius: 6px 6px 0 0; }
+
+.modal-content .modal-body {
+  padding: 0 25px; }
+  .modal-content .modal-body p {
+    margin-bottom: 15px; }
+
+.modal-content .modal-footer {
+  border-top: none; }
 
 /*
 |----------------------------------------------------------------------

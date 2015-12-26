@@ -1,5 +1,7 @@
 $(document).ready(function(){
-   
+
+   $('select(#movie_studio_id)').selectize();
+
    $('#movie_studio_id').selectize({
       create: true
    });
@@ -41,6 +43,9 @@ $(document).ready(function(){
                callback(res.movies);
             }
          });
+      },
+      onChange: function(value) {
+         alert(value);
       }
    });
 

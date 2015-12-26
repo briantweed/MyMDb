@@ -31,7 +31,7 @@ class ValidateCreateMovie extends Request
             'movie_running_time' => 'required|numeric',
             'movie_certificate_id' => 'required|numeric',
             'movie_format_id' => 'required|numeric',
-            'movie_studio_id' => 'required|numeric'
+            'movie_studio_id' => 'required'
         ];
     }
 

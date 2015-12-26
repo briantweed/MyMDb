@@ -2,6 +2,7 @@
 
 use DB;
 use App\Movies;
+use App\Studios;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ValidateCreateMovie;
@@ -70,6 +71,7 @@ class MovieController extends Controller {
 				$data['movie_image_path'] = $image_name;
 			}
 		}
+		$data['movie_studio_id'] = is_numeric($data['movie_studio_id']) ? $data['movie_studio_id'] : $this->createNewStudio($data['movie_studio_id']);
 		$data['movie_duplicate'] = $this->checkForDuplicateTitle($request->movie_name);
 		foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
 		unset($value);
@@ -140,6 +142,16 @@ class MovieController extends Controller {
 		return DB::table('movies')->where('movie_name', $name)->count() > 0 ? true : false;
 	}
 
+	private function createNewStudio($name)
+	{
+		$existing = DB::table('studios')->where('studio_name', $name)->first();
+		if(count($existing)==0) {
+			$values = ['studio_name'=>$name];
+			$update = Studios::create($values);
+			return $update->studio_id;
+		}
+		else return $existing->studio_id;
+	}
 
 
 } // end fo class

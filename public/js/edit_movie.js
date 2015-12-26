@@ -32,7 +32,12 @@ $(document).ready(function(){
 
    // apply selctize to dropdowns
    $('select').selectize();
-   
+
+   // confirmation of movie deletion
+   $('#delete_movie').click(function(){
+      $('#delete_movie_form').submit();
+   });
+
 });
 
 function launchEditor() {
