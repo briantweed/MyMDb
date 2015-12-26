@@ -31,7 +31,12 @@ var featherEditor = new Aviary.Feather({
 $(document).ready(function(){
 
    // apply selctize to dropdowns
-   $('select').selectize();
+   $('select:not(#movie_studio_id)').selectize();
+
+   $('#movie_studio_id').selectize({
+      create: true,
+      persist: false
+   });
 
    // confirmation of movie deletion
    $('#delete_movie').click(function(){

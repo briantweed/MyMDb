@@ -1,9 +1,10 @@
 $(document).ready(function(){
 
-   $('select(#movie_studio_id)').selectize();
+   $('select:not(#movie_studio_id)').selectize();
 
    $('#movie_studio_id').selectize({
-      create: true
+      create: true,
+      persist: false
    });
 
    // apply selctize to dropdowns
@@ -43,9 +44,6 @@ $(document).ready(function(){
                callback(res.movies);
             }
          });
-      },
-      onChange: function(value) {
-         alert(value);
       }
    });
 

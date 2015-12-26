@@ -110,6 +110,7 @@ class MovieController extends Controller {
 				$data['movie_image_path'] = $image_name;
 			}
 		}
+		$data['movie_studio_id'] = is_numeric($data['movie_studio_id']) ? $data['movie_studio_id'] : $this->createNewStudio($data['movie_studio_id']);
 		$movie->update($data);
 		return redirect()->action('MovieController@edit', [$id])->with('status', 'Movie Updated Successfully');
 	}
@@ -130,8 +131,8 @@ class MovieController extends Controller {
 
 	private function makeRatingStars($rating)
 	{
-		$stars = floor($rating/2);
 		$html = '';
+		$stars = floor($rating/2);
 		for($x=0; $x<$stars; $x++) $html .= '<i class="ft icon-star"></i>';
 		if($rating%2==1) $html .= '<i class="ft icon-star-half"></i>';
 		return $html;
