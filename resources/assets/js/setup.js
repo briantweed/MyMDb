@@ -1,6 +1,7 @@
 
 // Initial setup of wave buttons
 Waves.attach('li.movie', ['waves-light']);
+Waves.attach('div.slick div', ['waves-light']);
 Waves.attach('.side-buttons .btn', ['waves-circle']);
 Waves.attach('.search-bar-container a, .nav li',['waves-button'])
 Waves.init();
