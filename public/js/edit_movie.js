@@ -28,6 +28,13 @@ var featherEditor = new Aviary.Feather({
    }
 });
 
+$(document).ready(function(){
+
+   // apply selctize to dropdowns
+   $('select').selectize();
+   
+});
+
 function launchEditor() {
    $('#movie-poster').removeClass('img-responsive');
    featherEditor.launch({

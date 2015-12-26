@@ -15,12 +15,14 @@ elixir(function(mix) {
    .styles([
       "fonts.css",
       "bootstrap.css",
+      "selectize.css",
       "fontello.css",
    ], 'public/css/mymdb.css')
    .scripts([
       "jquery.js",
       "bootstrap.js",
       "waves.js",
+      "selectize.js",
       "autosize.js",
       paths.lazyload + "jquery.lazyload.js",
       paths.lazyload + "jquery.scrollstop.js",

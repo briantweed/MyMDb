@@ -82,6 +82,7 @@
          </div>
 
          {!! Form::open(['url'=>'movies','files' => true]) !!}
+            <input type="hidden" value="{{env('ROTTEN_KEY')}}" name="_tomatoes" />
             @include('segments.forms.movie_form')
          {!! Form::close() !!}
 
@@ -94,4 +95,8 @@
    </div>
    {{-- end of movie row --}}
 
+@stop
+
+@section('extensions')
+   {!! Html::script('js/create_movie.js') !!}
 @stop
