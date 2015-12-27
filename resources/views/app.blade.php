@@ -22,7 +22,6 @@
       <link rel="shortcut icon" href="{{ URL::asset('myicon.ico') }}">
 
       {!! Html::style(elixir('css/mymdb.css')) !!}
-      @yield('stylesheets')
 
    </head>
 

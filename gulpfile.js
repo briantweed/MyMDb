@@ -16,6 +16,7 @@ elixir(function(mix) {
       "fonts.css",
       "bootstrap.css",
       "selectize.css",
+      "slick.css",
       "fontello.css",
    ], 'public/css/mymdb.css')
    .scripts([
@@ -25,7 +26,7 @@ elixir(function(mix) {
       "selectize.js",
       "autosize.js",
       paths.lazyload + "jquery.lazyload.js",
-      paths.lazyload + "jquery.scrollstop.js",
+      // paths.lazyload + "jquery.scrollstop.js",
       "setup.js",
    ], 'public/js/mymdb.js')
    .version([

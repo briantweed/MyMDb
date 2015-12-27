@@ -40,7 +40,11 @@ class WelcomeController extends Controller {
 		}
 		$user = $this->isAdmin;
 
-		return view('welcome', compact('most_recent', 'top_rated', 'worst_rated', 'user'));
+		$highlight = $this->selectRandomFilm();
+		$highlight->cover = $this->checkImageExists($highlight->cover, $highlight->sort_name);
+		$highlight->cover_count = strlen($highlight->cover);
+
+		return view('welcome', compact('most_recent', 'top_rated', 'worst_rated', 'highlight', 'user'));
 	}
 
 
@@ -75,6 +79,14 @@ class WelcomeController extends Controller {
 			return $update->studio_id;
 		}
 		else return $existing->studio_id;
+	}
+
+	private function selectRandomFilm()
+	{
+		$movie_ids = DB::table('movies')->lists('movie_id');
+		$selected_movie = array_rand($movie_ids, 1);
+		$movie = DB::table('movie_details')->where('movie_id', $selected_movie)->first();
+		return $movie;
 	}
 
 
