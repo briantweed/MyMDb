@@ -44,8 +44,10 @@
    {{-- padding --}}
    @include('segments.layout.padding')
    {{-- padding --}}
+
    @include('segments.layout.padding')
    {{-- second row --}}
+
    <div class="row">
       {{-- top rated movies --}}
       <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lr-6">
@@ -100,25 +102,39 @@
 
    @include('segments.layout.padding')
 
+</div> {{-- end of container --}}
+
+</div> {{-- end of main content --}}
+
+<div style="background:#40515d;color:#f0f0f0">
+<div class="container">
+
+   @include('segments.layout.padding')
+   {{-- second row --}}
+
    <div class="row movie">
       <div class="col-xs-2 col-sm-3 col-md-2 col-lg-offset-1 col-lg-2">
          <a href="{{ action('MovieController@show', $highlight->movie_id) }}">
             @if($highlight->cover_count == 1)
                <img class="img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$highlight->cover}}"  />
             @else
-               <img class="img-rounded img-responsive" src="{{asset($highlight->cover)}}"  />
+               <img style="box-shadow: 1px 1px 4px #888" class="img-rounded img-responsive" src="{{asset($highlight->cover)}}"  />
             @endif
          </a>
       </div>
       <div class="col-xs-10 col-sm-9 col-md-10 col-lg-8">
-         {{$highlight->name}} ({{$highlight->released}}) <br/>
+         <h4>{{$highlight->name}} ({{$highlight->released}}) </h4>
          <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$movie->rating}} / 10'>{!!$movie->rating_display!!}</span>
-         <br><br>{{$highlight->description}}
+         <br><br>{{$highlight->description}}<br><br>
+         <a href="javascript:void(0)" class="btn btn-lg btn-info-outline"> view </a>
       </div>
    </div>
-
    {{-- padding --}}
    @include('segments.layout.padding')
+
+</div>
+</div>
+
 
    {{-- padding --}}
    @include('segments.layout.padding')
