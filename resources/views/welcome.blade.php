@@ -141,9 +141,9 @@
                </div>
                <div class="col-xs-10 col-sm-9 col-md-10 col-lg-8">
                   <h4>{{$highlight->name}} ({{$highlight->released}}) </h4>
-                  <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$movie->rating}} / 10'>{!!$movie->rating_display!!}</span>
+                  <span class="rating-display @if($highlight->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$highlight->rating}} / 10'>{!!$highlight->rating_display!!}</span>
                   <br><br>{{$highlight->description}}<br><br>
-                  <a href="javascript:void(0)" class="btn btn-lg btn-info-outline"> view </a>
+                  <a href="{{ action('MovieController@show', $highlight->movie_id) }}" class="btn btn-lg btn-info-outline"> view </a>
                </div>
             </div>
 
@@ -166,20 +166,18 @@
          </div>
 
          <div class="row">
-
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-               @foreach($details->actors as $actor)
-                  {{$actor->name}} - {{$actor->count}}<br/>
-               @endforeach
+            @foreach($details->actors as $actor)
+            <div class="col-xs-2">
+               <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" />
+               {{$actor->name}} - {{$actor->count}}
             </div>
+            @endforeach
 
          </div>
 
          @include('segments.layout.padding')
 
       </div>
-
-      @include('segments.layout.padding')
 
       {!! Html::script(elixir('js/mymdb.js')) !!}
       {!! Html::script('js/slick.js') !!}

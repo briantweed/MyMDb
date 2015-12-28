@@ -53,6 +53,7 @@ class WelcomeController extends Controller {
 		$highlight = $this->selectRandomFilm();
 		$highlight->cover = $this->checkImageExists($highlight->cover, $highlight->sort_name);
 		$highlight->cover_count = strlen($highlight->cover);
+		$highlight->rating_display = $this->makeRatingStars($highlight->rating);
 
 		$user = $this->isAdmin;
 

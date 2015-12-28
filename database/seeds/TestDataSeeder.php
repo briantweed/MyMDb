@@ -42,7 +42,7 @@ class TestDataSeeder extends Seeder
          ['Carl', 'Rinsch', NULL, NULL, NULL],
          ['Chris', 'Morgan', NULL, NULL, NULL],
          ['Hossein', 'Amini', NULL, NULL, NULL],
-         ['Hiroyuki', 'Sanada', '1960-10-12', NULL, 'Hiroyuki Sanada was born on the 12th of October, 1960 in Tokyo. He made his film debut when he was 5 in Game of Chance (1965) (Shin\'ichi Chiba played the lead role.) Sanada\'s father died when he was 11. Sanada joined Japan Action Club, organized and run by Sonny Chiba, when he was 12. Sanada first became famous as an action star for his role in The Shogun\'s Samurai (1978).']
+         ['Hiroyuki', 'Sanada', '1960-10-12', 'hiroyuki_sanada.jpg', 'Hiroyuki Sanada was born on the 12th of October, 1960 in Tokyo. He made his film debut when he was 5 in Game of Chance (1965) (Shin\'ichi Chiba played the lead role.) Sanada\'s father died when he was 11. Sanada joined Japan Action Club, organized and run by Sonny Chiba, when he was 12. Sanada first became famous as an action star for his role in The Shogun\'s Samurai (1978).']
       ];
       array_map( function( $person ) {
          DB::table('persons')->insert([
