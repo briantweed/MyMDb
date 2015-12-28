@@ -3,7 +3,7 @@
 use DB;
 use DateTime;
 use App\Persons;
-use App\Http\Requests;
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 class PersonController extends Controller {
@@ -47,6 +47,45 @@ class PersonController extends Controller {
 		}
 		$user = $this->isAdmin;
 		return view('people.show', compact('person','user','roles'));
+	}
+
+	public function create()
+	{
+		if(!$this->isAdmin) return view('auth.login');
+		$fields = DB::table('forms')->where('form_name','create_person')->orderBy('form_order', 'asc')->get();
+		$user = $this->isAdmin;
+		return view('people.create', compact('fields', 'user'));
+	}
+
+	public function store(Request $request)
+	{
+		if(!$this->isAdmin) return view('auth.login');
+		$data = $request->all();
+		if($request->hasFile('person_image_path'))
+		{
+			if ($request->file('person_image_path')->isValid()) {
+				$image_name = $this->createImageName($data['person_forename']." ".$data['person_surname']);
+				$image = $request->file('person_image_path')->move('images/people', $image_name);
+				$data['person_image_path'] = $image_name;
+			}
+		}
+		foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
+		unset($value);
+		$update = Persons::create($data);
+		$inserted_id = $update->person_id;
+		return redirect()->action('PersonController@edit', [$inserted_id])->with('status', 'Person Added Successfully');
+	}
+
+	public function edit($id)
+	{
+		if(!$this->isAdmin) return view('auth.login');
+		$person = DB::table('persons')->where('person_id', $id)->first();
+		if(!$person) return view('errors.404');
+		$person->image = $this->checkImageExists($person->person_image_path, $person->person_forename, false);
+		$person->cover_count = strlen($person->image);
+		$fields = DB::table('forms')->where('form_name','create_person')->orderBy('form_order', 'asc')->get();
+		$user = $this->isAdmin;
+		return view('people.edit', compact('person', 'fields', 'user'));
 	}
 
 	/*
