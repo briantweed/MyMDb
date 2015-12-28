@@ -19,32 +19,44 @@ class WelcomeController extends Controller {
 
 	public function index()
 	{
+		$app = app();
+		$details = $app->make('stdClass');
+
 		$most_recent = DB::table('movie_details')->orderBy('purchased', 'desc')->orderBy('name', 'asc')->take(10)->get();
 		foreach($most_recent as $movie)
 		{
 			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name);
 			$movie->cover_count = strlen($movie->cover);
 		}
+		$details->most_recent = $most_recent;
 
 		$top_rated = DB::table('movie_details')->orderBy('rating', 'desc')->orderBy('name', 'asc')->take(10)->get();
 		foreach($top_rated as $movie)
 		{
 			$movie->rating_display = $this->makeRatingStars($movie->rating);
 		}
-		$user = $this->isAdmin;
+		$details->top_rated = $top_rated;
 
-		$worst_rated = DB::table('movie_details')->orderBy('rating', 'asc')->orderBy('name', 'asc')->take(10)->get();
-		foreach($worst_rated as $movie)
+		$lowest_rated = DB::table('movie_details')->orderBy('rating', 'asc')->orderBy('name', 'asc')->take(10)->get();
+		foreach($lowest_rated as $movie)
 		{
 			$movie->rating_display = $this->makeRatingStars($movie->rating);
 		}
-		$user = $this->isAdmin;
+		$details->lowest_rated = $lowest_rated;
+
+		$actors = DB::table('movie_cast')
+					->select(DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'),'image')
+					->groupBy('person_id')
+					->orderBy('count', 'desc')->orderBy('surname', 'asc')->take(10)->get();
+		$details->actors = $actors;
 
 		$highlight = $this->selectRandomFilm();
 		$highlight->cover = $this->checkImageExists($highlight->cover, $highlight->sort_name);
 		$highlight->cover_count = strlen($highlight->cover);
 
-		return view('welcome', compact('most_recent', 'top_rated', 'worst_rated', 'highlight', 'user'));
+		$user = $this->isAdmin;
+
+		return view('welcome', compact('details', 'highlight', 'user'));
 	}
 
 
@@ -65,22 +77,6 @@ class WelcomeController extends Controller {
 		return $html;
 	}
 
-	private function checkForDuplicateTitle($name)
-	{
-		return DB::table('movies')->where('movie_name', $name)->count() > 0 ? true : false;
-	}
-
-	private function createNewStudio($name)
-	{
-		$existing = DB::table('studios')->where('studio_name', $name)->first();
-		if(count($existing)==0) {
-			$values = ['studio_name'=>$name];
-			$update = Studios::create($values);
-			return $update->studio_id;
-		}
-		else return $existing->studio_id;
-	}
-
 	private function selectRandomFilm()
 	{
 		$movie_ids = DB::table('movies')->lists('movie_id');
@@ -90,4 +86,4 @@ class WelcomeController extends Controller {
 	}
 
 
-} // end fo class
+} // end of class

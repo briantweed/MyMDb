@@ -53,14 +53,4 @@
 
    </body>
 
-   <footer style="padding:40px 0;background:#121222;border-top:10px double #fff;color:#f2f2f2;text-align:right">
-      <div class="container">
-         <div class="row">
-            <div class="col-sx-12">
-               &copy;<?php echo date("Y"); ?> brtweed designs
-            </div>
-         </div>
-      </div>
-   </footer>
-
 </html>

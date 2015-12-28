@@ -42,6 +42,7 @@ class CreateDatabaseViews extends Migration
             `m`.`movie_release_date` as `released`,
             `p`.`person_forename` as `forename`,
             `p`.`person_surname` as `surname`,
+            `p`.`person_image_path` AS `image`,
             `ch`.`character_name`
          FROM `movies` `m`
          JOIN `cast` `c` ON `m`.`movie_id` = `c`.`cast_movie_id`
