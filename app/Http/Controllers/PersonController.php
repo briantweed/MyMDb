@@ -24,7 +24,8 @@ class PersonController extends Controller {
 		{
 			$person->birthday = date("jS F Y",strtotime($person->person_birthday));
 		}
-		return view('people.index', compact('people'));
+		$user = $this->isAdmin;
+		return view('people.index', compact('people','user'));
 	}
 
 	public function show($id)
@@ -87,6 +88,25 @@ class PersonController extends Controller {
 		$user = $this->isAdmin;
 		return view('people.edit', compact('person', 'fields', 'user'));
 	}
+
+	public function update($id, Request $request)
+	{
+		if(!$this->isAdmin) return view('auth.login');
+		$person = Persons::findorfail($id);
+		$data = $request->all();
+		if($request->hasFile('person_image_path'))
+		{
+			if ($request->file('person_image_path')->isValid()) {
+				$image_name = $this->createImageName($data['person_forename']." ".$data['person_surname']);
+				$image = $request->file('person_image_path')->move('images/people', $image_name);
+				$data['person_image_path'] = $image_name;
+			}
+		}
+		$person->update($data);
+		return redirect()->action('PersonController@edit', [$id])->with('status', 'Details Updated Successfully');
+	}
+
+
 
 	/*
 	| --------------------------------------------------
