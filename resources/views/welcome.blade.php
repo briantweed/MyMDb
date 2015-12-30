@@ -3,6 +3,7 @@
 <html lang="en">
 
    <head>
+
       <meta charset="UTF-8">
       <title>MyMDb</title>
       <meta name="description" content="MyMDb">
@@ -67,7 +68,7 @@
             <div class="row">
 
                {{-- top rated movies --}}
-               <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lr-6">
+               <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-6 col-lr-6">
 
                   <div class="row">
                      <div class="col-xs-12">
@@ -91,7 +92,7 @@
                </div> {{-- end of top rated --}}
 
                {{-- worst rated movies --}}
-               <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6 col-lr-6">
+               <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-6 col-lr-6">
 
                   <div class="row">
                      <div class="col-xs-12">
@@ -130,7 +131,7 @@
 
             {{-- second row --}}
             <div class="row movie">
-               <div class="col-xs-2 col-sm-3 col-md-2 col-lg-offset-1 col-lg-2">
+               <div class="col-xs-2 col-sm-4 col-md-3 col-lg-offset-1 col-lg-2">
                   <a href="{{ action('MovieController@show', $highlight->movie_id) }}">
                      @if($highlight->cover_count == 1)
                         <img class="img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$highlight->cover}}"  />
@@ -139,7 +140,7 @@
                      @endif
                   </a>
                </div>
-               <div class="col-xs-10 col-sm-9 col-md-10 col-lg-8">
+               <div class="col-xs-10 col-sm-8 col-md-9 col-lg-8">
                   <h4>{{$highlight->name}} ({{$highlight->released}}) </h4>
                   <span class="rating-display @if($highlight->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$highlight->rating}} / 10'>{!!$highlight->rating_display!!}</span>
                   <br><br>{{$highlight->description}}<br><br>
@@ -167,9 +168,12 @@
 
          <div class="row">
             @foreach($details->actors as $actor)
-            <div class="col-xs-2">
+            <div class="col-xs-2 text-center">
                <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" />
-               {{$actor->name}} - {{$actor->count}}
+               {{$actor->name}}<br/>
+               @if($actor->count == 1) 1 movie
+               @else {{$actor->count}} movies
+               @endif
             </div>
             @endforeach
 
@@ -183,7 +187,6 @@
       {!! Html::script('js/slick.js') !!}
       {!! Html::script('js/welcome.js') !!}
 
-
    </body>
 
    <footer style="padding:20px 0;background:#121222;border-top:10px double #fff;color:#f2f2f2;text-align:right">
@@ -193,7 +196,7 @@
          <div class="row">
 
             <div class="col-sx-12">
-               &copy;<?php echo date("Y"); ?> brtweed designs <i class="ft ft-2x icon-facebook"></i> <i class="ft ft-2x icon-instagram"></i><i class="ft ft-2x icon-mail"></i>
+               &copy;<?php echo date("Y"); ?> brtweed designs
             </div>
 
          </div>
