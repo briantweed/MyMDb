@@ -25,7 +25,7 @@ class WelcomeController extends Controller {
 		$most_recent = DB::table('movie_details')->orderBy('purchased', 'desc')->orderBy('name', 'asc')->take(10)->get();
 		foreach($most_recent as $movie)
 		{
-			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name);
+			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, 'covers');
 			$movie->cover_count = strlen($movie->cover);
 		}
 		$details->most_recent = $most_recent;
@@ -51,7 +51,7 @@ class WelcomeController extends Controller {
 		$details->actors = $actors;
 
 		$highlight = $this->selectRandomFilm();
-		$highlight->cover = $this->checkImageExists($highlight->cover, $highlight->sort_name);
+		$highlight->cover = $this->checkImageExists($highlight->cover, $highlight->sort_name, 'covers');
 		$highlight->cover_count = strlen($highlight->cover);
 		$highlight->rating_display = $this->makeRatingStars($highlight->rating);
 

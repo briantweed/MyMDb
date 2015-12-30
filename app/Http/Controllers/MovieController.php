@@ -23,7 +23,7 @@ class MovieController extends Controller {
 		$movies = DB::table('movie_details')->paginate(48);
 		foreach($movies as $movie)
 		{
-			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name);
+			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, 'covers');
 			$movie->cover_count = strlen($movie->cover);
 		}
 		$user = $this->isAdmin;
@@ -34,7 +34,7 @@ class MovieController extends Controller {
 	{
 		$movie = DB::table('movie_details')->where('movie_id', $id)->first();
 		if(!$movie) return view('errors.404');
-		$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, false);
+		$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
 		$movie->cast = DB::table('movie_cast')->where('movie_id', $id)->get();
 		$movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
@@ -86,7 +86,7 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = DB::table('movies')->where('movie_id', $id)->first();
 		if(!$movie) return view('errors.404');
-		$movie->cover = $this->checkImageExists($movie->movie_image_path, $movie->movie_sort_name, false);
+		$movie->cover = $this->checkImageExists($movie->movie_image_path, $movie->movie_sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
 		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');

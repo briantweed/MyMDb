@@ -10,7 +10,7 @@ trait ImageFunctions
 		return str_replace(' ', '_', $name).'_'.date('U').'.jpg';
 	}
 
-   private function checkImageExists($src, $name, $compressed = true)
+   private function checkImageExists($src, $name, $dest, $compressed = true)
 	{
       if($src != null)
       {
@@ -21,19 +21,18 @@ trait ImageFunctions
    		{
    			return 'images/compressed/'.$image.'-compressor.'.$ext;
    		}
-   		else if(@getimagesize($basePath.'/images/covers/'.$src))
+   		else if(@getimagesize($basePath.'/images/'.$dest.'/'.$src))
    		{
-   			return 'images/covers/'.$src;
+   			return 'images/'.$dest.'/'.$src;
    		}
-   		return ucwords(substr($name,0,1));
       }
-      return null;
+      return ucwords(substr($name,0,1));
 	}
 
    private function unlinkExistingImage($dest, $filename)
    {
       $uploadPath = $_SERVER['DOCUMENT_ROOT'].'/'.env('BASE_PATH').'/images/'.$dest.'/';
-      unlink($uploadPath.$filename);
+      if(@getimagesize($uploadPath.$filename)) unlink($uploadPath.$filename);
    }
 
 }

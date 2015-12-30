@@ -558,6 +558,10 @@ div.movie {
          font-family: Arial;
       }
 
+      &.input-group-addon {
+         cursor: pointer;
+      }
+
    }
 
    input[type="file"] {

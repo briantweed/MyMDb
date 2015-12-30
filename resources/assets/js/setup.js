@@ -11,10 +11,7 @@ $(document).on('click', 'div.alert-success button.close', function(event){
    $('.alert-success').slideUp(500);
 });
 
-
 $(document).ready( function() {
-
-   // new Vivus('Layer_1', {type: 'delayed', duration: 150});
 
    // Lazy load images
    $('img.lazy').lazyload({
@@ -79,3 +76,21 @@ $(document).ready( function() {
    // });
 
 });
+
+function previewImage(input, output) {
+   if(input.files && input.files[0])
+   {
+      var reader = new FileReader();
+      reader.onload = function(event) {
+         var image = new Image();
+         image.src = event.target.result;
+         image.onload = function() {
+            var thisWidth  = this.width;
+            var thisHeight = this.height;
+            $('#'+output+'-info').html('Image Size: '+thisWidth+'px by '+thisHeight+'px');
+         };
+         $('#'+output).attr("src", event.target.result);
+      };
+      reader.readAsDataURL(input.files[0]);
+   }
+}

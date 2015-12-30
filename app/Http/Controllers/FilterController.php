@@ -27,7 +27,7 @@ class FilterController extends Controller
                   ->get();
          foreach($movies as $movie)
    		{
-   			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name);
+   			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, 'covers');
    			$movie->cover_count = strlen($movie->cover);
    		}
          $user = $this->isAdmin;

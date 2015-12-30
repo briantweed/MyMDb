@@ -6608,6 +6608,9 @@ div.movie span.required {
   color: #F83C3C;
   font-family: Arial; }
 
+div.movie span.input-group-addon {
+  cursor: pointer; }
+
 div.movie input[type="file"] {
   display: inline-block; }
 

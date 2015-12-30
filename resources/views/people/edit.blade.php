@@ -49,12 +49,16 @@
          <div class="row">
             <div class="col-xs-12">
                @if(isset($person->image))
-                  <img id="movie-poster" class="img-responsive img-rounded" src="{{asset('images/people/'.$person->image)}}" />
-                  @if( Request::is('people/*/edit'))
-                     @include('segments.buttons.edit_image')
+                  @if($person->cover_count == 1)
+                     <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$person->image}}"  />
+                  @else
+                     <img id="movie-poster" class="img-responsive img-rounded" src="{{asset($person->image)}}" />
+                     @if( Request::is('people/*/edit'))
+                        @include('segments.buttons.edit_image')
+                     @endif
                   @endif
                @else
-                  <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
+                  <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
                @endif
             </div>
 

@@ -18,7 +18,7 @@
 
 {{-- input --}}
 @section('input')
-   {!! Form::file($field) !!}
+   <input type="file" id="{{$field}}" name="{{$field}}" onchange="previewImage(this,'movie-poster')" />
 @overwrite
 
 {{-- input extra classes --}}
