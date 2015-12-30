@@ -73,6 +73,19 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
+			5 => 
+			array (
+				'person_id' => 6,
+				'person_forename' => 'Brad',
+				'person_surname' => 'Pitt',
+				'person_birthday' => '1963-12-18',
+				'person_image_path' => 'brad_pitt_1451494768.jpg',
+			'person_bio' => 'Actor and producer Brad Pitt was born on December 18, 1963, in Shawnee, Oklahoma. Pitt&#039;s first jobs came in television in the late 1980s. Pitt made his big-screen debut in 1989&#039;s horror film Cutting Class and his role in 1994&#039;s Legends of the Fall helped secured his place as a Hollywood staple. More recent film credits include Fight Club (1999), Babel (2006), The Curious Case of Benjamin Button (2008), Inglourious Basterds (2009), Moneyball (2011) and World War Z (2013).
+
+He was nominated for an Academy Award for the fifth time in 2014, winning his first Oscar in the best picture category as a producer for 12 Years a Slave (2013). He is married to fellow actor Angelina Jolie.',
+				'updated_at' => '2015-12-30 16:59:28',
+				'created_at' => '2015-12-30 16:59:28',
+			),
 		));
 	}
 

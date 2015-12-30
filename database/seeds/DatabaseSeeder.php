@@ -13,23 +13,23 @@ class DatabaseSeeder extends Seeder {
 	public function run()
 	{
 		Model::unguard();
-
-		// Required Setup Data
+		$this->call('CastTableSeeder');
+		$this->call('CategoriesTableSeeder');
 		$this->call('CertificatesTableSeeder');
+		$this->call('CharactersTableSeeder');
+		$this->call('CrewTableSeeder');
 		$this->call('FormatsTableSeeder');
-		$this->call('GenresTableSeeder');
-		$this->call('PositionsTableSeeder');
-		$this->call('StudiosTableSeeder');
 		$this->call('FormsTableSeeder');
-		$this->call('UsersTableSeeder');
-
-		// Back Up Data
+		$this->call('GenresTableSeeder');
+		$this->call('KeywordsTableSeeder');
 		$this->call('MoviesTableSeeder');
 		$this->call('PersonsTableSeeder');
-
-		// Test Data
-		$this->call('TestDataSeeder');
-
+		$this->call('PositionsTableSeeder');
+		$this->call('QuotesTableSeeder');
+		$this->call('StudiosTableSeeder');
+		$this->call('TagsTableSeeder');
+		$this->call('UsersTableSeeder');
+		$this->call('ViewingsTableSeeder');
 		Model::reguard();
 	}
 

@@ -21,6 +21,15 @@
 {{-- Main Body --}}
 @section('content')
 
+   @if(session('status'))
+      <div class="col-xs-12 alert alert-dismissible alert-success">
+         <button type="button" class="close" >
+            <span aria-hidden="true">&times;</span>
+         </button>
+         {{ session('status') }}
+      </div>
+   @endif
+
    <div class="row">
       <div class="col-xs-12">
          <ul class="xs-block-grid-4">

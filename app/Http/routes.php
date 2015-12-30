@@ -11,7 +11,14 @@ Route::get('/admin', 'StudioController@index');
 Route::get('/admin/seed', function(){
 	Iseed::generateSeed('movies');
 	Iseed::generateSeed('persons');
-	return "Movies and Persons seeds created";
+	Iseed::generateSeed('cast');
+	Iseed::generateSeed('characters');
+	Iseed::generateSeed('categories');
+	Iseed::generateSeed('crew');
+	Iseed::generateSeed('keywords');
+	Iseed::generateSeed('tags');
+	Iseed::generateSeed('viewings');
+	return Redirect::to('/admin')->with('status', 'Seeds created for all tables');
 });
 
 Route::post('aviary', 'AviaryController@replaceImage');

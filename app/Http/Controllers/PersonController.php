@@ -35,7 +35,7 @@ class PersonController extends Controller {
 		if(!$person) return view('errors.404');
 		$person->image = $this->checkImageExists($person->person_image_path, $person->person_forename, 'people', false);
 		$person->cover_count = strlen($person->image);
-		$roles = DB::table('movie_cast')->where('person_id', $id)->get();
+		$roles = DB::table('movie_cast')->where('person_id', $id)->orderBy('released', 'desc')->get();
 		if(!$person) return view('errors.404');
 		if($person->person_birthday !== NULL)
 		{
