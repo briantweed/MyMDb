@@ -23,8 +23,11 @@ class DatabaseSeeder extends Seeder {
 		$this->call('FormsTableSeeder');
 		$this->call('UsersTableSeeder');
 
-		// Additional Test Data
+		// Back Up Data
 		$this->call('MoviesTableSeeder');
+		$this->call('PersonsTableSeeder');
+
+		// Test Data
 		$this->call('TestDataSeeder');
 
 		Model::reguard();

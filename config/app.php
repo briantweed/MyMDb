@@ -138,7 +138,8 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Illuminate\Html\HtmlServiceProvider::class,
         Bestmomo\Scafold\ScafoldServiceProvider::class,
-        
+        Orangehill\Iseed\IseedServiceProvider::class,
+
         /*
          * Application Service Providers...
          */

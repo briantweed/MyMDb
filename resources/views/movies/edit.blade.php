@@ -19,7 +19,7 @@
 @stop
 
 @section('subnav-right')
-   @include('segments.links.show_details')
+
 @stop
 
 
@@ -35,10 +35,6 @@
          {{ session('status') }}
       </div>
    @endif
-
-   <div id="movie-details" class="alert alert-warning" style="display:none">
-      ['{{htmlentities(str_replace(array('\'', '"'), array('&#039;', '&#034;'),$movie->movie_name))}}','{{htmlentities(str_replace(array('\'', '"'), array('&#039;', '&#034;'),$movie->movie_sort_name))}}','{{$movie->movie_release_date}}','{{$movie->movie_image_path}}','{{$movie->movie_running_time}}','{{$movie->movie_my_rating}}','{{$movie->movie_certificate_id}}','{{$movie->movie_format_id}}','{{$movie->movie_studio_id}}','{{htmlentities(str_replace(array('\'', '"'), array('&#039;', '&#034;'),$movie->movie_bio))}}'],
-   </div>
 
    <div class="row movie">
 

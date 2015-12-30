@@ -7,8 +7,12 @@ Route::controllers([
 
 Route::get('/', 'WelcomeController@index');
 
-
 Route::get('/admin', 'StudioController@index');
+Route::get('/admin/seed', function(){
+	Iseed::generateSeed('movies');
+	Iseed::generateSeed('persons');
+	return "Movies and Persons seeds created";
+});
 
 Route::post('aviary', 'AviaryController@replaceImage');
 Route::post('filter', 'FilterController@filterMovies');

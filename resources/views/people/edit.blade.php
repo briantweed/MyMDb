@@ -19,7 +19,7 @@
 @stop
 
 @section('subnav-right')
-   @include('segments.links.show_details')
+
 @stop
 
 
@@ -35,10 +35,6 @@
          {{ session('status') }}
       </div>
    @endif
-
-   <div id="movie-details" class="alert alert-warning" style="display:none">
-      ['{{$person->person_forename}}','{{$person->person_surname}}','{{$person->person_birthday}}','{{$person->person_image_path}}','{{$person->person_bio}}'],
-   </div>
 
    <div class="row movie">
 
