@@ -7,6 +7,14 @@ $(document).ready(function(){
       persist: false
    });
 
+   $('.input-group.date').datepicker({
+      format: "dd-mm-yyyy",
+      orientation: "bottom auto",
+      autoclose: true,
+      todayHighlight: true,
+      defaultViewDate: { year: 2000, month: 01, day: 01 }
+   });
+
    // apply selctize to dropdowns
    $('#select-movie').selectize({
       valueField: 'title',

@@ -7,7 +7,7 @@ trait ImageFunctions
 
    private function createImageName($name)
 	{
-		return str_replace(' ', '_', ucwords(strtolower($name))).'_'.date('U').'.jpg';
+		return str_replace(' ', '_', $name).'_'.date('U').'.jpg';
 	}
 
    private function checkImageExists($src, $name, $compressed = true)
@@ -29,5 +29,11 @@ trait ImageFunctions
       }
       return null;
 	}
+
+   private function unlinkExistingImage($dest, $filename)
+   {
+      $uploadPath = $_SERVER['DOCUMENT_ROOT'].'/'.env('BASE_PATH').'/images/'.$dest.'/';
+      unlink($uploadPath.$filename);
+   }
 
 }

@@ -18,7 +18,8 @@ var featherEditor = new Aviary.Feather({
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             img: newUrl,
-            src: $('#movie-poster').attr('src')
+            src: $('#movie-poster').attr('src'),
+            dest: "people"
          }
      }).done(function(json) {
         console.log(json.err);

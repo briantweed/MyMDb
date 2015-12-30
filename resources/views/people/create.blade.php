@@ -95,5 +95,5 @@
 @stop
 
 @section('extensions')
-   {{-- {!! Html::script('js/create_person.js') !!} --}}
+   {!! Html::script('js/create_person.js') !!}
 @stop

@@ -16,9 +16,10 @@ class AviaryController extends Controller
          $data = Request::all();
          $src = $data['src'];
          $img = $data['img'];
+         $dest = $data['dest'];
          $protocol     = isset( $_SERVER["HTTPS"] ) ? 'https://' : 'http://';
-      	$absolutePath = $protocol. $_SERVER['HTTP_HOST'].'/'.env('BASE_PATH').'/images/covers/';
-      	$uploadPath   = $_SERVER['DOCUMENT_ROOT'].'/'.env('BASE_PATH').'/images/covers/';
+      	$absolutePath = $protocol. $_SERVER['HTTP_HOST'].'/'.env('BASE_PATH').'/images/'.$dest.'/';
+      	$uploadPath   = $_SERVER['DOCUMENT_ROOT'].'/'.env('BASE_PATH').'/images/'.$dest.'/';
 
       	// FILENAME
       	$filename = str_replace($absolutePath, '', $src);

@@ -64,7 +64,8 @@ class PersonController extends Controller {
 		if($request->hasFile('person_image_path'))
 		{
 			if ($request->file('person_image_path')->isValid()) {
-				$image_name = $this->createImageName($data['person_forename']." ".$data['person_surname']);
+				$person_concat = strtolower($data['person_forename']." ".$data['person_surname']);
+				$image_name = $this->createImageName($person_concat);
 				$image = $request->file('person_image_path')->move('images/people', $image_name);
 				$data['person_image_path'] = $image_name;
 			}
@@ -96,9 +97,11 @@ class PersonController extends Controller {
 		if($request->hasFile('person_image_path'))
 		{
 			if ($request->file('person_image_path')->isValid()) {
-				$image_name = $this->createImageName($data['person_forename']." ".$data['person_surname']);
+				$person_concat = strtolower($data['person_forename'])."_".strtolower($data['person_surname']);
+				$image_name = $this->createImageName($person_concat);
 				$image = $request->file('person_image_path')->move('images/people', $image_name);
 				$data['person_image_path'] = $image_name;
+				$this->unlinkExistingImage('people', $person->person_image_path);
 			}
 		}
 		$data['person_birthday'] = date("Y/m/d", strtotime($data['person_birthday']));

@@ -11,6 +11,10 @@
                @include('segments.forms.text', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'value' => $value])
             <?php break;
 
+            case "date": ?>
+               @include('segments.forms.date', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'value' => date("d-m-Y", strtotime($value))])
+            <?php break;
+
             case "textarea": ?>
                @include('segments.forms.textarea', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->form_label, 'required' => $field->form_required, 'field' => $field->form_field, 'value' => $value])
             <?php break;

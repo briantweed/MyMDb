@@ -73,6 +73,7 @@ class MovieController extends Controller {
 		}
 		$data['movie_studio_id'] = is_numeric($data['movie_studio_id']) ? $data['movie_studio_id'] : $this->createNewStudio($data['movie_studio_id']);
 		$data['movie_duplicate'] = $this->checkForDuplicateTitle($request->movie_name);
+		$data['movie_purchased'] = date("Y-m-d", strtotime($data['movie_purchased'] ));
 		foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
 		unset($value);
 		$update = Movies::create($data);
@@ -108,9 +109,11 @@ class MovieController extends Controller {
 				$image_name = $this->createImageName($data['movie_sort_name']);
 				$image = $request->file('movie_image_path')->move('images/covers', $image_name);
 				$data['movie_image_path'] = $image_name;
+				$this->unlinkExistingImage('covers', $movie->movie_image_path);
 			}
 		}
 		$data['movie_studio_id'] = is_numeric($data['movie_studio_id']) ? $data['movie_studio_id'] : $this->createNewStudio($data['movie_studio_id']);
+		$data['movie_purchased'] = date("Y-m-d", strtotime($data['movie_purchased'] ));
 		$movie->update($data);
 		return redirect()->action('MovieController@edit', [$id])->with('status', 'Movie Updated Successfully');
 	}

@@ -10,6 +10,7 @@ class Movies extends Model {
 		'movie_name',
 		'movie_sort_name',
 		'movie_release_date',
+		'movie_purchased',
 		'movie_image_path',
 		'movie_my_rating',
 		'movie_running_time',

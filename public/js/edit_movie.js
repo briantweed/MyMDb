@@ -18,7 +18,8 @@ var featherEditor = new Aviary.Feather({
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             img: newUrl,
-            src: $('#movie-poster').attr('src')
+            src: $('#movie-poster').attr('src'),
+            dest: "covers"
          }
      }).done(function(json) {
         console.log(json.err);
@@ -41,6 +42,14 @@ $(document).ready(function(){
    // confirmation of movie deletion
    $('#delete_movie').click(function(){
       $('#delete_movie_form').submit();
+   });
+
+   $('.input-group.date').datepicker({
+      format: "dd-mm-yyyy",
+      orientation: "bottom auto",
+      autoclose: true,
+      todayHighlight: true,
+      defaultViewDate: { year: 2000, month: 01, day: 01 }
    });
 
 });

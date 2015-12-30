@@ -20,7 +20,7 @@ class TestDataSeeder extends Seeder
       }, $cast); // end of Cast
 
 
-      //  Categories *********
+      //  Categories
       if( DB::table('categories')->count() ) DB::table('categories')->truncate();
       $categories = [
          ['1', '13'],['1', '18'],['2', '12'],['2', '13'],['3', '16'],['3', '22'],['4', '16'],
@@ -87,7 +87,7 @@ class TestDataSeeder extends Seeder
       }, $keywords); // end of Keywords
 
 
-
+      // Quotes
       if( DB::table('quotes')->count() ) DB::table('quotes')->truncate();
       $quotes = [
          ['8','Tell these guys where the pages are so no one else gets hurt'],
