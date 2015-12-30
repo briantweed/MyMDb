@@ -32,8 +32,7 @@ class PersonController extends Controller {
 	{
 		$person = DB::table('persons')->where('person_id', $id)->first();
 		if(!$person) return view('errors.404');
-		$person->img = $this->checkImageExists($person->person_image_path, $person->person_forename, false);
-		$person->img_count = strlen($person->img);
+		$person->img = $person->person_image_path;
 		$roles = DB::table('movie_cast')->where('person_id', $id)->get();
 		if(!$person) return view('errors.404');
 		if($person->person_birthday !== NULL)
@@ -72,6 +71,7 @@ class PersonController extends Controller {
 		}
 		foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
 		unset($value);
+		$data['person_birthday'] = date("Y-m-d", strtotime($data['person_birthday']));
 		$update = Persons::create($data);
 		$inserted_id = $update->person_id;
 		return redirect()->action('PersonController@edit', [$inserted_id])->with('status', 'Person Added Successfully');
@@ -82,8 +82,7 @@ class PersonController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$person = DB::table('persons')->where('person_id', $id)->first();
 		if(!$person) return view('errors.404');
-		$person->image = $this->checkImageExists($person->person_image_path, $person->person_forename, false);
-		$person->cover_count = strlen($person->image);
+		$person->image = $person->person_image_path;
 		$fields = DB::table('forms')->where('form_name','create_person')->orderBy('form_order', 'asc')->get();
 		$user = $this->isAdmin;
 		return view('people.edit', compact('person', 'fields', 'user'));
@@ -102,6 +101,7 @@ class PersonController extends Controller {
 				$data['person_image_path'] = $image_name;
 			}
 		}
+		$data['person_birthday'] = date("Y/m/d", strtotime($data['person_birthday']));
 		$person->update($data);
 		return redirect()->action('PersonController@edit', [$id])->with('status', 'Details Updated Successfully');
 	}

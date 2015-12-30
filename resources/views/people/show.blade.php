@@ -46,11 +46,7 @@
          {{-- cover image --}}
          <div class="row">
             <div class="col-xs-12">
-               @if($person->img_count == 1)
-                  <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$person->img}}" />
-               @else
-                  <img class="img-responsive img-rounded" src="{{asset('images/people/')}}/{{$person->img}}" />
-               @endif
+               <img class="img-responsive img-rounded" src="{{asset('images/people/')}}/{{$person->img}}" />
             </div>
          </div>
 
@@ -92,7 +88,7 @@
 
          {{-- description --}}
          <div class="row">
-            <div class="col-xs-12"><p>{{$person->person_bio}}</p></div>
+            <div class="col-xs-12"><br/>{!! nl2br(e($person->person_bio)) !!}</div>
          </div>
 
          {{-- padding --}}

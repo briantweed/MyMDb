@@ -49,13 +49,9 @@
          <div class="row">
             <div class="col-xs-12">
                @if(isset($person->image))
-                  @if($person->cover_count == 1)
-                     <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$person->image}}" alt="{{$person->image}}" />
-                  @else
-                     <img id="movie-poster" class="img-responsive img-rounded" src="{{asset($person->image)}}" />
-                     @if( Request::is('people/*/edit'))
-                        @include('segments.buttons.edit_image')
-                     @endif
+                  <img id="movie-poster" class="img-responsive img-rounded" src="{{asset('images/people/'.$person->image)}}" />
+                  @if( Request::is('people/*/edit'))
+                     @include('segments.buttons.edit_image')
                   @endif
                @else
                   <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
@@ -115,5 +111,5 @@
 
 @section('extensions')
    <script type="text/javascript" src="http://feather.aviary.com/js/feather.js"></script>
-   {{-- {!! Html::script('js/edit_movie.js') !!} --}}
+   {!! Html::script('js/edit_person.js') !!}
 @stop

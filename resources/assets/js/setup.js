@@ -11,21 +11,6 @@ $(document).on('click', 'div.alert-success button.close', function(event){
    $('.alert-success').slideUp(500);
 });
 
-$(document).bind('keypress', function(event) {
-
-   // Run search with Enter
-   if(event.keyCode==13) {
-      event.preventDefault();
-      $('.filter-movie-start').trigger('click');
-   }
-
-   // Reload page with Escape
-   if(event.keyCode==27) {
-      event.preventDefault();
-      window.location.reload(true);
-   }
-
-});
 
 $(document).ready( function() {
 
@@ -37,7 +22,7 @@ $(document).ready( function() {
    });
 
    // auto size text areas
-   $('#movie_bio').autosize();
+   $('textarea').autosize();
 
    // Tooltip configuration
    $('[data-toggle="tooltip"]').tooltip({
