@@ -132,19 +132,19 @@
             {{-- second row --}}
             <div class="row movie">
                <div class="col-xs-2 col-sm-4 col-md-3 col-lg-offset-1 col-lg-2">
-                  <a href="{{ action('MovieController@show', $highlight->movie_id) }}">
-                     @if($highlight->cover_count == 1)
-                        <img class="img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$highlight->cover}}"  />
+                  <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
+                     @if($details->highlight->cover_count == 1)
+                        <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$details->highlight->cover}}"  />
                      @else
-                        <img style="box-shadow: 1px 1px 4px #888" class="img-rounded img-responsive" src="{{asset($highlight->cover)}}"  />
+                        <img style="box-shadow: 1px 1px 4px #888" class="img-rounded img-responsive" src="{{asset($details->highlight->cover)}}"  />
                      @endif
                   </a>
                </div>
                <div class="col-xs-10 col-sm-8 col-md-9 col-lg-8">
-                  <h4>{{$highlight->name}} ({{$highlight->released}}) </h4>
-                  <span class="rating-display @if($highlight->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$highlight->rating}} / 10'>{!!$highlight->rating_display!!}</span>
-                  <br><br>{{$highlight->description}}<br><br>
-                  <a href="{{ action('MovieController@show', $highlight->movie_id) }}" class="btn btn-lg btn-info-outline"> view </a>
+                  <h4>{{$details->highlight->name}} ({{$details->highlight->released}}) </h4>
+                  <span class="rating-display @if($details->highlight->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$details->highlight->rating}} / 10'>{!!$details->highlight->rating_display!!}</span>
+                  <br><br>{{$details->highlight->bio}}<br><br>
+                  <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}" class="btn  btn-info-outline"> view </a>
                </div>
             </div>
 
@@ -159,25 +159,52 @@
          @include('segments.layout.padding')
 
          <div class="row">
-
-            <div class="col-xs-12">
-               <h4>Most Popular Actors</h4>
+            <div class="col-xs-12 col-sm-6">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <h4>Most Popular Actors</h4>
+                  </div>
+               </div>
+               @foreach($details->actors as $actor)
+                  <div class="row">
+                     <div class="col-xs-4 col-sm-3 col-lg-2">
+                        <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" />
+                     </div>
+                     <div class="col-xs-8">
+                        {{$actor->name}}<br/>
+                        @if($actor->count == 1) 1 movie
+                        @else {{$actor->count}} movies
+                        @endif
+                     </div>
+                  </div>
+                  @include('segments.layout.padding')
+               @endforeach
             </div>
 
-         </div>
-
-         <div class="row">
-            @foreach($details->actors as $actor)
-            <div class="col-xs-2 text-center">
-               <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" />
-               {{$actor->name}}<br/>
-               @if($actor->count == 1) 1 movie
-               @else {{$actor->count}} movies
-               @endif
+            <div class="col-xs-12 col-sm-6">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <h4>Most Popular Directors</h4>
+                  </div>
+               </div>
+               @foreach($details->directors as $director)
+                  <div class="row">
+                     <div class="col-xs-4 col-sm-3 col-lg-2">
+                        <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" />
+                     </div>
+                     <div class="col-xs-8">
+                        {{$director->name}}<br/>
+                        @if($director->count == 1) 1 movie
+                        @else {{$director->count}} movies
+                        @endif
+                     </div>
+                  </div>
+                  @include('segments.layout.padding')
+               @endforeach
             </div>
-            @endforeach
-
          </div>
+
+
 
          @include('segments.layout.padding')
 

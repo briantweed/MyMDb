@@ -15,7 +15,7 @@ class GenresTableSeeder extends Seeder
 
         array_map( function( $genre ) {
            DB::table('genres')->insert([
-              'genre_type' => $genre
+              'type' => $genre
            ]);
         }, $genres);
 

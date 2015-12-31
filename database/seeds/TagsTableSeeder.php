@@ -12,61 +12,61 @@ class TagsTableSeeder extends Seeder {
 	public function run()
 	{
 		\DB::table('tags')->delete();
-        
+
 		\DB::table('tags')->insert(array (
-			0 => 
+			0 =>
 			array (
 				'tag_id' => 1,
-				'tag_movie_id' => 3,
-				'tag_keyword_id' => 1,
+				'movie_id' => 3,
+				'keyword_id' => 1,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			1 => 
+			1 =>
 			array (
 				'tag_id' => 2,
-				'tag_movie_id' => 4,
-				'tag_keyword_id' => 1,
+				'movie_id' => 4,
+				'keyword_id' => 1,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			2 => 
+			2 =>
 			array (
 				'tag_id' => 3,
-				'tag_movie_id' => 5,
-				'tag_keyword_id' => 1,
+				'movie_id' => 5,
+				'keyword_id' => 1,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			3 => 
+			3 =>
 			array (
 				'tag_id' => 4,
-				'tag_movie_id' => 6,
-				'tag_keyword_id' => 1,
+				'movie_id' => 6,
+				'keyword_id' => 1,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			4 => 
+			4 =>
 			array (
 				'tag_id' => 5,
-				'tag_movie_id' => 1,
-				'tag_keyword_id' => 2,
+				'movie_id' => 1,
+				'keyword_id' => 2,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			5 => 
+			5 =>
 			array (
 				'tag_id' => 6,
-				'tag_movie_id' => 1,
-				'tag_keyword_id' => 3,
+				'movie_id' => 1,
+				'keyword_id' => 3,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			6 => 
+			6 =>
 			array (
 				'tag_id' => 7,
-				'tag_movie_id' => 11,
-				'tag_keyword_id' => 4,
+				'movie_id' => 11,
+				'keyword_id' => 4,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),

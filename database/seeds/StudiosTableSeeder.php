@@ -17,7 +17,7 @@ class StudiosTableSeeder extends Seeder {
 
 			array_map( function( $studio ) {
 				DB::table('studios')->insert([
-					'studio_name' => $studio
+					'name' => $studio
 				]);
 			}, $studios);
 

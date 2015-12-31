@@ -14,7 +14,7 @@
 
 {{-- Page Title --}}
 @section('title')
-   {{$person->person_forename}} {{$person->person_surname}}
+   {{$person->forename}} {{$person->surname}}
 @stop
 
 {{-- Subnav --}}
@@ -75,7 +75,7 @@
 
          {{-- person title --}}
          <div class="row">
-            <div class="col-xs-12"><h1>{{$person->person_forename}} {{$person->person_surname}}<br/></h1></div>
+            <div class="col-xs-12"><h1>{{$person->forename}} {{$person->surname}}<br/></h1></div>
          </div>
 
          {{-- birthday --}}
@@ -92,22 +92,22 @@
 
          {{-- description --}}
          <div class="row">
-            <div class="col-xs-12"><br/>{!! nl2br(e($person->person_bio)) !!}</div>
+            <div class="col-xs-12"><br/>{!! nl2br(e($person->bio)) !!}</div>
          </div>
 
          {{-- padding --}}
          @include('segments.layout.padding')
 
          {{-- acting roles --}}
-         @if(count($roles)!==0)
+         @if(count($person->movies)!==0)
             <div class="row">
                <div class="col-xs-12"><h3>Roles</h3></div>
             </div>
 
-            @foreach($roles as $role)
+            @foreach($person->movies as $role)
                <div class="row">
-                  <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $role->movie_id) }}"><b>{{$role->movie_name}}</b></a><br/></div>
-                  <div class="{{$role_char}}"><i>{{$role->character_name}}</i><br/></div>
+                  <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $role->movie_id) }}"><b>{{$role->name}}</b></a><br/></div>
+                  <div class="{{$role_char}}"><i>{{$role->pivot->character}}</i><br/></div>
                   <div class="{{$role_date}}">{{$role->released}}</div>
                </div>
             @endforeach

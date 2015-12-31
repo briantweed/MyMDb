@@ -2,6 +2,7 @@
 
 use DB;
 use App\Movies;
+use App\Persons;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ValidateCreateMovie;
@@ -22,42 +23,43 @@ class WelcomeController extends Controller {
 		$app = app();
 		$details = $app->make('stdClass');
 
-		$most_recent = DB::table('movie_details')->orderBy('purchased', 'desc')->orderBy('name', 'asc')->take(10)->get();
-		foreach($most_recent as $movie)
+		// most recent purchases
+		$details->most_recent = Movies::getMovieRecords('purchased', 'DESC', 10);
+		foreach($details->most_recent as $movie)
 		{
-			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, 'covers');
+			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
 			$movie->cover_count = strlen($movie->cover);
 		}
-		$details->most_recent = $most_recent;
 
-		$top_rated = DB::table('movie_details')->orderBy('rating', 'desc')->orderBy('name', 'asc')->take(10)->get();
-		foreach($top_rated as $movie)
+		// top rated movies
+		$details->top_rated = Movies::getMovieRecords('rating', 'DESC', 10);
+		foreach($details->top_rated as $movie)
 		{
 			$movie->rating_display = $this->makeRatingStars($movie->rating);
 		}
-		$details->top_rated = $top_rated;
 
-		$lowest_rated = DB::table('movie_details')->orderBy('rating', 'asc')->orderBy('name', 'asc')->take(10)->get();
-		foreach($lowest_rated as $movie)
+		// lowest rated movies
+		$details->lowest_rated = Movies::getMovieRecords('rating', 'ASC', 10);
+		foreach($details->lowest_rated as $movie)
 		{
 			$movie->rating_display = $this->makeRatingStars($movie->rating);
 		}
-		$details->lowest_rated = $lowest_rated;
 
-		$actors = DB::table('movie_cast')
-					->select(DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'),'image')
-					->groupBy('person_id')
-					->orderBy('count', 'desc')->orderBy('surname', 'asc')->take(10)->get();
-		$details->actors = $actors;
+		// get most popular actors
+		$details->actors = Persons::getActorCount(10);
 
-		$highlight = $this->selectRandomFilm();
-		$highlight->cover = $this->checkImageExists($highlight->cover, $highlight->sort_name, 'covers');
-		$highlight->cover_count = strlen($highlight->cover);
-		$highlight->rating_display = $this->makeRatingStars($highlight->rating);
+		// get most popular directors
+		$details->directors = Persons::getDirectorCount(10);
+
+		// highlight randomly selected movie
+		$details->highlight = Movies::selectRandomFilm();
+		$details->highlight->cover = $this->checkImageExists($details->highlight->image, $details->highlight->sort_name, 'covers');
+		$details->highlight->cover_count = strlen($details->highlight->cover);
+		$details->highlight->rating_display = $this->makeRatingStars($details->highlight->rating);
 
 		$user = $this->isAdmin;
 
-		return view('welcome', compact('details', 'highlight', 'user'));
+		return view('welcome', compact('details', 'user'));
 	}
 
 
@@ -78,13 +80,7 @@ class WelcomeController extends Controller {
 		return $html;
 	}
 
-	private function selectRandomFilm()
-	{
-		$movie_ids = DB::table('movies')->lists('movie_id');
-		$selected_movie = array_rand($movie_ids, 1);
-		$movie = DB::table('movie_details')->where('movie_id', $selected_movie)->first();
-		return $movie;
-	}
+
 
 
 } // end of class

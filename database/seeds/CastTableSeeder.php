@@ -12,55 +12,45 @@ class CastTableSeeder extends Seeder {
 	public function run()
 	{
 		\DB::table('cast')->delete();
-        
+
 		\DB::table('cast')->insert(array (
-			0 => 
+			0 =>
 			array (
 				'cast_id' => 1,
-				'cast_movie_id' => 1,
-				'cast_person_id' => 1,
-				'cast_character_id' => 1,
-				'cast_order' => 1,
+				'movie_id' => 1,
+				'person_id' => 1,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			1 => 
+			1 =>
 			array (
 				'cast_id' => 2,
-				'cast_movie_id' => 1,
-				'cast_person_id' => 5,
-				'cast_character_id' => 2,
-				'cast_order' => 2,
+				'movie_id' => 1,
+				'person_id' => 5,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			2 => 
+			2 =>
 			array (
 				'cast_id' => 3,
-				'cast_movie_id' => 7,
-				'cast_person_id' => 6,
-				'cast_character_id' => 3,
-				'cast_order' => 1,
+				'movie_id' => 7,
+				'person_id' => 6,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			3 => 
+			3 =>
 			array (
 				'cast_id' => 4,
-				'cast_movie_id' => 73,
-				'cast_person_id' => 6,
-				'cast_character_id' => 4,
-				'cast_order' => 1,
+				'movie_id' => 73,
+				'person_id' => 6,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),
-			4 => 
+			4 =>
 			array (
 				'cast_id' => 5,
-				'cast_movie_id' => 119,
-				'cast_person_id' => 6,
-				'cast_character_id' => 5,
-				'cast_order' => 1,
+				'movie_id' => 119,
+				'person_id' => 6,
 				'updated_at' => '0000-00-00 00:00:00',
 				'created_at' => '0000-00-00 00:00:00',
 			),

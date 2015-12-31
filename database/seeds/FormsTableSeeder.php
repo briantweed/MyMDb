@@ -34,17 +34,17 @@ class FormsTableSeeder extends Seeder {
 
 			array_map( function( $field ) {
 				DB::table('forms')->insert([
-					'form_name' => $field[0],
-					'form_order' => $field[1],
-					'form_field' => $field[2],
-					'form_label' => $field[3],
-					'form_required' => $field[4],
-					'form_type' => $field[5],
-					'form_range_from' => $field[6],
-					'form_range_to' => $field[7],
-					'form_options' => $field[8],
-					'form_default' => $field[9],
-					'form_class' => $field[10]
+					'name' => $field[0],
+					'order' => $field[1],
+					'field' => $field[2],
+					'label' => $field[3],
+					'required' => $field[4],
+					'type' => $field[5],
+					'range_from' => $field[6],
+					'range_to' => $field[7],
+					'options' => $field[8],
+					'default' => $field[9],
+					'class' => $field[10]
 				]);
 			}, $fields);
 

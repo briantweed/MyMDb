@@ -104,24 +104,23 @@
          {{-- certifiate --}}
          <div class="row">
             <div class="{{$label_class}}"><b>Certificate</b></div>
-            <div class="{{$input_class}}">{{$movie->certificate}}</div>
+            <div class="{{$input_class}}">{{$movie->certificate->title}}</div>
          </div>
 
          {{-- format --}}
          <div class="row">
             <div class="{{$label_class}}"><b>Format</b></div>
-            <div class="{{$input_class}}">{{$movie->format}}</div>
+            <div class="{{$input_class}}">{{$movie->format->type}}</div>
          </div>
 
          {{-- studio --}}
          <div class="row">
             <div class="{{$label_class}}"><b>Studio</b></div>
-            <div class="{{$input_class}}">{{$movie->studio}}</div>
+            <div class="{{$input_class}}">{{$movie->studio->name}}</div>
          </div>
 
          {{-- genres --}}
          @if(count($movie->genres) != 0)
-
             <div class="row">
                <div class="{{$label_class}}">
                   <b>Genres</b>
@@ -186,7 +185,7 @@
                   </div>
                   {{-- character --}}
                   <div class="{{$input_class}}">
-                     {{$emp->position}}
+                     {{$emp->pivot->position}}
                   </div>
                </div>
             @endforeach
@@ -202,7 +201,6 @@
             <div class="row">
                <div class="col-xs-12"><h3>Cast</h3></div>
             </div>
-
             @foreach( $movie->cast as $actor )
                <div class="row">
                   {{-- actor --}}
@@ -211,7 +209,7 @@
                   </div>
                   {{-- character --}}
                   <div class="{{$input_class}}">
-                     <em>{{$actor->character_name}}</em>
+                     <em>{{$actor->pivot->character}}</em>
                   </div>
                </div>
             @endforeach

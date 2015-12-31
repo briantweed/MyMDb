@@ -2,12 +2,9 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Studios extends Model {
+class Certificates extends Model {
 
-   protected $primaryKey = 'studio_id';
-   protected $fillable = array(
-      'studio_name'
-   );
+   protected $primaryKey = 'certificate_id';
 
    public function movies()
    {

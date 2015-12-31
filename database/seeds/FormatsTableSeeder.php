@@ -13,7 +13,7 @@ class FormatsTableSeeder extends Seeder
 
         array_map( function( $format ) {
            DB::table('formats')->insert([
-              'format_type' => $format,
+              'type' => $format,
            ]);
         }, $formats);
 

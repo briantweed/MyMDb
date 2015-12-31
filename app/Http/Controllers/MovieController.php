@@ -20,11 +20,11 @@ class MovieController extends Controller {
 
 	public function index()
 	{
-		$movies = DB::table('movie_details')->paginate(48);
+		$movies = Movies::paginate(48);
 		foreach($movies as $movie)
 		{
-			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, 'covers');
-			$movie->cover_count = strlen($movie->cover);
+			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
+			$movie->cover_count = strlen($movie->image);
 		}
 		$user = $this->isAdmin;
 		return view('movies.index', compact('movies', 'user'));
@@ -32,16 +32,19 @@ class MovieController extends Controller {
 
 	public function show($id)
 	{
-		$movie = DB::table('movie_details')->where('movie_id', $id)->first();
+		$movie = Movies::find(1);
+		$movie->genres;
+		$movie->studio;
+		$movie->format;
+		$movie->cast;
+		$movie->crew;
 		if(!$movie) return view('errors.404');
-		$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, 'covers', false);
-		$movie->cover_count = strlen($movie->cover);
-		$movie->cast = DB::table('movie_cast')->where('movie_id', $id)->get();
-		$movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
-		$movie->genres = DB::table('movie_categories')->where('movie_id', $id)->get();
-		$movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
-		$last_viewed = DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date');
-		$movie->viewed = $last_viewed != '' ? date('jS F Y @ H:i', strtotime($last_viewed)) : NULL;
+		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
+		$movie->cover_count = strlen($movie->image);
+		// $movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
+		// $movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
+		// $last_viewed = DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date');
+		// $movie->viewed = $last_viewed != '' ? date('jS F Y @ H:i', strtotime($last_viewed)) : NULL;
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
 		$user = $this->isAdmin;
 		return view('movies.show', compact('movie','user'));
@@ -83,11 +86,16 @@ class MovieController extends Controller {
 
 	public function edit($id)
 	{
+
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = DB::table('movies')->where('movie_id', $id)->first();
 		if(!$movie) return view('errors.404');
 		$movie->cover = $this->checkImageExists($movie->movie_image_path, $movie->movie_sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
+		$movie->cast = DB::table('movie_cast')->where('movie_id', $id)->get();
+		$movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
+		$movie->genres = DB::table('movie_categories')->where('movie_id', $id)->get();
+		$movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
 		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
 		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
 		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
