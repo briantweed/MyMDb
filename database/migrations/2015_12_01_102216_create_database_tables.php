@@ -8,131 +8,15 @@ class CreateDatabaseTables extends Migration {
 	public function up()
 	{
 
-		Schema::create('cast', function(Blueprint $table)
-		{
-			$table->increments('cast_id');
-			$table->integer('movie_id');
-			$table->integer('person_id');
-			$table->string('character');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('categories', function(Blueprint $table)
-		{
-			$table->increments('category_id');
-			$table->integer('movie_id');
-			$table->integer('genre_id');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
+		// if(Schema::hasTable('certificates')) Schema::drop('certificates');
 		Schema::create('certificates', function(Blueprint $table)
 		{
 			$table->increments('certificate_id');
 			$table->string('title');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
+			$table->timestamps();
 		});
 
-		Schema::create('crew', function(Blueprint $table)
-		{
-			$table->increments('crew_id');
-			$table->integer('movie_id');
-			$table->integer('person_id');
-			$table->string('position');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('formats', function(Blueprint $table)
-		{
-			$table->increments('format_id');
-			$table->string('type');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('genres', function(Blueprint $table)
-		{
-			$table->increments('genre_id');
-			$table->string('type');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('keywords', function(Blueprint $table)
-		{
-			$table->increments('keyword_id');
-			$table->string('word');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('movies', function(Blueprint $table)
-		{
-			$table->increments('movie_id');
-			$table->string('name');
-			$table->string('sort_name');
-			$table->integer('released');
-			$table->integer('rating');
-			$table->integer('running_time');
-			$table->string('image');
-			$table->integer('certificate_id');
-			$table->integer('format_id');
-			$table->integer('studio_id');
-			$table->boolean('duplicate');
-			$table->text('bio');
-			$table->timestamp('purchased');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('persons', function(Blueprint $table)
-		{
-			$table->increments('person_id');
-			$table->string('forename');
-			$table->string('surname');
-			$table->date('birthday')->nullable();
-			$table->string('image')->nullable();
-			$table->text('bio')->nullable();
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('studios', function(Blueprint $table)
-		{
-			$table->increments('studio_id');
-			$table->string('name');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('tags', function(Blueprint $table)
-		{
-			$table->increments('tag_id');
-			$table->integer('movie_id');
-			$table->integer('keyword_id');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('viewings', function(Blueprint $table)
-		{
-			$table->increments('viewing_id');
-			$table->integer('movie_id');
-			$table->datetime('date');
-			$table->timestamp('updated_at');
-			$table->timestamp('created_at');
-		});
-
-		Schema::create('quotes', function(Blueprint $table)
-      {
-         $table->increments('quote_id');
-         $table->integer('movie_id');
-         $table->string('text');
-      });
-
+		// if(Schema::hasTable('forms')) Schema::drop('forms');
 		Schema::create('forms', function(Blueprint $table)
       {
          $table->increments('id');
@@ -149,24 +33,158 @@ class CreateDatabaseTables extends Migration {
          $table->string('class');
       });
 
+		// if(Schema::hasTable('formats')) Schema::drop('formats');
+		Schema::create('formats', function(Blueprint $table)
+		{
+			$table->increments('format_id');
+			$table->string('type');
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('genres')) Schema::drop('genres');
+		Schema::create('genres', function(Blueprint $table)
+		{
+			$table->increments('genre_id');
+			$table->string('type');
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('keywords')) Schema::drop('keywords');
+		Schema::create('keywords', function(Blueprint $table)
+		{
+			$table->increments('keyword_id');
+			$table->string('word');
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('persons')) Schema::drop('persons');
+		Schema::create('persons', function(Blueprint $table)
+		{
+			$table->increments('person_id');
+			$table->string('forename');
+			$table->string('surname');
+			$table->date('birthday')->nullable();
+			$table->string('image')->nullable();
+			$table->text('bio')->nullable();
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('studios')) Schema::drop('studios');
+		Schema::create('studios', function(Blueprint $table)
+		{
+			$table->increments('studio_id');
+			$table->string('name');
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('movies')) Schema::drop('movies');
+		Schema::create('movies', function(Blueprint $table)
+		{
+			$table->increments('movie_id');
+			$table->string('name');
+			$table->string('sort_name');
+			$table->integer('released');
+			$table->integer('rating');
+			$table->integer('running_time');
+			$table->string('image');
+			$table->integer('certificate_id')->unsigned();
+			$table->foreign('certificate_id')->references('certificate_id')->on('certificates');
+			$table->integer('format_id')->unsigned();
+			$table->foreign('format_id')->references('format_id')->on('formats');
+			$table->integer('studio_id')->unsigned();
+			$table->foreign('studio_id')->references('studio_id')->on('studios');
+			$table->boolean('duplicate');
+			$table->text('bio');
+			$table->timestamp('purchased')->default('2015-01-01 08:00:00');
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('quotes')) Schema::drop('quotes');
+		Schema::create('quotes', function(Blueprint $table)
+      {
+         $table->increments('quote_id');
+			$table->integer('movie_id')->unsigned();
+			$table->foreign('movie_id')->references('movie_id')->on('movies')->onDelete('cascade');
+         $table->string('text');
+			$table->timestamps();
+      });
+
+		// if(Schema::hasTable('cast')) Schema::drop('cast');
+		Schema::create('cast', function(Blueprint $table)
+		{
+			$table->increments('cast_id');
+			$table->integer('movie_id')->unsigned();
+			$table->foreign('movie_id')->references('movie_id')->on('movies')->onDelete('cascade');
+			$table->integer('person_id')->unsigned();
+			$table->foreign('person_id')->references('person_id')->on('persons')->onDelete('cascade');
+			$table->string('character');
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('categories')) Schema::drop('categories');
+		Schema::create('categories', function(Blueprint $table)
+		{
+			$table->increments('category_id');
+			$table->integer('movie_id')->unsigned();
+			$table->foreign('movie_id')->references('movie_id')->on('movies')->onDelete('cascade');
+			$table->integer('genre_id')->unsigned();
+			$table->foreign('genre_id')->references('genre_id')->on('genres')->onDelete('cascade');
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('crew')) Schema::drop('crew');
+		Schema::create('crew', function(Blueprint $table)
+		{
+			$table->increments('crew_id');
+			$table->integer('movie_id')->unsigned();
+			$table->foreign('movie_id')->references('movie_id')->on('movies')->onDelete('cascade');
+			$table->integer('person_id')->unsigned();
+			$table->foreign('person_id')->references('person_id')->on('persons')->onDelete('cascade');
+			$table->string('position');
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('tags')) Schema::drop('tags');
+		Schema::create('tags', function(Blueprint $table)
+		{
+			$table->increments('tag_id');
+			$table->integer('movie_id')->unsigned();
+			$table->foreign('movie_id')->references('movie_id')->on('movies')->onDelete('cascade');
+			$table->integer('keyword_id')->unsigned();
+			$table->foreign('keyword_id')->references('keyword_id')->on('keywords')->onDelete('cascade');
+			$table->timestamps();
+		});
+
+		// if(Schema::hasTable('viewings')) Schema::drop('viewings');
+		Schema::create('viewings', function(Blueprint $table)
+		{
+			$table->increments('viewing_id');
+			$table->integer('movie_id')->unsigned();
+			$table->foreign('movie_id')->references('movie_id')->on('movies')->onDelete('cascade');
+			$table->timestamp('date');
+			$table->timestamps();
+		});
+
 	} //end of up
 
 	public function down()
 	{
-		Schema::drop('cast');
-		Schema::drop('categories');
+		DB::statement('SET FOREIGN_KEY_CHECKS = 0');
 		Schema::drop('certificates');
-		Schema::drop('crew');
 		Schema::drop('formats');
 		Schema::drop('genres');
 		Schema::drop('keywords');
 		Schema::drop('movies');
 		Schema::drop('persons');
 		Schema::drop('studios');
-		Schema::drop('tags');
 		Schema::drop('viewings');
 		Schema::drop('quotes');
 		Schema::drop('forms');
+		Schema::drop('cast');
+		Schema::drop('categories');
+		Schema::drop('crew');
+		Schema::drop('tags');
+		DB::statement('SET FOREIGN_KEY_CHECKS = 1');
 	} //end of down
 
 } //end of class

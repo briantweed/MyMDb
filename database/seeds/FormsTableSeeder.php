@@ -4,52 +4,287 @@ use Illuminate\Database\Seeder;
 
 class FormsTableSeeder extends Seeder {
 
+	/**
+	 * Auto generated seed file
+	 *
+	 * @return void
+	 */
 	public function run()
 	{
-		// if( DB::table('forms')->count() ) DB::table('forms')->truncate();
-		$existing = DB::table('forms')->count();
-		if( !$existing )
-		{
+		\DB::table('forms')->delete();
+        
+		\DB::table('forms')->insert(array (
+			0 => 
+			array (
+				'id' => 1,
+				'name' => 'create_movie',
+				'field' => 'name',
+				'label' => 'Title',
+				'required' => 1,
+				'type' => 'text',
+				'order' => 10,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			1 => 
+			array (
+				'id' => 2,
+				'name' => 'create_movie',
+				'field' => 'sort_name',
+				'label' => 'Sort Name',
+				'required' => 0,
+				'type' => 'text',
+				'order' => 20,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			2 => 
+			array (
+				'id' => 3,
+				'name' => 'create_movie',
+				'field' => 'bio',
+				'label' => 'Description',
+				'required' => 1,
+				'type' => 'textarea',
+				'order' => 30,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			3 => 
+			array (
+				'id' => 4,
+				'name' => 'create_movie',
+				'field' => 'purchased',
+				'label' => 'Purchased',
+				'required' => 0,
+				'type' => 'date',
+				'order' => 40,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			4 => 
+			array (
+				'id' => 5,
+				'name' => 'create_movie',
+				'field' => 'rating',
+				'label' => 'Rating',
+				'required' => 1,
+				'type' => 'range',
+				'order' => 50,
+				'range_from' => 1,
+				'range_to' => 10,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			5 => 
+			array (
+				'id' => 6,
+				'name' => 'create_movie',
+				'field' => 'released',
+				'label' => 'Released',
+				'required' => 1,
+				'type' => 'range',
+				'order' => 60,
+				'range_from' => 1930,
+				'range_to' => 9999,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			6 => 
+			array (
+				'id' => 7,
+				'name' => 'create_movie',
+				'field' => 'running_time',
+				'label' => 'Running Time',
+				'required' => 1,
+				'type' => 'text',
+				'order' => 70,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			7 => 
+			array (
+				'id' => 8,
+				'name' => 'create_movie',
+				'field' => 'certificate_id',
+				'label' => 'Certificate',
+				'required' => 1,
+				'type' => 'select',
+				'order' => 80,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => 'certificates',
+				'default' => '',
+				'class' => '',
+			),
+			8 => 
+			array (
+				'id' => 9,
+				'name' => 'create_movie',
+				'field' => 'format_id',
+				'label' => 'Format',
+				'required' => 1,
+				'type' => 'select',
+				'order' => 90,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => 'formats',
+				'default' => '',
+				'class' => '',
+			),
+			9 => 
+			array (
+				'id' => 10,
+				'name' => 'create_movie',
+				'field' => 'studio_id',
+				'label' => 'Studio',
+				'required' => 1,
+				'type' => 'select',
+				'order' => 100,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => 'studios',
+				'default' => '',
+				'class' => '',
+			),
+			10 => 
+			array (
+				'id' => 11,
+				'name' => 'create_movie',
+				'field' => 'image',
+				'label' => 'Image',
+				'required' => 0,
+				'type' => 'file',
+				'order' => 110,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => 'hello',
+				'class' => '',
+			),
+			11 => 
+			array (
+				'id' => 12,
+				'name' => 'create_movie',
+				'field' => '',
+				'label' => 'save',
+				'required' => 0,
+				'type' => 'submit',
+				'order' => 120,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => 'btn btn-lg btn-block btn-success',
+			),
+			12 => 
+			array (
+				'id' => 13,
+				'name' => 'create_person',
+				'field' => 'forename',
+				'label' => 'Name',
+				'required' => 1,
+				'type' => 'text',
+				'order' => 10,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			13 => 
+			array (
+				'id' => 14,
+				'name' => 'create_person',
+				'field' => 'surname',
+				'label' => 'Surname',
+				'required' => 1,
+				'type' => 'text',
+				'order' => 20,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			14 => 
+			array (
+				'id' => 15,
+				'name' => 'create_person',
+				'field' => 'birthday',
+				'label' => 'Born',
+				'required' => 0,
+				'type' => 'date',
+				'order' => 30,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			15 => 
+			array (
+				'id' => 16,
+				'name' => 'create_person',
+				'field' => 'bio',
+				'label' => 'Bio',
+				'required' => 0,
+				'type' => 'textarea',
+				'order' => 40,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			16 => 
+			array (
+				'id' => 17,
+				'name' => 'create_person',
+				'field' => 'image',
+				'label' => 'Photo',
+				'required' => 0,
+				'type' => 'file',
+				'order' => 50,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			17 => 
+			array (
+				'id' => 18,
+				'name' => 'create_person',
+				'field' => '',
+				'label' => 'save',
+				'required' => 0,
+				'type' => 'submit',
+				'order' => 60,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => 'btn btn-lg btn-block btn-success',
+			),
+		));
+	}
 
-			$fields = [
-				['create_movie','10','movie_name','Title','1','text','','','','','',''],
-				['create_movie','20','movie_sort_name','Sort Name','0','text','','','','',''],
-				['create_movie','30','movie_bio','Description','1','textarea','','','','',''],
-				['create_movie','40','movie_purchased','Purchased','0','date','','','','',''],
-				['create_movie','50','movie_my_rating','Rating','1','range','1','10','','',''],
-				['create_movie','60','movie_release_date','Released','1','range','1930','9999','','',''],
-				['create_movie','70','movie_running_time','Running Time','1','text','','','','',''],
-				['create_movie','80','movie_certificate_id','Certificate','1','select','','','certificates','',''],
-				['create_movie','90','movie_format_id','Format','1','select','','','formats','',''],
-				['create_movie','100','movie_studio_id','Studio','1','select','','','studios','',''],
-				['create_movie','110','movie_image_path','Image','0','file','','','','hello',''],
-				['create_movie','120','','save','0','submit','','','','','btn btn-lg btn-block btn-success'],
-				['create_person','10','person_forename','Name','1','text','','','','','',''],
-				['create_person','20','person_surname','Surname','1','text','','','','','',''],
-				['create_person','30','person_birthday','Born','0','date','','','','','',''],
-				['create_person','40','person_bio','Bio','0','textarea','','','','','',''],
-				['create_person','50','person_image_path','Photo','0','file','','','','','',''],
-				['create_person','60','','save','0','submit','','','','','btn btn-lg btn-block btn-success'],
-			];
-
-			array_map( function( $field ) {
-				DB::table('forms')->insert([
-					'name' => $field[0],
-					'order' => $field[1],
-					'field' => $field[2],
-					'label' => $field[3],
-					'required' => $field[4],
-					'type' => $field[5],
-					'range_from' => $field[6],
-					'range_to' => $field[7],
-					'options' => $field[8],
-					'default' => $field[9],
-					'class' => $field[10]
-				]);
-			}, $fields);
-
-		} // end of if
-
-	} // end of method
-
-} // end of class
+}

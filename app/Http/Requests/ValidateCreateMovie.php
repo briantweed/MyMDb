@@ -24,35 +24,35 @@ class ValidateCreateMovie extends Request
     public function rules()
     {
         return [
-            'movie_name' => 'required',
-            'movie_my_rating' => 'required|numeric|between:1,10',
-            'movie_bio' => 'required',
-            'movie_release_date' => 'required|numeric',
-            'movie_running_time' => 'required|numeric',
-            'movie_certificate_id' => 'required|numeric',
-            'movie_format_id' => 'required|numeric',
-            'movie_studio_id' => 'required'
+            'name' => 'required',
+            'rating' => 'required|numeric|between:1,10',
+            'bio' => 'required',
+            'released' => 'required|numeric',
+            'running_time' => 'required|numeric',
+            'certificate_id' => 'required|numeric',
+            'format_id' => 'required|numeric',
+            'studio_id' => 'required'
         ];
     }
 
     public function messages()
     {
         return [
-            'movie_name.required' => 'title is required',
-            'movie_my_rating.required' => 'rating is required',
-            'movie_my_rating.numeric' => 'rating number only',
-            'movie_my_rating.between' => 'rating between 1 and 10',
-            'movie_bio.required' => 'description is required',
-            'movie_release_date.required' => 'release date is required',
-            'movie_release_date.numeric' => 'numbers only',
-            'movie_running_time.required' => 'running time is required',
-            'movie_running_time.numeric' => 'numbers only',
-            'movie_certificate_id.required' => 'certificate is required',
-            'movie_certificate_id.numeric' => 'numbers only',
-            'movie_format_id.required' => 'format is required',
-            'movie_format_id.numeric' => 'numbers only',
-            'movie_studio_id.required' => 'studio is required',
-            'movie_studio_id.numeric' => 'numbers only',
+            'name.required' => 'title is required',
+            'rating.required' => 'rating is required',
+            'rating.numeric' => 'rating number only',
+            'rating.between' => 'rating between 1 and 10',
+            'bio.required' => 'description is required',
+            'released.required' => 'release date is required',
+            'released.numeric' => 'numbers only',
+            'running_time.required' => 'running time is required',
+            'running_time.numeric' => 'numbers only',
+            'certificate_id.required' => 'certificate is required',
+            'certificate_id.numeric' => 'numbers only',
+            'format_id.required' => 'format is required',
+            'format_id.numeric' => 'numbers only',
+            'studio_id.required' => 'studio is required',
+            'studio_id.numeric' => 'numbers only',
         ];
     }
 }

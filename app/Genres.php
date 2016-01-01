@@ -9,7 +9,7 @@ class Genres extends Model {
 
    public function movies()
 	{
-		return $this->belongsToMany('App\Movies');
+		return $this->belongsToMany('App\Movies', 'genre_id', 'movie_id');
 	}
 
 }

@@ -10,7 +10,7 @@
    <div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
          <div class="modal-content">
-            <div class="modal-header"><h4>Delete {{$movie->movie_name}}</h4></div>
+            <div class="modal-header"><h4>Delete {{$movie->name}}</h4></div>
             <div class="modal-body"><p>Are you sure you want to delete this movie?</p></div>
             <div class="modal-footer">
                <div class="col-xs-4 col-xs-offset-3">

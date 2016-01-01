@@ -12,9 +12,9 @@ class MoviesTableSeeder extends Seeder {
 	public function run()
 	{
 		\DB::table('movies')->delete();
-
+        
 		\DB::table('movies')->insert(array (
-			0 =>
+			0 => 
 			array (
 				'movie_id' => 1,
 				'name' => '47 Ronin',
@@ -29,10 +29,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A band of samurai set out to avenge the death and dishonor of their master at the hands of a ruthless shogun.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			1 =>
+			1 => 
 			array (
 				'movie_id' => 2,
 				'name' => 'Alice in Wonderland',
@@ -47,10 +47,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen&#039;s reign of terror.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			2 =>
+			2 => 
 			array (
 				'movie_id' => 3,
 				'name' => 'Alien',
@@ -65,10 +65,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In space,no-one can hear you scream',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			3 =>
+			3 => 
 			array (
 				'movie_id' => 4,
 				'name' => 'Aliens',
@@ -83,10 +83,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'This time its war',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			4 =>
+			4 => 
 			array (
 				'movie_id' => 5,
 				'name' => 'Alien 3',
@@ -101,10 +101,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Ripley continues to be stalked by a savage alien, after her escape pod crashes on a prison planet.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			5 =>
+			5 => 
 			array (
 				'movie_id' => 6,
 				'name' => 'Alien Resurrection',
@@ -119,10 +119,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Two centuries after her death, Ellen Ripley is revived as a powerful human/alien hybrid clone who must continue her war against the aliens.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			6 =>
+			6 => 
 			array (
 				'movie_id' => 7,
 				'name' => 'Fight Club',
@@ -137,10 +137,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The first rule of Fight Club is: you do not talk about Fight Club',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			7 =>
+			7 => 
 			array (
 				'movie_id' => 8,
 				'name' => 'Die Hard',
@@ -155,10 +155,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Yippee Kayaye MaggotFarmer',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			8 =>
+			8 => 
 			array (
 				'movie_id' => 9,
 				'name' => 'The Matrix',
@@ -173,10 +173,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'He is the one',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			9 =>
+			9 => 
 			array (
 				'movie_id' => 10,
 				'name' => 'Star Wars: A New Hope',
@@ -191,10 +191,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the universe from the Empire&#039;s world-destroying battle-station, while also attempting to rescue Princess Leia from the evil Darth Vader.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			10 =>
+			10 => 
 			array (
 				'movie_id' => 11,
 				'name' => 'Avengers Assemble',
@@ -209,10 +209,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When an unexpected enemy emerges that threatens global safety and security, Nick Fury finds himself needing a team that can pull the world back from the brink of disaster. Cue Iron Man, The Incredible Hulk, Captain America, Black Widow and Hawkeye - The Avengers.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			11 =>
+			11 => 
 			array (
 				'movie_id' => 12,
 				'name' => 'The Amazing Spiderman',
@@ -227,10 +227,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A wise-cracking, taller Spider-Man. This time he&#039;s up against Lizardman.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			12 =>
+			12 => 
 			array (
 				'movie_id' => 13,
 				'name' => 'Titanic',
@@ -245,10 +245,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Big ship hits an iceberg. Jack tells Rose not to let go, but she does after he freezes to death in the water; then watches him sink to the bottom of the Atlantic Ocean. ',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			13 =>
+			13 => 
 			array (
 				'movie_id' => 14,
 				'name' => 'Angels with Dirty Faces',
@@ -263,10 +263,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A priest tries to stop a gangster from corrupting a group of street kids.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			14 =>
+			14 => 
 			array (
 				'movie_id' => 15,
 				'name' => 'White Heat',
@@ -281,10 +281,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A psychopathic criminal with a mother complex makes a daring break from prison and leads his old gang in a chemical plant payroll heist. Shortly after the plan takes place, events take a crazy turn. &quot;Made it Ma, top of the world!&quot;',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			15 =>
+			15 => 
 			array (
 				'movie_id' => 16,
 				'name' => '50 First Dates',
@@ -299,10 +299,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Henry Roth is a man afraid of commitment up until he meets the beautiful Lucy. They hit it off and Henry think he&#039;s finally found the girl of his dreams, until he discovers she has short-term memory loss and forgets him the very next day.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			16 =>
+			16 => 
 			array (
 				'movie_id' => 17,
 				'name' => 'The Lion King',
@@ -317,10 +317,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A young lion Prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron fist, the prince grows up beyond the savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him,the young Prince must decide his fate: will he remain an outcast, or face his demons and become what he needs to be?',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			17 =>
+			17 => 
 			array (
 				'movie_id' => 18,
 				'name' => 'Jurassic Park',
@@ -335,10 +335,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Huge advancements in scientific technology have enabled a mogul to create an island full of living dinosaurs. John Hammond has invited four individuals, along with his two grandchildren, to join him at Jurassic Park. But will everything go according to plan? A park employee attempts to steal dinosaur embryos, critical security systems are shut down and it now becomes a race for survival with dinosaurs roaming freely over the island.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			18 =>
+			18 => 
 			array (
 				'movie_id' => 19,
 				'name' => 'Jurassic Park: The Lost World',
@@ -353,10 +353,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A research team is sent to the Jurassic Park Site B island to study the dinosaurs there while another team approaches with another agenda.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			19 =>
+			19 => 
 			array (
 				'movie_id' => 20,
 				'name' => 'Jurassic Park 3',
@@ -371,10 +371,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 			'bio' => 'A decidedly odd couple with ulterior motives convince Dr. Alan Grant to go to Isla Sorna (the second InGen dinosaur lab.), resulting in an unexpected landing; and unexpected new inhabitants on the island.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			20 =>
+			20 => 
 			array (
 				'movie_id' => 21,
 				'name' => 'Jurassic World',
@@ -389,10 +389,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A new theme park is built on the original site of Jurassic Park. Everything is going well until the park&#039;s newest attraction--a genetically modified giant stealth killing machine--escapes containment and goes on a killing spree.',
 				'purchased' => '2015-11-14 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			21 =>
+			21 => 
 			array (
 				'movie_id' => 22,
 				'name' => 'Akira',
@@ -407,10 +407,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psionic psychopath that only two kids and a group of psionics can stop.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			22 =>
+			22 => 
 			array (
 				'movie_id' => 23,
 				'name' => 'Argo',
@@ -425,10 +425,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Acting under the cover of a Hollywood producer scouting a location for a science fiction film, a CIA agent launches a dangerous operation to rescue six Americans in Tehran during the U.S. hostage crisis in Iran in 1980.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			23 =>
+			23 => 
 			array (
 				'movie_id' => 24,
 				'name' => 'Avatar',
@@ -443,10 +443,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			24 =>
+			24 => 
 			array (
 				'movie_id' => 25,
 				'name' => 'Back to the Future',
@@ -461,10 +461,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A young man is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his friend, Dr. Emmett Brown, and must make sure his high-school-age parents unite in order to save his own existence.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			25 =>
+			25 => 
 			array (
 				'movie_id' => 26,
 				'name' => 'Back to the Future 2',
@@ -479,10 +479,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Marty McFly has only just gotten back from the past, when he is once again picked up by Dr. Emmett Brown and sent through time to the future. Marty&#039;s job in the future is to pose as his own son to prevent him from being thrown in prison. Unfortunately, things get worse when the future changes the present.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			26 =>
+			26 => 
 			array (
 				'movie_id' => 27,
 				'name' => 'Back to the Future 3',
@@ -497,10 +497,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Stranded in 1955, Marty McFly receives written word from his friend, Doctor Emmett Brown, as to where can be found the DeLorean time machine. However, an unfortunate discovery prompts Marty to go to his friend&#039;s aid. Using the time machine, Marty travels to the old west where his friend has run afoul of a gang of thugs and has fallen in love with a local schoolteacher. Using the technology from the time, Marty and Emmett devise one last chance to send the two of them back to the future.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			27 =>
+			27 => 
 			array (
 				'movie_id' => 28,
 				'name' => 'American - The Bill Hicks Story',
@@ -515,10 +515,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Photo-animated feature documentary, uniquely narrated by the 10 people who knew Bill best.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			28 =>
+			28 => 
 			array (
 				'movie_id' => 29,
 				'name' => 'The Bourne Identity',
@@ -533,10 +533,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Based very loosely on Robert Ludlum&#039;s novel, the Bourne Identity is the story of a man whose wounded body is discovered by fishermen who nurse him back to health. He can remember nothing and begins to try to rebuild his memory based on clues such as the Swiss bank account, the number of which, is implanted in his hip. He soon realizes that he is being hunted and takes off with Marie on a search to find out who he is and why he is being hunted.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			29 =>
+			29 => 
 			array (
 				'movie_id' => 30,
 				'name' => 'The Bourne Supremacy',
@@ -551,10 +551,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'After escaping from the emotional and physical pain he previously encountered. Jason Bourne and his girlfriend Marie begin a new life as far away as possible. But when an assassination attempt on Bourne goes horribly wrong, Bourne must re-enter the life he wanted to leave behind, in order to find out the truth why they are still after him.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			30 =>
+			30 => 
 			array (
 				'movie_id' => 31,
 				'name' => 'The Bourne Ultimatium',
@@ -569,10 +569,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Bourne is once again brought out of hiding, this time inadvertently by London-based reporter Simon Ross who is trying to unveil Operation Blackbriar--an upgrade to Project Treadstone--in a series of newspaper columns. Bourne sets up a meeting with Ross and realizes instantly they&#039;re being scanned. Information from the reporter stirs a new set of memories, and Bourne must finally, ultimately, uncover his dark past whilst dodging The Company&#039;s best efforts in trying to eradicate him.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			31 =>
+			31 => 
 			array (
 				'movie_id' => 32,
 				'name' => 'Batman Begins',
@@ -587,10 +587,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'After training with his mentor, Batman begins his war on crime to free the crime-ridden Gotham City from corruption that the Scarecrow and the League of Shadows have cast upon it.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			32 =>
+			32 => 
 			array (
 				'movie_id' => 33,
 				'name' => 'The Dark Knight',
@@ -605,10 +605,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			33 =>
+			33 => 
 			array (
 				'movie_id' => 34,
 				'name' => 'The Dark Knight Rises',
@@ -623,10 +623,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Eight years after the Joker&#039;s reign of anarchy, the Dark Knight is forced to return from his imposed exile to save Gotham City from the brutal guerrilla terrorist Bane with the help of the enigmatic Selina.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			34 =>
+			34 => 
 			array (
 				'movie_id' => 35,
 				'name' => 'Black Swan',
@@ -641,10 +641,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A committed dancer wins the lead role in a production of Tchaikovsky&#039;s Swan Lake only to find herself struggling to maintain her sanity.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			35 =>
+			35 => 
 			array (
 				'movie_id' => 36,
 				'name' => 'Bad Lieutenant',
@@ -659,10 +659,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Terence McDonagh is a drug- and gambling-addled detective in post-Katrina New Orleans investigating the killing of five Senegalese immigrants.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			36 =>
+			36 => 
 			array (
 				'movie_id' => 37,
 				'name' => 'The Fifth Element',
@@ -677,10 +677,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr Zorg at bay.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			37 =>
+			37 => 
 			array (
 				'movie_id' => 38,
 				'name' => 'The Cabin in the Woods',
@@ -695,10 +695,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Five friends go for a break at a remote cabin in the woods, where they get more than they bargained for. Together, they must discover the truth behind the cabin in the woods.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			38 =>
+			38 => 
 			array (
 				'movie_id' => 39,
 				'name' => 'Candyman',
@@ -713,10 +713,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster&#039;s myth.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			39 =>
+			39 => 
 			array (
 				'movie_id' => 40,
 				'name' => 'Carlito&#039;s Way',
@@ -731,10 +731,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A Puerto Rican former convict, just released from prison, pledges to stay away from drugs and violence despite the pressure around him and lead on to a better life outside of N.Y.C.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			40 =>
+			40 => 
 			array (
 				'movie_id' => 41,
 				'name' => 'Chronicle',
@@ -749,10 +749,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Whilst attending a party, three high school friends gain superpowers after making an incredible discovery underground. Soon, though, they find their lives spinning out of control and their bond tested as they embrace their darker sides.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			41 =>
+			41 => 
 			array (
 				'movie_id' => 42,
 				'name' => 'Collateral',
@@ -767,10 +767,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A cab driver finds himself the hostage of an engaging contract killer as he makes his rounds from hit to hit during one night in Los Angeles. He must find a way to save both himself and one last victim.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			42 =>
+			42 => 
 			array (
 				'movie_id' => 43,
 				'name' => 'Clerks',
@@ -785,10 +785,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A day in the lives of two convenience clerks named Dante and Randal as they annoy customers, discuss movies, and play hockey on the store roof.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			43 =>
+			43 => 
 			array (
 				'movie_id' => 44,
 				'name' => 'The Crow',
@@ -803,10 +803,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A poetic guitarist Eric Draven is brought back to life by a crow a year after he and his fianc&eacute;e are murdered. The crow guides him through the land of the living, and leads him to his killers: knife thrower Tin-tin, drugetic Funboy, car buff T-Bird, and the unsophisticated Skank. One by one, Eric gives these thugs a taste of their own medicine. However their leader Top-Dollar, a world-class crime lord who will dispatch his enemies with a Japanese sword and joke about it later, will soon learn the legend of the crow and the secret to the vigilante&#039;s invincibility.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			44 =>
+			44 => 
 			array (
 				'movie_id' => 45,
 				'name' => 'Crouching Tiger, Hidden Dragon',
@@ -821,10 +821,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Crouching Tiger Hidden Dragon is a timeless story that takes place in QING China when miracles were credible and spirits and gods were present in man&#039;s world. It is not unbelievable that zen warriors float through the air, skim the water and battle in trees and on rooftops. Pain, revenge and duty are the stuff that bind us in this world and are the main plot line of the movie, but in the afterlife love and faith linger on.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			45 =>
+			45 => 
 			array (
 				'movie_id' => 46,
 				'name' => 'The Doors',
@@ -839,10 +839,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The story of the famous and influential 1960s rock band and its lead singer and composer, Jim Morrison, from his days as a UCLA film student in Los Angeles, to his untimely death in Paris, France at age 27 in 1971.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			46 =>
+			46 => 
 			array (
 				'movie_id' => 47,
 				'name' => 'Dredd',
@@ -857,10 +857,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In a violent, futuristic city where the police have the authority to act as judge, jury and executioner, a cop teams with a trainee to take down a gang that deals the reality-altering drug, SLO-MO.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			47 =>
+			47 => 
 			array (
 				'movie_id' => 48,
 				'name' => 'Drive',
@@ -875,10 +875,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A mysterious Hollywood stuntman and mechanic moonlights as a getaway driver and finds himself trouble when he helps out his neighbor.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			48 =>
+			48 => 
 			array (
 				'movie_id' => 49,
 				'name' => 'The Legend of Drunken Master',
@@ -893,10 +893,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A young martial artist is caught between respecting his pacifist father&#039;s wishes or stopping a group of disrespectful foreigners from stealing precious artifacts.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			49 =>
+			49 => 
 			array (
 				'movie_id' => 50,
 				'name' => 'Enchanted',
@@ -911,10 +911,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A princess, who is prepared to be wed, is sent away to New York by an evil queen, where she falls in love with a lawyer.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			50 =>
+			50 => 
 			array (
 				'movie_id' => 51,
 				'name' => 'Escape from New York',
@@ -929,10 +929,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In 1997, when the US President crashes into Manhattan, now a giant maximum security prison, a convicted bank robber is sent in for a rescue.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			51 =>
+			51 => 
 			array (
 				'movie_id' => 52,
 				'name' => 'Django Unchained',
@@ -947,10 +947,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			52 =>
+			52 => 
 			array (
 				'movie_id' => 53,
 				'name' => 'District 9',
@@ -965,10 +965,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'An extraterrestrial race forced to live in slum-like conditions on Earth suddenly finds a kindred spirit in a government agent who is exposed to their biotechnology.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			53 =>
+			53 => 
 			array (
 				'movie_id' => 54,
 				'name' => 'Get Smart',
@@ -983,10 +983,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A highly intellectual but socially awkward spy is tasked with preventing a terrorist attack from a Russian spy agency',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			54 =>
+			54 => 
 			array (
 				'movie_id' => 55,
 				'name' => 'Ghostbusters',
@@ -1001,10 +1001,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Three odd-ball scientists get kicked out of their cushy positions at a university in New York City where they studied the occult. They decide to set up shop in an old firehouse and become Ghostbusters, trapping pesky ghosts, spirits, haunts, and poltergeists for money. They wise-crack their way through the city, and stumble upon a gateway to another dimension, one which will release untold evil upon the city. The Ghostbusters are called on to save the Big Apple',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			55 =>
+			55 => 
 			array (
 				'movie_id' => 56,
 				'name' => 'Guardians of the Galaxy',
@@ -1019,10 +1019,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth, is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the Guardians of the Galaxy to save the world.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			56 =>
+			56 => 
 			array (
 				'movie_id' => 57,
 				'name' => 'Harry Potter and the Philosopher&#039;s Stone',
@@ -1037,10 +1037,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School of Witchcraft and Wizardry.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			57 =>
+			57 => 
 			array (
 				'movie_id' => 58,
 				'name' => 'Harry Potter and the Chamber of Secrets',
@@ -1055,10 +1055,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Harry ignores warnings not to return to Hogwarts, only to find the school plagued by a series of mysterious attacks and a strange voice haunting him.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			58 =>
+			58 => 
 			array (
 				'movie_id' => 59,
 				'name' => 'Harry Potter and the Prisoner of Azkaban',
@@ -1073,10 +1073,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'It&#039;s Harry&#039;s third year at Hogwarts; not only does he have a new &quot;Defense Against the Dark Arts&quot; teacher, but there is also trouble brewing. Convicted murderer Sirius Black has escaped the Wizards&#039; Prison and is coming after Harry.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			59 =>
+			59 => 
 			array (
 				'movie_id' => 60,
 				'name' => 'Harry Potter and the Goblet of Fire',
@@ -1091,10 +1091,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Harry finds himself mysteriously selected as an under-aged competitor in a dangerous tournament between three schools of magic.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			60 =>
+			60 => 
 			array (
 				'movie_id' => 61,
 				'name' => 'Harry Potter and the Order of the Phoenix',
@@ -1109,10 +1109,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'With their warning about Lord Voldemort&#039;s return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			61 =>
+			61 => 
 			array (
 				'movie_id' => 62,
 				'name' => 'Harry Potter and the Half-Blood Prince',
@@ -1127,10 +1127,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as &quot;the property of the Half-Blood Prince&quot; and begins to learn more about Lord Voldemort&#039;s dark past.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			62 =>
+			62 => 
 			array (
 				'movie_id' => 63,
 				'name' => 'Harry Potter and the Deathly Hallows 1',
@@ -1145,10 +1145,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			63 =>
+			63 => 
 			array (
 				'movie_id' => 64,
 				'name' => 'Harry Potter and the Deathly Hallows 2',
@@ -1163,10 +1163,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Harry, Ron and Hermione search for Voldemort&#039;s remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			64 =>
+			64 => 
 			array (
 				'movie_id' => 65,
 				'name' => 'The Haunted Mansion',
@@ -1181,10 +1181,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A realtor and his wife and children are summoned to a mansion, which they soon discover is haunted, and while they attempt to escape, he learns an important lesson about the family he has neglected.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			65 =>
+			65 => 
 			array (
 				'movie_id' => 66,
 				'name' => 'The Hustler',
@@ -1199,10 +1199,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => '&quot;Fast&quot; Eddie Felson is a small-time pool hustler with a lot of talent but a self-destructive attitude. His bravado causes him to challenge the legendary &quot;Minnesota Fats&quot; to a high-stakes match, but he loses in a heartbreaking marathon. Now broke and without his long-time manager, Felson faces an uphill battle to regain his confidence and his game.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			66 =>
+			66 => 
 			array (
 				'movie_id' => 67,
 				'name' => 'Hugo',
@@ -1217,10 +1217,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Set in 1930s Paris, an orphan who lives in the walls of a train station is wrapped up in a mystery involving his late father and an automaton.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			67 =>
+			67 => 
 			array (
 				'movie_id' => 68,
 				'name' => 'The Hunger Games',
@@ -1235,10 +1235,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Katniss Everdeen voluntarily takes her younger sister&#039;s place in the Hunger Games, a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			68 =>
+			68 => 
 			array (
 				'movie_id' => 69,
 				'name' => 'The Hunger Games: Catching Fire',
@@ -1253,10 +1253,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			69 =>
+			69 => 
 			array (
 				'movie_id' => 70,
 				'name' => 'The Hunger Games: Mockingjay 1',
@@ -1271,10 +1271,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			70 =>
+			70 => 
 			array (
 				'movie_id' => 71,
 				'name' => 'I, Robot',
@@ -1289,10 +1289,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In 2035 a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			71 =>
+			71 => 
 			array (
 				'movie_id' => 72,
 				'name' => 'I Love You Phillip Morris',
@@ -1307,10 +1307,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A cop turns con man once he comes out of the closet. Once imprisoned, he meets the second love of his life, whom he&#039;ll stop at nothing to be with.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			72 =>
+			72 => 
 			array (
 				'movie_id' => 73,
 				'name' => 'Inglourious Basterds',
@@ -1325,10 +1325,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner&#039;s vengeful plans for the same.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			73 =>
+			73 => 
 			array (
 				'movie_id' => 74,
 				'name' => 'Inception',
@@ -1343,10 +1343,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A thief who steals corporate secrets through use of the dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			74 =>
+			74 => 
 			array (
 				'movie_id' => 75,
 				'name' => 'Iron Man',
@@ -1361,10 +1361,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'After being held captive in an Afghan cave, an industrialist creates a unique weaponized suit of armor to fight evil.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			75 =>
+			75 => 
 			array (
 				'movie_id' => 76,
 				'name' => 'Iron Man 2',
@@ -1379,10 +1379,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'ith the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father&#039;s legacy',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			76 =>
+			76 => 
 			array (
 				'movie_id' => 77,
 				'name' => 'Iron Man 3',
@@ -1397,10 +1397,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When Tony Stark&#039;s world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			77 =>
+			77 => 
 			array (
 				'movie_id' => 78,
 				'name' => 'Kick-Ass',
@@ -1415,10 +1415,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Dave Lizewski is an unnoticed high school student and comic book fan who one day decides to become a super-hero, even though he has no powers, training or meaningful reason to do so.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			78 =>
+			78 => 
 			array (
 				'movie_id' => 79,
 				'name' => 'Looper',
@@ -1433,10 +1433,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to &#039;close the loop&#039; by sending back Joe&#039;s future self for assassination.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			79 =>
+			79 => 
 			array (
 				'movie_id' => 80,
 				'name' => 'The Lord of the Rings: Fellowship of the Ring',
@@ -1451,10 +1451,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'An ancient Ring thought lost for centuries has been found, and through a strange twist in fate has been given to a small Hobbit named Frodo. When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			80 =>
+			80 => 
 			array (
 				'movie_id' => 81,
 				'name' => 'The Lord of the Rings: The Two Towers',
@@ -1469,10 +1469,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron&#039;s new ally, Saruman, and his hordes of Isengard.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			81 =>
+			81 => 
 			array (
 				'movie_id' => 82,
 				'name' => 'The Lord of the Rings: The Return of the King',
@@ -1487,10 +1487,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Gandalf and Aragorn lead the World of Men against Sauron&#039;s army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			82 =>
+			82 => 
 			array (
 				'movie_id' => 83,
 				'name' => 'Man of Steel',
@@ -1505,10 +1505,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Clark Kent, one of the last of an extinguished race disguised as an unremarkable human, is forced to reveal his identity when Earth is invaded by an army of survivors who threaten to bring the planet to the brink of destruction.',
 				'purchased' => '2015-10-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			83 =>
+			83 => 
 			array (
 				'movie_id' => 84,
 				'name' => 'Men in Black',
@@ -1523,10 +1523,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A police officer joins a secret organization that polices and monitors extra terrestrial interactions on planet earth.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			84 =>
+			84 => 
 			array (
 				'movie_id' => 85,
 				'name' => 'Men in Black 2',
@@ -1541,10 +1541,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Kay and Jay reunite to provide our best, last and only line of defense against a sinister seductress who levels the toughest challenge yet to the MIBs untarnished mission statement: protecting the earth from the scum of the universe.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			85 =>
+			85 => 
 			array (
 				'movie_id' => 86,
 				'name' => 'Men in Black 3',
@@ -1559,10 +1559,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Agent J travels in time to M.I.B.&#039;s early days in 1969 to stop an alien from assassinating his friend Agent K and changing history.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			86 =>
+			86 => 
 			array (
 				'movie_id' => 87,
 				'name' => 'Mesrine',
@@ -1577,10 +1577,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 			'bio' => 'Jacques Mesrine (Vincent Cassel), the legendary French gangster of the 1960s and 1970s who came to be known as French Public Enemy No. 1 and The Man of a Thousand Faces. Infamous for his bravado and outrageously daring prison escapes, Mesrine carried out numerous robberies, kidnappings and murders in a criminal career that spanned continents until he was shot dead in 1979 by France&#039;s notorious anti-gang unit.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			87 =>
+			87 => 
 			array (
 				'movie_id' => 88,
 				'name' => 'The Muppets',
@@ -1595,10 +1595,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A Muppet fanatic with some help from his two human compatriots must regroup the Muppet gang to stop an avaricious oil mogul from taking down one of their precious life-longing treasures.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			88 =>
+			88 => 
 			array (
 				'movie_id' => 89,
 				'name' => 'Pan&#039;s Labyrinth',
@@ -1613,10 +1613,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In the falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			89 =>
+			89 => 
 			array (
 				'movie_id' => 90,
 				'name' => 'Paul',
@@ -1631,10 +1631,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Two sci-fi geeks take a pilgrimage to America&#039;s UFO heartland. While there, they accidentally meet an alien who brings them on an insane road trip that alters their universe forever.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			90 =>
+			90 => 
 			array (
 				'movie_id' => 91,
 				'name' => 'Red Cliff',
@@ -1649,10 +1649,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In 208 A.D., in the final days of the Han Dynasty, shrewd Prime Minster Cao Cao convinced the fickle Emperor Han the only way to unite all of China was to declare war on the kingdoms of Xu in the west and East Wu in the south. Thus began a military campaign of unprecedented scale, led by the Prime Minister, himself.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			91 =>
+			91 => 
 			array (
 				'movie_id' => 92,
 				'name' => 'Rise of the Planet of the Apes',
@@ -1667,10 +1667,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A substance, designed to help the brain repair itself, gives rise to a super-intelligent chimp who leads an ape uprising.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			92 =>
+			92 => 
 			array (
 				'movie_id' => 93,
 				'name' => 'Dawn of the Planet of the Apes',
@@ -1685,10 +1685,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A growing nation of genetically evolved apes led by Caesar is threatened by a band of human survivors of the devastating virus unleashed a decade earlier.',
 				'purchased' => '2015-10-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			93 =>
+			93 => 
 			array (
 				'movie_id' => 94,
 				'name' => 'Rocky Balboa',
@@ -1703,10 +1703,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Thirty years after the ring of the first bell, Rocky Balboa comes out of retirement and dons his gloves for his final fight; against the reigning heavyweight champ Mason &#039;The Line&#039; Dixon.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			94 =>
+			94 => 
 			array (
 				'movie_id' => 95,
 				'name' => 'Saving Private Ryan',
@@ -1721,10 +1721,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			95 =>
+			95 => 
 			array (
 				'movie_id' => 96,
 				'name' => 'Serenity',
@@ -1739,10 +1739,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In the future, a spaceship called Serenity is harboring a passenger with a deadly secret. Six rebels on the run. An assassin in pursuit. When the renegade crew of Serenity agrees to hide a fugitive on their ship, they find themselves in an awesome action-packed battle between the relentless military might of a totalitarian regime who will destroy anything - or anyone - to get the girl back and the bloodthirsty creatures who roam the uncharted areas of space. But, the greatest danger of all may be on their ship.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			96 =>
+			96 => 
 			array (
 				'movie_id' => 97,
 				'name' => 'Source Code',
@@ -1757,10 +1757,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A soldier wakes up in someone else&#039;s body and discovers he&#039;s part of an experimental government program to find the bomber of a commuter train. A mission he has only 8 minutes to complete.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			97 =>
+			97 => 
 			array (
 				'movie_id' => 98,
 				'name' => 'Slumdog Millionaire',
@@ -1775,10 +1775,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A Mumbai teen, who grew up in the slums, becomes a contestant on the Indian version of &quot;Who Wants To Be A Millionaire?&quot; He is arrested under suspicion of cheating, and while being interrogated, events from his life history are shown which explain why he knows the answers.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			98 =>
+			98 => 
 			array (
 				'movie_id' => 99,
 				'name' => 'The Smurfs',
@@ -1793,10 +1793,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When the evil wizard Gargamel chases the tiny blue Smurfs out of their village, they tumble from their magical world into New York City.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			99 =>
+			99 => 
 			array (
 				'movie_id' => 100,
 				'name' => 'Star Trek',
@@ -1811,10 +1811,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The brash James T. Kirk tries to live up to his father&#039;s legacy with Mr. Spock keeping him in check as a vengeful, time-traveling Romulan creates black holes to destroy the Federation one planet at a time.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			100 =>
+			100 => 
 			array (
 				'movie_id' => 101,
 				'name' => 'Star Trek Into Darkness',
@@ -1829,10 +1829,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			101 =>
+			101 => 
 			array (
 				'movie_id' => 102,
 				'name' => 'Star Wars: The Empire Strikes Back',
@@ -1847,10 +1847,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			102 =>
+			102 => 
 			array (
 				'movie_id' => 103,
 				'name' => 'Star Wars: Return of the Jedi',
@@ -1865,10 +1865,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'After rescuing Han Solo from the palace of Jabba the Hutt, the rebels attempt to destroy the second Death Star, while Luke struggles to make Vader return from the dark side of the Force.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			103 =>
+			103 => 
 			array (
 				'movie_id' => 104,
 				'name' => 'Star Wars: The Phantom Menance',
@@ -1883,10 +1883,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			104 =>
+			104 => 
 			array (
 				'movie_id' => 105,
 				'name' => 'Star Wars: Attack of the Clones',
@@ -1901,10 +1901,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padm&eacute;, while Obi-Wan investigates an assassination attempt on the Senator and discovers a secret clone army crafted for the Jedi.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			105 =>
+			105 => 
 			array (
 				'movie_id' => 106,
 				'name' => 'Star Wars: Revenge of the Sith',
@@ -1919,10 +1919,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The Clone Wars is near an end, Obi-Wan and Anakin have been called to Coruscant which has been invaded by General Grievous and has abducted the Chancellor. As General Grievous tries to escape, Obi-wan and Anakin attempt to board Grievous&#039; ship to rescue the Chancellor. If they fail then it could mean an end to the Republic.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			106 =>
+			106 => 
 			array (
 				'movie_id' => 107,
 				'name' => 'Tintin: The Secret of the Unicorn',
@@ -1937,10 +1937,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Intrepid reporter Tintin and Captain Haddock set off on a treasure hunt for a sunken ship commanded by Haddock&#039;s ancestor.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			107 =>
+			107 => 
 			array (
 				'movie_id' => 108,
 				'name' => 'The Terminator',
@@ -1955,10 +1955,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A human-looking indestructible cyborg is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			108 =>
+			108 => 
 			array (
 				'movie_id' => 109,
 				'name' => 'Terminator 2: Judgement Day',
@@ -1973,10 +1973,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her young son, John Connor, from a more advanced cyborg, made out of liquid metal.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			109 =>
+			109 => 
 			array (
 				'movie_id' => 110,
 				'name' => 'Terminator 3: Rise of the Machines',
@@ -1991,10 +1991,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A cybernetic warrior from a post-apocalyptic future travels back in time to protect a 19-year old drifter and his future wife from a most advanced robotic assassin and to ensure they both survive a nuclear attack.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			110 =>
+			110 => 
 			array (
 				'movie_id' => 111,
 				'name' => 'Terminator Salvation',
@@ -2009,10 +2009,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In 2018, a mysterious new weapon in the war against the machines, half-human and half-machine, comes to John Connor on the eve of a resistance attack on Skynet. But whose side is he on, and can he be trusted?',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			111 =>
+			111 => 
 			array (
 				'movie_id' => 112,
 				'name' => 'The Town',
@@ -2027,10 +2027,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'As he plans his next job, a longtime thief tries to balance his feelings for a bank manager connected to one of his earlier heists, as well as the FBI agent looking to bring him and his crew down.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			112 =>
+			112 => 
 			array (
 				'movie_id' => 113,
 				'name' => 'True Grit',
@@ -2045,10 +2045,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Following the murder of her father by hired hand Tom Chaney, 14-year-old farm girl Mattie Ross sets out to capture the killer. To aid her, she hires the toughest U.S. marshal she can find, Rooster Cogburn. Mattie insists on accompanying Cogburn, whose drinking, sloth, and generally reprobate character do not augment her faith in him. Against his wishes, she joins him in his trek into the Indian Nations in search of Chaney.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			113 =>
+			113 => 
 			array (
 				'movie_id' => 114,
 				'name' => 'Transformers',
@@ -2063,10 +2063,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			114 =>
+			114 => 
 			array (
 				'movie_id' => 115,
 				'name' => 'Transformers: Revenge of the Fallen',
@@ -2081,10 +2081,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers&#039; war.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			115 =>
+			115 => 
 			array (
 				'movie_id' => 116,
 				'name' => 'Transformers: Dark of the Moon',
@@ -2099,10 +2099,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The Autobots learn of a Cybertronian spacecraft hidden on the moon, and race against the Decepticons to reach it and to learn its secrets.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			116 =>
+			116 => 
 			array (
 				'movie_id' => 117,
 				'name' => 'Tron',
@@ -2117,10 +2117,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A computer hacker is abducted into the digital world and forced to participate in gladiatorial games where his only chance of escape is with the help of a heroic security program.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			117 =>
+			117 => 
 			array (
 				'movie_id' => 118,
 				'name' => 'Tron Legacy',
@@ -2135,10 +2135,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed. He meets his father&#039;s corrupted creation and a unique ally who was born inside the digital world.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			118 =>
+			118 => 
 			array (
 				'movie_id' => 119,
 				'name' => 'World War Z',
@@ -2153,10 +2153,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'United Nations employee Gerry Lane traverses the world in a race against time to stop the Zombie pandemic that is toppling armies and governments, and threatening to destroy humanity itself.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			119 =>
+			119 => 
 			array (
 				'movie_id' => 120,
 				'name' => 'X-Men Origins: Wolverine',
@@ -2171,10 +2171,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A look at Wolverine&#039;s early life, in particular his time with the government squad Team X and the impact it will have on his later years.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			120 =>
+			120 => 
 			array (
 				'movie_id' => 121,
 				'name' => 'The Wolverine',
@@ -2189,10 +2189,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When Wolverine is summoned to Japan by an old acquaintance, he is embroiled in a conflict that forces him to confront his own demons.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			121 =>
+			121 => 
 			array (
 				'movie_id' => 122,
 				'name' => 'X-Men: First Class',
@@ -2207,10 +2207,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In 1962, the United States government enlists the help of Mutants with superhuman abilities to stop a malicious dictator who is determined to start World War III.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			122 =>
+			122 => 
 			array (
 				'movie_id' => 123,
 				'name' => 'X-Men: Days of Future Past',
@@ -2225,10 +2225,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The X-Men send Wolverine to the past in a desperate effort to change history and prevent an event that results in doom for both humans and mutants.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			123 =>
+			123 => 
 			array (
 				'movie_id' => 124,
 				'name' => 'X-Men',
@@ -2243,10 +2243,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In a world where both Mutants and Humans fear each other, Marie, better known as Rogue, runs away from home and hitches a ride with another mutant, known as Logan, a.k.a. Wolverine. Charles Xavier, who owns a school for young mutants, sends Storm and Cyclops to bring them back before it is too late.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			124 =>
+			124 => 
 			array (
 				'movie_id' => 125,
 				'name' => 'X-Men 2',
@@ -2261,10 +2261,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The X-Men band together to find a mutant assassin who has made an attempt on the President&#039;s life, while the Mutant Academy is attacked by military forces. ',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			125 =>
+			125 => 
 			array (
 				'movie_id' => 126,
 				'name' => 'X-Men: The Last Stand',
@@ -2279,10 +2279,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When a cure is found to treat mutations, lines are drawn amongst the X-Men, led by Professor Charles Xavier, and the Brotherhood, a band of powerful mutants organized under Xavier&#039;s former ally, Magneto. ',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			126 =>
+			126 => 
 			array (
 				'movie_id' => 127,
 				'name' => 'Young Guns',
@@ -2297,10 +2297,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A group of young gunmen, led by Billy the Kid, become deputies to avenge the murder of the rancher who became their benefactor. But when Billy takes their authority too far, they become the hunted.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			127 =>
+			127 => 
 			array (
 				'movie_id' => 128,
 				'name' => 'Zombieland',
@@ -2315,10 +2315,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A shy student trying to reach his family in Ohio, a gun-toting tough guy trying to find the last Twinkie, and a pair of sisters trying to get to an amusement park join forces to travel across a zombie-filled America.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			128 =>
+			128 => 
 			array (
 				'movie_id' => 129,
 				'name' => 'Beauty and the Beast',
@@ -2333,10 +2333,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Belle, whose father is imprisoned by the Beast, offers herself instead, unaware her captor to be an enchanted prince.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			129 =>
+			129 => 
 			array (
 				'movie_id' => 130,
 				'name' => 'Big Hero 6',
@@ -2351,10 +2351,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The special bond that develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.',
 				'purchased' => '2015-11-14 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			130 =>
+			130 => 
 			array (
 				'movie_id' => 131,
 				'name' => 'Bolt',
@@ -2369,10 +2369,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The canine star of a fictional sci-fi/action show that believes his powers are real embarks on a cross country trek to save his co-star from a threat he believes is just as real.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			131 =>
+			131 => 
 			array (
 				'movie_id' => 132,
 				'name' => 'Brave',
@@ -2387,10 +2387,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Determined to make her own path in life, Princess Merida defies a custom that brings chaos to her kingdom. Granted one wish, Merida must rely on her bravery and her archery skills to undo a beastly curse.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			132 =>
+			132 => 
 			array (
 				'movie_id' => 133,
 				'name' => 'A Bug&#039;s Life',
@@ -2405,10 +2405,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A misfit ant, looking for &quot;warriors&quot; to save his colony from greedy grasshoppers, recruits a group of bugs that turn out to be an inept circus troupe.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			133 =>
+			133 => 
 			array (
 				'movie_id' => 134,
 				'name' => 'Cars',
@@ -2423,10 +2423,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A hot-shot race-car named Lightning McQueen gets waylaid in Radiator Springs, where he finds the true meaning of friendship and family.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			134 =>
+			134 => 
 			array (
 				'movie_id' => 135,
 				'name' => 'Cars 2',
@@ -2441,10 +2441,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Star race car Lightning McQueen and his pal Mater head overseas to compete in the World Grand Prix race. But the road to the championship becomes rocky as Mater gets caught up in an intriguing adventure of his own: international espionage.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			135 =>
+			135 => 
 			array (
 				'movie_id' => 136,
 				'name' => 'Fantasia',
@@ -2459,10 +2459,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Disney animators set pictures to Western classical music as Leopold Stokowski conducts the Philadelphia Orchestra. The Sorcerer&#039;s Apprentice, The Rite of Spring, Dance of the Hours, Night on Bald Mountain and Ave Maria.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			136 =>
+			136 => 
 			array (
 				'movie_id' => 137,
 				'name' => 'Fantasia 2000',
@@ -2477,10 +2477,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'An update of the original film with new interpretations of great works of classical music.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			137 =>
+			137 => 
 			array (
 				'movie_id' => 138,
 				'name' => 'Finding Nemo',
@@ -2495,10 +2495,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			138 =>
+			138 => 
 			array (
 				'movie_id' => 139,
 				'name' => 'Frozen',
@@ -2513,10 +2513,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			139 =>
+			139 => 
 			array (
 				'movie_id' => 140,
 				'name' => 'The Incredibles',
@@ -2531,10 +2531,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			140 =>
+			140 => 
 			array (
 				'movie_id' => 141,
 				'name' => 'Lady and the Tramp',
@@ -2549,10 +2549,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The romantic tale of a sheltered uptown Cocker Spaniel dog and a streetwise downtown Mutt.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			141 =>
+			141 => 
 			array (
 				'movie_id' => 142,
 				'name' => 'Lady and the Tramp 2: Scamp&#039;s Adventure',
@@ -2567,10 +2567,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Seeking the freedom to be a wild dog, the son of Lady and the Tramp runs away to join a gang of junkyard dogs.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			142 =>
+			142 => 
 			array (
 				'movie_id' => 143,
 				'name' => 'Monsters University',
@@ -2585,10 +2585,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn&#039;t always the case. From the moment these two mismatched monsters met they couldn&#039;t stand each other. Monsters University unlocks the door to how Mike and Sulley overcame their differences and became the best of friends.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			143 =>
+			143 => 
 			array (
 				'movie_id' => 144,
 				'name' => 'Monsters Inc',
@@ -2603,10 +2603,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, two monsters realize things may not be what they think. ',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			144 =>
+			144 => 
 			array (
 				'movie_id' => 145,
 				'name' => 'The Nighmare before Christmas',
@@ -2621,10 +2621,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Jack Skellington, the pumpkin king of Halloween Town, is bored with doing the same thing every year for Halloween. One day he stumbles into Christmas Town, and is so taken with the idea of Christmas that he tries to get the resident bats, ghouls, and goblins of Halloween town to help him put on Christmas instead of Halloween; but alas, they can&#039;t get it quite right',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			145 =>
+			145 => 
 			array (
 				'movie_id' => 146,
 				'name' => 'The Princess and the Frog',
@@ -2639,10 +2639,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			146 =>
+			146 => 
 			array (
 				'movie_id' => 147,
 				'name' => 'Ratatouille',
@@ -2657,10 +2657,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A rat named Remy dreams of becoming a great French chef despite his family&#039;s wishes and the obvious problem of being a rat in a decidedly rodent-phobic profession. When fate places Remy in the sewers of Paris, he finds himself ideally situated beneath a restaurant made famous by his culinary hero, Auguste Gusteau. Despite the apparent dangers of being an unlikely and unwanted visitor in the kitchen of a fine French restaurant, Remy&#039;s passion for cooking soon sets into motion a hilarious and exciting rat race.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			147 =>
+			147 => 
 			array (
 				'movie_id' => 148,
 				'name' => 'Snow White and the Seven Dwarfs',
@@ -2675,10 +2675,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Disney&#039;s first full length animated feature film. Snow White, pursued by a jealous queen, hides with the Dwarfs, but the queen learns of this and prepares to feed her a poison apple',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			148 =>
+			148 => 
 			array (
 				'movie_id' => 149,
 				'name' => 'Tangled',
@@ -2693,10 +2693,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			149 =>
+			149 => 
 			array (
 				'movie_id' => 150,
 				'name' => 'Toy Story',
@@ -2711,10 +2711,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy&#039;s room.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			150 =>
+			150 => 
 			array (
 				'movie_id' => 151,
 				'name' => 'Toy Story 2',
@@ -2729,10 +2729,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When Woody is stolen by a toy collector, Buzz and his friends vow to rescue him, but Woody finds the idea of immortality in a museum tempting. ',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			151 =>
+			151 => 
 			array (
 				'movie_id' => 152,
 				'name' => 'Toy Story 3',
@@ -2747,10 +2747,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it&#039;s up to Woody to convince the other toys that they weren&#039;t abandoned and to return home. ',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			152 =>
+			152 => 
 			array (
 				'movie_id' => 153,
 				'name' => 'Up',
@@ -2765,10 +2765,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Seventy-eight year old Carl Fredricksen travels to Paradise Falls in his home equipped with balloons, inadvertently taking a young stowaway.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			153 =>
+			153 => 
 			array (
 				'movie_id' => 154,
 				'name' => 'Wall-E',
@@ -2783,10 +2783,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			154 =>
+			154 => 
 			array (
 				'movie_id' => 155,
 				'name' => 'Wreck-It Ralph',
@@ -2801,10 +2801,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			155 =>
+			155 => 
 			array (
 				'movie_id' => 156,
 				'name' => 'Cloudy with a chance of Meatballs',
@@ -2819,10 +2819,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A local scientist is often regarded as a failure until he invents a machine that can make food fall from the sky. But little does he know, that things are about to take a turn for the worst.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			156 =>
+			156 => 
 			array (
 				'movie_id' => 157,
 				'name' => 'Coraline',
@@ -2837,10 +2837,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'An adventurous girl finds another world that is a strangely idealized version of her frustrating home, but it has sinister secrets.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			157 =>
+			157 => 
 			array (
 				'movie_id' => 158,
 				'name' => 'Despicalbe Me',
@@ -2855,10 +2855,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When a criminal mastermind uses a trio of orphan girls as pawns for a grand scheme, he finds their love is profoundly changing him for the better.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			158 =>
+			158 => 
 			array (
 				'movie_id' => 159,
 				'name' => 'How to Train Your Dragon',
@@ -2873,10 +2873,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A hapless young Viking who aspires to hunt dragons, becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			159 =>
+			159 => 
 			array (
 				'movie_id' => 160,
 				'name' => 'Ice Age',
@@ -2891,10 +2891,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Set during the Ice Age, a sabertooth tiger, a sloth, and a wooly mammoth find a lost human infant, and they try to return him to his tribe.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			160 =>
+			160 => 
 			array (
 				'movie_id' => 161,
 				'name' => 'Ice Age: The Meltdown',
@@ -2909,10 +2909,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Manny, Sid, and Diego discover that the ice age is coming to an end, and join everybody for a journey to higher ground. On the trip, they discover that Manny, in fact, is not the last of the woolly mammoths. ',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			161 =>
+			161 => 
 			array (
 				'movie_id' => 162,
 				'name' => 'Ice Age: Dawn of the Dinosaurs',
@@ -2927,10 +2927,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'When Sid&#039;s attempt to adopt three dinosaur eggs gets him abducted by their real mother to an underground lost world, his friends attempt to rescue him. ',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			162 =>
+			162 => 
 			array (
 				'movie_id' => 163,
 				'name' => 'Kung Fu Panda',
@@ -2945,10 +2945,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In the Valley of Peace, Po the Panda finds himself chosen as the Dragon Warrior despite the fact that he is obese and a complete novice at martial arts.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			163 =>
+			163 => 
 			array (
 				'movie_id' => 164,
 				'name' => 'Kung Fu Panda 2',
@@ -2963,10 +2963,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Po and his friends fight to stop a peacock villain from conquering China with a deadly new weapon, but first the Dragon Warrior must come to terms with his past.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			164 =>
+			164 => 
 			array (
 				'movie_id' => 165,
 				'name' => 'Planet 51',
@@ -2981,10 +2981,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'An alien civilization is invaded by Astronaut Chuck Baker, who believes that the planet was uninhabited. Wanted by the military, Baker must get back to his ship before it goes into orbit without him.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			165 =>
+			165 => 
 			array (
 				'movie_id' => 166,
 				'name' => 'Game of Thrones: Season 1',
@@ -2999,10 +2999,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Ned Stark, Lord of Winterfell, becomes the Hand of the King after the former Hand, Jon Arryn, has passed away. But before Ned goes to the capital, King&#039;s Landing, a letter arrives from his wife&#039;s sister Lysa, who was the wife of Jon Arryn. There it says that her husband was murdered, and it is up to Ned to find out what&#039;s going on. But that isn&#039;t everything. The White Walkers have been seen, and they seem to go down south. ',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			166 =>
+			166 => 
 			array (
 				'movie_id' => 167,
 				'name' => 'The Walking Dead: Season 1',
@@ -3017,10 +3017,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Rick Grimes is a former Sheriff&#039;s deputy who has been in a coma for several months after being shot while on duty. When he awakens he discovers that the world has been ravished by a zombie epidemic of apocalyptic proportions. He set off to Atlanta to hopefully find his family.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			167 =>
+			167 => 
 			array (
 				'movie_id' => 168,
 				'name' => 'The Walking Dead: Season 2',
@@ -3035,10 +3035,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The one on the farm',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			168 =>
+			168 => 
 			array (
 				'movie_id' => 169,
 				'name' => 'The Walking Dead: Season 3',
@@ -3053,10 +3053,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The one in the prison',
 				'purchased' => '2015-12-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			169 =>
+			169 => 
 			array (
 				'movie_id' => 170,
 				'name' => 'The Walking Dead: Season 5',
@@ -3071,10 +3071,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'The one they head to Alexandria',
 				'purchased' => '2015-12-28 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			170 =>
+			170 => 
 			array (
 				'movie_id' => 171,
 				'name' => 'Cool Hand Luke',
@@ -3089,10 +3089,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'A man refuses to conform to life in a rural prison.',
 				'purchased' => '2015-01-01 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			171 =>
+			171 => 
 			array (
 				'movie_id' => 172,
 				'name' => 'Inside Out',
@@ -3107,10 +3107,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.',
 				'purchased' => '2015-12-25 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			172 =>
+			172 => 
 			array (
 				'movie_id' => 173,
 				'name' => 'Entourage',
@@ -3125,10 +3125,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Movie star Vincent Chase, together with his boys Eric, Turtle, and Johnny, are back - and back in business with super agent-turned-studio head Ari Gold on a risky project that will serve as Vince&#039;s directorial debut.',
 				'purchased' => '2015-12-25 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			173 =>
+			173 => 
 			array (
 				'movie_id' => 174,
 				'name' => 'Ant-Man',
@@ -3143,10 +3143,10 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.',
 				'purchased' => '2015-12-25 08:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
-			174 =>
+			174 => 
 			array (
 				'movie_id' => 175,
 				'name' => 'San Andreas',
@@ -3161,8 +3161,8 @@ class MoviesTableSeeder extends Seeder {
 				'duplicate' => 0,
 				'bio' => 'In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey with his ex-wife across the state in order to rescue his daughter.',
 				'purchased' => '2015-12-27 14:00:00',
-				'updated_at' => '2015-12-30 15:38:30',
 				'created_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2015-12-30 15:38:30',
 			),
 		));
 	}

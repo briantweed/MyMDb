@@ -9,14 +9,20 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('/admin', 'StudioController@index');
 Route::get('/admin/seed', function(){
-	Iseed::generateSeed('movies');
-	Iseed::generateSeed('persons');
 	Iseed::generateSeed('cast');
-	Iseed::generateSeed('characters');
 	Iseed::generateSeed('categories');
 	Iseed::generateSeed('crew');
+	Iseed::generateSeed('certificates');
+	Iseed::generateSeed('formats');
+	Iseed::generateSeed('forms');
+	Iseed::generateSeed('genres');
 	Iseed::generateSeed('keywords');
+	Iseed::generateSeed('movies');
+	Iseed::generateSeed('persons');
+	Iseed::generateSeed('quotes');
+	Iseed::generateSeed('studios');
 	Iseed::generateSeed('tags');
+	Iseed::generateSeed('users');
 	Iseed::generateSeed('viewings');
 	return Redirect::to('/admin')->with('status', 'Seeds created for all tables');
 });

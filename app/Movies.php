@@ -22,17 +22,17 @@ class Movies extends Model {
 
 	public function studio()
 	{
-		return $this->hasOne('App\Studios','studio_id');
+		return $this->belongsTo('App\Studios','studio_id');
 	}
 
 	public function format()
 	{
-		return $this->hasOne('App\Formats','format_id');
+		return $this->belongsTo('App\Formats','format_id');
 	}
 
 	public function certificate()
 	{
-		return $this->hasOne('App\Certificates','certificate_id');
+		return $this->belongsTo('App\Certificates','certificate_id');
 	}
 
 	public function cast()

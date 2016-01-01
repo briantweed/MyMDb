@@ -80,7 +80,7 @@
 
          {{-- description --}}
          <div class="row">
-            <div class="col-xs-12"><p>{{$movie->description}}</p></div>
+            <div class="col-xs-12"><p>{{$movie->bio}}</p></div>
          </div>
 
          {{-- star rating --}}
@@ -104,19 +104,19 @@
          {{-- certifiate --}}
          <div class="row">
             <div class="{{$label_class}}"><b>Certificate</b></div>
-            <div class="{{$input_class}}">{{$movie->certificate->title}}</div>
+            <div class="{{$input_class}}">@if($movie->certificate){{$movie->certificate->title}}@endif</div>
          </div>
 
          {{-- format --}}
          <div class="row">
             <div class="{{$label_class}}"><b>Format</b></div>
-            <div class="{{$input_class}}">{{$movie->format->type}}</div>
+            <div class="{{$input_class}}">@if($movie->format){{$movie->format->type}}@endif</div>
          </div>
 
          {{-- studio --}}
          <div class="row">
             <div class="{{$label_class}}"><b>Studio</b></div>
-            <div class="{{$input_class}}">{{$movie->studio->name}}</div>
+            <div class="{{$input_class}}">@if($movie->studio){{$movie->studio->name}}@endif</div>
          </div>
 
          {{-- genres --}}

@@ -13,21 +13,29 @@ class DatabaseSeeder extends Seeder {
 	public function run()
 	{
 		Model::unguard();
-		$this->call('CastTableSeeder');
-		$this->call('CategoriesTableSeeder');
+
+		// support tables
 		$this->call('CertificatesTableSeeder');
-		$this->call('CrewTableSeeder');
 		$this->call('FormatsTableSeeder');
 		$this->call('FormsTableSeeder');
 		$this->call('GenresTableSeeder');
 		$this->call('KeywordsTableSeeder');
-		$this->call('MoviesTableSeeder');
 		$this->call('PersonsTableSeeder');
-		$this->call('QuotesTableSeeder');
 		$this->call('StudiosTableSeeder');
-		$this->call('TagsTableSeeder');
 		$this->call('UsersTableSeeder');
+
+		// main table
+		$this->call('MoviesTableSeeder');
+		// child table
+		$this->call('QuotesTableSeeder');
+
+		//pivot tables
+		$this->call('CastTableSeeder');
+		$this->call('CategoriesTableSeeder');
+		$this->call('CrewTableSeeder');
+		$this->call('TagsTableSeeder');
 		$this->call('ViewingsTableSeeder');
+
 		Model::reguard();
 	}
 

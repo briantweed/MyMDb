@@ -32,17 +32,16 @@ class MovieController extends Controller {
 
 	public function show($id)
 	{
-		$movie = Movies::find(1);
+		$movie = Movies::find($id);
 		$movie->genres;
 		$movie->studio;
 		$movie->format;
 		$movie->cast;
 		$movie->crew;
+		$movie->tags = [];
 		if(!$movie) return view('errors.404');
 		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->image);
-		// $movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
-		// $movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
 		// $last_viewed = DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date');
 		// $movie->viewed = $last_viewed != '' ? date('jS F Y @ H:i', strtotime($last_viewed)) : NULL;
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
@@ -65,18 +64,18 @@ class MovieController extends Controller {
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$data = $request->all();
-		$data['movie_sort_name'] = $data['movie_sort_name'] == '' ? $data['movie_name'] : $data['movie_sort_name'];
-		if($request->hasFile('movie_image_path'))
+		$data['sort_name'] = $data['sort_name'] == '' ? $data['name'] : $data['sort_name'];
+		if($request->hasFile('image'))
 		{
-			if ($request->file('movie_image_path')->isValid()) {
-				$image_name = $this->createImageName($data['movie_sort_name']);
-				$image = $request->file('movie_image_path')->move('images/covers', $image_name);
-				$data['movie_image_path'] = $image_name;
+			if ($request->file('image')->isValid()) {
+				$image_name = $this->createImageName($data['sort_name']);
+				$image = $request->file('image')->move('images/covers', $image_name);
+				$data['image'] = $image_name;
 			}
 		}
-		$data['movie_studio_id'] = is_numeric($data['movie_studio_id']) ? $data['movie_studio_id'] : $this->createNewStudio($data['movie_studio_id']);
-		$data['movie_duplicate'] = $this->checkForDuplicateTitle($request->movie_name);
-		$data['movie_purchased'] = date("Y-m-d", strtotime($data['movie_purchased'] ));
+		$data['studio_id'] = is_numeric($data['studio_id']) ? $data['studio_id'] : $this->createNewStudio($data['studio_id']);
+		$data['duplicate'] = $this->checkForDuplicateTitle($request->name);
+		$data['purchased'] = date("Y-m-d", strtotime($data['purchased'] ));
 		foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
 		unset($value);
 		$update = Movies::create($data);
@@ -88,18 +87,21 @@ class MovieController extends Controller {
 	{
 
 		if(!$this->isAdmin) return view('auth.login');
-		$movie = DB::table('movies')->where('movie_id', $id)->first();
+		$movie = Movies::find($id);
 		if(!$movie) return view('errors.404');
-		$movie->cover = $this->checkImageExists($movie->movie_image_path, $movie->movie_sort_name, 'covers', false);
+		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
-		$movie->cast = DB::table('movie_cast')->where('movie_id', $id)->get();
-		$movie->crew = DB::table('movie_crew')->where('movie_id', $id)->get();
-		$movie->genres = DB::table('movie_categories')->where('movie_id', $id)->get();
-		$movie->tags = DB::table('movie_tags')->where('movie_id', $id)->get();
-		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
-		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
-		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
-		$formats = DB::table('formats')->lists('format_type', 'format_id');
+		$movie->genres;
+		$movie->studio;
+		$movie->format;
+		$movie->cast;
+		$movie->crew;
+		$movie->tags = [];
+		$fields = DB::table('forms')->where('name','create_movie')->orderBy('order', 'asc')->get();
+
+		$certificates = DB::table('certificates')->lists('title', 'certificate_id');
+		$studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
+		$formats = DB::table('formats')->lists('type', 'format_id');
 		$user = $this->isAdmin;
 		return view('movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats', 'user'));
 	}
@@ -109,19 +111,19 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = Movies::findorfail($id);
 		$data = $request->all();
-		$data['movie_sort_name'] = $data['movie_sort_name'] =='' ? $data['movie_name'] : $data['movie_sort_name'];
-		if($request->hasFile('movie_image_path'))
+		$data['sort_name'] = $data['sort_name'] =='' ? $data['name'] : $data['sort_name'];
+		if($request->hasFile('image'))
 		{
-			if($request->file('movie_image_path')->isValid())
+			if($request->file('image')->isValid())
 			{
-				$image_name = $this->createImageName($data['movie_sort_name']);
-				$image = $request->file('movie_image_path')->move('images/covers', $image_name);
-				$data['movie_image_path'] = $image_name;
-				$this->unlinkExistingImage('covers', $movie->movie_image_path);
+				$image_name = $this->createImageName($data['sort_name']);
+				$image = $request->file('image')->move('images/covers', $image_name);
+				$data['image'] = $image_name;
+				$this->unlinkExistingImage('covers', $movie->image);
 			}
 		}
-		$data['movie_studio_id'] = is_numeric($data['movie_studio_id']) ? $data['movie_studio_id'] : $this->createNewStudio($data['movie_studio_id']);
-		$data['movie_purchased'] = date("Y-m-d", strtotime($data['movie_purchased'] ));
+		$data['studio_id'] = is_numeric($data['studio_id']) ? $data['studio_id'] : $this->createNewStudio($data['studio_id']);
+		$data['purchased'] = date("Y-m-d", strtotime($data['purchased'] ));
 		$movie->update($data);
 		return redirect()->action('MovieController@edit', [$id])->with('status', 'Movie Updated Successfully');
 	}
@@ -151,7 +153,7 @@ class MovieController extends Controller {
 
 	private function checkForDuplicateTitle($name)
 	{
-		return DB::table('movies')->where('movie_name', $name)->count() > 0 ? true : false;
+		return DB::table('movies')->where('name', $name)->count() > 0 ? true : false;
 	}
 
 	private function createNewStudio($name)

@@ -3,12 +3,12 @@
 
 {{-- Page Title --}}
 @section('title')
-   Edit {{$movie->movie_name}}
+   Edit {{$movie->name}}
 @stop
 
 {{-- Page Heading --}}
 @section('heading')
-   Edit : {{$movie->movie_name}}
+   Edit : {{$movie->name}}
 @stop
 
 
@@ -46,7 +46,7 @@
             <div class="col-xs-12">
                @if(isset($movie->cover))
                   @if($movie->cover_count == 1)
-                     <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->movie_name}}" />
+                     <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->name}}" />
                   @else
                      <img id="movie-poster" class="img-responsive img-rounded" src="{{asset($movie->cover)}}" />
                      @if( Request::is('movies/*/edit'))
@@ -84,6 +84,9 @@
          @if($errors->any())
             <div class="col-xs-12 alert alert-danger">
                * There are errors with your form
+               @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
             </div>
          @endif
 {{--
