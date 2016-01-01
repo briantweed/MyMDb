@@ -3,6 +3,7 @@
 use DB;
 use App\Movies;
 use App\Studios;
+use App\Viewings;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ValidateCreateMovie;
@@ -38,12 +39,12 @@ class MovieController extends Controller {
 		$movie->format;
 		$movie->cast;
 		$movie->crew;
-		$movie->tags = [];
+		$movie->tags;
+		$movie->viewings = Movies::find($id)->viewings()->select('date')->orderBy('date', 'desc')->first();
+		$movie->last_viewed = date("jS F Y", strtotime($movie->viewings->date));
 		if(!$movie) return view('errors.404');
 		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->image);
-		// $last_viewed = DB::table('movie_viewings_most_recent')->where('movie_id', $id)->pluck('date');
-		// $movie->viewed = $last_viewed != '' ? date('jS F Y @ H:i', strtotime($last_viewed)) : NULL;
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
 		$user = $this->isAdmin;
 		return view('movies.show', compact('movie','user'));
@@ -52,10 +53,10 @@ class MovieController extends Controller {
 	public function create()
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		$fields = DB::table('forms')->where('form_name','create_movie')->orderBy('form_order', 'asc')->get();
-		$certificates = DB::table('certificates')->lists('certificate_title', 'certificate_id');
-		$studios = DB::table('studios')->orderBy('studio_name', 'asc')->lists('studio_name', 'studio_id');
-		$formats = DB::table('formats')->lists('format_type', 'format_id');
+		$fields = DB::table('forms')->where('name','create_movie')->orderBy('order', 'asc')->get();
+		$certificates = DB::table('certificates')->lists('title', 'certificate_id');
+		$studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
+		$formats = DB::table('formats')->lists('type', 'format_id');
 		$user = $this->isAdmin;
 		return view('movies.create', compact('fields', 'certificates', 'studios', 'formats', 'user'));
 	}
@@ -90,13 +91,14 @@ class MovieController extends Controller {
 		$movie = Movies::find($id);
 		if(!$movie) return view('errors.404');
 		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
+		$movie->purchased = date("d-m-Y", strtotime($movie->purchased));
 		$movie->cover_count = strlen($movie->cover);
 		$movie->genres;
 		$movie->studio;
 		$movie->format;
 		$movie->cast;
 		$movie->crew;
-		$movie->tags = [];
+		$movie->tags;
 		$fields = DB::table('forms')->where('name','create_movie')->orderBy('order', 'asc')->get();
 
 		$certificates = DB::table('certificates')->lists('title', 'certificate_id');

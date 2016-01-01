@@ -23,16 +23,11 @@
                <span> Movies</span>
             </a>
          </li>
-         <li class="{{Request::is('people*') ? 'people-active' : 'people-normal'}}">
+
+         <li class="{{Request::is('people*') ? 'character-active' : 'character-normal'}}">
             <a href="{{ action('PersonController@index') }}">
-               <i style="font-size:1.5em" class="ft icon-person"></i>
-               <span> People</span>
-            </a>
-         </li>
-         <li class="{{Request::is('characters*') ? 'character-active' : 'character-normal'}}">
-            <a href="{{ action('CharacterController@index') }}">
                <i style="font-size:1.5em" class="ft icon-character"></i>
-               <span> Characters</span>
+               <span> People</span>
             </a>
          </li>
          @if(isset($user) && $user!=false && $user->level==1)

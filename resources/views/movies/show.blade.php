@@ -153,7 +153,8 @@
          @endif
 
          {{-- last watched --}}
-         @if($movie->viewed !== NULL)
+
+         @if($movie->viewings !== NULL)
 
             <div class="row">
                <div class="{{$label_class}}">
@@ -161,7 +162,7 @@
                </div>
 
                <div class="{{$input_class}}">
-                  {{$movie->viewed}};
+                  {{$movie->last_viewed}}
                </div>
             </div>
 

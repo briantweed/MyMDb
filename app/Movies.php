@@ -22,17 +22,17 @@ class Movies extends Model {
 
 	public function studio()
 	{
-		return $this->belongsTo('App\Studios','studio_id');
+		return $this->belongsTo('App\Studios', 'studio_id');
 	}
 
 	public function format()
 	{
-		return $this->belongsTo('App\Formats','format_id');
+		return $this->belongsTo('App\Formats', 'format_id');
 	}
 
 	public function certificate()
 	{
-		return $this->belongsTo('App\Certificates','certificate_id');
+		return $this->belongsTo('App\Certificates', 'certificate_id');
 	}
 
 	public function cast()
@@ -49,6 +49,17 @@ class Movies extends Model {
 	{
 		return $this->belongsToMany('App\Genres', 'categories', 'movie_id', 'genre_id');
 	}
+
+	public function tags()
+	{
+		return $this->belongsToMany('App\Keywords', 'tags', 'movie_id', 'keyword_id');
+	}
+
+	public function viewings()
+   {
+      return $this->hasMany('App\Viewings', 'movie_id');
+   }
+
 
 	public static function getMovieRecords($sort_by, $direction, $limit)
 	{

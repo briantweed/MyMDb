@@ -41,8 +41,8 @@ class FilterController extends Controller
       $quoteCount = DB::table('quotes')->count();
       $selectedQuote = rand(1, $quoteCount);
       $quote = DB::table('quotes')
-               ->select('movies.movie_id', 'movies.movie_name', 'movies.movie_release_date as released', 'quotes.quote_text as text')
-               ->join('movies', 'movies.movie_id', '=', 'quotes.quote_movie_id')
+               ->select('movies.movie_id', 'movies.name', 'movies.released as released', 'quotes.text as text')
+               ->join('movies', 'movies.movie_id', '=', 'quotes.movie_id')
                ->where('quote_id', $selectedQuote)
                ->first();
       return $quote;

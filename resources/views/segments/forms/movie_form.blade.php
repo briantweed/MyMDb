@@ -1,7 +1,7 @@
 
 <?php
 
-   $values = json_decode($movie);
+   $values = isset($movie) ? json_decode($movie) : [];
    foreach($fields as $field)
    {
       $errorClass = $errors->has($field->field) ? "has-error" : "";
@@ -14,7 +14,7 @@
          <?php break;
 
          case "date": ?>
-            @include('segments.forms.date', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->label, 'required' => $field->required, 'field' => $field->field, 'value' => date("d-m-Y", strtotime($value))])
+            @include('segments.forms.date', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->label, 'required' => $field->required, 'field' => $field->field, 'value' => $value])
          <?php break;
 
          case "textarea": ?>
