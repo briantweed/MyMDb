@@ -35,8 +35,7 @@
          {{ session('status') }}
       </div>
    @endif
-
-   <div class="row movie">
+      <div class="row movie">
 
       {{-- left column --}}
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
@@ -112,7 +111,6 @@
                {!! Form::model($movie, ['method'=>'Patch','url'=>'movies/'.$movie->movie_id,'files' => true]) !!}
                   <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
                   @include('segments.forms.form_builder')
-               {!! Form::close() !!}
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="cast">
@@ -161,15 +159,32 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="tags">
-               @foreach($movie->tags as $tag)
-                  <div class="row tags">
-                     <div class="col-xs-9">
-                        {{$tag->word}}
-                     </div>
+               <div class="row">
+                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                     {!! Form::label('new_tag', 'Add New Tag') !!}
                   </div>
-               @endforeach
+                  <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
+                     {!! Form::text('new_tag', '', ['class'=>'form-control']) !!}
+                  </div>
+               </div>
+
+               @include('segments.layout.padding')
+
+               <div class="row tags">
+                  @foreach($keywords as $keyword)
+                     <div class="col-xs-8 col-sm-2 col-md-2 col-lg-1">
+                        {!! Form::label('tag_'.$keyword->keyword_id, $keyword->word) !!}
+                     </div>
+                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 switch round">
+                        {!! Form::checkbox('tag[]', $keyword->keyword_id, $keyword->selected, ['id' => 'tag_'.$keyword->keyword_id]) !!}
+                        {!! Form::label('tag_'.$keyword->keyword_id, $keyword->word) !!}
+                     </div>
+                  @endforeach
+               </div>
+
             </div>
 
+            {!! Form::close() !!}
          </div>
 
          @include('segments.layout.padding')

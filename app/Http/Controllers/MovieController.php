@@ -36,7 +36,7 @@ class MovieController extends Controller {
 		$movie = Movies::find($id);
 		if(!$movie) return view('errors.404');
 
-		$viewings = Movies::find($id)->viewings()->select('date')->orderBy('date', 'desc')->first();
+		$viewings = $movie->viewings()->select('date')->orderBy('date', 'desc')->first();
 		$movie->last_viewed = $viewings ? date("jS F Y", strtotime($viewings->date)) : null;
 		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
@@ -87,7 +87,6 @@ class MovieController extends Controller {
 		unset($value);
 
 		$created = Movies::create($data);
-		
 		// foreach($data as $key => $value) {
 		//   $pos = strpos($key , "tag_");
 		//   if ($pos === 0){
@@ -114,15 +113,20 @@ class MovieController extends Controller {
 		$movie->format;
 		$movie->cast;
 		$movie->crew;
-		$movie->tags;
+		$movie->tags = DB::table('tags')->where('movie_id', $id)->lists('keyword_id');
 		$fields = DB::table('forms')->where('name','create_movie')->orderBy('order', 'asc')->get();
 
 		$certificates = DB::table('certificates')->lists('title', 'certificate_id');
 		$studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
 		$formats = DB::table('formats')->lists('type', 'format_id');
+		$keywords = DB::table('keywords')->get();
+		foreach($keywords as $keyword)
+		{
+			$keyword->selected = in_array($keyword->keyword_id, $movie->tags) ? true : false;
+		}
 		$user = $this->isAdmin;
 
-		return view('movies.edit', compact('movie', 'fields', 'values', 'certificates', 'studios', 'formats', 'user'));
+		return view('movies.edit', compact('movie', 'keywords', 'fields', 'values', 'certificates', 'studios', 'formats', 'user'));
 	}
 
 	public function update($id, ValidateCreateMovie $request)
@@ -130,7 +134,7 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = Movies::findorfail($id);
 		$data = $request->all();
-		return $data;
+		// return $data;
 		$data['sort_name'] = $data['sort_name'] =='' ? $data['name'] : $data['sort_name'];
 		if($request->hasFile('image'))
 		{
@@ -145,6 +149,8 @@ class MovieController extends Controller {
 		$data['studio_id'] = is_numeric($data['studio_id']) ? $data['studio_id'] : $this->createNewStudio($data['studio_id']);
 		$data['purchased'] = date("Y-m-d", strtotime($data['purchased'] ));
 		$movie->update($data);
+		if(isset($data['tag'])) $movie->tags()->sync($data['tag']);
+		else $movie->tags()->detach();
 		return redirect()->action('MovieController@edit', [$id])->with('status', 'Movie Updated Successfully');
 	}
 
