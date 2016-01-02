@@ -59,6 +59,15 @@ class CastTableSeeder extends Seeder {
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
+			5 => 
+			array (
+				'cast_id' => 6,
+				'movie_id' => 7,
+				'person_id' => 7,
+				'character' => 'The Narrator',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
 		));
 	}
 

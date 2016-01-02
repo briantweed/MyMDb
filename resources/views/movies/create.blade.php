@@ -72,7 +72,7 @@
 
          {!! Form::open(['url'=>'movies','files' => true]) !!}
             <input type="hidden" value="{{env('ROTTEN_KEY')}}" name="_tomatoes" />
-            @include('segments.forms.movie_form')
+            @include('segments.forms.form_builder')
          {!! Form::close() !!}
 
          {{-- padding --}}

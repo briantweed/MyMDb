@@ -14,7 +14,7 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   @include('segments.links.back')
+   @include('segments.links.view_movie')
    @include('segments.links.add_movie')
 @stop
 
@@ -111,7 +111,7 @@
             <div role="tabpanel" class="tab-pane fade in active" id="movie">
                {!! Form::model($movie, ['method'=>'Patch','url'=>'movies/'.$movie->movie_id,'files' => true]) !!}
                   <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
-                  @include('segments.forms.movie_form')
+                  @include('segments.forms.form_builder')
                {!! Form::close() !!}
             </div>
 

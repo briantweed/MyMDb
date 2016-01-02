@@ -174,7 +174,7 @@
             @include('segments.layout.padding')
 
             <div class="row">
-               <div class="col-xs-12"><h3>Crew</h3></div>
+               <div class="col-xs-12"><h4>Crew</h4></div>
             </div>
 
             @foreach($movie->crew as $emp)
@@ -199,7 +199,7 @@
             @include('segments.layout.padding')
 
             <div class="row">
-               <div class="col-xs-12"><h3>Cast</h3></div>
+               <div class="col-xs-12"><h4>Cast</h4></div>
             </div>
             @foreach( $movie->cast as $actor )
                <div class="row">

@@ -1,7 +1,6 @@
 
 <?php
 
-   $values = isset($person) ? json_decode($person) : [];
    foreach($fields as $field)
    {
       $errorClass = $errors->has($field->field) ? "has-error" : "";
@@ -51,5 +50,4 @@
          <?php break;
       }
    }
-
 ?>

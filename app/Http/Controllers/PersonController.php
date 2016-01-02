@@ -56,8 +56,9 @@ class PersonController extends Controller {
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
+		$values = [];
 		$user = $this->isAdmin;
-		return view('people.create', compact('fields', 'user'));
+		return view('people.create', compact('fields', 'values', 'user'));
 	}
 
 	public function store(ValidateCreatePerson $request)
@@ -96,8 +97,9 @@ class PersonController extends Controller {
 		$person->cover_count = strlen($person->image);
 		$person->birthday = date('d-m-Y', strtotime($person->birthday));
 		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
+		$values = json_decode($person);
 		$user = $this->isAdmin;
-		return view('people.edit', compact('person', 'fields', 'user'));
+		return view('people.edit', compact('person', 'fields', 'values', 'user'));
 	}
 
 	public function update($id, ValidateCreatePerson $request)

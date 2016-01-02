@@ -31,6 +31,11 @@ var featherEditor = new Aviary.Feather({
 
 $(document).ready(function(){
 
+   $('#movieTabs a').click(function (e) {
+     e.preventDefault();
+     $(this).tab('show');
+  });
+
    // apply selctize to dropdowns
    $('select:not(#movie_studio_id)').selectize();
 

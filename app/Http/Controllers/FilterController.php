@@ -21,13 +21,10 @@ class FilterController extends Controller
    {
       if(Request::ajax()){
          $data = Request::all();
-         $movies = DB::table('movie_details')
-                  ->where('name',  'LIKE', '%'.trim($data['val']).'%')
-                  ->orWhere('studio',  'LIKE', '%'.trim($data['val']).'%')
-                  ->get();
+         $movies = Movies::where('name', 'LIKE', '%'.trim($data['val']).'%')->get();
          foreach($movies as $movie)
    		{
-   			$movie->cover = $this->checkImageExists($movie->cover, $movie->sort_name, 'covers');
+   			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
    			$movie->cover_count = strlen($movie->cover);
    		}
          $user = $this->isAdmin;

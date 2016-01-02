@@ -92,11 +92,11 @@
             <div role="tabpanel" class="tab-pane fade in active" id="details">
                {!! Form::model($person, ['method'=>'Patch', 'url'=>'people/'.$person->person_id, 'files' => true]) !!}
                   <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
-                  @include('segments.forms.person_form')
+                  @include('segments.forms.form_builder')
                {!! Form::close() !!}
             </div>
 
-            <div role="tabpanel" class="tab-pane fade in active" id="roles">
+            <div role="tabpanel" class="tab-pane fade in" id="roles">
                <div class="row cast">
                   <div class="col-xs-6"><b>Film</b></div>
                   <div class="col-xs-3"><b>Character</b></div>

@@ -21,7 +21,7 @@ class MovieController extends Controller {
 
 	public function index()
 	{
-		$movies = Movies::paginate(48);
+		$movies = Movies::orderBy('sort_name')->paginate(48);
 		foreach($movies as $movie)
 		{
 			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
@@ -34,19 +34,23 @@ class MovieController extends Controller {
 	public function show($id)
 	{
 		$movie = Movies::find($id);
+		if(!$movie) return view('errors.404');
+
+		$viewings = Movies::find($id)->viewings()->select('date')->orderBy('date', 'desc')->first();
+		$movie->last_viewed = $viewings ? date("jS F Y", strtotime($viewings->date)) : null;
+		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
+		$movie->cover_count = strlen($movie->cover);
+		$movie->rating_display = $this->makeRatingStars($movie->rating);
+
 		$movie->genres;
 		$movie->studio;
 		$movie->format;
 		$movie->cast;
 		$movie->crew;
 		$movie->tags;
-		$movie->viewings = Movies::find($id)->viewings()->select('date')->orderBy('date', 'desc')->first();
-		$movie->last_viewed = date("jS F Y", strtotime($movie->viewings->date));
-		if(!$movie) return view('errors.404');
-		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
-		$movie->cover_count = strlen($movie->image);
-		$movie->rating_display = $this->makeRatingStars($movie->rating);
+
 		$user = $this->isAdmin;
+
 		return view('movies.show', compact('movie','user'));
 	}
 
@@ -54,11 +58,12 @@ class MovieController extends Controller {
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$fields = DB::table('forms')->where('name','create_movie')->orderBy('order', 'asc')->get();
+		$values = [];
 		$certificates = DB::table('certificates')->lists('title', 'certificate_id');
 		$studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
 		$formats = DB::table('formats')->lists('type', 'format_id');
 		$user = $this->isAdmin;
-		return view('movies.create', compact('fields', 'certificates', 'studios', 'formats', 'user'));
+		return view('movies.create', compact('fields', 'values', 'certificates', 'studios', 'formats', 'user'));
 	}
 
 	public function store(ValidateCreateMovie $request)
@@ -77,11 +82,20 @@ class MovieController extends Controller {
 		$data['studio_id'] = is_numeric($data['studio_id']) ? $data['studio_id'] : $this->createNewStudio($data['studio_id']);
 		$data['duplicate'] = $this->checkForDuplicateTitle($request->name);
 		$data['purchased'] = date("Y-m-d", strtotime($data['purchased'] ));
+
 		foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
 		unset($value);
-		$update = Movies::create($data);
-		$inserted_id = $update->movie_id;
-		return redirect()->action('MovieController@edit', [$inserted_id])->with('status', 'Movie Added Successfully');
+
+		$created = Movies::create($data);
+		
+		// foreach($data as $key => $value) {
+		//   $pos = strpos($key , "tag_");
+		//   if ($pos === 0){
+		//     $created->tags()->attach($value)->withTimestamps();
+		//   }
+		// }
+
+		return redirect()->action('MovieController@edit', [$created->movie_id])->with('status', 'Movie Added Successfully');
 	}
 
 	public function edit($id)
@@ -90,9 +104,11 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = Movies::find($id);
 		if(!$movie) return view('errors.404');
-		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->purchased = date("d-m-Y", strtotime($movie->purchased));
+		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
+		$values = json_decode($movie);
+
 		$movie->genres;
 		$movie->studio;
 		$movie->format;
@@ -105,7 +121,8 @@ class MovieController extends Controller {
 		$studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
 		$formats = DB::table('formats')->lists('type', 'format_id');
 		$user = $this->isAdmin;
-		return view('movies.edit', compact('movie', 'fields', 'certificates', 'studios', 'formats', 'user'));
+
+		return view('movies.edit', compact('movie', 'fields', 'values', 'certificates', 'studios', 'formats', 'user'));
 	}
 
 	public function update($id, ValidateCreateMovie $request)
@@ -113,6 +130,7 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$movie = Movies::findorfail($id);
 		$data = $request->all();
+		return $data;
 		$data['sort_name'] = $data['sort_name'] =='' ? $data['name'] : $data['sort_name'];
 		if($request->hasFile('image'))
 		{

@@ -31,6 +31,11 @@ var featherEditor = new Aviary.Feather({
 
 $(document).ready(function(){
 
+   $('#movieTabs a').click(function (e) {
+     e.preventDefault();
+     $(this).tab('show');
+  });
+
    // datepicker
    $('.input-group.date').datepicker({
       format: "dd-mm-yyyy",
