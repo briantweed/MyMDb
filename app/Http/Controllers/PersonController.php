@@ -20,10 +20,12 @@ class PersonController extends Controller {
 
 	public function index()
 	{
-		$people = Persons::all();
+		$people = Persons::orderBy('forename')->get();
 		foreach($people as $person)
 		{
 			$person->birthday = date("jS F Y",strtotime($person->birthday));
+			$person->cover = $this->checkImageExists($person->image, $person->forename, 'people', false);
+			$person->cover_count = strlen($person->cover);
 		}
 		$user = $this->isAdmin;
 		return view('people.index', compact('people','user'));
@@ -33,9 +35,9 @@ class PersonController extends Controller {
 	{
 		$person = Persons::find($id);
 		if(!$person) return view('errors.404');
+		$person->movies;
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people', false);
 		$person->cover_count = strlen($person->image);
-		$person->movies;
 		if($person->birthday !== NULL)
 		{
 			$person->birthday = date('jS F Y', strtotime($person->birthday));
@@ -53,7 +55,7 @@ class PersonController extends Controller {
 	public function create()
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		$fields = DB::table('forms')->where('form_name','create_person')->orderBy('form_order', 'asc')->get();
+		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
 		$user = $this->isAdmin;
 		return view('people.create', compact('fields', 'user'));
 	}
@@ -87,11 +89,13 @@ class PersonController extends Controller {
 	public function edit($id)
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		$person = DB::table('persons')->where('person_id', $id)->first();
+		$person = Persons::find($id);
+		$person->movies;
 		if(!$person) return view('errors.404');
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
 		$person->cover_count = strlen($person->image);
-		$fields = DB::table('forms')->where('form_name','create_person')->orderBy('form_order', 'asc')->get();
+		$person->birthday = date('d-m-Y', strtotime($person->birthday));
+		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
 		$user = $this->isAdmin;
 		return view('people.edit', compact('person', 'fields', 'user'));
 	}

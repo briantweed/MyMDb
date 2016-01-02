@@ -25,8 +25,8 @@ class ViewingsTableSeeder extends Seeder {
 			1 => 
 			array (
 				'viewing_id' => 2,
-				'movie_id' => 2,
-				'date' => '2015-12-02 18:35:00',
+				'movie_id' => 1,
+				'date' => '2015-12-01 18:35:00',
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),

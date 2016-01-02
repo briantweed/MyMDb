@@ -24,16 +24,16 @@ class ValidateCreatePerson  extends Request
     public function rules()
     {
         return [
-            'person_forename' => 'required',
-            'person_surname' => 'required',
+            'forename' => 'required',
+            'surname' => 'required',
         ];
     }
 
     public function messages()
     {
         return [
-            'person_forename.required' => 'forename is required',
-            'person_surname.required' => 'surname is required',
+            'forename.required' => 'forename is required',
+            'surname.required' => 'surname is required',
 
         ];
     }

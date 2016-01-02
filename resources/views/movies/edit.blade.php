@@ -116,24 +116,35 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="cast">
+               <div class="row cast">
+                  <div class="col-xs-3"><b>Forename</b></div>
+                  <div class="col-xs-3"><b>Surname</b></div>
+                  <div class="col-xs-3"><b>Character</b></div>
+                  <div class="col-xs-1"></div>
+               </div>
                @foreach( $movie->cast as $actor )
                   <div class="row cast">
                      {{-- actor --}}
-                     <div class="col-xs-1"></div>
                      <div class="col-xs-3">{{$actor->forename}}</div>
                      <div class="col-xs-3">{{$actor->surname}}</div>
-                     <div class="col-xs-3"></div>
+                     <div class="col-xs-3">{{$actor->pivot->character}}</div>
                      <div class="col-xs-1"><i class="ft icon-minus"></i></div>
                   </div>
                @endforeach
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="crew">
+               <div class="row cast">
+                  <div class="col-xs-3"><b>Forename</b></div>
+                  <div class="col-xs-3"><b>Surname</b></div>
+                  <div class="col-xs-3"><b>Position</b></div>
+                  <div class="col-xs-1"></div>
+               </div>
                @foreach($movie->crew as $emp)
                   <div class="row crew">
                      <div class="col-xs-3">{{$emp->forename}}</div>
                      <div class="col-xs-3">{{$emp->surname}}</div>
-                     <div class="col-xs-3">{{$emp->position}}</div>
+                     <div class="col-xs-3">{{$emp->pivot->position}}</div>
                      <div class="col-xs-1"><i class="ft icon-minus"></i></div>
                   </div>
                @endforeach

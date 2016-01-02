@@ -19,7 +19,6 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   @include('segments.links.back')
    @include('segments.links.add_person')
    @include('segments.links.edit_person')
 @stop
@@ -101,7 +100,7 @@
          {{-- acting roles --}}
          @if(count($person->movies)!==0)
             <div class="row">
-               <div class="col-xs-12"><h3>Roles</h3></div>
+               <div class="col-xs-12"><h4>Roles</h4></div>
             </div>
 
             @foreach($person->movies as $role)

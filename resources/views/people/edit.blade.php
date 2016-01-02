@@ -1,20 +1,18 @@
 @extends('app')
 
-
 {{-- Page Title --}}
 @section('title')
-   Edit {{$person->person_forename}} {{$person->person_surname}}
+   Edit {{$person->forename}} {{$person->surname}}
 @stop
 
 {{-- Page Heading --}}
 @section('heading')
-   Edit : {{$person->person_forename}} {{$person->person_surname}}
+   Edit : {{$person->forename}} {{$person->surname}}
 @stop
-
 
 {{-- Subnav --}}
 @section('subnav-left')
-   @include('segments.links.back')
+   @include('segments.links.view_person')
    @include('segments.links.add_person')
 @stop
 
@@ -22,17 +20,15 @@
 
 @stop
 
-
 {{-- Main Body --}}
 @section('content')
 
-
-   @if (session('status'))
+   @if(session('status'))
       <div class="col-xs-12 alert alert-dismissible alert-success">
          <button type="button" class="close" >
             <span aria-hidden="true">&times;</span>
          </button>
-         {{ session('status') }}
+         {{session('status')}}
       </div>
    @endif
 
@@ -57,18 +53,16 @@
                   <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
                @endif
             </div>
-
          </div>
 
          <div class="side-buttons">
 
             {{-- delete button --}}
-            @if( Request::is('people/*/edit'))
+            @if(Request::is('people/*/edit'))
                <hr/>
 
             @endif
 
-            {{-- padding --}}
             @include('segments.layout.padding')
 
          </div>
@@ -86,19 +80,39 @@
             </div>
          @endif
 
-         <div class="row">
-            <div class="col-xs-12">
-               <h1>@yield('heading')</h1>
+         <ul id="movieTabs" class="nav nav-tabs" role="tablist">
+            <li role="details" class="active"><a href="#details" aria-controls="details" role="tab" data-toggle="tab">Details</a></li>
+            <li role="details"><a href="#roles" aria-controls="roles" role="tab" data-toggle="tab">Roles</a></li>
+         </ul>
+
+         <div class="tab-content">
+
+            @include('segments.layout.padding')
+
+            <div role="tabpanel" class="tab-pane fade in active" id="details">
+               {!! Form::model($person, ['method'=>'Patch', 'url'=>'people/'.$person->person_id, 'files' => true]) !!}
+                  <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
+                  @include('segments.forms.person_form')
+               {!! Form::close() !!}
             </div>
+
+            <div role="tabpanel" class="tab-pane fade in active" id="roles">
+               <div class="row cast">
+                  <div class="col-xs-6"><b>Film</b></div>
+                  <div class="col-xs-3"><b>Character</b></div>
+                  <div class="col-xs-1"></div>
+               </div>
+               @foreach( $person->movies as $movie )
+                  <div class="row cast">
+                     <div class="col-xs-6">{{$movie->name}}</div>
+                     <div class="col-xs-3">{{$movie->pivot->character}}</div>
+                     <div class="col-xs-1"><i class="ft icon-minus"></i></div>
+                  </div>
+               @endforeach
+            </div>
+
          </div>
 
-         {!! Form::model($person, ['method'=>'Patch','url'=>'people/'.$person->person_id,'files' => true]) !!}
-            <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
-            @include('segments.forms.person_form')
-         {!! Form::close() !!}
-
-
-         {{-- padding --}}
          @include('segments.layout.padding')
 
       </div>
