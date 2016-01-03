@@ -37,7 +37,7 @@ class CreateDatabaseTables extends Migration {
 		Schema::create('formats', function(Blueprint $table)
 		{
 			$table->increments('format_id');
-			$table->string('type');
+			$table->string('type')->unique();
 			$table->timestamps();
 		});
 
@@ -45,7 +45,7 @@ class CreateDatabaseTables extends Migration {
 		Schema::create('genres', function(Blueprint $table)
 		{
 			$table->increments('genre_id');
-			$table->string('type');
+			$table->string('type')->unique();
 			$table->timestamps();
 		});
 
@@ -53,7 +53,7 @@ class CreateDatabaseTables extends Migration {
 		Schema::create('keywords', function(Blueprint $table)
 		{
 			$table->increments('keyword_id');
-			$table->string('word');
+			$table->string('word')->unique();
 			$table->timestamps();
 		});
 
@@ -73,7 +73,7 @@ class CreateDatabaseTables extends Migration {
 		Schema::create('studios', function(Blueprint $table)
 		{
 			$table->increments('studio_id');
-			$table->string('name');
+			$table->string('name')->unique();
 			$table->timestamps();
 		});
 
@@ -82,7 +82,7 @@ class CreateDatabaseTables extends Migration {
 		{
 			$table->increments('movie_id');
 			$table->string('name');
-			$table->string('sort_name');
+			$table->string('sort_name')->nullable();
 			$table->integer('released');
 			$table->integer('rating');
 			$table->integer('running_time');

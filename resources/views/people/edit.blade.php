@@ -93,7 +93,6 @@
                {!! Form::model($person, ['method'=>'Patch', 'url'=>'people/'.$person->person_id, 'files' => true]) !!}
                   <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
                   @include('segments.forms.form_builder')
-               {!! Form::close() !!}
             </div>
 
             <div role="tabpanel" class="tab-pane fade in" id="roles">
@@ -113,7 +112,9 @@
 
          </div>
 
-         @include('segments.layout.padding')
+         @include('segments.forms.submit')
+         
+         {!! Form::close() !!}
 
       </div>
       {{-- end of right column --}}

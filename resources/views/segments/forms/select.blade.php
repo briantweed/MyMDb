@@ -18,7 +18,7 @@
 
 {{-- input --}}
 @section('input')
-   {!! Form::select($field, array('' => 'select ...') + $options, $value, ['class'=>'form-control']) !!}
+   {!! Form::select($field, array('' => 'select ...') + $list, $value, ['class'=>'form-control']) !!}
 @overwrite
 
 {{-- input extra classes --}}

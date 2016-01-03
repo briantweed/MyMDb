@@ -6458,12 +6458,12 @@ p.error-link {
 .navbar-default li.people-active a {
   color: #222; }
   .navbar-default li.people-active a i {
-    color: #009926; }
+    color: #356DE3; }
     .navbar-default li.people-active a i:hover {
-      color: #009926; }
+      color: #356DE3; }
 
 .navbar-default li.people-normal a:hover i {
-  color: #009926; }
+  color: #356DE3; }
 
 .navbar-default li.character-active a {
   color: #222; }
@@ -6478,12 +6478,12 @@ p.error-link {
 .navbar-default li.admin-active a {
   color: #222; }
   .navbar-default li.admin-active a i {
-    color: #356DE3; }
+    color: #009926; }
     .navbar-default li.admin-active a i:hover {
-      color: #356DE3; }
+      color: #009926; }
 
 .navbar-default li.admin-normal a:hover i {
-  color: #356DE3; }
+  color: #009926; }
 
 .navbar-default li.login-active a {
   color: #222; }

@@ -48,25 +48,17 @@ class TagsTableSeeder extends Seeder {
 			),
 			4 => 
 			array (
-				'tag_id' => 5,
-				'movie_id' => 1,
-				'keyword_id' => 2,
+				'tag_id' => 7,
+				'movie_id' => 11,
+				'keyword_id' => 4,
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
 			5 => 
 			array (
-				'tag_id' => 6,
+				'tag_id' => 8,
 				'movie_id' => 1,
-				'keyword_id' => 3,
-				'created_at' => '0000-00-00 00:00:00',
-				'updated_at' => '0000-00-00 00:00:00',
-			),
-			6 => 
-			array (
-				'tag_id' => 7,
-				'movie_id' => 11,
-				'keyword_id' => 4,
+				'keyword_id' => 1,
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),

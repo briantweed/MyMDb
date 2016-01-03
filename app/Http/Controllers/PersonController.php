@@ -56,9 +56,8 @@ class PersonController extends Controller {
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
-		$values = [];
 		$user = $this->isAdmin;
-		return view('people.create', compact('fields', 'values', 'user'));
+		return view('people.create', compact('fields', 'user'));
 	}
 
 	public function store(ValidateCreatePerson $request)

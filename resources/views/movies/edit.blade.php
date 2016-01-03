@@ -149,17 +149,21 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="genres">
-               @foreach( $movie->genres as $genre )
-                  <div class="row genres">
-                     <div class="col-xs-9">
-                        {{$genre->type}}
+               <div class="row genres">
+                  @foreach($options->genres as $genre)
+                     <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3">
+                        {!! Form::label('genre_'.$genre->genre_id, $genre->type) !!}
                      </div>
-                  </div>
-               @endforeach
+                     <div class="col-xs-4 col-sm-6 col-md-3 col-lg-3 switch round">
+                        {!! Form::checkbox('genres[]', $genre->genre_id, $genre->selected, ['id' => 'genre_'.$genre->genre_id]) !!}
+                        {!! Form::label('genre_'.$genre->genre_id, $genre->type) !!}
+                     </div>
+                  @endforeach
+               </div>
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="tags">
-               <div class="row">
+               {{-- <div class="row">
                   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
                      {!! Form::label('new_tag', 'Add New Tag') !!}
                   </div>
@@ -168,15 +172,15 @@
                   </div>
                </div>
 
-               @include('segments.layout.padding')
+               @include('segments.layout.padding') --}}
 
                <div class="row tags">
-                  @foreach($keywords as $keyword)
+                  @foreach($options->keywords as $keyword)
                      <div class="col-xs-8 col-sm-2 col-md-2 col-lg-1">
                         {!! Form::label('tag_'.$keyword->keyword_id, $keyword->word) !!}
                      </div>
                      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 switch round">
-                        {!! Form::checkbox('tag[]', $keyword->keyword_id, $keyword->selected, ['id' => 'tag_'.$keyword->keyword_id]) !!}
+                        {!! Form::checkbox('tags[]', $keyword->keyword_id, $keyword->selected, ['id' => 'tag_'.$keyword->keyword_id]) !!}
                         {!! Form::label('tag_'.$keyword->keyword_id, $keyword->word) !!}
                      </div>
                   @endforeach
@@ -184,7 +188,10 @@
 
             </div>
 
+            @include('segments.forms.submit')
+
             {!! Form::close() !!}
+
          </div>
 
          @include('segments.layout.padding')

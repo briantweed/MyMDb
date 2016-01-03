@@ -37,9 +37,9 @@ $(document).ready(function(){
   });
 
    // apply selctize to dropdowns
-   $('select:not(#movie_studio_id)').selectize();
+   $('select:not(#studio_id)').selectize();
 
-   $('#movie_studio_id').selectize({
+   $('#studio_id').selectize({
       create: true,
       persist: false
    });

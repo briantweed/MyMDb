@@ -29,7 +29,7 @@ class FilterController extends Controller
    		}
          $user = $this->isAdmin;
          $quote = count($movies) ? "" : $this->getRandomQuote();
-         return (String) view('ajax.movie_filter', compact('movies','quote','user'));
+         return (String) view('ajax.movie_filter', compact('movies', 'quote', 'user'));
       }
    }
 

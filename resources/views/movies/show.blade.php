@@ -153,7 +153,7 @@
 
          {{-- last watched --}}
 
-         @if($movie->viewings !== NULL)
+         @if($movie->last_viewed !== NULL)
 
             <div class="row">
                <div class="{{$label_class}}">

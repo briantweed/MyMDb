@@ -99,7 +99,7 @@ He attended theater schools throughout his life, and eventually managed to find 
 
 Edward won the Golden Globe for Best Actor in a Supporting Role and received an Oscar nomination for Best Supporting Actor for his performance in Primal Fear (1996). In 1998, Norton gained 30 pounds of muscle and transformed his look into that of a monstrous skinhead for his role as a violent white supremacist in American History X (1998). This performance would earn him his second Oscar nomination, this time for Best Actor. In 1999 came the critically acclaimed Fight Club (1999)',
 				'created_at' => '2016-01-01 23:43:03',
-				'updated_at' => '2016-01-02 00:02:58',
+				'updated_at' => '2016-01-03 19:01:26',
 			),
 		));
 	}

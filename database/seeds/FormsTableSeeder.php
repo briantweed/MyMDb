@@ -181,21 +181,6 @@ class FormsTableSeeder extends Seeder {
 			),
 			11 => 
 			array (
-				'id' => 12,
-				'name' => 'create_movie',
-				'field' => '',
-				'label' => 'save',
-				'required' => 0,
-				'type' => 'submit',
-				'order' => 120,
-				'range_from' => 0,
-				'range_to' => 0,
-				'options' => '',
-				'default' => '',
-				'class' => 'btn btn-lg btn-block btn-success',
-			),
-			12 => 
-			array (
 				'id' => 13,
 				'name' => 'create_person',
 				'field' => 'forename',
@@ -209,7 +194,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			13 => 
+			12 => 
 			array (
 				'id' => 14,
 				'name' => 'create_person',
@@ -224,7 +209,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			14 => 
+			13 => 
 			array (
 				'id' => 15,
 				'name' => 'create_person',
@@ -239,7 +224,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			15 => 
+			14 => 
 			array (
 				'id' => 16,
 				'name' => 'create_person',
@@ -254,7 +239,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			16 => 
+			15 => 
 			array (
 				'id' => 17,
 				'name' => 'create_person',
@@ -268,21 +253,6 @@ class FormsTableSeeder extends Seeder {
 				'options' => '',
 				'default' => '',
 				'class' => '',
-			),
-			17 => 
-			array (
-				'id' => 18,
-				'name' => 'create_person',
-				'field' => '',
-				'label' => 'save',
-				'required' => 0,
-				'type' => 'submit',
-				'order' => 60,
-				'range_from' => 0,
-				'range_to' => 0,
-				'options' => '',
-				'default' => '',
-				'class' => 'btn btn-lg btn-block btn-success',
 			),
 		));
 	}

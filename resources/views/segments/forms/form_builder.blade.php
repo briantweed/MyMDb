@@ -5,7 +5,7 @@
    {
       $errorClass = $errors->has($field->field) ? "has-error" : "";
       $errorMgs = $errors->has($field->field) ? $errors->first($field->field) : "";
-      $value = isset($values->{$field->field}) ? $values->{$field->field} : "";
+      $value = isset($values) ? ( isset($values->{$field->field}) ? $values->{$field->field} : "" ) : "";
       switch($field->type)
       {
          case "text": ?>
@@ -25,8 +25,8 @@
          <?php break;
 
          case "select":
-            $options = $field->options != "" ? ${$field->options} : [] ?>
-            @include('segments.forms.select', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->label, 'required' => $field->required, 'field' => $field->field, 'options'=> $options, 'value' => $value])
+            $list = $field->options != "" ? $options->{$field->options} : [] ?>
+            @include('segments.forms.select', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->label, 'required' => $field->required, 'field' => $field->field, 'list'=> $list, 'value' => $value])
          <?php break;
 
          case "checkbox": ?>
@@ -39,10 +39,6 @@
 
          case "hidden": ?>
             @include('segments.forms.hidden', ['field' => $field->field, 'value'=> $field->default, 'value' => $value])
-         <?php break;
-
-         case "submit": ?>
-            @include('segments.forms.submit', ['label' => $field->label, 'class'=> $field->class])
          <?php break;
 
          default: ?>
