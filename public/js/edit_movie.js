@@ -57,6 +57,21 @@ $(document).ready(function(){
       defaultViewDate: { year: 2000, month: 01, day: 01 }
    });
 
+   // Add new tag
+   $('#add_new_tag').click(function(){
+      $.ajax({
+         type: 'POST',
+         url: '/'+$('body').data('base')+'/addtag',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            val: $('#new_tag').val(),
+         }
+      }).done(function(html){
+         $('div.tags').html(html);
+         $('#new-tag-modal').modal('hide');
+      });
+   });
+
 });
 
 function launchEditor() {

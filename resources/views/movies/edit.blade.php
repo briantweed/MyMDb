@@ -19,7 +19,14 @@
 @stop
 
 @section('subnav-right')
-
+   <a href="{{ action('MovieController@edit',[$movie->movie_id-1]) }}">
+      <i style="font-size:1.5em" class="ft icon-back"></i>
+      <span class="hidden-xs hidden-sm"> Previous </span>
+   </a>
+   <a href="{{ action('MovieController@edit',[$movie->movie_id+1]) }}">
+      <span class="hidden-xs hidden-sm"> Next </span>
+      <i style="font-size:1.5em" class="ft icon-forward"></i>
+   </a>
 @stop
 
 
@@ -88,12 +95,6 @@
             @endforeach
             </div>
          @endif
-{{--
-         <div class="row">
-            <div class="col-xs-12">
-               <h1>@yield('heading')</h1>
-            </div>
-         </div> --}}
 
          <ul id="movieTabs" class="nav nav-tabs" role="tablist">
             <li role="details" class="active"><a href="#movie" aria-controls="movie" role="tab" data-toggle="tab">Details</a></li>
@@ -163,16 +164,14 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="tags">
-               {{-- <div class="row">
-                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                     {!! Form::label('new_tag', 'Add New Tag') !!}
-                  </div>
-                  <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
-                     {!! Form::text('new_tag', '', ['class'=>'form-control']) !!}
+
+               <div class="row">
+                  <div class="col-xs-8 col-sm-6 col-md-6 col-lg-4">
+                     <a data-href="delete.php" data-toggle="modal" data-target="#new-tag-modal" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-tags"></i> new tag</a>
                   </div>
                </div>
 
-               @include('segments.layout.padding') --}}
+               @include('segments.layout.padding')
 
                <div class="row tags">
                   @foreach($options->keywords as $keyword)
@@ -201,6 +200,26 @@
 
    </div>
    {{-- end of movie row --}}
+
+   <div class="modal fade" id="new-tag-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header"><h4>Create New Tag</h4></div>
+            <div class="modal-body">
+               {!! Form::label('new_tag', 'New Tag:') !!}
+               {!! Form::text('new_tag', '', ['class'=>'form-control']) !!}
+            </div>
+            <div class="modal-footer">
+               <div class="col-xs-4 col-xs-offset-3">
+                  <button type="button" class="btn btn-xs btn-block btn-default" data-dismiss="modal">cancel</button>
+               </div>
+               <div class="col-xs-5">
+                  <button id="add_new_tag" type="button" class="btn btn-block btn-primary">Add</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 
 @stop
 

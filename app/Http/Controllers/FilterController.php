@@ -3,6 +3,7 @@
 use DB;
 use Request;
 use App\Movies;
+use App\Keywords;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -19,7 +20,8 @@ class FilterController extends Controller
 
    public function filterMovies()
    {
-      if(Request::ajax()){
+      if(Request::ajax())
+      {
          $data = Request::all();
          $movies = Movies::where('name', 'LIKE', '%'.trim($data['val']).'%')->get();
          foreach($movies as $movie)
@@ -31,6 +33,24 @@ class FilterController extends Controller
          $quote = count($movies) ? "" : $this->getRandomQuote();
          return (String) view('ajax.movie_filter', compact('movies', 'quote', 'user'));
       }
+   }
+
+   public function addTag()
+   {
+      if(Request::ajax())
+      {
+         $data = Request::all();
+         $word = trim($data['val']);
+         if($word!=="")
+         {
+            if(!Keywords::where('word', $word)->exists())
+            {
+               $created = Keywords::create(['word'=>$word]);
+               return $data['val']. "added";
+            }
+         }
+      }
+      return "error";
    }
 
    private function getRandomQuote()

@@ -6,6 +6,9 @@ class Keywords extends Model {
 
    protected $table = 'keywords';
    protected $primaryKey = 'keyword_id';
+   protected $fillable = array(
+		'word'
+   );
 
    public function movies()
 	{
