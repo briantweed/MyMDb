@@ -6583,9 +6583,9 @@ div.movie h2 {
 div.movie p {
   margin-bottom: 20px; }
 
-div.movie a {
+div.movie .side-buttons a {
   text-align: left; }
-  div.movie a i {
+  div.movie .side-buttons a i {
     display: inline-block;
     margin-right: 1em; }
 

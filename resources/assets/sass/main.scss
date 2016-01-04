@@ -518,14 +518,17 @@ div.movie {
       margin-bottom: 20px
    }
 
-   a {
-      text-align: left;
+   .side-buttons {
 
-      i {
-         display: inline-block;
-         margin-right: 1em;
+      a {
+         text-align: left;
+
+         i {
+            display: inline-block;
+            margin-right: 1em;
+         }
+
       }
-
    }
 
    img {
