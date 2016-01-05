@@ -16,10 +16,6 @@
    @include('segments.links.add_person')
 @stop
 
-@section('subnav-right')
-
-@stop
-
 {{-- Main Body --}}
 @section('content')
 
@@ -113,7 +109,7 @@
          </div>
 
          @include('segments.forms.submit')
-         
+
          {!! Form::close() !!}
 
       </div>

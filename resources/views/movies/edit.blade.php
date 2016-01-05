@@ -18,17 +18,6 @@
    @include('segments.links.add_movie')
 @stop
 
-@section('subnav-right')
-   <a href="{{ action('MovieController@edit',[$movie->movie_id-1]) }}">
-      <i style="font-size:1.5em" class="ft icon-back"></i>
-      <span class="hidden-xs hidden-sm"> Previous </span>
-   </a>
-   <a href="{{ action('MovieController@edit',[$movie->movie_id+1]) }}">
-      <span class="hidden-xs hidden-sm"> Next </span>
-      <i style="font-size:1.5em" class="ft icon-forward"></i>
-   </a>
-@stop
-
 
 {{-- Main Body --}}
 @section('content')

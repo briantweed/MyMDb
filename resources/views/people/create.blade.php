@@ -16,10 +16,6 @@
    @include('segments.links.back')
 @stop
 
-@section('subnav-right')
-
-@stop
-
 
 {{-- Main Body --}}
 @section('content')

@@ -23,11 +23,6 @@
    @include('segments.links.edit_person')
 @stop
 
-@section('subnav-right')
-
-@stop
-
-
 {{-- Main Body --}}
 @section('content')
 

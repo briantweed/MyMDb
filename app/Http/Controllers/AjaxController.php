@@ -3,6 +3,7 @@
 use DB;
 use Request;
 use App\Movies;
+use App\Persons;
 use App\Keywords;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -23,15 +24,29 @@ class AjaxController extends Controller
       if(Request::ajax())
       {
          $data = Request::all();
-         $movies = Movies::where('name', 'LIKE', '%'.trim($data['val']).'%')->get();
-         foreach($movies as $movie)
-   		{
-   			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
-   			$movie->cover_count = strlen($movie->cover);
-   		}
-         $user = $this->isAdmin;
-         $quote = count($movies) ? "" : $this->getRandomQuote();
-         return (String) view('ajax.movie_filter', compact('movies', 'quote', 'user'));
+         $search_string = trim($data['val']);
+         if($search_string!="")
+         {
+            $movies = Movies::where('name', 'LIKE', '%'.$search_string.'%')->get();
+            foreach($movies as $movie)
+      		{
+      			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
+      			$movie->cover_count = strlen($movie->cover);
+      		}
+            $people = Persons::where('forename', 'LIKE', '%'.$search_string.'%')
+                     ->orWhere('surname', 'LIKE', '%'.$search_string.'%')
+                     ->orWhere(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
+                     ->get();
+            foreach($people as $person)
+      		{
+      			$person->cover = $this->checkImageExists($person->image, $person->forename, 'people');
+      			$person->cover_count = strlen($person->cover);
+      		}
+            $user = $this->isAdmin;
+            $quote = count($movies) ? "" : $this->getRandomQuote();
+            return (String) view('ajax.movie_filter', compact('movies', 'people', 'quote', 'user'));
+         }
+         else return "blank";
       }
    }
 
@@ -48,7 +63,7 @@ class AjaxController extends Controller
             {
                $created = Keywords::create(['word'=>$word]);
                DB::table('tags')->insert(['movie_id'=>$movie_id, 'keyword_id'=>$created->keyword_id]);
-               
+
                $app = app();
          		$options = $app->make('stdClass');
 

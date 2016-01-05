@@ -27,7 +27,7 @@
    </head>
 
    <body data-base="{{env('BASE_PATH')}}">
-
+      
       @include('segments.nav')
 
       @include('segments.subnav_main')

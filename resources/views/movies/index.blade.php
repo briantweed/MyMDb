@@ -15,10 +15,6 @@
    @include('segments.links.add_movie')
 @stop
 
-@section('subnav-right')
-   @include('segments.layout.search_movies')
-@stop
-
 {{-- Main Body --}}
 @section('content')
 

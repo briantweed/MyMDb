@@ -1149,23 +1149,6 @@ $(document).ready( function() {
       delay: { 'show': 500, 'hide': 100 }
    });
 
-   // Movie search filter
-   $('.filter-movie-start').click(function(){
-      $(this).html('<i class="ft icon-loading spin"></i>');
-      $.ajax({
-         type: 'POST',
-         url: '/'+$('body').data('base')+'/filter',
-         data: {
-            _token: $('meta[name="_token"]').attr('content'),
-            val: $('#filter-movie').val(),
-         }
-     }).done(function(html){
-        $('.filter-movie-start').html('Go');
-        $('.main-content').html(html);
-        Waves.attach('li.movie', ['waves-light']);
-        $('img.lazy').lazyload();
-     });
-   });
 
    // Show array formatted movie details
    $('#showDetails').click(function(){
@@ -1199,6 +1182,29 @@ $(document).ready( function() {
    // });
 
 });
+
+// Movie search filter
+function startFilter(type) {
+   $('#filter-movie-start').html('<i class="ft icon-loading spin"></i>');
+   $.ajax({
+      type: 'POST',
+      url: '/'+$('body').data('base')+'/filter',
+      data: {
+         _token: $('meta[name="_token"]').attr('content'),
+         val: $('#filter-movie').val(),
+         type: type
+      }
+  }).done(function(html){
+     switch(html) {
+        case "blank": location.reload(); break;
+        default:
+           $('#filter-movie-start').html('Go');
+           $('.main-content').html(html);
+           Waves.attach('li.movie', ['waves-light']);
+           $('img.lazy').lazyload();
+        }
+  });
+}
 
 function previewImage(input, output) {
    if(input.files && input.files[0])

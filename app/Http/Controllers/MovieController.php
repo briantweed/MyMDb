@@ -17,6 +17,7 @@ class MovieController extends Controller {
 	public function __construct()
    {
   	  $this->isAdmin = $this->checkUserDetails();
+
    }
 
 	public function index()

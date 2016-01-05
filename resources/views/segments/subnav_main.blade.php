@@ -9,7 +9,7 @@
          </div>
 
          <div class="hidden-xs col-sm-6 col-md-5 col-lg-4 text-right">
-            @yield('subnav-right')
+            @include('segments.layout.search_movies')
          </div>
 
       </div>
