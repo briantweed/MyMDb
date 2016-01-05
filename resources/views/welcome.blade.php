@@ -77,7 +77,7 @@
                   </div>
 
                   @foreach($details->top_rated as $movie)
-                     <div class="row movie">
+                     <div class="row top-rated">
                         <div class="col-xs-12 col-sm-8">
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">{{$movie->name}} ({{$movie->released}})</a>
                         </div>
@@ -101,7 +101,7 @@
                   </div>
 
                   @foreach($details->lowest_rated as $movie)
-                     <div class="row movie">
+                     <div class="row lowest-rated">
                         <div class="col-xs-12 col-sm-8 col-md-9">
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">{{$movie->name}} ({{$movie->released}})</a>
                         </div>

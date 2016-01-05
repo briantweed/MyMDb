@@ -6529,6 +6529,10 @@ div.search-bar-container {
     width: 4em; }
   div.search-bar-container #filter-movie-options {
     border-left: 1px solid #32a4c6; }
+  div.search-bar-container ul.dropdown-menu {
+    padding-top: 9px; }
+    div.search-bar-container ul.dropdown-menu > li > a {
+      padding: 0.5em 6px; }
 
 div.main-content {
   margin-top: 130px; }
@@ -6560,6 +6564,26 @@ footer {
   text-align: right;
   background: #121222;
   border-top: 10px double #fff; }
+
+span.rating-display {
+  color: #F1DE35;
+  font-size: 1.2em;
+  margin-left: -4px; }
+  span.rating-display.top-rated {
+    color: #F83C3C; }
+  span.rating-display i {
+    cursor: default; }
+    span.rating-display i:before {
+      text-align: left; }
+
+/*
+|----------------------------------------------------------------------
+|  Welcome Page
+|----------------------------------------------------------------------
+*/
+div.top-rated a, div.lowest-rated a {
+  display: block;
+  padding: 0.5em 0; }
 
 /*
 |----------------------------------------------------------------------
@@ -6609,17 +6633,6 @@ div.movie .side-buttons a {
 div.movie img {
   margin: 0.5em 0;
   box-shadow: 1px 1px 4px #555; }
-
-div.movie span.rating-display {
-  color: #F1DE35;
-  font-size: 1.2em;
-  margin-left: -4px; }
-  div.movie span.rating-display.top-rated {
-    color: #F83C3C; }
-  div.movie span.rating-display i {
-    cursor: default; }
-    div.movie span.rating-display i:before {
-      text-align: left; }
 
 div.movie span.required {
   color: #F83C3C;

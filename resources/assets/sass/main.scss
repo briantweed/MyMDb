@@ -430,6 +430,18 @@ div.search-bar-container {
       border-left: 1px solid #32a4c6;
    }
 
+   ul.dropdown-menu {
+      padding-top: 9px;
+
+      &> li {
+
+         &> a {
+            padding: 0.5em 6px;
+         }
+      }
+
+   }
+
 }
 
 div.main-content {
@@ -478,6 +490,42 @@ footer {
    text-align: right;
    background: #121222;
    border-top: 10px double #fff;
+}
+
+
+span.rating-display {
+   color: #F1DE35;
+   font-size: 1.2em;
+   margin-left: -4px;
+
+   &.top-rated {
+      color: $top-red;
+   }
+
+   i {
+      cursor:default;
+      &:before {
+         text-align: left;
+      }
+
+   }
+
+}
+
+
+/*
+|----------------------------------------------------------------------
+|  Welcome Page
+|----------------------------------------------------------------------
+*/
+
+div.top-rated, div.lowest-rated {
+
+   a {
+      display: block;
+      padding: 0.5em 0;
+   }
+
 }
 
 
@@ -565,25 +613,6 @@ div.movie {
    }
 
    span {
-
-      &.rating-display {
-         color: #F1DE35;
-         font-size: 1.2em;
-         margin-left: -4px;
-
-         &.top-rated {
-            color: $top-red;
-         }
-
-         i {
-            cursor:default;
-            &:before {
-               text-align: left;
-            }
-
-         }
-
-      }
 
       &.required {
          color: $top-red;
