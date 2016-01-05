@@ -49,9 +49,9 @@
                         <div>
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">
                               @if($movie->cover_count == 1)
-                                 <img class="img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}"  />
+                                 <img class="img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->cover}}" />
                               @else
-                                 <img class="img-rounded" src="{{asset($movie->cover)}}"  />
+                                 <img class="img-rounded" src="{{asset($movie->cover)}}" alt="{{$movie->cover}}" />
                               @endif
                            </a>
                         </div>
@@ -134,9 +134,9 @@
                <div class="col-xs-2 col-sm-4 col-md-3 col-lg-offset-1 col-lg-2">
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
                      @if($details->highlight->cover_count == 1)
-                        <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$details->highlight->cover}}"  />
+                        <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$details->highlight->cover}}" alt="{{$details->highlight->cover}}" />
                      @else
-                        <img class="img-rounded img-responsive" src="{{asset($details->highlight->cover)}}"  />
+                        <img class="img-rounded img-responsive" src="{{asset($details->highlight->cover)}}"  alt="{{$details->highlight->cover}}" />
                      @endif
                   </a>
                </div>
@@ -170,7 +170,7 @@
                   @foreach($details->actors as $actor)
                      <div class="row">
                         <div class="col-xs-4 col-sm-3 col-lg-2">
-                           <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" />
+                           <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}"  alt="{{$actor->image}}" />
                         </div>
                         <div class="col-xs-8">
                            {{$actor->name}}<br/>
@@ -192,7 +192,7 @@
                   @foreach($details->directors as $director)
                      <div class="row">
                         <div class="col-xs-4 col-sm-3 col-lg-2">
-                           <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" />
+                           <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}"  alt="{{$director->image}}"/>
                         </div>
                         <div class="col-xs-8">
                            {{$director->name}}<br/>

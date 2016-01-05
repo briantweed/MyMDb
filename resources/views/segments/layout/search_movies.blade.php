@@ -7,10 +7,10 @@
          <span class="sr-only">Toggle Dropdown</span>
       </button>
       <ul class="dropdown-menu dropdown-menu-right">
-         <li><a a onclick="startFilter('studio')";>By Studio</a></li>
-         <li><a a onclick="startFilter('format')";>By Format</a></li>
-         <li><a a onclick="startFilter('year')";>By Year</a></li>
-         <li><a a onclick="startFilter('rating')";>By Rating</a></li>
+         <li><a a onclick="startFilter('studio')">By Studio</a></li>
+         <li><a a onclick="startFilter('format')">By Format</a></li>
+         <li><a a onclick="startFilter('year')">By Year</a></li>
+         <li><a a onclick="startFilter('rating')">By Rating</a></li>
          <li class="divider" role="separator"></li>
          <li><a href="javascript:location.reload()">Clear</a></li>
       </ul>
