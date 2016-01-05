@@ -24,24 +24,56 @@ class AjaxController extends Controller
       if(Request::ajax())
       {
          $data = Request::all();
+         $type = $data['type'];
          $search_string = trim($data['val']);
          if($search_string!="")
          {
-            $movies = Movies::where('name', 'LIKE', '%'.$search_string.'%')->get();
+            $query = Movies::select('movies.*');
+            switch($type)
+            {
+               case "all":
+                  $query->where('name', 'LIKE', '%'.$search_string.'%');
+               break;
+
+               case "studio":
+                  $query->where('studios.name', 'LIKE', '%'.$search_string.'%')
+                        ->join('studios', 'movies.studio_id', '=', 'studios.studio_id');
+               break;
+
+               case "format":
+                  $query->where('formats.type', 'LIKE', '%'.$search_string.'%')
+                        ->join('formats', 'movies.format_id', '=', 'formats.format_id');
+               break;
+
+               case "year":
+                  $query->where('released', 'LIKE', '%'.$search_string.'%');
+               break;
+
+               case "rating":
+                  $query->where('rating', $search_string);
+               break;
+            }
+
+            $movies = $query->get();
             foreach($movies as $movie)
       		{
       			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
       			$movie->cover_count = strlen($movie->cover);
       		}
-            $people = Persons::where('forename', 'LIKE', '%'.$search_string.'%')
-                     ->orWhere('surname', 'LIKE', '%'.$search_string.'%')
-                     ->orWhere(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
-                     ->get();
-            foreach($people as $person)
-      		{
-      			$person->cover = $this->checkImageExists($person->image, $person->forename, 'people');
-      			$person->cover_count = strlen($person->cover);
+
+            if($type=="all")
+            {
+               $people = Persons::where('forename', 'LIKE', '%'.$search_string.'%')
+                        ->orWhere('surname', 'LIKE', '%'.$search_string.'%')
+                        ->orWhere(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
+                        ->get();
+               foreach($people as $person)
+         		{
+         			$person->cover = $this->checkImageExists($person->image, $person->forename, 'people');
+         			$person->cover_count = strlen($person->cover);
+         		}
       		}
+            else $people = [];
             $user = $this->isAdmin;
             $quote = count($movies) ? "" : $this->getRandomQuote();
             return (String) view('ajax.movie_filter', compact('movies', 'people', 'quote', 'user'));

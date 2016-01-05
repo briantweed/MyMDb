@@ -249,18 +249,18 @@ $top-red: #F83C3C;
 */
 
 body {
+   font-size: 15px;
   font-family: $main-font;
-  font-size: 15px;
 }
 
 h1 {
-   font-family: $header-font;
    margin: 10px 0 15px 0;
+   font-family: $header-font;
    border-bottom: $border-color;
 }
 h2, h3, h4, h5 {
-   font-family: $subheader-font;
    margin: 10px 0 15px 0;
+   font-family: $subheader-font;
    border-bottom: $border-color;
 }
 
@@ -282,8 +282,8 @@ div.margin-bottom {
 
 p {
    &.error-quote {
-      font-style: italic;
       font-size: 2.4em;
+      font-style: italic;
    }
 
    &.error-link {
@@ -300,11 +300,11 @@ p {
 .navbar-default {
 
    a.navbar-brand {
-      font-family: $header-font;
       color: #0a506c;
+      margin-top: 2px;
       font-size: 1.4em;
       margin-right: 40px;
-      margin-top: 2px;
+      font-family: $header-font;
    }
 
    &:hover, &:focus {
@@ -402,29 +402,48 @@ p {
 }
 
 div.search-bar-container {
-   position: fixed;
    top: 56px;
    width: 100%;
+   z-index: 1031;
+   position: fixed;
    padding: 8px 0 8px;
+   background: #e8e8ef;
    border-top: 1px solid #c8c8cf;
    border-bottom: 1px solid #c8c8cf;
-   background: #e8e8ef;
-   z-index: 1031;
 
    @media screen and (max-width:767px) {
       top: 53px;
    }
 
    a {
-      text-decoration: none;
+      padding: 0 6px;
       line-height: 1.5;
       margin-right: 10px;
-      padding: 0 6px;
+      text-decoration: none;
    }
+
+   #filter-movie-start {
+      width: 4em;
+   }
+
+   #filter-movie-options {
+      border-left: 1px solid #32a4c6;
+   }
+
 }
 
 div.main-content {
    margin-top: 130px;
+}
+
+div.feature-content {
+   color: #f0f0f0;
+   background: #40515d;
+
+   img {
+      box-shadow: 1px 1px 4px #888;
+   }
+
 }
 
 .pagination {
@@ -453,6 +472,15 @@ div.main-content {
 
 }
 
+footer {
+   color: #f2f2f2;
+   padding: 20px 0;
+   text-align: right;
+   background: #121222;
+   border-top: 10px double #fff;
+}
+
+
 /*
 |----------------------------------------------------------------------
 |  Movies Index Page
@@ -463,9 +491,9 @@ div.main-content {
 li.movie {
 
    a {
-      display:block;
-      text-decoration:none;
-      color:#202020;
+      display: block;
+      color: #202020;
+      text-decoration: none;
    }
 
    img {
@@ -474,11 +502,11 @@ li.movie {
    }
 
    span.title-wrapper {
+      height: 3.5em;
+      line-height: 1;
       display: block;
       font-size: 0.8em;
       text-align: center;
-      height: 3.5em;
-      line-height: 1;
    }
 
 }
@@ -498,7 +526,7 @@ div.movie {
       margin-bottom: 1em;
 
       &.form-group.has-error {
-         margin-bottom:3px;
+         margin-bottom: 3px;
       }
 
       &.has-error {
@@ -524,8 +552,8 @@ div.movie {
          text-align: left;
 
          i {
-            display: inline-block;
             margin-right: 1em;
+            display: inline-block;
          }
 
       }
@@ -552,6 +580,7 @@ div.movie {
             &:before {
                text-align: left;
             }
+
          }
 
       }

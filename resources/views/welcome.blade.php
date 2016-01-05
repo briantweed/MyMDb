@@ -27,7 +27,7 @@
    </head>
 
    <body data-base="{{env('BASE_PATH')}}">
-      
+
       @include('segments.nav')
 
       @include('segments.subnav_main')
@@ -123,7 +123,7 @@
 
       </div> {{-- end of main content --}}
 
-      <div style="background:#40515d;color:#f0f0f0">
+      <div class="feature-content">
 
          <div class="container">
 
@@ -136,7 +136,7 @@
                      @if($details->highlight->cover_count == 1)
                         <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$details->highlight->cover}}"  />
                      @else
-                        <img style="box-shadow: 1px 1px 4px #888" class="img-rounded img-responsive" src="{{asset($details->highlight->cover)}}"  />
+                        <img class="img-rounded img-responsive" src="{{asset($details->highlight->cover)}}"  />
                      @endif
                   </a>
                </div>
@@ -154,60 +154,61 @@
 
       </div>
 
-      <div class="container">
+      <div class="secondary-content">
 
-         @include('segments.layout.padding')
+         <div class="container">
 
-         <div class="row">
-            <div class="col-xs-12 col-sm-6">
-               <div class="row">
-                  <div class="col-xs-12">
-                     <h4>Most Popular Actors</h4>
-                  </div>
-               </div>
-               @foreach($details->actors as $actor)
+            @include('segments.layout.padding')
+
+            <div class="row">
+               <div class="col-xs-12 col-sm-6">
                   <div class="row">
-                     <div class="col-xs-4 col-sm-3 col-lg-2">
-                        <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" />
-                     </div>
-                     <div class="col-xs-8">
-                        {{$actor->name}}<br/>
-                        @if($actor->count == 1) 1 movie
-                        @else {{$actor->count}} movies
-                        @endif
+                     <div class="col-xs-12">
+                        <h4>Most Popular Actors</h4>
                      </div>
                   </div>
-                  @include('segments.layout.padding')
-               @endforeach
+                  @foreach($details->actors as $actor)
+                     <div class="row">
+                        <div class="col-xs-4 col-sm-3 col-lg-2">
+                           <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" />
+                        </div>
+                        <div class="col-xs-8">
+                           {{$actor->name}}<br/>
+                           @if($actor->count == 1) 1 movie
+                           @else {{$actor->count}} movies
+                           @endif
+                        </div>
+                     </div>
+                     @include('segments.layout.padding')
+                  @endforeach
+               </div>
+
+               <div class="col-xs-12 col-sm-6">
+                  <div class="row">
+                     <div class="col-xs-12">
+                        <h4>Most Popular Directors</h4>
+                     </div>
+                  </div>
+                  @foreach($details->directors as $director)
+                     <div class="row">
+                        <div class="col-xs-4 col-sm-3 col-lg-2">
+                           <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" />
+                        </div>
+                        <div class="col-xs-8">
+                           {{$director->name}}<br/>
+                           @if($director->count == 1) 1 movie
+                           @else {{$director->count}} movies
+                           @endif
+                        </div>
+                     </div>
+                     @include('segments.layout.padding')
+                  @endforeach
+               </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6">
-               <div class="row">
-                  <div class="col-xs-12">
-                     <h4>Most Popular Directors</h4>
-                  </div>
-               </div>
-               @foreach($details->directors as $director)
-                  <div class="row">
-                     <div class="col-xs-4 col-sm-3 col-lg-2">
-                        <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" />
-                     </div>
-                     <div class="col-xs-8">
-                        {{$director->name}}<br/>
-                        @if($director->count == 1) 1 movie
-                        @else {{$director->count}} movies
-                        @endif
-                     </div>
-                  </div>
-                  @include('segments.layout.padding')
-               @endforeach
-            </div>
+            @include('segments.layout.padding')
+
          </div>
-
-
-
-         @include('segments.layout.padding')
-
       </div>
 
       {!! Html::script(elixir('js/mymdb.js')) !!}
@@ -216,7 +217,7 @@
 
    </body>
 
-   <footer style="padding:20px 0;background:#121222;border-top:10px double #fff;color:#f2f2f2;text-align:right">
+   <footer>
 
       <div class="container">
 

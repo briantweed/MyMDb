@@ -6390,17 +6390,17 @@ button.close {
 |----------------------------------------------------------------------
 */
 body {
-  font-family: "Raleway", Arial, sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  font-family: "Raleway", Arial, sans-serif; }
 
 h1 {
-  font-family: "Philosopher", Arial, sans-serif;
   margin: 10px 0 15px 0;
+  font-family: "Philosopher", Arial, sans-serif;
   border-bottom: 1px solid #999; }
 
 h2, h3, h4, h5 {
-  font-family: "Arimo", Arial, sans-serif;
   margin: 10px 0 15px 0;
+  font-family: "Arimo", Arial, sans-serif;
   border-bottom: 1px solid #999; }
 
 a:focus {
@@ -6416,8 +6416,8 @@ div.margin-bottom {
   margin-bottom: 1em; }
 
 p.error-quote {
-  font-style: italic;
-  font-size: 2.4em; }
+  font-size: 2.4em;
+  font-style: italic; }
 
 p.error-link {
   text-align: right; }
@@ -6427,11 +6427,11 @@ p.error-link {
   margin-bottom: 0; }
 
 .navbar-default a.navbar-brand {
-  font-family: "Philosopher", Arial, sans-serif;
   color: #0a506c;
+  margin-top: 2px;
   font-size: 1.4em;
   margin-right: 40px;
-  margin-top: 2px; }
+  font-family: "Philosopher", Arial, sans-serif; }
 
 .navbar-default:hover, .navbar-default:focus {
   color: #085878; }
@@ -6509,25 +6509,35 @@ p.error-link {
   padding: 10px 25px 10px 20px; }
 
 div.search-bar-container {
-  position: fixed;
   top: 56px;
   width: 100%;
+  z-index: 1031;
+  position: fixed;
   padding: 8px 0 8px;
-  border-top: 1px solid #c8c8cf;
-  border-bottom: 1px solid #c8c8cf;
   background: #e8e8ef;
-  z-index: 1031; }
+  border-top: 1px solid #c8c8cf;
+  border-bottom: 1px solid #c8c8cf; }
   @media screen and (max-width: 767px) {
     div.search-bar-container {
       top: 53px; } }
   div.search-bar-container a {
-    text-decoration: none;
+    padding: 0 6px;
     line-height: 1.5;
     margin-right: 10px;
-    padding: 0 6px; }
+    text-decoration: none; }
+  div.search-bar-container #filter-movie-start {
+    width: 4em; }
+  div.search-bar-container #filter-movie-options {
+    border-left: 1px solid #32a4c6; }
 
 div.main-content {
   margin-top: 130px; }
+
+div.feature-content {
+  color: #f0f0f0;
+  background: #40515d; }
+  div.feature-content img {
+    box-shadow: 1px 1px 4px #888; }
 
 .pagination {
   margin: 0; }
@@ -6544,6 +6554,13 @@ div.main-content {
 .modal-content .modal-footer {
   border-top: none; }
 
+footer {
+  color: #f2f2f2;
+  padding: 20px 0;
+  text-align: right;
+  background: #121222;
+  border-top: 10px double #fff; }
+
 /*
 |----------------------------------------------------------------------
 |  Movies Index Page
@@ -6551,19 +6568,19 @@ div.main-content {
 */
 li.movie a {
   display: block;
-  text-decoration: none;
-  color: #202020; }
+  color: #202020;
+  text-decoration: none; }
 
 li.movie img {
   margin-bottom: 0.5em;
   box-shadow: 1px 1px 4px #555; }
 
 li.movie span.title-wrapper {
+  height: 3.5em;
+  line-height: 1;
   display: block;
   font-size: 0.8em;
-  text-align: center;
-  height: 3.5em;
-  line-height: 1; }
+  text-align: center; }
 
 /*
 |----------------------------------------------------------------------
@@ -6586,8 +6603,8 @@ div.movie p {
 div.movie .side-buttons a {
   text-align: left; }
   div.movie .side-buttons a i {
-    display: inline-block;
-    margin-right: 1em; }
+    margin-right: 1em;
+    display: inline-block; }
 
 div.movie img {
   margin: 0.5em 0;

@@ -71,16 +71,19 @@ function startFilter(type) {
          val: $('#filter-movie').val(),
          type: type
       }
-  }).done(function(html){
-     switch(html) {
-        case "blank": location.reload(); break;
-        default:
-           $('#filter-movie-start').html('Go');
-           $('.main-content').html(html);
-           Waves.attach('li.movie', ['waves-light']);
-           $('img.lazy').lazyload();
-        }
-  });
+   }).done(function(html){
+      $('#filter-movie-start').html('Go');
+      switch(html) {
+         case "blank":
+            // location.reload();
+         break;
+         default:
+            $('.main-content').html(html);
+            $('.feature-content, .secondary-content, footer').hide();
+            Waves.attach('li.movie', ['waves-light']);
+            $('img.lazy').lazyload();
+      }
+   });
 }
 
 function previewImage(input, output) {
