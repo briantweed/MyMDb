@@ -64,14 +64,39 @@ $(document).ready(function(){
          url: '/'+$('body').data('base')+'/addtag',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
-            val: $('#new_tag').val(),
+            word: $('#new_tag').val(),
+            id: $('#movie_id').val(),
          }
       }).done(function(html){
-         $('div.tags').html(html);
-         $('#new-tag-modal').modal('hide');
+         switch(html) {
+            case "exists":
+               $('#new-tag-modal div.form-group').addClass('has-error');
+               $('#new_tag_error').removeClass('hide');
+               $('#new_tag_error_message').html('tag already exists');
+               break;
+            case "error":
+               $('#new-tag-modal div.form-group').addClass('has-error');
+               $('#new_tag_error').removeClass('hide');
+               $('#new_tag_error_message').html('did not save');
+               break;
+            case "blank":
+               $('#new-tag-modal div.form-group').addClass('has-error');
+               $('#new_tag_error').removeClass('hide');
+               $('#new_tag_error_message').html('enter a value');
+               break;
+            default:
+               $('div.tags').html(html);
+               $('#new-tag-modal').modal('hide');
+         }
       });
    });
 
+   $('[data-toggle="modal"]').click(function(){
+      $('#new_tag').val("");
+      $('#new-tag-modal div.form-group').removeClass('has-error');
+      $('#new_tag_error').addClass('hide');
+      $('#new_tag_error_message').html('');
+   });
 });
 
 function launchEditor() {

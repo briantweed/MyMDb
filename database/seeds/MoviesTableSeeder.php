@@ -30,7 +30,7 @@ class MoviesTableSeeder extends Seeder {
 				'bio' => 'A band of samurai set out to avenge the death and dishonor of their master at the hands of a ruthless shogun.',
 				'purchased' => '2015-01-01 00:00:00',
 				'created_at' => '2015-12-30 15:38:30',
-				'updated_at' => '2016-01-03 18:41:57',
+				'updated_at' => '2016-01-04 23:56:34',
 			),
 			1 => 
 			array (

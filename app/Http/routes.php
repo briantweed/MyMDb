@@ -28,8 +28,8 @@ Route::get('/admin/seed', function(){
 });
 
 Route::post('aviary', 'AviaryController@replaceImage');
-Route::post('filter', 'FilterController@filterMovies');
-Route::post('addtag', 'FilterController@addTag');
+Route::post('filter', 'AjaxController@filterMovies');
+Route::post('addtag', 'AjaxController@addNewTag');
 
 Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 Route::resource('people', 'PersonController', ['only'=>['index','show','create','store','edit','update','destroy']]);

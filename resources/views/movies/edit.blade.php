@@ -90,9 +90,6 @@
          @if($errors->any())
             <div class="col-xs-12 alert alert-danger">
                * There are errors with your form
-               @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
             </div>
          @endif
 
@@ -167,22 +164,14 @@
 
                <div class="row">
                   <div class="col-xs-8 col-sm-6 col-md-6 col-lg-4">
-                     <a data-href="delete.php" data-toggle="modal" data-target="#new-tag-modal" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-tags"></i> new tag</a>
+                     <a data-toggle="modal" data-target="#new-tag-modal" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-tags"></i> new tag</a>
                   </div>
                </div>
 
                @include('segments.layout.padding')
 
                <div class="row tags">
-                  @foreach($options->keywords as $keyword)
-                     <div class="col-xs-8 col-sm-2 col-md-2 col-lg-1">
-                        {!! Form::label('tag_'.$keyword->keyword_id, $keyword->word) !!}
-                     </div>
-                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 switch round">
-                        {!! Form::checkbox('tags[]', $keyword->keyword_id, $keyword->selected, ['id' => 'tag_'.$keyword->keyword_id]) !!}
-                        {!! Form::label('tag_'.$keyword->keyword_id, $keyword->word) !!}
-                     </div>
-                  @endforeach
+                  @include('ajax.movie_tags')
                </div>
 
             </div>
@@ -206,8 +195,16 @@
          <div class="modal-content">
             <div class="modal-header"><h4>Create New Tag</h4></div>
             <div class="modal-body">
-               {!! Form::label('new_tag', 'New Tag:') !!}
-               {!! Form::text('new_tag', '', ['class'=>'form-control']) !!}
+               <div class="form-group">
+                  {!! Form::label('new_tag', 'New Tag:') !!}
+                  {!! Form::text('new_tag', '', ['class'=>'form-control']) !!}
+                  {!! Form::hidden('movie_id',$movie->movie_id, ['id'=>'movie_id']) !!}
+               </div>
+               <div id="new_tag_error" class="row has-error hide">
+                  <div class="col-xs-12 text-right">
+                     <label id="new_tag_error_message" for="formGroupInputSmall" class="control-label"></label>
+                  </div>
+               </div>
             </div>
             <div class="modal-footer">
                <div class="col-xs-4 col-xs-offset-3">

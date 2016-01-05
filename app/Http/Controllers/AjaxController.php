@@ -7,7 +7,7 @@ use App\Keywords;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-class FilterController extends Controller
+class AjaxController extends Controller
 {
    use ImageFunctions, AdminChecks;
 
@@ -35,20 +35,34 @@ class FilterController extends Controller
       }
    }
 
-   public function addTag()
+   public function addNewTag()
    {
       if(Request::ajax())
       {
          $data = Request::all();
-         $word = trim($data['val']);
+         $movie_id = $data['id'];
+         $word = ucwords(strtolower(trim($data['word'])));
          if($word!=="")
          {
             if(!Keywords::where('word', $word)->exists())
             {
                $created = Keywords::create(['word'=>$word]);
-               return $data['val']. "added";
+               DB::table('tags')->insert(['movie_id'=>$movie_id, 'keyword_id'=>$created->keyword_id]);
+               
+               $app = app();
+         		$options = $app->make('stdClass');
+
+               $tags = DB::table('tags')->where('movie_id', $movie_id)->lists('keyword_id');
+               $options->keywords = DB::table('keywords')->orderBy('word')->get();
+         		foreach($options->keywords as $keyword)
+         		{
+         			$keyword->selected = in_array($keyword->keyword_id, $tags) ? true : false;
+         		}
+               return (String) view('ajax.movie_tags', compact('options'));
             }
+            return "exists";
          }
+         return "blank";
       }
       return "error";
    }
