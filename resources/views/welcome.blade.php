@@ -215,22 +215,22 @@
       {!! Html::script('js/slick.js') !!}
       {!! Html::script('js/welcome.js') !!}
 
-   </body>
+      <footer>
 
-   <footer>
+         <div class="container">
 
-      <div class="container">
+            <div class="row">
 
-         <div class="row">
+               <div class="col-sx-12">
+                  &copy;<?php echo date("Y"); ?> brtweed designs
+               </div>
 
-            <div class="col-sx-12">
-               &copy;<?php echo date("Y"); ?> brtweed designs
             </div>
 
          </div>
 
-      </div>
+      </footer>
 
-   </footer>
+   </body>
 
 </html>
