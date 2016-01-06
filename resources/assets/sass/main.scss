@@ -23,7 +23,8 @@ $admin-link: #009926; // green
 $login-link: #000000; // black
 $logout-link: #000000; // black
 
-$top-red: #F83C3C;
+$normal-rating: #F1DE35;
+$top-red: #F1DE35;
 
 /*
 |----------------------------------------------------------------------
@@ -494,7 +495,7 @@ footer {
 
 
 span.rating-display {
-   color: #F1DE35;
+   color: $normal-rating;
    font-size: 1.2em;
    margin-left: -4px;
 

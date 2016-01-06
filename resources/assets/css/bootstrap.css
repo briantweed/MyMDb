@@ -6570,7 +6570,7 @@ span.rating-display {
   font-size: 1.2em;
   margin-left: -4px; }
   span.rating-display.top-rated {
-    color: #F83C3C; }
+    color: #F1DE35; }
   span.rating-display i {
     cursor: default; }
     span.rating-display i:before {
@@ -6635,7 +6635,7 @@ div.movie img {
   box-shadow: 1px 1px 4px #555; }
 
 div.movie span.required {
-  color: #F83C3C;
+  color: #F1DE35;
   font-family: Arial; }
 
 div.movie span.input-group-addon {
