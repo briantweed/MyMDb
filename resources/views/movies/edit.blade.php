@@ -101,38 +101,23 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="cast">
-               <div class="row cast">
+               <div class="row">
                   <div class="col-xs-3"><b>Forename</b></div>
                   <div class="col-xs-3"><b>Surname</b></div>
                   <div class="col-xs-3"><b>Character</b></div>
                   <div class="col-xs-1"></div>
                </div>
-               @foreach( $movie->cast as $actor )
-                  <div class="row cast">
-                     {{-- actor --}}
-                     <div class="col-xs-3">{{$actor->forename}}</div>
-                     <div class="col-xs-3">{{$actor->surname}}</div>
-                     <div class="col-xs-3">{{$actor->pivot->character}}</div>
-                     <div class="col-xs-1"><i class="ft icon-minus"></i></div>
-                  </div>
-               @endforeach
+               @include('movies.cast')
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="crew">
-               <div class="row cast">
+               <div class="row">
                   <div class="col-xs-3"><b>Forename</b></div>
                   <div class="col-xs-3"><b>Surname</b></div>
                   <div class="col-xs-3"><b>Position</b></div>
                   <div class="col-xs-1"></div>
                </div>
-               @foreach($movie->crew as $emp)
-                  <div class="row crew">
-                     <div class="col-xs-3">{{$emp->forename}}</div>
-                     <div class="col-xs-3">{{$emp->surname}}</div>
-                     <div class="col-xs-3">{{$emp->pivot->position}}</div>
-                     <div class="col-xs-1"><i class="ft icon-minus"></i></div>
-                  </div>
-               @endforeach
+               @include('movies.crew')
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="genres">
@@ -160,7 +145,7 @@
                @include('segments.layout.padding')
 
                <div class="row tags">
-                  @include('ajax.movie_tags')
+                  @include('movies.tags')
                </div>
 
             </div>
@@ -179,6 +164,9 @@
    </div>
    {{-- end of movie row --}}
 
+   {!! Form::hidden('movie_id',$movie->movie_id, ['id'=>'movie_id']) !!}
+   {!! Form::hidden('person_id','', ['id'=>'person_id']) !!}
+
    <div class="modal fade" id="new-tag-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
          <div class="modal-content">
@@ -187,7 +175,6 @@
                <div class="form-group">
                   {!! Form::label('new_tag', 'New Tag:') !!}
                   {!! Form::text('new_tag', '', ['class'=>'form-control']) !!}
-                  {!! Form::hidden('movie_id',$movie->movie_id, ['id'=>'movie_id']) !!}
                </div>
                <div id="new_tag_error" class="row has-error hide">
                   <div class="col-xs-12 text-right">
@@ -206,6 +193,42 @@
          </div>
       </div>
    </div>
+
+   <div class="modal fade" id="remove-cast-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header"><h4>Delete Cast</h4></div>
+            <div class="modal-body"><p>Are you sure you want to delete this actor?</p></div>
+            <div class="modal-footer">
+               <div class="col-xs-4 col-xs-offset-3">
+                  <button type="button" class="btn btn-xs btn-block btn-default" data-dismiss="modal">cancel</button>
+               </div>
+               <div class="col-xs-5">
+                  <button id="remove_cast" type="button" class="btn btn-block btn-danger">Delete</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="modal fade" id="remove-crew-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header"><h4>Delete Crew</h4></div>
+            <div class="modal-body"><p>Are you sure you want to delete this crew member?</p></div>
+            <div class="modal-footer">
+               <div class="col-xs-4 col-xs-offset-3">
+                  <button type="button" class="btn btn-xs btn-block btn-default" data-dismiss="modal">cancel</button>
+               </div>
+               <div class="col-xs-5">
+                  <button id="remove_crew" type="button" class="btn btn-block btn-danger">Delete</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
 
 @stop
 

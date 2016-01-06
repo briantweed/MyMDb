@@ -29,6 +29,7 @@ var featherEditor = new Aviary.Feather({
    }
 });
 
+
 $(document).ready(function(){
 
    $('#movieTabs a').click(function (e) {
@@ -47,6 +48,40 @@ $(document).ready(function(){
    // confirmation of movie deletion
    $('#delete_movie').click(function(){
       $('#delete_movie_form').submit();
+   });
+
+   $('#remove-cast-modal, #remove-crew-modal').on('hide.bs.modal', function (e) {
+     $('#person_id').val('');
+   })
+
+   $('#remove_cast').click(function(){
+      $.ajax({
+         type: 'POST',
+         url: '/'+$('body').data('base')+'/removeCast',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            person: $('#person_id').val(),
+            movie: $('#movie_id').val(),
+         }
+      }).done(function(html){
+         $('#cast-list').html(html);
+         $('#remove-cast-modal').modal('hide');
+      });
+   });
+
+   $('#remove_crew').click(function(){
+      $.ajax({
+         type: 'POST',
+         url: '/'+$('body').data('base')+'/removeCrew',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            person: $('#person_id').val(),
+            movie: $('#movie_id').val(),
+         }
+      }).done(function(html){
+         $('#crew-list').html(html);
+         $('#remove-crew-modal').modal('hide');
+      });
    });
 
    $('.input-group.date').datepicker({
@@ -105,4 +140,14 @@ function launchEditor() {
       image:  'movie-poster'
    });
    return false;
+}
+
+function removeCastMember(id) {
+   $('#person_id').val(id);
+   $('#remove-cast-modal').modal();
+}
+
+function removeCrewMember(id) {
+   $('#person_id').val(id);
+   $('#remove-crew-modal').modal();
 }

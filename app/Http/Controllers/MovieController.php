@@ -1,10 +1,11 @@
 <?php namespace App\Http\Controllers;
 
 use DB;
+use Request;
 use App\Movies;
 use App\Studios;
 use App\Viewings;
-use App\Http\Requests;
+// use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ValidateCreateMovie;
 
@@ -186,6 +187,33 @@ class MovieController extends Controller {
 		return redirect()->action('MovieController@edit', [$id-1])->with('status', 'Movie Deleted');
 	}
 
+	public function removeCastMember()
+   {
+      if(Request::ajax())
+      {
+         $data = Request::all();
+         $movie_id = $data['movie'];
+         $person_id = $data['person'];
+         $movie = Movies::findorfail($movie_id);
+         $movie->cast()->detach($person_id);
+			return (String) view('movies.cast', compact('movie'));
+      }
+      return "error";
+   }
+
+	public function removeCrewMember()
+   {
+      if(Request::ajax())
+      {
+         $data = Request::all();
+         $movie_id = $data['movie'];
+         $person_id = $data['person'];
+         $movie = Movies::findorfail($movie_id);
+         $movie->crew()->detach($person_id);
+			return (String) view('movies.crew', compact('movie'));
+      }
+      return "error";
+   }
 
 	/*
 	| --------------------------------------------------

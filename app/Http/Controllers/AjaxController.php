@@ -105,7 +105,7 @@ class AjaxController extends Controller
          		{
          			$keyword->selected = in_array($keyword->keyword_id, $tags) ? true : false;
          		}
-               return (String) view('ajax.movie_tags', compact('options'));
+               return (String) view('movies.tags', compact('options'));
             }
             return "exists";
          }
@@ -113,6 +113,7 @@ class AjaxController extends Controller
       }
       return "error";
    }
+
 
    private function getRandomQuote()
    {

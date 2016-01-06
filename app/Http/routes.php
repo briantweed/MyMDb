@@ -31,6 +31,8 @@ Route::post('aviary', 'AviaryController@replaceImage');
 Route::post('filter', 'AjaxController@filterMovies');
 Route::post('addtag', 'AjaxController@addNewTag');
 
+Route::post('removeCast', 'MovieController@removeCastMember');
+Route::post('removeCrew', 'MovieController@removeCrewMember');
 Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 Route::resource('people', 'PersonController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);
