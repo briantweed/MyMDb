@@ -82,7 +82,10 @@ function startFilter(type) {
             $('.main-content').html(html);
             $('.feature-content, .secondary-content, footer').hide();
             Waves.attach('li.movie', ['waves-light']);
-            $('img.lazy').lazyload();
+            $('img.lazy').lazyload({
+               effect : "fadeIn",
+               threshold : 100
+            });
       }
    });
 }
