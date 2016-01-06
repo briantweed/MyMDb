@@ -37,7 +37,7 @@
                      @if($movie->cover_count == 1)
                         <img class="img-responsive img-rounded lazy" data-original="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}"  />
                      @else
-                        <img class="img-responsive img-rounded lazy" data-original="{{asset($movie->cover)}}"  />
+                        <img class="img-responsive img-rounded lazy" src="http://placehold.it/300x450/cccccc/ffffff?text=MyMDb" data-original="{{asset($movie->cover)}}"  />
                      @endif
                      <span class="title-wrapper hidden-xs">{{$movie->name}} @if($movie->duplicate) ({{$movie->released}}) @endif</span>
                   </a>

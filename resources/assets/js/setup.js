@@ -15,7 +15,8 @@ $(document).ready( function() {
 
    // Lazy load images
    $('img.lazy').lazyload({
-      effect : "fadeIn"
+      effect : "fadeIn",
+      threshold : 100
    });
 
    // auto size text areas

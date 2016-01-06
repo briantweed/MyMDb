@@ -46,7 +46,7 @@ class AjaxController extends Controller
                break;
 
                case "year":
-                  $query->where('released', 'LIKE', '%'.$search_string.'%');
+                  $query->where('released', $search_string);
                break;
 
                case "rating":
