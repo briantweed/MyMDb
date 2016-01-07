@@ -29,8 +29,9 @@ Route::get('/admin/seed', function(){
 
 Route::post('aviary', 'AviaryController@replaceImage');
 Route::post('filter', 'AjaxController@filterMovies');
-Route::post('addtag', 'AjaxController@addNewTag');
+Route::post('getAvailableActors', 'AjaxController@getAvailableActors');
 
+Route::post('addtag', 'MovieController@addNewTag');
 Route::post('removeCast', 'MovieController@removeCastMember');
 Route::post('removeCrew', 'MovieController@removeCrewMember');
 Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);

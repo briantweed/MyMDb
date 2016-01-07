@@ -50,10 +50,12 @@ $(document).ready(function(){
       $('#delete_movie_form').submit();
    });
 
+   // close modal, clear hidden person_id field
    $('#remove-cast-modal, #remove-crew-modal').on('hide.bs.modal', function (e) {
      $('#person_id').val('');
    })
 
+   // remove cast member
    $('#remove_cast').click(function(){
       $.ajax({
          type: 'POST',
@@ -69,6 +71,7 @@ $(document).ready(function(){
       });
    });
 
+   //remove crew member
    $('#remove_crew').click(function(){
       $.ajax({
          type: 'POST',
@@ -84,6 +87,7 @@ $(document).ready(function(){
       });
    });
 
+   // datepicker setup
    $('.input-group.date').datepicker({
       format: "dd-mm-yyyy",
       orientation: "bottom auto",
@@ -132,14 +136,34 @@ $(document).ready(function(){
       $('#new_tag_error').addClass('hide');
       $('#new_tag_error_message').html('');
    });
-});
 
+}); // end of document ready
+
+// Image Editor
 function launchEditor() {
    $('#movie-poster').removeClass('img-responsive');
    featherEditor.launch({
       image:  'movie-poster'
    });
    return false;
+}
+
+function getAvailableActors(id) {
+   $.ajax({
+      type: 'POST',
+      url: '/'+$('body').data('base')+'/getAvailableActors',
+      data: {
+         _token: $('meta[name="_token"]').attr('content'),
+         movie: id,
+      }
+
+   }).done(function(html){
+      var options = "";
+      $.each(html, function(full_name, person_id){
+         $('#castlist').append("<option value='"+person_id+"'>"+full_name+"</option>");
+      });
+      $('#castlist').selectize();
+   });
 }
 
 function removeCastMember(id) {

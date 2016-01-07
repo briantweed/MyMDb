@@ -5,6 +5,7 @@ use Request;
 use App\Movies;
 use App\Studios;
 use App\Viewings;
+use App\Keywords;
 // use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ValidateCreateMovie;
@@ -20,6 +21,13 @@ class MovieController extends Controller {
   	  $this->isAdmin = $this->checkUserDetails();
 
    }
+
+
+	/*
+	| --------------------------------------------------
+	|		Normal REST Functions
+	| --------------------------------------------------
+	*/
 
 	public function index()
 	{
@@ -187,6 +195,14 @@ class MovieController extends Controller {
 		return redirect()->action('MovieController@edit', [$id-1])->with('status', 'Movie Deleted');
 	}
 
+
+	/*
+	| --------------------------------------------------
+	|		Ajax Calls
+	| --------------------------------------------------
+	*/
+
+
 	public function removeCastMember()
    {
       if(Request::ajax())
@@ -215,13 +231,51 @@ class MovieController extends Controller {
       return "error";
    }
 
+	public function addNewTag()
+	{
+		if(Request::ajax())
+		{
+			$data = Request::all();
+			$movie_id = $data['id'];
+			$word = ucwords(strtolower(trim($data['word'])));
+			if($word!=="")
+			{
+				if(!Keywords::where('word', $word)->exists())
+				{
+					$created = Keywords::create(['word'=>$word]);
+					DB::table('tags')->insert(['movie_id'=>$movie_id, 'keyword_id'=>$created->keyword_id]);
+
+					$app = app();
+					$options = $app->make('stdClass');
+
+					$tags = DB::table('tags')->where('movie_id', $movie_id)->lists('keyword_id');
+					$options->keywords = DB::table('keywords')->orderBy('word')->get();
+					foreach($options->keywords as $keyword)
+					{
+						$keyword->selected = in_array($keyword->keyword_id, $tags) ? true : false;
+					}
+					return (String) view('movies.tags', compact('options'));
+				}
+				return "exists";
+			}
+			return "blank";
+		}
+		return "error";
+	}
+
+
 	/*
 	| --------------------------------------------------
 	|		Private Functions
 	| --------------------------------------------------
 	*/
 
-
+	/**
+	*
+	* Takes the given rating and
+	* converts it into stars
+	*
+	*/
 	private function makeRatingStars($rating)
 	{
 		$html = '';
@@ -231,11 +285,23 @@ class MovieController extends Controller {
 		return $html;
 	}
 
+	/**
+	*
+	* If the new name exists
+	* show the year beside the title
+	*
+	*/
 	private function checkForDuplicateTitle($name)
 	{
 		return DB::table('movies')->where('name', $name)->count() > 0 ? true : false;
 	}
 
+	/**
+	*
+	* Check if name exists, if not
+	* add to the database
+	*
+	*/
 	private function createNewStudio($name)
 	{
 		$existing = DB::table('studios')->where('studio_name', $name)->first();
@@ -248,4 +314,4 @@ class MovieController extends Controller {
 	}
 
 
-} // end fo class
+} // end of class

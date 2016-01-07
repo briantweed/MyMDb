@@ -4,7 +4,6 @@ use DB;
 use Request;
 use App\Movies;
 use App\Persons;
-use App\Keywords;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -82,37 +81,31 @@ class AjaxController extends Controller
       }
    }
 
-   public function addNewTag()
+   public function getAvailableActors()
    {
       if(Request::ajax())
       {
          $data = Request::all();
-         $movie_id = $data['id'];
-         $word = ucwords(strtolower(trim($data['word'])));
-         if($word!=="")
-         {
-            if(!Keywords::where('word', $word)->exists())
+         $movie_id = $data['movie'];
+         $actors = Persons::select(DB::raw("CONCAT(forename, ' ', surname) AS full_name"), 'person_id')
+            ->whereNotIn('person_id', function($query) use ($movie_id) 
             {
-               $created = Keywords::create(['word'=>$word]);
-               DB::table('tags')->insert(['movie_id'=>$movie_id, 'keyword_id'=>$created->keyword_id]);
-
-               $app = app();
-         		$options = $app->make('stdClass');
-
-               $tags = DB::table('tags')->where('movie_id', $movie_id)->lists('keyword_id');
-               $options->keywords = DB::table('keywords')->orderBy('word')->get();
-         		foreach($options->keywords as $keyword)
-         		{
-         			$keyword->selected = in_array($keyword->keyword_id, $tags) ? true : false;
-         		}
-               return (String) view('movies.tags', compact('options'));
-            }
-            return "exists";
-         }
-         return "blank";
+               $query->select('person_id')
+                     ->from('cast')
+                     ->where('movie_id', $movie_id);
+            })
+            ->orderBy('forename')
+            ->lists('person_id', 'full_name');
+         return $actors;
       }
-      return "error";
    }
+
+
+//          SELECT * FROM persons AS p where p.person_id NOT in (
+// select person_id from cast where movie_id=1
+// ) and p.person_id NOT in(
+// 	select person_id from crew where movie_id=1
+// )
 
 
    private function getRandomQuote()

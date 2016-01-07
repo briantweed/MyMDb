@@ -102,6 +102,12 @@
 
             <div role="tabpanel" class="tab-pane fade" id="cast">
                <div class="row">
+                  <div class="col-xs-8 col-sm-6 col-md-6 col-lg-4">
+                     <a class="btn btn-primary" onclick="getAvailableActors({{$movie->movie_id}})" href="javascript:void(0)"><i class="ft icon-character"></i> new cast</a>
+                     {!! Form::select('castlist', array('' => 'select ...'), '', ['class'=>'form-control','id'=>'castlist']) !!}
+                  </div>
+               </div>
+               <div class="row">
                   <div class="col-xs-3"><b>Forename</b></div>
                   <div class="col-xs-3"><b>Surname</b></div>
                   <div class="col-xs-3"><b>Character</b></div>
