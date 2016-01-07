@@ -4,6 +4,7 @@ use DB;
 use Request;
 use App\Movies;
 use App\Studios;
+use App\Persons;
 use App\Viewings;
 use App\Keywords;
 // use App\Http\Requests;
@@ -104,11 +105,11 @@ class MovieController extends Controller {
 		return redirect()->action('MovieController@edit', [$created->movie_id])->with('status', 'Movie Added Successfully');
 	}
 
-	public function edit($id)
+	public function edit($movie_id)
 	{
 		if(!$this->isAdmin) return view('auth.login');
 
-		$movie = Movies::findorfail($id);
+		$movie = Movies::findorfail($movie_id);
 		$movie->purchased = date("d-m-Y", strtotime($movie->purchased));
 		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
@@ -118,8 +119,8 @@ class MovieController extends Controller {
 		$movie->format;
 		$movie->cast;
 		$movie->crew;
-		$movie->genres = DB::table('categories')->where('movie_id', $id)->lists('genre_id');
-		$movie->tags = DB::table('tags')->where('movie_id', $id)->lists('keyword_id');
+		$movie->genres = DB::table('categories')->where('movie_id', $movie_id)->lists('genre_id');
+		$movie->tags = DB::table('tags')->where('movie_id', $movie_id)->lists('keyword_id');
 		$fields = DB::table('forms')->where('name','create_movie')->orderBy('order', 'asc')->get();
 
 		$app = app();
@@ -128,7 +129,15 @@ class MovieController extends Controller {
 		$options->certificates = DB::table('certificates')->lists('title', 'certificate_id');
 		$options->studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
 		$options->formats = DB::table('formats')->lists('type', 'format_id');
-
+		$options->actors = Persons::select(DB::raw("CONCAT(forename, ' ', surname) AS full_name"), 'person_id')
+									->whereNotIn('person_id', function($query) use ($movie_id)
+									{
+										$query->select('person_id')
+												->from('cast')
+												->where('movie_id', $movie_id);
+									})
+									->orderBy('forename')
+									->lists('full_name', 'person_id')->all();
 		$options->keywords = DB::table('keywords')->orderBy('word')->get();
 		foreach($options->keywords as $keyword)
 		{
@@ -202,6 +211,21 @@ class MovieController extends Controller {
 	| --------------------------------------------------
 	*/
 
+
+	public function addCastMember()
+   {
+      if(Request::ajax())
+      {
+         $data = Request::all();
+         $movie_id = $data['movie'];
+         $person_id = $data['person'];
+         $character_name = $data['character'];
+         $movie = Movies::findorfail($movie_id);
+         $movie->cast()->attach($person_id, array('character' => $character_name));
+			return (String) view('movies.cast', compact('movie'));
+      }
+      return "error";
+   }
 
 	public function removeCastMember()
    {

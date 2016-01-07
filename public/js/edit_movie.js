@@ -47,29 +47,29 @@ $(document).ready(function(){
       persist: false
    });
 
-   $('#castlist').selectize({
-      // create: true,
-      // persist: false,
-      preload: true,
-      valueField: 'person_id',
-      labelField: 'full_name',
-      searchField: 'full_name',
-      options: [],
-      load: function(query, callback) {
-         this.settings.load = null;
-        $.ajax({
-           type: 'POST',
-           url: '/'+base_path+'/getAvailableCast',
-           dataType: 'json',
-           data: {
-              _token: $('meta[name="_token"]').attr('content'),
-              movie: $('#movie_id').val(),
-           }
-        }).success(function(res){
-           callback(res);
-        });
-     }
-   });
+   // $('#castlist').selectize({
+   //    // create: true,
+   //    // persist: false,
+   //    preload: true,
+   //    valueField: 'person_id',
+   //    labelField: 'full_name',
+   //    searchField: 'full_name',
+   //    options: [],
+   //    load: function(query, callback) {
+   //       this.settings.load = null;
+   //      $.ajax({
+   //         type: 'POST',
+   //         url: '/'+base_path+'/getAvailableCast',
+   //         dataType: 'json',
+   //         data: {
+   //            _token: $('meta[name="_token"]').attr('content'),
+   //            movie: $('#movie_id').val(),
+   //         }
+   //      }).success(function(res){
+   //         callback(res);
+   //      });
+   //   }
+   // });
 
    $('#crewlist').selectize({
       // create: true,
@@ -89,7 +89,7 @@ $(document).ready(function(){
               _token: $('meta[name="_token"]').attr('content'),
               movie: $('#movie_id').val(),
            }
-        }).success(function(res){
+        }).success(function(res) {
            callback(res);
         });
      }
@@ -98,14 +98,33 @@ $(document).ready(function(){
    $('select').selectize();
 
    // confirmation of movie deletion
-   $('#delete_movie').click(function(){
+   $('#delete_movie').click(function() {
       $('#delete_movie_form').submit();
    });
 
    // close modal, clear hidden person_id field
-   $('#remove-cast-modal, #remove-crew-modal').on('hide.bs.modal', function (e) {
-     $('#person_id').val('');
+   $('.modal').on('hidden.bs.modal', function(e) {
+      $('.modal .form-control').val('');
+      clearModalSelectize();
+      setPersonId('');
    })
+
+   // remove cast member
+   $('#add_new_cast').click(function() {
+      $.ajax({
+         type: 'POST',
+         url: '/'+base_path+'/addNewCast',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            person: $('#person_id').val(),
+            movie: $('#movie_id').val(),
+            character: $('#character_name').val(),
+         }
+      }).done(function(html){
+         $('#cast-list').html(html);
+         $('.modal').modal('hide');
+      });
+   });
 
    // remove cast member
    $('#remove_cast').click(function(){
@@ -119,7 +138,7 @@ $(document).ready(function(){
          }
       }).done(function(html){
          $('#cast-list').html(html);
-         $('#remove-cast-modal').modal('hide');
+         $('.modal').modal('hide');
       });
    });
 
@@ -135,7 +154,7 @@ $(document).ready(function(){
          }
       }).done(function(html){
          $('#crew-list').html(html);
-         $('#remove-crew-modal').modal('hide');
+         $('.modal').modal('hide');
       });
    });
 
@@ -201,25 +220,6 @@ function launchEditor() {
    return false;
 }
 
-function getAvailableActors(id) {
-   $('#castlist').selectize({
-      valueField: 'person_id',
-      labelField: 'full_name',
-      load: function(query, callback) {
-        if (!query.length) return callback();
-        $.ajax({
-           type: 'POST',
-           url: '/'+base_path+'/getAvailableActors',
-           data: {
-              _token: $('meta[name="_token"]').attr('content'),
-              movie: id,
-           }
-        }).done(function(html){console.log(html);
-           callback(html);
-        });
-     }
-   });
-}
 
 function addCastMember() {
    $('#new-cast-modal').modal();
@@ -230,17 +230,26 @@ function addCrewMember() {
 }
 
 function removeCastMember(id) {
-   $('#person_id').val(id);
+   setPersonId(id);
    $('#remove-cast-modal').modal();
 }
 
 function removeCrewMember(id) {
-   $('#person_id').val(id);
+   setPersonId(id);
    $('#remove-crew-modal').modal();
 }
 
+function setPersonId(id) {
+   $('#person_id').val(id);
+}
 
-
+function clearModalSelectize() {
+   var $select = $('.modal select').selectize();
+   $select.each(function(index, value) {
+      var control = $select[index].selectize;
+      control.clear();
+   });
+}
 
 //    $.ajax({
 //       type: 'POST',

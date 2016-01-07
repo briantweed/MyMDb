@@ -12,9 +12,9 @@ class PersonsTableSeeder extends Seeder {
 	public function run()
 	{
 		\DB::table('persons')->delete();
-
+        
 		\DB::table('persons')->insert(array (
-			0 =>
+			0 => 
 			array (
 				'person_id' => 1,
 				'forename' => 'Keanu',
@@ -29,7 +29,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '2015-12-30 15:58:19',
 			),
-			1 =>
+			1 => 
 			array (
 				'person_id' => 2,
 				'forename' => 'Carl',
@@ -40,7 +40,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
-			2 =>
+			2 => 
 			array (
 				'person_id' => 3,
 				'forename' => 'Chris',
@@ -51,7 +51,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
-			3 =>
+			3 => 
 			array (
 				'person_id' => 4,
 				'forename' => 'Hossein',
@@ -62,7 +62,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
-			4 =>
+			4 => 
 			array (
 				'person_id' => 5,
 				'forename' => 'Hiroyuki',
@@ -73,7 +73,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
-			5 =>
+			5 => 
 			array (
 				'person_id' => 6,
 				'forename' => 'Brad',
@@ -86,7 +86,7 @@ He was nominated for an Academy Award for the fifth time in 2014, winning his fi
 				'created_at' => '2015-12-30 16:59:28',
 				'updated_at' => '2015-12-30 16:59:28',
 			),
-			6 =>
+			6 => 
 			array (
 				'person_id' => 7,
 				'forename' => 'Edward',
@@ -101,7 +101,6 @@ Edward won the Golden Globe for Best Actor in a Supporting Role and received an 
 				'created_at' => '2016-01-01 23:43:03',
 				'updated_at' => '2016-01-03 19:01:26',
 			),
-			
 		));
 	}
 

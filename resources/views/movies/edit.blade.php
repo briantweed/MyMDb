@@ -91,9 +91,17 @@
          </ul>
 
          {!! Form::model($movie, ['method'=>'Patch','url'=>'movies/'.$movie->movie_id,'files' => true]) !!}
+         {!! Form::hidden('movie_id',$movie->movie_id, ['id'=>'movie_id']) !!}
+         {!! Form::hidden('person_id','', ['id'=>'person_id']) !!}
+         {!! Form::hidden('_aviary', env('AVIARY_KEY'), ['id'=>'_aviary']) !!}
+
          <div class="tab-content">
 
             @include('segments.layout.padding')
+
+            <div role="tabpanel" class="tab-pane fade in active" id="movie">
+               @include('segments.forms.form_builder')
+            </div>
 
             <div role="tabpanel" class="tab-pane fade" id="cast">
                <div class="row">
@@ -118,11 +126,6 @@
                   </div>
                </div>
                @include('movies.crew')
-            </div>
-
-            <div role="tabpanel" class="tab-pane fade in active" id="movie">
-               <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
-               @include('segments.forms.form_builder')
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="genres">
@@ -164,9 +167,6 @@
    </div>
    {{-- end of movie row --}}
 
-   {!! Form::hidden('movie_id',$movie->movie_id, ['id'=>'movie_id']) !!}
-   {!! Form::hidden('person_id','', ['id'=>'person_id']) !!}
-
    {{-- NEW CAST MODAL --}}
    <div class="modal fade" id="new-cast-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -174,12 +174,12 @@
             <div class="modal-header"><h4>Add Cast Member</h4></div>
             <div class="modal-body">
                <div class="form-group">
-                  {!! Form::label('new_cast', 'Actor Name:') !!}
-                  {!! Form::select('castlist', array('' => 'select ...'), '', ['class'=>'form-control','id'=>'castlist']) !!}
+                  {!! Form::label('cast_list', 'Actor Name:') !!}
+                  {!! Form::select('cast_list', array('' => 'select ...') + $options->actors, '', ['class'=>'form-control','id'=>'cast_list', 'onchange'=>'setPersonId(this.value)']) !!}
                </div>
                <div class="form-group">
-                  {!! Form::label('new_character', 'Character Name:') !!}
-                  {!! Form::text('new_character', '', ['class'=>'form-control']) !!}
+                  {!! Form::label('character_name', 'Character Name:') !!}
+                  {!! Form::text('character_name', '', ['class'=>'form-control']) !!}
                </div>
                <div id="new_cast_error" class="row has-error hide">
                   <div class="col-xs-12 text-right">
