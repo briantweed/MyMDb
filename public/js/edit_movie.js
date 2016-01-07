@@ -1,4 +1,6 @@
 
+var base_path = $('body').data('base');
+
 var featherEditor = new Aviary.Feather({
    apiKey: $('input[name="_aviary"]').val(),
    tools: 'crop,resize,orientation',
@@ -13,7 +15,7 @@ var featherEditor = new Aviary.Feather({
    onSave: function(imageID, newUrl) {
       $.ajax({
          type: "POST",
-         url: '/'+$('body').data('base')+'/aviary',
+         url: '/'+base_path+'/aviary',
          dataType : "json",
          data: {
             _token: $('meta[name="_token"]').attr('content'),
@@ -32,18 +34,68 @@ var featherEditor = new Aviary.Feather({
 
 $(document).ready(function(){
 
+   // Tabs
    $('#movieTabs a').click(function (e) {
      e.preventDefault();
      $(this).tab('show');
   });
 
-   // apply selctize to dropdowns
-   $('select:not(#studio_id)').selectize();
+   //  selctize
 
    $('#studio_id').selectize({
       create: true,
       persist: false
    });
+
+   $('#castlist').selectize({
+      // create: true,
+      // persist: false,
+      preload: true,
+      valueField: 'person_id',
+      labelField: 'full_name',
+      searchField: 'full_name',
+      options: [],
+      load: function(query, callback) {
+         this.settings.load = null;
+        $.ajax({
+           type: 'POST',
+           url: '/'+base_path+'/getAvailableCast',
+           dataType: 'json',
+           data: {
+              _token: $('meta[name="_token"]').attr('content'),
+              movie: $('#movie_id').val(),
+           }
+        }).success(function(res){
+           callback(res);
+        });
+     }
+   });
+
+   $('#crewlist').selectize({
+      // create: true,
+      // persist: false,
+      preload: true,
+      valueField: 'person_id',
+      labelField: 'full_name',
+      searchField: 'full_name',
+      options: [],
+      load: function(query, callback) {
+         this.settings.load = null;
+        $.ajax({
+           type: 'POST',
+           url: '/'+base_path+'/getAvailableCrew',
+           dataType: 'json',
+           data: {
+              _token: $('meta[name="_token"]').attr('content'),
+              movie: $('#movie_id').val(),
+           }
+        }).success(function(res){
+           callback(res);
+        });
+     }
+   });
+
+   $('select').selectize();
 
    // confirmation of movie deletion
    $('#delete_movie').click(function(){
@@ -59,7 +111,7 @@ $(document).ready(function(){
    $('#remove_cast').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/'+$('body').data('base')+'/removeCast',
+         url: '/'+base_path+'/removeCast',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -75,7 +127,7 @@ $(document).ready(function(){
    $('#remove_crew').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/'+$('body').data('base')+'/removeCrew',
+         url: '/'+base_path+'/removeCrew',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -100,7 +152,7 @@ $(document).ready(function(){
    $('#add_new_tag').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/'+$('body').data('base')+'/addtag',
+         url: '/'+base_path+'/addtag',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             word: $('#new_tag').val(),
@@ -139,6 +191,7 @@ $(document).ready(function(){
 
 }); // end of document ready
 
+
 // Image Editor
 function launchEditor() {
    $('#movie-poster').removeClass('img-responsive');
@@ -149,21 +202,31 @@ function launchEditor() {
 }
 
 function getAvailableActors(id) {
-   $.ajax({
-      type: 'POST',
-      url: '/'+$('body').data('base')+'/getAvailableActors',
-      data: {
-         _token: $('meta[name="_token"]').attr('content'),
-         movie: id,
-      }
-
-   }).done(function(html){
-      var options = "";
-      $.each(html, function(full_name, person_id){
-         $('#castlist').append("<option value='"+person_id+"'>"+full_name+"</option>");
-      });
-      $('#castlist').selectize();
+   $('#castlist').selectize({
+      valueField: 'person_id',
+      labelField: 'full_name',
+      load: function(query, callback) {
+        if (!query.length) return callback();
+        $.ajax({
+           type: 'POST',
+           url: '/'+base_path+'/getAvailableActors',
+           data: {
+              _token: $('meta[name="_token"]').attr('content'),
+              movie: id,
+           }
+        }).done(function(html){console.log(html);
+           callback(html);
+        });
+     }
    });
+}
+
+function addCastMember() {
+   $('#new-cast-modal').modal();
+}
+
+function addCrewMember() {
+   $('#new-crew-modal').modal();
 }
 
 function removeCastMember(id) {
@@ -175,3 +238,22 @@ function removeCrewMember(id) {
    $('#person_id').val(id);
    $('#remove-crew-modal').modal();
 }
+
+
+
+
+//    $.ajax({
+//       type: 'POST',
+//       url: '/'+$('body').data('base')+'/getAvailableActors',
+//       data: {
+//          _token: $('meta[name="_token"]').attr('content'),
+//          movie: id,
+//       }
+//    }).done(function(html){
+//       var options = "";
+//       $.each(html, function(full_name, person_id){
+//          $('#castlist').append("<option value='"+person_id+"'>"+full_name+"</option>");
+//       });
+//       $('#castlist').selectize();
+//    });
+// }

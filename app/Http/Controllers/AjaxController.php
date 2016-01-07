@@ -81,31 +81,43 @@ class AjaxController extends Controller
       }
    }
 
-   public function getAvailableActors()
+   public function getAvailableCast()
    {
       if(Request::ajax())
       {
          $data = Request::all();
          $movie_id = $data['movie'];
          $actors = Persons::select(DB::raw("CONCAT(forename, ' ', surname) AS full_name"), 'person_id')
-            ->whereNotIn('person_id', function($query) use ($movie_id) 
+            ->whereNotIn('person_id', function($query) use ($movie_id)
             {
                $query->select('person_id')
                      ->from('cast')
                      ->where('movie_id', $movie_id);
             })
             ->orderBy('forename')
-            ->lists('person_id', 'full_name');
+            ->get()->toJson();
          return $actors;
       }
    }
 
-
-//          SELECT * FROM persons AS p where p.person_id NOT in (
-// select person_id from cast where movie_id=1
-// ) and p.person_id NOT in(
-// 	select person_id from crew where movie_id=1
-// )
+   public function getAvailableCrew()
+   {
+      if(Request::ajax())
+      {
+         $data = Request::all();
+         $movie_id = $data['movie'];
+         $actors = Persons::select(DB::raw("CONCAT(forename, ' ', surname) AS full_name"), 'person_id')
+            ->whereNotIn('person_id', function($query) use ($movie_id)
+            {
+               $query->select('person_id')
+                     ->from('crew')
+                     ->where('movie_id', $movie_id);
+            })
+            ->orderBy('forename')
+            ->get()->toJson();
+         return $actors;
+      }
+   }
 
 
    private function getRandomQuote()

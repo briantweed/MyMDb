@@ -12,9 +12,9 @@ class PersonsTableSeeder extends Seeder {
 	public function run()
 	{
 		\DB::table('persons')->delete();
-        
+
 		\DB::table('persons')->insert(array (
-			0 => 
+			0 =>
 			array (
 				'person_id' => 1,
 				'forename' => 'Keanu',
@@ -29,7 +29,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '2015-12-30 15:58:19',
 			),
-			1 => 
+			1 =>
 			array (
 				'person_id' => 2,
 				'forename' => 'Carl',
@@ -40,7 +40,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
-			2 => 
+			2 =>
 			array (
 				'person_id' => 3,
 				'forename' => 'Chris',
@@ -51,7 +51,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
-			3 => 
+			3 =>
 			array (
 				'person_id' => 4,
 				'forename' => 'Hossein',
@@ -62,7 +62,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
-			4 => 
+			4 =>
 			array (
 				'person_id' => 5,
 				'forename' => 'Hiroyuki',
@@ -73,7 +73,7 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
-			5 => 
+			5 =>
 			array (
 				'person_id' => 6,
 				'forename' => 'Brad',
@@ -86,21 +86,22 @@ He was nominated for an Academy Award for the fifth time in 2014, winning his fi
 				'created_at' => '2015-12-30 16:59:28',
 				'updated_at' => '2015-12-30 16:59:28',
 			),
-			6 => 
+			6 =>
 			array (
 				'person_id' => 7,
 				'forename' => 'Edward',
 				'surname' => 'Norton',
 				'birthday' => '1969-08-18',
 				'image' => 'edward_norton_1451692788.jpg',
-			'bio' => 'Edward Harrison Norton was born on August 18, 1969, in Boston, Massachusetts, and was raised in Columbia, Maryland. From the age of five onward, the Yale graduate (majoring in history) was interested in acting. At the age of eight, he would ask his drama teacher what his motivation in a scene was. 
+			'bio' => 'Edward Harrison Norton was born on August 18, 1969, in Boston, Massachusetts, and was raised in Columbia, Maryland. From the age of five onward, the Yale graduate (majoring in history) was interested in acting. At the age of eight, he would ask his drama teacher what his motivation in a scene was.
 
-He attended theater schools throughout his life, and eventually managed to find work on stage in New York as a member of the Signature players, who produced the works of playwright and director Edward Albee. Around the time when he was appearing in Albee\'s Fragments, in Hollywood, they were looking for a young actor to star opposite Richard Gere in a new courtroom thriller, Primal Fear (1996).  Before the film was even released, his test screenings for the part were causing a Hollywood sensation, and he was soon offered roles in Woody Allen\'s Everyone Says I Love You (1996) and The People vs. Larry Flynt (1996). 
+He attended theater schools throughout his life, and eventually managed to find work on stage in New York as a member of the Signature players, who produced the works of playwright and director Edward Albee. Around the time when he was appearing in Albee\'s Fragments, in Hollywood, they were looking for a young actor to star opposite Richard Gere in a new courtroom thriller, Primal Fear (1996).  Before the film was even released, his test screenings for the part were causing a Hollywood sensation, and he was soon offered roles in Woody Allen\'s Everyone Says I Love You (1996) and The People vs. Larry Flynt (1996).
 
 Edward won the Golden Globe for Best Actor in a Supporting Role and received an Oscar nomination for Best Supporting Actor for his performance in Primal Fear (1996). In 1998, Norton gained 30 pounds of muscle and transformed his look into that of a monstrous skinhead for his role as a violent white supremacist in American History X (1998). This performance would earn him his second Oscar nomination, this time for Best Actor. In 1999 came the critically acclaimed Fight Club (1999)',
 				'created_at' => '2016-01-01 23:43:03',
 				'updated_at' => '2016-01-03 19:01:26',
 			),
+			
 		));
 	}
 

@@ -90,23 +90,18 @@
             <li role="details"><a href="#tags" aria-controls="tags" role="tab" data-toggle="tab">Tags</a></li>
          </ul>
 
+         {!! Form::model($movie, ['method'=>'Patch','url'=>'movies/'.$movie->movie_id,'files' => true]) !!}
          <div class="tab-content">
 
             @include('segments.layout.padding')
 
-            <div role="tabpanel" class="tab-pane fade in active" id="movie">
-               {!! Form::model($movie, ['method'=>'Patch','url'=>'movies/'.$movie->movie_id,'files' => true]) !!}
-                  <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
-                  @include('segments.forms.form_builder')
-            </div>
-
             <div role="tabpanel" class="tab-pane fade" id="cast">
                <div class="row">
-                  <div class="col-xs-8 col-sm-6 col-md-6 col-lg-4">
-                     <a class="btn btn-primary" onclick="getAvailableActors({{$movie->movie_id}})" href="javascript:void(0)"><i class="ft icon-character"></i> new cast</a>
-                     {!! Form::select('castlist', array('' => 'select ...'), '', ['class'=>'form-control','id'=>'castlist']) !!}
+                  <div class="col-xs-12">
+                     <a onclick="addCastMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-actor"></i> new cast</a>
                   </div>
                </div>
+               @include('segments.layout.padding')
                <div class="row">
                   <div class="col-xs-3"><b>Forename</b></div>
                   <div class="col-xs-3"><b>Surname</b></div>
@@ -118,12 +113,23 @@
 
             <div role="tabpanel" class="tab-pane fade" id="crew">
                <div class="row">
+                  <div class="col-xs-12">
+                     <a onclick="addCrewMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-director"></i> new crew</a>
+                  </div>
+               </div>
+               @include('segments.layout.padding')
+               <div class="row">
                   <div class="col-xs-3"><b>Forename</b></div>
                   <div class="col-xs-3"><b>Surname</b></div>
                   <div class="col-xs-3"><b>Position</b></div>
                   <div class="col-xs-1"></div>
                </div>
                @include('movies.crew')
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade in active" id="movie">
+               <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
+               @include('segments.forms.form_builder')
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="genres">
@@ -141,26 +147,21 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="tags">
-
                <div class="row">
                   <div class="col-xs-8 col-sm-6 col-md-6 col-lg-4">
                      <a data-toggle="modal" data-target="#new-tag-modal" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-tags"></i> new tag</a>
                   </div>
                </div>
-
                @include('segments.layout.padding')
-
                <div class="row tags">
                   @include('movies.tags')
                </div>
-
             </div>
 
             @include('segments.forms.submit')
 
-            {!! Form::close() !!}
-
          </div>
+         {!! Form::close() !!}
 
          @include('segments.layout.padding')
 
@@ -173,6 +174,71 @@
    {!! Form::hidden('movie_id',$movie->movie_id, ['id'=>'movie_id']) !!}
    {!! Form::hidden('person_id','', ['id'=>'person_id']) !!}
 
+   {{-- NEW CAST MODAL --}}
+   <div class="modal fade" id="new-cast-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header"><h4>Add Cast Member</h4></div>
+            <div class="modal-body">
+               <div class="form-group">
+                  {!! Form::label('new_cast', 'Actor Name:') !!}
+                  {!! Form::select('castlist', array('' => 'select ...'), '', ['class'=>'form-control','id'=>'castlist']) !!}
+               </div>
+               <div class="form-group">
+                  {!! Form::label('new_character', 'Character Name:') !!}
+                  {!! Form::text('new_character', '', ['class'=>'form-control']) !!}
+               </div>
+               <div id="new_cast_error" class="row has-error hide">
+                  <div class="col-xs-12 text-right">
+                     <label id="new_cast_error_message" for="formGroupInputSmall" class="control-label"></label>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <div class="col-xs-4 col-xs-offset-3">
+                  <button type="button" class="btn btn-xs btn-block btn-default" data-dismiss="modal">cancel</button>
+               </div>
+               <div class="col-xs-5">
+                  <button id="add_new_cast" type="button" class="btn btn-block btn-primary">Add</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   {{-- NEW CREW MODAL --}}
+   <div class="modal fade" id="new-crew-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header"><h4>Add Crew Member</h4></div>
+            <div class="modal-body">
+               <div class="form-group">
+                  {!! Form::label('new_crew', 'Crew Name:') !!}
+                  {!! Form::select('crewlist', array('' => 'select ...'), '', ['class'=>'form-control','id'=>'crewlist']) !!}
+               </div>
+               <div class="form-group">
+                  {!! Form::label('new_position', 'Position:') !!}
+                  {!! Form::select('new_position', array('' => 'select ...','Director','Producer','Writer'), '', ['class'=>'form-control','id'=>'new_position']) !!}
+               </div>
+               <div id="new_crew_error" class="row has-error hide">
+                  <div class="col-xs-12 text-right">
+                     <label id="new_crew_error_message" for="formGroupInputSmall" class="control-label"></label>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <div class="col-xs-4 col-xs-offset-3">
+                  <button type="button" class="btn btn-xs btn-block btn-default" data-dismiss="modal">cancel</button>
+               </div>
+               <div class="col-xs-5">
+                  <button id="add_new_crew" type="button" class="btn btn-block btn-primary">Add</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   {{-- NEW TAG MODAL --}}
    <div class="modal fade" id="new-tag-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
          <div class="modal-content">
@@ -200,11 +266,12 @@
       </div>
    </div>
 
+   {{-- REMOVE CAST MODAL --}}
    <div class="modal fade" id="remove-cast-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
          <div class="modal-content">
             <div class="modal-header"><h4>Delete Cast</h4></div>
-            <div class="modal-body"><p>Are you sure you want to delete this actor?</p></div>
+            <div class="modal-body"><p>Are you sure you want to delete this cast member?</p></div>
             <div class="modal-footer">
                <div class="col-xs-4 col-xs-offset-3">
                   <button type="button" class="btn btn-xs btn-block btn-default" data-dismiss="modal">cancel</button>
@@ -217,6 +284,7 @@
       </div>
    </div>
 
+   {{-- REMOVE CREW MODAL --}}
    <div class="modal fade" id="remove-crew-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
          <div class="modal-content">
@@ -233,8 +301,6 @@
          </div>
       </div>
    </div>
-
-
 
 @stop
 
