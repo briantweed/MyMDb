@@ -97,32 +97,25 @@
 
             <div role="tabpanel" class="tab-pane fade" id="cast">
                <div class="row">
-                  <div class="col-xs-12">
-                     <a onclick="addCastMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-actor"></i> new cast</a>
-                  </div>
-               </div>
-               @include('segments.layout.padding')
-               <div class="row">
                   <div class="col-xs-3"><b>Forename</b></div>
                   <div class="col-xs-3"><b>Surname</b></div>
                   <div class="col-xs-3"><b>Character</b></div>
-                  <div class="col-xs-1"></div>
+                  <div class="col-xs-3">
+                     <a onclick="addCastMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-actor"></i> <span class="hidden-sm">new cast</span></a>
+                  </div>
                </div>
                @include('movies.cast')
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="crew">
-               <div class="row">
-                  <div class="col-xs-12">
-                     <a onclick="addCrewMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-director"></i> new crew</a>
-                  </div>
-               </div>
-               @include('segments.layout.padding')
+
                <div class="row">
                   <div class="col-xs-3"><b>Forename</b></div>
                   <div class="col-xs-3"><b>Surname</b></div>
                   <div class="col-xs-3"><b>Position</b></div>
-                  <div class="col-xs-1"></div>
+                  <div class="col-xs-3">
+                     <a onclick="addCrewMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-director"></i> <span class="hidden-sm">new crew</span></a>
+                  </div>
                </div>
                @include('movies.crew')
             </div>
