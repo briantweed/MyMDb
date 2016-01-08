@@ -131,16 +131,13 @@
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="genres">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <a class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-genre"></i> <span class="hidden-sm">new genre</span></a>
+                  </div>
+               </div>
                <div class="row genres">
-                  @foreach($options->genres as $genre)
-                     <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3">
-                        {!! Form::label('genre_'.$genre->genre_id, $genre->type) !!}
-                     </div>
-                     <div class="col-xs-4 col-sm-6 col-md-3 col-lg-3 switch round">
-                        {!! Form::checkbox('genres[]', $genre->genre_id, $genre->selected, ['id' => 'genre_'.$genre->genre_id]) !!}
-                        {!! Form::label('genre_'.$genre->genre_id, $genre->type) !!}
-                     </div>
-                  @endforeach
+                  @include('movies.genres')
                </div>
             </div>
 
