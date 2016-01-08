@@ -38,15 +38,15 @@
             <div class="col-xs-12">
                @if(isset($person->image))
                   @if($person->cover_count == 1)
-                     <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$person->image}}"  />
+                     <img id="person-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$person->image}}"  />
                   @else
-                     <img id="movie-poster" class="img-responsive img-rounded" src="{{asset($person->image)}}" />
+                     <img id="person-poster" class="img-responsive img-rounded" src="{{asset($person->image)}}" />
                      @if( Request::is('people/*/edit'))
                         @include('segments.buttons.edit_image')
                      @endif
                   @endif
                @else
-                  <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
+                  <img id="person-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
                @endif
             </div>
          </div>

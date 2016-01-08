@@ -28,7 +28,7 @@
          {{-- cover image --}}
          <div class="row">
             <div class="col-xs-12">
-               <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
+               <img id="person-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
             </div>
 
          </div>
@@ -74,7 +74,6 @@
          </div>
 
          {!! Form::open(['url'=>'people','files' => true]) !!}
-            <input type="hidden" value="{{env('ROTTEN_KEY')}}" name="_tomatoes" />
             @include('segments.forms.form_builder')
             @include('segments.forms.submit')
          {!! Form::close() !!}

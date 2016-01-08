@@ -107,7 +107,11 @@ $(document).ready(function(){
       $('.modal .form-control').val('');
       clearModalSelectize();
       setPersonId('');
-   })
+   });
+
+   $('#empty-modal').on('hidden.bs.modal', function(e) {
+      $(this).html('');
+   });
 
    // remove cast member
    $('#add_new_cast').click(function() {
@@ -267,6 +271,46 @@ function clearModalSelectize() {
       control.clear();
    });
 }
+
+function getNewPersonForm() {
+   $.ajax({
+      type: 'POST',
+      url: '/'+base_path+'/addNewPerson',
+      data: {
+         _token: $('meta[name="_token"]').attr('content')
+      }
+   }).done(function(html){
+      $('#new-cast-modal').modal('hide');
+      $('#empty-modal').html(html).modal();
+      initializeDatePicker();
+   });
+}
+
+function createNewPerson() {
+   $.ajax({
+      type: 'POST',
+      url: '/'+base_path+'/createNewPerson',
+      data: $('#create_new_person_form').serialize()
+   }).done(function(html){
+      console.log(html);
+      $('.modal').modal('hide');
+   });
+}
+
+function initializeDatePicker() {
+   $('.input-group.date').datepicker({
+      format: "dd-mm-yyyy",
+      orientation: "bottom auto",
+      autoclose: true,
+      todayHighlight: true,
+      defaultViewDate: { year: 2000, month: 01, day: 01 }
+   });
+}
+
+
+
+
+
 
 //    $.ajax({
 //       type: 'POST',

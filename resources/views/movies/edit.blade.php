@@ -183,7 +183,8 @@
    {{-- REMOVE CREW MODAL --}}
    @include('modal.remove_crew')
 
-
+   <div class="modal fade" id="empty-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
+   
 @stop
 
 @section('extensions')

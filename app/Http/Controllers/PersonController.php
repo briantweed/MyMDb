@@ -122,6 +122,49 @@ class PersonController extends Controller {
 	}
 
 
+		public function addNewPerson()
+		{
+			if($this->isAdmin)
+			{
+				if(Request::ajax())
+		      {
+		         $data = Request::all();
+		         $movie_id = $data['movie'];
+		         $person_id = $data['person'];
+		         $crew_position = $data['position'];
+		         $movie = Movies::findorfail($movie_id);
+		         $movie->crew()->attach($person_id, array('position' => $crew_position));
+					return (String) view('movies.crew', compact('movie'));
+		      }
+	      }
+	      return "error";
+	   }
+
+		public function createNewPerson()
+		{
+			if(!$this->isAdmin) return view('auth.login');
+			$data = $request->all();
+			$person_exist = $this->checkExistingPeople($data['forename'], $data['surname']);
+			if(!$person_exist)
+			{
+				if($request->hasFile('image'))
+				{
+					if ($request->file('image')->isValid()) {
+						$person_concat = strtolower($data['forename']." ".$data['surname']);
+						$image_name = $this->createImageName($person_concat);
+						$image = $request->file('image')->move('images/people', $image_name);
+						$data['image'] = $image_name;
+					}
+				}
+				foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
+				unset($value);
+				$data['birthday'] = date("Y-m-d", strtotime($data['birthday']));
+				$update = Persons::create($data);
+				$inserted_id = $update->person_id;
+				return redirect()->action('PersonController@edit', [$inserted_id])->with('status', 'Person Added Successfully');
+			}
+			return redirect()->action('PersonController@create')->with('status', 'Person Already Exists');
+		}
 
 	/*
 	| --------------------------------------------------

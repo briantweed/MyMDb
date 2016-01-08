@@ -18,7 +18,7 @@
 
 {{-- input --}}
 @section('input')
-   <input type="file" id="{{$field}}" name="{{$field}}" onchange="previewImage(this,'movie-poster')" />
+   <input type="file" id="{{$field}}" name="{{$field}}" onchange="previewImage(this,'{{$preview}}')" />
 @overwrite
 
 {{-- input extra classes --}}

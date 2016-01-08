@@ -34,7 +34,7 @@
          <?php break;
 
          case "file": ?>
-            @include('segments.forms.file', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->label, 'required' => $field->required, 'field' => $field->field, 'value' => $value])
+            @include('segments.forms.file', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->label, 'required' => $field->required, 'field' => $field->field, 'value' => $value, 'preview' => $field->default])
          <?php break;
 
          case "hidden": ?>

@@ -43,13 +43,13 @@
             </div>
 
             <div class="row">
-               <div class="col-xs-12">
-                  <div class="slick">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="slick hide">
                      @foreach($details->most_recent as $movie)
                         <div>
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">
                               @if($movie->cover_count == 1)
-                                 <img class="img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->cover}}" />
+                                 <img class="img-rounded"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->cover}}" />
                               @else
                                  <img class="img-rounded" src="{{asset($movie->cover)}}" alt="{{$movie->cover}}" />
                               @endif

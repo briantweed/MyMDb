@@ -19,7 +19,11 @@ Route::post('addNewCrew', 'MovieController@addCrewMember');
 Route::post('removeCast', 'MovieController@removeCastMember');
 Route::post('removeCrew', 'MovieController@removeCrewMember');
 Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
+
+Route::post('addNewPerson', 'PersonController@addNewPerson');
+Route::post('createNewPerson', 'PersonController@createNewPerson');
 Route::resource('people', 'PersonController', ['only'=>['index','show','create','store','edit','update','destroy']]);
+
 Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);
 
 

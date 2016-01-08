@@ -18,7 +18,10 @@
             </div>
          </div>
          <div class="modal-footer">
-            <div class="col-xs-offset-4 col-xs-3">
+            <div class="col-xs-offset-3 col-xs-1">
+               <button type="button" onclick="getNewPersonForm()" class="btn btn-block btn-info" >+</button>
+            </div>
+            <div class="col-xs-3">
                <button type="button" class="btn btn-block btn-default" data-dismiss="modal">cancel</button>
             </div>
             <div class="col-xs-5">

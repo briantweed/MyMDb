@@ -11,7 +11,6 @@ $(document).ready(function(){
       autoplaySpeed: 3000,
       pauseOnHover: false,
       swipeToSlide: true
-   });
-
+   }).hide().removeClass('hide').fadeIn();
 
 });
