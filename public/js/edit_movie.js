@@ -41,7 +41,6 @@ $(document).ready(function(){
   });
 
    //  selctize
-
    $('#studio_id').selectize({
       create: true,
       persist: false
@@ -95,6 +94,17 @@ $(document).ready(function(){
    //   }
    // });
 
+   $('#cast_list').selectize({
+      persist: false,
+      create: function (input, callback){
+         getNewPersonForm(input);
+         callback({
+            value: 123,
+            text: input
+         });
+      },
+   });
+
    $('select').selectize();
 
    // confirmation of movie deletion
@@ -103,7 +113,7 @@ $(document).ready(function(){
    });
 
    // close modal, clear hidden person_id field
-   $('.modal').on('hidden.bs.modal', function(e) {
+   $('.modal').on('hide.bs.modal', function(e) {
       $('.modal .form-control').val('');
       clearModalSelectize();
       setPersonId('');
@@ -272,12 +282,13 @@ function clearModalSelectize() {
    });
 }
 
-function getNewPersonForm() {
+function getNewPersonForm(val) {
    $.ajax({
       type: 'POST',
       url: '/'+base_path+'/addNewPerson',
       data: {
-         _token: $('meta[name="_token"]').attr('content')
+         _token: $('meta[name="_token"]').attr('content'),
+         value: val
       }
    }).done(function(html){
       $('#new-cast-modal').modal('hide');

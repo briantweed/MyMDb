@@ -6656,15 +6656,15 @@ div.movie img {
   margin: 0.5em 0;
   box-shadow: 1px 1px 4px #555; }
 
-div.movie span.required {
-  color: #c81d1d;
-  font-family: Arial; }
-
 div.movie span.input-group-addon {
   cursor: pointer; }
 
 div.movie input[type="file"] {
   display: inline-block; }
+
+span.required {
+  color: #c81d1d;
+  font-family: Arial; }
 
 /*
 |----------------------------------------------------------------------

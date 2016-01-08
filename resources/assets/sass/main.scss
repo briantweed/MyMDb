@@ -619,11 +619,6 @@ div.movie {
 
    span {
 
-      &.required {
-         color: $required;
-         font-family: Arial;
-      }
-
       &.input-group-addon {
          cursor: pointer;
       }
@@ -634,6 +629,14 @@ div.movie {
       display: inline-block;
    }
 
+}
+
+span {
+
+   &.required {
+      color: $required;
+      font-family: Arial;
+   }
 }
 
 /*
