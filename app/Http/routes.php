@@ -7,7 +7,30 @@ Route::controllers([
 
 Route::get('/', 'WelcomeController@index');
 
+
+Route::post('aviary', 'AviaryController@replaceImage');
+Route::post('filter', 'AjaxController@filterMovies');
+Route::post('getAvailableCast', 'AjaxController@getAvailableCast');
+Route::post('getAvailableCrew', 'AjaxController@getAvailableCrew');
+
+Route::post('addtag', 'MovieController@addNewTag');
+Route::post('addNewCast', 'MovieController@addCastMember');
+Route::post('addNewCrew', 'MovieController@addCrewMember');
+Route::post('removeCast', 'MovieController@removeCastMember');
+Route::post('removeCrew', 'MovieController@removeCrewMember');
+Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
+Route::resource('people', 'PersonController', ['only'=>['index','show','create','store','edit','update','destroy']]);
+Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);
+
+
 Route::get('/admin', 'StudioController@index');
+Route::group(['prefix'=>'admin'], function() {
+	Route::resource('keywords', 'KeywordController', ['only'=>['index','show']]);
+	Route::resource('genres', 'GenreController', ['only'=>['index','show']]);
+	Route::resource('studios', 'StudioController', ['only'=>['index','show']]);
+	Route::resource('viewings', 'ViewingController', ['only'=>['index','show']]);
+});
+
 Route::get('/admin/seed', function(){
 	if(env('APP_ENV')=="local")
 	{
@@ -29,25 +52,4 @@ Route::get('/admin/seed', function(){
 		return Redirect::to('/admin')->with('status', 'Seeds created for all tables');
 	}
 	return Redirect::to('/admin')->with('status', 'Not allowed in production');
-});
-
-Route::post('aviary', 'AviaryController@replaceImage');
-Route::post('filter', 'AjaxController@filterMovies');
-Route::post('getAvailableCast', 'AjaxController@getAvailableCast');
-Route::post('getAvailableCrew', 'AjaxController@getAvailableCrew');
-
-Route::post('addtag', 'MovieController@addNewTag');
-Route::post('addNewCast', 'MovieController@addCastMember');
-Route::post('removeCast', 'MovieController@removeCastMember');
-Route::post('removeCrew', 'MovieController@removeCrewMember');
-Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
-Route::resource('people', 'PersonController', ['only'=>['index','show','create','store','edit','update','destroy']]);
-Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);
-
-
-Route::group(['prefix'=>'admin'], function() {
-	Route::resource('keywords', 'KeywordController', ['only'=>['index','show']]);
-	Route::resource('genres', 'GenreController', ['only'=>['index','show']]);
-	Route::resource('studios', 'StudioController', ['only'=>['index','show']]);
-	Route::resource('viewings', 'ViewingController', ['only'=>['index','show']]);
 });

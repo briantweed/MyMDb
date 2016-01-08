@@ -71,29 +71,29 @@ $(document).ready(function(){
    //   }
    // });
 
-   $('#crewlist').selectize({
-      // create: true,
-      // persist: false,
-      preload: true,
-      valueField: 'person_id',
-      labelField: 'full_name',
-      searchField: 'full_name',
-      options: [],
-      load: function(query, callback) {
-         this.settings.load = null;
-        $.ajax({
-           type: 'POST',
-           url: '/'+base_path+'/getAvailableCrew',
-           dataType: 'json',
-           data: {
-              _token: $('meta[name="_token"]').attr('content'),
-              movie: $('#movie_id').val(),
-           }
-        }).success(function(res) {
-           callback(res);
-        });
-     }
-   });
+   // $('#crewlist').selectize({
+   //    // create: true,
+   //    // persist: false,
+   //    preload: true,
+   //    valueField: 'person_id',
+   //    labelField: 'full_name',
+   //    searchField: 'full_name',
+   //    options: [],
+   //    load: function(query, callback) {
+   //       this.settings.load = null;
+   //      $.ajax({
+   //         type: 'POST',
+   //         url: '/'+base_path+'/getAvailableCrew',
+   //         dataType: 'json',
+   //         data: {
+   //            _token: $('meta[name="_token"]').attr('content'),
+   //            movie: $('#movie_id').val(),
+   //         }
+   //      }).success(function(res) {
+   //         callback(res);
+   //      });
+   //   }
+   // });
 
    $('select').selectize();
 
@@ -122,6 +122,23 @@ $(document).ready(function(){
          }
       }).done(function(html){
          $('#cast-list').html(html);
+         $('.modal').modal('hide');
+      });
+   });
+
+   // remove crew member
+   $('#add_new_crew').click(function() {
+      $.ajax({
+         type: 'POST',
+         url: '/'+base_path+'/addNewCrew',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            person: $('#person_id').val(),
+            movie: $('#movie_id').val(),
+            position: $('#crew_position').val(),
+         }
+      }).done(function(html){
+         $('#crew-list').html(html);
          $('.modal').modal('hide');
       });
    });

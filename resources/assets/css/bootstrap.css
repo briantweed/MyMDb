@@ -6546,6 +6546,9 @@ div.feature-content {
 .pagination {
   margin: 0; }
 
+.tab-content {
+  margin-top: 20px; }
+
 .modal-content .modal-header {
   border-bottom: none;
   border-radius: 6px 6px 0 0; }

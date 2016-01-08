@@ -130,14 +130,19 @@ class MovieController extends Controller {
 		$options->studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
 		$options->formats = DB::table('formats')->lists('type', 'format_id');
 		$options->actors = Persons::select(DB::raw("CONCAT(forename, ' ', surname) AS full_name"), 'person_id')
-									->whereNotIn('person_id', function($query) use ($movie_id)
-									{
-										$query->select('person_id')
-												->from('cast')
-												->where('movie_id', $movie_id);
-									})
-									->orderBy('forename')
-									->lists('full_name', 'person_id')->all();
+								->whereNotIn('person_id', function($query) use ($movie_id)
+								{
+									$query->select('person_id')
+											->from('cast')
+											->where('movie_id', $movie_id);
+								})
+								->orderBy('forename')
+								->lists('full_name', 'person_id')->all();
+
+		$options->crew = Persons::select(DB::raw("CONCAT(forename, ' ', surname) AS full_name"), 'person_id')
+								->orderBy('forename')
+								->lists('full_name', 'person_id')->all();
+
 		$options->keywords = DB::table('keywords')->orderBy('word')->get();
 		foreach($options->keywords as $keyword)
 		{
@@ -214,75 +219,105 @@ class MovieController extends Controller {
 
 	public function addCastMember()
    {
-      if(Request::ajax())
-      {
-         $data = Request::all();
-         $movie_id = $data['movie'];
-         $person_id = $data['person'];
-         $character_name = $data['character'];
-         $movie = Movies::findorfail($movie_id);
-         $movie->cast()->attach($person_id, array('character' => $character_name));
-			return (String) view('movies.cast', compact('movie'));
+		if($this->isAdmin)
+		{
+	      if(Request::ajax())
+	      {
+	         $data = Request::all();
+	         $movie_id = $data['movie'];
+	         $person_id = $data['person'];
+	         $character_name = $data['character'];
+	         $movie = Movies::findorfail($movie_id);
+	         $movie->cast()->attach($person_id, array('character' => $character_name));
+				return (String) view('movies.cast', compact('movie'));
+	      }
+      }
+      return "error";
+   }
+
+	public function addCrewMember()
+   {
+		if($this->isAdmin)
+		{
+			if(Request::ajax())
+	      {
+	         $data = Request::all();
+	         $movie_id = $data['movie'];
+	         $person_id = $data['person'];
+	         $crew_position = $data['position'];
+	         $movie = Movies::findorfail($movie_id);
+	         $movie->crew()->attach($person_id, array('position' => $crew_position));
+				return (String) view('movies.crew', compact('movie'));
+	      }
       }
       return "error";
    }
 
 	public function removeCastMember()
    {
-      if(Request::ajax())
-      {
-         $data = Request::all();
-         $movie_id = $data['movie'];
-         $person_id = $data['person'];
-         $movie = Movies::findorfail($movie_id);
-         $movie->cast()->detach($person_id);
-			return (String) view('movies.cast', compact('movie'));
+		if($this->isAdmin)
+		{
+	      if(Request::ajax())
+	      {
+	         $data = Request::all();
+	         $movie_id = $data['movie'];
+	         $person_id = $data['person'];
+	         $movie = Movies::findorfail($movie_id);
+	         $movie->cast()->detach($person_id);
+				return (String) view('movies.cast', compact('movie'));
+	      }
       }
       return "error";
    }
 
 	public function removeCrewMember()
    {
-      if(Request::ajax())
-      {
-         $data = Request::all();
-         $movie_id = $data['movie'];
-         $person_id = $data['person'];
-         $movie = Movies::findorfail($movie_id);
-         $movie->crew()->detach($person_id);
-			return (String) view('movies.crew', compact('movie'));
+		if($this->isAdmin)
+		{
+	      if(Request::ajax())
+	      {
+	         $data = Request::all();
+	         $movie_id = $data['movie'];
+	         $person_id = $data['person'];
+	         $movie = Movies::findorfail($movie_id);
+	         $movie->crew()->detach($person_id);
+				return (String) view('movies.crew', compact('movie'));
+	      }
       }
-      return "error";
+	   return "error";
    }
 
 	public function addNewTag()
 	{
-		if(Request::ajax())
+		if($this->isAdmin)
 		{
-			$data = Request::all();
-			$movie_id = $data['id'];
-			$word = ucwords(strtolower(trim($data['word'])));
-			if($word!=="")
+			if(Request::ajax())
 			{
-				if(!Keywords::where('word', $word)->exists())
+				$data = Request::all();
+				$movie_id = $data['id'];
+				$word = ucwords(strtolower(trim($data['word'])));
+				if($word!=="")
 				{
-					$created = Keywords::create(['word'=>$word]);
-					DB::table('tags')->insert(['movie_id'=>$movie_id, 'keyword_id'=>$created->keyword_id]);
-
-					$app = app();
-					$options = $app->make('stdClass');
-
-					$tags = DB::table('tags')->where('movie_id', $movie_id)->lists('keyword_id');
-					$options->keywords = DB::table('keywords')->orderBy('word')->get();
-					foreach($options->keywords as $keyword)
+					if(!Keywords::where('word', $word)->exists())
 					{
-						$keyword->selected = in_array($keyword->keyword_id, $tags) ? true : false;
+						$created = Keywords::create(['word'=>$word]);
+						DB::table('tags')->insert(['movie_id'=>$movie_id, 'keyword_id'=>$created->keyword_id]);
+
+						$app = app();
+						$options = $app->make('stdClass');
+
+						$tags = DB::table('tags')->where('movie_id', $movie_id)->lists('keyword_id');
+						$options->keywords = DB::table('keywords')->orderBy('word')->get();
+						foreach($options->keywords as $keyword)
+						{
+							$keyword->selected = in_array($keyword->keyword_id, $tags) ? true : false;
+						}
+						return (String) view('movies.tags', compact('options'));
 					}
-					return (String) view('movies.tags', compact('options'));
+					return "exists";
 				}
-				return "exists";
+				return "blank";
 			}
-			return "blank";
 		}
 		return "error";
 	}
