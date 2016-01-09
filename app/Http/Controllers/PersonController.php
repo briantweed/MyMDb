@@ -126,39 +126,46 @@ class PersonController extends Controller {
 	public function addNewPerson()
 	{
 		$data = Request::all();
-		$names = explode(' ', $data['value']);
+
+		$names = array_values(array_filter(explode(' ', $data['value'])));
+		$forename = count($names) ? ucwords(strtolower(array_shift($names))) : "";
+		$surname = count($names) ? ucwords(strtolower(implode(" ", $names))) : "";
+
 		$app = app();
 		$values = $app->make('stdClass');
-		$values->forename = ucwords(strtolower($names[0]));
-		$values->surname = ucwords(strtolower($names[1]));
-		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
+		$values->forename = $forename;
+		$values->surname = $surname;
+
+		$fields = DB::table('forms')
+					->where('name','create_person')
+					->where('type', '!=', 'file')
+					->orderBy('order', 'asc')
+					->get();
+
 		return (String) view('modal.create_person', compact('fields', 'values'));
 	}
 
 	public function createNewPerson()
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		$data = $request->all();
+		$data = Request::all();
 		$person_exist = $this->checkExistingPeople($data['forename'], $data['surname']);
 		if(!$person_exist)
 		{
-			if($request->hasFile('image'))
-			{
-				if ($request->file('image')->isValid()) {
-					$person_concat = strtolower($data['forename']." ".$data['surname']);
-					$image_name = $this->createImageName($person_concat);
-					$image = $request->file('image')->move('images/people', $image_name);
-					$data['image'] = $image_name;
-				}
-			}
 			foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
 			unset($value);
-			$data['birthday'] = date("Y-m-d", strtotime($data['birthday']));
-			$update = Persons::create($data);
-			$inserted_id = $update->person_id;
-			return redirect()->action('PersonController@edit', [$inserted_id])->with('status', 'Person Added Successfully');
+			if($data['forename']!="" && $data['surname']!="")
+			{
+				$data['birthday'] = date("Y-m-d", strtotime($data['birthday']));
+				$update = Persons::create($data);
+				$inserted_id = $update->person_id;
+				$new_person['value']  = $inserted_id;
+				$new_person['text']  = $data['forename']." ".$data['surname'];
+				return $new_person;
+			}
+			return "exists";
 		}
-		return redirect()->action('PersonController@create')->with('status', 'Person Already Exists');
+		return "error";
 	}
 
 	/*

@@ -1,5 +1,6 @@
 
 var base_path = $('body').data('base');
+var person_type = "";
 
 var featherEditor = new Aviary.Feather({
    apiKey: $('input[name="_aviary"]').val(),
@@ -34,72 +35,35 @@ var featherEditor = new Aviary.Feather({
 
 $(document).ready(function(){
 
-   // Tabs
+   initializeDatePicker();
+
    $('#movieTabs a').click(function (e) {
      e.preventDefault();
      $(this).tab('show');
   });
 
-   //  selctize
    $('#studio_id').selectize({
       create: true,
       persist: false
    });
 
-   // $('#castlist').selectize({
-   //    // create: true,
-   //    // persist: false,
-   //    preload: true,
-   //    valueField: 'person_id',
-   //    labelField: 'full_name',
-   //    searchField: 'full_name',
-   //    options: [],
-   //    load: function(query, callback) {
-   //       this.settings.load = null;
-   //      $.ajax({
-   //         type: 'POST',
-   //         url: '/'+base_path+'/getAvailableCast',
-   //         dataType: 'json',
-   //         data: {
-   //            _token: $('meta[name="_token"]').attr('content'),
-   //            movie: $('#movie_id').val(),
-   //         }
-   //      }).success(function(res){
-   //         callback(res);
-   //      });
-   //   }
-   // });
-
-   // $('#crewlist').selectize({
-   //    // create: true,
-   //    // persist: false,
-   //    preload: true,
-   //    valueField: 'person_id',
-   //    labelField: 'full_name',
-   //    searchField: 'full_name',
-   //    options: [],
-   //    load: function(query, callback) {
-   //       this.settings.load = null;
-   //      $.ajax({
-   //         type: 'POST',
-   //         url: '/'+base_path+'/getAvailableCrew',
-   //         dataType: 'json',
-   //         data: {
-   //            _token: $('meta[name="_token"]').attr('content'),
-   //            movie: $('#movie_id').val(),
-   //         }
-   //      }).success(function(res) {
-   //         callback(res);
-   //      });
-   //   }
-   // });
-
    $('#cast_list').selectize({
       persist: false,
-      create: function (input, callback){
+      create: function(input, callback){
+         setPersonType('cast');
          getNewPersonForm(input);
          callback({
-            value: 123,
+            text: input
+         });
+      },
+   });
+
+   $('#crew_list').selectize({
+      persist: false,
+      create: function(input, callback){
+         setPersonType('crew');
+         getNewPersonForm(input);
+         callback({
             text: input
          });
       },
@@ -107,23 +71,17 @@ $(document).ready(function(){
 
    $('select').selectize();
 
-   // confirmation of movie deletion
    $('#delete_movie').click(function() {
       $('#delete_movie_form').submit();
    });
 
-   // close modal, clear hidden person_id field
    $('.modal').on('hide.bs.modal', function(e) {
       $('.modal .form-control').val('');
-      clearModalSelectize();
       setPersonId('');
+      clearErrorMessages();
+      clearModalSelectize();
    });
 
-   $('#empty-modal').on('hidden.bs.modal', function(e) {
-      $(this).html('');
-   });
-
-   // remove cast member
    $('#add_new_cast').click(function() {
       $.ajax({
          type: 'POST',
@@ -135,12 +93,13 @@ $(document).ready(function(){
             character: $('#character_name').val(),
          }
       }).done(function(html){
+         var selectize = $("#cast_list")[0].selectize;
+         selectize.removeOption($('#person_id').val());
          $('#cast-list').html(html);
          $('.modal').modal('hide');
       });
    });
 
-   // remove crew member
    $('#add_new_crew').click(function() {
       $.ajax({
          type: 'POST',
@@ -152,12 +111,13 @@ $(document).ready(function(){
             position: $('#crew_position').val(),
          }
       }).done(function(html){
+         var selectize = $("#crew_list")[0].selectize;
+         selectize.removeOption($('#person_id').val());
          $('#crew-list').html(html);
          $('.modal').modal('hide');
       });
    });
 
-   // remove cast member
    $('#remove_cast').click(function(){
       $.ajax({
          type: 'POST',
@@ -173,7 +133,6 @@ $(document).ready(function(){
       });
    });
 
-   //remove crew member
    $('#remove_crew').click(function(){
       $.ajax({
          type: 'POST',
@@ -189,16 +148,6 @@ $(document).ready(function(){
       });
    });
 
-   // datepicker setup
-   $('.input-group.date').datepicker({
-      format: "dd-mm-yyyy",
-      orientation: "bottom auto",
-      autoclose: true,
-      todayHighlight: true,
-      defaultViewDate: { year: 2000, month: 01, day: 01 }
-   });
-
-   // Add new tag
    $('#add_new_tag').click(function(){
       $.ajax({
          type: 'POST',
@@ -232,17 +181,9 @@ $(document).ready(function(){
       });
    });
 
-   $('[data-toggle="modal"]').click(function(){
-      $('#new_tag').val("");
-      $('#new-tag-modal div.form-group').removeClass('has-error');
-      $('#new_tag_error').addClass('hide');
-      $('#new_tag_error_message').html('');
-   });
-
 }); // end of document ready
 
 
-// Image Editor
 function launchEditor() {
    $('#movie-poster').removeClass('img-responsive');
    featherEditor.launch({
@@ -250,7 +191,6 @@ function launchEditor() {
    });
    return false;
 }
-
 
 function addCastMember() {
    $('#new-cast-modal').modal();
@@ -274,6 +214,10 @@ function setPersonId(id) {
    $('#person_id').val(id);
 }
 
+function setPersonType(type) {
+   person_type = type;
+}
+
 function clearModalSelectize() {
    var $select = $('.modal select').selectize();
    $select.each(function(index, value) {
@@ -282,16 +226,22 @@ function clearModalSelectize() {
    });
 }
 
+function clearErrorMessages() {
+   $('div.form-group').removeClass('has-error');
+   $('[id$=_error]').addClass('hide');
+   $('[id$=error_message]').html('');
+}
+
 function getNewPersonForm(val) {
    $.ajax({
       type: 'POST',
       url: '/'+base_path+'/addNewPerson',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
-         value: val
+         value: val,
       }
    }).done(function(html){
-      $('#new-cast-modal').modal('hide');
+      $('#new-'+person_type+'-modal').modal('hide');
       $('#empty-modal').html(html).modal();
       initializeDatePicker();
    });
@@ -301,10 +251,37 @@ function createNewPerson() {
    $.ajax({
       type: 'POST',
       url: '/'+base_path+'/createNewPerson',
-      data: $('#create_new_person_form').serialize()
-   }).done(function(html){
-      console.log(html);
-      $('.modal').modal('hide');
+      data: $('#create_new_person_form').serialize(),
+   }).done(function(json){
+      switch(json) {
+         case "exists":
+            $('#create_person_error').removeClass('hide');
+            $('#create_person_error_message').html('already exists');
+         break;
+
+         case "error":
+            $('#create_person_error').removeClass('hide');
+            $('#create_person_error_message').html('did not save');
+         break;
+
+         default:
+            var newPerson = [];
+            newPerson.push({
+               text: json.text,
+               value: json.value.toString()
+            });
+            $('#empty-modal').modal('hide');
+            $('#new-'+person_type+'-modal').modal();
+            var selectize = $('#'+person_type+'_list')[0].selectize;
+            selectize.addOption(newPerson);
+            selectize.refreshOptions(false);
+            selectize.setValue(json.value,false);
+            var other_type = person_type == 'cast' ? 'crew' : 'cast';
+            var theOther = $('#'+other_type+'_list')[0].selectize;
+            theOther.addOption(newPerson);
+            theOther.refreshOptions(false);
+      }
+
    });
 }
 
@@ -315,26 +292,5 @@ function initializeDatePicker() {
       autoclose: true,
       todayHighlight: true,
       defaultViewDate: { year: 2000, month: 01, day: 01 }
-   });
+   }).on('hide', function(e){ e.stopPropagation() })
 }
-
-
-
-
-
-
-//    $.ajax({
-//       type: 'POST',
-//       url: '/'+$('body').data('base')+'/getAvailableActors',
-//       data: {
-//          _token: $('meta[name="_token"]').attr('content'),
-//          movie: id,
-//       }
-//    }).done(function(html){
-//       var options = "";
-//       $.each(html, function(full_name, person_id){
-//          $('#castlist').append("<option value='"+person_id+"'>"+full_name+"</option>");
-//       });
-//       $('#castlist').selectize();
-//    });
-// }

@@ -1,6 +1,5 @@
 @extends('app')
 
-
 {{-- Page Title --}}
 @section('title')
    Add New Person
@@ -23,7 +22,7 @@
    <div class="row movie">
 
       {{-- left column --}}
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+      <div class="{{env('LEFT_COLUMN')}}">
 
          {{-- cover image --}}
          <div class="row">
@@ -49,7 +48,7 @@
       {{-- end of left column --}}
 
       {{-- right column --}}
-      <div class="col-xs-12 col-sm-8 col-md-8 col-lg-offset-1 col-lg-8">
+      <div class="{{env('RIGHT_COLUMN')}}">
 
          {{-- errors column --}}
          @if($errors->any())

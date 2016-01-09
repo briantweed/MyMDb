@@ -1,7 +1,5 @@
 <?php
 
-   $left_column  = "col-xs-12 col-sm-4 col-md-4 col-lg-3";
-   $right_column = "col-xs-12 col-sm-8 col-md-8 col-lg-offset-1 col-lg-8";
    $label_class  = "col-xs-12 col-sm-4 col-md-4 col-lg-3";
    $input_class  = "col-xs-12 col-sm-8 col-md-8 col-lg-9"
 
@@ -34,7 +32,7 @@
    <div class="row movie">
 
       {{-- left column --}}
-      <div class="{{$left_column}}">
+      <div class="{{env('LEFT_COLUMN')}}">
 
          {{-- cover image --}}
          <div class="row">
@@ -67,7 +65,7 @@
       </div> {{-- end of left column --}}
 
       {{-- right column --}}
-      <div class="{{$right_column}}">
+      <div class="{{env('RIGHT_COLUMN')}}">
 
          {{-- film title --}}
          <div class="row">

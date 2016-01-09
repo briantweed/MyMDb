@@ -34,7 +34,7 @@
       <div class="row movie">
 
       {{-- left column --}}
-      <div class="col-xs-12 col-sm-3 col-md-4 col-lg-3">
+      <div class="{{env('LEFT_COLUMN')}}">
 
          {{-- cover image --}}
          <div class="row">
@@ -73,7 +73,7 @@
       {{-- end of left column --}}
 
       {{-- right column --}}
-      <div class="col-xs-12 col-sm-9 col-md-8 col-lg-offset-1 col-lg-8">
+      <div class="{{env('RIGHT_COLUMN')}}">
 
          {{-- errors column --}}
          @if($errors->any())
@@ -184,7 +184,7 @@
    @include('modal.remove_crew')
 
    <div class="modal fade" id="empty-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
-   
+
 @stop
 
 @section('extensions')
