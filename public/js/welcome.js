@@ -21,7 +21,7 @@ function displayMoviesByYear(start, end) {
    var base_path = 'MyMDb/public';
    $.ajax({
       type: "POST",
-      url: '/MyMDb/public/movieYearCount',
+      url: '/MyMDb/public/movieDecadeCount',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          start: start,

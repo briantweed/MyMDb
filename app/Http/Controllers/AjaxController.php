@@ -18,6 +18,13 @@ class AjaxController extends Controller
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
+   public function movieDecadeCount()
+   {
+      return Movies::select(DB::raw('floor(released/10)*10 as label'),DB::raw('count(*) as y'))
+            ->groupBy(DB::raw('floor(released/10)'))
+            ->get();
+   }
+
    public function movieYearCount()
    {
       if(Request::ajax())
