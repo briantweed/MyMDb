@@ -349,8 +349,9 @@ function startFilter(type) {
             // location.reload();
          break;
          default:
-            $('.main-content').html(html);
             $('.feature-content, .secondary-content, footer').hide();
+            $('.main-content').html(html);
+            $('html, body').animate({ scrollTop: 0 }, 0);
             Waves.attach('li.movie', ['waves-light']);
             $('img.lazy').lazyload({
                effect : "fadeIn",

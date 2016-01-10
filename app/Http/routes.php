@@ -10,6 +10,7 @@ Route::get('/', 'WelcomeController@index');
 
 Route::post('aviary', 'AviaryController@replaceImage');
 Route::post('filter', 'AjaxController@filterMovies');
+Route::post('movieYearCount', 'AjaxController@movieYearCount');
 
 Route::post('addtag', 'MovieController@addNewTag');
 Route::post('addNewCast', 'MovieController@addCastMember');

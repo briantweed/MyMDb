@@ -26,7 +26,7 @@ trait ImageFunctions
    			return 'images/'.$dest.'/'.$src;
    		}
       }
-      return ucwords(substr($name,0,1));
+      return $name ? ucwords(substr($name,0,1)) : "?";
 	}
 
    private function unlinkExistingImage($dest, $filename)

@@ -47,9 +47,19 @@ class WelcomeController extends Controller {
 
 		// get most popular actors
 		$details->actors = Persons::getActorCount(10);
+		foreach($details->actors as $actor)
+		{
+			$actor->cover = $this->checkImageExists($actor->image, $actor->name, 'people', false);
+			$actor->cover_count = strlen($actor->cover);
+		}
 
 		// get most popular directors
 		$details->directors = Persons::getDirectorCount(10);
+		foreach($details->directors as $director)
+		{
+			$director->cover = $this->checkImageExists($director->image, $director->name, 'people', false);
+			$director->cover_count = strlen($director->cover);
+		}
 
 		// highlight randomly selected movie
 		$details->highlight = Movies::selectRandomFilm();

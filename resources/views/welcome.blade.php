@@ -170,7 +170,11 @@
                   @foreach($details->actors as $actor)
                      <div class="row">
                         <div class="col-xs-4 col-sm-3 col-lg-2">
-                           <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}"  alt="{{$actor->image}}" />
+                           @if($actor->cover_count == 1)
+                              <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$actor->cover}}" alt="{{$actor->cover}}" />
+                           @else
+                              <img class="img-rounded img-responsive" src="{{asset($actor->cover)}}"  alt="{{$actor->cover}}" />
+                           @endif
                         </div>
                         <div class="col-xs-8">
                            {{$actor->name}}<br/>
@@ -192,7 +196,11 @@
                   @foreach($details->directors as $director)
                      <div class="row">
                         <div class="col-xs-4 col-sm-3 col-lg-2">
-                           <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}"  alt="{{$director->image}}"/>
+                           @if($director->cover_count == 1)
+                              <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$director->cover}}" alt="{{$director->cover}}" />
+                           @else
+                              <img class="img-rounded img-responsive" src="{{asset($director->cover)}}"  alt="{{$director->cover}}"/>
+                           @endif
                         </div>
                         <div class="col-xs-8">
                            {{$director->name}}<br/>
@@ -211,8 +219,32 @@
          </div>
       </div>
 
+      <div class="chart-content">
+
+         <div class="container">
+
+            @include('segments.layout.padding')
+            <div class="row">
+               <div class="col-xs-12">
+                  <h4>Movies By Year</h4>
+               </div>
+            </div>
+            @include('segments.layout.padding')
+            <div class="row">
+               <div class="col-xs-12">
+                  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+               </div>
+            </div>
+
+            @include('segments.layout.padding')
+
+         </div>
+
+      </div>
+
       {!! Html::script(elixir('js/mymdb.js')) !!}
       {!! Html::script('js/slick.js') !!}
+      {!! Html::script('js/canvas.js') !!}
       {!! Html::script('js/welcome.js') !!}
 
       <footer>

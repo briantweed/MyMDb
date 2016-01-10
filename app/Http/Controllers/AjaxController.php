@@ -18,6 +18,33 @@ class AjaxController extends Controller
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
+   public function movieYearCount()
+   {
+      if(Request::ajax())
+      {
+         $data = Request::all();
+         $start_year = $data['start'];
+         $end_year = $data['end'];
+         $query = Movies::select('released', DB::raw('count(*) as count'))
+                    ->groupBy('released')
+                    ->get();
+         $movies = [];
+         foreach($query as $result)
+         {
+            $movies[$result->released] = $result->count;
+         }
+         $years = [];
+         for($x=$start_year; $x<=$end_year; $x++)
+         {
+            $year = [];
+            $year['label'] = $x;
+            $year['y'] = isset($movies[$x]) ? $movies[$x] : 0;
+            $years[] = $year;
+         }
+      }
+      return $years;
+   }
+
    public function filterMovies()
    {
       if(Request::ajax())
