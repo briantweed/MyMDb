@@ -166,9 +166,12 @@
                </div>
             </div>
             <div class="row">
+               <div class="col-xs-12 image-thumbnail">
+                  <div id="actor-slidee" class="frame">
+                        <ul class="slidee">
+
                @foreach($details->actors as $actor)
-                  <div class="col-xs-2 col-lg-1 image-thumbnail">
-                     <a href="{{ action('PersonController@show', $actor->person_id) }}">
+                     <li><a href="{{ action('PersonController@show', $actor->person_id) }}">
                         @if($actor->cover_count == 1)
                            <img class="img-rounded img-responsive"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$actor->cover}}" alt="{{$actor->cover}}" />
                         @else
@@ -180,9 +183,14 @@
                            @else {{$actor->count}} movies
                            @endif
                         </span>
-                     </a>
+                     </a></li>
+                     @endforeach
+                  </ul>
+               </div>
+               <div id="scrollbar">
+                   <div class="handle"></div>
+               </div>
                   </div>
-               @endforeach
             </div>
 
             @include('segments.layout.padding')

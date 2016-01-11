@@ -39,6 +39,27 @@ $(document).ready(function(){
       ]
    }).hide().removeClass('hide').fadeIn();
 
+   $('#actor-slidee').sly({
+       dragSource : '.frame',
+       horizontal : 1,
+       itemNav: 'basic',
+       smart : 1,
+       activateOn : 'click',
+       mouseDragging : 1,
+       touchDragging : 1,
+       releaseSwing : 1,
+       scrollBy : 1,
+       activatePageOn : 'click',
+       speed : 50,
+       swingSpeed : 0.07,
+       elasticBounds : 1,
+       dragHandle : 1,
+       dynamicHandle : 1,
+       clickBar : 1,
+       scrollBar : $("#scrollbar"),
+       dragHandle : 1
+   });
+
    displayMoviesByYear(2000,2015);
 
 });
