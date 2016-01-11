@@ -10,31 +10,18 @@ $(document).ready(function(){
       autoplay: true,
       autoplaySpeed: 3000,
       pauseOnHover: true,
-      swipeToSlide: true
-   }).hide().removeClass('hide').fadeIn();
-
-   $('.slick-actors, .slick-directors').slick({
-      dots: false,
-      arrows: false,
-      infinite: false,
-      speed: 10,
-      slidesToShow: 8,
-      slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 3000,
-      pauseOnHover: true,
       swipeToSlide: true,
       responsive: [
          {
             breakpoint: 1200,
             settings: {
-               slidesToShow: 8
+               slidesToShow: 6
             }
          },
          {
             breakpoint: 992,
             settings: {
-               slidesToShow: 6
+               slidesToShow: 5
             }
          },
          {

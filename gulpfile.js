@@ -28,6 +28,7 @@ elixir(function(mix) {
       "autosize.js",
       "datepicker.js",
       paths.lazyload + "jquery.lazyload.js",
+      "sly.js",
       "setup.js",
    ], 'public/js/mymdb.js')
    .version([

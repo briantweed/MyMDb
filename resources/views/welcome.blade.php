@@ -131,7 +131,7 @@
 
             {{-- second row --}}
             <div class="row movie">
-               <div class="col-xs-2 col-sm-4 col-md-3 col-lg-offset-1 col-lg-2">
+               <div class="col-xs-2 col-sm-3 col-md-3 col-lg-offset-1 col-lg-2">
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
                      @if($details->highlight->cover_count == 1)
                         <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$details->highlight->cover}}" alt="{{$details->highlight->cover}}" />
@@ -140,7 +140,7 @@
                      @endif
                   </a>
                </div>
-               <div class="col-xs-10 col-sm-8 col-md-9 col-lg-8">
+               <div class="col-xs-10 col-sm-9 col-md-9 col-lg-8">
                   <h4>{{$details->highlight->name}} ({{$details->highlight->released}}) </h4>
                   <span class="rating-display @if($details->highlight->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$details->highlight->rating}} / 10'>{!!$details->highlight->rating_display!!}</span>
                   <br><br>{{$details->highlight->bio}}<br><br>
@@ -166,27 +166,23 @@
                </div>
             </div>
             <div class="row">
-               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <div class="image-thumbnail slick-actors hide">
-                     @foreach($details->actors as $actor)
-                        <div>
-                           <a href="{{ action('PersonController@show', $actor->person_id) }}">
-                              @if($actor->cover_count == 1)
-                                 <img class="img-rounded"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$actor->cover}}" alt="{{$actor->cover}}" />
-                              @else
-                                 <img class="img-rounded" src="{{asset($actor->cover)}}" alt="{{$actor->cover}}" />
-                              @endif
-                              <span class="title-wrapper hidden-xs text-center">
-                                 {{$actor->name}}<br/>
-                                 @if($actor->count == 1) 1 movie
-                                 @else {{$actor->count}} movies
-                                 @endif
-                              </span>
-                           </a>
-                        </div>
-                     @endforeach
+               @foreach($details->actors as $actor)
+                  <div class="col-xs-2 col-lg-1 image-thumbnail">
+                     <a href="{{ action('PersonController@show', $actor->person_id) }}">
+                        @if($actor->cover_count == 1)
+                           <img class="img-rounded img-responsive"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$actor->cover}}" alt="{{$actor->cover}}" />
+                        @else
+                           <img class="img-rounded img-responsive" src="{{asset($actor->cover)}}" alt="{{$actor->cover}}" />
+                        @endif
+                        <span class="title-wrapper hidden-xs text-center">
+                           {{$actor->name}}<br/>
+                           @if($actor->count == 1) 1 movie
+                           @else {{$actor->count}} movies
+                           @endif
+                        </span>
+                     </a>
                   </div>
-               </div>
+               @endforeach
             </div>
 
             @include('segments.layout.padding')
@@ -197,27 +193,23 @@
                </div>
             </div>
             <div class="row">
-               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <div class="image-thumbnail slick-directors hide">
-                     @foreach($details->directors as $director)
-                        <div>
-                           <a href="{{ action('PersonController@show', $director->person_id) }}">
-                              @if($director->cover_count == 1)
-                                 <img class="img-rounded"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$director->cover}}" alt="{{$director->cover}}" />
-                              @else
-                                 <img class="img-rounded" src="{{asset($director->cover)}}" alt="{{$director->cover}}" />
-                              @endif
-                              <span class="title-wrapper hidden-xs text-center">
-                                 {{$director->name}}<br/>
-                                 @if($director->count == 1) 1 movie
-                                 @else {{$director->count}} movies
-                                 @endif
-                              </span>
-                           </a>
-                        </div>
-                     @endforeach
-                  </div>
+               @foreach($details->directors as $director)
+               <div class="col-xs-2 col-lg-1 image-thumbnail">
+                  <a href="{{ action('PersonController@show', $director->person_id) }}">
+                     @if($director->cover_count == 1)
+                        <img class="img-rounded img-responsive"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$director->cover}}" alt="{{$director->cover}}" />
+                     @else
+                        <img class="img-rounded img-responsive" src="{{asset($director->cover)}}" alt="{{$director->cover}}" />
+                     @endif
+                     <span class="title-wrapper hidden-xs text-center">
+                        {{$director->name}}<br/>
+                        @if($director->count == 1) 1 movie
+                        @else {{$director->count}} movies
+                        @endif
+                     </span>
+                  </a>
                </div>
+               @endforeach
             </div>
 
             @include('segments.layout.padding')
