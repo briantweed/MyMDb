@@ -6598,6 +6598,9 @@ span.rating-display {
     span.rating-display i:before {
       text-align: left; }
 
+.canvasjs-chart-credit {
+  display: none; }
+
 /*
 |----------------------------------------------------------------------
 |  Welcome Page
@@ -6612,16 +6615,22 @@ div.top-rated a, div.lowest-rated a {
 |  Movies Index Page
 |----------------------------------------------------------------------
 */
-li.movie a {
+.image-thumbnail .slick-slide a {
+  padding: 3px 7.5px; }
+
+.image-thumbnail .slick-slide img {
+  padding: 0; }
+
+.image-thumbnail a {
   display: block;
   color: #202020;
   text-decoration: none; }
 
-li.movie img {
+.image-thumbnail img {
   margin-bottom: 0.5em;
   box-shadow: 1px 1px 4px #555; }
 
-li.movie span.title-wrapper {
+.image-thumbnail span.title-wrapper {
   height: 3.5em;
   line-height: 1;
   display: block;
@@ -7194,6 +7203,94 @@ span.required {
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+/* Dots */
+.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -45px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: #99a;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
 }
 
 /*!

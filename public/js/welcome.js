@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-   $('.slick').slick({
+   $('.slick-purchased').slick({
       dots: false,
       arrows: false,
       infinite: true,
@@ -9,8 +9,47 @@ $(document).ready(function(){
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 3000,
-      pauseOnHover: false,
+      pauseOnHover: true,
       swipeToSlide: true
+   }).hide().removeClass('hide').fadeIn();
+
+   $('.slick-actors, .slick-directors').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      speed: 10,
+      slidesToShow: 8,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      pauseOnHover: true,
+      swipeToSlide: true,
+      responsive: [
+         {
+            breakpoint: 1200,
+            settings: {
+               slidesToShow: 8
+            }
+         },
+         {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 6
+            }
+         },
+         {
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 4
+            }
+         },
+         {
+            breakpoint: 400,
+            settings: {
+               slidesToShow: 2
+            }
+         },
+      ]
    }).hide().removeClass('hide').fadeIn();
 
    displayMoviesByYear(2000,2015);
@@ -18,10 +57,10 @@ $(document).ready(function(){
 });
 
 function displayMoviesByYear(start, end) {
-   var base_path = 'MyMDb/public';
+   var base_path = $('body').data('base');
    $.ajax({
       type: "POST",
-      url: '/MyMDb/public/movieDecadeCount',
+      url: '/'+base_path+'/movieDecadeCount',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          start: start,
@@ -44,7 +83,6 @@ function displayMoviesByYear(start, end) {
                contentFormatter: function(e){
                   var str="";
                   for (var i = 0; i < e.entries.length; i++){
-                     console.log(e.entries[i]);
                      str = "<a href='javascript:void(0)' onclick=\"startFilter('year')\">"+e.entries[i].dataPoint.label+": ";
                      str += e.entries[i].dataPoint.y ==1 ? "1 movie" : e.entries[i].dataPoint.y + " movies";
                      str += "</a>";

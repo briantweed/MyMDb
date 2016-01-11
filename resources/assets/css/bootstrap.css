@@ -6579,6 +6579,9 @@ span.rating-display {
     span.rating-display i:before {
       text-align: left; }
 
+.canvasjs-chart-credit {
+  display: none; }
+
 /*
 |----------------------------------------------------------------------
 |  Welcome Page
@@ -6593,16 +6596,22 @@ div.top-rated a, div.lowest-rated a {
 |  Movies Index Page
 |----------------------------------------------------------------------
 */
-li.movie a {
+.image-thumbnail .slick-slide a {
+  padding: 3px 7.5px; }
+
+.image-thumbnail .slick-slide img {
+  padding: 0; }
+
+.image-thumbnail a {
   display: block;
   color: #202020;
   text-decoration: none; }
 
-li.movie img {
+.image-thumbnail img {
   margin-bottom: 0.5em;
   box-shadow: 1px 1px 4px #555; }
 
-li.movie span.title-wrapper {
+.image-thumbnail span.title-wrapper {
   height: 3.5em;
   line-height: 1;
   display: block;

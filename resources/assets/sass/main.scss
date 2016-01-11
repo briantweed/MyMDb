@@ -517,6 +517,9 @@ span.rating-display {
 
 }
 
+.canvasjs-chart-credit {
+   display: none;
+}
 
 /*
 |----------------------------------------------------------------------
@@ -541,8 +544,20 @@ div.top-rated, div.lowest-rated {
 */
 
 
-li.movie {
+.image-thumbnail {
 
+   .slick-slide{
+
+      a {
+         padding: 3px 7.5px;
+      }
+
+      img {
+         padding: 0
+      }
+
+   }
+   
    a {
       display: block;
       color: #202020;

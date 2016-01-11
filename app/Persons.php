@@ -21,7 +21,7 @@ class Persons extends Model {
 
 	public static function getActorCount($limit)
 	{
-		return Persons::select(DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
+		return Persons::select('persons.person_id', DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
 			->join('cast', 'cast.person_id', '=', 'persons.person_id')
 			->groupBy('cast.person_id')
 			->orderBy('count', 'desc')->orderBy('surname', 'asc')
@@ -31,7 +31,7 @@ class Persons extends Model {
 
 	public static function getDirectorCount($limit)
 	{
-		return Persons::select(DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
+		return Persons::select('persons.person_id', DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
 			->join('crew', 'crew.person_id', '=', 'persons.person_id')
 			->where('crew.position','director')
 			->groupBy('crew.person_id')

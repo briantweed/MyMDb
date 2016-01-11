@@ -44,7 +44,7 @@
 
             <div class="row">
                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  <div class="slick hide">
+                  <div class="slick-purchased hide">
                      @foreach($details->most_recent as $movie)
                         <div>
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">
@@ -161,56 +161,62 @@
             @include('segments.layout.padding')
 
             <div class="row">
-               <div class="col-xs-12 col-sm-6">
-                  <div class="row">
-                     <div class="col-xs-12">
-                        <h4>Most Popular Actors</h4>
-                     </div>
-                  </div>
-                  @foreach($details->actors as $actor)
-                     <div class="row">
-                        <div class="col-xs-4 col-sm-3 col-lg-2">
-                           @if($actor->cover_count == 1)
-                              <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$actor->cover}}" alt="{{$actor->cover}}" />
-                           @else
-                              <img class="img-rounded img-responsive" src="{{asset($actor->cover)}}"  alt="{{$actor->cover}}" />
-                           @endif
-                        </div>
-                        <div class="col-xs-8">
-                           {{$actor->name}}<br/>
-                           @if($actor->count == 1) 1 movie
-                           @else {{$actor->count}} movies
-                           @endif
-                        </div>
-                     </div>
-                     @include('segments.layout.padding')
-                  @endforeach
+               <div class="col-xs-12">
+                  <h4>Most Popular Actors</h4>
                </div>
-
-               <div class="col-xs-12 col-sm-6">
-                  <div class="row">
-                     <div class="col-xs-12">
-                        <h4>Most Popular Directors</h4>
-                     </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="image-thumbnail slick-actors hide">
+                     @foreach($details->actors as $actor)
+                        <div>
+                           <a href="{{ action('PersonController@show', $actor->person_id) }}">
+                              @if($actor->cover_count == 1)
+                                 <img class="img-rounded"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$actor->cover}}" alt="{{$actor->cover}}" />
+                              @else
+                                 <img class="img-rounded" src="{{asset($actor->cover)}}" alt="{{$actor->cover}}" />
+                              @endif
+                              <span class="title-wrapper hidden-xs text-center">
+                                 {{$actor->name}}<br/>
+                                 @if($actor->count == 1) 1 movie
+                                 @else {{$actor->count}} movies
+                                 @endif
+                              </span>
+                           </a>
+                        </div>
+                     @endforeach
                   </div>
-                  @foreach($details->directors as $director)
-                     <div class="row">
-                        <div class="col-xs-4 col-sm-3 col-lg-2">
-                           @if($director->cover_count == 1)
-                              <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$director->cover}}" alt="{{$director->cover}}" />
-                           @else
-                              <img class="img-rounded img-responsive" src="{{asset($director->cover)}}"  alt="{{$director->cover}}"/>
-                           @endif
+               </div>
+            </div>
+
+            @include('segments.layout.padding')
+
+            <div class="row">
+               <div class="col-xs-12">
+                  <h4>Most Popular Directors</h4>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="image-thumbnail slick-directors hide">
+                     @foreach($details->directors as $director)
+                        <div>
+                           <a href="{{ action('PersonController@show', $director->person_id) }}">
+                              @if($director->cover_count == 1)
+                                 <img class="img-rounded"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$director->cover}}" alt="{{$director->cover}}" />
+                              @else
+                                 <img class="img-rounded" src="{{asset($director->cover)}}" alt="{{$director->cover}}" />
+                              @endif
+                              <span class="title-wrapper hidden-xs text-center">
+                                 {{$director->name}}<br/>
+                                 @if($director->count == 1) 1 movie
+                                 @else {{$director->count}} movies
+                                 @endif
+                              </span>
+                           </a>
                         </div>
-                        <div class="col-xs-8">
-                           {{$director->name}}<br/>
-                           @if($director->count == 1) 1 movie
-                           @else {{$director->count}} movies
-                           @endif
-                        </div>
-                     </div>
-                     @include('segments.layout.padding')
-                  @endforeach
+                     @endforeach
+                  </div>
                </div>
             </div>
 
