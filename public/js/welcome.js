@@ -84,7 +84,7 @@ $(document).ready(function() {
       smart : 1
    });
 
-   displayMoviesByYear(2000,2015);
+   displayMoviesByDecade();
 
 });
 
@@ -92,11 +92,46 @@ function displayMoviesByYear(start, end) {
    var base_path = $('body').data('base');
    $.ajax({
       type: "POST",
-      url: '/'+base_path+'/movieDecadeCount',
+      url: '/'+base_path+'/movieYearCount',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          start: start,
          end: end
+      }
+   }).done(function(json) {
+      $('#movies-by-label').html("Movies By Year");
+      var chart = new CanvasJS.Chart("chartContainer", {
+         axisY:{
+            gridColor: "#ddd",
+            gridThickness: 1
+         },
+         toolTip: {
+            contentFormatter: function(e){
+               var str="";
+               for (var i = 0; i < e.entries.length; i++){
+                  str = "<a href='javascript:void(0)' onclick=\"startFilter('year')\">" + e.entries[i].dataPoint.label + ": ";
+                  str += e.entries[i].dataPoint.y ==1 ? "1 movie" : e.entries[i].dataPoint.y + " movies";
+                  str += "</a>";
+                  return (str);
+               }
+            }
+         },
+         data: [{
+            type: "column",
+            mouseover: onMouseOver,
+            dataPoints: json
+         }]
+      });
+      chart.render();
+   });
+}
+function displayMoviesByDecade() {
+   var base_path = $('body').data('base');
+   $.ajax({
+      type: "POST",
+      url: '/'+base_path+'/movieDecadeCount',
+      data: {
+         _token: $('meta[name="_token"]').attr('content')
       }
    }).done(function(json) {
       var chart = new CanvasJS.Chart("chartContainer", {
@@ -108,7 +143,9 @@ function displayMoviesByYear(start, end) {
             contentFormatter: function(e){
                var str="";
                for (var i = 0; i < e.entries.length; i++){
-                  str = "<a href='javascript:void(0)' onclick=\"startFilter('year')\">" + e.entries[i].dataPoint.label + ": ";
+                  var startYear = e.entries[i].dataPoint.label;
+                  var endYear = e.entries[i].dataPoint.label + 9;
+                  str = "<a href='javascript:void(0)' onclick=\"displayMoviesByYear("+startYear+", "+endYear+")\">" + e.entries[i].dataPoint.label + ": ";
                   str += e.entries[i].dataPoint.y ==1 ? "1 movie" : e.entries[i].dataPoint.y + " movies";
                   str += "</a>";
                   return (str);

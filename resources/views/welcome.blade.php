@@ -242,7 +242,7 @@
             @include('segments.layout.padding')
             <div class="row">
                <div class="col-xs-12">
-                  <h4>Movies By Year</h4>
+                  <h4 id="movies-by-label">Movies By Decade</h4>
                </div>
             </div>
             @include('segments.layout.padding')

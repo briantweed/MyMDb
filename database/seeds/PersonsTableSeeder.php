@@ -101,6 +101,36 @@ Edward won the Golden Globe for Best Actor in a Supporting Role and received an 
 				'created_at' => '2016-01-01 23:43:03',
 				'updated_at' => '2016-01-03 19:01:26',
 			),
+			7 => 
+			array (
+				'person_id' => 8,
+				'forename' => 'Drew',
+				'surname' => 'Barrymore',
+				'birthday' => '1975-02-22',
+				'image' => 'drew_barrymore_1452604247.jpg',
+				'bio' => 'Since melting audiences\' hearts - at the age of six - in Steven Spielberg\'s beloved sci-fi blockbuster, E.T. the Extra-Terrestrial, Drew Barrymore has emerged as one of the most endearing and talented actresses of her generation.
+
+Drew Blyth Barrymore was born in Culver City, California, to actors John Drew Barrymore and Jaid Barrymore (née Ildiko Jaid Mako). Her father came from a long showbusiness legacy, as the son of actors John Barrymore and Dolores Costello, while her mother was the daughter of Hungarian immigrants. Despite a troubled and much-publicized adolescence, and a string of bad girl parts in lurid crime dramas such as Poison Ivy (1992), Barrymore\'s star was officially on the rise during the mid-1990s, with notable appearances in Boys on the Side (1995), Woody Allen\'s Everyone Says I Love You (1996), and the game-changing horror hit Scream (1996).',
+				'created_at' => '2016-01-12 13:06:17',
+				'updated_at' => '2016-01-12 13:10:47',
+			),
+			8 => 
+			array (
+				'person_id' => 9,
+				'forename' => 'Adam',
+				'surname' => 'Sandler',
+				'birthday' => '1966-09-09',
+				'image' => 'adam_sandler_1452604835.jpg',
+			'bio' => 'Adam Richard Sandler was born September 9, 1966 in Brooklyn, New York, to Judith (Levine), a teacher at a nursery school, and Stanley Alan Sandler, an electrical engineer. He is of Russian Jewish descent. 
+
+At 17, he took his first step towards becoming a stand-up comedian when he spontaneously took the stage at a Boston comedy club. He found he was a natural comic. He nurtured his talent while at New York University (graduating with a Bachelor of Fine Arts degree in 1991) by performing regularly in clubs and at universities. 
+
+While working at a comedy club in L.A., he was "discovered" by Dennis Miller, who recommended him to Saturday Night Live producer Lorne Michaels and told him that Sandler had a big talent. This led to his being cast in the show in 1990, which he also wrote for in addition to performing. 
+
+After Saturday Night Live, Sandler went on to the movies, starring in such hit comedies as Airheads (1994), Happy Gilmore, Billy Madison  and Big Daddy.',
+				'created_at' => '2016-01-12 13:10:13',
+				'updated_at' => '2016-01-12 13:20:35',
+			),
 		));
 	}
 

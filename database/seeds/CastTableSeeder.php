@@ -68,6 +68,24 @@ class CastTableSeeder extends Seeder {
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
+			6 => 
+			array (
+				'cast_id' => 7,
+				'movie_id' => 16,
+				'person_id' => 8,
+				'character' => 'Lucy Whitmore',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			7 => 
+			array (
+				'cast_id' => 8,
+				'movie_id' => 16,
+				'person_id' => 9,
+				'character' => 'Henry Roth',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
 		));
 	}
 

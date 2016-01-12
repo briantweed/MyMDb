@@ -8,7 +8,7 @@ var featherEditor = new Aviary.Feather({
    displayImageSize: true,
    noCloseButton: false,
    onReady: function(){
-      $('#movie-poster').addClass('img-responsive');
+      $('#person-poster').addClass('img-responsive');
    },
    onSave: function(imageID, newUrl) {
       $.ajax({
@@ -18,12 +18,12 @@ var featherEditor = new Aviary.Feather({
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             img: newUrl,
-            src: $('#movie-poster').attr('src'),
+            src: $('#person-poster').attr('src'),
             dest: "people"
          }
      }).done(function(json) {
         console.log(json.err);
-        $('#movie-poster').prop("src", json.src+"?"+json.time);
+        $('#person-poster').prop("src", json.src+"?"+json.time);
         featherEditor.close();
      });
    }
@@ -48,9 +48,9 @@ $(document).ready(function(){
 });
 
 function launchEditor() {
-   $('#movie-poster').removeClass('img-responsive');
+   $('#person-poster').removeClass('img-responsive');
    featherEditor.launch({
-      image:  'movie-poster'
+      image:  'person-poster'
    });
    return false;
 }
