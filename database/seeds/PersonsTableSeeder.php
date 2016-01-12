@@ -131,6 +131,49 @@ After Saturday Night Live, Sandler went on to the movies, starring in such hit c
 				'created_at' => '2016-01-12 13:10:13',
 				'updated_at' => '2016-01-12 13:20:35',
 			),
+			9 => 
+			array (
+				'person_id' => 10,
+				'forename' => 'Sigourney',
+				'surname' => 'Weaver',
+				'birthday' => '1949-10-08',
+				'image' => 'sigourney_weaver_1452606281.jpg',
+			'bio' => 'Sigourney Weaver (born Susan Alexandra Weaver; October 8, 1949) is an American actress and film producer. Following her film debut as a minor character in Annie Hall, she quickly came to prominence in 1979 with her first lead role as Ellen Ripley in Alien. She reprised the role in three sequels: Aliens, for which she was nominated for the Academy Award Best Actress; Alien 3, and Alien: Resurrection. 
+
+She is also known for her starring roles in the box-office hits Ghostbusters, Ghostbusters 2 and Avatar.',
+				'created_at' => '2016-01-12 13:44:41',
+				'updated_at' => '2016-01-12 13:46:19',
+			),
+			10 => 
+			array (
+				'person_id' => 11,
+				'forename' => 'Johnny',
+				'surname' => 'Depp',
+				'birthday' => '1963-06-09',
+				'image' => 'johnny_depp_1452606877.jpg',
+			'bio' => 'Born John Christopher Depp II in Owensboro, Kentucky, on June 9, 1963, to Betty Sue (Wells), who worked as a waitress, and John Christopher Depp, a civil engineer.
+
+Depp was raised in Florida. He dropped out of school when he was 15, and fronted a series of music-garage bands, including one named &#039;The Kids&#039;. However, it was when he married Lori Anne Allison (Lori A. Depp) that he took up the job of being a ballpoint-pen salesman to support himself and his wife. A visit to Los Angeles, California, with his wife, however, happened to be a blessing in disguise, when he met up with actor Nicolas Cage, who advised him to turn to acting, which culminated in Depp&#039;s film debut in the low-budget horror film, A Nightmare on Elm Street, where he played a teenager who falls prey to dream-stalking demon Freddy Krueger.
+
+Depp has played many characters in his career, including another fact-based one, Insp. Fred Abberline in From Hell. He stole the show from screen greats such as Antonio Banderas in the finale to Robert Rodriguez&#039;s &quot;mariachi&quot; trilogy, Once Upon a Time in Mexico. In that same year he starred in the marvelous family blockbuster Pirates of the Caribbean: The Curse of the Black Pearl, playing a character that only the likes of Depp could pull off: the charming, conniving and roguish Capt. Jack Sparrow. The film&#039;s enormous success has opened several doors for his career and included an Oscar nomination.',
+				'created_at' => '2016-01-12 13:54:37',
+				'updated_at' => '2016-01-12 13:54:37',
+			),
+			11 => 
+			array (
+				'person_id' => 12,
+				'forename' => 'James',
+				'surname' => 'Cagney',
+				'birthday' => '1970-01-01',
+				'image' => 'james_cagney_1452607234.jpg',
+				'bio' => 'James Francis Cagney, Jr. was an American actor and dancer, both on stage and in film, though he had his greatest impact in film. 
+
+Known for his consistently energetic performances, distinctive vocal style, and deadpan comic timing, he won acclaim and major awards for a wide variety of performances. He is best remembered for playing multifaceted tough guys in movies such as The Public Enemy, Angels with Dirty Faces, and White Heat and was even typecast or limited by this view earlier in his career. 
+
+In 1999, the American Film Institute ranked him eighth among its list of greatest male stars of Classic Hollywood Cinema. Orson Welles said of Cagney, &quot;he was maybe the greatest actor who ever appeared in front of a camera&quot;  and Stanley Kubrick considered him to be one of the best actors of all time.',
+				'created_at' => '2016-01-12 14:00:34',
+				'updated_at' => '2016-01-12 14:00:34',
+			),
 		));
 	}
 

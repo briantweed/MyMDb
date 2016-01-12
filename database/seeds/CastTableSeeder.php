@@ -86,6 +86,114 @@ class CastTableSeeder extends Seeder {
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
+			8 => 
+			array (
+				'cast_id' => 9,
+				'movie_id' => 3,
+				'person_id' => 10,
+				'character' => 'Ellen Ripley',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			9 => 
+			array (
+				'cast_id' => 10,
+				'movie_id' => 4,
+				'person_id' => 10,
+				'character' => 'Ellen Ripley',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			10 => 
+			array (
+				'cast_id' => 11,
+				'movie_id' => 5,
+				'person_id' => 10,
+				'character' => 'Ellen Ripley',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			11 => 
+			array (
+				'cast_id' => 12,
+				'movie_id' => 6,
+				'person_id' => 10,
+				'character' => 'Ellen Ripley',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			12 => 
+			array (
+				'cast_id' => 13,
+				'movie_id' => 38,
+				'person_id' => 10,
+				'character' => 'The Director',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			13 => 
+			array (
+				'cast_id' => 14,
+				'movie_id' => 24,
+				'person_id' => 10,
+				'character' => 'Dr. Grace Augustine',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			14 => 
+			array (
+				'cast_id' => 15,
+				'movie_id' => 90,
+				'person_id' => 10,
+				'character' => 'The Big Guy',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			15 => 
+			array (
+				'cast_id' => 16,
+				'movie_id' => 55,
+				'person_id' => 10,
+				'character' => 'Dana Barrett',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			16 => 
+			array (
+				'cast_id' => 17,
+				'movie_id' => 154,
+				'person_id' => 10,
+				'character' => 'Ship\'s Computer',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			17 => 
+			array (
+				'cast_id' => 18,
+				'movie_id' => 2,
+				'person_id' => 11,
+				'character' => 'The Mad Hatter',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			18 => 
+			array (
+				'cast_id' => 19,
+				'movie_id' => 14,
+				'person_id' => 12,
+				'character' => 'Rocky Sullivan',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			19 => 
+			array (
+				'cast_id' => 21,
+				'movie_id' => 15,
+				'person_id' => 12,
+				'character' => 'Cody Jarrett',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
 		));
 	}
 
