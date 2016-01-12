@@ -168,29 +168,30 @@
             <div class="row">
                <div class="col-xs-12 image-thumbnail">
                   <div id="actor-slidee" class="frame">
-                        <ul class="slidee">
-
-               @foreach($details->actors as $actor)
-                     <li><a href="{{ action('PersonController@show', $actor->person_id) }}">
-                        @if($actor->cover_count == 1)
-                           <img class="img-rounded img-responsive"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$actor->cover}}" alt="{{$actor->cover}}" />
-                        @else
-                           <img class="img-rounded img-responsive" src="{{asset($actor->cover)}}" alt="{{$actor->cover}}" />
-                        @endif
-                        <span class="title-wrapper hidden-xs text-center">
-                           {{$actor->name}}<br/>
-                           @if($actor->count == 1) 1 movie
-                           @else {{$actor->count}} movies
-                           @endif
-                        </span>
-                     </a></li>
-                     @endforeach
-                  </ul>
-               </div>
-               <div id="scrollbar">
-                   <div class="handle"></div>
-               </div>
+                     <ul class="slidee">
+                        @foreach($details->actors as $actor)
+                           <li>
+                              <a href="{{ action('PersonController@show', $actor->person_id) }}">
+                                 @if($actor->cover_count == 1)
+                                    <img class="img-rounded img-responsive"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$actor->cover}}" alt="{{$actor->cover}}" />
+                                 @else
+                                    <img class="img-rounded img-responsive" src="{{asset($actor->cover)}}" alt="{{$actor->cover}}" />
+                                 @endif
+                                 <span class="title-wrapper hidden-xs text-center">
+                                    {{$actor->name}}<br/>
+                                    @if($actor->count == 1) 1 movie
+                                    @else {{$actor->count}} movies
+                                    @endif
+                                 </span>
+                              </a>
+                           </li>
+                        @endforeach
+                     </ul>
                   </div>
+                  <div class="scrollbar" id="actor-scrollbar">
+                      <div class="handle"></div>
+                  </div>
+               </div>
             </div>
 
             @include('segments.layout.padding')
@@ -201,23 +202,32 @@
                </div>
             </div>
             <div class="row">
-               @foreach($details->directors as $director)
-               <div class="col-xs-2 col-lg-1 image-thumbnail">
-                  <a href="{{ action('PersonController@show', $director->person_id) }}">
-                     @if($director->cover_count == 1)
-                        <img class="img-rounded img-responsive"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$director->cover}}" alt="{{$director->cover}}" />
-                     @else
-                        <img class="img-rounded img-responsive" src="{{asset($director->cover)}}" alt="{{$director->cover}}" />
-                     @endif
-                     <span class="title-wrapper hidden-xs text-center">
-                        {{$director->name}}<br/>
-                        @if($director->count == 1) 1 movie
-                        @else {{$director->count}} movies
-                        @endif
-                     </span>
-                  </a>
+               <div class="col-xs-12 image-thumbnail">
+                  <div id="director-slidee" class="frame">
+                     <ul class="slidee">
+                        @foreach($details->directors as $director)
+                           <li>
+                              <a href="{{action('PersonController@show', $director->person_id) }}">
+                                 @if($director->cover_count == 1)
+                                    <img class="img-rounded img-responsive"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$director->cover}}" alt="{{$director->cover}}" />
+                                 @else
+                                    <img class="img-rounded img-responsive" src="{{asset($director->cover)}}" alt="{{$director->cover}}" />
+                                 @endif
+                                 <span class="title-wrapper hidden-xs text-center">
+                                    {{$director->name}}<br/>
+                                    @if($director->count == 1) 1 movie
+                                    @else {{$director->count}} movies
+                                    @endif
+                                 </span>
+                              </a>
+                           </li>
+                        @endforeach
+                     </ul>
+                  </div>
+                  <div class="scrollbar" id="director-scrollbar">
+                      <div class="handle"></div>
+                  </div>
                </div>
-               @endforeach
             </div>
 
             @include('segments.layout.padding')
@@ -232,7 +242,7 @@
             @include('segments.layout.padding')
             <div class="row">
                <div class="col-xs-12">
-                  <h4>Movies By Year</h4>
+                  <h4 id="movies-by-label">Movies By Decade</h4>
                </div>
             </div>
             @include('segments.layout.padding')
