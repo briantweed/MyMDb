@@ -16,7 +16,9 @@ class Persons extends Model {
 
 	public function movies()
 	{
-		return $this->belongsToMany('App\Movies', 'cast', 'person_id', 'movie_id')->withPivot('character');
+		return $this->belongsToMany('App\Movies', 'cast', 'person_id', 'movie_id')
+						->withPivot('character')
+						->orderBy('sort_name', 'asc');
 	}
 
 	public static function getActorCount($limit)

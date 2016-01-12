@@ -37,12 +37,16 @@ class Movies extends Model {
 
 	public function cast()
 	{
-		return $this->belongsToMany('App\Persons', 'cast', 'movie_id', 'person_id')->withPivot('character');
+		return $this->belongsToMany('App\Persons', 'cast', 'movie_id', 'person_id')
+						->withPivot('character')
+						->orderBy('forename', 'asc');
 	}
 
 	public function crew()
 	{
-		return $this->belongsToMany('App\Persons', 'crew', 'movie_id', 'person_id')->withPivot('position');
+		return $this->belongsToMany('App\Persons', 'crew', 'movie_id', 'person_id')
+						->withPivot('position')
+						->orderBy('forename', 'asc');
 	}
 
 	public function genres()
