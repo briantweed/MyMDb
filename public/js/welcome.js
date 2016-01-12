@@ -1,16 +1,21 @@
-$(document).ready(function(){
+$(window).resize(function(e) {
+   $('#actor-slidee').sly('reload');
+   $('#director-slidee').sly('reload');
+});
+
+$(document).ready(function() {
 
    $('.slick-purchased').slick({
-      dots: false,
-      arrows: false,
-      infinite: true,
-      speed: 800,
-      slidesToShow: 6,
-      slidesToScroll: 1,
-      autoplay: true,
       autoplaySpeed: 3000,
       pauseOnHover: true,
       swipeToSlide: true,
+      slidesToScroll: 1,
+      slidesToShow: 6,
+      infinite: true,
+      autoplay: true,
+      arrows: false,
+      dots: false,
+      speed: 800,
       responsive: [
          {
             breakpoint: 1200,
@@ -40,45 +45,43 @@ $(document).ready(function(){
    }).hide().removeClass('hide').fadeIn();
 
    $('#actor-slidee').sly({
-       dragSource : '#actor-slidee',
-       horizontal : 1,
-       itemNav: 'basic',
-       smart : 1,
-       activateOn : 'click',
-       mouseDragging : 1,
-       touchDragging : 1,
-       releaseSwing : 1,
-       scrollBy : 1,
-       activatePageOn : 'click',
-       speed : 50,
-       swingSpeed : 0.07,
-       elasticBounds : 1,
-       dragHandle : 1,
-       dynamicHandle : 1,
-       clickBar : 1,
-       scrollBar : $("#actor-scrollbar"),
-       dragHandle : 1
+      scrollBar : $("#actor-scrollbar"),
+      dragSource : '#actor-slidee',
+      activatePageOn : 'click',
+      activateOn : 'click',
+      itemNav: 'basic',
+      mouseDragging : 1,
+      touchDragging : 1,
+      swingSpeed : 0.07,
+      elasticBounds : 1,
+      dynamicHandle : 1,
+      releaseSwing : 1,
+      horizontal : 1,
+      dragHandle : 1,
+      scrollBy : 1,
+      clickBar : 1,
+      speed : 50,
+      smart : 1
    });
 
    $('#director-slidee').sly({
-       dragSource : '#director-slidee',
-       horizontal : 1,
-       itemNav: 'basic',
-       smart : 1,
-       activateOn : 'click',
-       mouseDragging : 1,
-       touchDragging : 1,
-       releaseSwing : 1,
-       scrollBy : 1,
-       activatePageOn : 'click',
-       speed : 50,
-       swingSpeed : 0.07,
-       elasticBounds : 1,
-       dragHandle : 1,
-       dynamicHandle : 1,
-       clickBar : 1,
-       scrollBar : $("#director-scrollbar"),
-       dragHandle : 1
+      scrollBar : $("#director-scrollbar"),
+      dragSource : '#director-slidee',
+      activatePageOn : 'click',
+      activateOn : 'click',
+      itemNav: 'basic',
+      mouseDragging : 1,
+      touchDragging : 1,
+      swingSpeed : 0.07,
+      elasticBounds : 1,
+      dynamicHandle : 1,
+      releaseSwing : 1,
+      horizontal : 1,
+      dragHandle : 1,
+      scrollBy : 1,
+      clickBar : 1,
+      speed : 50,
+      smart : 1
    });
 
    displayMoviesByYear(2000,2015);
@@ -97,39 +100,26 @@ function displayMoviesByYear(start, end) {
       }
    }).done(function(json) {
       var chart = new CanvasJS.Chart("chartContainer", {
-            // title:{
-            //    text: ""
-            // },
-            // axisX:{
-            //   title: "year",
-            // },
-            axisY:{
-            //   title: "number",
-              gridColor: "#ddd",
-              gridThickness: 1
-            },
-            toolTip: {
-               contentFormatter: function(e){
-                  var str="";
-                  for (var i = 0; i < e.entries.length; i++){
-                     str = "<a href='javascript:void(0)' onclick=\"startFilter('year')\">"+e.entries[i].dataPoint.label+": ";
-                     str += e.entries[i].dataPoint.y ==1 ? "1 movie" : e.entries[i].dataPoint.y + " movies";
-                     str += "</a>";
-                     return (str);
-                 }
-              }
-           },
-            data: [
-               {
-                  type: "column",
-                  mouseover: onMouseOver,
-                  // toolTipContent: {
-                  //    "<a href='javascript:void(0)' onclick=\"startFilter('year')\">{label}: {y} movies</a>",
-                  // },
-
-               dataPoints: json
+         axisY:{
+            gridColor: "#ddd",
+            gridThickness: 1
+         },
+         toolTip: {
+            contentFormatter: function(e){
+               var str="";
+               for (var i = 0; i < e.entries.length; i++){
+                  str = "<a href='javascript:void(0)' onclick=\"startFilter('year')\">" + e.entries[i].dataPoint.label + ": ";
+                  str += e.entries[i].dataPoint.y ==1 ? "1 movie" : e.entries[i].dataPoint.y + " movies";
+                  str += "</a>";
+                  return (str);
+               }
             }
-         ]
+         },
+         data: [{
+            type: "column",
+            mouseover: onMouseOver,
+            dataPoints: json
+         }]
       });
       chart.render();
    });
