@@ -46,7 +46,7 @@ class WelcomeController extends Controller {
 		}
 
 		// get most popular actors
-		$details->actors = Persons::getActorCount(10);
+		$details->actors = Persons::getActorCount(20);
 		foreach($details->actors as $actor)
 		{
 			$actor->cover = $this->checkImageExists($actor->image, $actor->name, 'people', false);

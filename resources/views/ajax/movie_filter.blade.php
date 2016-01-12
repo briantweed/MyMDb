@@ -52,7 +52,7 @@
             <h4>People</h4>
             <ul id="people-filter-results"class="xs-block-grid-3 sm-block-grid-6 md-block-grid-8 lg-block-grid-8">
                @foreach($people as $person)
-                  <li class="movie text-center">
+                  <li class="image-thumbnail text-center">
                      <a href="{{ action('PersonController@show', $person->person_id) }}">
                         @if($person->cover_count == 1)
                            <img class="img-responsive img-rounded lazy" src="http://placehold.it/300x450/cccccc/ffffff?text={{$person->cover}}"  />

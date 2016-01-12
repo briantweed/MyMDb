@@ -112,7 +112,6 @@ $(document).ready(function(){
          }
       }).done(function(html){
          var selectize = $("#crew_list")[0].selectize;
-         selectize.removeOption($('#person_id').val());
          $('#crew-list').html(html);
          $('.modal').modal('hide');
       });

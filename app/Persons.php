@@ -18,7 +18,7 @@ class Persons extends Model {
 	{
 		return $this->belongsToMany('App\Movies', 'cast', 'person_id', 'movie_id')
 						->withPivot('character')
-						->orderBy('sort_name', 'asc');
+						->orderBy('released', 'desc');
 	}
 
 	public static function getActorCount($limit)
@@ -26,7 +26,7 @@ class Persons extends Model {
 		return Persons::select('persons.person_id', DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
 			->join('cast', 'cast.person_id', '=', 'persons.person_id')
 			->groupBy('cast.person_id')
-			->orderBy('count', 'desc')->orderBy('surname', 'asc')
+			->orderBy('count', 'desc')->orderBy('forename', 'asc')
 			->take($limit)
 			->get();
 	}
@@ -37,7 +37,7 @@ class Persons extends Model {
 			->join('crew', 'crew.person_id', '=', 'persons.person_id')
 			->where('crew.position','director')
 			->groupBy('crew.person_id')
-			->orderBy('count', 'desc')->orderBy('surname', 'asc')
+			->orderBy('count', 'desc')->orderBy('forename', 'asc')
 			->take($limit)
 			->get();
 	}

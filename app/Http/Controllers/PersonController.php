@@ -21,7 +21,7 @@ class PersonController extends Controller {
 
 	public function index()
 	{
-		$people = Persons::orderBy('forename')->get();
+		$people = Persons::orderBy('forename')->paginate(48);
 		foreach($people as $person)
 		{
 			$person->birthday = date("jS F Y",strtotime($person->birthday));
@@ -95,7 +95,7 @@ class PersonController extends Controller {
 		if(!$person) return view('errors.404');
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
 		$person->cover_count = strlen($person->image);
-		$person->birthday = date('d-m-Y', strtotime($person->birthday));
+		$person->birthday = $person->birthday ? date('d-m-Y', strtotime($person->birthday)): "";
 		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
 		$values = json_decode($person);
 		$user = $this->isAdmin;

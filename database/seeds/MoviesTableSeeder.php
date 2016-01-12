@@ -261,10 +261,10 @@ class MoviesTableSeeder extends Seeder {
 				'format_id' => 1,
 				'studio_id' => 19,
 				'duplicate' => 0,
-				'bio' => 'A priest tries to stop a gangster from corrupting a group of street kids.',
-				'purchased' => '2015-01-01 08:00:00',
+				'bio' => 'Two boyhood friends, Rocky Sullivan and Jerry Connolly have taken different paths in life. After Rocky is arrested he is sent to a juvenile facility and becomes a lifelong tough guy and criminal. Jerry on the other hand goes straight and becomes a Catholic priest ministering to people in the same neighborhood when he and Rocky grew up. When Rocky is released from prison he resumes his criminal lifestyle and becomes much admired by many of the local kids. Worried that the kids will follow Rocky into the criminal world, Jerry works hard to keep them on the straight and narrow. When Rocky is convicted and sentenced to the electric chair, Jerry asks him for one last favor.',
+				'purchased' => '2015-01-01 00:00:00',
 				'created_at' => '2015-12-30 15:38:30',
-				'updated_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2016-01-12 21:26:39',
 			),
 			14 => 
 			array (

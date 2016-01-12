@@ -1,7 +1,6 @@
 
 // Initial setup of wave buttons
-Waves.attach('li.image-thumbnail', ['waves-light']);
-Waves.attach('div.slick-purchased div', ['waves-light']);
+Waves.attach('li.image-thumbnail, .slidee li, div.slick-purchased div', ['waves-light']);
 Waves.attach('.side-buttons .btn', ['waves-circle']);
 Waves.attach('.search-bar-container a, .nav li',['waves-button'])
 Waves.init();
