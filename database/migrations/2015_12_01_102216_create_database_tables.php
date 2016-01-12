@@ -63,7 +63,7 @@ class CreateDatabaseTables extends Migration {
 			$table->increments('person_id');
 			$table->string('forename');
 			$table->string('surname');
-			$table->date('birthday')->nullable();
+			$table->date('birthday')->nullable()->default(NULL);
 			$table->string('image')->nullable();
 			$table->text('bio')->nullable();
 			$table->timestamps();
