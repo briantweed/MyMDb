@@ -1,5 +1,6 @@
 <?php namespace App;
 
+use DB;
 use Illuminate\Database\Eloquent\Model;
 
 class Movies extends Model {
@@ -63,7 +64,6 @@ class Movies extends Model {
    {
       return $this->hasMany('App\Viewings', 'movie_id');
    }
-
 
 	public static function getMovieRecords($sort_by, $direction, $limit)
 	{

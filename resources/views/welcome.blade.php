@@ -188,9 +188,6 @@
                         @endforeach
                      </ul>
                   </div>
-                  <div class="scrollbar" id="actor-scrollbar">
-                      <div class="handle"></div>
-                  </div>
                </div>
             </div>
 
@@ -224,9 +221,6 @@
                         @endforeach
                      </ul>
                   </div>
-                  <div class="scrollbar" id="director-scrollbar">
-                      <div class="handle"></div>
-                  </div>
                </div>
             </div>
 
@@ -243,17 +237,23 @@
             <div class="row">
                <div class="col-xs-12">
                   <h4 id="movies-by-label">Movies By Decade</h4>
+                  @include('segments.layout.padding')
+                  <div id="yearChart" style="height: 300px; width: 100%;"></div>
                </div>
             </div>
+
             @include('segments.layout.padding')
+
             <div class="row">
-               <div class="col-xs-12">
-                  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+               <div class="col-xs-6">
+                  <h4 id="movies-by-label">Movies By Format</h4>
+                  <div id="formatChart" style="height: 300px; width: 100%;"></div>
+               </div>
+               <div class="col-xs-6">
+                  <h4 id="movies-by-label">Movies By Certificate</h4>
+                  <div id="certificateChart" style="height: 300px; width: 100%;"></div>
                </div>
             </div>
-
-            @include('segments.layout.padding')
-
          </div>
 
       </div>

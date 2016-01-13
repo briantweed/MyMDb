@@ -45,7 +45,6 @@ $(document).ready(function() {
    }).hide().removeClass('hide').fadeIn();
 
    $('#actor-slidee').sly({
-      scrollBar : $("#actor-scrollbar"),
       dragSource : '#actor-slidee',
       activatePageOn : 'click',
       activateOn : 'click',
@@ -53,19 +52,18 @@ $(document).ready(function() {
       mouseDragging : 1,
       touchDragging : 1,
       swingSpeed : 0.07,
-      elasticBounds : 1,
+      elasticBounds : 0,
       dynamicHandle : 0,
       releaseSwing : 1,
       horizontal : 1,
       dragHandle : 1,
-      scrollBy : 1,
-      clickBar : 1,
+      scrollBy : 0,
+      clickBar : 0,
       speed : 50,
-      smart : 1
+      smart : 0
    });
 
    $('#director-slidee').sly({
-      scrollBar : $("#director-scrollbar"),
       dragSource : '#director-slidee',
       activatePageOn : 'click',
       activateOn : 'click',
@@ -73,18 +71,22 @@ $(document).ready(function() {
       mouseDragging : 1,
       touchDragging : 1,
       swingSpeed : 0.07,
-      elasticBounds : 1,
+      elasticBounds : 0,
       dynamicHandle : 0,
       releaseSwing : 1,
       horizontal : 1,
       dragHandle : 1,
-      scrollBy : 1,
-      clickBar : 1,
+      scrollBy : 0,
+      clickBar : 0,
       speed : 50,
-      smart : 1
+      smart : 0
    });
 
    displayMoviesByDecade();
+
+   displayMoviesByFormat();
+
+   displayMoviesByCertificate();
 
 });
 
@@ -100,7 +102,7 @@ function displayMoviesByYear(start, end) {
       }
    }).done(function(json) {
       $('#movies-by-label').html("Movies By Year");
-      var chart = new CanvasJS.Chart("chartContainer", {
+      var chart = new CanvasJS.Chart("yearChart", {
          axisY:{
             gridColor: "#ddd",
             gridThickness: 1
@@ -125,6 +127,7 @@ function displayMoviesByYear(start, end) {
       chart.render();
    });
 }
+
 function displayMoviesByDecade() {
    var base_path = $('body').data('base');
    $.ajax({
@@ -134,7 +137,7 @@ function displayMoviesByDecade() {
          _token: $('meta[name="_token"]').attr('content')
       }
    }).done(function(json) {
-      var chart = new CanvasJS.Chart("chartContainer", {
+      var chart = new CanvasJS.Chart("yearChart", {
          axisY:{
             gridColor: "#ddd",
             gridThickness: 1
@@ -155,6 +158,44 @@ function displayMoviesByDecade() {
          data: [{
             type: "column",
             mouseover: onMouseOver,
+            dataPoints: json
+         }]
+      });
+      chart.render();
+   });
+}
+
+function displayMoviesByFormat() {
+   var base_path = $('body').data('base');
+   $.ajax({
+      type: "POST",
+      url: '/'+base_path+'/movieFormatCount',
+      data: {
+         _token: $('meta[name="_token"]').attr('content')
+      }
+   }).done(function(json) {
+      var chart = new CanvasJS.Chart("formatChart", {
+         data: [{
+            type: "doughnut",
+            dataPoints: json
+         }]
+      });
+      chart.render();
+   });
+}
+
+function displayMoviesByCertificate() {
+   var base_path = $('body').data('base');
+   $.ajax({
+      type: "POST",
+      url: '/'+base_path+'/movieCertificateCount',
+      data: {
+         _token: $('meta[name="_token"]').attr('content')
+      }
+   }).done(function(json) {
+      var chart = new CanvasJS.Chart("certificateChart", {
+         data: [{
+            type: "doughnut",
             dataPoints: json
          }]
       });

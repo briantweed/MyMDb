@@ -18,40 +18,6 @@ class AjaxController extends Controller
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
-   public function movieDecadeCount()
-   {
-      return Movies::select(DB::raw('floor(released/10)*10 as label'),DB::raw('count(*) as y'))
-            ->groupBy(DB::raw('floor(released/10)'))
-            ->get();
-   }
-
-   public function movieYearCount()
-   {
-      if(Request::ajax())
-      {
-         $data = Request::all();
-         $start_year = $data['start'];
-         $end_year = $data['end'];
-         $query = Movies::select('released', DB::raw('count(*) as count'))
-                    ->groupBy('released')
-                    ->get();
-         $movies = [];
-         foreach($query as $result)
-         {
-            $movies[$result->released] = $result->count;
-         }
-         $years = [];
-         for($x=$start_year; $x<=$end_year; $x++)
-         {
-            $year = [];
-            $year['label'] = $x;
-            $year['y'] = isset($movies[$x]) ? $movies[$x] : 0;
-            $years[] = $year;
-         }
-      }
-      return $years;
-   }
-
    public function filterMovies()
    {
       if(Request::ajax())
@@ -115,6 +81,56 @@ class AjaxController extends Controller
       }
    }
 
+   public function movieDecadeCount()
+   {
+      return Movies::select(DB::raw('floor(released/10)*10 as label'),DB::raw('count(*) as y'))
+            ->groupBy(DB::raw('floor(released/10)'))
+            ->get();
+   }
+
+   public function movieYearCount()
+   {
+      if(Request::ajax())
+      {
+         $data = Request::all();
+         $start_year = $data['start'];
+         $end_year = $data['end'];
+         $query = Movies::select('released', DB::raw('count(*) as count'))
+                    ->groupBy('released')
+                    ->get();
+         $movies = [];
+         foreach($query as $result)
+         {
+            $movies[$result->released] = $result->count;
+         }
+         $years = [];
+         for($x=$start_year; $x<=$end_year; $x++)
+         {
+            $year = [];
+            $year['label'] = $x;
+            $year['y'] = isset($movies[$x]) ? $movies[$x] : 0;
+            $years[] = $year;
+         }
+      }
+      return $years;
+   }
+
+	public function movieFormatCount()
+	{
+		return Movies::select('formats.type as label', DB::raw('count(*) as y'))
+			->join('formats', 'movies.format_id', '=', 'formats.format_id')
+			->groupBy('movies.format_id')
+			->get();
+	}
+
+	public function movieCertificateCount()
+	{
+		return Movies::select('certificates.title as label', DB::raw('count(*) as y'))
+			->join('certificates', 'movies.certificate_id', '=', 'certificates.certificate_id')
+			->groupBy('movies.certificate_id')
+			->get();
+	}
+
    public function getAvailableCast()
    {
       if(Request::ajax())
@@ -152,7 +168,6 @@ class AjaxController extends Controller
          return $actors;
       }
    }
-
 
    private function getRandomQuote()
    {

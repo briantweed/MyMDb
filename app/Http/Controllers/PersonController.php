@@ -26,7 +26,6 @@ class PersonController extends Controller {
 		$people = Persons::orderBy('forename')->paginate(48);
 		foreach($people as $person)
 		{
-			$person->birthday = date("jS F Y",strtotime($person->birthday));
 			$person->cover = $this->checkImageExists($person->image, $person->forename, 'people', false);
 			$person->cover_count = strlen($person->cover);
 		}
@@ -36,9 +35,7 @@ class PersonController extends Controller {
 
 	public function show($id)
 	{
-		$person = Persons::find($id);
-		if(!$person) return view('errors.404');
-		$person->movies;
+		$person = Persons::findorfail($id);
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people', false);
 		$person->cover_count = strlen($person->image);
 		if($person->birthday !== NULL)
@@ -92,9 +89,8 @@ class PersonController extends Controller {
 	public function edit($person_id)
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		$person = Persons::find($person_id);
+		$person = Persons::findorfail($person_id);
 		$person->movies;
-		if(!$person) return view('errors.404');
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
 		$person->cover_count = strlen($person->image);
 		$person->birthday = $person->birthday ? date('d-m-Y', strtotime($person->birthday)): "";
@@ -139,7 +135,6 @@ class PersonController extends Controller {
 	public function addNewPerson()
 	{
 		$data = Request::all();
-
 		$names = array_values(array_filter(explode(' ', $data['value'])));
 		$forename = count($names) ? ucwords(strtolower(array_shift($names))) : "";
 		$surname = count($names) ? ucwords(strtolower(implode(" ", $names))) : "";
