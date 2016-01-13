@@ -2,6 +2,8 @@
 
 use DB;
 use Request;
+use App\Cast;
+use App\Crew;
 use App\Movies;
 use App\Studios;
 use App\Persons;
@@ -22,13 +24,6 @@ class MovieController extends Controller {
   	  $this->isAdmin = $this->checkUserDetails();
 
    }
-
-
-	/*
-	| --------------------------------------------------
-	|		Normal REST Functions
-	| --------------------------------------------------
-	*/
 
 	public function index()
 	{
@@ -51,13 +46,6 @@ class MovieController extends Controller {
 		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
-
-		$movie->genres;
-		$movie->studio;
-		$movie->format;
-		$movie->cast;
-		$movie->crew;
-		$movie->tags;
 
 		$user = $this->isAdmin;
 
@@ -115,23 +103,17 @@ class MovieController extends Controller {
 		$movie->cover_count = strlen($movie->cover);
 		$values = json_decode($movie);
 
-		$movie->studio;
-		$movie->format;
-		$movie->cast;
-		$movie->crew;
 		$movie->genres = DB::table('categories')->where('movie_id', $movie_id)->lists('genre_id');
 		$movie->tags = DB::table('tags')->where('movie_id', $movie_id)->lists('keyword_id');
 		$fields = DB::table('forms')->where('name','create_movie')->orderBy('order', 'asc')->get();
 
 		$app = app();
 		$options = $app->make('stdClass');
-
 		$options->certificates = DB::table('certificates')->lists('title', 'certificate_id');
 		$options->studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
 		$options->formats = DB::table('formats')->lists('type', 'format_id');
 		$options->actors = Persons::select(DB::raw("CONCAT(forename, ' ', surname) AS full_name"), 'person_id')
-								->whereNotIn('person_id', function($query) use ($movie_id)
-								{
+								->whereNotIn('person_id', function($query) use ($movie_id) {
 									$query->select('person_id')
 											->from('cast')
 											->where('movie_id', $movie_id);
@@ -261,9 +243,9 @@ class MovieController extends Controller {
 	      {
 	         $data = Request::all();
 	         $movie_id = $data['movie'];
-	         $person_id = $data['person'];
+	         $cast_id = $data['person'];
 	         $movie = Movies::findorfail($movie_id);
-	         $movie->cast()->detach($person_id);
+	         Cast::find($cast_id)->delete();
 				return (String) view('movies.cast', compact('movie'));
 	      }
       }
@@ -278,9 +260,9 @@ class MovieController extends Controller {
 	      {
 	         $data = Request::all();
 	         $movie_id = $data['movie'];
-	         $person_id = $data['person'];
+	         $crew_id = $data['person'];
 	         $movie = Movies::findorfail($movie_id);
-	         $movie->crew()->detach($person_id);
+	         Crew::find($crew_id)->delete();
 				return (String) view('movies.crew', compact('movie'));
 	      }
       }

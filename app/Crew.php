@@ -2,10 +2,10 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-class Cast extends Model {
+class Crew extends Model {
 
-   protected $table = 'cast';
-   protected $primaryKey = 'cast_id';
+   protected $table = 'crew';
+   protected $primaryKey = 'crew_id';
    protected $fillable = array(
       'movie_id'
    );

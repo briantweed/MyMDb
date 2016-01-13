@@ -10,6 +10,22 @@ $(document).on('click', 'div.alert-success button.close', function(event){
    $('.alert-success').slideUp(500);
 });
 
+$(document).keyup(function(event) {
+   if($('#filter-movie').is(':focus'))
+   {
+      if(event.which == 13)
+      {
+         event.preventDefault();
+         startFilter('all');
+      }
+      if(event.which == 27)
+      {
+         event.preventDefault();
+         document.location.reload(true)
+      }
+   }
+});
+
 $(document).ready( function() {
 
    // Lazy load images

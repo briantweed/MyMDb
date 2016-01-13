@@ -79,7 +79,7 @@ class PersonController extends Controller {
 			}
 			foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
 			unset($value);
-			$data['birthday'] = date("Y-m-d", strtotime($data['birthday']));
+			$data['birthday'] = $data['birthday'] ? date("Y-m-d", strtotime($data['birthday'])) : null;
 			$update = Persons::create($data);
 			$inserted_id = $update->person_id;
 			return redirect()->action('PersonController@edit', [$inserted_id])->with('status', 'Person Added Successfully');
@@ -117,7 +117,7 @@ class PersonController extends Controller {
 				$this->unlinkExistingImage('people', $person->image);
 			}
 		}
-		$data['birthday'] = date("Y/m/d", strtotime($data['birthday']));
+		$data['birthday'] = $data['birthday'] ? date("Y/m/d", strtotime($data['birthday'])) : null;
 		$person->update($data);
 		return redirect()->action('PersonController@edit', [$id])->with('status', 'Details Updated Successfully');
 	}
@@ -156,7 +156,7 @@ class PersonController extends Controller {
 			unset($value);
 			if($data['forename']!="" && $data['surname']!="")
 			{
-				$data['birthday'] = date("Y-m-d", strtotime($data['birthday']));
+				$data['birthday'] = $data['birthday'] ? date("Y-m-d", strtotime($data['birthday'])) : null;
 				$update = Persons::create($data);
 				$inserted_id = $update->person_id;
 				$new_person['value']  = $inserted_id;

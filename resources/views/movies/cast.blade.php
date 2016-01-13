@@ -6,7 +6,7 @@
          <div class="col-xs-3">{{$actor->surname}}</div>
          <div class="col-xs-3">{{$actor->pivot->character}}</div>
          <div class="col-xs-3">
-            <a class="btn btn-danger-outline btn-xs" onclick="removeCastMember({{$actor->person_id}})" href="javascript:void(0)"><i class="ft icon-fail"></i> remove</a>
+            <a class="btn btn-danger-outline btn-xs" onclick="removeCastMember({{$actor->pivot->cast_id}})" href="javascript:void(0)"><i class="ft icon-fail"></i> remove</a>
          </div>
       </div>
    @endforeach
