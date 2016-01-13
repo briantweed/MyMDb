@@ -3,6 +3,7 @@
 use DB;
 use Request;
 use DateTime;
+use App\Cast;
 use App\Movies;
 use App\Persons;
 use App\Http\Requests;
@@ -198,6 +199,22 @@ class PersonController extends Controller {
 		return "error";
 	}
 
+	public function removeMovieRole()
+   {
+		if($this->isAdmin)
+		{
+	      if(Request::ajax())
+	      {
+	         $data = Request::all();
+	         $cast_id = $data['movie'];
+				$person_id = $data['person'];
+				$person = Persons::findorfail($person_id);
+	         Cast::find($cast_id)->delete();
+				return (String) view('people.roles', compact('person'));
+	      }
+      }
+      return "error";
+   }
 
 	/*
 	| --------------------------------------------------

@@ -23,6 +23,7 @@ Route::resource('movies', 'MovieController', ['only'=>['index','show','create','
 Route::post('addNewPerson', 'PersonController@addNewPerson');
 Route::post('createNewPerson', 'PersonController@createNewPerson');
 Route::post('addNewRole', 'PersonController@addNewRole');
+Route::post('removeRole', 'PersonController@removeMovieRole');
 Route::resource('people', 'PersonController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 
 Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);

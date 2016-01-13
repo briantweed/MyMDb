@@ -73,6 +73,21 @@ $(document).ready(function(){
       });
    });
 
+   $('#remove_role').click(function(){
+      $.ajax({
+         type: 'POST',
+         url: '/'+base_path+'/removeRole',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            person: $('#person_id').val(),
+            movie: $('#movie_id').val(),
+         }
+      }).done(function(html){
+         $('#role-list').html(html);
+         $('.modal').modal('hide');
+      });
+   });
+
 });
 
 function launchEditor() {
