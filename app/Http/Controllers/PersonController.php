@@ -3,6 +3,7 @@
 use DB;
 use Request;
 use DateTime;
+use App\Movies;
 use App\Persons;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -87,10 +88,10 @@ class PersonController extends Controller {
 		return redirect()->action('PersonController@create')->with('status', 'Person Already Exists');
 	}
 
-	public function edit($id)
+	public function edit($person_id)
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		$person = Persons::find($id);
+		$person = Persons::find($person_id);
 		$person->movies;
 		if(!$person) return view('errors.404');
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
@@ -99,7 +100,18 @@ class PersonController extends Controller {
 		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
 		$values = json_decode($person);
 		$user = $this->isAdmin;
-		return view('people.edit', compact('person', 'fields', 'values', 'user'));
+
+		$app = app();
+		$options = $app->make('stdClass');
+		$options->movies = Movies::select('name', 'movie_id')
+								->whereNotIn('movie_id', function($query) use ($person_id) {
+									$query->select('movie_id')
+											->from('cast')
+											->where('person_id', $person_id);
+								})
+								->orderBy('name')
+								->lists('name', 'movie_id')->all();
+		return view('people.edit', compact('person', 'fields', 'values', 'options', 'user'));
 	}
 
 	public function update($id, ValidateCreatePerson $request)
@@ -167,6 +179,25 @@ class PersonController extends Controller {
 		}
 		return "error";
 	}
+
+	public function addNewRole()
+	{
+		if($this->isAdmin)
+		{
+			if(Request::ajax())
+			{
+				$data = Request::all();
+				$movie_id = $data['movie'];
+				$person_id = $data['person'];
+				$character_name = $data['character'];
+				$person = Persons::findorfail($person_id);
+				$person->movies()->attach($movie_id, array('character' => $character_name));
+				return (String) view('people.roles', compact('person'));
+			}
+		}
+		return "error";
+	}
+
 
 	/*
 	| --------------------------------------------------

@@ -1,3 +1,4 @@
+var base_path = $('body').data('base');
 
 var featherEditor = new Aviary.Feather({
    apiKey: $('input[name="_aviary"]').val(),
@@ -45,6 +46,33 @@ $(document).ready(function(){
       defaultViewDate: { year: 2000, month: 01, day: 01 }
    });
 
+   $('#movie_list').selectize();
+
+   $('.modal').on('hide.bs.modal', function(e) {
+      $('.modal .form-control').val('');
+      setMovieId('');
+      clearErrorMessages();
+      clearModalSelectize();
+   });
+
+   $('#add_new_role').click(function() {
+      $.ajax({
+         type: 'POST',
+         url: '/'+base_path+'/addNewRole',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            person: $('#person_id').val(),
+            movie: $('#movie_id').val(),
+            character: $('#character_name').val(),
+         }
+      }).done(function(html){
+         var selectize = $("#movie_list")[0].selectize;
+         selectize.removeOption($('#person_id').val());
+         $('#role-list').html(html);
+         $('.modal').modal('hide');
+      });
+   });
+
 });
 
 function launchEditor() {
@@ -53,4 +81,31 @@ function launchEditor() {
       image:  'person-poster'
    });
    return false;
+}
+
+function addMovieRole() {
+   $('#new-role-modal').modal();
+}
+
+function removeMovieRole(id) {
+   setMovieId(id);
+   $('#remove-role-modal').modal();
+}
+
+function setMovieId(id) {
+   $('#movie_id').val(id);
+}
+
+function clearModalSelectize() {
+   var $select = $('.modal select').selectize();
+   $select.each(function(index, value) {
+      var control = $select[index].selectize;
+      control.clear();
+   });
+}
+
+function clearErrorMessages() {
+   $('div.form-group').removeClass('has-error');
+   $('[id$=_error]').addClass('hide');
+   $('[id$=error_message]').html('');
 }

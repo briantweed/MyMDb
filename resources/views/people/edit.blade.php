@@ -84,27 +84,26 @@
 
          <div class="tab-content">
 
-            @include('segments.layout.padding')
-
             <div role="tabpanel" class="tab-pane fade in active" id="details">
                {!! Form::model($person, ['method'=>'Patch', 'url'=>'people/'.$person->person_id, 'files' => true]) !!}
-                  <input type="hidden" value="{{env('AVIARY_KEY')}}" name="_aviary" />
-                  @include('segments.forms.form_builder')
+               {!! Form::hidden('movie_id','', ['id'=>'movie_id']) !!}
+               {!! Form::hidden('person_id',$person->person_id, ['id'=>'person_id']) !!}
+               {!! Form::hidden('_aviary', env('AVIARY_KEY'), ['id'=>'_aviary']) !!}
+               @include('segments.forms.form_builder')
             </div>
 
             <div role="tabpanel" class="tab-pane fade in" id="roles">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <a onclick="addMovieRole()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-movie"></i> <span class="hidden-sm">new role</span></a>
+                  </div>
+               </div>
                <div class="row cast">
                   <div class="col-xs-6"><b>Film</b></div>
                   <div class="col-xs-3"><b>Character</b></div>
                   <div class="col-xs-1"></div>
                </div>
-               @foreach( $person->movies as $movie )
-                  <div class="row cast">
-                     <div class="col-xs-6">{{$movie->name}}</div>
-                     <div class="col-xs-3">{{$movie->pivot->character}}</div>
-                     <div class="col-xs-1"><i class="ft icon-minus"></i></div>
-                  </div>
-               @endforeach
+               @include('people.roles')
             </div>
 
          </div>
@@ -118,6 +117,12 @@
 
    </div>
    {{-- end of movie row --}}
+
+   {{-- NEW ROLE MODAL --}}
+   @include('modal.add_role')
+
+   {{-- REMOVE ROLE MODAL --}}
+   @include('modal.remove_role')
 
 @stop
 
