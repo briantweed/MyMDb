@@ -233,7 +233,7 @@ function displayMoviesByCertificate() {
             startAngle:  270,
             dataPoints: json,
             click: function(event){
-               startFilter('certificate', event.dataPoint.label);
+               startFilter('certificate', event.dataPoint.id);
             },
          }]
       });

@@ -44,6 +44,10 @@ class AjaxController extends Controller
                         ->join('formats', 'movies.format_id', '=', 'formats.format_id');
                break;
 
+               case "certificate":
+                  $query->where('certificate_id', $search_string);
+               break;
+
                case "year":
                   $query->where('released', $search_string);
                break;
@@ -125,7 +129,7 @@ class AjaxController extends Controller
 
 	public function movieCertificateCount()
 	{
-		$movies = Movies::select('certificates.title as label', DB::raw('count(*) as y'))
+		$movies = Movies::select('certificates.title as label', DB::raw('count(*) as y'), 'movies.certificate_id as id')
 			->join('certificates', 'movies.certificate_id', '=', 'certificates.certificate_id')
 			->groupBy('movies.certificate_id')
 			->get();
