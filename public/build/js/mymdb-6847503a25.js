@@ -290,7 +290,7 @@ $(document).keyup(function(event) {
       if(event.which == 13)
       {
          event.preventDefault();
-         startFilter('all');
+         startFilter('all', '');
          $('#filter-movie').blur();
       }
       if(event.which == 27)

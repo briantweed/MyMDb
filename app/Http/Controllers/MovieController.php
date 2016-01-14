@@ -217,6 +217,24 @@ class MovieController extends Controller {
       return "error";
    }
 
+	public function editCastMember()
+   {
+		if($this->isAdmin)
+		{
+	      if(Request::ajax())
+	      {
+	         $data = Request::all();
+	         $movie_id = $data['movie'];
+	         $person_id = $data['person'];
+	         $character_name = $data['character'];
+	         $movie = Movies::findorfail($movie_id);
+				$movie->cast()->updateExistingPivot($person_id, array('character' => $character_name));
+				return (String) view('movies.cast', compact('movie'));
+	      }
+      }
+      return "error";
+   }
+
 	public function addCrewMember()
    {
 		if($this->isAdmin)
@@ -243,7 +261,7 @@ class MovieController extends Controller {
 	      {
 	         $data = Request::all();
 	         $movie_id = $data['movie'];
-	         $cast_id = $data['person'];
+	         $cast_id = $data['row'];
 	         $movie = Movies::findorfail($movie_id);
 	         Cast::find($cast_id)->delete();
 				return (String) view('movies.cast', compact('movie'));
@@ -260,7 +278,7 @@ class MovieController extends Controller {
 	      {
 	         $data = Request::all();
 	         $movie_id = $data['movie'];
-	         $crew_id = $data['person'];
+	         $crew_id = $data['row'];
 	         $movie = Movies::findorfail($movie_id);
 	         Crew::find($crew_id)->delete();
 				return (String) view('movies.crew', compact('movie'));

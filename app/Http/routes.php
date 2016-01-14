@@ -17,6 +17,7 @@ Route::post('movieDecadeCount', 'AjaxController@movieDecadeCount');
 
 Route::post('addtag', 'MovieController@addNewTag');
 Route::post('addNewCast', 'MovieController@addCastMember');
+Route::post('editCastMember', 'MovieController@editCastMember');
 Route::post('addNewCrew', 'MovieController@addCrewMember');
 Route::post('removeCast', 'MovieController@removeCastMember');
 Route::post('removeCrew', 'MovieController@removeCrewMember');

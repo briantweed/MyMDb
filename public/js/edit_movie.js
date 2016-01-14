@@ -100,6 +100,24 @@ $(document).ready(function(){
       });
    });
 
+   $('#edit_new_cast').click(function() {
+      $.ajax({
+         type: 'POST',
+         url: '/'+base_path+'/editCastMember',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            person: $('#person_id').val(),
+            movie: $('#movie_id').val(),
+            character: $('#edit_character_name').val(),
+         }
+      }).done(function(html){
+         var selectize = $("#cast_list")[0].selectize;
+         selectize.removeOption($('#person_id').val());
+         $('#cast-list').html(html);
+         $('.modal').modal('hide');
+      });
+   });
+
    $('#add_new_crew').click(function() {
       $.ajax({
          type: 'POST',
@@ -123,7 +141,7 @@ $(document).ready(function(){
          url: '/'+base_path+'/removeCast',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
-            person: $('#person_id').val(),
+            row: $('#row_id').val(),
             movie: $('#movie_id').val(),
          }
       }).done(function(html){
@@ -138,7 +156,7 @@ $(document).ready(function(){
          url: '/'+base_path+'/removeCrew',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
-            person: $('#person_id').val(),
+            row: $('#row_id').val(),
             movie: $('#movie_id').val(),
          }
       }).done(function(html){
@@ -199,18 +217,29 @@ function addCrewMember() {
    $('#new-crew-modal').modal();
 }
 
+function editCastMember(json) {
+   setRowId(json.pivot.cast_id);
+   setPersonId(json.person_id);
+   $('#edit_character_name').val(json.pivot.character);
+   $('#edit-cast-modal').modal();
+}
+
 function removeCastMember(id) {
-   setPersonId(id);
+   setRowId(id);
    $('#remove-cast-modal').modal();
 }
 
 function removeCrewMember(id) {
-   setPersonId(id);
+   setRowId(id);
    $('#remove-crew-modal').modal();
 }
 
 function setPersonId(id) {
    $('#person_id').val(id);
+}
+
+function setRowId(id) {
+   $('#row_id').val(id);
 }
 
 function setPersonType(type) {

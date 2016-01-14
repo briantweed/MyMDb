@@ -93,6 +93,7 @@
          {!! Form::model($movie, ['method'=>'Patch','url'=>'movies/'.$movie->movie_id,'files' => true]) !!}
          {!! Form::hidden('movie_id',$movie->movie_id, ['id'=>'movie_id']) !!}
          {!! Form::hidden('person_id','', ['id'=>'person_id']) !!}
+         {!! Form::hidden('row_id','', ['id'=>'row_id']) !!}
          {!! Form::hidden('_aviary', env('AVIARY_KEY'), ['id'=>'_aviary']) !!}
 
          <div class="tab-content">
@@ -108,10 +109,8 @@
                   </div>
                </div>
                <div class="row">
-                  <div class="col-xs-3"><b>Forename</b></div>
-                  <div class="col-xs-3"><b>Surname</b></div>
-                  <div class="col-xs-3"><b>Character</b></div>
-                  <div class="col-xs-3"></div>
+                  <div class="col-xs-4"><b>Name</b></div>
+                  <div class="col-xs-4"><b>Character</b></div>
                </div>
                @include('movies.cast')
             </div>
@@ -123,9 +122,8 @@
                   </div>
                </div>
                <div class="row">
-                  <div class="col-xs-3"><b>Forename</b></div>
-                  <div class="col-xs-3"><b>Surname</b></div>
-                  <div class="col-xs-3"><b>Position</b></div>
+                  <div class="col-xs-4"><b>Name</b></div>
+                  <div class="col-xs-4"><b>Position</b></div>
                </div>
                @include('movies.crew')
             </div>
@@ -165,22 +163,11 @@
    </div>
    {{-- end of movie row --}}
 
-   {{-- NEW CAST MODAL --}}
    @include('modal.add_cast')
-
-   {{-- NEW CREW MODAL --}}
    @include('modal.add_crew')
-
-
-   {{-- NEW TAG MODAL --}}
+   @include('modal.edit_cast')
    @include('modal.add_tag')
-
-
-   {{-- REMOVE CAST MODAL --}}
    @include('modal.remove_cast')
-
-
-   {{-- REMOVE CREW MODAL --}}
    @include('modal.remove_crew')
 
    <div class="modal fade" id="empty-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
