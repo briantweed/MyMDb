@@ -109,6 +109,7 @@ $(document).ready(function(){
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
             movie: $('#movie_id').val(),
+            row: $('#row_id').val(),
             character: $('#edit_character_name').val(),
          }
       }).done(function(html){
@@ -221,6 +222,16 @@ function addCrewMember() {
 function editCastMember(json) {
    setRowId(json.pivot.cast_id);
    setPersonId(json.person_id);
+   var newPerson = [];
+   newPerson.push({
+      text: json.forename+" "+json.surname,
+      value: json.person_id
+   });
+   console.log(newPerson);
+   var selectize = $('#edit_cast_list')[0].selectize;
+   selectize.addOption(newPerson);
+   selectize.refreshOptions(false);
+   selectize.setValue(json.person_id,false);
    $('#edit_character_name').val(json.pivot.character);
    $('#edit-cast-modal').modal();
 }

@@ -4,6 +4,10 @@
          <div class="modal-header"><h4>Edit Character Name</h4></div>
          <div class="modal-body">
             <div class="form-group">
+               {!! Form::label('edit_cast_list', 'Actor Name:') !!}
+               {!! Form::select('cast_list', array('' => 'select ...') + $options->actors, '', ['class'=>'form-control','id'=>'edit_cast_list', 'onchange'=>'setPersonId(this.value)']) !!}
+            </div>
+            <div class="form-group">
                {!! Form::label('edit_character_name', 'Character Name:') !!}
                {!! Form::text('character_name', '', ['class'=>'form-control', 'id'=>'edit_character_name']) !!}
             </div>
