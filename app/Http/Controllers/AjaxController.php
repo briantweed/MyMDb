@@ -125,10 +125,15 @@ class AjaxController extends Controller
 
 	public function movieCertificateCount()
 	{
-		return Movies::select('certificates.title as label', DB::raw('count(*) as y'))
+		$movies = Movies::select('certificates.title as label', DB::raw('count(*) as y'))
 			->join('certificates', 'movies.certificate_id', '=', 'certificates.certificate_id')
 			->groupBy('movies.certificate_id')
 			->get();
+      foreach($movies as $movie)
+      {
+         $movie['exploded'] = true;
+      }
+      return $movies;
 	}
 
    public function getAvailableCast()

@@ -131,7 +131,7 @@
 
             {{-- second row --}}
             <div class="row movie">
-               <div class="col-xs-2 col-sm-3 col-md-3 col-lg-offset-1 col-lg-2">
+               <div class="col-xs-12 col-sm-3 col-md-3 col-lg-offset-1 col-lg-2">
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
                      @if($details->highlight->cover_count == 1)
                         <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$details->highlight->cover}}" alt="{{$details->highlight->cover}}" />
@@ -140,7 +140,7 @@
                      @endif
                   </a>
                </div>
-               <div class="col-xs-10 col-sm-9 col-md-9 col-lg-8">
+               <div class="col-xs-12 col-sm-9 col-md-9 col-lg-8">
                   <h4>{{$details->highlight->name}} ({{$details->highlight->released}}) </h4>
                   <span class="rating-display @if($details->highlight->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$details->highlight->rating}} / 10'>{!!$details->highlight->rating_display!!}</span>
                   <br><br>{{$details->highlight->bio}}<br><br>
@@ -235,9 +235,16 @@
 
             @include('segments.layout.padding')
             <div class="row">
-               <div class="col-xs-12">
+               <div class="col-xs-10">
                   <h4 id="movies-by-label">Movies By Decade</h4>
-                  @include('segments.layout.padding')
+               </div>
+               <div class="col-xs-2">
+                  {!! Form::select('select_decade', array('' => 'select ...') + $details->decades, '', ['class'=>'form-control']) !!}
+               </div>
+            </div>
+            @include('segments.layout.padding')
+            <div class="row">
+               <div class="col-xs-12">
                   <div id="yearChart" style="height: 300px; width: 100%;"></div>
                </div>
             </div>
@@ -245,15 +252,18 @@
             @include('segments.layout.padding')
 
             <div class="row">
-               <div class="col-xs-6">
+               <div class="col-xs-12 col-sm-6">
                   <h4 id="movies-by-label">Movies By Format</h4>
-                  <div id="formatChart" style="height: 300px; width: 100%;"></div>
+                  <div id="formatChart" style="height: 350px; width: 100%;"></div>
                </div>
-               <div class="col-xs-6">
+               <div class="col-xs-12 col-sm-6">
                   <h4 id="movies-by-label">Movies By Certificate</h4>
-                  <div id="certificateChart" style="height: 300px; width: 100%;"></div>
+                  <div id="certificateChart" style="height: 350px; width: 100%;"></div>
                </div>
             </div>
+
+            @include('segments.layout.padding')
+
          </div>
 
       </div>

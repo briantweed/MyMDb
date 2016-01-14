@@ -353,14 +353,16 @@ $(document).ready(function() {
 });
 
 // Movie search filter
-function startFilter(type) {
+function startFilter(type, val) {
+   if(val.length==0) val = $('#filter-movie').val();
+   else $('#filter-movie').val('');
    $('#filter-movie-start').html('<i class="ft icon-loading spin"></i>');
    $.ajax({
       type: 'POST',
       url: '/' + $('body').data('base') + '/filter',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
-         val: $('#filter-movie').val(),
+         val: val,
          type: type
       }
    }).done(function(html){
@@ -370,10 +372,10 @@ function startFilter(type) {
             // location.reload();
          break;
          default:
-            $('.feature-content, .secondary-content, footer').hide();
+            $('.feature-content, .secondary-content, .chart-content, footer').hide();
             $('.main-content').html(html);
             $('html, body').animate({ scrollTop: 0 }, 0);
-            Waves.attach('li.movie', ['waves-light']);
+            Waves.attach('li.image-thumbnail', ['waves-light']);
             $('img.lazy').lazyload({
                effect : "fadeIn",
                threshold : 100

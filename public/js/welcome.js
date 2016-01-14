@@ -1,3 +1,15 @@
+CanvasJS.addColorSet("cert", [
+   "#6bc954",
+   "#158b1a",
+   "#e6dd19",
+   "#d9a125",
+   "#c1277e",
+   "#d43030",
+   "#460000"
+]);
+
+
+
 $(window).resize(function(e) {
    $('#actor-slidee').sly('reload');
    $('#director-slidee').sly('reload');
@@ -108,20 +120,21 @@ function displayMoviesByYear(start, end) {
             gridThickness: 1
          },
          toolTip: {
-            contentFormatter: function(e){
+            contentFormatter: function(event){
                var str="";
-               for (var i = 0; i < e.entries.length; i++){
-                  str = "<a href='javascript:void(0)' onclick=\"startFilter('year')\">" + e.entries[i].dataPoint.label + ": ";
-                  str += e.entries[i].dataPoint.y ==1 ? "1 movie" : e.entries[i].dataPoint.y + " movies";
-                  str += "</a>";
+               for (var i = 0; i < event.entries.length; i++){
+                  str = event.entries[i].dataPoint.label + ": ";
+                  str += event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
                   return (str);
                }
             }
          },
          data: [{
             type: "column",
-            mouseover: onMouseOver,
-            dataPoints: json
+            dataPoints: json,
+            click: function(event){
+               startFilter('year', event.dataPoint.label);
+            },
          }]
       });
       chart.render();
@@ -143,22 +156,21 @@ function displayMoviesByDecade() {
             gridThickness: 1
          },
          toolTip: {
-            contentFormatter: function(e){
+            contentFormatter: function(event){
                var str="";
-               for (var i = 0; i < e.entries.length; i++){
-                  var startYear = e.entries[i].dataPoint.label;
-                  var endYear = e.entries[i].dataPoint.label + 9;
-                  str = "<a href='javascript:void(0)' onclick=\"displayMoviesByYear("+startYear+", "+endYear+")\">" + e.entries[i].dataPoint.label + ": ";
-                  str += e.entries[i].dataPoint.y ==1 ? "1 movie" : e.entries[i].dataPoint.y + " movies";
-                  str += "</a>";
+               for (var i = 0; i < event.entries.length; i++){
+                  str =  event.entries[i].dataPoint.label + ": ";
+                  str += event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
                   return (str);
                }
             }
          },
          data: [{
             type: "column",
-            mouseover: onMouseOver,
-            dataPoints: json
+            dataPoints: json,
+            click: function(event){
+               displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
+            }
          }]
       });
       chart.render();
@@ -175,9 +187,21 @@ function displayMoviesByFormat() {
       }
    }).done(function(json) {
       var chart = new CanvasJS.Chart("formatChart", {
+         toolTip: {
+            contentFormatter: function(event){
+               var str="";
+               for (var i = 0; i < event.entries.length; i++){
+                  str = event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
+                  return (str);
+               }
+            }
+         },
          data: [{
             type: "doughnut",
-            dataPoints: json
+            dataPoints: json,
+            click: function(event){
+               startFilter('format', event.dataPoint.label);
+            },
          }]
       });
       chart.render();
@@ -194,15 +218,25 @@ function displayMoviesByCertificate() {
       }
    }).done(function(json) {
       var chart = new CanvasJS.Chart("certificateChart", {
+         colorSet: 'cert',
+         toolTip: {
+            contentFormatter: function(event){
+               var str="";
+               for (var i = 0; i < event.entries.length; i++){
+                  str = event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
+                  return (str);
+               }
+            }
+         },
          data: [{
             type: "doughnut",
-            dataPoints: json
+            startAngle:  270,
+            dataPoints: json,
+            click: function(event){
+               startFilter('certificate', event.dataPoint.label);
+            },
          }]
       });
       chart.render();
    });
-}
-
-function onMouseOver(e) {
-   $('#filter-movie').val(e.dataPoint.label);
 }

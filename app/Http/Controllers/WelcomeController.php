@@ -67,6 +67,8 @@ class WelcomeController extends Controller {
 		$details->highlight->cover_count = strlen($details->highlight->cover);
 		$details->highlight->rating_display = $this->makeRatingStars($details->highlight->rating);
 
+		$details->decades = $this->makeDecades();
+
 		$user = $this->isAdmin;
 
 		return view('welcome', compact('details', 'user'));
@@ -90,6 +92,17 @@ class WelcomeController extends Controller {
 		return $html;
 	}
 
+	private function makeDecades()
+	{
+		$decades = [];
+		$start = 1930;
+		$end = floor(date("Y")/10)*10;
+		for($decade=$start; $decade<=$end; $decade+=10)
+		{
+			$decades[$decade] = $decade;
+		}
+		return $decades;
+	}
 
 
 
