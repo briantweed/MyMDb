@@ -56,7 +56,7 @@ class AjaxController extends Controller
                   $query->where('rating', $search_string);
                break;
             }
-
+            $query->orderBy('sort_name');
             $movies = $query->get();
             foreach($movies as $movie)
       		{
@@ -69,6 +69,7 @@ class AjaxController extends Controller
                $people = Persons::where('forename', 'LIKE', '%'.$search_string.'%')
                         ->orWhere('surname', 'LIKE', '%'.$search_string.'%')
                         ->orWhere(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
+                        ->orderBy('forename')
                         ->get();
                foreach($people as $person)
          		{

@@ -169,6 +169,7 @@ class PersonController extends Controller {
 			if($data['forename']!="" && $data['surname']!="")
 			{
 				$data['birthday'] = $data['birthday'] ? date("Y-m-d", strtotime($data['birthday'])) : null;
+				$data['deceased'] = $data['deceased'] ? date("Y-m-d", strtotime($data['deceased'])) : null;
 				$update = Persons::create($data);
 				$inserted_id = $update->person_id;
 				$new_person['value']  = $inserted_id;

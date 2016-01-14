@@ -297,6 +297,7 @@ function createNewPerson() {
             });
             $('#empty-modal').modal('hide');
             $('#new-'+person_type+'-modal').modal();
+            $('#character_name').focus();
             var selectize = $('#'+person_type+'_list')[0].selectize;
             selectize.addOption(newPerson);
             selectize.refreshOptions(false);

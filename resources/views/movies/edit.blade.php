@@ -16,6 +16,7 @@
 @section('subnav-left')
    @include('segments.links.view_movie')
    @include('segments.links.add_movie')
+   @include('segments.links.edit_next_movie')
 @stop
 
 
