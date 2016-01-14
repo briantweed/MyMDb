@@ -48,6 +48,7 @@ class PersonController extends Controller {
 			$person->birthday = "-";
 			$person->age = "-";
 		}
+		$person->deceased = $person->deceased ? date('jS F Y', strtotime($person->deceased)) : null;
 		$user = $this->isAdmin;
 		return view('people.show', compact('person','user','roles'));
 	}

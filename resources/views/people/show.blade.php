@@ -76,6 +76,14 @@
             <div class="{{$input_class}}">{{$person->birthday}}</div>
          </div>
 
+         @if($person->deceased)
+            {{-- deceased --}}
+            <div class="row">
+               <div class="{{$label_class}}"><b>Died</b></div>
+               <div class="{{$input_class}}">{{$person->deceased}}</div>
+            </div>
+         @endif
+
          {{-- age --}}
          <div class="row">
             <div class="{{$label_class}}"><b>Age</b></div>
