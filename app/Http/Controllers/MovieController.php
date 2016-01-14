@@ -226,13 +226,9 @@ class MovieController extends Controller {
 	         $data = Request::all();
 	         $movie_id = $data['movie'];
 	         $person_id = $data['person'];
-	         $cast_id = $data['row'];
 	         $character_name = $data['character'];
-				$cast_member = Cast::find($cast_id);
-				$cast_member->person_id = $person_id;
-				$cast_member->character = $character_name;
-				$cast_member->update($data);
-				$movie = Movies::findorfail($movie_id);
+	         $movie = Movies::findorfail($movie_id);
+				$movie->cast()->updateExistingPivot($person_id, array('character' => $character_name));
 				return (String) view('movies.cast', compact('movie'));
 	      }
       }

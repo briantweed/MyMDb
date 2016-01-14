@@ -50,7 +50,7 @@ class PersonController extends Controller {
 		}
 		$person->deceased = $person->deceased ? date('jS F Y', strtotime($person->deceased)) : null;
 		$user = $this->isAdmin;
-		return view('people.show', compact('person','user','roles'));
+		return view('people.show', compact('person', 'user'));
 	}
 
 	public function create()
@@ -92,7 +92,6 @@ class PersonController extends Controller {
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$person = Persons::findorfail($person_id);
-		$person->movies;
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
 		$person->cover_count = strlen($person->image);
 		$person->birthday = $person->birthday ? date('d-m-Y', strtotime($person->birthday)): "";
@@ -192,12 +191,30 @@ class PersonController extends Controller {
 				$person_id = $data['person'];
 				$character_name = $data['character'];
 				$person = Persons::findorfail($person_id);
-				$person->movies()->attach($movie_id, array('character' => $character_name));
+				$person->roles()->attach($movie_id, array('character' => $character_name));
 				return (String) view('people.roles', compact('person'));
 			}
 		}
 		return "error";
 	}
+
+	public function editRole()
+   {
+		if($this->isAdmin)
+		{
+	      if(Request::ajax())
+	      {
+	         $data = Request::all();
+	         $movie_id = $data['movie'];
+	         $person_id = $data['person'];
+	         $character_name = $data['character'];
+	         $person = Persons::findorfail($person_id);
+				$person->roles()->updateExistingPivot($movie_id, array('character' => $character_name));
+				return (String) view('people.roles', compact('person'));
+	      }
+      }
+      return "error";
+   }
 
 	public function removeMovieRole()
    {

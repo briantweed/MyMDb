@@ -15,7 +15,7 @@ class Persons extends Model {
 		'image'
 	);
 
-	public function movies()
+	public function roles()
 	{
 		return $this->belongsToMany('App\Movies', 'cast', 'person_id', 'movie_id')
 						->withPivot('cast_id', 'character')

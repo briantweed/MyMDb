@@ -165,7 +165,7 @@
 
    @include('modal.add_cast')
    @include('modal.add_crew')
-   @include('modal.edit_cast')
+   @include('modal.edit_character')
    @include('modal.add_tag')
    @include('modal.remove_cast')
    @include('modal.remove_crew')

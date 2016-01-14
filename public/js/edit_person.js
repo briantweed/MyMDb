@@ -1,4 +1,3 @@
-var base_path = $('body').data('base');
 
 var featherEditor = new Aviary.Feather({
    apiKey: $('input[name="_aviary"]').val(),
@@ -14,7 +13,7 @@ var featherEditor = new Aviary.Feather({
    onSave: function(imageID, newUrl) {
       $.ajax({
          type: "POST",
-         url: '/'+$('body').data('base')+'/aviary',
+         url: '/MyMDb/public/aviary',
          dataType : "json",
          data: {
             _token: $('meta[name="_token"]').attr('content'),
@@ -42,8 +41,8 @@ $(document).ready(function(){
       format: "dd-mm-yyyy",
       orientation: "bottom auto",
       autoclose: true,
-      todayHighlight: true,
-      defaultViewDate: { year: 2000, month: 01, day: 01 }
+      todayHighlight: true
+      // defaultViewDate: { year: 2000, month: 01, day: 01 }
    });
 
    $('#movie_list').selectize();
@@ -58,7 +57,7 @@ $(document).ready(function(){
    $('#add_new_role').click(function() {
       $.ajax({
          type: 'POST',
-         url: '/'+base_path+'/addNewRole',
+         url: '/MyMDb/public/addNewRole',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -73,10 +72,26 @@ $(document).ready(function(){
       });
    });
 
+   $('#edit_new_cast').click(function() {
+      $.ajax({
+         type: 'POST',
+         url: '/MyMDb/public/editRole',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            person: $('#person_id').val(),
+            movie: $('#movie_id').val(),
+            character: $('#edit_character_name').val(),
+         }
+      }).done(function(html){
+         $('#role-list').html(html);
+         $('.modal').modal('hide');
+      });
+   });
+
    $('#remove_role').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/'+base_path+'/removeRole',
+         url: '/MyMDb/public/removeRole',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -100,6 +115,12 @@ function launchEditor() {
 
 function addMovieRole() {
    $('#new-role-modal').modal();
+}
+
+function editMovieRole(movieID, character) {
+   setMovieId(movieID);
+   $('#edit_character_name').val(character);
+   $('#edit-cast-modal').modal();
 }
 
 function removeMovieRole(id) {

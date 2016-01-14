@@ -1,5 +1,4 @@
 
-var base_path = $('body').data('base');
 var person_type = "";
 
 var featherEditor = new Aviary.Feather({
@@ -16,7 +15,7 @@ var featherEditor = new Aviary.Feather({
    onSave: function(imageID, newUrl) {
       $.ajax({
          type: "POST",
-         url: '/'+base_path+'/aviary',
+         url: '/MyMDb/public/aviary',
          dataType : "json",
          data: {
             _token: $('meta[name="_token"]').attr('content'),
@@ -86,7 +85,7 @@ $(document).ready(function(){
    $('#add_new_cast').click(function() {
       $.ajax({
          type: 'POST',
-         url: '/'+base_path+'/addNewCast',
+         url: '/MyMDb/public/addNewCast',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -104,17 +103,14 @@ $(document).ready(function(){
    $('#edit_new_cast').click(function() {
       $.ajax({
          type: 'POST',
-         url: '/'+base_path+'/editCastMember',
+         url: '/MyMDb/public/editCastMember',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
             movie: $('#movie_id').val(),
-            row: $('#row_id').val(),
             character: $('#edit_character_name').val(),
          }
       }).done(function(html){
-         var selectize = $("#cast_list")[0].selectize;
-         selectize.removeOption($('#person_id').val());
          $('#cast-list').html(html);
          $('.modal').modal('hide');
       });
@@ -123,7 +119,7 @@ $(document).ready(function(){
    $('#add_new_crew').click(function() {
       $.ajax({
          type: 'POST',
-         url: '/'+base_path+'/addNewCrew',
+         url: '/MyMDb/public/addNewCrew',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -140,7 +136,7 @@ $(document).ready(function(){
    $('#remove_cast').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/'+base_path+'/removeCast',
+         url: '/MyMDb/public/removeCast',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             row: $('#row_id').val(),
@@ -155,7 +151,7 @@ $(document).ready(function(){
    $('#remove_crew').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/'+base_path+'/removeCrew',
+         url: '/MyMDb/public/removeCrew',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             row: $('#row_id').val(),
@@ -170,7 +166,7 @@ $(document).ready(function(){
    $('#add_new_tag').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/'+base_path+'/addtag',
+         url: '/MyMDb/public/addtag',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             word: $('#new_tag').val(),
@@ -219,20 +215,9 @@ function addCrewMember() {
    $('#new-crew-modal').modal();
 }
 
-function editCastMember(json) {
-   setRowId(json.pivot.cast_id);
-   setPersonId(json.person_id);
-   var newPerson = [];
-   newPerson.push({
-      text: json.forename+" "+json.surname,
-      value: json.person_id
-   });
-   console.log(newPerson);
-   var selectize = $('#edit_cast_list')[0].selectize;
-   selectize.addOption(newPerson);
-   selectize.refreshOptions(false);
-   selectize.setValue(json.person_id,false);
-   $('#edit_character_name').val(json.pivot.character);
+function editCastMember(personID, character) {
+   setPersonId(personID);
+   $('#edit_character_name').val(character);
    $('#edit-cast-modal').modal();
 }
 
@@ -275,7 +260,7 @@ function clearErrorMessages() {
 function getNewPersonForm(val) {
    $.ajax({
       type: 'POST',
-      url: '/'+base_path+'/addNewPerson',
+      url: '/MyMDb/public/addNewPerson',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          value: val,
@@ -290,7 +275,7 @@ function getNewPersonForm(val) {
 function createNewPerson() {
    $.ajax({
       type: 'POST',
-      url: '/'+base_path+'/createNewPerson',
+      url: '/MyMDb/public/createNewPerson',
       data: $('#create_new_person_form').serialize(),
    }).done(function(json){
       switch(json) {

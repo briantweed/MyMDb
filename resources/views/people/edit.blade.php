@@ -99,9 +99,8 @@
                   </div>
                </div>
                <div class="row cast">
-                  <div class="col-xs-6"><b>Film</b></div>
+                  <div class="col-xs-5"><b>Film</b></div>
                   <div class="col-xs-3"><b>Character</b></div>
-                  <div class="col-xs-1"></div>
                </div>
                @include('people.roles')
             </div>
@@ -118,10 +117,8 @@
    </div>
    {{-- end of movie row --}}
 
-   {{-- NEW ROLE MODAL --}}
    @include('modal.add_role')
-
-   {{-- REMOVE ROLE MODAL --}}
+   @include('modal.edit_character')
    @include('modal.remove_role')
 
 @stop

@@ -99,12 +99,12 @@
          @include('segments.layout.padding')
 
          {{-- acting roles --}}
-         @if(count($person->movies)!==0)
+         @if(count($person->roles)!==0)
             <div class="row">
                <div class="col-xs-12"><h4>Roles</h4></div>
             </div>
 
-            @foreach($person->movies as $role)
+            @foreach($person->roles as $role)
                <div class="row">
                   <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $role->movie_id) }}"><b>{{$role->name}}</b></a><br/></div>
                   <div class="{{$role_char}}"><i>{{$role->pivot->character}}</i><br/></div>
