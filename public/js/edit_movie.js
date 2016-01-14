@@ -78,6 +78,7 @@ $(document).ready(function(){
    $('.modal').on('hide.bs.modal', function(e) {
       $('.modal .form-control').val('');
       setPersonId('');
+      setRowId('');
       clearErrorMessages();
       clearModalSelectize();
    });
