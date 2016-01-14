@@ -10,6 +10,7 @@ class Persons extends Model {
 		'forename',
 		'surname',
 		'birthday',
+		'deceased',
 		'bio',
 		'image'
 	);

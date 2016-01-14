@@ -64,6 +64,7 @@ class CreateDatabaseTables extends Migration {
 			$table->string('forename');
 			$table->string('surname');
 			$table->date('birthday')->nullable()->default(NULL);
+			$table->date('deceased')->nullable()->default(NULL);
 			$table->string('image')->nullable();
 			$table->text('bio')->nullable();
 			$table->timestamps();

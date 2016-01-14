@@ -41,7 +41,7 @@ class PersonController extends Controller {
 		if($person->birthday !== NULL)
 		{
 			$person->birthday = date('jS F Y', strtotime($person->birthday));
-			$person->age = $this->calculateAge($person->birthday);
+			$person->age = $this->calculateAge($person->birthday, $person->deceased);
 		}
 		else
 		{
@@ -79,6 +79,7 @@ class PersonController extends Controller {
 			foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
 			unset($value);
 			$data['birthday'] = $data['birthday'] ? date("Y-m-d", strtotime($data['birthday'])) : null;
+			$data['deceased'] = $data['deceased'] ? date("Y-m-d", strtotime($data['deceased'])) : null;
 			$update = Persons::create($data);
 			$inserted_id = $update->person_id;
 			return redirect()->action('PersonController@edit', [$inserted_id])->with('status', 'Person Added Successfully');
@@ -94,6 +95,7 @@ class PersonController extends Controller {
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
 		$person->cover_count = strlen($person->image);
 		$person->birthday = $person->birthday ? date('d-m-Y', strtotime($person->birthday)): "";
+		$person->deceased = $person->deceased ? date('d-m-Y', strtotime($person->deceased)): "";
 		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
 		$values = json_decode($person);
 		$user = $this->isAdmin;
@@ -127,6 +129,8 @@ class PersonController extends Controller {
 			}
 		}
 		$data['birthday'] = $data['birthday'] ? date("Y/m/d", strtotime($data['birthday'])) : null;
+		$data['deceased'] = $data['deceased'] ? date("Y-m-d", strtotime($data['deceased'])) : null;
+
 		$person->update($data);
 		return redirect()->action('PersonController@edit', [$id])->with('status', 'Details Updated Successfully');
 	}
@@ -217,10 +221,10 @@ class PersonController extends Controller {
 	| --------------------------------------------------
 	*/
 
-	private function calculateAge($dob)
+	private function calculateAge($dob, $dop)
 	{
 		$date = new DateTime($dob);
-		$now = new DateTime();
+		$now = $dop ? new DateTime($dop) : new DateTime();
 		$interval = $now->diff($date);
 		return $interval->y;
 	}
