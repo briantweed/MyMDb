@@ -117,6 +117,25 @@
 
          @endif
 
+         {{-- drecting/writing roles --}}
+         @if(count($person->jobs)!==0)
+            <div class="row">
+               <div class="col-xs-12"><h4>Positions</h4></div>
+            </div>
+
+            @foreach($person->jobs as $job)
+               <div class="row">
+                  <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $job->movie_id) }}"><b>{{$job->name}}</b></a><br/></div>
+                  <div class="{{$role_char}}"><i>{{$job->pivot->position}}</i><br/></div>
+                  <div class="{{$role_date}}">{{$job->released}}</div>
+               </div>
+            @endforeach
+
+            {{-- padding --}}
+            @include('segments.layout.padding')
+
+         @endif
+
       </div> {{-- end of right column --}}
 
    </div> {{-- end of person row --}}
