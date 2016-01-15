@@ -208,7 +208,7 @@ class MovieController extends Controller {
 	         $data = Request::all();
 	         $movie_id = $data['movie'];
 	         $person_id = $data['person'];
-	         $character_name = $data['character'];
+				$character_name = htmlentities(ucwords(strtolower(trim($data['character']))), ENT_QUOTES);
 	         $movie = Movies::findorfail($movie_id);
 	         $movie->cast()->attach($person_id, array('character' => $character_name));
 				return (String) view('movies.cast', compact('movie'));
@@ -226,7 +226,7 @@ class MovieController extends Controller {
 	         $data = Request::all();
 	         $movie_id = $data['movie'];
 	         $person_id = $data['person'];
-	         $character_name = $data['character'];
+	         $character_name = htmlentities(ucwords(strtolower(trim($data['character']))), ENT_QUOTES);
 	         $movie = Movies::findorfail($movie_id);
 				$movie->cast()->updateExistingPivot($person_id, array('character' => $character_name));
 				return (String) view('movies.cast', compact('movie'));

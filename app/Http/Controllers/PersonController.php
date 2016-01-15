@@ -40,7 +40,7 @@ class PersonController extends Controller {
 		$person->cover_count = strlen($person->image);
 		if($person->birthday !== NULL)
 		{
-			$person->birthday = date('jS F Y', strtotime($person->birthday));
+			$person->birthday =$this->formatDate($person->birthday, 'display');
 			$person->age = $this->calculateAge($person->birthday, $person->deceased);
 		}
 		else
@@ -48,7 +48,7 @@ class PersonController extends Controller {
 			$person->birthday = "-";
 			$person->age = "-";
 		}
-		$person->deceased = $person->deceased ? date('jS F Y', strtotime($person->deceased)) : null;
+		$person->deceased = $this->formatDate($person->deceased, 'display');
 		$user = $this->isAdmin;
 		return view('people.show', compact('person', 'user'));
 	}
@@ -79,8 +79,8 @@ class PersonController extends Controller {
 			}
 			foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
 			unset($value);
-			$data['birthday'] = $data['birthday'] ? date("Y-m-d", strtotime($data['birthday'])) : null;
-			$data['deceased'] = $data['deceased'] ? date("Y-m-d", strtotime($data['deceased'])) : null;
+			$data['birthday'] = $this->formatDate($data['birthday'], 'input');
+			$data['deceased'] = $this->formatDate($data['deceased'], 'input');
 			$update = Persons::create($data);
 			$inserted_id = $update->person_id;
 			return redirect()->action('PersonController@edit', [$inserted_id])->with('status', 'Person Added Successfully');
@@ -94,8 +94,8 @@ class PersonController extends Controller {
 		$person = Persons::findorfail($person_id);
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
 		$person->cover_count = strlen($person->image);
-		$person->birthday = $person->birthday ? date('d-m-Y', strtotime($person->birthday)): "";
-		$person->deceased = $person->deceased ? date('d-m-Y', strtotime($person->deceased)): "";
+		$person->birthday =$this->formatDate($person->birthday, 'output');
+		$person->deceased = $this->formatDate($person->deceased, 'output');
 		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
 		$values = json_decode($person);
 		$user = $this->isAdmin;
@@ -128,13 +128,17 @@ class PersonController extends Controller {
 				$this->unlinkExistingImage('people', $person->image);
 			}
 		}
-		$data['birthday'] = $data['birthday'] ? date("Y/m/d", strtotime($data['birthday'])) : null;
-		$data['deceased'] = $data['deceased'] ? date("Y-m-d", strtotime($data['deceased'])) : null;
-
+		$data['birthday'] = $this->formatDate($data['birthday'], 'input');
+		$data['deceased'] = $this->formatDate($data['deceased'], 'input');
 		$person->update($data);
 		return redirect()->action('PersonController@edit', [$id])->with('status', 'Details Updated Successfully');
 	}
 
+	public function destroy($id)
+	{
+		DB::table('persons')->where('person_id', '=', $id)->delete();
+		return redirect()->action('PersonController@edit', [$id-1])->with('status', 'Person Deleted');
+	}
 
 	public function addNewPerson()
 	{
@@ -168,8 +172,8 @@ class PersonController extends Controller {
 			unset($value);
 			if($data['forename']!="" && $data['surname']!="")
 			{
-				$data['birthday'] = $data['birthday'] ? date("Y-m-d", strtotime($data['birthday'])) : null;
-				$data['deceased'] = $data['deceased'] ? date("Y-m-d", strtotime($data['deceased'])) : null;
+				$data['birthday'] = $this->formatDate($data['birthday'], 'input');
+				$data['deceased'] = $this->formatDate($data['deceased'], 'input');
 				$update = Persons::create($data);
 				$inserted_id = $update->person_id;
 				$new_person['value']  = $inserted_id;
@@ -256,5 +260,21 @@ class PersonController extends Controller {
 						->first();
 		if(count($existing)==0) return false;
 		else return $existing->person_id;
+	}
+
+	private function formatDate($date, $type)
+	{
+		if($date)
+		{
+			$output = new DateTime($date);
+			switch($type)
+			{
+				case 'input': $format = 'Y-m-d'; break;
+				case 'output': $format = 'd-m-Y'; break;
+				case 'display': $format = 'jS F Y'; break;
+			}
+			return $output->format($format);
+		}
+		return null;
 	}
 }

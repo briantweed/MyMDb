@@ -47,6 +47,10 @@ $(document).ready(function(){
 
    $('#movie_list').selectize();
 
+   $('#delete_person').click(function() {
+      $('#delete_person_form').submit();
+   });
+
    $('.modal').on('hide.bs.modal', function(e) {
       $('.modal .form-control').val('');
       setMovieId('');

@@ -175,16 +175,16 @@ Depp has played many characters in his career, including another fact-based one,
 				'person_id' => 12,
 				'forename' => 'James',
 				'surname' => 'Cagney',
-				'birthday' => '1899-01-01',
-				'deceased' => NULL,
+				'birthday' => '1899-07-21',
+				'deceased' => '1986-03-30',
 				'image' => 'james_cagney_1452607234.jpg',
 				'bio' => 'James Francis Cagney, Jr. was an American actor and dancer, both on stage and in film, though he had his greatest impact in film. 
 
 Known for his consistently energetic performances, distinctive vocal style, and deadpan comic timing, he won acclaim and major awards for a wide variety of performances. He is best remembered for playing multifaceted tough guys in movies such as The Public Enemy, Angels with Dirty Faces, and White Heat and was even typecast or limited by this view earlier in his career. 
 
-In 1999, the American Film Institute ranked him eighth among its list of greatest male stars of Classic Hollywood Cinema. Orson Welles said of Cagney, &quot;he was maybe the greatest actor who ever appeared in front of a camera&quot;  and Stanley Kubrick considered him to be one of the best actors of all time.',
+In 1999, the American Film Institute ranked him eighth among its list of greatest male stars of Classic Hollywood Cinema. Orson Welles said of Cagney, "he was maybe the greatest actor who ever appeared in front of a camera"  and Stanley Kubrick considered him to be one of the best actors of all time.',
 				'created_at' => '2016-01-12 14:00:34',
-				'updated_at' => '2016-01-12 14:00:34',
+				'updated_at' => '2016-01-15 09:56:42',
 			),
 			12 => 
 			array (

@@ -61,8 +61,7 @@
             {{-- delete button --}}
             @if( Request::is('movies/*/edit'))
                <hr/>
-
-               @include('segments.buttons.delete')
+               @include('segments.buttons.delete_movie')
             @endif
 
             {{-- padding --}}

@@ -56,7 +56,7 @@
             {{-- delete button --}}
             @if(Request::is('people/*/edit'))
                <hr/>
-
+               @include('segments.buttons.delete_person')
             @endif
 
             @include('segments.layout.padding')
