@@ -239,7 +239,7 @@
                   <h4 id="movies-by-label">Movies By Decade</h4>
                </div>
                <div class="col-xs-2">
-                  {!! Form::select('select_decade', array('' => 'select ...') + $details->decades, '', ['class'=>'form-control']) !!}
+                  {!! Form::select('select_decade', ['all'=>'All'] + $details->decades, 'all', ['class'=>'form-control', 'id'=>'decadeSelectFilter']) !!}
                </div>
             </div>
             @include('segments.layout.padding')

@@ -8,6 +8,17 @@ $(window).resize(function(event) {
 
 $(document).ready(function() {
 
+   $('#decadeSelectFilter').change(function() {
+      var selected = $(this).val();
+      if(selected !=="all")
+      {
+         var start = parseInt(selected);
+         var end = start+9;
+         displayMoviesByYear(start, end);
+      }
+      else displayMoviesByDecade();
+   });
+
    $('.slick-purchased').slick({
       autoplaySpeed: 3000,
       pauseOnHover: true,
@@ -87,7 +98,8 @@ function displayMoviesByYear(start, end) {
       var chart = new CanvasJS.Chart("yearChart", {
          axisY:{
             gridColor: "#ddd",
-            gridThickness: 1
+            gridThickness: 1,
+            interval: json.interval
          },
          toolTip: {
             contentFormatter: function(event) {
@@ -102,7 +114,7 @@ function displayMoviesByYear(start, end) {
          },
          data: [{
             type: "column",
-            dataPoints: json,
+            dataPoints: json.years,
             click: function(event) {
                startFilter('year', event.dataPoint.label);
             },

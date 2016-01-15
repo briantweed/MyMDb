@@ -108,18 +108,23 @@ class AjaxController extends Controller
    {
       if(Request::ajax())
       {
+         $max = 0;
+         $years = [];
+         $movies = [];
+         $results = [];
          $data = Request::all();
          $start_year = $data['start'];
          $end_year = $data['end'] > date("Y") ? date("Y") : $data['end'];
          $query = Movies::select('released', DB::raw('count(*) as count'))
+                     ->where('released', '>=', $start_year)
+                     ->where('released', '<=', $end_year)
                     ->groupBy('released')
                     ->get();
-         $movies = [];
          foreach($query as $result)
          {
             $movies[$result->released] = $result->count;
+            if($result->count>$max) $max = $result->count;
          }
-         $years = [];
          for($x=$start_year; $x<=$end_year; $x++)
          {
             $year = [];
@@ -128,7 +133,9 @@ class AjaxController extends Controller
             $years[] = $year;
          }
       }
-      return $years;
+      $results['years'] = $years;
+      $results['interval'] = $max > 499 ? 100 : ($max > 99 ? 50 : ($max > 19 ? 10 : ($max > 4 ? 5 : 1)));
+      return $results;
    }
 
 	public function movieFormatCount()
