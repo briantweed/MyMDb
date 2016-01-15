@@ -110,7 +110,7 @@ class AjaxController extends Controller
       {
          $data = Request::all();
          $start_year = $data['start'];
-         $end_year = $data['end'];
+         $end_year = $data['end'] > date("Y") ? date("Y") : $data['end'];
          $query = Movies::select('released', DB::raw('count(*) as count'))
                     ->groupBy('released')
                     ->get();
