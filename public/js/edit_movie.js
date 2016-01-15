@@ -287,7 +287,8 @@ function createNewPerson() {
       url: '/MyMDb/public/createNewPerson',
       data: $('#create_new_person_form').serialize(),
    }).done(function(json){
-      switch(json) {
+      switch(json)
+      {
          case "exists":
             $('#create_person_error').removeClass('hide');
             $('#create_person_error_message').html('already exists');
@@ -315,8 +316,8 @@ function createNewPerson() {
             var theOther = $('#'+other_type+'_list')[0].selectize;
             theOther.addOption(newPerson);
             theOther.refreshOptions(false);
+         break;
       }
-
    });
 }
 
