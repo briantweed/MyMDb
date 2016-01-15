@@ -215,10 +215,19 @@ function addCrewMember() {
    $('#new-crew-modal').modal();
 }
 
-function editCastMember(personID, character) {
-   setPersonId(personID);
-   $('#edit_character_name').val(character);
-   $('#edit-cast-modal').modal();
+function editCastMember(castID) {
+   $.ajax({
+      type: 'POST',
+      url: '/MyMDb/public/getCastDetails',
+      data: {
+         _token: $('meta[name="_token"]').attr('content'),
+         cast_id: castID
+      }
+   }).done(function(json){
+      $('#edit_character_name').val($('<textarea/>').html(json.character).text());
+      $('#person_id').val(json.person_id);
+      $('#edit-cast-modal').modal();
+   });
 }
 
 function removeCastMember(id) {

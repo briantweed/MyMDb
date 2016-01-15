@@ -2,6 +2,7 @@
 
 use DB;
 use Request;
+use App\Cast;
 use App\Movies;
 use App\Persons;
 use App\Http\Requests;
@@ -83,6 +84,16 @@ class AjaxController extends Controller
             return (String) view('ajax.movie_filter', compact('movies', 'people', 'quote', 'user'));
          }
          else return "blank";
+      }
+   }
+
+   public function getCastDetails()
+   {
+      if(Request::ajax())
+      {
+         $data = Request::all();
+         $cast_id = $data['cast_id'];
+         return Cast::find($cast_id);
       }
    }
 

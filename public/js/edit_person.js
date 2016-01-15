@@ -121,10 +121,19 @@ function addMovieRole() {
    $('#new-role-modal').modal();
 }
 
-function editMovieRole(movieID, character) {
-   setMovieId(movieID);
-   $('#edit_character_name').val(character);
-   $('#edit-cast-modal').modal();
+function editMovieRole(castID) {
+   $.ajax({
+      type: 'POST',
+      url: '/MyMDb/public/getCastDetails',
+      data: {
+         _token: $('meta[name="_token"]').attr('content'),
+         cast_id: castID
+      }
+   }).done(function(json){
+      $('#edit_character_name').val($('<textarea/>').html(json.character).text());
+      $('#movie_id').val(json.movie_id);
+      $('#edit-cast-modal').modal();
+   });
 }
 
 function removeMovieRole(id) {
