@@ -47,6 +47,7 @@ class Movies extends Model {
 	{
 		return $this->belongsToMany('App\Persons', 'crew', 'movie_id', 'person_id')
 						->withPivot('crew_id', 'position')
+						->orderByRaw(DB::raw("FIELD(position, 'Director','Producer','Writer','Composer' )"))
 						->orderBy('forename', 'asc');
 	}
 

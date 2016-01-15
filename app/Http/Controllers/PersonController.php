@@ -140,8 +140,8 @@ class PersonController extends Controller {
 	{
 		$data = Request::all();
 		$names = array_values(array_filter(explode(' ', $data['value'])));
-		$forename = count($names) ? ucwords(strtolower(array_shift($names))) : "";
-		$surname = count($names) ? ucwords(strtolower(implode(" ", $names))) : "";
+		$surname = count($names) ? ucwords(strtolower(array_pop($names))) : "";
+		$forename = count($names) ? ucwords(strtolower(implode(" ", $names))) : "";
 
 		$app = app();
 		$values = $app->make('stdClass');
@@ -164,7 +164,7 @@ class PersonController extends Controller {
 		$person_exist = $this->checkExistingPeople($data['forename'], $data['surname']);
 		if(!$person_exist)
 		{
-			foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
+			foreach($data as &$value) $value = htmlentities(trim($value) , ENT_QUOTES);
 			unset($value);
 			if($data['forename']!="" && $data['surname']!="")
 			{
