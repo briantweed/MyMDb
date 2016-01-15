@@ -1,16 +1,7 @@
-CanvasJS.addColorSet("cert", [
-   "#6bc954",
-   "#158b1a",
-   "#e6dd19",
-   "#d9a125",
-   "#c1277e",
-   "#d43030",
-   "#460000"
-]);
 
+CanvasJS.addColorSet("cert", ["#6bc954", "#158b1a", "#e6dd19", "#d9a125", "#c1277e", "#d43030", "#460000"]);
 
-
-$(window).resize(function(e) {
+$(window).resize(function(event) {
    $('#actor-slidee').sly('reload');
    $('#director-slidee').sly('reload');
 });
@@ -29,30 +20,10 @@ $(document).ready(function() {
       dots: false,
       speed: 800,
       responsive: [
-         {
-            breakpoint: 1200,
-            settings: {
-               slidesToShow: 6
-            }
-         },
-         {
-            breakpoint: 992,
-            settings: {
-               slidesToShow: 5
-            }
-         },
-         {
-            breakpoint: 768,
-            settings: {
-               slidesToShow: 4
-            }
-         },
-         {
-            breakpoint: 400,
-            settings: {
-               slidesToShow: 2
-            }
-         },
+         {breakpoint: 1200, settings: {slidesToShow: 6}},
+         {breakpoint: 992, settings: {slidesToShow: 5}},
+         {breakpoint: 768, settings: {slidesToShow: 4}},
+         {breakpoint: 400, settings: {slidesToShow: 2}},
       ]
    }).hide().removeClass('hide').fadeIn();
 
@@ -103,10 +74,9 @@ $(document).ready(function() {
 });
 
 function displayMoviesByYear(start, end) {
-   var base_path = $('body').data('base');
    $.ajax({
       type: "POST",
-      url: '/'+base_path+'/movieYearCount',
+      url: '/MyMDb/public/movieYearCount',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          start: start,
@@ -120,9 +90,10 @@ function displayMoviesByYear(start, end) {
             gridThickness: 1
          },
          toolTip: {
-            contentFormatter: function(event){
+            contentFormatter: function(event) {
                var str="";
-               for (var i = 0; i < event.entries.length; i++){
+               for (var i = 0; i < event.entries.length; i++)
+               {
                   str = event.entries[i].dataPoint.label + ": ";
                   str += event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
                   return (str);
@@ -132,7 +103,7 @@ function displayMoviesByYear(start, end) {
          data: [{
             type: "column",
             dataPoints: json,
-            click: function(event){
+            click: function(event) {
                startFilter('year', event.dataPoint.label);
             },
          }]
@@ -142,10 +113,9 @@ function displayMoviesByYear(start, end) {
 }
 
 function displayMoviesByDecade() {
-   var base_path = $('body').data('base');
    $.ajax({
       type: "POST",
-      url: '/'+base_path+'/movieDecadeCount',
+      url: '/MyMDb/public/movieDecadeCount',
       data: {
          _token: $('meta[name="_token"]').attr('content')
       }
@@ -156,9 +126,10 @@ function displayMoviesByDecade() {
             gridThickness: 1
          },
          toolTip: {
-            contentFormatter: function(event){
+            contentFormatter: function(event) {
                var str="";
-               for (var i = 0; i < event.entries.length; i++){
+               for (var i = 0; i < event.entries.length; i++)
+               {
                   str =  event.entries[i].dataPoint.label + ": ";
                   str += event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
                   return (str);
@@ -168,7 +139,7 @@ function displayMoviesByDecade() {
          data: [{
             type: "column",
             dataPoints: json,
-            click: function(event){
+            click: function(event) {
                displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
             }
          }]
@@ -178,19 +149,19 @@ function displayMoviesByDecade() {
 }
 
 function displayMoviesByFormat() {
-   var base_path = $('body').data('base');
    $.ajax({
       type: "POST",
-      url: '/'+base_path+'/movieFormatCount',
+      url: '/MyMDb/public/movieFormatCount',
       data: {
          _token: $('meta[name="_token"]').attr('content')
       }
    }).done(function(json) {
       var chart = new CanvasJS.Chart("formatChart", {
          toolTip: {
-            contentFormatter: function(event){
+            contentFormatter: function(event) {
                var str="";
-               for (var i = 0; i < event.entries.length; i++){
+               for (var i = 0; i < event.entries.length; i++)
+               {
                   str = event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
                   return (str);
                }
@@ -199,7 +170,7 @@ function displayMoviesByFormat() {
          data: [{
             type: "doughnut",
             dataPoints: json,
-            click: function(event){
+            click: function(event) {
                startFilter('format', event.dataPoint.label);
             },
          }]
@@ -209,10 +180,9 @@ function displayMoviesByFormat() {
 }
 
 function displayMoviesByCertificate() {
-   var base_path = $('body').data('base');
    $.ajax({
       type: "POST",
-      url: '/'+base_path+'/movieCertificateCount',
+      url: '/MyMDb/public/movieCertificateCount',
       data: {
          _token: $('meta[name="_token"]').attr('content')
       }
@@ -220,7 +190,7 @@ function displayMoviesByCertificate() {
       var chart = new CanvasJS.Chart("certificateChart", {
          colorSet: 'cert',
          toolTip: {
-            contentFormatter: function(event){
+            contentFormatter: function(event) {
                var str="";
                for (var i = 0; i < event.entries.length; i++){
                   str = event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";

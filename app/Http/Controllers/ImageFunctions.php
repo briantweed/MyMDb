@@ -16,7 +16,7 @@ trait ImageFunctions
       {
    		list($image, $ext) = explode('.', $src);
    		$protocol = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
-   		$basePath = $protocol.$_SERVER['HTTP_HOST'].'/'.env('BASE_PATH');
+   		$basePath = $protocol.$_SERVER['HTTP_HOST'].'/MyMDb/public';
          if($compressed==true && @getimagesize($basePath.'/images/compressed/'.$image.'-compressor.'.$ext))
    		{
    			return 'images/compressed/'.$image.'-compressor.'.$ext;
@@ -31,7 +31,7 @@ trait ImageFunctions
 
    private function unlinkExistingImage($dest, $filename)
    {
-      $uploadPath = $_SERVER['DOCUMENT_ROOT'].'/'.env('BASE_PATH').'/images/'.$dest.'/';
+      $uploadPath = $_SERVER['DOCUMENT_ROOT'].'/MyMDb/public/images/'.$dest.'/';
       if(@getimagesize($uploadPath.$filename)) unlink($uploadPath.$filename);
    }
 

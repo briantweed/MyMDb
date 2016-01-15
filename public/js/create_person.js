@@ -4,8 +4,7 @@ $(document).ready(function(){
       format: "dd-mm-yyyy",
       orientation: "bottom auto",
       autoclose: true,
-      todayHighlight: true,
-      defaultViewDate: { year: 2000, month: 01, day: 01 }
+      todayHighlight: true
    });
 
 });
