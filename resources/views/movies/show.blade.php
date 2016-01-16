@@ -80,7 +80,7 @@
          {{-- star rating --}}
          <div class="row">
             <div class="{{$label_class}}"><b>Rating</b></div>
-            <div class="{{$input_class}}"><span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='right' title='{{$movie->rating}} / 10'>{!!$movie->rating_display!!}</span></div>
+            <div class="{{$input_class}}"><span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='right' title='{{$movie->rating}} / @if($movie->movie_id==176) 11 @else 10 @endif'>{!!$movie->rating_display!!}</span></div>
          </div>
 
          {{-- released --}}

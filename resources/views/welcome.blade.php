@@ -82,7 +82,7 @@
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">{{$movie->name}} ({{$movie->released}})</a>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                           <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$movie->rating}} / 10'>{!!$movie->rating_display!!}</span>
+                           <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$movie->rating}} / @if($movie->movie_id==176) 11 @else 10 @endif'>{!!$movie->rating_display!!}</span>
                         </div>
                      </div>
                   @endforeach
@@ -106,7 +106,7 @@
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">{{$movie->name}} ({{$movie->released}})</a>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-3">
-                           <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$movie->rating}} / 10'>{!!$movie->rating_display!!}</span>
+                           <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$movie->rating}} / @if($movie->movie_id==176) 11 @else 10 @endif'>{!!$movie->rating_display!!}</span>
                         </div>
                      </div>
                   @endforeach
@@ -142,7 +142,7 @@
                </div>
                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-8">
                   <h4>{{$details->highlight->name}} ({{$details->highlight->released}}) </h4>
-                  <span class="rating-display @if($details->highlight->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$details->highlight->rating}} / 10'>{!!$details->highlight->rating_display!!}</span>
+                  <span class="rating-display @if($details->highlight->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$details->highlight->rating}} / @if($movie->movie_id==176) 11 @else 10 @endif'>{!!$details->highlight->rating_display!!}</span>
                   <br><br>{{$details->highlight->bio}}<br><br>
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}" class="btn  btn-info-outline"> view </a>
                </div>

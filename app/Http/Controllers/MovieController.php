@@ -2,14 +2,18 @@
 
 use DB;
 use Request;
+use Session;
 use App\Cast;
 use App\Crew;
+use App\Forms;
 use App\Movies;
+use App\Genres;
 use App\Studios;
+use App\Formats;
 use App\Persons;
 use App\Viewings;
 use App\Keywords;
-// use App\Http\Requests;
+use App\Certificates;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ValidateCreateMovie;
 
@@ -40,7 +44,6 @@ class MovieController extends Controller {
 	public function show($id)
 	{
 		$movie = Movies::findorfail($id);
-
 		$viewings = $movie->viewings()->select('date')->orderBy('date', 'desc')->first();
 		$movie->last_viewed = $viewings ? date("jS F Y", strtotime($viewings->date)) : null;
 		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
@@ -48,20 +51,19 @@ class MovieController extends Controller {
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
 
 		$user = $this->isAdmin;
-
 		return view('movies.show', compact('movie','user'));
 	}
 
 	public function create()
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		$fields = DB::table('forms')->where('name','create_movie')->orderBy('order', 'asc')->get();
+		$fields = Forms::getFormFields('create_movie', true);
 
 		$app = app();
 		$options = $app->make('stdClass');
-		$options->certificates = DB::table('certificates')->lists('title', 'certificate_id');
-		$options->studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
-		$options->formats = DB::table('formats')->lists('type', 'format_id');
+		$options->certificates = Certificates::lists('title', 'certificate_id')->toArray();
+		$options->studios = Studios::orderBy('name', 'asc')->lists('name', 'studio_id')->toArray();
+		$options->formats = Formats::lists('type', 'format_id')->toArray();
 
 		$user = $this->isAdmin;
 
@@ -96,8 +98,10 @@ class MovieController extends Controller {
 	public function edit($movie_id)
 	{
 		if(!$this->isAdmin) return view('auth.login');
+		Session::put('key', $movie_id);
 
 		$movie = Movies::findorfail($movie_id);
+		$movie->genres;
 		$movie->purchased = date("d-m-Y", strtotime($movie->purchased));
 		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
@@ -105,13 +109,13 @@ class MovieController extends Controller {
 
 		$movie->genres = DB::table('categories')->where('movie_id', $movie_id)->lists('genre_id');
 		$movie->tags = DB::table('tags')->where('movie_id', $movie_id)->lists('keyword_id');
-		$fields = DB::table('forms')->where('name','create_movie')->orderBy('order', 'asc')->get();
+		$fields = Forms::getFormFields('create_movie', true);
 
 		$app = app();
 		$options = $app->make('stdClass');
-		$options->certificates = DB::table('certificates')->lists('title', 'certificate_id');
-		$options->studios = DB::table('studios')->orderBy('name', 'asc')->lists('name', 'studio_id');
-		$options->formats = DB::table('formats')->lists('type', 'format_id');
+		$options->certificates = Certificates::lists('title', 'certificate_id')->toArray();
+		$options->studios = Studios::orderBy('name', 'asc')->lists('name', 'studio_id')->toArray();
+		$options->formats = Formats::lists('type', 'format_id')->toArray();
 		$options->actors = Persons::select(DB::raw("CONCAT(forename, ' ', surname) AS full_name"), 'person_id')
 								->whereNotIn('person_id', function($query) use ($movie_id) {
 									$query->select('person_id')
@@ -125,13 +129,13 @@ class MovieController extends Controller {
 								->orderBy('forename')
 								->lists('full_name', 'person_id')->all();
 
-		$options->keywords = DB::table('keywords')->orderBy('word')->get();
+		$options->keywords = Keywords::all();
 		foreach($options->keywords as $keyword)
 		{
 			$keyword->selected = in_array($keyword->keyword_id, $movie->tags) ? true : false;
 		}
 
-		$options->genres = DB::table('genres')->orderBy('type')->get();
+		$options->genres = Genres::all();
 		foreach($options->genres as $genre)
 		{
 			$genre->selected = in_array($genre->genre_id, $movie->genres) ? true : false;
@@ -187,8 +191,8 @@ class MovieController extends Controller {
 
 	public function destroy($id)
 	{
-		DB::table('movies')->where('movie_id', '=', $id)->delete();
-		return redirect()->action('MovieController@edit', [$id-1])->with('status', 'Movie Deleted');
+		Movies::where('movie_id', '=', $id)->delete();
+		return redirect()->action('MovieController@index')->with('status', 'Movie Deleted');
 	}
 
 
@@ -307,7 +311,7 @@ class MovieController extends Controller {
 						$options = $app->make('stdClass');
 
 						$tags = DB::table('tags')->where('movie_id', $movie_id)->lists('keyword_id');
-						$options->keywords = DB::table('keywords')->orderBy('word')->get();
+						$options->keywords = Keywords::all();
 						foreach($options->keywords as $keyword)
 						{
 							$keyword->selected = in_array($keyword->keyword_id, $tags) ? true : false;
@@ -352,7 +356,7 @@ class MovieController extends Controller {
 	*/
 	private function checkForDuplicateTitle($name)
 	{
-		return DB::table('movies')->where('name', $name)->count() > 0 ? true : false;
+		return Movies::where('name', $name)->count() > 0 ? true : false;
 	}
 
 	/**
@@ -363,7 +367,7 @@ class MovieController extends Controller {
 	*/
 	private function createNewStudio($name)
 	{
-		$existing = DB::table('studios')->where('studio_name', $name)->first();
+		$existing = Studios::where('studio_name', $name)->first();
 		if(count($existing)==0) {
 			$values = ['studio_name'=>$name];
 			$update = Studios::create($values);

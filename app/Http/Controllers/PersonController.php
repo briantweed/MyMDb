@@ -4,6 +4,7 @@ use DB;
 use Request;
 use DateTime;
 use App\Cast;
+use App\Forms;
 use App\Movies;
 use App\Persons;
 use App\Http\Requests;
@@ -56,7 +57,7 @@ class PersonController extends Controller {
 	public function create()
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
+		$fields = Forms::getFormFields('create_person', true);
 		$user = $this->isAdmin;
 		return view('people.create', compact('fields', 'user'));
 	}
@@ -96,7 +97,7 @@ class PersonController extends Controller {
 		$person->cover_count = strlen($person->image);
 		$person->birthday =$this->formatDate($person->birthday, 'output');
 		$person->deceased = $this->formatDate($person->deceased, 'output');
-		$fields = DB::table('forms')->where('name','create_person')->orderBy('order', 'asc')->get();
+		$fields = Forms::getFormFields('create_person', true);
 		$values = json_decode($person);
 		$user = $this->isAdmin;
 
@@ -136,7 +137,7 @@ class PersonController extends Controller {
 
 	public function destroy($id)
 	{
-		DB::table('persons')->where('person_id', '=', $id)->delete();
+		Persons::where('person_id', '=', $id)->delete();
 		return redirect()->action('PersonController@edit', [$id-1])->with('status', 'Person Deleted');
 	}
 
@@ -152,11 +153,7 @@ class PersonController extends Controller {
 		$values->forename = $forename;
 		$values->surname = $surname;
 
-		$fields = DB::table('forms')
-					->where('name','create_person')
-					->where('type', '!=', 'file')
-					->orderBy('order', 'asc')
-					->get();
+		$fields = Forms::getFormFields('create_person', false);
 
 		return (String) view('modal.create_person', compact('fields', 'values'));
 	}
@@ -254,8 +251,7 @@ class PersonController extends Controller {
 
 	private function checkExistingPeople($forename, $surname)
 	{
-		$existing = DB::table('persons')
-						->where('forename', $forename)
+		$existing = Persons::where('forename', $forename)
 						->where('surname', $surname)
 						->first();
 		if(count($existing)==0) return false;

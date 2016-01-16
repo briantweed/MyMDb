@@ -49,8 +49,7 @@ $(document).ready(function(){
    $('#cast_list').selectize({
       persist: false,
       create: function(input, callback){
-         setPersonType('cast');
-         getNewPersonForm(input);
+         getNewPersonForm(input, 'cast');
          callback({
             text: input
          });
@@ -60,8 +59,7 @@ $(document).ready(function(){
    $('#crew_list').selectize({
       persist: false,
       create: function(input, callback){
-         setPersonType('crew');
-         getNewPersonForm(input);
+         getNewPersonForm(input, 'crew');
          callback({
             text: input
          });
@@ -266,7 +264,8 @@ function clearErrorMessages() {
    $('[id$=error_message]').html('');
 }
 
-function getNewPersonForm(val) {
+function getNewPersonForm(val, type) {
+   setPersonType(type);
    $.ajax({
       type: 'POST',
       url: '/MyMDb/public/addNewPerson',
@@ -275,9 +274,20 @@ function getNewPersonForm(val) {
          value: val,
       }
    }).done(function(html){
-      $('#new-'+person_type+'-modal').modal('hide');
+      $('#new-'+type+'-modal').modal('hide');
       $('#empty-modal').html(html).modal();
       initializeDatePicker();
+   });
+}
+
+function storeNewGenre() {
+   $.ajax({
+      type: 'POST',
+      url: '/MyMDb/public/storeNewGenre',
+      data: $('#create_new_genre_form').serialize(),
+   }).done(function(json){
+      $('#genre-list').html(html);
+      $('.modal').modal('hide');
    });
 }
 
@@ -329,4 +339,24 @@ function initializeDatePicker() {
       todayHighlight: true,
       defaultViewDate: { year: 2000, month: 01, day: 01 }
    }).on('hide', function(e){ e.stopPropagation() })
+}
+
+function showModal(type) {
+   var route = "";
+   switch(type) {
+      case "genre":
+         route = "createNewGenre";
+      break;
+   }
+   $.ajax({
+      type: 'POST',
+      url: '/MyMDb/public/' + route,
+      data: {
+         _token: $('meta[name="_token"]').attr('content')
+      }
+   }).done(function(html){
+      $('.modal').modal('hide');
+      $('#empty-modal').html(html).modal();
+      initializeDatePicker();
+   });
 }

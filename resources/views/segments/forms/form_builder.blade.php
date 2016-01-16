@@ -1,6 +1,5 @@
 
 <?php
-
    foreach($fields as $field)
    {
       $errorClass = $errors->has($field->field) ? "has-error" : "";

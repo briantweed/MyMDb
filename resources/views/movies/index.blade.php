@@ -18,15 +18,14 @@
 {{-- Main Body --}}
 @section('content')
 
-   {{-- paginatin --}}
-   {{-- <div class="row">
-      <div class="col-xs-12">
-         {!! $movies->render() !!}
+   @if (session('status'))
+      <div class="col-xs-12 alert alert-dismissible alert-success">
+         <button type="button" class="close" >
+            <span aria-hidden="true">&times;</span>
+         </button>
+         {{ session('status') }}
       </div>
-   </div> --}}
-
-   {{-- padding --}}
-   {{-- @include('segments.layout.padding') --}}
+   @endif
 
    <div class="row">
       <div class="col-xs-12">

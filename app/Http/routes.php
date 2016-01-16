@@ -31,8 +31,8 @@ Route::post('editRole', 'PersonController@editRole');
 Route::post('removeRole', 'PersonController@removeMovieRole');
 Route::resource('people', 'PersonController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 
-Route::resource('characters', 'CharacterController', ['only'=>['index','show']]);
-
+Route::post('createNewGenre', 'GenreController@createNewGenre');
+Route::post('storeNewGenre', 'GenreController@storeNewGenre');
 
 Route::get('/admin', 'StudioController@index');
 Route::group(['prefix'=>'admin'], function() {

@@ -1,5 +1,5 @@
 
-CanvasJS.addColorSet("cert", ["#6bc954", "#158b1a", "#e6dd19", "#d9a125", "#c1277e", "#d43030", "#460000"]);
+CanvasJS.addColorSet('cert', ['#6bc954', '#158b1a', '#e6dd19', '#d9a125', '#c1277e', '#d43030', '#460000']);
 
 $(window).resize(function(event) {
    $('#actor-slidee').sly('reload');
@@ -10,26 +10,26 @@ $(document).ready(function() {
 
    $('#decadeSelectFilter').change(function() {
       var selected = $(this).val();
-      if(selected !=="all")
+      if(selected !== 'all')
       {
          var start = parseInt(selected);
-         var end = start+9;
+         var end = start + 9;
          displayMoviesByYear(start, end);
       }
       else displayMoviesByDecade();
    });
 
    $('.slick-purchased').slick({
-      autoplaySpeed: 3000,
-      pauseOnHover: true,
-      swipeToSlide: true,
-      slidesToScroll: 1,
-      slidesToShow: 6,
-      infinite: true,
-      autoplay: true,
-      arrows: false,
-      dots: false,
       speed: 800,
+      dots: false,
+      arrows: false,
+      autoplay: true,
+      infinite: true,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      swipeToSlide: true,
+      pauseOnHover: true,
+      autoplaySpeed: 3000,
       responsive: [
          {breakpoint: 1200, settings: {slidesToShow: 6}},
          {breakpoint: 992, settings: {slidesToShow: 5}},
@@ -39,41 +39,31 @@ $(document).ready(function() {
    }).hide().removeClass('hide').fadeIn();
 
    $('#actor-slidee').sly({
-      dragSource : '#actor-slidee',
-      activatePageOn : 'click',
-      activateOn : 'click',
-      itemNav: 'basic',
-      mouseDragging : 1,
-      touchDragging : 1,
-      swingSpeed : 0.07,
-      elasticBounds : 0,
-      dynamicHandle : 0,
-      releaseSwing : 1,
-      horizontal : 1,
-      dragHandle : 1,
-      scrollBy : 0,
-      clickBar : 0,
       speed : 50,
-      smart : 0
+      dragHandle : 1,
+      horizontal : 1,
+      itemNav: 'basic',
+      releaseSwing : 1,
+      swingSpeed : 0.07,
+      touchDragging : 1,
+      mouseDragging : 1,
+      activateOn : 'click',
+      activatePageOn : 'click',
+      dragSource : '#actor-slidee',
    });
 
    $('#director-slidee').sly({
-      dragSource : '#director-slidee',
-      activatePageOn : 'click',
-      activateOn : 'click',
-      itemNav: 'basic',
+      speed : 50,
+      dragHandle : 1,
+      horizontal : 1,
+      releaseSwing : 1,
       mouseDragging : 1,
       touchDragging : 1,
       swingSpeed : 0.07,
-      elasticBounds : 0,
-      dynamicHandle : 0,
-      releaseSwing : 1,
-      horizontal : 1,
-      dragHandle : 1,
-      scrollBy : 0,
-      clickBar : 0,
-      speed : 50,
-      smart : 0
+      itemNav: 'basic',
+      activateOn : 'click',
+      activatePageOn : 'click',
+      dragSource : '#director-slidee',
    });
 
    displayMoviesByDecade();
@@ -86,7 +76,7 @@ $(document).ready(function() {
 
 function displayMoviesByYear(start, end) {
    $.ajax({
-      type: "POST",
+      type: 'POST',
       url: '/MyMDb/public/movieYearCount',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
@@ -94,26 +84,26 @@ function displayMoviesByYear(start, end) {
          end: end
       }
    }).done(function(json) {
-      $('#movies-by-label').html("Movies By Year");
-      var chart = new CanvasJS.Chart("yearChart", {
+      $('#movies-by-label').html('Movies By Year');
+      var chart = new CanvasJS.Chart('yearChart', {
          axisY:{
-            gridColor: "#ddd",
+            gridColor: '#ddd',
             gridThickness: 1,
             interval: json.interval
          },
          toolTip: {
             contentFormatter: function(event) {
-               var str="";
+               var str = '';
                for (var i = 0; i < event.entries.length; i++)
                {
-                  str = event.entries[i].dataPoint.label + ": ";
-                  str += event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
+                  str = event.entries[i].dataPoint.label + ': ';
+                  str += event.entries[i].dataPoint.y == 1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
                   return (str);
                }
             }
          },
          data: [{
-            type: "column",
+            type: 'column',
             dataPoints: json.years,
             click: function(event) {
                startFilter('year', event.dataPoint.label);
@@ -126,30 +116,30 @@ function displayMoviesByYear(start, end) {
 
 function displayMoviesByDecade() {
    $.ajax({
-      type: "POST",
+      type: 'POST',
       url: '/MyMDb/public/movieDecadeCount',
       data: {
          _token: $('meta[name="_token"]').attr('content')
       }
    }).done(function(json) {
-      var chart = new CanvasJS.Chart("yearChart", {
+      var chart = new CanvasJS.Chart('yearChart', {
          axisY:{
-            gridColor: "#ddd",
+            gridColor: '#ddd',
             gridThickness: 1
          },
          toolTip: {
             contentFormatter: function(event) {
-               var str="";
+               var str = '';
                for (var i = 0; i < event.entries.length; i++)
                {
-                  str =  event.entries[i].dataPoint.label + ": ";
-                  str += event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
+                  str =  event.entries[i].dataPoint.label + ': ';
+                  str += event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
                   return (str);
                }
             }
          },
          data: [{
-            type: "column",
+            type: 'column',
             dataPoints: json,
             click: function(event) {
                displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
@@ -162,25 +152,25 @@ function displayMoviesByDecade() {
 
 function displayMoviesByFormat() {
    $.ajax({
-      type: "POST",
+      type: 'POST',
       url: '/MyMDb/public/movieFormatCount',
       data: {
          _token: $('meta[name="_token"]').attr('content')
       }
    }).done(function(json) {
-      var chart = new CanvasJS.Chart("formatChart", {
+      var chart = new CanvasJS.Chart('formatChart', {
          toolTip: {
             contentFormatter: function(event) {
-               var str="";
+               var str = '';
                for (var i = 0; i < event.entries.length; i++)
                {
-                  str = event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
+                  str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
                   return (str);
                }
             }
          },
          data: [{
-            type: "doughnut",
+            type: 'doughnut',
             dataPoints: json,
             click: function(event) {
                startFilter('format', event.dataPoint.label);
@@ -193,25 +183,25 @@ function displayMoviesByFormat() {
 
 function displayMoviesByCertificate() {
    $.ajax({
-      type: "POST",
+      type: 'POST',
       url: '/MyMDb/public/movieCertificateCount',
       data: {
          _token: $('meta[name="_token"]').attr('content')
       }
    }).done(function(json) {
-      var chart = new CanvasJS.Chart("certificateChart", {
+      var chart = new CanvasJS.Chart('certificateChart', {
          colorSet: 'cert',
          toolTip: {
             contentFormatter: function(event) {
-               var str="";
+               var str = '';
                for (var i = 0; i < event.entries.length; i++){
-                  str = event.entries[i].dataPoint.y ==1 ? "1 movie" : event.entries[i].dataPoint.y + " movies";
+                  str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
                   return (str);
                }
             }
          },
          data: [{
-            type: "doughnut",
+            type: 'doughnut',
             startAngle:  270,
             dataPoints: json,
             click: function(event){

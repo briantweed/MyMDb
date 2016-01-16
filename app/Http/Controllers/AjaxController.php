@@ -31,6 +31,32 @@ class AjaxController extends Controller
             $query = Movies::select('movies.*');
             switch($type)
             {
+               case "fuzzy":
+                  $string_array = str_split($search_string);
+                  $query->where('name', 'LIKE', '%'.$search_string.'%');
+                  $string_length = count($string_array);
+                  if($string_length >= 5)
+                  {
+                     $variations = pow(2, $string_length);
+                     $new_string = "";
+                     for($var=1; $var<$variations; $var++)
+                     {
+                        $bin_string = str_pad(decbin($var), $string_length, "0", STR_PAD_LEFT);
+                        $bin_string_array = str_split($bin_string);
+                        $bin_value_count = array_count_values($bin_string_array);
+                        if(!isset($bin_value_count[0]) || $bin_value_count[0] <= 3)
+               			{
+               				for($key=0; $key<$string_length; $key++)
+               				{
+               					$bin_string_array[$key] = $bin_string_array[$key] == "0" ? "_" : $string_array[$key];
+               				}
+               				$new_string = implode("",$bin_string_array);
+               				$query->orWhere('name', 'LIKE', '%'.$new_string.'%');
+               			}
+                     }
+                  }
+               break;
+
                case "all":
                   $query->where('name', 'LIKE', '%'.$search_string.'%');
                break;
@@ -57,6 +83,7 @@ class AjaxController extends Controller
                   $query->where('rating', $search_string);
                break;
             }
+
             $query->orderBy('sort_name');
             $movies = $query->get();
             foreach($movies as $movie)
@@ -81,6 +108,7 @@ class AjaxController extends Controller
             else $people = [];
             $user = $this->isAdmin;
             $quote = count($movies) ? "" : $this->getRandomQuote();
+
             return (String) view('ajax.movie_filter', compact('movies', 'people', 'quote', 'user'));
          }
          else return "blank";

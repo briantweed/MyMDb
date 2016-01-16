@@ -7,6 +7,7 @@
          <span class="sr-only">Toggle Dropdown</span>
       </button>
       <ul class="dropdown-menu dropdown-menu-right">
+         <li><a onclick="startFilter('fuzzy','')">Fuzzy (test)</a></li>
          <li><a onclick="startFilter('studio','')">By Studio</a></li>
          <li><a onclick="startFilter('format','')">By Format</a></li>
          <li><a onclick="startFilter('year','')">By Year</a></li>

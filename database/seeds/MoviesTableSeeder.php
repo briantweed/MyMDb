@@ -3164,6 +3164,24 @@ class MoviesTableSeeder extends Seeder {
 				'created_at' => '2015-12-30 15:38:30',
 				'updated_at' => '2015-12-30 15:38:30',
 			),
+			175 => 
+			array (
+				'movie_id' => 176,
+				'name' => 'This is Spinal Tap',
+				'sort_name' => 'Spinal Tap',
+				'released' => 1984,
+				'rating' => 8,
+				'running_time' => 82,
+				'image' => 'Spinal_Tap_1452952496.jpg',
+				'certificate_id' => 6,
+				'format_id' => 1,
+				'studio_id' => 9,
+				'duplicate' => 0,
+				'bio' => 'Spinal Tap, one of England\'s loudest bands, is chronicled by film director Marty DeBergi on what proves to be a fateful tour.',
+				'purchased' => '2015-06-17 00:00:00',
+				'created_at' => '2016-01-16 13:54:56',
+				'updated_at' => '2016-01-16 13:58:55',
+			),
 		));
 	}
 

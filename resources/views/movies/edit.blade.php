@@ -131,7 +131,7 @@
             <div role="tabpanel" class="tab-pane fade" id="genres">
                <div class="row">
                   <div class="col-xs-12">
-                     <a class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-genre"></i> <span class="hidden-sm">new genre</span></a>
+                     <a class="btn btn-primary" onclick="showModal('genre')" href="javascript:void(0)"><i class="ft icon-genre"></i> <span class="hidden-sm">new genre</span></a>
                   </div>
                </div>
                <div class="row genres">
