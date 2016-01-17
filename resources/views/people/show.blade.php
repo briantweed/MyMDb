@@ -64,7 +64,6 @@
 
       {{-- right column --}}
       <div class="{{env('RIGHT_COLUMN')}}">
-
          {{-- person title --}}
          <div class="row">
             <div class="col-xs-12"><h1>{{$person->forename}} {{$person->surname}}<br/></h1></div>

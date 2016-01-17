@@ -55,7 +55,7 @@ class GenreController extends Controller {
 				$fields = Forms::getFormFields('create_genre', false);
 				$app = app();
 				$values = $app->make('stdClass');
-				$values->movie_id = Session::get('key');
+				$values->movie_id = Session::get('movie_id');
 
 				return (String) view('modal.create_genre', compact('fields', 'values'));
 			}

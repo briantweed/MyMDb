@@ -162,7 +162,6 @@ class CreateDatabaseTables extends Migration {
 			$table->increments('viewing_id');
 			$table->integer('movie_id')->unsigned();
 			$table->foreign('movie_id')->references('movie_id')->on('movies')->onDelete('cascade');
-			$table->timestamp('date');
 			$table->timestamps();
 		});
 

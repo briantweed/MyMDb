@@ -35,7 +35,7 @@
          <ul class="xs-block-grid-4">
             @foreach($studios as $studio)
                <li>
-                  {{$studio->studio_id}}) {{$studio->studio_name}}
+                  {{$studio->studio_id}}) {{$studio->name}}
                </li>
             @endforeach
          </ul>

@@ -66,7 +66,6 @@
 
       {{-- right column --}}
       <div class="{{env('RIGHT_COLUMN')}}">
-
          {{-- film title --}}
          <div class="row">
             <div class="col-xs-12"><h1>{{$movie->name}}<br/></h1></div>
@@ -218,4 +217,8 @@
 
    </div> {{-- end of movie row --}}
 
+@stop
+
+@section('extensions')
+   {!! Html::script('js/show_movie.js') !!}
 @stop

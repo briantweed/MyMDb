@@ -41,6 +41,8 @@
             @yield('content')
          </div>
 
+         <div class="modal fade" id="empty-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
+         
          {!! Html::script(elixir('js/mymdb.js')) !!}
 
          @yield('extensions')

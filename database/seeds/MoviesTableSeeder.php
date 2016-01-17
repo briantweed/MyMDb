@@ -3182,6 +3182,24 @@ class MoviesTableSeeder extends Seeder {
 				'created_at' => '2016-01-16 13:54:56',
 				'updated_at' => '2016-01-16 13:58:55',
 			),
+			176 => 
+			array (
+				'movie_id' => 177,
+				'name' => 'Galaxy Quest',
+				'sort_name' => 'Galaxy Quest',
+				'released' => 1999,
+				'rating' => 7,
+				'running_time' => 102,
+				'image' => 'Galaxy_Quest_1453043076.jpg',
+				'certificate_id' => 3,
+				'format_id' => 1,
+				'studio_id' => 7,
+				'duplicate' => 0,
+				'bio' => 'The alumni cast of a space opera television series have to play their roles as the real thing when an alien race needs their help.',
+				'purchased' => '2000-07-05 00:00:00',
+				'created_at' => '2016-01-17 15:04:36',
+				'updated_at' => '2016-01-17 15:04:36',
+			),
 		));
 	}
 

@@ -34,6 +34,9 @@ Route::resource('people', 'PersonController', ['only'=>['index','show','create',
 Route::post('createNewGenre', 'GenreController@createNewGenre');
 Route::post('storeNewGenre', 'GenreController@storeNewGenre');
 
+Route::post('createMovieViewing', 'ViewingController@createMovieViewing');
+Route::post('storeMovieViewing', 'ViewingController@storeMovieViewing');
+
 Route::get('/admin', 'StudioController@index');
 Route::group(['prefix'=>'admin'], function() {
 	Route::resource('keywords', 'KeywordController', ['only'=>['index','show']]);

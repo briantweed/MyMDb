@@ -567,10 +567,10 @@ Rickman made his first movie appearance opposite Bruce Willis in Die Hard as the
 				'surname' => 'Fincher',
 				'birthday' => NULL,
 				'deceased' => NULL,
-				'image' => NULL,
+				'image' => 'david_fincher_1453033520.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-12 21:04:31',
-				'updated_at' => '2016-01-12 21:04:31',
+				'updated_at' => '2016-01-17 12:25:20',
 			),
 			44 => 
 			array (
@@ -957,10 +957,10 @@ After graduating from high school, he attended California Institute of the Arts.
 				'surname' => 'Wachowski',
 				'birthday' => NULL,
 				'deceased' => NULL,
-				'image' => NULL,
+				'image' => 'andy_wachowski_1453033594.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-12 21:46:21',
-				'updated_at' => '2016-01-12 21:46:21',
+				'updated_at' => '2016-01-17 12:26:34',
 			),
 			76 => 
 			array (
@@ -1305,10 +1305,10 @@ After graduating from high school, he attended California Institute of the Arts.
 				'surname' => 'Spielberg',
 				'birthday' => NULL,
 				'deceased' => NULL,
-				'image' => NULL,
+				'image' => 'steven_spielberg_1453033567.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-14 22:05:17',
-				'updated_at' => '2016-01-14 22:05:17',
+				'updated_at' => '2016-01-17 12:26:07',
 			),
 			105 => 
 			array (
@@ -1941,10 +1941,10 @@ After graduating from high school, he attended California Institute of the Arts.
 				'surname' => 'Fox',
 				'birthday' => NULL,
 				'deceased' => NULL,
-				'image' => NULL,
+				'image' => 'michael_j_fox_1453033457.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-14 23:04:09',
-				'updated_at' => '2016-01-14 23:04:09',
+				'updated_at' => '2016-01-17 12:24:17',
 			),
 			158 => 
 			array (
@@ -1965,10 +1965,10 @@ After graduating from high school, he attended California Institute of the Arts.
 				'surname' => 'Thompson',
 				'birthday' => NULL,
 				'deceased' => NULL,
-				'image' => NULL,
+				'image' => 'lea_thompson_1453033420.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-14 23:05:33',
-				'updated_at' => '2016-01-14 23:05:33',
+				'updated_at' => '2016-01-17 12:23:40',
 			),
 			160 => 
 			array (
@@ -2025,10 +2025,10 @@ After graduating from high school, he attended California Institute of the Arts.
 				'surname' => 'Zemeckis',
 				'birthday' => NULL,
 				'deceased' => NULL,
-				'image' => NULL,
+				'image' => 'robert_zemeckis_1453033492.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-14 23:08:36',
-				'updated_at' => '2016-01-14 23:08:36',
+				'updated_at' => '2016-01-17 12:24:52',
 			),
 			165 => 
 			array (
@@ -2241,10 +2241,10 @@ After graduating from high school, he attended California Institute of the Arts.
 				'surname' => 'Stiles',
 				'birthday' => NULL,
 				'deceased' => NULL,
-				'image' => NULL,
+				'image' => 'julia_stiles_1453033375.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-14 23:31:59',
-				'updated_at' => '2016-01-14 23:31:59',
+				'updated_at' => '2016-01-17 12:22:55',
 			),
 			183 => 
 			array (
@@ -2289,10 +2289,10 @@ After graduating from high school, he attended California Institute of the Arts.
 				'surname' => 'Greengrass',
 				'birthday' => NULL,
 				'deceased' => NULL,
-				'image' => NULL,
+				'image' => 'paul_greengrass_1453033544.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-14 23:34:50',
-				'updated_at' => '2016-01-14 23:34:50',
+				'updated_at' => '2016-01-17 12:25:44',
 			),
 			187 => 
 			array (

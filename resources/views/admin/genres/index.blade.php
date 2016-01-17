@@ -26,7 +26,7 @@
          <ul class="xs-block-grid-4">
             @foreach($genres as $genre)
                <li>
-                  {{$genre->genre_id}}) {{$genre->genre_type}}
+                  {{$genre->genre_id}}) {{$genre->type}}
                </li>
             @endforeach
          </ul>

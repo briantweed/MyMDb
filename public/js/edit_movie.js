@@ -344,9 +344,7 @@ function initializeDatePicker() {
 function showModal(type) {
    var route = "";
    switch(type) {
-      case "genre":
-         route = "createNewGenre";
-      break;
+      case "genre": route = "createNewGenre"; break;
    }
    $.ajax({
       type: 'POST',

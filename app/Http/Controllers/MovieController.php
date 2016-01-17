@@ -41,11 +41,12 @@ class MovieController extends Controller {
 		return view('movies.index', compact('movies', 'user'));
 	}
 
-	public function show($id)
+	public function show($movie_id)
 	{
-		$movie = Movies::findorfail($id);
-		$viewings = $movie->viewings()->select('date')->orderBy('date', 'desc')->first();
-		$movie->last_viewed = $viewings ? date("jS F Y", strtotime($viewings->date)) : null;
+		$movie = Movies::findorfail($movie_id);
+		Session::put('movie_id', $movie_id);
+		$viewings = $movie->viewings()->select('created_at')->orderBy('created_at', 'desc')->first();
+		$movie->last_viewed = $viewings ? date("jS F Y @ g:ia", strtotime($viewings->created_at)) : null;
 		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
 		$movie->cover_count = strlen($movie->cover);
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
@@ -98,7 +99,7 @@ class MovieController extends Controller {
 	public function edit($movie_id)
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		Session::put('key', $movie_id);
+		Session::put('movie_is', $movie_id);
 
 		$movie = Movies::findorfail($movie_id);
 		$movie->genres;
@@ -146,11 +147,11 @@ class MovieController extends Controller {
 		return view('movies.edit', compact('movie', 'fields', 'values', 'options', 'user'));
 	}
 
-	public function update($id, ValidateCreateMovie $request)
+	public function update($movie_id, ValidateCreateMovie $request)
 	{
 		if(!$this->isAdmin) return view('auth.login');
 
-		$movie = Movies::findorfail($id);
+		$movie = Movies::findorfail($movie_id);
 		$data = $request->all();
 		$data['sort_name'] = $data['sort_name'] =='' ? $data['name'] : $data['sort_name'];
 		if($request->hasFile('image'))
@@ -186,12 +187,12 @@ class MovieController extends Controller {
 			$movie->tags()->detach();
 		}
 
-		return redirect()->action('MovieController@edit', [$id])->with('status', 'Movie Updated Successfully');
+		return redirect()->action('MovieController@edit', [$movie_id])->with('status', 'Movie Updated Successfully');
 	}
 
-	public function destroy($id)
+	public function destroy($movie_id)
 	{
-		Movies::where('movie_id', '=', $id)->delete();
+		Movies::where('movie_id', '=', $movie_id)->delete();
 		return redirect()->action('MovieController@index')->with('status', 'Movie Deleted');
 	}
 

@@ -6,8 +6,11 @@ class Viewings extends Model {
 
 	protected $table = 'viewings';
 	protected $primaryKey = 'viewing_id';
+	protected $fillable = array(
+		'movie_id'
+	);
 
-	public function movies()
+	public function movie()
    {
       return $this->belongsTo('App\Movies', 'viewing_id', 'movie_id');
    }

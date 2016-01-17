@@ -31,6 +31,11 @@ class AjaxController extends Controller
             $query = Movies::select('movies.*');
             switch($type)
             {
+
+               case "all":
+                  $query->where('name', 'LIKE', '%'.$search_string.'%');
+               break;
+
                case "fuzzy":
                   $string_array = str_split($search_string);
                   $query->where('name', 'LIKE', '%'.$search_string.'%');
@@ -55,10 +60,6 @@ class AjaxController extends Controller
                			}
                      }
                   }
-               break;
-
-               case "all":
-                  $query->where('name', 'LIKE', '%'.$search_string.'%');
                break;
 
                case "studio":
