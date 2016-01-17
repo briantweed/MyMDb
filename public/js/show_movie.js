@@ -10,6 +10,18 @@ function storeMovieViewing() {
       $('.modal').modal('hide');
       $('.main-content').prepend(html);
       $('html, body').animate({scrollTop: 0});
+      FB.api(
+       "/me/video.watches",
+       "POST",
+       {
+           "movie": "Jurassic Park",
+       },
+       function (response) {
+         if (response && !response.error) {
+           /* handle the result */
+         }
+       }
+);
    });
 }
 

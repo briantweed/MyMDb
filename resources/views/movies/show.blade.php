@@ -23,8 +23,8 @@
 {{-- Main Body --}}
 @section('content')
 
-   {!! Html::script('js/facebook-sdk.js') !!}
-
+   {!! Html::script('js/show_movie.js') !!}
+   
    @if (session('status'))
        <div class="alert alert-success">
            {{ session('status') }}
@@ -50,13 +50,6 @@
          <hr/>
 
          <div class="side-buttons">
-
-            <div
-              class="fb-like"
-              data-share="true"
-              data-width="450"
-              data-show-faces="true">
-           </div><br/>
             {{-- back button --}}
             @include('segments.buttons.home')
 
