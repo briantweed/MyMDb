@@ -91,6 +91,8 @@ function displayMoviesByYear(start, end) {
             gridThickness: 1,
             interval: json.interval
          },
+         animationEnabled: true,
+         animationDuration: 1700,
          toolTip: {
             contentFormatter: function(event) {
                var str = '';
@@ -127,6 +129,8 @@ function displayMoviesByDecade() {
             gridColor: '#ddd',
             gridThickness: 1
          },
+         animationEnabled: true,
+         animationDuration: 1700,
          toolTip: {
             contentFormatter: function(event) {
                var str = '';
@@ -169,6 +173,7 @@ function displayMoviesByFormat() {
                }
             }
          },
+         animationEnabled: true,
          data: [{
             type: 'doughnut',
             dataPoints: json,
@@ -191,6 +196,7 @@ function displayMoviesByCertificate() {
    }).done(function(json) {
       var chart = new CanvasJS.Chart('certificateChart', {
          colorSet: 'cert',
+         animationEnabled: true,
          toolTip: {
             contentFormatter: function(event) {
                var str = '';
