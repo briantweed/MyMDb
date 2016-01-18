@@ -50,6 +50,7 @@ class PersonController extends Controller {
 			$person->age = "-";
 		}
 		$person->deceased = $this->formatDate($person->deceased, 'display');
+		$person->bio = $this->checkForMovies($person->bio);
 		$user = $this->isAdmin;
 		return view('people.show', compact('person', 'user'));
 	}
@@ -256,6 +257,12 @@ class PersonController extends Controller {
 						->first();
 		if(count($existing)==0) return false;
 		else return $existing->person_id;
+	}
+
+	private function checkForMovies($text)
+	{
+		return $text;
+		preg_match_all('/<(.*)>/', $text, $matches);
 	}
 
 	private function formatDate($date, $type)
