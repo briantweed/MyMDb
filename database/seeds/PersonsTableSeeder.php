@@ -2493,10 +2493,10 @@ After graduating from high school, he attended California Institute of the Arts.
 				'surname' => 'Nolan',
 				'birthday' => NULL,
 				'deceased' => NULL,
-				'image' => NULL,
+				'image' => 'christopher_nolan_1453127454.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-18 13:20:24',
-				'updated_at' => '2016-01-18 13:20:24',
+				'updated_at' => '2016-01-18 14:30:54',
 			),
 			204 => 
 			array (
