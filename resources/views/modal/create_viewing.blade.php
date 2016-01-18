@@ -3,7 +3,6 @@
       <div class="modal-header"><h4>Movie Viewing</h4></div>
       <div class="modal-body">
          <p>Are you sure?</p>
-         <input type="checkbox"> Share this on your Facebook timeline?
          <div id="create_person_error" class="row has-error hide">
             <div class="col-xs-12 text-right">
                <label id="create_genre_error_message" for="formGroupInputSmall" class="control-label"></label>

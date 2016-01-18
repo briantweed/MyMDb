@@ -10,16 +10,6 @@ function storeMovieViewing() {
       $('.modal').modal('hide');
       $('.main-content').prepend(html);
       $('html, body').animate({scrollTop: 0});
-      FB.api(
-        'me/viewing_recorder:watching_a_movie',
-        'post',
-        {
-          'movie': '"http://brtweed.co.uk/MyMDb/public/movies'+$('#movie_id').val()+'"'
-        },
-       function(response) {
-         console.log(response);
-       }
-      );
    });
 }
 

@@ -23,8 +23,6 @@
 {{-- Main Body --}}
 @section('content')
 
-   {!! Html::script('js/facebook-sdk.js') !!}
-
    @if (session('status'))
        <div class="alert alert-success">
            {{ session('status') }}
