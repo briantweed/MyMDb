@@ -15,6 +15,8 @@
       <meta name="apple-mobile-web-app-title" content="MyMDb">
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="_token" content="{!! csrf_token() !!}" />
+      
+      @yield('meta_tags')
 
       <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ URL::asset('images/app-icon.png') }}">
 
@@ -42,7 +44,7 @@
          </div>
 
          <div class="modal fade" id="empty-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
-         
+
          {!! Html::script(elixir('js/mymdb.js')) !!}
 
          @yield('extensions')

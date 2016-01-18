@@ -24,11 +24,11 @@ class PersonsTableSeeder extends Seeder {
 				'image' => 'keanu_reeves.jpg',
 				'bio' => 'Keanu Reeves, whose first name means "cool breeze over the mountains" in Hawaiian, was born in Beirut, Lebanon in 1964, the son of English-born Patricia Taylor, a showgirl, and American-born Samuel Nowlin Reeves, a geologist. Keanu\'s father was born in Hawaii, of British, Portuguese, Native Hawaiian, and Chinese ancestry.
 
-His first popular success was the role of totally rad dude "Ted Logan" in Bill & Ted\'s Excellent Adventure (1989). The wacky time-travel movie became something of a cultural phenomenon, and audiences would forever confuse Reeves\'s real-life persona with that of his doofy on-screen counterpart. In 1994, the understated actor became a big-budget action star with the release of Speed (1994). Its success heralded an era of five years in which Reeves would alternate between small films, like Feeling Minnesota (1996) and The Last Time I Committed Suicide (1997), and big films like A Walk in the Clouds (1995) and The Devil\'s Advocate (1997).
+His first popular success was the role of totally rad dude "Ted Logan" in {{Bill & Ted\'s Excellent Adventure (1989)}}. The wacky time-travel movie became something of a cultural phenomenon, and audiences would forever confuse Reeves\'s real-life persona with that of his doofy on-screen counterpart. In 1994, the understated actor became a big-budget action star with the release of {{Speed (1994)}}. Its success heralded an era of five years in which Reeves would alternate between small films, like Feeling Minnesota (1996) and The Last Time I Committed Suicide (1997), and big films like A Walk in the Clouds (1995) and The Devil\'s Advocate (1997).
 
-After all this, Reeves did the unthinkable and passed on the Speed sequel, but he struck box-office gold again a few years later with the Wachowski siblings\' cyberadventure, The Matrix (1999).',
+After all this, Reeves did the unthinkable and passed on the Speed sequel, but he struck box-office gold again a few years later with the Wachowski siblings\' cyberadventure, {{The Matrix (1999)}}.',
 				'created_at' => '0000-00-00 00:00:00',
-				'updated_at' => '2015-12-30 15:58:19',
+				'updated_at' => '2016-01-18 20:39:18',
 			),
 			1 => 
 			array (
@@ -86,11 +86,11 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
 				'birthday' => '1963-12-18',
 				'deceased' => NULL,
 				'image' => 'brad_pitt_1451494768.jpg',
-			'bio' => 'Actor and producer Brad Pitt was born on December 18, 1963, in Shawnee, Oklahoma. Pitt&#039;s first jobs came in television in the late 1980s. Pitt made his big-screen debut in 1989&#039;s horror film Cutting Class and his role in 1994&#039;s Legends of the Fall helped secured his place as a Hollywood staple. More recent film credits include Fight Club (1999), Babel (2006), The Curious Case of Benjamin Button (2008), Inglourious Basterds (2009), Moneyball (2011) and World War Z (2013).
+			'bio' => 'Actor and producer Brad Pitt was born on December 18, 1963, in Shawnee, Oklahoma. Pitt\'s first jobs came in television in the late 1980s. Pitt made his big-screen debut in 1989\'s horror film Cutting Class and his role in 1994\'s Legends of the Fall helped secured his place as a Hollywood staple. More recent film credits include {{Fight Club (1999)}}, Babel (2006), The Curious Case of Benjamin Button (2008), {{Inglourious Basterds (2009)}}, Moneyball (2011) and {{World War Z (2013)}}.
 
 He was nominated for an Academy Award for the fifth time in 2014, winning his first Oscar in the best picture category as a producer for 12 Years a Slave (2013). He is married to fellow actor Angelina Jolie.',
 				'created_at' => '2015-12-30 16:59:28',
-				'updated_at' => '2015-12-30 16:59:28',
+				'updated_at' => '2016-01-18 20:46:49',
 			),
 			6 => 
 			array (
@@ -102,11 +102,11 @@ He was nominated for an Academy Award for the fifth time in 2014, winning his fi
 				'image' => 'edward_norton_1451692788.jpg',
 			'bio' => 'Edward Harrison Norton was born on August 18, 1969, in Boston, Massachusetts, and was raised in Columbia, Maryland. From the age of five onward, the Yale graduate (majoring in history) was interested in acting. At the age of eight, he would ask his drama teacher what his motivation in a scene was.
 
-He attended theater schools throughout his life, and eventually managed to find work on stage in New York as a member of the Signature players, who produced the works of playwright and director Edward Albee. Around the time when he was appearing in Albee\'s Fragments, in Hollywood, they were looking for a young actor to star opposite Richard Gere in a new courtroom thriller, Primal Fear (1996).  Before the film was even released, his test screenings for the part were causing a Hollywood sensation, and he was soon offered roles in Woody Allen\'s Everyone Says I Love You (1996) and The People vs. Larry Flynt (1996).
+He attended theater schools throughout his life, and eventually managed to find work on stage in New York as a member of the Signature players, who produced the works of playwright and director Edward Albee. Around the time when he was appearing in Albee\'s Fragments, in Hollywood, they were looking for a young actor to star opposite Richard Gere in a new courtroom thriller, {{Primal Fear (1996)}}.  Before the film was even released, his test screenings for the part were causing a Hollywood sensation, and he was soon offered roles in Woody Allen\'s Everyone Says I Love You (1996) and The People vs. Larry Flynt (1996).
 
-Edward won the Golden Globe for Best Actor in a Supporting Role and received an Oscar nomination for Best Supporting Actor for his performance in Primal Fear (1996). In 1998, Norton gained 30 pounds of muscle and transformed his look into that of a monstrous skinhead for his role as a violent white supremacist in American History X (1998). This performance would earn him his second Oscar nomination, this time for Best Actor. In 1999 came the critically acclaimed Fight Club (1999)',
+Edward won the Golden Globe for Best Actor in a Supporting Role and received an Oscar nomination for Best Supporting Actor for his performance in {{Primal Fear (1996). In 1998, Norton gained 30 pounds of muscle and transformed his look into that of a monstrous skinhead for his role as a violent white supremacist in {{American History X (1998)}}. This performance would earn him his second Oscar nomination, this time for Best Actor. In 1999 came the critically acclaimed {{Fight Club (1999)}}.',
 				'created_at' => '2016-01-01 23:43:03',
-				'updated_at' => '2016-01-03 19:01:26',
+				'updated_at' => '2016-01-18 20:49:10',
 			),
 			7 => 
 			array (
@@ -118,9 +118,9 @@ Edward won the Golden Globe for Best Actor in a Supporting Role and received an 
 				'image' => 'drew_barrymore_1452604247.jpg',
 				'bio' => 'Since melting audiences\' hearts - at the age of six - in Steven Spielberg\'s beloved sci-fi blockbuster, E.T. the Extra-Terrestrial, Drew Barrymore has emerged as one of the most endearing and talented actresses of her generation.
 
-Drew Blyth Barrymore was born in Culver City, California, to actors John Drew Barrymore and Jaid Barrymore (née Ildiko Jaid Mako). Her father came from a long showbusiness legacy, as the son of actors John Barrymore and Dolores Costello, while her mother was the daughter of Hungarian immigrants. Despite a troubled and much-publicized adolescence, and a string of bad girl parts in lurid crime dramas such as Poison Ivy (1992), Barrymore\'s star was officially on the rise during the mid-1990s, with notable appearances in Boys on the Side (1995), Woody Allen\'s Everyone Says I Love You (1996), and the game-changing horror hit Scream (1996).',
+Drew Blyth Barrymore was born in Culver City, California, to actors John Drew Barrymore and Jaid Barrymore (née Ildiko Jaid Mako). Her father came from a long showbusiness legacy, as the son of actors John Barrymore and Dolores Costello, while her mother was the daughter of Hungarian immigrants. Despite a troubled and much-publicized adolescence, and a string of bad girl parts in lurid crime dramas such as Poison Ivy (1992), Barrymore\'s star was officially on the rise during the mid-1990s, with notable appearances in Boys on the Side (1995), Woody Allen\'s Everyone Says I Love You (1996), and the game-changing horror hit {{Scream (1996)}}.',
 				'created_at' => '2016-01-12 13:06:17',
-				'updated_at' => '2016-01-12 13:10:47',
+				'updated_at' => '2016-01-18 20:49:48',
 			),
 			8 => 
 			array (
@@ -136,9 +136,9 @@ At 17, he took his first step towards becoming a stand-up comedian when he spont
 
 While working at a comedy club in L.A., he was "discovered" by Dennis Miller, who recommended him to Saturday Night Live producer Lorne Michaels and told him that Sandler had a big talent. This led to his being cast in the show in 1990, which he also wrote for in addition to performing. 
 
-After Saturday Night Live, Sandler went on to the movies, starring in such hit comedies as Airheads (1994), Happy Gilmore, Billy Madison  and Big Daddy.',
+After Saturday Night Live, Sandler went on to the movies, starring in such hit comedies as Airheads, {{Happy Gilmore}}, Billy Madison  and Big Daddy.',
 				'created_at' => '2016-01-12 13:10:13',
-				'updated_at' => '2016-01-12 13:20:35',
+				'updated_at' => '2016-01-18 20:50:10',
 			),
 			9 => 
 			array (
@@ -148,11 +148,11 @@ After Saturday Night Live, Sandler went on to the movies, starring in such hit c
 				'birthday' => '1949-10-08',
 				'deceased' => NULL,
 				'image' => 'sigourney_weaver_1452606281.jpg',
-			'bio' => 'Sigourney Weaver (born Susan Alexandra Weaver; October 8, 1949) is an American actress and film producer. Following her film debut as a minor character in Annie Hall, she quickly came to prominence in 1979 with her first lead role as Ellen Ripley in Alien. She reprised the role in three sequels: Aliens, for which she was nominated for the Academy Award Best Actress; Alien 3, and Alien: Resurrection. 
+			'bio' => 'Sigourney Weaver (born Susan Alexandra Weaver; October 8, 1949) is an American actress and film producer. Following her film debut as a minor character in Annie Hall, she quickly came to prominence in 1979 with her first lead role as Ellen Ripley in {{Alien}}. She reprised the role in three sequels.
 
-She is also known for her starring roles in the box-office hits Ghostbusters, Ghostbusters 2 and Avatar.',
+She is also known for her starring roles in the box-office hits {{Ghostbusters}}, {{Ghostbusters 2}} and {{Avatar}}.',
 				'created_at' => '2016-01-12 13:44:41',
-				'updated_at' => '2016-01-12 13:46:19',
+				'updated_at' => '2016-01-18 20:51:12',
 			),
 			10 => 
 			array (
@@ -164,11 +164,11 @@ She is also known for her starring roles in the box-office hits Ghostbusters, Gh
 				'image' => 'johnny_depp_1452606877.jpg',
 			'bio' => 'Born John Christopher Depp II in Owensboro, Kentucky, on June 9, 1963, to Betty Sue (Wells), who worked as a waitress, and John Christopher Depp, a civil engineer.
 
-Depp was raised in Florida. He dropped out of school when he was 15, and fronted a series of music-garage bands, including one named &#039;The Kids&#039;. However, it was when he married Lori Anne Allison (Lori A. Depp) that he took up the job of being a ballpoint-pen salesman to support himself and his wife. A visit to Los Angeles, California, with his wife, however, happened to be a blessing in disguise, when he met up with actor Nicolas Cage, who advised him to turn to acting, which culminated in Depp&#039;s film debut in the low-budget horror film, A Nightmare on Elm Street, where he played a teenager who falls prey to dream-stalking demon Freddy Krueger.
+Depp was raised in Florida. He dropped out of school when he was 15, and fronted a series of music-garage bands, including one named \'The Kids\'. However, it was when he married Lori Anne Allison (Lori A. Depp) that he took up the job of being a ballpoint-pen salesman to support himself and his wife. A visit to Los Angeles, California, with his wife, however, happened to be a blessing in disguise, when he met up with actor Nicolas Cage, who advised him to turn to acting, which culminated in Depp\'s film debut in the low-budget horror film, {{A Nightmare on Elm Street}}, where he played a teenager who falls prey to dream-stalking demon Freddy Krueger.
 
-Depp has played many characters in his career, including another fact-based one, Insp. Fred Abberline in From Hell. He stole the show from screen greats such as Antonio Banderas in the finale to Robert Rodriguez&#039;s &quot;mariachi&quot; trilogy, Once Upon a Time in Mexico. In that same year he starred in the marvelous family blockbuster Pirates of the Caribbean: The Curse of the Black Pearl, playing a character that only the likes of Depp could pull off: the charming, conniving and roguish Capt. Jack Sparrow. The film&#039;s enormous success has opened several doors for his career and included an Oscar nomination.',
+Depp has played many characters in his career, including another fact-based one, Insp. Fred Abberline in From Hell. He stole the show from screen greats such as Antonio Banderas in the finale to Robert Rodriguez\'s "mariachi" trilogy, {{Once Upon a Time in Mexico}}. In that same year he starred in the marvelous family blockbuster {{Pirates of the Caribbean: The Curse of the Black Pearl}}, playing a character that only the likes of Depp could pull off: the charming, conniving and roguish Capt. Jack Sparrow. The film\'s enormous success has opened several doors for his career and included an Oscar nomination.',
 				'created_at' => '2016-01-12 13:54:37',
-				'updated_at' => '2016-01-12 13:54:37',
+				'updated_at' => '2016-01-18 20:53:43',
 			),
 			11 => 
 			array (
@@ -180,11 +180,11 @@ Depp has played many characters in his career, including another fact-based one,
 				'image' => 'james_cagney_1452607234.jpg',
 				'bio' => 'James Francis Cagney, Jr. was an American actor and dancer, both on stage and in film, though he had his greatest impact in film. 
 
-Known for his consistently energetic performances, distinctive vocal style, and deadpan comic timing, he won acclaim and major awards for a wide variety of performances. He is best remembered for playing multifaceted tough guys in movies such as The Public Enemy, Angels with Dirty Faces, and White Heat and was even typecast or limited by this view earlier in his career. 
+Known for his consistently energetic performances, distinctive vocal style, and deadpan comic timing, he won acclaim and major awards for a wide variety of performances. He is best remembered for playing multifaceted tough guys in movies such as {{The Public Enemy}}, {{Angels with Dirty Faces}}, and {{White Heat}} and was even typecast or limited by this view earlier in his career. 
 
 In 1999, the American Film Institute ranked him eighth among its list of greatest male stars of Classic Hollywood Cinema. Orson Welles said of Cagney, "he was maybe the greatest actor who ever appeared in front of a camera"  and Stanley Kubrick considered him to be one of the best actors of all time.',
 				'created_at' => '2016-01-12 14:00:34',
-				'updated_at' => '2016-01-15 09:56:42',
+				'updated_at' => '2016-01-18 20:52:58',
 			),
 			12 => 
 			array (
@@ -316,9 +316,9 @@ In 1999, the American Film Institute ranked him eighth among its list of greates
 				'image' => 'alan_rickman_1452636759.jpg',
 			'bio' => 'Alan Rickman was born on a council estate in Acton, West London, to Margaret Doreen Rose (Bartlett) and Bernard Rickman, who worked at a factory. He has English, Irish, and Welsh ancestry. Alan has an older brother David, a younger brother Michael and a younger sister Sheila. 
 
-Rickman made his first movie appearance opposite Bruce Willis in Die Hard as the villain Hans Gruber. Though often cited as being a master of playing villains, Rickman has actually played a wide variety of characters, such as the romantic cello-playing ghost Jamie in Anthony Minghella\'s Truly Madly Deeply and the noble Colonel Brandon of Sense and Sensibility. He\'s treated audiences to his comedic abilities with films like Dogma, Galaxy Quest and The Hitchhiker\'s Guide to the Galaxy.',
+Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as the villain Hans Gruber. Though often cited as being a master of playing villains, Rickman has actually played a wide variety of characters, such as the romantic cello-playing ghost Jamie in Anthony Minghella\'s Truly Madly Deeply and the noble Colonel Brandon of Sense and Sensibility. He\'s treated audiences to his comedic abilities with films like Dogma, {{Galaxy Quest}} and The Hitchhiker\'s Guide to the Galaxy.',
 				'created_at' => '2016-01-12 20:46:27',
-				'updated_at' => '2016-01-12 22:15:38',
+				'updated_at' => '2016-01-18 20:55:24',
 			),
 			23 => 
 			array (
