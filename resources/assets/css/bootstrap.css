@@ -6623,7 +6623,8 @@ div.movie h2 {
   font-family: "Philosopher", Arial, sans-serif; }
 
 div.movie p {
-  margin-bottom: 20px; }
+  margin: 20px 0;
+  line-height: 27px; }
 
 div.movie .side-buttons a {
   text-align: left; }

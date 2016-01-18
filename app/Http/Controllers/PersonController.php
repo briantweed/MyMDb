@@ -261,8 +261,20 @@ class PersonController extends Controller {
 
 	private function checkForMovies($text)
 	{
-		return $text;
-		preg_match_all('/<(.*)>/', $text, $matches);
+		$output = preg_replace_callback('/\{{(.*?)}}/', function($m) {
+			$crumbs = explode("(", $m[1]);
+			$query_name = trim($crumbs[0]);
+			$query = Movies::where('name', $query_name);
+			if(isset($crumbs[1]))
+			{
+				$query_year = rtrim($crumbs[1], ")");
+				if(is_integer($query_year)) $query->where('released', $query_year);
+			}
+			$movie = $query->first();
+			if($movie) return "<a href='/MyMDb/public/movies/".$movie->movie_id."'><b>".$movie->name." (".$movie->released.")</b></a>";
+			else return $m[1];
+		}, $text);
+		return $output;
 	}
 
 	private function formatDate($date, $type)

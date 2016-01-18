@@ -91,7 +91,7 @@
 
          {{-- description --}}
          <div class="row">
-            <div class="col-xs-12"><br/>{!! nl2br(e($person->bio)) !!}</div>
+            <div class="col-xs-12"><p>{!! $person->bio !!}</p></div>
          </div>
 
          {{-- padding --}}
