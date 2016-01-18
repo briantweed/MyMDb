@@ -10,13 +10,12 @@ function storeMovieViewing() {
       $('.modal').modal('hide');
       $('.main-content').prepend(html);
       $('html, body').animate({scrollTop: 0});
-      FB.api(
-       "/me/video.watches",
-       "POST",
-       {
-           "movie": "Jurassic Park",
-       },
-       function (response) {
+      FB.ui(
+        {
+          method: 'share',
+          href: 'https://brtweed.co.uk/MyMDb/public/movies/' + $('movie_id').val(),
+        },
+        function(response) {
          console.log(response);
        }
 );

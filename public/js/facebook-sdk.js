@@ -13,3 +13,9 @@ window.fbAsyncInit = function() {
   js.src = "//connect.facebook.net/en_US/sdk.js";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+// $.getScript('//connect.facebook.net/en_UK/all.js', function() {
+//    FB.init({
+//       appId: '1530924983872352'
+//    });
+// });
