@@ -1958,6 +1958,375 @@ class CastTableSeeder extends Seeder {
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
+			216 => 
+			array (
+				'cast_id' => 222,
+				'movie_id' => 32,
+				'person_id' => 196,
+				'character' => 'Bruce Wayne / Batman',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			217 => 
+			array (
+				'cast_id' => 223,
+				'movie_id' => 32,
+				'person_id' => 197,
+				'character' => 'Alfred',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			218 => 
+			array (
+				'cast_id' => 224,
+				'movie_id' => 32,
+				'person_id' => 198,
+				'character' => 'Ducard',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			219 => 
+			array (
+				'cast_id' => 225,
+				'movie_id' => 32,
+				'person_id' => 199,
+				'character' => 'Rachel Dawes',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			220 => 
+			array (
+				'cast_id' => 226,
+				'movie_id' => 32,
+				'person_id' => 200,
+				'character' => 'Jim Gordon',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			221 => 
+			array (
+				'cast_id' => 227,
+				'movie_id' => 32,
+				'person_id' => 201,
+				'character' => 'Scarecrow',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			222 => 
+			array (
+				'cast_id' => 228,
+				'movie_id' => 32,
+				'person_id' => 202,
+				'character' => 'Carmine Falcone',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			223 => 
+			array (
+				'cast_id' => 229,
+				'movie_id' => 32,
+				'person_id' => 203,
+				'character' => 'Lucius Fox',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			224 => 
+			array (
+				'cast_id' => 230,
+				'movie_id' => 33,
+				'person_id' => 196,
+				'character' => 'Bruce Wayne / Batman',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			225 => 
+			array (
+				'cast_id' => 231,
+				'movie_id' => 33,
+				'person_id' => 206,
+				'character' => 'Joker',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			226 => 
+			array (
+				'cast_id' => 232,
+				'movie_id' => 33,
+				'person_id' => 207,
+				'character' => 'Harvey Dent / Two Face',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			227 => 
+			array (
+				'cast_id' => 233,
+				'movie_id' => 33,
+				'person_id' => 197,
+				'character' => 'Alfred',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			228 => 
+			array (
+				'cast_id' => 234,
+				'movie_id' => 33,
+				'person_id' => 208,
+				'character' => 'Rachel Dawes',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			229 => 
+			array (
+				'cast_id' => 235,
+				'movie_id' => 33,
+				'person_id' => 203,
+				'character' => 'Lucius Fox',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			230 => 
+			array (
+				'cast_id' => 236,
+				'movie_id' => 33,
+				'person_id' => 209,
+				'character' => 'The Mayor',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			231 => 
+			array (
+				'cast_id' => 237,
+				'movie_id' => 33,
+				'person_id' => 201,
+				'character' => 'Scarecrow',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			232 => 
+			array (
+				'cast_id' => 238,
+				'movie_id' => 33,
+				'person_id' => 210,
+				'character' => 'Maroni',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			233 => 
+			array (
+				'cast_id' => 239,
+				'movie_id' => 33,
+				'person_id' => 211,
+				'character' => 'Mike Engel',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			234 => 
+			array (
+				'cast_id' => 240,
+				'movie_id' => 32,
+				'person_id' => 214,
+				'character' => 'Earle',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			235 => 
+			array (
+				'cast_id' => 241,
+				'movie_id' => 32,
+				'person_id' => 215,
+				'character' => 'Ra&#039;s Al Ghul',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			236 => 
+			array (
+				'cast_id' => 242,
+				'movie_id' => 34,
+				'person_id' => 196,
+				'character' => 'Bruce Wayne / Batman',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			237 => 
+			array (
+				'cast_id' => 243,
+				'movie_id' => 34,
+				'person_id' => 200,
+				'character' => 'Jim Gordon',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			238 => 
+			array (
+				'cast_id' => 244,
+				'movie_id' => 34,
+				'person_id' => 217,
+				'character' => 'Bane',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			239 => 
+			array (
+				'cast_id' => 245,
+				'movie_id' => 34,
+				'person_id' => 218,
+				'character' => 'Blake',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			240 => 
+			array (
+				'cast_id' => 246,
+				'movie_id' => 34,
+				'person_id' => 18,
+				'character' => 'Selina Kyle',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			241 => 
+			array (
+				'cast_id' => 247,
+				'movie_id' => 34,
+				'person_id' => 219,
+				'character' => 'Miranda',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			242 => 
+			array (
+				'cast_id' => 248,
+				'movie_id' => 34,
+				'person_id' => 203,
+				'character' => 'Lucius Fox',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			243 => 
+			array (
+				'cast_id' => 249,
+				'movie_id' => 34,
+				'person_id' => 197,
+				'character' => 'Alfred',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			244 => 
+			array (
+				'cast_id' => 250,
+				'movie_id' => 34,
+				'person_id' => 220,
+				'character' => 'Foley',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			245 => 
+			array (
+				'cast_id' => 251,
+				'movie_id' => 35,
+				'person_id' => 221,
+				'character' => 'Nina Sayers',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			246 => 
+			array (
+				'cast_id' => 252,
+				'movie_id' => 35,
+				'person_id' => 222,
+				'character' => 'Lily',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			247 => 
+			array (
+				'cast_id' => 253,
+				'movie_id' => 35,
+				'person_id' => 223,
+				'character' => 'Thomas Leroy',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			248 => 
+			array (
+				'cast_id' => 254,
+				'movie_id' => 35,
+				'person_id' => 224,
+				'character' => 'Erica Sayers',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			249 => 
+			array (
+				'cast_id' => 255,
+				'movie_id' => 35,
+				'person_id' => 45,
+				'character' => 'Beth Macintyre',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			250 => 
+			array (
+				'cast_id' => 256,
+				'movie_id' => 36,
+				'person_id' => 226,
+				'character' => 'Terence Mcdonagh',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			251 => 
+			array (
+				'cast_id' => 258,
+				'movie_id' => 36,
+				'person_id' => 227,
+				'character' => 'Frankie Donnenfield',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			252 => 
+			array (
+				'cast_id' => 259,
+				'movie_id' => 36,
+				'person_id' => 228,
+				'character' => 'Stevie Pruit',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			253 => 
+			array (
+				'cast_id' => 260,
+				'movie_id' => 36,
+				'person_id' => 229,
+				'character' => 'Big Fate',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			254 => 
+			array (
+				'cast_id' => 261,
+				'movie_id' => 36,
+				'person_id' => 230,
+				'character' => 'Heidi',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			255 => 
+			array (
+				'cast_id' => 262,
+				'movie_id' => 36,
+				'person_id' => 50,
+				'character' => 'Ned Schoenholtz',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			256 => 
+			array (
+				'cast_id' => 263,
+				'movie_id' => 36,
+				'person_id' => 231,
+				'character' => 'Mundt',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
 		));
 	}
 
