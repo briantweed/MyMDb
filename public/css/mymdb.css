@@ -6605,6 +6605,10 @@ div.top-rated a, div.lowest-rated a {
   display: block;
   padding: 0.5em 0; }
 
+div.top-rated span.rating-display, div.lowest-rated span.rating-display {
+  display: block;
+  padding: 0.3em 0; }
+
 .image-thumbnail .slick-slide a {
   padding: 3px 7.5px; }
 
