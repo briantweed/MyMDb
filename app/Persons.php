@@ -22,12 +22,39 @@ class Persons extends Model {
 						->orderBy('released', 'desc');
 	}
 
-	public function jobs()
+	public function directed()
 	{
 		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
 						->withPivot('crew_id', 'position')
+						->where('position', 'Director')
 						->orderBy('released', 'desc')
-						->orderByRaw(DB::raw("FIELD(position, 'Director','Producer','Writer','Composer' )"))
+						->orderBy('name', 'asc');
+	}
+
+	public function produced()
+	{
+		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
+						->withPivot('crew_id', 'position')
+						->where('position', 'Producer')
+						->orderBy('released', 'desc')
+						->orderBy('name', 'asc');
+	}
+
+	public function scripted()
+	{
+		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
+						->withPivot('crew_id', 'position')
+						->where('position', 'Writer')
+						->orderBy('released', 'desc')
+						->orderBy('name', 'asc');
+	}
+
+	public function scored()
+	{
+		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
+						->withPivot('crew_id', 'position')
+						->where('position', 'Composer')
+						->orderBy('released', 'desc')
 						->orderBy('name', 'asc');
 	}
 
