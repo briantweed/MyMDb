@@ -6559,6 +6559,9 @@ div.search-bar-container {
 div.main-content {
   margin-top: 130px; }
 
+div.purchased-content {
+  background: url(../../images/237.png); }
+
 div.feature-content {
   color: #f0f0f0;
   background: #40515d; }

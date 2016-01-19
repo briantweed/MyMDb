@@ -24,7 +24,7 @@
                      @if($person->cover_count == 1)
                         <img class="img-responsive img-rounded lazy" src="http://placehold.it/300x450/cccccc/ffffff?text={{$person->cover}}"  />
                      @else
-                        <img class="img-responsive img-rounded lazy" src="http://placehold.it/300x450/cccccc/ffffff?text=MyMDb" data-original="{{asset($person->cover)}}"  />
+                        <img class="img-responsive img-rounded lazy" src="{{asset('images/mymdb.jpg')}}" data-original="{{asset($person->cover)}}"  />
                      @endif
                      <span class="title-wrapper hidden-xs">{{$person->forename}} {{$person->surname}}</span>
                   </a>
