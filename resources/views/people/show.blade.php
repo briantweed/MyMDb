@@ -65,37 +65,32 @@
 
       {{-- right column --}}
       <div class="{{env('RIGHT_COLUMN')}}">
-         {{-- person title --}}
-         <div class="row">
-            <div class="col-xs-12"><h1>{{$person->forename}} {{$person->surname}}<br/></h1></div>
-         </div>
 
-         {{-- birthday --}}
+         <div class="row">
+            <div class="col-xs-12"><h1>{{$person->forename}} {{$person->surname}}</h1></div>
+         </div>
+         <br/>
          <div class="row">
             <div class="{{$label_class}}"><b>Born</b></div>
             <div class="{{$input_class}}">{{$person->birthday}}</div>
          </div>
 
          @if($person->deceased)
-            {{-- deceased --}}
             <div class="row">
                <div class="{{$label_class}}"><b>Died</b></div>
                <div class="{{$input_class}}">{{$person->deceased}}</div>
             </div>
          @endif
 
-         {{-- age --}}
          <div class="row">
             <div class="{{$label_class}}"><b>Age</b></div>
             <div class="{{$input_class}}">{{$person->age}}</div>
          </div>
 
-         {{-- description --}}
          <div class="row">
             <div class="col-xs-12"><p>{!! $person->bio !!}</p></div>
          </div>
 
-         {{-- padding --}}
          @include('segments.layout.padding')
 
          {{-- acting roles --}}

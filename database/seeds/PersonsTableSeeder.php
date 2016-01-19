@@ -191,48 +191,48 @@ In 1999, the American Film Institute ranked him eighth among its list of greates
 				'person_id' => 13,
 				'forename' => 'Sean',
 				'surname' => 'Astin',
-				'birthday' => NULL,
+				'birthday' => '1971-02-25',
 				'deceased' => NULL,
 				'image' => 'sean_astin_1453214109.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-12 20:37:24',
-				'updated_at' => '2016-01-19 14:35:09',
+				'updated_at' => '2016-01-19 14:55:00',
 			),
 			13 => 
 			array (
 				'person_id' => 14,
 				'forename' => 'Dan',
 				'surname' => 'Aykroyd',
-				'birthday' => NULL,
+				'birthday' => '1952-07-01',
 				'deceased' => NULL,
 				'image' => 'dan_aykroyd_1452631198.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-12 20:37:46',
-				'updated_at' => '2016-01-12 20:39:58',
+				'updated_at' => '2016-01-19 14:55:24',
 			),
 			14 => 
 			array (
 				'person_id' => 15,
 				'forename' => 'Rob',
 				'surname' => 'Schneider',
-				'birthday' => NULL,
+				'birthday' => '1963-10-31',
 				'deceased' => NULL,
 				'image' => 'rob_schneider_1453214186.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-12 20:38:45',
-				'updated_at' => '2016-01-19 14:36:26',
+				'updated_at' => '2016-01-19 14:55:47',
 			),
 			15 => 
 			array (
 				'person_id' => 16,
 				'forename' => 'Mia',
 				'surname' => 'Wasikowska',
-				'birthday' => NULL,
+				'birthday' => '1989-10-14',
 				'deceased' => NULL,
 				'image' => 'mia_wasikowska_1453214228.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-12 20:42:28',
-				'updated_at' => '2016-01-19 14:37:08',
+				'updated_at' => '2016-01-19 14:56:09',
 			),
 			16 => 
 			array (
@@ -1791,12 +1791,16 @@ After graduating from high school, he attended California Institute of the Arts.
 				'person_id' => 145,
 				'forename' => 'Ben',
 				'surname' => 'Affleck',
-				'birthday' => NULL,
+				'birthday' => '1972-08-15',
 				'deceased' => NULL,
 				'image' => 'ben_affleck_1452818537.jpg',
-				'bio' => '',
+			'bio' => 'Benjamin Géza Affleck-Boldt was born on August 15, 1972 in Berkeley, California, USA, and was raised in Cambridge, Massachusetts, USA. His mother, Chris Anne (née Boldt), is a school teacher, and his father, Timothy Byers Affleck, is a social worker; the two are now divorced. Ben has a younger brother, actor Casey Affleck, who was born in 1975.
+
+He co-wrote {{Good Will Hunting}} with Matt Damon. The film was nominated for 9 Academy Awards and won two, including Best Original Screenplay for Ben and Matt.
+
+As well as acting, Ben has directed several films including {{Gone Baby Gone}}, and {{Argo}} which won the Oscar for Best Picture.',
 				'created_at' => '2016-01-14 22:49:25',
-				'updated_at' => '2016-01-14 22:49:25',
+				'updated_at' => '2016-01-19 15:04:58',
 			),
 			145 => 
 			array (

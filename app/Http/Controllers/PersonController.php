@@ -51,6 +51,15 @@ class PersonController extends Controller {
 		}
 		$person->deceased = $this->formatDate($person->deceased, 'display');
 		$person->bio = $this->checkForMovies($person->bio);
+
+		$talents = [];
+		if(count($person->roles)) $talents[] = "Actor";
+		if(count($person->directed)) $talents[] = "Director";
+		if(count($person->produced)) $talents[] = "Producer";
+		if(count($person->scripted)) $talents[] = "Writer";
+		if(count($person->composer)) $talents[] = "Composer";
+		$person->synops = implode(", ", $talents);
+
 		$user = $this->isAdmin;
 		return view('people.show', compact('person', 'user'));
 	}
