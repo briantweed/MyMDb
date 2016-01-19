@@ -254,7 +254,7 @@ class MoviesTableSeeder extends Seeder {
 				'name' => 'Angels with Dirty Faces',
 				'sort_name' => 'Angels with Dirty Faces',
 				'released' => 1938,
-				'rating' => 9,
+				'rating' => 10,
 				'running_time' => 97,
 				'image' => 'Angels_With_Dirty_Faces_1450361371.jpg',
 				'certificate_id' => 3,
@@ -264,7 +264,7 @@ class MoviesTableSeeder extends Seeder {
 				'bio' => 'Two boyhood friends, Rocky Sullivan and Jerry Connolly have taken different paths in life. After Rocky is arrested he is sent to a juvenile facility and becomes a lifelong tough guy and criminal. Jerry on the other hand goes straight and becomes a Catholic priest ministering to people in the same neighborhood when he and Rocky grew up. When Rocky is released from prison he resumes his criminal lifestyle and becomes much admired by many of the local kids. Worried that the kids will follow Rocky into the criminal world, Jerry works hard to keep them on the straight and narrow. When Rocky is convicted and sentenced to the electric chair, Jerry asks him for one last favor.',
 				'purchased' => '2015-01-01 00:00:00',
 				'created_at' => '2015-12-30 15:38:30',
-				'updated_at' => '2016-01-12 21:26:39',
+				'updated_at' => '2016-01-19 09:21:58',
 			),
 			14 => 
 			array (
@@ -676,9 +676,9 @@ class MoviesTableSeeder extends Seeder {
 				'studio_id' => 24,
 				'duplicate' => 0,
 				'bio' => 'In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr Zorg at bay.',
-				'purchased' => '2015-01-01 08:00:00',
+				'purchased' => '2015-01-01 00:00:00',
 				'created_at' => '2015-12-30 15:38:30',
-				'updated_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2016-01-19 13:32:58',
 			),
 			37 => 
 			array (
@@ -693,10 +693,10 @@ class MoviesTableSeeder extends Seeder {
 				'format_id' => 2,
 				'studio_id' => 8,
 				'duplicate' => 0,
-				'bio' => 'Five friends go for a break at a remote cabin in the woods, where they get more than they bargained for. Together, they must discover the truth behind the cabin in the woods.',
-				'purchased' => '2015-01-01 08:00:00',
+				'bio' => 'Five teenagers head off for a weekend at a secluded cabin in the woods. They arrive to find they are quite isolated with no means of communicating with the outside world. When the cellar door flings itself open, they of course go down to investigate. They find an odd assortment of relics and curios, but when one of the women, Dana, reads from a book, she awakens a family of deadly zombie killers. However, there\'s far more going on than meets the eye.',
+				'purchased' => '2015-01-01 00:00:00',
 				'created_at' => '2015-12-30 15:38:30',
-				'updated_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2016-01-19 13:44:32',
 			),
 			38 => 
 			array (
@@ -711,10 +711,10 @@ class MoviesTableSeeder extends Seeder {
 				'format_id' => 2,
 				'studio_id' => 26,
 				'duplicate' => 0,
-				'bio' => 'The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster&#039;s myth.',
-				'purchased' => '2015-01-01 08:00:00',
+				'bio' => 'The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster\'s myth.',
+				'purchased' => '2015-01-01 00:00:00',
 				'created_at' => '2015-12-30 15:38:30',
-				'updated_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2016-01-19 13:48:15',
 			),
 			39 => 
 			array (

@@ -6643,7 +6643,8 @@ div.movie span.input-group-addon {
   cursor: pointer; }
 
 div.movie input[type="file"] {
-  display: inline-block; }
+  display: inline-block;
+  width: 98%; }
 
 span.required {
   color: #c81d1d;

@@ -182,6 +182,62 @@ class CategoriesTableSeeder extends Seeder {
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
+			21 => 
+			array (
+				'category_id' => 22,
+				'movie_id' => 37,
+				'genre_id' => 1,
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			22 => 
+			array (
+				'category_id' => 23,
+				'movie_id' => 37,
+				'genre_id' => 2,
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			23 => 
+			array (
+				'category_id' => 24,
+				'movie_id' => 37,
+				'genre_id' => 22,
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			24 => 
+			array (
+				'category_id' => 25,
+				'movie_id' => 38,
+				'genre_id' => 6,
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			25 => 
+			array (
+				'category_id' => 26,
+				'movie_id' => 38,
+				'genre_id' => 16,
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			26 => 
+			array (
+				'category_id' => 27,
+				'movie_id' => 39,
+				'genre_id' => 10,
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			27 => 
+			array (
+				'category_id' => 28,
+				'movie_id' => 39,
+				'genre_id' => 16,
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
 		));
 	}
 

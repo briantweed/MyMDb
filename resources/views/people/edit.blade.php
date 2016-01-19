@@ -12,6 +12,7 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
+   @include('segments.links.back')
    @include('segments.links.view_person')
    @include('segments.links.add_person')
    @include('segments.links.edit_next_person')
