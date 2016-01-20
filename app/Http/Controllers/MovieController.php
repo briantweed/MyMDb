@@ -99,7 +99,7 @@ class MovieController extends Controller {
 	public function edit($movie_id)
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		Session::put('movie_is', $movie_id);
+		Session::put('movie_id', $movie_id);
 
 		$movie = Movies::findorfail($movie_id);
 		$movie->genres;
@@ -327,7 +327,19 @@ class MovieController extends Controller {
 		return "error";
 	}
 
-
+	public function duplicateCast()
+	{
+		if(!$this->isAdmin) return view('auth.login');
+		$data = $request->all();
+		$existing_movie = Movies::find($data['selected_movie_id']);
+		$new_movie_id = Session::get('movie_id');
+		$new_cast = [];
+		$new_movie = Movies::findorfail($new_movie_id);
+		foreach($existing_movie->cast as $cast) {
+			$new_cast[] = ['movie_id'=>$new_movie_id, 'person_id'=>$cast->pivot->person_id, 'character'=>$cast->pivot->character];
+		}
+		$new_movie->cast()->sync($new_cast);
+	}
 	/*
 	| --------------------------------------------------
 	|		Private Functions

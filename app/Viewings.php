@@ -12,7 +12,7 @@ class Viewings extends Model {
 
 	public function movie()
    {
-      return $this->belongsTo('App\Movies', 'viewing_id', 'movie_id');
+      return $this->belongsTo('App\Movies', 'movie_id');
    }
 
 } // end of model

@@ -1,4 +1,5 @@
 <?php
+use App\Movies;
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
@@ -28,6 +29,7 @@ Route::post('editCastMember', 'MovieController@editCastMember');
 Route::post('addNewCrew', 'MovieController@addCrewMember');
 Route::post('removeCast', 'MovieController@removeCastMember');
 Route::post('removeCrew', 'MovieController@removeCrewMember');
+Route::post('duplicateCast', 'MovieController@duplicateCast');
 Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 
 // PERSONS

@@ -94,7 +94,6 @@ function displayCharts() {
    if( $('#yearChart').onScreen() )   displayMoviesByDecade();
    if( $('#formatChart').onScreen() ) displayMoviesByFormat();
    if( $('#certificateChart').onScreen() ) displayMoviesByCertificate();
-
 }
 
 function displayMoviesByDecade() {
@@ -115,14 +114,14 @@ function displayMoviesByDecade() {
                gridThickness: 1
             },
             animationEnabled: true,
-            animationDuration: 1700,
+            animationDuration: 1500,
             toolTip: {
                contentFormatter: function(event) {
                   var str = '';
                   for (var i = 0; i < event.entries.length; i++)
                   {
                      str =  event.entries[i].dataPoint.label + ': ';
-                     str += event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+                     str += event.entries[i].dataPoint.y == 1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
                      return (str);
                   }
                }
@@ -131,7 +130,7 @@ function displayMoviesByDecade() {
                type: 'column',
                dataPoints: json,
                click: function(event) {
-                  displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
+                  // displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
                }
             }]
          });
@@ -158,7 +157,7 @@ function displayMoviesByYear(start, end) {
             interval: json.interval
          },
          animationEnabled: true,
-         animationDuration: 1700,
+         animationDuration: 1500,
          toolTip: {
             contentFormatter: function(event) {
                var str = '';
@@ -277,7 +276,7 @@ function displayMoviesByRating() {
                interval: 10
             },
             animationEnabled: true,
-            animationDuration: 1700,
+            animationDuration: 1500,
             toolTip: {
                contentFormatter: function(event) {
                   var str = '';
