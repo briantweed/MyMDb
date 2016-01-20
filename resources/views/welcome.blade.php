@@ -67,7 +67,6 @@
                   @include('welcome.highest_rated')
                </div>
                <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-6 col-lr-6">
-                  {{-- <div id="ratingChart" style="height: 400px; width: 100%;"></div> --}}
                   @include('welcome.lowest_rated')
                </div>
             </div>
@@ -213,8 +212,8 @@
 
             <div class="row">
                <div class="col-xs-12 col-sm-6">
-                  <h4 id="movies-by-label">Movies By Format</h4>
-                  <div id="formatChart" style="height: 350px; width: 100%;"></div>
+                  <h4 id="movies-by-label">Movies By Rating</h4>
+                  <div id="ratingChart" style="height: 350px; width: 100%;"></div>
                </div>
                <div class="col-xs-12 col-sm-6">
                   <h4 id="movies-by-label">Movies By Certificate</h4>

@@ -1,8 +1,8 @@
 
-$.fn.onScreen = function(byMoreThan=20)
+$.fn.onScreen = function()
 {
    if( !$(this).length ) return false;
-   else return $(window).scrollTop() + $(window).height() >= $(this).offset().top + byMoreThan;
+   else return $(window).scrollTop() + $(window).height() >= $(this).offset().top + 100;
 }
 
 CanvasJS.addColorSet('cert', ['#6bc954', '#158b1a', '#e6dd19', '#d9a125', '#c1277e', '#d43030', '#460000']);
@@ -90,10 +90,10 @@ $(document).ready(function() {
 });
 
 function displayCharts() {
-   if( $('#ratingChart').onScreen(50) ) displayMoviesByRating();
-   if( $('#yearChart').onScreen(50) )   displayMoviesByDecade();
-   if( $('#formatChart').onScreen(50) ) displayMoviesByFormat();
-   if( $('#certificateChart').onScreen(200) ) displayMoviesByCertificate();
+   if( $('#ratingChart').onScreen() ) displayMoviesByRating();
+   if( $('#yearChart').onScreen() )   displayMoviesByDecade();
+   if( $('#formatChart').onScreen() ) displayMoviesByFormat();
+   if( $('#certificateChart').onScreen() ) displayMoviesByCertificate();
 
 }
 
