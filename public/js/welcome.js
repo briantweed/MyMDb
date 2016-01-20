@@ -17,6 +17,10 @@ $(window).resize(function(event) {
    $('#director-slidee').sly('reload');
 });
 
+$(window).scroll(function(){
+   displayCharts();
+});
+
 $(document).ready(function() {
 
    $('#decadeSelectFilter').change(function() {
@@ -82,11 +86,6 @@ $(document).ready(function() {
    });
 
    displayCharts();
-
-   $(window).scroll(function(){
-      displayCharts();
-   });
-
 
 });
 
