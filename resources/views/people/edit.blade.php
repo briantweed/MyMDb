@@ -82,6 +82,7 @@
          <ul id="movieTabs" class="nav nav-tabs" role="tablist">
             <li role="details" class="active"><a href="#details" aria-controls="details" role="tab" data-toggle="tab">Details</a></li>
             <li role="details"><a href="#roles" aria-controls="roles" role="tab" data-toggle="tab">Roles</a></li>
+            <li role="details"><a href="#positions" aria-controls="positions" role="tab" data-toggle="tab">Positions</a></li>
          </ul>
 
          <div class="tab-content">
@@ -105,6 +106,19 @@
                   <div class="col-xs-3"><b>Character</b></div>
                </div>
                @include('people.roles')
+            </div>
+
+            <div role="tabpanel" class="tab-pane fade in" id="positions">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <a onclick="showModal('createPosition', '')" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-director"></i> <span class="hidden-sm">new position</span></a>
+                  </div>
+               </div>
+               <div class="row cast">
+                  <div class="col-xs-5"><b>Film</b></div>
+                  <div class="col-xs-3"><b>Position</b></div>
+               </div>
+               @include('people.positions')
             </div>
 
          </div>

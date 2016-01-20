@@ -62,64 +62,15 @@
 
             @include('segments.layout.padding')
 
-            @include('segments.layout.padding')
-
-            {{-- second row --}}
             <div class="row">
-
-               {{-- top rated movies --}}
                <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-6 col-lr-6">
-
-                  <div class="row">
-                     <div class="col-xs-12">
-                        <h4>Top Rated</h4>
-                     </div>
-                  </div>
-
-                  @foreach($details->top_rated as $movie)
-                     <div class="row top-rated">
-                        <div class="col-xs-12 col-sm-8">
-                           <a href="{{ action('MovieController@show', $movie->movie_id) }}">{{$movie->name}} ({{$movie->released}})</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                           <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top'
-                              title='{{$movie->rating}} / @if($movie->movie_id==176) 11 @else 10 @endif'>{!!$movie->rating_display!!}
-                           </span>
-                        </div>
-                     </div>
-                  @endforeach
-
-                  @include('segments.layout.padding')
-
-               </div> {{-- end of top rated --}}
-
-               {{-- worst rated movies --}}
+                  @include('welcome.highest_rated')
+               </div>
                <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-6 col-lr-6">
-
-                  <div class="row">
-                     <div class="col-xs-12">
-                        <h4>Lowest Rated</h4>
-                     </div>
-                  </div>
-
-                  @foreach($details->lowest_rated as $movie)
-                     <div class="row lowest-rated">
-                        <div class="col-xs-12 col-sm-8 col-md-9">
-                           <a href="{{ action('MovieController@show', $movie->movie_id) }}">{{$movie->name}} ({{$movie->released}})</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-4 col-md-3">
-                           <span class="rating-display @if($movie->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top'
-                              title='{{$movie->rating}} / @if($movie->movie_id==176) 11 @else 10 @endif'>{!!$movie->rating_display!!}
-                           </span>
-                        </div>
-                     </div>
-                  @endforeach
-
-                  @include('segments.layout.padding')
-
-               </div> {{-- end of worst rated --}}
-
-            </div> {{-- end of second row --}}
+                  {{-- <div id="ratingChart" style="height: 400px; width: 100%;"></div> --}}
+                  @include('welcome.lowest_rated')
+               </div>
+            </div>
 
             @include('segments.layout.padding')
 
@@ -133,7 +84,6 @@
 
             @include('segments.layout.padding')
 
-            {{-- second row --}}
             <div class="row">
                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-offset-1 col-lg-2">
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
@@ -169,6 +119,7 @@
                   <h4>Most Popular Actors</h4>
                </div>
             </div>
+
             <div class="row">
                <div class="col-xs-12 image-thumbnail">
                   <div id="actor-slidee" class="frame">
@@ -202,6 +153,7 @@
                   <h4>Most Popular Directors</h4>
                </div>
             </div>
+
             <div class="row">
                <div class="col-xs-12 image-thumbnail">
                   <div id="director-slidee" class="frame">
@@ -231,6 +183,7 @@
             @include('segments.layout.padding')
 
          </div>
+
       </div>
 
       <div class="chart-content">
@@ -238,6 +191,7 @@
          <div class="container">
 
             @include('segments.layout.padding')
+
             <div class="row">
                <div class="col-xs-10">
                   <h4 id="movies-by-label">Movies By Decade</h4>
@@ -246,7 +200,9 @@
                   {!! Form::select('select_decade', ['all'=>'All'] + $details->decades, 'all', ['class'=>'form-control', 'id'=>'decadeSelectFilter']) !!}
                </div>
             </div>
+
             @include('segments.layout.padding')
+
             <div class="row">
                <div class="col-xs-12">
                   <div id="yearChart" style="height: 300px; width: 100%;"></div>
@@ -282,11 +238,9 @@
          <div class="container">
 
             <div class="row">
-
                <div class="col-sx-12">
                   &copy;<?php echo date("Y"); ?> brtweed designs
                </div>
-
             </div>
 
          </div>

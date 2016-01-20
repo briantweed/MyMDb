@@ -158,3 +158,23 @@ function clearErrorMessages() {
    $('[id$=_error]').addClass('hide');
    $('[id$=error_message]').html('');
 }
+
+function showModal(type, id) {
+   var route = "";
+   switch(type) {
+      case "createPosition":  route = "createPersonPosition"; break;
+      case "editPosition":    route = "editPersonPosition"; break;
+      case "removePosition":  route = "destroyPersonPosition"; break;
+   }
+   $.ajax({
+      type: 'POST',
+      url: '/MyMDb/public/' + route,
+      data: {
+         _token: $('meta[name="_token"]').attr('content'),
+         id: id
+      }
+   }).done(function(html){
+      $('#empty-modal').html(html).modal();
+      $('#alert-message').remove();
+   });
+}

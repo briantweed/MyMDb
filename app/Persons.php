@@ -22,6 +22,15 @@ class Persons extends Model {
 						->orderBy('released', 'desc');
 	}
 
+	public function positions()
+	{
+		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
+						->withPivot('crew_id', 'position')
+						->orderBy('released', 'desc')
+						->orderByRaw(DB::raw("FIELD(position, 'Director','Producer','Writer','Composer' )"))
+						->orderBy('name', 'asc');
+	}
+
 	public function directed()
 	{
 		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')

@@ -1,5 +1,16 @@
 
+$.fn.onScreen = function(byMoreThan=20)
+{
+   if( !$(this).length ) return false;
+   else return $(window).scrollTop() + $(window).height() >= $(this).offset().top + byMoreThan;
+}
+
 CanvasJS.addColorSet('cert', ['#6bc954', '#158b1a', '#e6dd19', '#d9a125', '#c1277e', '#d43030', '#460000']);
+
+var runRating = true,
+    runDecade = true,
+    runCertif = true,
+    runFormat = true;
 
 $(window).resize(function(event) {
    $('#actor-slidee').sly('reload');
@@ -16,7 +27,11 @@ $(document).ready(function() {
          var end = start + 9;
          displayMoviesByYear(start, end);
       }
-      else displayMoviesByDecade();
+      else
+      {
+         runDecade = true;
+         displayMoviesByDecade();
+      }
    });
 
    $('.slick-purchased').slick({
@@ -66,13 +81,65 @@ $(document).ready(function() {
       dragSource : '#director-slidee',
    });
 
-   displayMoviesByDecade();
+   displayCharts();
 
-   displayMoviesByFormat();
+   $(window).scroll(function(){
+      displayCharts();
+   });
 
-   displayMoviesByCertificate();
 
 });
+
+function displayCharts() {
+   if( $('#ratingChart').onScreen(50) ) displayMoviesByRating();
+   if( $('#yearChart').onScreen(50) )   displayMoviesByDecade();
+   if( $('#formatChart').onScreen(50) ) displayMoviesByFormat();
+   if( $('#certificateChart').onScreen(200) ) displayMoviesByCertificate();
+
+}
+
+function displayMoviesByDecade() {
+   if(runDecade === true) {
+      $.ajax({
+         beforeSend: function() {
+            runDecade = false
+         },
+         type: 'POST',
+         url: '/MyMDb/public/movieDecadeCount',
+         data: {
+            _token: $('meta[name="_token"]').attr('content')
+         }
+      }).done(function(json) {
+         var chart = new CanvasJS.Chart('yearChart', {
+            axisY:{
+               gridColor: '#ddd',
+               gridThickness: 1
+            },
+            animationEnabled: true,
+            animationDuration: 1700,
+            toolTip: {
+               contentFormatter: function(event) {
+                  var str = '';
+                  for (var i = 0; i < event.entries.length; i++)
+                  {
+                     str =  event.entries[i].dataPoint.label + ': ';
+                     str += event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+                     return (str);
+                  }
+               }
+            },
+            data: [{
+               type: 'column',
+               dataPoints: json,
+               click: function(event) {
+                  displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
+               }
+            }]
+         });
+         chart.render();
+      });
+   }
+}
 
 function displayMoviesByYear(start, end) {
    $.ajax({
@@ -108,46 +175,8 @@ function displayMoviesByYear(start, end) {
             type: 'column',
             dataPoints: json.years,
             click: function(event) {
-               startFilter('year', event.dataPoint.label);
+               // startFilter('year', event.dataPoint.label);
             },
-         }]
-      });
-      chart.render();
-   });
-}
-
-function displayMoviesByDecade() {
-   $.ajax({
-      type: 'POST',
-      url: '/MyMDb/public/movieDecadeCount',
-      data: {
-         _token: $('meta[name="_token"]').attr('content')
-      }
-   }).done(function(json) {
-      var chart = new CanvasJS.Chart('yearChart', {
-         axisY:{
-            gridColor: '#ddd',
-            gridThickness: 1
-         },
-         animationEnabled: true,
-         animationDuration: 1700,
-         toolTip: {
-            contentFormatter: function(event) {
-               var str = '';
-               for (var i = 0; i < event.entries.length; i++)
-               {
-                  str =  event.entries[i].dataPoint.label + ': ';
-                  str += event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-                  return (str);
-               }
-            }
-         },
-         data: [{
-            type: 'column',
-            dataPoints: json,
-            click: function(event) {
-               displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
-            }
          }]
       });
       chart.render();
@@ -155,66 +184,120 @@ function displayMoviesByDecade() {
 }
 
 function displayMoviesByFormat() {
-   $.ajax({
-      type: 'POST',
-      url: '/MyMDb/public/movieFormatCount',
-      data: {
-         _token: $('meta[name="_token"]').attr('content')
-      }
-   }).done(function(json) {
-      var chart = new CanvasJS.Chart('formatChart', {
-         toolTip: {
-            contentFormatter: function(event) {
-               var str = '';
-               for (var i = 0; i < event.entries.length; i++)
-               {
-                  str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-                  return (str);
-               }
-            }
+   if(runFormat === true) {
+      $.ajax({
+         beforeSend: function() {
+            runFormat = false
          },
-         animationEnabled: true,
-         data: [{
-            type: 'doughnut',
-            dataPoints: json,
-            click: function(event) {
-               startFilter('format', event.dataPoint.label);
+         type: 'POST',
+         url: '/MyMDb/public/movieFormatCount',
+         data: {
+            _token: $('meta[name="_token"]').attr('content')
+         }
+      }).done(function(json) {
+         var chart = new CanvasJS.Chart('formatChart', {
+            toolTip: {
+               contentFormatter: function(event) {
+                  var str = '';
+                  for (var i = 0; i < event.entries.length; i++)
+                  {
+                     str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+                     return (str);
+                  }
+               }
             },
-         }]
+            animationEnabled: true,
+            data: [{
+               type: 'doughnut',
+               dataPoints: json,
+               click: function(event) {
+                  // startFilter('format', event.dataPoint.label);
+               },
+            }]
+         });
+         chart.render();
       });
-      chart.render();
-   });
+   }
 }
 
 function displayMoviesByCertificate() {
-   $.ajax({
-      type: 'POST',
-      url: '/MyMDb/public/movieCertificateCount',
-      data: {
-         _token: $('meta[name="_token"]').attr('content')
-      }
-   }).done(function(json) {
-      var chart = new CanvasJS.Chart('certificateChart', {
-         colorSet: 'cert',
-         animationEnabled: true,
-         toolTip: {
-            contentFormatter: function(event) {
-               var str = '';
-               for (var i = 0; i < event.entries.length; i++){
-                  str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-                  return (str);
-               }
-            }
+   if(runCertif === true) {
+      $.ajax({
+         beforeSend: function() {
+            runCertif = false
          },
-         data: [{
-            type: 'doughnut',
-            startAngle:  270,
-            dataPoints: json,
-            click: function(event){
-               startFilter('certificate', event.dataPoint.id);
+         type: 'POST',
+         url: '/MyMDb/public/movieCertificateCount',
+         data: {
+            _token: $('meta[name="_token"]').attr('content')
+         }
+      }).done(function(json) {
+         var chart = new CanvasJS.Chart('certificateChart', {
+            colorSet: 'cert',
+            animationEnabled: true,
+            toolTip: {
+               contentFormatter: function(event) {
+                  var str = '';
+                  for (var i = 0; i < event.entries.length; i++){
+                     str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+                     return (str);
+                  }
+               }
             },
-         }]
+            data: [{
+               type: 'doughnut',
+               startAngle:  270,
+               dataPoints: json,
+               click: function(event){
+                  // startFilter('certificate', event.dataPoint.id);
+               },
+            }]
+         });
+         chart.render();
       });
-      chart.render();
-   });
+   }
+}
+
+function displayMoviesByRating() {
+   if(runRating === true)
+   {
+      $.ajax({
+         beforeSend: function(){
+            runRating = false
+         },
+         type: 'POST',
+         url: '/MyMDb/public/movieRatingCount',
+         data: {
+            _token: $('meta[name="_token"]').attr('content')
+         }
+      }).done(function(json) {
+         var chart = new CanvasJS.Chart('ratingChart', {
+            axisY:{
+               gridColor: '#ddd',
+               gridThickness: 1,
+               interval: 10
+            },
+            animationEnabled: true,
+            animationDuration: 1700,
+            toolTip: {
+               contentFormatter: function(event) {
+                  var str = '';
+                  for (var i = 0; i < event.entries.length; i++){
+                     str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+                     return (str);
+                  }
+               }
+            },
+            data: [{
+               type: 'column',
+               startAngle:  270,
+               dataPoints: json,
+               click: function(event){
+                  // startFilter('rating', event.dataPoint.id);
+               },
+            }]
+         });
+         chart.render();
+      });
+   }
 }

@@ -188,6 +188,18 @@ class AjaxController extends Controller
       return $movies;
 	}
 
+	public function movieRatingCount()
+	{
+		$movies = Movies::select('rating as label', DB::raw('count(*) as y'), 'rating as id')
+			->groupBy('rating')
+			->get();
+      foreach($movies as $movie)
+      {
+         $movie['exploded'] = true;
+      }
+      return $movies;
+	}
+
    public function getAvailableCast()
    {
       if(Request::ajax())

@@ -54,7 +54,7 @@
             @include('segments.buttons.home')
 
             {{-- edit button --}}
-            {{-- @include('segments.buttons.edit') --}}
+            @include('segments.buttons.edit_person')
 
             {{-- padding --}}
             @include('segments.layout.padding')
