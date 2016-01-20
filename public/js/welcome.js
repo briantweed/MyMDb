@@ -12,12 +12,12 @@ var runRating = true,
     runCertif = true,
     runFormat = true;
 
-$(window).resize(function(event) {
+$(document).resize(function(event) {
    $('#actor-slidee').sly('reload');
    $('#director-slidee').sly('reload');
 });
 
-$(window).scroll(function(){
+$(document).scroll(function(){
    displayCharts();
 });
 
