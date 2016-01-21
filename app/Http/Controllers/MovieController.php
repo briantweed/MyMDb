@@ -331,26 +331,31 @@ class MovieController extends Controller {
 	public function duplicateCast()
 	{
 		if(!$this->isAdmin) return view('auth.login');
-		$data = $request->all();
-		$existing_movie = Movies::find($data['selected_movie_id']);
+		$data = $data = Request::all();
+		$existing_movie = Movies::find($data['id']);
 		$new_movie_id = Session::get('movie_id');
 		$new_cast = [];
-		$new_movie = Movies::findorfail($new_movie_id);
+		$movie = Movies::findorfail($new_movie_id);
 		foreach($existing_movie->cast as $cast) {
 			$new_cast[] = ['movie_id'=>$new_movie_id, 'person_id'=>$cast->pivot->person_id, 'character'=>$cast->pivot->character];
 		}
-		$new_movie->cast()->sync($new_cast);
+		$movie->cast()->sync($new_cast);
+		return (String) view('movies.cast', compact('movie'));
 	}
-	/*
-	| --------------------------------------------------
-	|		Private Functions
-	| --------------------------------------------------
-	*/
+
 
 	/**
 	*
-	* Takes the given rating and
-	* converts it into stars
+	* Private Functions
+	*
+	*/
+
+
+	/**
+	*
+	* Takes the given rating and converts it into stars
+	* @param  int  $rating
+	* @return Response
 	*
 	*/
 	private function makeRatingStars($rating)
@@ -362,10 +367,12 @@ class MovieController extends Controller {
 		return $html;
 	}
 
+
 	/**
 	*
-	* If the new name exists
-	* show the year beside the title
+	* For duplicate titles, show year as well
+	* @param  string  $name
+	* @return Response
 	*
 	*/
 	private function checkForDuplicateTitle($name)
@@ -373,10 +380,12 @@ class MovieController extends Controller {
 		return Movies::where('name', $name)->count() > 0 ? true : false;
 	}
 
+
 	/**
 	*
-	* Check if name exists, if not
-	* add to the database
+	* Check if name exists, if not add to the database
+	* @param  string  $name
+	* @return Response
 	*
 	*/
 	private function createNewStudio($name)

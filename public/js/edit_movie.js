@@ -341,6 +341,23 @@ function initializeDatePicker() {
    }).on('hide', function(e){ e.stopPropagation() })
 }
 
+function duplicateCast(val) {
+   if(confirm("Press a button!")) {
+      $.ajax({
+         type: 'POST',
+         url: '/MyMDb/public/duplicateCast',
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            id: val
+         }
+      }).done(function(html){
+         $('#cast-list').html(html);
+         $('.modal').modal('hide');
+      });
+   }
+   clearModalSelectize();
+}
+
 function showModal(type) {
    var route = "";
    switch(type) {
