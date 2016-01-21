@@ -114,6 +114,7 @@ class MovieController extends Controller {
 
 		$app = app();
 		$options = $app->make('stdClass');
+		$options->movies = Movies::orderBy('sort_name')->lists('name', 'movie_id')->toArray();
 		$options->certificates = Certificates::lists('title', 'certificate_id')->toArray();
 		$options->studios = Studios::orderBy('name', 'asc')->lists('name', 'studio_id')->toArray();
 		$options->formats = Formats::lists('type', 'format_id')->toArray();
