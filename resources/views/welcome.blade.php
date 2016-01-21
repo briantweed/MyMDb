@@ -184,13 +184,24 @@
          </div>
 
       </div>
-      <div class="trailer-content" style="background: url(images/237.png)">
-         <div class="container" >
-            <div class="col-xs-10 col-xs offset-1 col-md-8 col-offset-2 col-lg-6 col-lg-offset-3 embed-responsive embed-responsive-16by9">
-               <iframe frameborder="0" scrolling="no" mozallowfullscreen="false" webkitallowfullscreen="false" allowfullscreen="false" src="//v.traileraddict.com/109252" class="embed-responsive-item"></iframe>
-            </div>
-         </div>
-      </div>
+
+      {{-- <div class="trailer-content" style="background: url(images/237.png)"> --}}
+         {{-- <div class="container" > --}}
+
+         {{-- @include('segments.layout.padding') --}}
+
+            {{-- <div class="row"> --}}
+               {{-- <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 "> --}}
+                  {{-- <div class="embed-responsive embed-responsive-16by9"> --}}
+                     {{-- <iframe frameborder="0" scrolling="no" mozallowfullscreen="false" webkitallowfullscreen="false"  height="315" width="420" allowfullscreen="false" src="//v.traileraddict.com/109252" class="embed-responsive-item"></iframe> --}}
+                  {{-- </div> --}}
+               {{-- </div> --}}
+            {{-- </div> --}}
+
+            {{-- @include('segments.layout.padding') --}}
+            
+         {{-- </div> --}}
+      {{-- </div> --}}
 
       <div class="chart-content">
 

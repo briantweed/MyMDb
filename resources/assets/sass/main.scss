@@ -677,7 +677,25 @@ span {
 
 }
 
+.flex-video {
+   position: relative;
+   padding-top: 1.5625em;
+   padding-bottom: 67.5%;
+   height: 0;
+   margin-bottom: 1em;
 
+   &.widescreen {
+      padding-bottom: 56.34%;
+   }
+
+   iframe, object, embed,  video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+   }
+}
 
 
 
