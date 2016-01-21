@@ -13,8 +13,7 @@ var runRating = true,
     runFormat = true;
 
 $(document).resize(function(event) {
-   $('#actor-slidee').sly('reload');
-   $('#director-slidee').sly('reload');
+   $('#actor-slidee, #director-slidee').sly('reload');
 });
 
 $(document).scroll(function(){
