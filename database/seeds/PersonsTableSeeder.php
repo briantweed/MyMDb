@@ -369,12 +369,12 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
 				'person_id' => 27,
 				'forename' => 'John',
 				'surname' => 'Hurt',
-				'birthday' => NULL,
+				'birthday' => '1944-01-22',
 				'deceased' => NULL,
 				'image' => 'john_hurt_1453296468.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-12 20:49:15',
-				'updated_at' => '2016-01-20 13:27:48',
+				'updated_at' => '2016-01-22 14:21:45',
 			),
 			27 => 
 			array (
@@ -1675,12 +1675,12 @@ Pratt played major supporting roles in several television series, including Ever
 				'person_id' => 135,
 				'forename' => 'Kate',
 				'surname' => 'Winslet',
-				'birthday' => '2016-01-22',
+				'birthday' => '1975-10-05',
 				'deceased' => NULL,
 				'image' => 'kate_winslet_1453454153.jpg',
 				'bio' => '',
 				'created_at' => '2016-01-14 22:41:34',
-				'updated_at' => '2016-01-22 09:15:53',
+				'updated_at' => '2016-01-22 14:20:53',
 			),
 			135 => 
 			array (

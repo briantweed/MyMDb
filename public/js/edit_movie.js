@@ -342,36 +342,39 @@ function initializeDatePicker() {
 }
 
 function duplicateCast(val) {
-   if(confirm("Press a button!")) {
-      $.ajax({
-         type: 'POST',
-         url: '/MyMDb/public/duplicateCast',
-         data: {
-            _token: $('meta[name="_token"]').attr('content'),
-            id: val
-         }
-      }).done(function(html){
-         $('#cast-list').html(html);
-         $('.modal').modal('hide');
-      });
-   }
+   $.ajax({
+      type: 'POST',
+      url: '/MyMDb/public/duplicateCast',
+      data: {
+         _token: $('meta[name="_token"]').attr('content'),
+         id: val
+      }
+   }).done(function(html){
+      $('#cast-list').html(html);
+      $('.modal').modal('hide');
+   });
    clearModalSelectize();
 }
 
-function showModal(type) {
-   var route = "";
-   switch(type) {
-      case "genre": route = "createNewGenre"; break;
-   }
-   $.ajax({
-      type: 'POST',
-      url: '/MyMDb/public/' + route,
-      data: {
-         _token: $('meta[name="_token"]').attr('content')
+function showModal(type, id) {
+   if(id.length)
+   {
+      var route = "";
+      switch(type) {
+         case "genre": route = "createNewGenre"; break;
+         case "duplicateCast": route = "confirmDuplicateCast"; break;
       }
-   }).done(function(html){
-      $('.modal').modal('hide');
-      $('#empty-modal').html(html).modal();
-      initializeDatePicker();
-   });
+      $.ajax({
+         type: 'POST',
+         url: '/MyMDb/public/' + route,
+         data: {
+            _token: $('meta[name="_token"]').attr('content'),
+            id: id
+         }
+      }).done(function(html){
+         $('.modal').modal('hide');
+         $('#empty-modal').html(html).modal();
+         initializeDatePicker();
+      });
+   }
 }

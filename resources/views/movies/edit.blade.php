@@ -109,7 +109,7 @@
                      <a onclick="addCastMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-actor"></i> <span class="hidden-sm">new cast</span></a>
                   </div>
                   <div class="col-xs-8">
-                     {!! Form::select('copy_from', array('' => 'copy cast from ...') + $options->movies, '', ['class'=>'form-control','id'=>'copy_from', 'onchange'=>'duplicateCast(this.value)']) !!}
+                     {!! Form::select('copy_from', array('' => 'copy cast from ...') + $options->movies, '', ['class'=>'form-control','id'=>'copy_from', 'onchange'=>'showModal("duplicateCast", this.value)']) !!}
                   </div>
                </div>
                <div class="row">
@@ -135,7 +135,7 @@
             <div role="tabpanel" class="tab-pane fade" id="genres">
                <div class="row">
                   <div class="col-xs-12">
-                     <a class="btn btn-primary" onclick="showModal('genre')" href="javascript:void(0)"><i class="ft icon-genre"></i> <span class="hidden-sm">new genre</span></a>
+                     <a class="btn btn-primary" onclick="showModal('genre', 'new')" href="javascript:void(0)"><i class="ft icon-genre"></i> <span class="hidden-sm">new genre</span></a>
                   </div>
                </div>
                <div class="row genres">

@@ -328,19 +328,33 @@ class MovieController extends Controller {
 		return "error";
 	}
 
+	public function confirmDuplicateCast()
+	{
+		if(Request::ajax())
+		{
+			$data = $data = Request::all();
+			return (String) view('modal.duplicate_cast', compact('data'));
+		}
+		return false;
+	}
+
 	public function duplicateCast()
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$data = $data = Request::all();
-		$existing_movie = Movies::find($data['id']);
-		$new_movie_id = Session::get('movie_id');
-		$new_cast = [];
-		$movie = Movies::findorfail($new_movie_id);
-		foreach($existing_movie->cast as $cast) {
-			$new_cast[] = ['movie_id'=>$new_movie_id, 'person_id'=>$cast->pivot->person_id, 'character'=>$cast->pivot->character];
+		if(isset($data['id']))
+		{
+			$existing_movie = Movies::find($data['id']);
+			$new_movie_id = Session::get('movie_id');
+			$new_cast = [];
+			$movie = Movies::findorfail($new_movie_id);
+			foreach($existing_movie->cast as $cast) {
+				$new_cast[] = ['movie_id'=>$new_movie_id, 'person_id'=>$cast->pivot->person_id, 'character'=>$cast->pivot->character];
+			}
+			$movie->cast()->sync($new_cast);
+			return (String) view('movies.cast', compact('movie'));
 		}
-		$movie->cast()->sync($new_cast);
-		return (String) view('movies.cast', compact('movie'));
+		return " ";
 	}
 
 

@@ -128,9 +128,28 @@ class AjaxController extends Controller
 
    public function movieDecadeCount()
    {
-      return Movies::select(DB::raw('floor(released/10)*10 as label'),DB::raw('count(*) as y'))
+      $start_year = floor(date("Y")/10)*10;
+      $end_year = floor(date("Y")/10)*10;
+      $years = [];
+      $movies = [];
+      $results = [];
+      $query = Movies::select(DB::raw('floor(released/10)*10 as released'),DB::raw('count(*) as count'))
             ->groupBy(DB::raw('floor(released/10)'))
             ->get();
+      foreach($query as $result)
+      {
+         $movies[$result->released] = $result->count;
+         if($result->released < $start_year) $start_year = $result->released;
+      }
+      for($x=$start_year; $x<=$end_year; $x+=10)
+      {
+         $year = [];
+         $year['label'] = $x;
+         $year['y'] = isset($movies[$x]) ? $movies[$x] : 0;
+         $years[] = $year;
+      }
+      return $years;
+
    }
 
    public function movieYearCount()
