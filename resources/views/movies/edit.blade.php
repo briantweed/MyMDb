@@ -109,12 +109,16 @@
                      <a onclick="addCastMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-actor"></i> <span class="hidden-sm">new cast</span></a>
                   </div>
                   <div class="col-xs-8">
-                     {!! Form::select('copy_from', array('' => 'copy cast from ...') + $options->movies, '', ['class'=>'form-control','id'=>'copy_from', 'onchange'=>'showModal("duplicateCast", this.value)']) !!}
+                     @if(!count($movie->cast))
+                        {!! Form::select('copy_from', array('' => 'copy cast from ...') + $options->movies, '', ['class'=>'form-control','id'=>'copy_from', 'onchange'=>'showModal("duplicateCast", this.value)']) !!}
+                     @endif
                   </div>
                </div>
                <div class="row">
-                  <div class="col-xs-4"><b>Name</b></div>
-                  <div class="col-xs-4"><b>Character</b></div>
+                  @if(count($movie->cast))
+                     <div class="col-xs-4"><b>Name</b></div>
+                     <div class="col-xs-4"><b>Character</b></div>
+                  @endif
                </div>
                @include('movies.cast')
             </div>
