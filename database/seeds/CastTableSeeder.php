@@ -2678,6 +2678,123 @@ class CastTableSeeder extends Seeder {
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
+			296 => 
+			array (
+				'cast_id' => 303,
+				'movie_id' => 41,
+				'person_id' => 275,
+				'character' => 'Andrew Detmer',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			297 => 
+			array (
+				'cast_id' => 304,
+				'movie_id' => 41,
+				'person_id' => 276,
+				'character' => 'Matt',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			298 => 
+			array (
+				'cast_id' => 305,
+				'movie_id' => 41,
+				'person_id' => 277,
+				'character' => 'Steve',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			299 => 
+			array (
+				'cast_id' => 306,
+				'movie_id' => 41,
+				'person_id' => 278,
+				'character' => 'Richard Detmer',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			300 => 
+			array (
+				'cast_id' => 307,
+				'movie_id' => 41,
+				'person_id' => 279,
+				'character' => 'Casey Letter',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			301 => 
+			array (
+				'cast_id' => 308,
+				'movie_id' => 42,
+				'person_id' => 280,
+				'character' => 'Vincent',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			302 => 
+			array (
+				'cast_id' => 309,
+				'movie_id' => 42,
+				'person_id' => 281,
+				'character' => 'Max',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			303 => 
+			array (
+				'cast_id' => 310,
+				'movie_id' => 42,
+				'person_id' => 282,
+				'character' => 'Annie',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			304 => 
+			array (
+				'cast_id' => 311,
+				'movie_id' => 42,
+				'person_id' => 123,
+				'character' => 'Fanning',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			305 => 
+			array (
+				'cast_id' => 312,
+				'movie_id' => 42,
+				'person_id' => 283,
+				'character' => 'Richard Weidner',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			306 => 
+			array (
+				'cast_id' => 313,
+				'movie_id' => 42,
+				'person_id' => 284,
+				'character' => 'Pedrosa',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			307 => 
+			array (
+				'cast_id' => 314,
+				'movie_id' => 42,
+				'person_id' => 285,
+				'character' => 'Young Professional Woman',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			308 => 
+			array (
+				'cast_id' => 315,
+				'movie_id' => 42,
+				'person_id' => 286,
+				'character' => 'Felix',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
 		));
 	}
 
