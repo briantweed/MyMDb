@@ -105,8 +105,11 @@
 
             <div role="tabpanel" class="tab-pane fade" id="cast">
                <div class="row">
-                  <div class="col-xs-12">
+                  <div class="col-xs-4">
                      <a onclick="addCastMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-actor"></i> <span class="hidden-sm">new cast</span></a>
+                  </div>
+                  <div class="col-xs-8">
+                     {!! Form::select('copy_from', array('' => 'copy cast from ...') + $options->movies, '', ['class'=>'form-control','id'=>'copy_from', 'onchange'=>'duplicateCast(this.value)']) !!}
                   </div>
                </div>
                <div class="row">

@@ -30,10 +30,12 @@ class GenreController extends Controller {
 	}
 
 	/**
+	*
 	* Display a specific resource.
 	*
 	* @param  int  $id
 	* @return Response
+	*
 	*/
 	public function show($id)
 	{
