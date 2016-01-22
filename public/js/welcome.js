@@ -57,12 +57,11 @@ $(document).ready(function() {
    }).hide().removeClass('hide').fadeIn();
 
    $('#actor-slidee').sly({
-      speed : 50,
+      speed : 560,
       dragHandle : 1,
       horizontal : 1,
       releaseSwing : 1,
       itemNav : 'basic',
-      swingSpeed : 0.07,
       touchDragging : 1,
       mouseDragging : 1,
       activateOn : 'click',
@@ -75,13 +74,12 @@ $(document).ready(function() {
    });
 
    $('#director-slidee').sly({
-      speed : 50,
+      speed : 600,
       dragHandle : 1,
       horizontal : 1,
       releaseSwing : 1,
       mouseDragging : 1,
       touchDragging : 1,
-      swingSpeed : 0.07,
       itemNav : 'basic',
       activateOn : 'click',
       activatePageOn : 'click',

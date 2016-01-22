@@ -1,9 +1,0 @@
-diff a/app/Http/Controllers/MovieController.php b/app/Http/Controllers/MovieController.php	(rejected hunks)
-@@ -228,7 +228,6 @@
- 	         $person_id = $data['person'];
- 	         $cast_id = $data['row'];
- 	         $character_name = $data['character'];
--				$movie->cast()->updateExistingPivot($person_id, array('character' => $character_name));
- 				$cast_member = Cast::find($cast_id);
- 				$cast_member->person_id = $person_id;
- 				$cast_member->character = $character_name;
