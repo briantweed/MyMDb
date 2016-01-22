@@ -60,14 +60,18 @@ $(document).ready(function() {
       speed : 50,
       dragHandle : 1,
       horizontal : 1,
-      itemNav: 'basic',
       releaseSwing : 1,
+      itemNav : 'basic',
       swingSpeed : 0.07,
       touchDragging : 1,
       mouseDragging : 1,
       activateOn : 'click',
       activatePageOn : 'click',
+      pagesBar : '#actor-pages',
       dragSource : '#actor-slidee',
+      pageBuilder : function (index) {
+         return '<li>' + (index + 1) + '</li>';
+      }
    });
 
    $('#director-slidee').sly({
@@ -78,10 +82,14 @@ $(document).ready(function() {
       mouseDragging : 1,
       touchDragging : 1,
       swingSpeed : 0.07,
-      itemNav: 'basic',
+      itemNav : 'basic',
       activateOn : 'click',
       activatePageOn : 'click',
+      pagesBar : '#director-pages',
       dragSource : '#director-slidee',
+      pageBuilder : function (index) {
+         return '<li>' + (index + 1) + '</li>';
+      }
    });
 
    displayCharts();

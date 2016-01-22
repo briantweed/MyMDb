@@ -677,6 +677,30 @@ span {
 
 }
 
+.pages {
+    list-style: outside none none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+}
+.pages li {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset;
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    margin: 0 4px;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 14px;
+}
+.pages li:hover {
+    background: #aaa none repeat scroll 0 0;
+}
+.pages li.active {
+    background: #666 none repeat scroll 0 0;
+}
 
 /*
 |----------------------------------------------------------------------

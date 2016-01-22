@@ -153,10 +153,12 @@ class MoviesTableSeeder extends Seeder {
 				'format_id' => 1,
 				'studio_id' => 1,
 				'duplicate' => 0,
-				'bio' => 'Yippee Kayaye MaggotFarmer',
-				'purchased' => '2015-01-01 08:00:00',
+				'bio' => 'John McClane, officer of the NYPD, tries to save wife Holly Gennaro and several others, taken hostage by German terrorist Hans Gruber during a Christmas party at the Nakatomi Plaza in Los Angeles.
+
+Yippee Kayaye Maggot Farmer!',
+				'purchased' => '2015-01-01 00:00:00',
 				'created_at' => '2015-12-30 15:38:30',
-				'updated_at' => '2015-12-30 15:38:30',
+				'updated_at' => '2016-01-21 12:52:20',
 			),
 			8 => 
 			array (

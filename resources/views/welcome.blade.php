@@ -142,6 +142,7 @@
                         @endforeach
                      </ul>
                   </div>
+                  <ul id="actor-pages" class="pages"></ul>
                </div>
             </div>
 
@@ -176,6 +177,7 @@
                         @endforeach
                      </ul>
                   </div>
+                  <ul id="director-pages" class="pages"></ul>
                </div>
             </div>
 
@@ -199,7 +201,7 @@
             {{-- </div> --}}
 
             {{-- @include('segments.layout.padding') --}}
-            
+
          {{-- </div> --}}
       {{-- </div> --}}
 

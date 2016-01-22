@@ -2642,6 +2642,42 @@ class CastTableSeeder extends Seeder {
 				'created_at' => '0000-00-00 00:00:00',
 				'updated_at' => '0000-00-00 00:00:00',
 			),
+			292 => 
+			array (
+				'cast_id' => 299,
+				'movie_id' => 12,
+				'person_id' => 271,
+				'character' => 'Rajit Ratha',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			293 => 
+			array (
+				'cast_id' => 300,
+				'movie_id' => 8,
+				'person_id' => 272,
+				'character' => 'Holly Gennaro Mcclane',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			294 => 
+			array (
+				'cast_id' => 301,
+				'movie_id' => 8,
+				'person_id' => 273,
+				'character' => 'Joseph Yoshinobu Takagi',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
+			295 => 
+			array (
+				'cast_id' => 302,
+				'movie_id' => 8,
+				'person_id' => 274,
+				'character' => 'Sgt. Al Powell',
+				'created_at' => '0000-00-00 00:00:00',
+				'updated_at' => '0000-00-00 00:00:00',
+			),
 		));
 	}
 
