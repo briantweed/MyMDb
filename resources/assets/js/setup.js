@@ -67,6 +67,9 @@ $(document).ready(function() {
          }
       }, false);
    }
+   else {
+	 $('.parallax').simpleParallax();
+   }
 
    // $('#ajaxContent').load('http://www.example.com/paginated/data');
    //

@@ -22,9 +22,7 @@ $(document).scroll(function(){
 
 $(document).ready(function() {
 
-if(!('standalone' in window.navigator) || !window.navigator.standalone) {
-   $('.parallax').simpleParallax();
-}
+
    $('#decadeSelectFilter').change(function() {
       var selected = $(this).val();
       if(selected !== 'all')
@@ -46,7 +44,7 @@ if(!('standalone' in window.navigator) || !window.navigator.standalone) {
       arrows: false,
       autoplay: true,
       infinite: true,
-      slidesToShow: 6,
+      slidesToShow: 8,
       slidesToScroll: 1,
       swipeToSlide: true,
       pauseOnHover: true,
@@ -124,15 +122,16 @@ function displayMoviesByDecade() {
             animationEnabled: true,
             animationDuration: 1500,
             toolTip: {
-               contentFormatter: function(event) {
-                  var str = '';
-                  for (var i = 0; i < event.entries.length; i++)
-                  {
-                     str =  event.entries[i].dataPoint.label + ': ';
-                     str += event.entries[i].dataPoint.y == 1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-                     return (str);
-                  }
-               }
+               enabled: false
+                  // contentFormatter: function(event) {
+                  //    var str = '';
+                  //    for (var i = 0; i < event.entries.length; i++)
+                  //    {
+                  //       str =  event.entries[i].dataPoint.label + ': ';
+                  //       str += event.entries[i].dataPoint.y == 1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+                  //       return (str);
+                  //    }
+                  // }
             },
             data: [{
                type: 'column',
