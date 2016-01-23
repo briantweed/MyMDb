@@ -44,7 +44,7 @@ $(document).ready(function() {
       arrows: false,
       autoplay: true,
       infinite: true,
-      slidesToShow: 8,
+      slidesToShow: 7,
       slidesToScroll: 1,
       swipeToSlide: true,
       pauseOnHover: true,
@@ -209,14 +209,15 @@ function displayMoviesByFormat() {
       }).done(function(json) {
          var chart = new CanvasJS.Chart('formatChart', {
             toolTip: {
-               contentFormatter: function(event) {
-                  var str = '';
-                  for (var i = 0; i < event.entries.length; i++)
-                  {
-                     str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-                     return (str);
-                  }
-               }
+               enabled: false,
+               // contentFormatter: function(event) {
+               //    var str = '';
+               //    for (var i = 0; i < event.entries.length; i++)
+               //    {
+               //       str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+               //       return (str);
+               //    }
+               // }
             },
             animationEnabled: true,
             data: [{
@@ -292,18 +293,22 @@ function displayMoviesByRating() {
             animationEnabled: true,
             animationDuration: 1500,
             toolTip: {
-               contentFormatter: function(event) {
-                  var str = '';
-                  for (var i = 0; i < event.entries.length; i++){
-                     str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-                     return (str);
-                  }
-               }
+               enabled: false,
+               // contentFormatter: function(event) {
+               //    var str = '';
+               //    for (var i = 0; i < event.entries.length; i++){
+               //       str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+               //       return (str);
+               //    }
+               // }
             },
             data: [{
                type: 'column',
                startAngle:  270,
                dataPoints: json,
+               indexLabelPlacement: "outside",
+               indexLabelOrientation: "horizontal",
+               // indexLabel: "{y} movies",
                click: function(event){
                   // startFilter('rating', event.dataPoint.id);
                },
