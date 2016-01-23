@@ -328,6 +328,12 @@ class MovieController extends Controller {
 		return "error";
 	}
 
+	/**
+	*
+	* Return confirmation modal to copy cast from one movie to another
+	* @return Response
+	*
+	*/
 	public function confirmDuplicateCast()
 	{
 		if(Request::ajax())
@@ -338,6 +344,12 @@ class MovieController extends Controller {
 		return false;
 	}
 
+	/**
+	*
+	* Copy existing cast from one movie to another
+	* @return View
+	*
+	*/
 	public function duplicateCast()
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -359,9 +371,9 @@ class MovieController extends Controller {
 
 
 	/**
-	*
+	* ---------------------------------------------------------------
 	* Private Functions
-	*
+	* ---------------------------------------------------------------
 	*/
 
 

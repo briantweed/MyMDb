@@ -73,10 +73,15 @@ class Movies extends Model {
 
 	public static function selectRandomFilm()
 	{
-		$movie_ids = Movies::select('movie_id')->get()->toArray();
+		$movie_ids = Movies::select('movie_id')
+						->where('bio', '!=', '')
+						->has('cast')
+						->get()
+						->toArray();
+
+
 		$selected_movie = array_rand($movie_ids, 1);
-		$movie = Movies::find($selected_movie);
-		return $movie;
+		return $selected_movie;
 	}
 
 } // end of model

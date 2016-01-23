@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use DB;
+use App\Crew;
 use App\Movies;
 use App\Persons;
 use App\Http\Requests;
@@ -62,7 +63,14 @@ class WelcomeController extends Controller {
 		}
 
 		// highlight randomly selected movie
-		$details->highlight = Movies::selectRandomFilm();
+		$random_id = Movies::selectRandomFilm();
+		$details->highlight = Movies::findorfail($random_id);
+		$details->highlight->cast = $details->highlight->cast->take(3);
+		$details->highlight->crew = Crew::where('movie_id', $random_id)
+											->select(DB::raw('GROUP_CONCAT(CONCAT(persons.forename, " ", persons.surname) SEPARATOR ", ") as list'))
+											->join('persons', 'persons.person_id', '=', 'crew.person_id')
+											->groupBy('movie_id')
+											->where('position', 'Director')->take(1)->get();
 		$details->highlight->cover = $this->checkImageExists($details->highlight->image, $details->highlight->sort_name, 'covers');
 		$details->highlight->cover_count = strlen($details->highlight->cover);
 		$details->highlight->rating_display = $this->makeRatingStars($details->highlight->rating);
@@ -77,9 +85,9 @@ class WelcomeController extends Controller {
 
 
 	/*
-	| --------------------------------------------------
-	|		Private Functions
-	| --------------------------------------------------
+	* --------------------------------------------------
+	* Private Functions
+	* --------------------------------------------------
 	*/
 
 

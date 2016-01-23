@@ -32,15 +32,20 @@
 
       @include('segments.subnav_main')
 
-      <div class="container">
+      {{-- PURCHAED CONTENT --}}
+      <div class="purchased-content parallax">
 
-         <div class="main-content">
+         <div class="container">
 
             <div class="row">
                <div class="col-xs-12">
                   <h4>Recently Purchased</h4>
                </div>
             </div>
+
+         </div>
+
+         <div class="container-fluid">
 
             <div class="row">
                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -60,6 +65,15 @@
                </div>
             </div>
 
+         </div>
+
+      </div> {{-- END OF PURCHASED CONTENT --}}
+
+      {{-- RATING CONTENT --}}
+      <div class="ratings-content">
+
+         <div class="container">
+
             @include('segments.layout.padding')
 
             <div class="row">
@@ -67,24 +81,26 @@
                   @include('welcome.highest_rated')
                </div>
                <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-6 col-lr-6">
-                  @include('welcome.lowest_rated')
+                  <h4 id="movies-by-label">Movies By Rating</h4>
+                  <div id="ratingChart" style="height: 350px; width: 100%;"></div>
                </div>
             </div>
 
             @include('segments.layout.padding')
 
-         </div> {{-- end of container --}}
+         </div>
 
-      </div> {{-- end of main content --}}
+      </div> {{-- END OF RATING CONTENT --}}
 
-      <div class="feature-content">
+      {{-- FEATURED CONTENT --}}
+      <div class="feature-content parallax">
 
          <div class="container">
 
             @include('segments.layout.padding')
 
             <div class="row">
-               <div class="col-xs-12 col-sm-3 col-md-3 col-lg-offset-1 col-lg-2">
+               <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
                      @if($details->highlight->cover_count == 1)
                         <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$details->highlight->cover}}" alt="{{$details->highlight->cover}}" />
@@ -93,11 +109,51 @@
                      @endif
                   </a>
                </div>
-               <div class="col-xs-12 col-sm-9 col-md-9 col-lg-8">
+               <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                   <h4>{{$details->highlight->name}} ({{$details->highlight->released}}) </h4>
-                  <span class="rating-display @if($details->highlight->rating==10) top-rated @endif" data-toggle='tooltip' data-placement='top' title='{{$details->highlight->rating}} / @if($movie->movie_id==176) 11 @else 10 @endif'>{!!$details->highlight->rating_display!!}</span>
-                  <br><br>{{$details->highlight->bio}}<br><br>
-                  <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}" class="btn  btn-info-outline"> view </a>
+                  <span class="rating-display @if($details->highlight->rating==10) top-rated @endif"
+                     data-toggle='tooltip' data-placement='top' title='{{$details->highlight->rating}} / @if($movie->movie_id==176) 11 @else 10 @endif'>
+                        {!! $details->highlight->rating_display !!}
+                  </span>
+
+                  @include('segments.layout.padding')
+
+                  <div class="row">
+                     <div class="col-xs-12">
+                        {{$details->highlight->bio}}
+                     </div>
+                  </div>
+
+                  @include('segments.layout.padding')
+
+                  @foreach( $details->highlight->crew as $director )
+                     <div class="row">
+                        <div class="col-xs-5 col-lg-3">
+                           <b>Directed by:</b>
+                        </div>
+                        <div class="col-xs-7 col-lg-9">
+                           {{$director->list}}
+                        </div>
+                     </div>
+                     @include('segments.layout.padding')
+                  @endforeach
+
+                  @foreach( $details->highlight->cast as $actor )
+                     <div class="row">
+                        <div class="col-xs-5 col-lg-3">
+                           {{$actor->forename}} {{$actor->surname}}
+                        </div>
+                        <div class="col-xs-7 col-lg-9">
+                           <em>{{$actor->pivot->character}}</em>
+                        </div>
+                     </div>
+                  @endforeach
+                  @include('segments.layout.padding')
+                  <div class="row">
+                     <div class="col-xs-5 col-lg-3">
+                        <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}" class="btn btn-block btn-primary"> view </a>
+                     </div>
+                  </div>
                </div>
             </div>
 
@@ -105,8 +161,9 @@
 
          </div>
 
-      </div>
+      </div> {{-- END OF FEATURED CONTENT --}}
 
+      {{-- POPULAR PEOPLE CONTENT --}}
       <div class="secondary-content">
 
          <div class="container">
@@ -185,8 +242,9 @@
 
          </div>
 
-      </div>
+      </div> {{-- END OF POPULAR PEOPLE CONTENT --}}
 
+      {{-- CHART CONTENT --}}
       <div class="chart-content">
 
          <div class="container">
@@ -214,8 +272,8 @@
 
             <div class="row">
                <div class="col-xs-12 col-sm-6">
-                  <h4 id="movies-by-label">Movies By Rating</h4>
-                  <div id="ratingChart" style="height: 350px; width: 100%;"></div>
+                  <h4 id="movies-by-label">Movies By Format</h4>
+                  <div id="formatChart" style="height: 350px; width: 100%;"></div>
                </div>
                <div class="col-xs-12 col-sm-6">
                   <h4 id="movies-by-label">Movies By Certificate</h4>
@@ -227,11 +285,12 @@
 
          </div>
 
-      </div>
+      </div> {{-- CHART CONTENT --}}
 
       {!! Html::script(elixir('js/mymdb.js')) !!}
       {!! Html::script('js/slick.js') !!}
       {!! Html::script('js/canvas.js') !!}
+      {!! Html::script('js/parallax.js') !!}
       {!! Html::script('js/welcome.js') !!}
 
       <footer>

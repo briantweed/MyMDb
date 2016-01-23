@@ -55,7 +55,7 @@ Route::post('storeMovieViewing', 'ViewingController@storeMovieViewing');
 
 
 // ADMIN
-Route::get('/admin', 'StudioController@index');
+Route::get('/admin', 'AdminController@index');
 Route::group(['prefix'=>'admin'], function() {
 	Route::resource('keywords', 'KeywordController', ['only'=>['index','show']]);
 	Route::resource('genres', 'GenreController', ['only'=>['index','show']]);

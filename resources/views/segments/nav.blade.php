@@ -32,7 +32,7 @@
          </li>
          @if(isset($user) && $user!=false && $user->level==1)
             <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
-               <a href="{{ action('StudioController@index') }}">
+               <a href="{{ action('AdminController@index') }}">
                   <i style="font-size:1.5em" class="ft icon-admin"></i>
                   <span> Admin</span>
                </a>

@@ -445,7 +445,8 @@ div.main-content {
 
 div.feature-content {
    color: #f0f0f0;
-   background: #40515d;
+   background: url(../../images/feature-bg2.jpg);
+   background-size: cover;
 
    a i {
       box-shadow: 1px 1px 4px #888;
@@ -529,19 +530,38 @@ div.top-rated, div.lowest-rated {
 
 }
 
-.image-thumbnail {
+div.purchased-content {
+   background: url(../../images/237.png) top left no-repeat;
+   background-size: cover;
+   margin-top: 108px;
+   padding: 20px 0 40px;
+   color: #f0f0f0;
 
-   .slick-slide{
+   .slick-slider {
+      margin: 0;
 
-      a {
-         padding: 3px 7.5px;
-      }
+      .slick-slide {
 
-      img {
-         padding: 0
+         img {
+            padding: 0;
+            width: 96%;
+         }
+
       }
 
    }
+
+}
+
+div.ratings-content {
+
+   #ratingChart {
+      padding-top: 25px;
+   }
+
+}
+
+.image-thumbnail {
 
    a {
       display: block;
