@@ -136,6 +136,9 @@ function displayMoviesByDecade() {
             data: [{
                type: 'column',
                dataPoints: json,
+               indexLabelPlacement: "outside",
+               indexLabelOrientation: "horizontal",
+               indexLabel: "{y}",
                click: function(event) {
                   // displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
                }
@@ -166,19 +169,23 @@ function displayMoviesByYear(start, end) {
          animationEnabled: true,
          animationDuration: 1500,
          toolTip: {
-            contentFormatter: function(event) {
-               var str = '';
-               for (var i = 0; i < event.entries.length; i++)
-               {
-                  str = event.entries[i].dataPoint.label + ': ';
-                  str += event.entries[i].dataPoint.y == 1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-                  return (str);
-               }
-            }
+            enabled: false
+            // contentFormatter: function(event) {
+            //    var str = '';
+            //    for (var i = 0; i < event.entries.length; i++)
+            //    {
+            //       str = event.entries[i].dataPoint.label + ': ';
+            //       str += event.entries[i].dataPoint.y == 1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+            //       return (str);
+            //    }
+            // }
          },
          data: [{
             type: 'column',
             dataPoints: json.years,
+            indexLabelPlacement: "outside",
+            indexLabelOrientation: "horizontal",
+            indexLabel: "{y}",
             click: function(event) {
                // startFilter('year', event.dataPoint.label);
             },
