@@ -6545,7 +6545,8 @@ div.feature-content {
   background: url(../../images/feature-bg2.jpg);
   background-size: cover; }
   div.feature-content a i {
-    box-shadow: 1px 1px 4px #888; }
+    box-shadow: 1px 1px 4px #888;
+    border-radius: 10px; }
 
 .pagination {
   margin: 0; }

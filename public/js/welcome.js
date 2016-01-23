@@ -22,8 +22,9 @@ $(document).scroll(function(){
 
 $(document).ready(function() {
 
+if(!('standalone' in window.navigator) || !window.navigator.standalone) {
    $('.parallax').simpleParallax();
-
+}
    $('#decadeSelectFilter').change(function() {
       var selected = $(this).val();
       if(selected !== 'all')
