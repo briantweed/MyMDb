@@ -45,14 +45,14 @@ $(document).ready(function() {
       arrows: false,
       autoplay: true,
       infinite: true,
-      slidesToShow: 7,
+      slidesToShow: 6,
       slidesToScroll: 1,
       swipeToSlide: true,
       pauseOnHover: true,
       autoplaySpeed: 3000,
       responsive: [
-         {breakpoint: 1200, settings: {slidesToShow: 7}},
-         {breakpoint: 992, settings: {slidesToShow: 6}},
+         {breakpoint: 1200, settings: {slidesToShow: 6}},
+         {breakpoint: 992, settings: {slidesToShow: 5}},
          {breakpoint: 768, settings: {slidesToShow: 4}},
          {breakpoint: 400, settings: {slidesToShow: 2}},
       ]
