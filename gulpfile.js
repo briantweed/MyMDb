@@ -26,6 +26,7 @@ elixir(function(mix) {
       "waves.js",
       "selectize.js",
       "autosize.js",
+      "parallax.js",
       "datepicker.js",
       paths.lazyload + "jquery.lazyload.js",
       "sly.js",

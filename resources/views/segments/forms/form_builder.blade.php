@@ -5,6 +5,7 @@
       $errorClass = $errors->has($field->field) ? "has-error" : "";
       $errorMgs = $errors->has($field->field) ? $errors->first($field->field) : "";
       $value = isset($values) ? ( isset($values->{$field->field}) ? $values->{$field->field} : "" ) : "";
+      $info = isset($infos) ? ( isset($infos->{$field->field}) ? $infos->{$field->field} : "" ) : "";
       switch($field->type)
       {
          case "text": ?>
@@ -25,7 +26,7 @@
 
          case "select":
             $list = $field->options != "" ? $options->{$field->options} : [] ?>
-            @include('segments.forms.select', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->label, 'required' => $field->required, 'field' => $field->field, 'list'=> $list, 'value' => $value])
+            @include('segments.forms.select', ['errorClass'=> $errorClass, 'errorMgs'=> $errorMgs, 'label' => $field->label, 'required' => $field->required, 'field' => $field->field, 'list'=> $list, 'value' => $value, 'info' => $info])
          <?php break;
 
          case "checkbox": ?>

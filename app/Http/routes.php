@@ -12,6 +12,8 @@ Route::get('/', 'WelcomeController@index');
 // CHARTS PAGE
 Route::get('charts', 'ChartController@index');
 
+Route::get('api/{title}/{year?}', 'ApiController@index');
+
 // AJAX QUERIES
 Route::post('aviary', 'AviaryController@replaceImage');
 Route::post('filter', 'AjaxController@filterMovies');

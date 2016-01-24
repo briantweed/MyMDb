@@ -13,7 +13,14 @@
 
 {{-- label --}}
 @section('label')
-   {!! Form::label($field, $label) !!} @if($required) <span class="required">*</span> @endif
+   {!! Form::label($field, $label) !!}
+   @if($required) <span class="required">*</span> @endif
+   @if($info)
+      <span data-toggle='tooltip' data-placement='top' title='{{$info}}'>
+         <i class="ft icon-info"></i>
+      </span>
+   @endif
+
 @overwrite
 
 {{-- input --}}

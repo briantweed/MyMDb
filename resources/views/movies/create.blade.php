@@ -27,7 +27,11 @@
          {{-- cover image --}}
          <div class="row">
             <div class="col-xs-12">
-               <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
+               @if($values->image)
+                  <img id="movie-poster" class="img-responsive img-rounded" src="{{$values->image}}">
+               @else
+                  <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
+               @endif
             </div>
 
          </div>
@@ -66,10 +70,8 @@
          </div>
 
          {!! Form::open(['url'=>'movies','files' => true]) !!}
-            <input type="hidden" value="{{env('ROTTEN_KEY')}}" name="_tomatoes" />
             @include('segments.forms.form_builder')
             @include('segments.forms.submit')
-
          {!! Form::close() !!}
 
          {{-- padding --}}

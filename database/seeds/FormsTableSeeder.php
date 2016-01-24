@@ -12,9 +12,9 @@ class FormsTableSeeder extends Seeder {
 	public function run()
 	{
 		\DB::table('forms')->delete();
-        
+
 		\DB::table('forms')->insert(array (
-			0 => 
+			0 =>
 			array (
 				'id' => 1,
 				'name' => 'create_movie',
@@ -29,7 +29,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			1 => 
+			1 =>
 			array (
 				'id' => 2,
 				'name' => 'create_movie',
@@ -44,7 +44,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			2 => 
+			2 =>
 			array (
 				'id' => 3,
 				'name' => 'create_movie',
@@ -59,7 +59,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			3 => 
+			3 =>
 			array (
 				'id' => 4,
 				'name' => 'create_movie',
@@ -74,7 +74,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			4 => 
+			4 =>
 			array (
 				'id' => 5,
 				'name' => 'create_movie',
@@ -89,7 +89,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			5 => 
+			5 =>
 			array (
 				'id' => 6,
 				'name' => 'create_movie',
@@ -104,7 +104,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			6 => 
+			6 =>
 			array (
 				'id' => 7,
 				'name' => 'create_movie',
@@ -119,7 +119,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			7 => 
+			7 =>
 			array (
 				'id' => 8,
 				'name' => 'create_movie',
@@ -134,7 +134,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			8 => 
+			8 =>
 			array (
 				'id' => 9,
 				'name' => 'create_movie',
@@ -149,7 +149,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			9 => 
+			9 =>
 			array (
 				'id' => 10,
 				'name' => 'create_movie',
@@ -164,7 +164,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			10 => 
+			10 =>
 			array (
 				'id' => 11,
 				'name' => 'create_movie',
@@ -179,7 +179,22 @@ class FormsTableSeeder extends Seeder {
 				'default' => 'movie-poster',
 				'class' => '',
 			),
-			11 => 
+			11 =>
+			array (
+				'id' => 12,
+				'name' => 'create_movie',
+				'field' => 'imdb_id',
+				'label' => '',
+				'required' => 0,
+				'type' => 'hidden',
+				'order' => 120,
+				'range_from' => 0,
+				'range_to' => 0,
+				'options' => '',
+				'default' => '',
+				'class' => '',
+			),
+			12 =>
 			array (
 				'id' => 13,
 				'name' => 'create_person',
@@ -194,7 +209,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			12 => 
+			13 =>
 			array (
 				'id' => 14,
 				'name' => 'create_person',
@@ -209,7 +224,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			13 => 
+			14 =>
 			array (
 				'id' => 15,
 				'name' => 'create_person',
@@ -224,7 +239,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			14 => 
+			15 =>
 			array (
 				'id' => 16,
 				'name' => 'create_person',
@@ -239,7 +254,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => '',
 				'class' => '',
 			),
-			15 => 
+			16 =>
 			array (
 				'id' => 17,
 				'name' => 'create_person',
@@ -254,7 +269,7 @@ class FormsTableSeeder extends Seeder {
 				'default' => 'person-poster',
 				'class' => '',
 			),
-			16 => 
+			17 =>
 			array (
 				'id' => 18,
 				'name' => 'create_person',

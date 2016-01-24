@@ -290,7 +290,6 @@
       {!! Html::script(elixir('js/mymdb.js')) !!}
       {!! Html::script('js/slick.js') !!}
       {!! Html::script('js/canvas.js') !!}
-      {!! Html::script('js/parallax.js') !!}
       {!! Html::script('js/welcome.js') !!}
 
       <footer>
