@@ -25,13 +25,13 @@ class ApiController extends Controller {
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
-	public function index($title, $year=NULL)
+	public function index($title, $year=null, $rating=null)
 	{
 		$client = new \GuzzleHttp\Client();
 		$my_token = env('IMDB_KEY');
 
 		$url = 'http://api.myapifilms.com/imdb/idIMDB?title='.$title.'&token='.$my_token;
-		if($year) $url .= '&year='.$year.'&limit=2';
+		if($year!=null && $year!="null") $url .= '&year='.$year.'&limit=2';
 		$imdb_response = $client->get($url);
 		$imdb_body = $imdb_response->getBody();
 		$imdb_api =  json_decode($imdb_body);
@@ -48,6 +48,7 @@ class ApiController extends Controller {
 		$values->imdb_id = $imdb->idIMDB;
 		$values->bio = $imdb->plot;
 		$values->purchased = "01-01-2015";
+		$values->rating = $rating;
 		$values->format_id = 1;
 		$values->released = $imdb->year;
 		$values->running_time = $tmdb->runtime;

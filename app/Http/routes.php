@@ -12,7 +12,7 @@ Route::get('/', 'WelcomeController@index');
 // CHARTS PAGE
 Route::get('charts', 'ChartController@index');
 
-Route::get('api/{title}/{year?}', 'ApiController@index');
+Route::get('api/{title}/{year?}/{rating?}', 'ApiController@index');
 
 // AJAX QUERIES
 Route::post('aviary', 'AviaryController@replaceImage');
