@@ -1,5 +1,7 @@
 <meta name="_token" content="{!! csrf_token() !!}" />
 
+@include('segments.layout.padding')
+
 <div class="row">
    @if(count($movies) || count($people))
       <div class="col-xs-12 alert alert-dismissible alert-success">

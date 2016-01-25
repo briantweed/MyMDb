@@ -60,13 +60,11 @@
 
          <div class="side-buttons">
 
-            {{-- delete button --}}
             @if( Request::is('movies/*/edit'))
                <hr/>
                @include('segments.buttons.delete_movie')
             @endif
 
-            {{-- padding --}}
             @include('segments.layout.padding')
 
          </div>

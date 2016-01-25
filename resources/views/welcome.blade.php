@@ -32,6 +32,10 @@
 
       @include('segments.subnav_main')
 
+      <div class="container">
+         <div class="filtered-content"></div>
+      </div>
+
       {{-- PURCHAED CONTENT --}}
       <div class="purchased-content parallax">
 

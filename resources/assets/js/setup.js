@@ -103,8 +103,8 @@ function startFilter(type, val) {
             // location.reload();
          break;
          default:
-            $('.purchased-content, .ratings-content, .feature-content, .secondary-content, .chart-content, footer').hide();
-            $('.main-content').html(html);
+            $('.main-content, .purchased-content, .ratings-content, .feature-content, .secondary-content, .chart-content, footer').hide();
+            $('.filtered-content').html(html);
             $('html, body').animate({ scrollTop: 0 }, 0);
             Waves.attach('li.image-thumbnail', ['waves-light']);
             $('img.lazy').lazyload({

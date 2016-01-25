@@ -245,6 +245,7 @@ $required: #c81d1d;
 body {
    font-size: 15px;
    font-family: $main-font;
+   margin-top: 108px;
 }
 
 h1 {
@@ -440,7 +441,7 @@ div.search-bar-container {
 }
 
 div.main-content {
-   margin-top: 130px;
+   margin-top: 12px;
 }
 
 div.feature-content {
@@ -534,7 +535,6 @@ div.top-rated, div.lowest-rated {
 div.purchased-content {
    background: url(../../images/237.png) top left no-repeat;
    background-size: cover;
-   margin-top: 108px;
    padding: 20px 0 40px;
    color: #f0f0f1;
 

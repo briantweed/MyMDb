@@ -15,7 +15,7 @@
       <meta name="apple-mobile-web-app-title" content="MyMDb">
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="_token" content="{!! csrf_token() !!}" />
-      
+
       @yield('meta_tags')
 
       <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ URL::asset('images/app-icon.png') }}">
@@ -37,6 +37,10 @@
           @include('segments.subnav_main')
       @endif
 
+      <div class="container">
+         <div class="filtered-content"></div>
+      </div>
+      
       <div class="container">
 
          <div class="main-content">

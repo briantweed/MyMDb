@@ -6394,7 +6394,8 @@ button.close {
 */
 body {
   font-size: 15px;
-  font-family: "Raleway", Arial, sans-serif; }
+  font-family: "Raleway", Arial, sans-serif;
+  margin-top: 108px; }
 
 h1 {
   margin: 10px 0 15px 0;
@@ -6538,7 +6539,7 @@ div.search-bar-container {
       padding: 0.5em 6px; }
 
 div.main-content {
-  margin-top: 130px; }
+  margin-top: 12px; }
 
 div.feature-content {
   color: #f0f0f0;
@@ -6598,7 +6599,6 @@ div.top-rated span.rating-display, div.lowest-rated span.rating-display {
 div.purchased-content {
   background: url(../../images/237.png) top left no-repeat;
   background-size: cover;
-  margin-top: 108px;
   padding: 20px 0 40px;
   color: #f0f0f1; }
   div.purchased-content .slick-slider {
