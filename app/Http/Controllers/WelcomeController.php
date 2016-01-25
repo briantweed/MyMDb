@@ -26,11 +26,6 @@ class WelcomeController extends Controller {
 
 		// most recent purchases
 		$details->most_recent = Movies::getMovieRecords('purchased', 'DESC', 10);
-		foreach($details->most_recent as $movie)
-		{
-			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
-			$movie->cover_count = strlen($movie->cover);
-		}
 
 		// top rated movies
 		$details->top_rated = Movies::getMovieRecords('rating', 'DESC', 10);
@@ -48,19 +43,9 @@ class WelcomeController extends Controller {
 
 		// get most popular actors
 		$details->actors = Persons::getActorCount(24);
-		foreach($details->actors as $actor)
-		{
-			$actor->cover = $this->checkImageExists($actor->image, $actor->name, 'people', false);
-			$actor->cover_count = strlen($actor->cover);
-		}
 
 		// get most popular directors
 		$details->directors = Persons::getDirectorCount(24);
-		foreach($details->directors as $director)
-		{
-			$director->cover = $this->checkImageExists($director->image, $director->name, 'people', false);
-			$director->cover_count = strlen($director->cover);
-		}
 
 		// highlight randomly selected movie
 		$random_id = Movies::selectRandomFilm();
@@ -71,7 +56,6 @@ class WelcomeController extends Controller {
 											->join('persons', 'persons.person_id', '=', 'crew.person_id')
 											->groupBy('movie_id')
 											->where('position', 'Director')->take(1)->get();
-		$details->highlight->cover = $this->checkImageExists($details->highlight->image, $details->highlight->sort_name, 'covers');
 		$details->highlight->cover_count = strlen($details->highlight->cover);
 		$details->highlight->rating_display = $this->makeRatingStars($details->highlight->rating);
 

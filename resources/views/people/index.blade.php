@@ -21,11 +21,7 @@
             @foreach($people as $person)
                <li class="image-thumbnail text-center">
                   <a href="{{ action('PersonController@show', $person->person_id) }}">
-                     @if($person->cover_count == 1)
-                        <img class="img-responsive img-rounded lazy" src="http://placehold.it/300x450/cccccc/ffffff?text={{$person->cover}}"  />
-                     @else
-                        <img class="img-responsive img-rounded lazy" src="{{asset('images/mymdb.jpg')}}" data-original="{{asset($person->cover)}}"  />
-                     @endif
+                     <img class="img-responsive img-rounded lazy" src="{{asset('images/mymdb.jpg')}}" data-original="{{asset('images/people/'.$person->image)}}"  />
                      <span class="title-wrapper hidden-xs">{{$person->forename}} {{$person->surname}}</span>
                   </a>
                </li>

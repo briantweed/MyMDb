@@ -32,11 +32,6 @@ class MovieController extends Controller {
 	public function index()
 	{
 		$movies = Movies::orderBy('sort_name')->paginate(48);
-		foreach($movies as $movie)
-		{
-			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
-			$movie->cover_count = strlen($movie->image);
-		}
 		$user = $this->isAdmin;
 		return view('movies.index', compact('movies', 'user'));
 	}
@@ -47,7 +42,7 @@ class MovieController extends Controller {
 		Session::put('movie_id', $movie_id);
 		$viewings = $movie->viewings()->select('created_at')->orderBy('created_at', 'desc')->first();
 		$movie->last_viewed = $viewings ? date("jS F Y @ g:ia", strtotime($viewings->created_at)) : null;
-		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
+		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
 		$movie->cover_count = strlen($movie->cover);
 		$movie->rating_display = $this->makeRatingStars($movie->rating);
 
@@ -104,7 +99,7 @@ class MovieController extends Controller {
 		$movie = Movies::findorfail($movie_id);
 		$movie->genres;
 		$movie->purchased = date("d-m-Y", strtotime($movie->purchased));
-		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers', false);
+		$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
 		$movie->cover_count = strlen($movie->cover);
 		$values = json_decode($movie);
 

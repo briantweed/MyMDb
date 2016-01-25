@@ -10,18 +10,14 @@ trait ImageFunctions
 		return str_replace(' ', '_', $name).'_'.date('U').'.jpg';
 	}
 
-   private function checkImageExists($src, $name, $dest, $compressed = true)
+   private function checkImageExists($src, $name, $dest)
 	{
       if($src != null)
       {
    		list($image, $ext) = explode('.', $src);
    		$protocol = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
    		$basePath = $protocol.$_SERVER['HTTP_HOST'].'/MyMDb/public';
-         if($compressed==true && @getimagesize($basePath.'/images/compressed/'.$image.'-compressor.'.$ext))
-   		{
-   			return 'images/compressed/'.$image.'-compressor.'.$ext;
-   		}
-   		else if(@getimagesize($basePath.'/images/'.$dest.'/'.$src))
+         if(@getimagesize($basePath.'/images/'.$dest.'/'.$src))
    		{
    			return 'images/'.$dest.'/'.$src;
    		}

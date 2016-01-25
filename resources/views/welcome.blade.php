@@ -53,11 +53,7 @@
                      @foreach($details->most_recent as $movie)
                         <div>
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">
-                              @if($movie->cover_count == 1)
-                                 <img class="img-rounded"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}" alt="{{$movie->cover}}" />
-                              @else
-                                 <img class="img-rounded" src="{{asset($movie->cover)}}" alt="{{$movie->cover}}" />
-                              @endif
+                              <img class="img-rounded" src="{{asset('images/covers/'.$movie->image)}}" alt="" />
                            </a>
                         </div>
                      @endforeach
@@ -102,11 +98,7 @@
             <div class="row">
                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
-                     @if($details->highlight->cover_count == 1)
-                        <img class="img-rounded img-responsive" src="http://placehold.it/300x450/cccccc/ffffff?text={{$details->highlight->cover}}" alt="{{$details->highlight->cover}}" />
-                     @else
-                        <img class="img-rounded img-responsive" src="{{asset($details->highlight->cover)}}"  alt="{{$details->highlight->cover}}" />
-                     @endif
+                     <img class="img-rounded img-responsive" src="{{asset('images/covers/'.$details->highlight->image)}}"  alt="" />
                   </a>
                </div>
                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
@@ -183,11 +175,7 @@
                         @foreach($details->actors as $actor)
                            <li>
                               <a href="{{ action('PersonController@show', $actor->person_id) }}">
-                                 @if($actor->cover_count == 1)
-                                    <img class="img-rounded img-responsive"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$actor->cover}}" alt="{{$actor->cover}}" />
-                                 @else
-                                    <img class="img-rounded img-responsive" src="{{asset($actor->cover)}}" alt="{{$actor->cover}}" />
-                                 @endif
+                                 <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" alt="" />
                                  <span class="title-wrapper hidden-xs text-center">
                                     {{$actor->name}}<br/>
                                     @if($actor->count == 1) 1 movie
@@ -218,11 +206,7 @@
                         @foreach($details->directors as $director)
                            <li>
                               <a href="{{action('PersonController@show', $director->person_id) }}">
-                                 @if($director->cover_count == 1)
-                                    <img class="img-rounded img-responsive"  src="http://placehold.it/300x450/cccccc/ffffff?text={{$director->cover}}" alt="{{$director->cover}}" />
-                                 @else
-                                    <img class="img-rounded img-responsive" src="{{asset($director->cover)}}" alt="{{$director->cover}}" />
-                                 @endif
+                                    <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" alt="" />
                                  <span class="title-wrapper hidden-xs text-center">
                                     {{$director->name}}<br/>
                                     @if($director->count == 1) 1 movie

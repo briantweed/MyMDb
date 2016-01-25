@@ -25,11 +25,6 @@ class PersonController extends Controller {
 	public function index()
 	{
 		$people = Persons::orderBy('forename')->paginate(48);
-		foreach($people as $person)
-		{
-			$person->cover = $this->checkImageExists($person->image, $person->forename, 'people', false);
-			$person->cover_count = strlen($person->cover);
-		}
 		$user = $this->isAdmin;
 		return view('people.index', compact('people','user'));
 	}
@@ -37,7 +32,7 @@ class PersonController extends Controller {
 	public function show($id)
 	{
 		$person = Persons::findorfail($id);
-		$person->image = $this->checkImageExists($person->image, $person->forename, 'people', false);
+		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
 		$person->cover_count = strlen($person->image);
 		if($person->birthday !== NULL)
 		{
