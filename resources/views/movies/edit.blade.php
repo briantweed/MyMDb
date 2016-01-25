@@ -33,6 +33,7 @@
          {{ session('status') }}
       </div>
    @endif
+
       <div class="row movie">
 
       {{-- left column --}}
