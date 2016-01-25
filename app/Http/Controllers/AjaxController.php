@@ -87,27 +87,14 @@ class AjaxController extends Controller
 
             $query->orderBy('sort_name');
             $movies = $query->get();
-            foreach($movies as $movie)
-      		{
-      			$movie->cover = $this->checkImageExists($movie->image, $movie->sort_name, 'covers');
-      			$movie->cover_count = strlen($movie->cover);
-      		}
 
-            // if($type=="all")
-            // {
-            //    $people = Persons::where('forename', 'LIKE', '%'.$search_string.'%')
-            //             ->orWhere('surname', 'LIKE', '%'.$search_string.'%')
-            //             ->orWhere(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
-            //             ->orderBy('forename')
-            //             ->get();
-            //    foreach($people as $person)
-         	// 	{
-         	// 		$person->cover = $this->checkImageExists($person->image, $person->forename, 'people');
-         	// 		$person->cover_count = strlen($person->cover);
-         	// 	}
-      		// }
-            // else
-            $people = [];
+            if($type=="all")
+            {
+               $people = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
+                        ->orderBy('forename')
+                        ->get();
+      		}
+            else $people = [];
             $user = $this->isAdmin;
             $quote = count($movies) ? "" : $this->getRandomQuote();
 
