@@ -27,7 +27,7 @@
          {{-- cover image --}}
          <div class="row">
             <div class="col-xs-12">
-               @if($values->image)
+               @if(isset($values->image))
                   <img id="movie-poster" class="img-responsive img-rounded" src="{{$values->image}}">
                @else
                   <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
@@ -64,24 +64,47 @@
          @endif
 
          <div class="row">
+
             <div class="col-xs-12">
                <h1>@yield('heading')</h1>
             </div>
          </div>
+
+         <div class="panel panel-primary" style="margin-bottom: 27px">
+            <div class="panel-heading">
+               {!! Form::open(['url'=>'api']) !!}
+               <div class="col-xs-3" style="padding-top: 7px">
+                  {!! Form::label('title', 'Search IMDb: ') !!}
+               </div>
+               <div class="col-xs-4" style="padding: 0px 8px 0 0">
+                  {!! Form::text('title', '', ['class'=>'form-control', 'placeholder'=>'title ...']) !!}
+               </div>
+               <div class="col-xs-2" style="padding: 0px 8px 0 0">
+                  {!! Form::text('year', '', ['class'=>'form-control', 'placeholder'=>'year ...']) !!}
+               </div>
+               <div class="col-xs-1" style="padding: 0px">
+                  {!! Form::text('rating', '', ['class'=>'form-control', 'placeholder'=>'#']) !!}
+               </div>
+               <div class="col-xs-2">
+                  {!! Form::submit('search', ['class' => 'btn btn-block btn-warning']) !!}
+               </div>
+               {!! Form::close() !!}
+               <div style="clear:both"></div>
+            </div>
+         </div>
+
+         <hr/><br/>
 
          {!! Form::open(['url'=>'movies','files' => true]) !!}
             @include('segments.forms.form_builder')
             @include('segments.forms.submit')
          {!! Form::close() !!}
 
-         {{-- padding --}}
          @include('segments.layout.padding')
 
       </div>
-      {{-- end of right column --}}
 
    </div>
-   {{-- end of movie row --}}
 
 @stop
 

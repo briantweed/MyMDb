@@ -1,14 +1,12 @@
 <?php namespace App\Http\Controllers;
 
 use DB;
+use Request;
 use App\Forms;
 use App\Movies;
 use App\Genres;
 use App\Studios;
 use App\Formats;
-use App\Persons;
-use App\Viewings;
-use App\Keywords;
 use App\Certificates;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -25,8 +23,12 @@ class ApiController extends Controller {
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
-	public function index($title, $year=null, $rating=null)
+	public function index()
 	{
+		$data = Request::all();
+		$title = $data['title'];
+		$rating = isset($data['rating']) ? $data['rating'] : null;
+		$year = isset($data['year']) ? $data['year'] : null;
 		$client = new \GuzzleHttp\Client();
 		$my_token = env('IMDB_KEY');
 
