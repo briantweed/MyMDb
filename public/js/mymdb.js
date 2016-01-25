@@ -484,7 +484,7 @@ function startFilter(type, val) {
             // location.reload();
          break;
          default:
-            $('.feature-content, .secondary-content, .chart-content, footer').hide();
+            $('.purchased-content, .ratings-content, .feature-content, .secondary-content, .chart-content, footer').hide();
             $('.main-content').html(html);
             $('html, body').animate({ scrollTop: 0 }, 0);
             Waves.attach('li.image-thumbnail', ['waves-light']);

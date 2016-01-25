@@ -93,20 +93,21 @@ class AjaxController extends Controller
       			$movie->cover_count = strlen($movie->cover);
       		}
 
-            if($type=="all")
-            {
-               $people = Persons::where('forename', 'LIKE', '%'.$search_string.'%')
-                        ->orWhere('surname', 'LIKE', '%'.$search_string.'%')
-                        ->orWhere(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
-                        ->orderBy('forename')
-                        ->get();
-               foreach($people as $person)
-         		{
-         			$person->cover = $this->checkImageExists($person->image, $person->forename, 'people');
-         			$person->cover_count = strlen($person->cover);
-         		}
-      		}
-            else $people = [];
+            // if($type=="all")
+            // {
+            //    $people = Persons::where('forename', 'LIKE', '%'.$search_string.'%')
+            //             ->orWhere('surname', 'LIKE', '%'.$search_string.'%')
+            //             ->orWhere(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
+            //             ->orderBy('forename')
+            //             ->get();
+            //    foreach($people as $person)
+         	// 	{
+         	// 		$person->cover = $this->checkImageExists($person->image, $person->forename, 'people');
+         	// 		$person->cover_count = strlen($person->cover);
+         	// 	}
+      		// }
+            // else
+            $people = [];
             $user = $this->isAdmin;
             $quote = count($movies) ? "" : $this->getRandomQuote();
 
