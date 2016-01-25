@@ -2,9 +2,11 @@
 
 use DB;
 use Request;
+use Session;
 use App\Forms;
 use App\Movies;
 use App\Genres;
+use App\Persons;
 use App\Studios;
 use App\Formats;
 use App\Certificates;
@@ -115,26 +117,43 @@ class ApiController extends Controller {
 		return view('movies.create', compact('fields', 'options', 'values', 'infos', 'user', 'message'));
 	}
 
-
-	/*
-	| --------------------------------------------------
-	|		Private Functions
-	| --------------------------------------------------
-	*/
-
-
-	private function makeDecades()
+	public function getCastFromIMDb()
 	{
-		$decades = [];
-		$start = 1930;
-		$end = floor(date("Y")/10)*10;
-		for($decade=$start; $decade<=$end; $decade+=10)
-		{
-			$decades[$decade] = $decade;
+		if(Request::ajax())
+      {
+	      $data = Request::all();
+			$my_token = env('IMDB_KEY');
+
+			$movie_id = Session::get('movie_id');
+			$movie = Movies::findorfail($movie_id);
+			$new_cast = [];
+			foreach($movie->cast as $cast)
+			{
+				$new_cast[] = ['movie_id'=>$movie_id, 'person_id'=>$cast->person_id, 'character'=>$cast->pivot->character];
+			}
+
+			$client = new \GuzzleHttp\Client();
+			$url = 'http://api.myapifilms.com/imdb/idIMDB?idIMDB='.$movie->imdb_id.'&token='.$my_token.'&format=json&language=en-us&actors=1';
+			$imdb_response = $client->get($url);
+			$imdb_body = $imdb_response->getBody();
+			$imdb_api = json_decode($imdb_body);
+			if(count($imdb_api->data->movies))
+			{
+				$imdb = $imdb_api->data->movies[0];
+				foreach($imdb->actors as $actor)
+				{
+					$person = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), $actor->actorName)->first();
+					if($person)
+					{
+						$new_cast[] = ['movie_id'=>$movie_id, 'person_id'=>$person->person_id, 'character'=>$actor->character];
+					}
+					else echo $actor->actorName." : ".$actor->character." (".$actor->actorId.")<br/>";
+					// ABILITY TO ADD OR REMOVE ACTOR AND CHARACTER
+				}
+			}
+			$new_cast = array_map('unserialize', array_unique(array_map('serialize', $new_cast)));
+			$movie->cast()->sync($new_cast);
 		}
-		return $decades;
 	}
-
-
 
 } // end of class

@@ -331,6 +331,7 @@ function createNewPerson() {
    });
 }
 
+
 function initializeDatePicker() {
    $('.input-group.date').datepicker({
       format: "dd-mm-yyyy",
@@ -339,6 +340,18 @@ function initializeDatePicker() {
       todayHighlight: true,
       defaultViewDate: { year: 2000, month: 01, day: 01 }
    }).on('hide', function(e){ e.stopPropagation() })
+}
+
+function getCastFromIMDb() {
+   $.ajax({
+      type: 'POST',
+      url: '/MyMDb/public/getCastFromIMDb',
+      data: {
+         _token: $('meta[name="_token"]').attr('content')
+      }
+   }).done(function(html){
+      $('#cast-list').html(html);
+   });
 }
 
 function duplicateCast(val) {
