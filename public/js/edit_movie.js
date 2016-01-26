@@ -353,6 +353,7 @@ function getCastFromIMDb(el) {
    }).done(function(html){
       $(el).html('check IMDb');
       $('#cast-list').html(html);
+      $('#copy-cast-div').hide();
    });
 }
 

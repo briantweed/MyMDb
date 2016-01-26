@@ -24,16 +24,6 @@
 {{-- Main Body --}}
 @section('content')
 
-
-   @if (session('status'))
-      <div class="col-xs-12 alert alert-dismissible alert-success">
-         <button type="button" class="close" >
-            <span aria-hidden="true">&times;</span>
-         </button>
-         {{ session('status') }}
-      </div>
-   @endif
-
       <div class="row movie">
 
       {{-- left column --}}
@@ -82,6 +72,15 @@
             </div>
          @endif
 
+         @if (session('status'))
+            <div class="col-xs-12 alert alert-dismissible alert-success">
+               <button type="button" class="close" >
+                  <span aria-hidden="true">&times;</span>
+               </button>
+               {{ session('status') }}
+            </div>
+         @endif
+
          <ul id="movieTabs" class="nav nav-tabs" role="tablist">
             <li role="details" class="active"><a href="#movie" aria-controls="movie" role="tab" data-toggle="tab">Details</a></li>
             <li role="details"><a href="#cast" aria-controls="cast" role="tab" data-toggle="tab">Cast</a></li>
@@ -112,7 +111,7 @@
                         <a onclick="getCastFromIMDb(this)" class="btn btn-warning btn-block" href="javascript:void(0)">check IMDb</a>
                      @endif
                   </div>
-                  <div class="col-xs-6">
+                  <div id="copy-cast-div" class="col-xs-6">
                      @if(!count($movie->cast))
                         {!! Form::select('copy_from', array('' => 'copy cast from ...') + $options->movies, '', ['class'=>'form-control','id'=>'copy_from', 'onchange'=>'showModal("duplicateCast", this.value)']) !!}
                      @endif
