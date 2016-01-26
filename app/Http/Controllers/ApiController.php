@@ -137,6 +137,7 @@ class ApiController extends Controller {
 			$imdb_response = $client->get($url);
 			$imdb_body = $imdb_response->getBody();
 			$imdb_api = json_decode($imdb_body);
+			$additional = [];
 			if(count($imdb_api->data->movies))
 			{
 				$imdb = $imdb_api->data->movies[0];
@@ -147,12 +148,13 @@ class ApiController extends Controller {
 					{
 						$new_cast[] = ['movie_id'=>$movie_id, 'person_id'=>$person->person_id, 'character'=>$actor->character];
 					}
-					else echo $actor->actorName." : ".$actor->character." (".$actor->actorId.")<br/>";
+					else $additional[] = $actor;
 					// ABILITY TO ADD OR REMOVE ACTOR AND CHARACTER
 				}
 			}
 			$new_cast = array_map('unserialize', array_unique(array_map('serialize', $new_cast)));
 			$movie->cast()->sync($new_cast);
+			return (String) view('movies.cast', compact('movie', 'additional'));
 		}
 	}
 

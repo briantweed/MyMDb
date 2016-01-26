@@ -128,7 +128,7 @@ function previewImage(input, output) {
             $('#' + output + '-info').html('Image Size: ' + thisWidth + 'px by ' + thisHeight + 'px');
          };
          $('#'+output).attr("src", event.target.result);
-         $('#image_url').val('');
+         $('#image').val('');
       };
       reader.readAsDataURL(input.files[0]);
    }

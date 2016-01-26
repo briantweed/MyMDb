@@ -342,7 +342,8 @@ function initializeDatePicker() {
    }).on('hide', function(e){ e.stopPropagation() })
 }
 
-function getCastFromIMDb() {
+function getCastFromIMDb(el) {
+   $(el).html('<i class="ft icon-loading spin"></i>');
    $.ajax({
       type: 'POST',
       url: '/MyMDb/public/getCastFromIMDb',
@@ -350,6 +351,7 @@ function getCastFromIMDb() {
          _token: $('meta[name="_token"]').attr('content')
       }
    }).done(function(html){
+      $(el).html('check IMDb');
       $('#cast-list').html(html);
    });
 }

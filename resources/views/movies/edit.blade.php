@@ -109,7 +109,7 @@
                   </div>
                   <div class="col-xs-3">
                      @if($movie->imdb_id)
-                        <a onclick="getCastFromIMDb()" class="btn btn-warning btn-block" href="javascript:void(0)">check IMDb</a>
+                        <a onclick="getCastFromIMDb(this)" class="btn btn-warning btn-block" href="javascript:void(0)">check IMDb</a>
                      @endif
                   </div>
                   <div class="col-xs-6">
