@@ -104,10 +104,15 @@
 
             <div role="tabpanel" class="tab-pane fade" id="cast">
                <div class="row">
-                  <div class="col-xs-4">
-                     <a onclick="addCastMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-actor"></i> <span class="hidden-sm">new cast</span></a>
+                  <div class="col-xs-3">
+                     <a onclick="addCastMember()" class="btn btn-primary btn-block" href="javascript:void(0)">new cast</a>
                   </div>
-                  <div class="col-xs-8">
+                  <div class="col-xs-3">
+                     @if($movie->imdb_id)
+                        <a onclick="getCastFromIMDb()" class="btn btn-warning btn-block" href="javascript:void(0)">check IMDb</a>
+                     @endif
+                  </div>
+                  <div class="col-xs-6">
                      @if(!count($movie->cast))
                         {!! Form::select('copy_from', array('' => 'copy cast from ...') + $options->movies, '', ['class'=>'form-control','id'=>'copy_from', 'onchange'=>'showModal("duplicateCast", this.value)']) !!}
                      @endif

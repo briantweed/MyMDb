@@ -12,6 +12,7 @@ Route::get('/', 'WelcomeController@index');
 // CHARTS PAGE
 Route::get('charts', 'ChartController@index');
 
+Route::post('getCastFromIMDb', 'ApiController@getCastFromIMDb');
 Route::post('api', 'ApiController@index');
 
 // AJAX QUERIES
