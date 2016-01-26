@@ -30,8 +30,7 @@ class ValidateCreateMovie extends Request
             'released' => 'required|numeric',
             'running_time' => 'required|numeric',
             'certificate_id' => 'required|numeric',
-            'format_id' => 'required|numeric',
-            'studio_id' => 'required'
+            'format_id' => 'required|numeric'
         ];
     }
 
@@ -50,9 +49,7 @@ class ValidateCreateMovie extends Request
             'certificate_id.required' => 'certificate is required',
             'certificate_id.numeric' => 'numbers only',
             'format_id.required' => 'format is required',
-            'format_id.numeric' => 'numbers only',
-            'studio_id.required' => 'studio is required',
-            'studio_id.numeric' => 'numbers only',
+            'format_id.numeric' => 'numbers only'
         ];
     }
 }

@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use DB;
+use Image;
 use Request;
 use Session;
 use App\Cast;
@@ -71,11 +72,25 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$data = $request->all();
 		$data['sort_name'] = $data['sort_name'] == '' ? $data['name'] : $data['sort_name'];
-		if($request->hasFile('image'))
+		if($request->image)
 		{
-			if ($request->file('image')->isValid()) {
+			$content = file_get_contents($request->image);
+			$image_name = $this->createImageName($data['sort_name']);
+			$fp = fopen('images/covers/'.$image_name, "w");
+			fwrite($fp, $content);
+			fclose($fp);
+
+			$img = Image::make('images/covers/'.$image_name);
+			$img->resize(300, 450);
+			$img->save('images/covers/'.$image_name);
+			$data['image'] = $image_name;
+
+		}
+		else if($request->hasFile('image_upload'))
+		{
+			if ($request->file('image_upload')->isValid()) {
 				$image_name = $this->createImageName($data['sort_name']);
-				$image = $request->file('image')->move('images/covers', $image_name);
+				$image = $request->file('image_upload')->move('images/covers', $image_name);
 				$data['image'] = $image_name;
 			}
 		}

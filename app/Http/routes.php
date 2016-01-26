@@ -1,5 +1,4 @@
 <?php
-use App\Movies;
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
