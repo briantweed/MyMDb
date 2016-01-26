@@ -75,7 +75,7 @@ class MovieController extends Controller {
 		if($request->image)
 		{
 			$content = file_get_contents($request->image);
-			$image_name = $this->createImageName(preg_replace("/[^a-zA-Z0-9]/", '_', $data['sort_name']));
+			$image_name = $this->createImageName(preg_replace("/[^a-zA-Z0-9]/", '_', trim($data['sort_name'])));
 			$fp = fopen('images/covers/'.$image_name, "w");
 			fwrite($fp, $content);
 			fclose($fp);

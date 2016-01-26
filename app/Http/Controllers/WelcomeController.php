@@ -28,15 +28,8 @@ class WelcomeController extends Controller {
 		$details->most_recent = Movies::getMovieRecords('purchased', 'DESC', 10);
 
 		// top rated movies
-		$details->top_rated = Movies::getMovieRecords('rating', 'DESC', 10);
+		$details->top_rated = Movies::getTopRated();
 		foreach($details->top_rated as $movie)
-		{
-			$movie->rating_display = $this->makeRatingStars($movie->rating);
-		}
-
-		// lowest rated movies
-		$details->lowest_rated = Movies::getMovieRecords('rating', 'ASC', 10);
-		foreach($details->lowest_rated as $movie)
 		{
 			$movie->rating_display = $this->makeRatingStars($movie->rating);
 		}

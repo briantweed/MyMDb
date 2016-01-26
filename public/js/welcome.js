@@ -169,7 +169,7 @@ function displayMoviesByYear(start, end) {
          animationEnabled: true,
          animationDuration: 1500,
          toolTip: {
-            enabled: false
+               enabled: false
             // contentFormatter: function(event) {
             //    var str = '';
             //    for (var i = 0; i < event.entries.length; i++)
@@ -187,7 +187,7 @@ function displayMoviesByYear(start, end) {
             indexLabelOrientation: "horizontal",
             indexLabel: "{y}",
             click: function(event) {
-               // startFilter('year', event.dataPoint.label);
+               startFilter('year', event.dataPoint.label);
             },
          }]
       });
@@ -209,7 +209,7 @@ function displayMoviesByFormat() {
       }).done(function(json) {
          var chart = new CanvasJS.Chart('formatChart', {
             toolTip: {
-               enabled: false,
+               // enabled: false,
                // contentFormatter: function(event) {
                //    var str = '';
                //    for (var i = 0; i < event.entries.length; i++)

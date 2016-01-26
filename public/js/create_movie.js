@@ -2,20 +2,22 @@ $(document).ready(function(){
 
    runFormSetup();
 
-   $('#imdb_movie_search').click(function() {
-      $(this).html('<i class="ft icon-loading spin"></i>');
-      $.ajax({
-         type: 'POST',
-         url: '/MyMDb/public/searchForMovie',
-         data: $('#imdb_movie_search_form').serialize(),
-      }).done(function(html){
-         $(this).html('search');
-         $('#create-movie-form-div').html(html);
-         runFormSetup();
-      });
-   });
+   if($('#image').val().length) $('#movie-poster').attr('src', $('#image').val());
 
 });
+
+function searchForMovie(el) {
+   $(el).html('<i class="ft icon-loading spin"></i>');
+   $.ajax({
+      type: 'POST',
+      url: '/MyMDb/public/searchForMovie',
+      data: $('#imdb_movie_search_form').serialize(),
+   }).done(function(html){
+      $(el).html('search');
+      $('#create-movie-form-div').html(html);
+      runFormSetup();
+   });
+}
 
 function runFormSetup() {
 
@@ -34,5 +36,5 @@ function runFormSetup() {
       autoclose: true,
       todayHighlight: true
    });
-   
+
 }

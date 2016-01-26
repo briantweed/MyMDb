@@ -69,7 +69,17 @@ class Movies extends Model {
 
 	public static function getMovieRecords($sort_by, $direction, $limit)
 	{
- 		return Movies::orderBy($sort_by, $direction)->orderBy('name', 'ASC')->take($limit)->get();
+ 		return Movies::orderBy($sort_by, $direction)
+							->orderBy('name', 'ASC')
+							->take($limit)
+							->get();
+	}
+
+	public static function getTopRated()
+	{
+ 		return Movies::where('rating', '10')
+							->orderBy('name', 'ASC')
+							->get();
 	}
 
 	public static function selectRandomFilm()
@@ -79,7 +89,6 @@ class Movies extends Model {
 						->has('cast')
 						->get()
 						->toArray();
-
 
 		$selected_movie = array_rand($movie_ids, 1);
 		return $selected_movie;

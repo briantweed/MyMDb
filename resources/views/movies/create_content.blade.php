@@ -73,7 +73,7 @@
          </div>
          {!! Form::close() !!}
          <div class="col-xs-2">
-            <button id="imdb_movie_search" type="button" class="btn btn-block btn-warning">search</button>
+            <button onclick="searchForMovie(this)" id="imdb_movie_search" type="button" class="btn btn-block btn-warning">search</button>
          </div>
          <div style="clear:both"></div>
       </div>
