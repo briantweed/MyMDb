@@ -7,7 +7,7 @@ trait ImageFunctions
 
    private function createImageName($name)
 	{
-		return str_replace(' ', '_', $name).'_'.date('U').'.jpg';
+		return preg_replace("/[^a-zA-Z0-9]/", '_', $name).'_'.date('U').'.jpg';
 	}
 
    private function checkImageExists($src, $name, $dest)

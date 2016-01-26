@@ -25,7 +25,7 @@ class ApiController extends Controller {
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
-	public function index()
+	public function searchForMovie()
 	{
 		$data = Request::all();
 		$title = $data['title'];
@@ -114,7 +114,7 @@ class ApiController extends Controller {
 
 		$user = $this->isAdmin;
 
-		return view('movies.create', compact('fields', 'options', 'values', 'infos', 'user', 'message'));
+		return view('movies.create_content', compact('fields', 'options', 'values', 'infos', 'user', 'message'));
 	}
 
 	public function getCastFromIMDb()

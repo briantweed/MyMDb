@@ -1,7 +1,7 @@
 
 var featherEditor = new Aviary.Feather({
    apiKey: $('input[name="_aviary"]').val(),
-   tools: 'crop,resize,orientation',
+   tools: 'crop,resize,orientation,enhance,effects,brightness,contrast',
    cropPresets: [
       ['Portrait','2:3'],
    ],

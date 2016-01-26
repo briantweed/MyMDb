@@ -2798,6 +2798,33 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            309 => 
+            array (
+                'cast_id' => 317,
+                'movie_id' => 47,
+                'person_id' => 188,
+                'character' => 'Judge Dredd',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            310 => 
+            array (
+                'cast_id' => 320,
+                'movie_id' => 52,
+                'person_id' => 281,
+                'character' => 'Django',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            311 => 
+            array (
+                'cast_id' => 321,
+                'movie_id' => 52,
+                'person_id' => 134,
+                'character' => 'Calvin Candie',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

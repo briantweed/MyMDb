@@ -74,17 +74,18 @@ class PersonController extends Controller {
 		$person_exist = $this->checkExistingPeople($data['forename'], $data['surname']);
 		if(!$person_exist)
 		{
-			if($request->hasFile('image'))
+			if($request->hasFile('image_upload'))
 			{
-				if ($request->file('image')->isValid()) {
+				if ($request->file('image_upload')->isValid()) {
 					$person_concat = strtolower($data['forename']." ".$data['surname']);
 					$image_name = $this->createImageName($person_concat);
-					$image = $request->file('image')->move('images/people', $image_name);
+					$image = $request->file('image_upload')->move('images/people', $image_name);
 					$data['image'] = $image_name;
 				}
 			}
-			foreach($data as &$value) $value = htmlentities($value , ENT_QUOTES);
-			unset($value);
+			$data['forename'] = $this->formatName($data['forename']);
+			$data['surname'] = $this->formatName($data['surname']);
+			$data['bio'] = htmlentities($data['bio'], ENT_QUOTES);
 			$data['birthday'] = $this->formatDate($data['birthday'], 'input');
 			$data['deceased'] = $this->formatDate($data['deceased'], 'input');
 			$update = Persons::create($data);
@@ -124,16 +125,19 @@ class PersonController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$person = Persons::findorfail($id);
 		$data = $request->all();
-		if($request->hasFile('image'))
+		if($request->hasFile('image_upload'))
 		{
-			if ($request->file('image')->isValid()) {
+			if ($request->file('image_upload')->isValid()) {
 				$person_concat = strtolower($data['forename'])."_".strtolower($data['surname']);
 				$image_name = $this->createImageName($person_concat);
-				$image = $request->file('image')->move('images/people', $image_name);
+				$image = $request->file('image_upload')->move('images/people', $image_name);
 				$data['image'] = $image_name;
 				$this->unlinkExistingImage('people', $person->image);
 			}
 		}
+		$data['forename'] = $this->formatName($data['forename']);
+		$data['surname'] = $this->formatName($data['surname']);
+		$data['bio'] = htmlentities($data['bio'], ENT_QUOTES);
 		$data['birthday'] = $this->formatDate($data['birthday'], 'input');
 		$data['deceased'] = $this->formatDate($data['deceased'], 'input');
 		$person->update($data);
@@ -296,4 +300,22 @@ class PersonController extends Controller {
 		}
 		return null;
 	}
+
+	/**
+	*
+	* Uppercase first letter of name and encode for database storage
+	* @param  string  $name
+	* @return Response
+	*
+	*/
+	private function formatName($name)
+	{
+		$characters = ["'", "-"];
+		$replacements = ["' ", "- "];
+		$name = str_replace($characters, $replacements, $name);
+		$name = ucwords(strtolower(trim($name)));
+		$name = htmlentities(str_replace($replacements, $characters, $name), ENT_QUOTES);
+		return $name;
+	}
+
 }

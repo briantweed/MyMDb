@@ -12,7 +12,7 @@ Route::get('/', 'WelcomeController@index');
 Route::get('charts', 'ChartController@index');
 
 Route::post('getCastFromIMDb', 'ApiController@getCastFromIMDb');
-Route::post('api', 'ApiController@index');
+Route::post('searchForMovie', 'ApiController@searchForMovie');
 
 // AJAX QUERIES
 Route::post('aviary', 'AviaryController@replaceImage');

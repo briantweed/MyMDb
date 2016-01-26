@@ -71,12 +71,11 @@ class MovieController extends Controller {
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$data = $request->all();
-		$data['sort_name'] = $data['sort_name'] == '' ? $data['name'] : $data['sort_name'];
-		$data['sort_name'] = preg_replace('/[^A-Za-z0-9\s]/', '', $data['sort_name']);
+		$data['sort_name'] = $data['sort_name'] == '' ? trim($data['name']) : trim($data['sort_name']);
 		if($request->image)
 		{
 			$content = file_get_contents($request->image);
-			$image_name = $this->createImageName($data['sort_name']);
+			$image_name = $this->createImageName(preg_replace("/[^a-zA-Z0-9]/", '_', $data['sort_name']));
 			$fp = fopen('images/covers/'.$image_name, "w");
 			fwrite($fp, $content);
 			fclose($fp);
@@ -89,7 +88,8 @@ class MovieController extends Controller {
 		}
 		else if($request->hasFile('image_upload'))
 		{
-			if ($request->file('image_upload')->isValid()) {
+			if ($request->file('image_upload')->isValid())
+			{
 				$image_name = $this->createImageName($data['sort_name']);
 				$image = $request->file('image_upload')->move('images/covers', $image_name);
 				$data['image'] = $image_name;
@@ -167,12 +167,12 @@ class MovieController extends Controller {
 		$movie = Movies::findorfail($movie_id);
 		$data = $request->all();
 		$data['sort_name'] = $data['sort_name'] =='' ? $data['name'] : $data['sort_name'];
-		if($request->hasFile('image'))
+		if($request->hasFile('image_upload'))
 		{
-			if($request->file('image')->isValid())
+			if($request->file('image_upload')->isValid())
 			{
-				$image_name = $this->createImageName($data['sort_name']);
-				$image = $request->file('image')->move('images/covers', $image_name);
+				$image_name = $this->createImageName(preg_replace("/[^a-zA-Z0-9]/", '_', $data['sort_name']));
+				$image = $request->file('image_upload')->move('images/covers', $image_name);
 				$data['image'] = $image_name;
 				$this->unlinkExistingImage('covers', $movie->image);
 			}
