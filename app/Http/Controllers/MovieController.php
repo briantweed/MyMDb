@@ -224,7 +224,7 @@ class MovieController extends Controller {
 	         $data = Request::all();
 	         $movie_id = $data['movie'];
 	         $person_id = $data['person'];
-				$character_name = htmlentities(ucwords(strtolower(trim($data['character']))), ENT_QUOTES);
+				$character_name = $this->formatName($data['character']);
 	         $movie = Movies::findorfail($movie_id);
 	         $movie->cast()->attach($person_id, array('character' => $character_name));
 				return (String) view('movies.cast', compact('movie'));
@@ -242,7 +242,7 @@ class MovieController extends Controller {
 	         $data = Request::all();
 	         $movie_id = $data['movie'];
 	         $person_id = $data['person'];
-	         $character_name = htmlentities(ucwords(strtolower(trim($data['character']))), ENT_QUOTES);
+	         $character_name = $this->formatName($data['character']);
 	         $movie = Movies::findorfail($movie_id);
 				$movie->cast()->updateExistingPivot($person_id, array('character' => $character_name));
 				return (String) view('movies.cast', compact('movie'));
@@ -434,6 +434,26 @@ class MovieController extends Controller {
 		}
 		else return $existing->studio_id;
 	}
+
+	/**
+	*
+	* Uppercase first letter of name and encode for database storage
+	* @param  string  $name
+	* @return Response
+	*
+	*/
+	private function formatName($name)
+	{
+		$characters = ["'", "-"];
+		$replacements = ["' ", "- "];
+		$name = str_replace($characters, $replacements, $name);
+		$name = ucwords(strtolower(trim($name)));
+		$name = htmlentities(str_replace($replacements, $characters, $name), ENT_QUOTES);
+		return $name;
+	}
+
+
+
 
 
 } // end of class
