@@ -2825,6 +2825,33 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            312 => 
+            array (
+                'cast_id' => 322,
+                'movie_id' => 225,
+                'person_id' => 180,
+                'character' => 'Theo Faron',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            313 => 
+            array (
+                'cast_id' => 323,
+                'movie_id' => 225,
+                'person_id' => 197,
+                'character' => 'Jasper',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            314 => 
+            array (
+                'cast_id' => 324,
+                'movie_id' => 225,
+                'person_id' => 101,
+                'character' => 'Julian',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
