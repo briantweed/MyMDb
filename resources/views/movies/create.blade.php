@@ -28,7 +28,7 @@
          <div class="row">
             <div class="col-xs-12">
                @if(isset($values->image) && $values->image!="")
-                  <a href="{{$values->image}}" target="_blank" download><img id="movie-poster" class="img-responsive img-rounded" src="{{$values->image}}"></a>
+                  <img id="movie-poster" class="img-responsive img-rounded" src="{{$values->image}}" />
                @else
                   <img id="movie-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
                @endif
