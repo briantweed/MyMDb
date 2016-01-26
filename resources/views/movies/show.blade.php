@@ -41,7 +41,7 @@
                @if($movie->cover_count == 1)
                   <<img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}"  />
                @else
-                  <a href="{{asset($movie->cover)}}" download><img class="img-responsive img-rounded" src="{{asset($movie->cover)}}" /></a>
+                  <img class="img-responsive img-rounded" src="{{asset($movie->cover)}}" />
                @endif
             </div>
          </div>
