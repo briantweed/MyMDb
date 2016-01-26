@@ -72,6 +72,7 @@ class MovieController extends Controller {
 		if(!$this->isAdmin) return view('auth.login');
 		$data = $request->all();
 		$data['sort_name'] = $data['sort_name'] == '' ? $data['name'] : $data['sort_name'];
+		$data['sort_name'] = preg_replace('/[^A-Za-z0-9\s]/', '', $data['sort_name']);
 		if($request->image)
 		{
 			$content = file_get_contents($request->image);
@@ -94,7 +95,8 @@ class MovieController extends Controller {
 				$data['image'] = $image_name;
 			}
 		}
-		$data['studio_id'] = is_numeric($data['studio_id']) ? $data['studio_id'] : $this->createNewStudio($data['studio_id']);
+		if($data['studio_id']) $data['studio_id'] = is_numeric($data['studio_id']) ? $data['studio_id'] : $this->createNewStudio($data['studio_id']);
+		else $data['studio_id'] = 21;
 		$data['duplicate'] = $this->checkForDuplicateTitle($request->name);
 		$data['purchased'] = date("Y-m-d", strtotime($data['purchased'] ));
 
@@ -175,7 +177,8 @@ class MovieController extends Controller {
 				$this->unlinkExistingImage('covers', $movie->image);
 			}
 		}
-		$data['studio_id'] = is_numeric($data['studio_id']) ? $data['studio_id'] : $this->createNewStudio($data['studio_id']);
+		if($data['studio_id']) $data['studio_id'] = is_numeric($data['studio_id']) ? $data['studio_id'] : $this->createNewStudio($data['studio_id']);
+		else $data['studio_id'] = 21;
 		$data['purchased'] = date("Y-m-d", strtotime($data['purchased'] ));
 
 		$movie->update($data);
@@ -451,9 +454,5 @@ class MovieController extends Controller {
 		$name = htmlentities(str_replace($replacements, $characters, $name), ENT_QUOTES);
 		return $name;
 	}
-
-
-
-
 
 } // end of class
