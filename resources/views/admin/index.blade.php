@@ -39,22 +39,6 @@
             <div class="col-xs-5"><b>Total movies in collection :</b></div>
             <div class="col-xs-7">{{$data->movie_total}}</div>
          </div>
-         <div class="row">
-            <div class="col-xs-offset-2 col-xs-3"><i>BluRay :</i></div>
-            <div class="col-xs-7">{{$data->bluray_total}}</div>
-         </div>
-         <div class="row">
-            <div class="col-xs-offset-2 col-xs-3"><i>DVD :</i></div>
-            <div class="col-xs-7">{{$data->dvd_total}}</div>
-         </div>
-         </br>
-         @for($x=10;$x>0;$x--)
-            {{--*/ $var = "rating_".$x."_total" /*--}}
-            <div class="row">
-               <div class="col-xs-5"><b>Rating of {{$x}} :</b></div>
-               <div class="col-xs-7">{{$data->$var}}</div>
-            </div>
-         @endfor
       </div>
    </div>
 
