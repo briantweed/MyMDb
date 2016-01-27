@@ -1,5 +1,5 @@
 
-var person_type = "";
+var person_type = "cast";
 
 var featherEditor = new Aviary.Feather({
    apiKey: $('input[name="_aviary"]').val(),
@@ -93,7 +93,7 @@ $(document).ready(function(){
       }).done(function(html){
          var selectize = $("#cast_list")[0].selectize;
          selectize.removeOption($('#person_id').val());
-         $('#cast-list').html(html);
+         $('#existing-cast-list').html(html);
          $('.modal').modal('hide');
       });
    });
@@ -109,7 +109,7 @@ $(document).ready(function(){
             character: $('#edit_character_name').val(),
          }
       }).done(function(html){
-         $('#cast-list').html(html);
+         $('#existing-cast-list').html(html);
          $('.modal').modal('hide');
       });
    });
@@ -141,7 +141,7 @@ $(document).ready(function(){
             movie: $('#movie_id').val(),
          }
       }).done(function(html){
-         $('#cast-list').html(html);
+         $('#existing-cast-list').html(html);
          $('.modal').modal('hide');
       });
    });
@@ -250,6 +250,10 @@ function setPersonType(type) {
    person_type = type;
 }
 
+function setCharacterName(name) {
+   $('#imdb-character-name').val(name);
+}
+
 function clearModalSelectize() {
    var $select = $('.modal select').selectize();
    $select.each(function(index, value) {
@@ -315,9 +319,9 @@ function createNewPerson() {
                text: json.text,
                value: json.value.toString()
             });
-            $('#empty-modal').modal('hide');
+            $('#empty-modal').modal('hide').html('');
             $('#new-'+person_type+'-modal').modal();
-            $('#character_name').focus();
+            $('#character_name').val($('#imdb-character-name').val());
             var selectize = $('#'+person_type+'_list')[0].selectize;
             selectize.addOption(newPerson);
             selectize.refreshOptions(false);
@@ -377,8 +381,15 @@ function showModal(type, id) {
    {
       var route = "";
       switch(type) {
-         case "genre": route = "createNewGenre"; break;
-         case "duplicateCast": route = "confirmDuplicateCast"; break;
+         case "genre":
+            route = "createNewGenre";
+         break;
+         case "duplicateCast":
+            route = "confirmDuplicateCast";
+         break;
+         case "createImdbActor":
+            route = "createImdbActor";
+         break;
       }
       $.ajax({
          type: 'POST',

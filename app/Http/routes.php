@@ -12,6 +12,7 @@ Route::get('/', 'WelcomeController@index');
 Route::get('charts', 'ChartController@index');
 
 Route::post('getCastFromIMDb', 'ApiController@getCastFromIMDb');
+Route::post('createImdbActor', 'ApiController@createImdbActor');
 Route::post('searchForMovie', 'ApiController@searchForMovie');
 
 // AJAX QUERIES

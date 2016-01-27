@@ -171,8 +171,8 @@ class FormsTableSeeder extends Seeder
             array (
                 'id' => 11,
                 'name' => 'create_movie',
-                'field' => 'image',
-                'label' => 'Image Path',
+                'field' => 'imdb_id',
+                'label' => 'IMDb',
                 'required' => 0,
                 'type' => 'text',
                 'order' => 110,
@@ -186,11 +186,11 @@ class FormsTableSeeder extends Seeder
             array (
                 'id' => 12,
                 'name' => 'create_movie',
-                'field' => 'imdb_id',
-                'label' => 'IMDb',
+                'field' => 'image',
+                'label' => 'Image Path',
                 'required' => 0,
                 'type' => 'text',
-                'order' => 105,
+                'order' => 120,
                 'range_from' => 0,
                 'range_to' => 0,
                 'options' => '',
@@ -200,6 +200,21 @@ class FormsTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 13,
+                'name' => 'create_movie',
+                'field' => 'image_upload',
+                'label' => 'Upload Image',
+                'required' => 0,
+                'type' => 'file',
+                'order' => 130,
+                'range_from' => 0,
+                'range_to' => 0,
+                'options' => '',
+                'default' => 'movie-poster',
+                'class' => '',
+            ),
+            13 => 
+            array (
+                'id' => 14,
                 'name' => 'create_person',
                 'field' => 'forename',
                 'label' => 'Name',
@@ -212,9 +227,9 @@ class FormsTableSeeder extends Seeder
                 'default' => '',
                 'class' => '',
             ),
-            13 => 
+            14 => 
             array (
-                'id' => 14,
+                'id' => 15,
                 'name' => 'create_person',
                 'field' => 'surname',
                 'label' => 'Surname',
@@ -227,9 +242,9 @@ class FormsTableSeeder extends Seeder
                 'default' => '',
                 'class' => '',
             ),
-            14 => 
+            15 => 
             array (
-                'id' => 15,
+                'id' => 16,
                 'name' => 'create_person',
                 'field' => 'birthday',
                 'label' => 'Born',
@@ -242,14 +257,14 @@ class FormsTableSeeder extends Seeder
                 'default' => '',
                 'class' => '',
             ),
-            15 => 
+            16 => 
             array (
-                'id' => 16,
+                'id' => 17,
                 'name' => 'create_person',
-                'field' => 'bio',
-                'label' => 'Bio',
+                'field' => 'deceased',
+                'label' => 'Died',
                 'required' => 0,
-                'type' => 'textarea',
+                'type' => 'date',
                 'order' => 40,
                 'range_from' => 0,
                 'range_to' => 0,
@@ -257,30 +272,15 @@ class FormsTableSeeder extends Seeder
                 'default' => '',
                 'class' => '',
             ),
-            16 => 
-            array (
-                'id' => 17,
-                'name' => 'create_person',
-                'field' => 'image',
-                'label' => 'Photo',
-                'required' => 0,
-                'type' => 'file',
-                'order' => 50,
-                'range_from' => 0,
-                'range_to' => 0,
-                'options' => '',
-                'default' => 'person-poster',
-                'class' => '',
-            ),
             17 => 
             array (
                 'id' => 18,
                 'name' => 'create_person',
-                'field' => 'deceased',
-                'label' => 'Died',
+                'field' => 'bio',
+                'label' => 'Bio',
                 'required' => 0,
-                'type' => 'date',
-                'order' => 35,
+                'type' => 'textarea',
+                'order' => 50,
                 'range_from' => 0,
                 'range_to' => 0,
                 'options' => '',
@@ -290,16 +290,31 @@ class FormsTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 19,
-                'name' => 'create_movie',
+                'name' => 'create_person',
+                'field' => 'image',
+                'label' => 'Image Path',
+                'required' => 0,
+                'type' => 'text',
+                'order' => 60,
+                'range_from' => 0,
+                'range_to' => 0,
+                'options' => '',
+                'default' => '',
+                'class' => '',
+            ),
+            19 => 
+            array (
+                'id' => 20,
+                'name' => 'create_person',
                 'field' => 'image_upload',
                 'label' => 'Upload Image',
                 'required' => 0,
                 'type' => 'file',
-                'order' => 115,
+                'order' => 70,
                 'range_from' => 0,
                 'range_to' => 0,
                 'options' => '',
-                'default' => 'movie-poster',
+                'default' => 'person-poster',
                 'class' => '',
             ),
         ));

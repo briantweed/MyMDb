@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use DB;
+use Image;
 use Request;
 use DateTime;
 use App\Cast;
@@ -178,12 +179,27 @@ class PersonController extends Controller {
 			unset($value);
 			if($data['forename']!="" && $data['surname']!="")
 			{
+				if($data['image'])
+				{
+					$content = file_get_contents($data['image']);
+					$image_name = $this->createImageName($data['forename']." ".$data['surname']);
+					$fp = fopen('images/people/'.$image_name, "w");
+					fwrite($fp, $content);
+					fclose($fp);
+
+					$img = Image::make('images/people/'.$image_name);
+					$img->resize(300, 450);
+					$img->save('images/people/'.$image_name);
+					$data['image'] = $image_name;
+				}
+
 				$data['birthday'] = $this->formatDate($data['birthday'], 'input');
 				$data['deceased'] = $this->formatDate($data['deceased'], 'input');
+
 				$update = Persons::create($data);
 				$inserted_id = $update->person_id;
-				$new_person['value']  = $inserted_id;
-				$new_person['text']  = $data['forename']." ".$data['surname'];
+				$new_person['value'] = $inserted_id;
+				$new_person['text'] = $data['forename']." ".$data['surname'];
 				return $new_person;
 			}
 			return "exists";

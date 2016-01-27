@@ -77,9 +77,11 @@ class Movies extends Model {
 
 	public static function getTopRated()
 	{
- 		return Movies::where('rating', '10')
+ 		$top_movies = Movies::where('rating', '10')
 							->orderBy('name', 'ASC')
 							->get();
+		if(count($top_movies)<10) return Movies::getMovieRecords('rating', 'desc', '10');
+		else return $top_movies;
 	}
 
 	public static function selectRandomFilm()

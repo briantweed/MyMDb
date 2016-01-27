@@ -2852,6 +2852,429 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            315 => 
+            array (
+                'cast_id' => 325,
+                'movie_id' => 1,
+                'person_id' => 288,
+                'character' => 'Mika',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            316 => 
+            array (
+                'cast_id' => 326,
+                'movie_id' => 1,
+                'person_id' => 289,
+                'character' => 'Shogun Tsunayoshi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            317 => 
+            array (
+                'cast_id' => 327,
+                'movie_id' => 1,
+                'person_id' => 290,
+                'character' => 'Witch',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            318 => 
+            array (
+                'cast_id' => 328,
+                'movie_id' => 2,
+                'person_id' => 291,
+                'character' => 'Bayard',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            319 => 
+            array (
+                'cast_id' => 329,
+                'movie_id' => 5,
+                'person_id' => 243,
+                'character' => 'Murphy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            320 => 
+            array (
+                'cast_id' => 330,
+                'movie_id' => 5,
+                'person_id' => 292,
+                'character' => 'Golic',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            321 => 
+            array (
+                'cast_id' => 331,
+                'movie_id' => 5,
+                'person_id' => 293,
+                'character' => 'Andrews',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            322 => 
+            array (
+                'cast_id' => 332,
+                'movie_id' => 7,
+                'person_id' => 17,
+                'character' => 'Marla Singer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            323 => 
+            array (
+                'cast_id' => 333,
+                'movie_id' => 7,
+                'person_id' => 294,
+                'character' => 'Chloe',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            324 => 
+            array (
+                'cast_id' => 334,
+                'movie_id' => 9,
+                'person_id' => 295,
+                'character' => 'Oracle',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            325 => 
+            array (
+                'cast_id' => 335,
+                'movie_id' => 44,
+                'person_id' => 48,
+                'character' => 'Top Dollar',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            326 => 
+            array (
+                'cast_id' => 336,
+                'movie_id' => 44,
+                'person_id' => 254,
+                'character' => 'Grange',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            327 => 
+            array (
+                'cast_id' => 337,
+                'movie_id' => 44,
+                'person_id' => 296,
+                'character' => 'Eric Draven',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            328 => 
+            array (
+                'cast_id' => 338,
+                'movie_id' => 44,
+                'person_id' => 297,
+                'character' => 'Sergeant Albrecht',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            329 => 
+            array (
+                'cast_id' => 339,
+                'movie_id' => 45,
+                'person_id' => 298,
+                'character' => 'Li Mu Bai',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            330 => 
+            array (
+                'cast_id' => 340,
+                'movie_id' => 7,
+                'person_id' => 299,
+                'character' => 'Robert Bob Paulsen',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            331 => 
+            array (
+                'cast_id' => 341,
+                'movie_id' => 199,
+                'person_id' => 79,
+                'character' => 'President James Marshall',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            332 => 
+            array (
+                'cast_id' => 342,
+                'movie_id' => 199,
+                'person_id' => 200,
+                'character' => 'Ivan Korshunov',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            333 => 
+            array (
+                'cast_id' => 343,
+                'movie_id' => 199,
+                'person_id' => 255,
+                'character' => 'Agent Gibbs',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            334 => 
+            array (
+                'cast_id' => 344,
+                'movie_id' => 199,
+                'person_id' => 107,
+                'character' => 'Major Caldwell',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            335 => 
+            array (
+                'cast_id' => 345,
+                'movie_id' => 199,
+                'person_id' => 300,
+                'character' => 'Vice President Kathryn Bennett',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            336 => 
+            array (
+                'cast_id' => 346,
+                'movie_id' => 199,
+                'person_id' => 301,
+                'character' => 'Defense Secretary Walter Dean',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            337 => 
+            array (
+                'cast_id' => 347,
+                'movie_id' => 199,
+                'person_id' => 302,
+                'character' => 'Chief Of Staff Lloyd Shepherd',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            338 => 
+            array (
+                'cast_id' => 348,
+                'movie_id' => 199,
+                'person_id' => 303,
+                'character' => 'Grace Marshall',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            339 => 
+            array (
+                'cast_id' => 349,
+                'movie_id' => 102,
+                'person_id' => 78,
+                'character' => 'Luke Skywalker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            340 => 
+            array (
+                'cast_id' => 350,
+                'movie_id' => 102,
+                'person_id' => 79,
+                'character' => 'Han Solo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            341 => 
+            array (
+                'cast_id' => 351,
+                'movie_id' => 102,
+                'person_id' => 81,
+                'character' => 'Princess Leia',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            342 => 
+            array (
+                'cast_id' => 352,
+                'movie_id' => 102,
+                'person_id' => 83,
+                'character' => 'C3PO',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            343 => 
+            array (
+                'cast_id' => 353,
+                'movie_id' => 102,
+                'person_id' => 85,
+                'character' => 'Darth Vader',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            344 => 
+            array (
+                'cast_id' => 354,
+                'movie_id' => 102,
+                'person_id' => 87,
+                'character' => 'Chewbacca',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            345 => 
+            array (
+                'cast_id' => 355,
+                'movie_id' => 102,
+                'person_id' => 84,
+                'character' => 'R2D2',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            346 => 
+            array (
+                'cast_id' => 356,
+                'movie_id' => 102,
+                'person_id' => 80,
+                'character' => 'Ben',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            347 => 
+            array (
+                'cast_id' => 357,
+                'movie_id' => 102,
+                'person_id' => 304,
+                'character' => 'Lando Calrissian',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            348 => 
+            array (
+                'cast_id' => 358,
+                'movie_id' => 102,
+                'person_id' => 305,
+                'character' => 'Yoda',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            349 => 
+            array (
+                'cast_id' => 359,
+                'movie_id' => 102,
+                'person_id' => 306,
+                'character' => 'Boba Fett',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            350 => 
+            array (
+                'cast_id' => 360,
+                'movie_id' => 103,
+                'person_id' => 78,
+                'character' => 'Luke Skywalker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            351 => 
+            array (
+                'cast_id' => 361,
+                'movie_id' => 103,
+                'person_id' => 79,
+                'character' => 'Han Solo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            352 => 
+            array (
+                'cast_id' => 362,
+                'movie_id' => 103,
+                'person_id' => 81,
+                'character' => 'Princess Leia',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            353 => 
+            array (
+                'cast_id' => 363,
+                'movie_id' => 103,
+                'person_id' => 304,
+                'character' => 'Lando Calrissian',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            354 => 
+            array (
+                'cast_id' => 364,
+                'movie_id' => 103,
+                'person_id' => 83,
+                'character' => 'C3PO',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            355 => 
+            array (
+                'cast_id' => 365,
+                'movie_id' => 103,
+                'person_id' => 87,
+                'character' => 'Chewbacca',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            356 => 
+            array (
+                'cast_id' => 366,
+                'movie_id' => 103,
+                'person_id' => 305,
+                'character' => 'Yoda',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            357 => 
+            array (
+                'cast_id' => 367,
+                'movie_id' => 103,
+                'person_id' => 86,
+                'character' => 'Darth Vader',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            358 => 
+            array (
+                'cast_id' => 368,
+                'movie_id' => 103,
+                'person_id' => 85,
+                'character' => 'Darth Vader',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            359 => 
+            array (
+                'cast_id' => 369,
+                'movie_id' => 103,
+                'person_id' => 80,
+                'character' => 'Ben ObiWan Kenobi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            360 => 
+            array (
+                'cast_id' => 370,
+                'movie_id' => 103,
+                'person_id' => 84,
+                'character' => 'R2D2  Paploo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            361 => 
+            array (
+                'cast_id' => 371,
+                'movie_id' => 103,
+                'person_id' => 307,
+                'character' => 'Anakin Skywalker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

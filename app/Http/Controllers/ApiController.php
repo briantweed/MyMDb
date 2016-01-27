@@ -3,6 +3,7 @@
 use DB;
 use Request;
 use Session;
+use DateTime;
 use App\Forms;
 use App\Movies;
 use App\Genres;
@@ -24,6 +25,50 @@ class ApiController extends Controller {
    {
   	  $this->isAdmin = $this->checkUserDetails();
    }
+
+	/**
+	*
+	* Show form to create new actor in database
+	* @param integer $id
+	* @return Response
+	*
+	*/
+	 public function createImdbActor()
+	 {
+		 if(Request::ajax())
+		 {
+		   $data = Request::all();
+			$actor_id = $data['id'];
+		   $my_token = env('IMDB_KEY');
+			$client = new \GuzzleHttp\Client();
+			$url = 'http://api.myapifilms.com/imdb/idIMDB?idName='.$actor_id.'&token='.$my_token.'&format=json&language=en-us&bornDied=1';
+			$imdb_response = $client->get($url);
+			$imdb_body = $imdb_response->getBody();
+			$imdb_api = json_decode($imdb_body);
+			if(count($imdb_api->data->names))
+			{
+				$imdb = $imdb_api->data->names[0];
+				$names = array_values(array_filter(explode(' ', $imdb->name)));
+				$surname = count($names) ? ucwords(strtolower(array_pop($names))) : "";
+				$forename = count($names) ? ucwords(strtolower(implode(" ", $names))) : "";
+
+				$app = app();
+				$values = $app->make('stdClass');
+				$values->forename = $forename;
+				$values->surname = $surname;
+				$values->bio = $imdb->bio;
+				if(isset($imdb->dateOfBirth))
+				{
+					$born = new DateTime(preg_replace("/[^a-zA-Z0-9]/", ' ', $imdb->dateOfBirth));
+					$values->birthday =  $born->format('d-m-Y');
+				}
+				$values->image = $imdb->urlPhoto;
+				$fields = Forms::getFormFields('create_person', false);
+
+				return (String) view('modal.create_person', compact('fields', 'values'));
+			}
+		}
+	 }
 
 	public function searchForMovie()
 	{
@@ -127,9 +172,10 @@ class ApiController extends Controller {
 			$movie_id = Session::get('movie_id');
 			$movie = Movies::findorfail($movie_id);
 			$new_cast = [];
+			$existing_cast = [];
 			foreach($movie->cast as $cast)
 			{
-				$new_cast[] = ['movie_id'=>$movie_id, 'person_id'=>$cast->person_id, 'character'=>$cast->pivot->character];
+				$existing_cast[] = $cast->person_id;
 			}
 
 			$client = new \GuzzleHttp\Client();
@@ -143,17 +189,20 @@ class ApiController extends Controller {
 				$imdb = $imdb_api->data->movies[0];
 				foreach($imdb->actors as $actor)
 				{
+					$actor->actorName = trim(preg_replace("/[^a-zA-Z0-9\s]/", '', $actor->actorName));
+					$actor->character = trim(preg_replace("/[^a-zA-Z0-9\s]/", '', $actor->character));
 					$person = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), $actor->actorName)->first();
 					if($person)
 					{
-						$new_cast[] = ['movie_id'=>$movie_id, 'person_id'=>$person->person_id, 'character'=>$actor->character];
+						if(!in_array($person->person_id, $existing_cast))
+						{
+							$movie->cast()->attach($person->person_id, array('character' => $actor->character));
+						}
 					}
 					else $additional[] = $actor;
-					// ABILITY TO ADD OR REMOVE ACTOR AND CHARACTER
 				}
+				$movie = Movies::findorfail($movie_id);
 			}
-			$new_cast = array_map('unserialize', array_unique(array_map('serialize', $new_cast)));
-			$movie->cast()->sync($new_cast);
 			return (String) view('movies.cast', compact('movie', 'additional'));
 		}
 	}

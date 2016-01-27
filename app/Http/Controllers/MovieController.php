@@ -27,9 +27,24 @@ class MovieController extends Controller {
 	public function __construct()
    {
   	  $this->isAdmin = $this->checkUserDetails();
-
    }
 
+
+
+	/**
+	* ---------------------------------------------------------------
+	* Standard REST methods
+	* ---------------------------------------------------------------
+	*/
+
+
+
+	/**
+	*
+	* Show all movies, 48 per page
+	* @return Response
+	*
+	*/
 	public function index()
 	{
 		$movies = Movies::orderBy('sort_name')->paginate(48);
@@ -37,6 +52,13 @@ class MovieController extends Controller {
 		return view('movies.index', compact('movies', 'user'));
 	}
 
+	/**
+	*
+	* Show selected movie details
+	* @param integer $movie_id
+	* @return Response
+	*
+	*/
 	public function show($movie_id)
 	{
 		$movie = Movies::findorfail($movie_id);
@@ -51,6 +73,12 @@ class MovieController extends Controller {
 		return view('movies.show', compact('movie','user'));
 	}
 
+	/**
+	*
+	* Show form to create new movie
+	* @return Response
+	*
+	*/
 	public function create()
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -67,6 +95,13 @@ class MovieController extends Controller {
 		return view('movies.create', compact('fields', 'options', 'user'));
 	}
 
+	/**
+	*
+	* Store new movie if the validation passes
+	* @param array $request
+	* @return Response
+	*
+	*/
 	public function store(ValidateCreateMovie $request)
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -108,6 +143,13 @@ class MovieController extends Controller {
 		return redirect()->action('MovieController@edit', [$created->movie_id])->with('status', 'Movie Added Successfully');
 	}
 
+	/**
+	*
+	* Show form to edit existing movie
+	* @param integer $movie_id
+	* @return Response
+	*
+	*/
 	public function edit($movie_id)
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -160,6 +202,14 @@ class MovieController extends Controller {
 		return view('movies.edit', compact('movie', 'fields', 'values', 'options', 'user'));
 	}
 
+	/**
+	*
+	* Update movie with any changes made
+	* @param integer $movie_id
+	* @param array $request
+	* @return Response
+	*
+	*/
 	public function update($movie_id, ValidateCreateMovie $request)
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -204,6 +254,13 @@ class MovieController extends Controller {
 		return redirect()->action('MovieController@edit', [$movie_id])->with('status', 'Movie Updated Successfully');
 	}
 
+	/**
+	*
+	* Delete selected movie from the database
+	* @param integer $movie_id
+	* @return Response
+	*
+	*/
 	public function destroy($movie_id)
 	{
 		Movies::where('movie_id', '=', $movie_id)->delete();
@@ -211,13 +268,21 @@ class MovieController extends Controller {
 	}
 
 
-	/*
-	| --------------------------------------------------
-	|		Ajax Calls
-	| --------------------------------------------------
+
+	/**
+	* ---------------------------------------------------------------
+	* Private Functions
+	* ---------------------------------------------------------------
 	*/
 
 
+
+	/**
+	*
+	* Add actor and character name to cast pivot table
+	* @return Response
+	*
+	*/
 	public function addCastMember()
    {
 		if($this->isAdmin)
@@ -236,6 +301,12 @@ class MovieController extends Controller {
       return "error";
    }
 
+	/**
+	*
+	* Update character name for exising cast member
+	* @return Response
+	*
+	*/
 	public function editCastMember()
    {
 		if($this->isAdmin)
@@ -254,6 +325,12 @@ class MovieController extends Controller {
       return "error";
    }
 
+	/**
+	*
+	* Add crew member and position to crew pivot table
+	* @return Response
+	*
+	*/
 	public function addCrewMember()
    {
 		if($this->isAdmin)
@@ -272,6 +349,12 @@ class MovieController extends Controller {
       return "error";
    }
 
+	/**
+	*
+	* Remove cast member from movie
+	* @return Response
+	*
+	*/
 	public function removeCastMember()
    {
 		if($this->isAdmin)
@@ -289,6 +372,12 @@ class MovieController extends Controller {
       return "error";
    }
 
+	/**
+	*
+	* Remove crew member from movie
+	* @return Response
+	*
+	*/
 	public function removeCrewMember()
    {
 		if($this->isAdmin)
@@ -306,6 +395,12 @@ class MovieController extends Controller {
 	   return "error";
    }
 
+	/**
+	*
+	* Create new tag in database and attach it to movie
+	* @return Response
+	*
+	*/
 	public function addNewTag()
 	{
 		if($this->isAdmin)
@@ -383,6 +478,7 @@ class MovieController extends Controller {
 	}
 
 
+
 	/**
 	* ---------------------------------------------------------------
 	* Private Functions
@@ -390,10 +486,11 @@ class MovieController extends Controller {
 	*/
 
 
+
 	/**
 	*
 	* Takes the given rating and converts it into stars
-	* @param  int  $rating
+	* @param integer $rating
 	* @return Response
 	*
 	*/
@@ -410,7 +507,7 @@ class MovieController extends Controller {
 	/**
 	*
 	* For duplicate titles, show year as well
-	* @param  string  $name
+	* @param string $name
 	* @return Response
 	*
 	*/
@@ -423,7 +520,7 @@ class MovieController extends Controller {
 	/**
 	*
 	* Check if name exists, if not add to the database
-	* @param  string  $name
+	* @param string $name
 	* @return Response
 	*
 	*/
@@ -441,7 +538,7 @@ class MovieController extends Controller {
 	/**
 	*
 	* Uppercase first letter of name and encode for database storage
-	* @param  string  $name
+	* @param string $name
 	* @return Response
 	*
 	*/
