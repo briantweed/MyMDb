@@ -1220,10 +1220,10 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Jackson',
                 'birthday' => '1948-12-21',
                 'deceased' => NULL,
-                'image' => 'images/people/samuel_l_jackson_1453383895.jpg',
+                'image' => 'samuel_l__jackson_1453906888.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:48:00',
-                'updated_at' => '2016-01-27 13:47:57',
+                'updated_at' => '2016-01-27 15:01:28',
             ),
             97 => 
             array (
@@ -2806,10 +2806,10 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => '',
                 'birthday' => '1974-09-11',
                 'deceased' => NULL,
-                'image' => 'xzibit_._1453492003.jpg',
+                'image' => 'xzibit__1453906933.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:53:57',
-                'updated_at' => '2016-01-22 19:46:43',
+                'updated_at' => '2016-01-27 15:02:13',
             ),
             228 => 
             array (
@@ -2938,10 +2938,10 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => '',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'tricky_._1453212234.jpg',
+                'image' => 'tricky__1453906918.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:28:51',
-                'updated_at' => '2016-01-19 14:03:54',
+                'updated_at' => '2016-01-27 15:01:58',
             ),
             239 => 
             array (
@@ -4546,12 +4546,12 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Watson',
                 'birthday' => '1990-04-15',
                 'deceased' => NULL,
-                'image' => 'images/people/Emma_Watson_1453900322.jpg',
+                'image' => 'emma_watson_1453906756.jpg',
                 'bio' => 'Emma Charlotte Duerre Watson was born in Paris, France, to English parents, Jacqueline Luesby and Chris Watson, both lawyers. She moved to Oxfordshire when she was five, where she attended the Dragon School. From the age of six, Emma knew that she wanted to be an actress and, for a number of years, she trained at the Oxford branch of Stagecoach Theatre Arts, a part-time theatre school where she studied singing, dancing and acting. 
 
 By the age of ten, she had performed and taken the lead in various Stagecoach productions and school plays. In 1999, casting began for Harry Potter and the Philosopher&#039;s Stone (2001), the film adaptation of British author J.K. Rowling&#039;s bestselling novel. ',
                 'created_at' => '2016-01-27 13:12:02',
-                'updated_at' => '2016-01-27 13:21:19',
+                'updated_at' => '2016-01-27 14:59:16',
             ),
             373 => 
             array (
