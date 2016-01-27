@@ -179,7 +179,7 @@ class ApiController extends Controller {
 			}
 
 			$client = new \GuzzleHttp\Client();
-			$url = 'http://api.myapifilms.com/imdb/idIMDB?idIMDB='.$movie->imdb_id.'&token='.$my_token.'&format=json&language=en-us&actors=1';
+			$url = 'http://api.myapifilms.com/imdb/idIMDB?idIMDB='.$movie->imdb_id.'&token='.$my_token.'&format=json&language=en-us&actors=2';
 			$imdb_response = $client->get($url);
 			$imdb_body = $imdb_response->getBody();
 			$imdb_api = json_decode($imdb_body);
@@ -189,9 +189,8 @@ class ApiController extends Controller {
 				$imdb = $imdb_api->data->movies[0];
 				foreach($imdb->actors as $actor)
 				{
-					$actor->actorName = trim(preg_replace("/[^a-zA-Z0-9\s]/", '', $actor->actorName));
 					$actor->character = trim(preg_replace("/[^a-zA-Z0-9\s]/", '', $actor->character));
-					$person = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), $actor->actorName)->first();
+					$person = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), htmlentities($actor->actorName, ENT_QUOTES))->first();
 					if($person)
 					{
 						if(!in_array($person->person_id, $existing_cast))

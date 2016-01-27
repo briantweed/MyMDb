@@ -250,8 +250,9 @@ function setPersonType(type) {
    person_type = type;
 }
 
-function setCharacterName(name) {
+function setCharacterName(name, el) {
    $('#imdb-character-name').val(name);
+   $(el).parent().parent().attr('data-hide', 'true');
 }
 
 function clearModalSelectize() {
@@ -322,6 +323,7 @@ function createNewPerson() {
             $('#empty-modal').modal('hide').html('');
             $('#new-'+person_type+'-modal').modal();
             $('#character_name').val($('#imdb-character-name').val());
+            $('[data-hide="true"]').slideUp().removeAttr('data-hide');
             var selectize = $('#'+person_type+'_list')[0].selectize;
             selectize.addOption(newPerson);
             selectize.refreshOptions(false);
@@ -356,7 +358,7 @@ function getCastFromIMDb(el) {
       }
    }).done(function(html){
       $(el).html('check IMDb');
-      $('#cast-list').html(html);
+      $('#cast-list').replaceWith(html);
       $('#copy-cast-div').hide();
    });
 }
