@@ -6414,7 +6414,7 @@ button.close {
 body {
   font-size: 15px;
   font-family: "Raleway", Arial, sans-serif;
-  margin-top: 108px; }
+  margin-top: 92px; }
 
 h1 {
   margin: 10px 0 15px 0;
@@ -6446,7 +6446,7 @@ p.error-link {
   text-align: right; }
 
 .navbar {
-  min-height: 56px;
+  min-height: auto;
   margin-bottom: 0; }
 
 .navbar-default a.navbar-brand {
@@ -6454,6 +6454,8 @@ p.error-link {
   margin-top: 2px;
   font-size: 1.4em;
   margin-right: 40px;
+  padding: 10px;
+  height: auto;
   font-family: "Philosopher", Arial, sans-serif; }
 
 .navbar-default:hover, .navbar-default:focus {
@@ -6465,8 +6467,9 @@ p.error-link {
     .navbar-default .navbar-collapse ul li a {
       color: #fff; } }
 
-.navbar-default li.padding-li {
-  height: 51px; }
+.navbar-default li a {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .navbar-default li.movies-active a {
   color: #222; }
@@ -6532,11 +6535,11 @@ p.error-link {
   padding: 10px 25px 10px 20px; }
 
 div.search-bar-container {
-  top: 56px;
+  top: 44px;
   width: 100%;
   z-index: 1031;
   position: fixed;
-  padding: 8px 0 8px;
+  padding: 6px 0 6px;
   background: #e8e8ef;
   border-top: 1px solid #c8c8cf;
   border-bottom: 1px solid #c8c8cf; }
@@ -6558,7 +6561,7 @@ div.search-bar-container {
       padding: 0.5em 6px; }
 
 div.main-content {
-  margin-top: 17px; }
+  margin-top: 15px; }
 
 div.feature-content {
   color: #f0f0f0;

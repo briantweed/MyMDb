@@ -312,7 +312,7 @@ class PersonController extends Controller {
 			if($movie) return "<a href='/MyMDb/public/movies/".$movie->movie_id."'><b>".$movie->name." (".$movie->released.")</b></a>";
 			else return $m[1];
 		}, $text);
-		return $output;
+		return nl2br($output);
 	}
 
 	private function formatDate($date, $type)
