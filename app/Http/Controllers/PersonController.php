@@ -290,9 +290,9 @@ class PersonController extends Controller {
 
 	private function checkExistingPeople($forename, $surname)
 	{
-		$existing = Persons::where('forename', $forename)
-						->where('surname', $surname)
-						->first();
+		$query = Persons::where('forename', $forename);
+		If($surname!="") $query->where('surname', $surname);
+		$existing = $query->first();
 		if(count($existing)==0) return false;
 		else return $existing->person_id;
 	}
