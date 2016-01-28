@@ -10,7 +10,7 @@ use App\Http\Requests\ValidateCreateMovie;
 
 class WelcomeController extends Controller {
 
-	use ImageFunctions, AdminChecks;
+	use SharedFunctions, AdminChecks;
 
 	private $isAdmin;
 

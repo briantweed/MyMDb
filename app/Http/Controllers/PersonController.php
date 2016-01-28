@@ -14,7 +14,7 @@ use App\Http\Requests\ValidateCreatePerson;
 
 class PersonController extends Controller {
 
-	use ImageFunctions, AdminChecks;
+	use SharedFunctions, AdminChecks;
 
 	protected $isAdmin;
 
@@ -169,8 +169,8 @@ class PersonController extends Controller {
 	{
 		$data = Request::all();
 		$names = array_values(array_filter(explode(' ', $data['value'])));
-		$surname = count($names) ? ucwords(strtolower(array_pop($names))) : "";
-		$forename = count($names) ? ucwords(strtolower(implode(" ", $names))) : "";
+		$surname = count($names) ? $this->formatName(array_pop($names)) : "";
+		$forename = count($names) ? $this->formatName(implode(" ", $names)) : "";
 
 		$app = app();
 		$values = $app->make('stdClass');
@@ -329,23 +329,6 @@ class PersonController extends Controller {
 			return $output->format($format);
 		}
 		return null;
-	}
-
-	/**
-	*
-	* Uppercase first letter of name and encode for database storage
-	* @param  string  $name
-	* @return Response
-	*
-	*/
-	private function formatName($name)
-	{
-		$characters = ["'", "-"];
-		$replacements = ["' ", "- "];
-		$name = str_replace($characters, $replacements, $name);
-		$name = ucwords(strtolower(trim($name)));
-		$name = htmlentities(str_replace($replacements, $characters, $name), ENT_QUOTES);
-		return $name;
 	}
 
 }

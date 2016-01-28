@@ -320,18 +320,19 @@ function createNewPerson() {
                text: json.text,
                value: json.value.toString()
             });
-            $('#empty-modal').modal('hide').html('');
-            $('#new-'+person_type+'-modal').modal();
-            $('#character_name').val($('#imdb-character-name').val());
-            $('[data-hide="true"]').slideUp().removeAttr('data-hide');
-            var selectize = $('#'+person_type+'_list')[0].selectize;
-            selectize.addOption(newPerson);
-            selectize.refreshOptions(false);
-            selectize.setValue(json.value,false);
-            var other_type = person_type == 'cast' ? 'crew' : 'cast';
-            var theOther = $('#'+other_type+'_list')[0].selectize;
-            theOther.addOption(newPerson);
-            theOther.refreshOptions(false);
+            $('#empty-modal').modal('hide').html('').on('hidden.bs.modal', function (e) {
+               $('#new-'+person_type+'-modal').modal();
+               $('#character_name').val($('#imdb-character-name').val());
+               $('[data-hide="true"]').slideUp().removeAttr('data-hide');
+               var selectize = $('#'+person_type+'_list')[0].selectize;
+               selectize.addOption(newPerson);
+               selectize.refreshOptions(false);
+               selectize.setValue(json.value,false);
+               var other_type = person_type == 'cast' ? 'crew' : 'cast';
+               var theOther = $('#'+other_type+'_list')[0].selectize;
+               theOther.addOption(newPerson);
+               theOther.refreshOptions(false);
+            });
          break;
       }
    });
@@ -358,7 +359,7 @@ function getCastFromIMDb(el) {
       }
    }).done(function(html){
       $(el).html('check IMDb');
-      $('#cast-list').replaceWith(html);
+      $('#cast-list').html(html);
       $('#copy-cast-div').hide();
    });
 }

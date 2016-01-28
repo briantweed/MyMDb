@@ -9,7 +9,7 @@ use App\Http\Requests\ValidateCreateMovie;
 
 class ChartController extends Controller {
 
-	use ImageFunctions, AdminChecks;
+	use SharedFunctions, AdminChecks;
 
 	private $isAdmin;
 

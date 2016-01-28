@@ -5,11 +5,11 @@
          {!! Form::open(['url'=>'people','files' => true, 'id'=>'create_new_person_form']) !!}
             @include('segments.forms.form_builder')
          {!! Form::close() !!}
-      <div id="create_person_error" class="row has-error hide">
-         <div class="col-xs-12 text-right">
-            <label id="create_person_error_message" for="formGroupInputSmall" class="control-label"></label>
+         <div id="create_person_error" class="row has-error hide">
+            <div class="col-xs-12 text-right">
+               <label id="create_person_error_message" for="formGroupInputSmall" class="control-label"></label>
+            </div>
          </div>
-      </div>
       </div>
       <div class="modal-footer">
          <div class="col-xs-offset-4 col-xs-3">

@@ -17,7 +17,7 @@ use App\Http\Requests\ValidateCreateMovie;
 
 class ApiController extends Controller {
 
-	use ImageFunctions, AdminChecks;
+	use SharedFunctions, AdminChecks;
 
 	private $isAdmin;
 
@@ -49,14 +49,14 @@ class ApiController extends Controller {
 			{
 				$imdb = $imdb_api->data->names[0];
 				$names = array_values(array_filter(explode(' ', $imdb->name)));
-				$surname = count($names) ? ucwords(strtolower(array_pop($names))) : "";
-				$forename = count($names) ? ucwords(strtolower(implode(" ", $names))) : "";
+				$surname = count($names) ? $this->formatName(array_pop($names)) : "";
+				$forename = count($names) ? $this->formatName(implode(" ", $names)) : "";
 
 				$app = app();
 				$values = $app->make('stdClass');
 				$values->forename = $forename;
 				$values->surname = $surname;
-				$values->bio = $str = substr($imdb->bio, 0, 1500)." ....";
+				$values->bio = strlen($imdb->bio) > 1000 ? substr($imdb->bio, 0, 1000)." ...." : $imdb->bio;
 				if(isset($imdb->dateOfBirth))
 				{
 					$born = new DateTime(preg_replace("/[^a-zA-Z0-9]/", ' ', $imdb->dateOfBirth));
@@ -195,7 +195,7 @@ class ApiController extends Controller {
 				$imdb = $imdb_api->data->movies[0];
 				foreach($imdb->actors as $actor)
 				{
-					$actor->character = trim(preg_replace("/[^a-zA-Z0-9\s]/", '', $actor->character));
+					$actor->clean_character = trim(preg_replace("/[^a-zA-Z0-9\s]/", '', $actor->character));
 					$person = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), htmlentities($actor->actorName, ENT_QUOTES))->first();
 					if($person)
 					{

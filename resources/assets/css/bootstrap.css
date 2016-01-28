@@ -6567,6 +6567,9 @@ div.feature-content {
 .modal-content .modal-footer {
   border-top: none; }
 
+.modal-open {
+  padding-right: 0 !important; }
+
 footer {
   color: #f2f2f2;
   padding: 20px 0;

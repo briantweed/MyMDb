@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
 
 class AjaxController extends Controller
 {
-   use ImageFunctions, AdminChecks;
+   use SharedFunctions, AdminChecks;
 
    protected $isAdmin;
 

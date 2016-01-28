@@ -105,7 +105,9 @@
                   <div class="col-xs-5"><b>Film</b></div>
                   <div class="col-xs-3"><b>Character</b></div>
                </div>
-               @include('people.roles')
+               <div id="role-list">
+                  @include('people.roles')
+               </div>
             </div>
 
             <div role="tabpanel" class="tab-pane fade in" id="positions">
@@ -118,7 +120,9 @@
                   <div class="col-xs-5"><b>Film</b></div>
                   <div class="col-xs-3"><b>Position</b></div>
                </div>
-               @include('people.positions')
+               <div id="position-list">
+                  @include('people.positions')
+               </div>
             </div>
 
          </div>

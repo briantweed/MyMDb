@@ -755,13 +755,13 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
             array (
                 'person_id' => 59,
                 'forename' => 'Sally',
-                'surname' => 'Fields',
-                'birthday' => NULL,
+                'surname' => 'Field',
+                'birthday' => '1946-11-06',
                 'deceased' => NULL,
                 'image' => 'sally_fields_1453298016.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:22:31',
-                'updated_at' => '2016-01-20 13:53:36',
+                'updated_at' => '2016-01-28 11:14:19',
             ),
             59 => 
             array (
@@ -1338,26 +1338,26 @@ Spielberg\'s first major directorial effort was The Sugarland Express (1974), wi
             106 => 
             array (
                 'person_id' => 107,
-                'forename' => 'William H',
+                'forename' => 'William H.',
                 'surname' => 'Macy',
                 'birthday' => '1950-03-13',
                 'deceased' => NULL,
-                'image' => 'images/people/william_h_macey_1453384482.jpg',
+                'image' => 'william_h_macey_1453384482.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:11:58',
-                'updated_at' => '2016-01-27 12:18:10',
+                'updated_at' => '2016-01-28 11:27:49',
             ),
             107 => 
             array (
                 'person_id' => 108,
-                'forename' => 'Tea',
+                'forename' => 'T&eacute;a',
                 'surname' => 'Leoni',
                 'birthday' => '1966-02-25',
                 'deceased' => NULL,
                 'image' => 'tea_leoni_1453384524.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:12:20',
-                'updated_at' => '2016-01-21 13:55:24',
+                'updated_at' => '2016-01-28 11:29:26',
             ),
             108 => 
             array (
@@ -1423,29 +1423,17 @@ Pratt played major supporting roles in several television series, including Ever
             ),
             113 => 
             array (
-                'person_id' => 114,
-                'forename' => 'Bryce ',
-                'surname' => 'Dallas Howard',
-                'birthday' => '1981-03-02',
-                'deceased' => NULL,
-                'image' => 'bryce__dallas_howard_1453384862.jpg',
-                'bio' => '',
-                'created_at' => '2016-01-14 22:16:03',
-                'updated_at' => '2016-01-21 14:01:02',
-            ),
-            114 => 
-            array (
                 'person_id' => 115,
                 'forename' => 'Vincent',
-                'surname' => 'D\'Onofrio',
+                'surname' => 'D&#039;Onofrio',
                 'birthday' => '1959-06-30',
                 'deceased' => NULL,
                 'image' => 'vincent_d\'onofrio_1453384903.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:16:36',
-                'updated_at' => '2016-01-21 14:01:43',
+                'updated_at' => '2016-01-28 11:31:11',
             ),
-            115 => 
+            114 => 
             array (
                 'person_id' => 116,
                 'forename' => 'Ty',
@@ -1457,7 +1445,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:19:58',
                 'updated_at' => '2016-01-21 14:02:28',
             ),
-            116 => 
+            115 => 
             array (
                 'person_id' => 117,
                 'forename' => 'Nick',
@@ -1469,7 +1457,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:20:13',
                 'updated_at' => '2016-01-21 14:03:07',
             ),
-            117 => 
+            116 => 
             array (
                 'person_id' => 118,
                 'forename' => 'Jake',
@@ -1481,7 +1469,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:20:30',
                 'updated_at' => '2016-01-21 14:03:49',
             ),
-            118 => 
+            117 => 
             array (
                 'person_id' => 119,
                 'forename' => 'Judy',
@@ -1493,7 +1481,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:20:49',
                 'updated_at' => '2016-01-21 14:04:36',
             ),
-            119 => 
+            118 => 
             array (
                 'person_id' => 120,
                 'forename' => 'Omar',
@@ -1505,7 +1493,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:21:12',
                 'updated_at' => '2016-01-21 14:05:04',
             ),
-            120 => 
+            119 => 
             array (
                 'person_id' => 121,
                 'forename' => 'Robert',
@@ -1517,7 +1505,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:32:12',
                 'updated_at' => '2016-01-21 16:08:06',
             ),
-            121 => 
+            120 => 
             array (
                 'person_id' => 122,
                 'forename' => 'Chris',
@@ -1529,7 +1517,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:32:32',
                 'updated_at' => '2016-01-21 16:08:35',
             ),
-            122 => 
+            121 => 
             array (
                 'person_id' => 123,
                 'forename' => 'Mark',
@@ -1541,7 +1529,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:32:53',
                 'updated_at' => '2016-01-21 16:09:03',
             ),
-            123 => 
+            122 => 
             array (
                 'person_id' => 124,
                 'forename' => 'Chris',
@@ -1553,7 +1541,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:33:39',
                 'updated_at' => '2016-01-19 14:26:39',
             ),
-            124 => 
+            123 => 
             array (
                 'person_id' => 125,
                 'forename' => 'Scarlett',
@@ -1565,7 +1553,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:33:53',
                 'updated_at' => '2016-01-21 16:09:34',
             ),
-            125 => 
+            124 => 
             array (
                 'person_id' => 126,
                 'forename' => 'Jeremy',
@@ -1577,7 +1565,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:34:11',
                 'updated_at' => '2016-01-21 16:10:02',
             ),
-            126 => 
+            125 => 
             array (
                 'person_id' => 127,
                 'forename' => 'Tom',
@@ -1589,7 +1577,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:35:32',
                 'updated_at' => '2016-01-21 16:10:30',
             ),
-            127 => 
+            126 => 
             array (
                 'person_id' => 128,
                 'forename' => 'Clark',
@@ -1601,7 +1589,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:35:50',
                 'updated_at' => '2016-01-21 16:10:56',
             ),
-            128 => 
+            127 => 
             array (
                 'person_id' => 129,
                 'forename' => 'Cobie',
@@ -1613,19 +1601,19 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:36:08',
                 'updated_at' => '2016-01-21 16:11:39',
             ),
-            129 => 
+            128 => 
             array (
                 'person_id' => 130,
                 'forename' => 'Stellan',
-                'surname' => 'Skarsgard',
+                'surname' => 'Skarsg&aring;rd',
                 'birthday' => '1951-06-13',
                 'deceased' => NULL,
                 'image' => 'stellan_skarsgard_1453392734.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:36:26',
-                'updated_at' => '2016-01-21 16:12:14',
+                'updated_at' => '2016-01-28 11:12:20',
             ),
-            130 => 
+            129 => 
             array (
                 'person_id' => 131,
                 'forename' => 'Gwyneth',
@@ -1637,7 +1625,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:37:12',
                 'updated_at' => '2016-01-21 16:12:46',
             ),
-            131 => 
+            130 => 
             array (
                 'person_id' => 132,
                 'forename' => 'Paul',
@@ -1649,7 +1637,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:37:27',
                 'updated_at' => '2016-01-21 16:13:16',
             ),
-            132 => 
+            131 => 
             array (
                 'person_id' => 133,
                 'forename' => 'Alan',
@@ -1661,7 +1649,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:38:50',
                 'updated_at' => '2016-01-21 16:14:54',
             ),
-            133 => 
+            132 => 
             array (
                 'person_id' => 134,
                 'forename' => 'Leonardo',
@@ -1673,7 +1661,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:41:13',
                 'updated_at' => '2016-01-21 16:13:44',
             ),
-            134 => 
+            133 => 
             array (
                 'person_id' => 135,
                 'forename' => 'Kate',
@@ -1685,7 +1673,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:41:34',
                 'updated_at' => '2016-01-22 14:20:53',
             ),
-            135 => 
+            134 => 
             array (
                 'person_id' => 136,
                 'forename' => 'Billy',
@@ -1697,7 +1685,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:41:52',
                 'updated_at' => '2016-01-14 22:41:52',
             ),
-            136 => 
+            135 => 
             array (
                 'person_id' => 137,
                 'forename' => 'Kathy',
@@ -1709,7 +1697,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:42:09',
                 'updated_at' => '2016-01-22 09:16:40',
             ),
-            137 => 
+            136 => 
             array (
                 'person_id' => 138,
                 'forename' => 'Frances',
@@ -1721,7 +1709,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:42:26',
                 'updated_at' => '2016-01-22 09:17:18',
             ),
-            138 => 
+            137 => 
             array (
                 'person_id' => 139,
                 'forename' => 'Bernard',
@@ -1733,7 +1721,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:43:31',
                 'updated_at' => '2016-01-22 09:17:41',
             ),
-            139 => 
+            138 => 
             array (
                 'person_id' => 140,
                 'forename' => 'David',
@@ -1745,7 +1733,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:43:58',
                 'updated_at' => '2016-01-22 09:18:34',
             ),
-            140 => 
+            139 => 
             array (
                 'person_id' => 141,
                 'forename' => 'Victor',
@@ -1757,7 +1745,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:44:17',
                 'updated_at' => '2016-01-22 09:19:09',
             ),
-            141 => 
+            140 => 
             array (
                 'person_id' => 142,
                 'forename' => 'Jonathan',
@@ -1769,7 +1757,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:44:35',
                 'updated_at' => '2016-01-22 09:21:13',
             ),
-            142 => 
+            141 => 
             array (
                 'person_id' => 143,
                 'forename' => 'Danny',
@@ -1781,7 +1769,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:45:29',
                 'updated_at' => '2016-01-22 09:22:07',
             ),
-            143 => 
+            142 => 
             array (
                 'person_id' => 144,
                 'forename' => 'Ioan',
@@ -1793,7 +1781,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'created_at' => '2016-01-14 22:46:33',
                 'updated_at' => '2016-01-22 09:22:25',
             ),
-            144 => 
+            143 => 
             array (
                 'person_id' => 145,
                 'forename' => 'Ben',
@@ -1809,7 +1797,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 22:49:25',
                 'updated_at' => '2016-01-19 15:04:58',
             ),
-            145 => 
+            144 => 
             array (
                 'person_id' => 146,
                 'forename' => 'Bryan',
@@ -1821,7 +1809,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 22:49:42',
                 'updated_at' => '2016-01-22 09:22:44',
             ),
-            146 => 
+            145 => 
             array (
                 'person_id' => 147,
                 'forename' => 'Alan',
@@ -1833,7 +1821,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 22:50:00',
                 'updated_at' => '2016-01-22 09:23:09',
             ),
-            147 => 
+            146 => 
             array (
                 'person_id' => 148,
                 'forename' => 'John',
@@ -1845,7 +1833,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 22:50:16',
                 'updated_at' => '2016-01-22 09:23:31',
             ),
-            148 => 
+            147 => 
             array (
                 'person_id' => 149,
                 'forename' => 'Rory',
@@ -1857,7 +1845,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 22:51:50',
                 'updated_at' => '2016-01-22 09:24:11',
             ),
-            149 => 
+            148 => 
             array (
                 'person_id' => 150,
                 'forename' => 'Alexandre',
@@ -1869,7 +1857,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 22:54:07',
                 'updated_at' => '2016-01-22 09:28:21',
             ),
-            150 => 
+            149 => 
             array (
                 'person_id' => 151,
                 'forename' => 'Sam',
@@ -1881,7 +1869,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 22:59:32',
                 'updated_at' => '2016-01-22 09:31:43',
             ),
-            151 => 
+            150 => 
             array (
                 'person_id' => 152,
                 'forename' => 'Zoe',
@@ -1893,7 +1881,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 22:59:56',
                 'updated_at' => '2016-01-22 09:32:39',
             ),
-            152 => 
+            151 => 
             array (
                 'person_id' => 153,
                 'forename' => 'Stephen',
@@ -1905,7 +1893,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:00:15',
                 'updated_at' => '2016-01-22 09:33:03',
             ),
-            153 => 
+            152 => 
             array (
                 'person_id' => 154,
                 'forename' => 'Michelle',
@@ -1917,7 +1905,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:00:44',
                 'updated_at' => '2016-01-22 09:33:28',
             ),
-            154 => 
+            153 => 
             array (
                 'person_id' => 155,
                 'forename' => 'Giovanni',
@@ -1929,7 +1917,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:01:03',
                 'updated_at' => '2016-01-22 09:33:57',
             ),
-            155 => 
+            154 => 
             array (
                 'person_id' => 156,
                 'forename' => 'Joel',
@@ -1941,7 +1929,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:01:23',
                 'updated_at' => '2016-01-22 09:35:12',
             ),
-            156 => 
+            155 => 
             array (
                 'person_id' => 157,
                 'forename' => 'CCH',
@@ -1953,19 +1941,19 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:01:48',
                 'updated_at' => '2016-01-22 09:36:14',
             ),
-            157 => 
+            156 => 
             array (
                 'person_id' => 158,
-                'forename' => 'Michael J',
+                'forename' => 'Michael J.',
                 'surname' => 'Fox',
                 'birthday' => NULL,
                 'deceased' => NULL,
                 'image' => 'michael_j_fox_1453033457.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:04:09',
-                'updated_at' => '2016-01-17 12:24:17',
+                'updated_at' => '2016-01-28 11:35:53',
             ),
-            158 => 
+            157 => 
             array (
                 'person_id' => 159,
                 'forename' => 'Christopher',
@@ -1977,7 +1965,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:04:54',
                 'updated_at' => '2016-01-22 09:36:56',
             ),
-            159 => 
+            158 => 
             array (
                 'person_id' => 160,
                 'forename' => 'Lea',
@@ -1989,7 +1977,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:05:33',
                 'updated_at' => '2016-01-17 12:23:40',
             ),
-            160 => 
+            159 => 
             array (
                 'person_id' => 161,
                 'forename' => 'Thomas',
@@ -2001,7 +1989,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:06:07',
                 'updated_at' => '2016-01-22 09:37:25',
             ),
-            161 => 
+            160 => 
             array (
                 'person_id' => 162,
                 'forename' => 'Claudia',
@@ -2013,7 +2001,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:06:20',
                 'updated_at' => '2016-01-22 09:37:53',
             ),
-            162 => 
+            161 => 
             array (
                 'person_id' => 163,
                 'forename' => 'James',
@@ -2025,7 +2013,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:07:09',
                 'updated_at' => '2016-01-14 23:07:09',
             ),
-            163 => 
+            162 => 
             array (
                 'person_id' => 164,
                 'forename' => 'Casey',
@@ -2037,7 +2025,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:07:29',
                 'updated_at' => '2016-01-22 09:38:54',
             ),
-            164 => 
+            163 => 
             array (
                 'person_id' => 165,
                 'forename' => 'Robert',
@@ -2049,7 +2037,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:08:36',
                 'updated_at' => '2016-01-17 12:24:52',
             ),
-            165 => 
+            164 => 
             array (
                 'person_id' => 166,
                 'forename' => 'Bob',
@@ -2061,7 +2049,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:08:52',
                 'updated_at' => '2016-01-22 09:39:12',
             ),
-            166 => 
+            165 => 
             array (
                 'person_id' => 167,
                 'forename' => 'Elisabeth',
@@ -2073,7 +2061,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:16:04',
                 'updated_at' => '2016-01-22 09:39:37',
             ),
-            167 => 
+            166 => 
             array (
                 'person_id' => 168,
                 'forename' => 'Jeffrey',
@@ -2085,7 +2073,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:17:11',
                 'updated_at' => '2016-01-22 09:40:01',
             ),
-            168 => 
+            167 => 
             array (
                 'person_id' => 169,
                 'forename' => 'Elijah',
@@ -2097,7 +2085,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:18:17',
                 'updated_at' => '2016-01-22 09:40:32',
             ),
-            169 => 
+            168 => 
             array (
                 'person_id' => 170,
                 'forename' => 'Flea',
@@ -2109,7 +2097,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:18:43',
                 'updated_at' => '2016-01-22 09:53:36',
             ),
-            170 => 
+            169 => 
             array (
                 'person_id' => 171,
                 'forename' => 'Mary',
@@ -2121,7 +2109,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:22:51',
                 'updated_at' => '2016-01-22 09:41:19',
             ),
-            171 => 
+            170 => 
             array (
                 'person_id' => 172,
                 'forename' => 'Matt',
@@ -2133,7 +2121,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:24:59',
                 'updated_at' => '2016-01-22 09:41:40',
             ),
-            172 => 
+            171 => 
             array (
                 'person_id' => 173,
                 'forename' => 'Pat',
@@ -2145,7 +2133,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:26:06',
                 'updated_at' => '2016-01-22 09:42:11',
             ),
-            173 => 
+            172 => 
             array (
                 'person_id' => 174,
                 'forename' => 'Bill',
@@ -2157,7 +2145,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:27:23',
                 'updated_at' => '2016-01-22 09:43:01',
             ),
-            174 => 
+            173 => 
             array (
                 'person_id' => 175,
                 'forename' => 'Matt',
@@ -2169,7 +2157,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:28:36',
                 'updated_at' => '2016-01-22 19:45:10',
             ),
-            175 => 
+            174 => 
             array (
                 'person_id' => 176,
                 'forename' => 'Paul',
@@ -2181,7 +2169,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:28:47',
                 'updated_at' => '2016-01-22 19:45:40',
             ),
-            176 => 
+            175 => 
             array (
                 'person_id' => 177,
                 'forename' => 'Matt',
@@ -2193,7 +2181,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:30:10',
                 'updated_at' => '2016-01-14 23:30:10',
             ),
-            177 => 
+            176 => 
             array (
                 'person_id' => 178,
                 'forename' => 'Franka',
@@ -2205,7 +2193,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:30:33',
                 'updated_at' => '2016-01-21 14:50:03',
             ),
-            178 => 
+            177 => 
             array (
                 'person_id' => 179,
                 'forename' => 'Chris',
@@ -2217,7 +2205,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:30:51',
                 'updated_at' => '2016-01-22 09:43:34',
             ),
-            179 => 
+            178 => 
             array (
                 'person_id' => 180,
                 'forename' => 'Clive',
@@ -2229,7 +2217,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:31:07',
                 'updated_at' => '2016-01-22 09:43:56',
             ),
-            180 => 
+            179 => 
             array (
                 'person_id' => 181,
                 'forename' => 'Brian',
@@ -2241,19 +2229,19 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:31:25',
                 'updated_at' => '2016-01-22 09:44:23',
             ),
-            181 => 
+            180 => 
             array (
                 'person_id' => 182,
                 'forename' => 'Adewale',
-                'surname' => 'Akinnuoye-agbaje',
+                'surname' => 'Akinnuoye-Agbaje',
                 'birthday' => '1967-08-22',
                 'deceased' => NULL,
                 'image' => 'adewale_akinnuoye-agbaje_1453455892.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:31:40',
-                'updated_at' => '2016-01-22 09:44:52',
+                'updated_at' => '2016-01-28 11:40:07',
             ),
-            182 => 
+            181 => 
             array (
                 'person_id' => 183,
                 'forename' => 'Julia',
@@ -2265,7 +2253,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:31:59',
                 'updated_at' => '2016-01-17 12:22:55',
             ),
-            183 => 
+            182 => 
             array (
                 'person_id' => 184,
                 'forename' => 'Tony',
@@ -2277,7 +2265,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:32:42',
                 'updated_at' => '2016-01-22 09:45:31',
             ),
-            184 => 
+            183 => 
             array (
                 'person_id' => 185,
                 'forename' => 'Doug',
@@ -2289,7 +2277,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:32:56',
                 'updated_at' => '2016-01-22 09:45:48',
             ),
-            185 => 
+            184 => 
             array (
                 'person_id' => 186,
                 'forename' => 'John',
@@ -2301,7 +2289,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:33:12',
                 'updated_at' => '2016-01-22 09:46:15',
             ),
-            186 => 
+            185 => 
             array (
                 'person_id' => 187,
                 'forename' => 'Paul',
@@ -2313,7 +2301,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:34:50',
                 'updated_at' => '2016-01-17 12:25:44',
             ),
-            187 => 
+            186 => 
             array (
                 'person_id' => 188,
                 'forename' => 'Karl',
@@ -2325,7 +2313,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:35:59',
                 'updated_at' => '2016-01-22 09:46:35',
             ),
-            188 => 
+            187 => 
             array (
                 'person_id' => 189,
                 'forename' => 'Gabriel',
@@ -2337,7 +2325,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:36:19',
                 'updated_at' => '2016-01-22 09:46:55',
             ),
-            189 => 
+            188 => 
             array (
                 'person_id' => 190,
                 'forename' => 'Joan',
@@ -2349,7 +2337,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:36:35',
                 'updated_at' => '2016-01-22 09:47:15',
             ),
-            190 => 
+            189 => 
             array (
                 'person_id' => 191,
                 'forename' => 'David',
@@ -2361,7 +2349,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:39:52',
                 'updated_at' => '2016-01-22 09:47:31',
             ),
-            191 => 
+            190 => 
             array (
                 'person_id' => 192,
                 'forename' => 'Scott',
@@ -2373,7 +2361,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:40:23',
                 'updated_at' => '2016-01-22 09:47:52',
             ),
-            192 => 
+            191 => 
             array (
                 'person_id' => 193,
                 'forename' => 'Paddy',
@@ -2385,7 +2373,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:40:42',
                 'updated_at' => '2016-01-22 09:48:12',
             ),
-            193 => 
+            192 => 
             array (
                 'person_id' => 194,
                 'forename' => 'Albert',
@@ -2397,7 +2385,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:41:04',
                 'updated_at' => '2016-01-22 09:48:30',
             ),
-            194 => 
+            193 => 
             array (
                 'person_id' => 195,
                 'forename' => 'Daniel',
@@ -2409,7 +2397,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-14 23:41:21',
                 'updated_at' => '2016-01-27 14:09:29',
             ),
-            195 => 
+            194 => 
             array (
                 'person_id' => 196,
                 'forename' => 'Christian',
@@ -2421,7 +2409,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-18 13:17:21',
                 'updated_at' => '2016-01-18 14:04:23',
             ),
-            196 => 
+            195 => 
             array (
                 'person_id' => 197,
                 'forename' => 'Michael',
@@ -2433,7 +2421,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-18 13:17:43',
                 'updated_at' => '2016-01-18 14:03:45',
             ),
-            197 => 
+            196 => 
             array (
                 'person_id' => 198,
                 'forename' => 'Liam',
@@ -2445,7 +2433,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-18 13:18:02',
                 'updated_at' => '2016-01-18 14:03:00',
             ),
-            198 => 
+            197 => 
             array (
                 'person_id' => 199,
                 'forename' => 'Katie',
@@ -2457,7 +2445,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-18 13:18:36',
                 'updated_at' => '2016-01-18 14:02:29',
             ),
-            199 => 
+            198 => 
             array (
                 'person_id' => 200,
                 'forename' => 'Gary',
@@ -2469,7 +2457,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-18 13:18:52',
                 'updated_at' => '2016-01-18 14:02:03',
             ),
-            200 => 
+            199 => 
             array (
                 'person_id' => 201,
                 'forename' => 'Cillian',
@@ -2481,7 +2469,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-18 13:19:14',
                 'updated_at' => '2016-01-18 14:01:30',
             ),
-            201 => 
+            200 => 
             array (
                 'person_id' => 202,
                 'forename' => 'Tom',
@@ -2493,7 +2481,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-18 13:19:38',
                 'updated_at' => '2016-01-22 09:49:30',
             ),
-            202 => 
+            201 => 
             array (
                 'person_id' => 203,
                 'forename' => 'Morgan',
@@ -2505,7 +2493,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-18 13:19:57',
                 'updated_at' => '2016-01-18 14:00:36',
             ),
-            203 => 
+            202 => 
             array (
                 'person_id' => 204,
                 'forename' => 'Christopher',
@@ -2517,7 +2505,7 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'created_at' => '2016-01-18 13:20:24',
                 'updated_at' => '2016-01-18 14:30:54',
             ),
-            204 => 
+            203 => 
             array (
                 'person_id' => 206,
                 'forename' => 'Heath',
@@ -2531,7 +2519,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:23:14',
                 'updated_at' => '2016-01-18 13:59:43',
             ),
-            205 => 
+            204 => 
             array (
                 'person_id' => 207,
                 'forename' => 'Aaron',
@@ -2543,7 +2531,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:23:29',
                 'updated_at' => '2016-01-18 13:57:29',
             ),
-            206 => 
+            205 => 
             array (
                 'person_id' => 208,
                 'forename' => 'Maggie',
@@ -2555,7 +2543,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:24:05',
                 'updated_at' => '2016-01-22 09:50:13',
             ),
-            207 => 
+            206 => 
             array (
                 'person_id' => 209,
                 'forename' => 'Nestor',
@@ -2567,7 +2555,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:26:09',
                 'updated_at' => '2016-01-22 09:50:25',
             ),
-            208 => 
+            207 => 
             array (
                 'person_id' => 210,
                 'forename' => 'Eric',
@@ -2579,7 +2567,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:26:38',
                 'updated_at' => '2016-01-18 14:05:06',
             ),
-            209 => 
+            208 => 
             array (
                 'person_id' => 211,
                 'forename' => 'Anthony Michael',
@@ -2591,7 +2579,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:27:50',
                 'updated_at' => '2016-01-22 09:50:46',
             ),
-            210 => 
+            209 => 
             array (
                 'person_id' => 212,
                 'forename' => 'Johnathan',
@@ -2603,7 +2591,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:28:25',
                 'updated_at' => '2016-01-22 19:43:27',
             ),
-            211 => 
+            210 => 
             array (
                 'person_id' => 213,
                 'forename' => 'Hans',
@@ -2615,7 +2603,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:29:04',
                 'updated_at' => '2016-01-22 09:51:06',
             ),
-            212 => 
+            211 => 
             array (
                 'person_id' => 214,
                 'forename' => 'Rutger',
@@ -2627,7 +2615,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:30:32',
                 'updated_at' => '2016-01-18 14:06:01',
             ),
-            213 => 
+            212 => 
             array (
                 'person_id' => 215,
                 'forename' => 'Ken',
@@ -2639,7 +2627,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:30:46',
                 'updated_at' => '2016-01-18 14:06:25',
             ),
-            214 => 
+            213 => 
             array (
                 'person_id' => 216,
                 'forename' => 'James Newton',
@@ -2651,7 +2639,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:31:34',
                 'updated_at' => '2016-01-22 19:42:43',
             ),
-            215 => 
+            214 => 
             array (
                 'person_id' => 217,
                 'forename' => 'Tom',
@@ -2663,7 +2651,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:36:25',
                 'updated_at' => '2016-01-18 14:07:00',
             ),
-            216 => 
+            215 => 
             array (
                 'person_id' => 218,
                 'forename' => 'Joseph',
@@ -2675,7 +2663,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:36:56',
                 'updated_at' => '2016-01-28 09:50:28',
             ),
-            217 => 
+            216 => 
             array (
                 'person_id' => 219,
                 'forename' => 'Marion',
@@ -2687,7 +2675,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:37:55',
                 'updated_at' => '2016-01-22 19:44:30',
             ),
-            218 => 
+            217 => 
             array (
                 'person_id' => 220,
                 'forename' => 'Matthew',
@@ -2699,7 +2687,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'created_at' => '2016-01-18 13:38:49',
                 'updated_at' => '2016-01-18 14:08:04',
             ),
-            219 => 
+            218 => 
             array (
                 'person_id' => 221,
                 'forename' => 'Natalie',
@@ -2715,7 +2703,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:42:08',
                 'updated_at' => '2016-01-18 14:09:19',
             ),
-            220 => 
+            219 => 
             array (
                 'person_id' => 222,
                 'forename' => 'Mila',
@@ -2727,7 +2715,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:43:07',
                 'updated_at' => '2016-01-18 14:09:45',
             ),
-            221 => 
+            220 => 
             array (
                 'person_id' => 223,
                 'forename' => 'Vincent',
@@ -2739,7 +2727,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:43:25',
                 'updated_at' => '2016-01-18 14:10:14',
             ),
-            222 => 
+            221 => 
             array (
                 'person_id' => 224,
                 'forename' => 'Barbara',
@@ -2751,7 +2739,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:45:12',
                 'updated_at' => '2016-01-22 09:55:56',
             ),
-            223 => 
+            222 => 
             array (
                 'person_id' => 225,
                 'forename' => 'Darren',
@@ -2763,7 +2751,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:46:35',
                 'updated_at' => '2016-01-22 10:00:17',
             ),
-            224 => 
+            223 => 
             array (
                 'person_id' => 226,
                 'forename' => 'Nicolas',
@@ -2775,7 +2763,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:52:14',
                 'updated_at' => '2016-01-18 14:11:04',
             ),
-            225 => 
+            224 => 
             array (
                 'person_id' => 227,
                 'forename' => 'Eva',
@@ -2787,7 +2775,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:53:02',
                 'updated_at' => '2016-01-18 14:11:38',
             ),
-            226 => 
+            225 => 
             array (
                 'person_id' => 228,
                 'forename' => 'Val',
@@ -2799,7 +2787,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:53:13',
                 'updated_at' => '2016-01-18 14:12:57',
             ),
-            227 => 
+            226 => 
             array (
                 'person_id' => 229,
                 'forename' => 'Xzibit',
@@ -2811,7 +2799,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:53:57',
                 'updated_at' => '2016-01-27 15:02:13',
             ),
-            228 => 
+            227 => 
             array (
                 'person_id' => 230,
                 'forename' => 'Fairuza',
@@ -2823,7 +2811,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:54:13',
                 'updated_at' => '2016-01-22 19:41:03',
             ),
-            229 => 
+            228 => 
             array (
                 'person_id' => 231,
                 'forename' => 'Michael',
@@ -2835,7 +2823,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:55:24',
                 'updated_at' => '2016-01-18 14:13:35',
             ),
-            230 => 
+            229 => 
             array (
                 'person_id' => 232,
                 'forename' => 'Werner',
@@ -2847,7 +2835,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-18 13:56:42',
                 'updated_at' => '2016-01-22 19:46:14',
             ),
-            231 => 
+            230 => 
             array (
                 'person_id' => 233,
                 'forename' => 'Milla',
@@ -2859,7 +2847,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:25:23',
                 'updated_at' => '2016-01-19 13:58:51',
             ),
-            232 => 
+            231 => 
             array (
                 'person_id' => 234,
                 'forename' => 'Chris',
@@ -2871,7 +2859,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:26:41',
                 'updated_at' => '2016-01-19 13:59:52',
             ),
-            233 => 
+            232 => 
             array (
                 'person_id' => 235,
                 'forename' => 'Luke',
@@ -2883,7 +2871,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:27:02',
                 'updated_at' => '2016-01-19 14:00:25',
             ),
-            234 => 
+            233 => 
             array (
                 'person_id' => 236,
                 'forename' => 'Brion',
@@ -2895,7 +2883,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:27:19',
                 'updated_at' => '2016-01-19 14:00:56',
             ),
-            235 => 
+            234 => 
             array (
                 'person_id' => 237,
                 'forename' => 'Tommy Tiny',
@@ -2907,7 +2895,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:27:39',
                 'updated_at' => '2016-01-19 14:01:48',
             ),
-            236 => 
+            235 => 
             array (
                 'person_id' => 238,
                 'forename' => 'Lee',
@@ -2919,7 +2907,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:27:58',
                 'updated_at' => '2016-01-19 14:02:42',
             ),
-            237 => 
+            236 => 
             array (
                 'person_id' => 239,
                 'forename' => 'Charlie Creed',
@@ -2931,7 +2919,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:28:30',
                 'updated_at' => '2016-01-19 14:03:16',
             ),
-            238 => 
+            237 => 
             array (
                 'person_id' => 240,
                 'forename' => 'Tricky',
@@ -2943,7 +2931,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:28:51',
                 'updated_at' => '2016-01-27 15:01:58',
             ),
-            239 => 
+            238 => 
             array (
                 'person_id' => 241,
                 'forename' => 'Mathieu',
@@ -2955,7 +2943,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:29:31',
                 'updated_at' => '2016-01-19 14:04:26',
             ),
-            240 => 
+            239 => 
             array (
                 'person_id' => 242,
                 'forename' => 'Kim',
@@ -2967,7 +2955,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:29:48',
                 'updated_at' => '2016-01-22 19:43:52',
             ),
-            241 => 
+            240 => 
             array (
                 'person_id' => 243,
                 'forename' => 'Christopher',
@@ -2979,7 +2967,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:30:49',
                 'updated_at' => '2016-01-19 14:05:08',
             ),
-            242 => 
+            241 => 
             array (
                 'person_id' => 244,
                 'forename' => 'Luc',
@@ -2991,7 +2979,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:31:33',
                 'updated_at' => '2016-01-19 14:05:45',
             ),
-            243 => 
+            242 => 
             array (
                 'person_id' => 245,
                 'forename' => 'Eric',
@@ -3003,7 +2991,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:32:07',
                 'updated_at' => '2016-01-19 14:17:15',
             ),
-            244 => 
+            243 => 
             array (
                 'person_id' => 246,
                 'forename' => 'Kristen',
@@ -3015,7 +3003,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:37:52',
                 'updated_at' => '2016-01-19 14:08:14',
             ),
-            245 => 
+            244 => 
             array (
                 'person_id' => 247,
                 'forename' => 'Anna',
@@ -3027,7 +3015,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:38:41',
                 'updated_at' => '2016-01-19 14:08:40',
             ),
-            246 => 
+            245 => 
             array (
                 'person_id' => 248,
                 'forename' => 'Fran',
@@ -3039,7 +3027,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:38:56',
                 'updated_at' => '2016-01-19 14:09:07',
             ),
-            247 => 
+            246 => 
             array (
                 'person_id' => 249,
                 'forename' => 'Jesse',
@@ -3051,7 +3039,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:39:26',
                 'updated_at' => '2016-01-19 14:09:37',
             ),
-            248 => 
+            247 => 
             array (
                 'person_id' => 250,
                 'forename' => 'Richard',
@@ -3063,7 +3051,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:39:40',
                 'updated_at' => '2016-01-19 14:11:19',
             ),
-            249 => 
+            248 => 
             array (
                 'person_id' => 251,
                 'forename' => 'Bradley',
@@ -3075,7 +3063,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:39:55',
                 'updated_at' => '2016-01-19 14:11:46',
             ),
-            250 => 
+            249 => 
             array (
                 'person_id' => 252,
                 'forename' => 'Drew',
@@ -3087,7 +3075,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:41:55',
                 'updated_at' => '2016-01-19 14:12:22',
             ),
-            251 => 
+            250 => 
             array (
                 'person_id' => 253,
                 'forename' => 'Virginia',
@@ -3099,7 +3087,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:46:00',
                 'updated_at' => '2016-01-19 14:12:51',
             ),
-            252 => 
+            251 => 
             array (
                 'person_id' => 254,
                 'forename' => 'Tony',
@@ -3111,7 +3099,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:46:11',
                 'updated_at' => '2016-01-19 14:13:15',
             ),
-            253 => 
+            252 => 
             array (
                 'person_id' => 255,
                 'forename' => 'Xander',
@@ -3123,7 +3111,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:46:31',
                 'updated_at' => '2016-01-19 14:15:05',
             ),
-            254 => 
+            253 => 
             array (
                 'person_id' => 256,
                 'forename' => 'Kasi',
@@ -3135,7 +3123,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:46:51',
                 'updated_at' => '2016-01-19 14:15:38',
             ),
-            255 => 
+            254 => 
             array (
                 'person_id' => 257,
                 'forename' => 'Vanessa',
@@ -3147,7 +3135,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:47:08',
                 'updated_at' => '2016-01-19 14:16:09',
             ),
-            256 => 
+            255 => 
             array (
                 'person_id' => 258,
                 'forename' => 'Ted',
@@ -3159,7 +3147,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:47:20',
                 'updated_at' => '2016-01-19 14:16:38',
             ),
-            257 => 
+            256 => 
             array (
                 'person_id' => 259,
                 'forename' => 'Bernard',
@@ -3171,7 +3159,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:49:31',
                 'updated_at' => '2016-01-22 09:58:47',
             ),
-            258 => 
+            257 => 
             array (
                 'person_id' => 260,
                 'forename' => 'Philip',
@@ -3183,7 +3171,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:50:19',
                 'updated_at' => '2016-01-19 14:18:36',
             ),
-            259 => 
+            258 => 
             array (
                 'person_id' => 261,
                 'forename' => 'Al',
@@ -3195,7 +3183,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:50:58',
                 'updated_at' => '2016-01-19 14:18:56',
             ),
-            260 => 
+            259 => 
             array (
                 'person_id' => 262,
                 'forename' => 'Sean',
@@ -3207,7 +3195,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:51:29',
                 'updated_at' => '2016-01-19 14:19:27',
             ),
-            261 => 
+            260 => 
             array (
                 'person_id' => 263,
                 'forename' => 'Penelope Ann',
@@ -3219,7 +3207,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:51:40',
                 'updated_at' => '2016-01-19 14:19:56',
             ),
-            262 => 
+            261 => 
             array (
                 'person_id' => 264,
                 'forename' => 'John',
@@ -3231,7 +3219,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:51:53',
                 'updated_at' => '2016-01-19 14:20:27',
             ),
-            263 => 
+            262 => 
             array (
                 'person_id' => 265,
                 'forename' => 'Luis',
@@ -3243,7 +3231,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:52:08',
                 'updated_at' => '2016-01-19 14:20:57',
             ),
-            264 => 
+            263 => 
             array (
                 'person_id' => 266,
                 'forename' => 'James',
@@ -3255,7 +3243,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:52:30',
                 'updated_at' => '2016-01-19 14:21:32',
             ),
-            265 => 
+            264 => 
             array (
                 'person_id' => 267,
                 'forename' => 'Viggo',
@@ -3267,7 +3255,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:52:44',
                 'updated_at' => '2016-01-19 14:22:20',
             ),
-            266 => 
+            265 => 
             array (
                 'person_id' => 268,
                 'forename' => 'Adrian',
@@ -3279,7 +3267,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:53:10',
                 'updated_at' => '2016-01-19 14:22:55',
             ),
-            267 => 
+            266 => 
             array (
                 'person_id' => 269,
                 'forename' => 'Brian',
@@ -3291,7 +3279,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:53:37',
                 'updated_at' => '2016-01-19 14:24:12',
             ),
-            268 => 
+            267 => 
             array (
                 'person_id' => 270,
                 'forename' => 'David',
@@ -3303,7 +3291,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-19 13:53:57',
                 'updated_at' => '2016-01-22 19:40:30',
             ),
-            269 => 
+            268 => 
             array (
                 'person_id' => 271,
                 'forename' => 'Irrfan',
@@ -3315,7 +3303,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-20 13:56:56',
                 'updated_at' => '2016-01-22 19:41:59',
             ),
-            270 => 
+            269 => 
             array (
                 'person_id' => 272,
                 'forename' => 'Bonnie',
@@ -3327,7 +3315,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-21 12:48:40',
                 'updated_at' => '2016-01-21 12:53:41',
             ),
-            271 => 
+            270 => 
             array (
                 'person_id' => 273,
                 'forename' => 'James',
@@ -3339,7 +3327,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-21 12:50:05',
                 'updated_at' => '2016-01-21 12:53:54',
             ),
-            272 => 
+            271 => 
             array (
                 'person_id' => 274,
                 'forename' => 'Reginald',
@@ -3351,7 +3339,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-21 12:50:43',
                 'updated_at' => '2016-01-21 12:54:17',
             ),
-            273 => 
+            272 => 
             array (
                 'person_id' => 275,
                 'forename' => 'Dane',
@@ -3363,7 +3351,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 19:56:07',
                 'updated_at' => '2016-01-22 19:58:00',
             ),
-            274 => 
+            273 => 
             array (
                 'person_id' => 276,
                 'forename' => 'Alex',
@@ -3375,7 +3363,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 19:56:25',
                 'updated_at' => '2016-01-22 19:58:17',
             ),
-            275 => 
+            274 => 
             array (
                 'person_id' => 277,
                 'forename' => 'Michael B.',
@@ -3387,7 +3375,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 19:56:40',
                 'updated_at' => '2016-01-22 19:58:39',
             ),
-            276 => 
+            275 => 
             array (
                 'person_id' => 278,
                 'forename' => 'Michael',
@@ -3399,7 +3387,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 19:56:57',
                 'updated_at' => '2016-01-22 19:59:02',
             ),
-            277 => 
+            276 => 
             array (
                 'person_id' => 279,
                 'forename' => 'Ashley',
@@ -3411,7 +3399,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 19:57:14',
                 'updated_at' => '2016-01-22 19:59:34',
             ),
-            278 => 
+            277 => 
             array (
                 'person_id' => 280,
                 'forename' => 'Tom',
@@ -3423,7 +3411,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 20:02:41',
                 'updated_at' => '2016-01-22 20:06:10',
             ),
-            279 => 
+            278 => 
             array (
                 'person_id' => 281,
                 'forename' => 'Jamie',
@@ -3435,7 +3423,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 20:02:59',
                 'updated_at' => '2016-01-22 20:06:32',
             ),
-            280 => 
+            279 => 
             array (
                 'person_id' => 282,
                 'forename' => 'Jada Pinkett',
@@ -3447,7 +3435,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 20:03:09',
                 'updated_at' => '2016-01-22 20:07:06',
             ),
-            281 => 
+            280 => 
             array (
                 'person_id' => 283,
                 'forename' => 'Peter',
@@ -3459,19 +3447,19 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 20:03:39',
                 'updated_at' => '2016-01-22 20:07:34',
             ),
-            282 => 
+            281 => 
             array (
                 'person_id' => 284,
                 'forename' => 'Bruce',
-                'surname' => 'Mcgill',
+                'surname' => 'McGill',
                 'birthday' => '1950-07-11',
                 'deceased' => NULL,
                 'image' => 'bruce_mcgill_1453493278.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 20:03:51',
-                'updated_at' => '2016-01-22 20:07:58',
+                'updated_at' => '2016-01-28 12:22:26',
             ),
-            283 => 
+            282 => 
             array (
                 'person_id' => 285,
                 'forename' => 'Debi',
@@ -3483,7 +3471,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 20:04:08',
                 'updated_at' => '2016-01-22 20:08:30',
             ),
-            284 => 
+            283 => 
             array (
                 'person_id' => 286,
                 'forename' => 'Javier',
@@ -3495,7 +3483,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 20:04:21',
                 'updated_at' => '2016-01-22 20:08:59',
             ),
-            285 => 
+            284 => 
             array (
                 'person_id' => 287,
                 'forename' => 'Michael',
@@ -3507,7 +3495,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-22 20:04:41',
                 'updated_at' => '2016-01-22 20:09:20',
             ),
-            286 => 
+            285 => 
             array (
                 'person_id' => 288,
                 'forename' => 'Ko',
@@ -3519,19 +3507,19 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 11:42:41',
                 'updated_at' => '2016-01-27 11:42:41',
             ),
-            287 => 
+            286 => 
             array (
                 'person_id' => 289,
-                'forename' => 'Cary-hiroyuki',
+                'forename' => 'Cary-Hiroyuki',
                 'surname' => 'Tagawa',
                 'birthday' => '1950-09-27',
                 'deceased' => NULL,
                 'image' => 'Cary_hiroyuki_Tagawa_1453894977.jpg',
             'bio' => 'Cary-Hiroyuki Tagawa got his first big break as an actor when he was cast in Bernardo Bertolucci&#039;s Le dernier empereur (1987). A US Army brat, he was born in Tokyo and lived in various cities while growing up. His father was in the army, stationed at Ft. Bragg (NC), Ft. Polk (LA) and Ft. Hood (TX). His mother was an actress from Tokyo. The family finally settled in Southern California, where Tagawa began acting in high school. He was an exchange student in Japan while studying at the University of Southern California. He has recently been involved off-screen in addressing student groups (at SFSU and Stanford). He has also been coaching the martial artist portraying Shang Tsung in the Mortal Kombat Live Tour, and in his free time developing his new form of martial arts, called &quot;Chun Shin.&quot;',
                 'created_at' => '2016-01-27 11:42:57',
-                'updated_at' => '2016-01-27 11:42:57',
+                'updated_at' => '2016-01-28 11:40:23',
             ),
-            288 => 
+            287 => 
             array (
                 'person_id' => 290,
                 'forename' => 'Rinko',
@@ -3543,7 +3531,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 11:43:06',
                 'updated_at' => '2016-01-27 11:43:06',
             ),
-            289 => 
+            288 => 
             array (
                 'person_id' => 291,
                 'forename' => 'Timothy',
@@ -3555,19 +3543,19 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 11:43:58',
                 'updated_at' => '2016-01-27 11:43:58',
             ),
-            290 => 
+            289 => 
             array (
                 'person_id' => 292,
                 'forename' => 'Paul',
-                'surname' => 'Mcgann',
+                'surname' => 'McGann',
                 'birthday' => '1959-11-14',
                 'deceased' => NULL,
                 'image' => 'Paul_Mcgann_1453895099.jpg',
             'bio' => 'Paul McGann was born on November 14, 1959 in Liverpool, England. He is an actor, known for Alien&sup3; (1992), Withnail &amp; I (1987) and Queen of the Damned (2002). He has been married to Annie Milner since 1992. They have two children.',
                 'created_at' => '2016-01-27 11:44:59',
-                'updated_at' => '2016-01-27 11:44:59',
+                'updated_at' => '2016-01-28 12:24:01',
             ),
-            291 => 
+            290 => 
             array (
                 'person_id' => 293,
                 'forename' => 'Brian',
@@ -3579,7 +3567,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 11:45:10',
                 'updated_at' => '2016-01-27 11:45:10',
             ),
-            292 => 
+            291 => 
             array (
                 'person_id' => 294,
                 'forename' => 'Rachel',
@@ -3591,7 +3579,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 11:46:47',
                 'updated_at' => '2016-01-27 11:46:47',
             ),
-            293 => 
+            292 => 
             array (
                 'person_id' => 295,
                 'forename' => 'Gloria',
@@ -3603,7 +3591,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 11:47:51',
                 'updated_at' => '2016-01-27 11:47:51',
             ),
-            294 => 
+            293 => 
             array (
                 'person_id' => 296,
                 'forename' => 'Brandon',
@@ -3615,7 +3603,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 11:48:50',
                 'updated_at' => '2016-01-27 11:48:50',
             ),
-            295 => 
+            294 => 
             array (
                 'person_id' => 297,
                 'forename' => 'Ernie',
@@ -3627,19 +3615,23 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 11:49:01',
                 'updated_at' => '2016-01-27 11:49:01',
             ),
-            296 => 
+            295 => 
             array (
                 'person_id' => 298,
-                'forename' => 'Yun-fat',
+                'forename' => 'Yun-Fat',
                 'surname' => 'Chow',
                 'birthday' => '1955-05-18',
                 'deceased' => NULL,
                 'image' => 'Yun_fat_Chow_1453895430.jpg',
-            'bio' => 'Chow Yun Fat is a charismatic, athletically built and energetic Asian-born film star who first came to the attention of western audiences via his roles in the high-octane/blazing guns action films of maverick HK director John Woo. Chow as born in 1955 on the quiet island of Lamma, part of the then-British colony of Hong Kong, near its famous Victoria Harbour. His mother was a vegetable farmer and cleaning lady, and his father worked on a Shell Oil Company tanker. Chow&#039;s family moved to urban Hong Kong in 1965 and in early 1973, Chow attended a casting call for TVB, a division of Shaw Bros. productions. With his good looks and easy-going style, Chow was originally a heartthrob actor in non-demanding TV and film roles. However, his popularity increased with his appearance as white-suited gangster Hui Man-Keung in the highly popular drama TV series Shang Hai tan (1983). In 1985, Chow started receiving acclaim for his work and scored the Golden Horse (Best Actor) Award in Taiwan and another Best Actor Award from the Asian Pacific Film Festival for his performance in Dang doi lai ming (1984). With these accolades, Chow came to the attention of Woo, who cast Chow in the fast-paced gangster film A Better Tomorrow (1986) (aka &quot;A Better Tomorrow&quot;). The rest, as they say, is history. The film was an enormous commercial success, and Chow&#039;s influence on young Asian males was not dissimilar to the adulation given to previous Asian film sensations such as Bruce Lee or Jackie Chan. Nearly every young guy in Hong Kong ran out and bought himself a &quot;Mark Coat,&quot; as they became known--a long, heavy woolen coat worn by Chow in the movie (although it is is actually very unsuited to Hong Kong&#039;s hot and humid climate). Further hard-edged roles in more John Woo crime films escalated Chow&#039;s popularity even higher, and fans all over the world flocked to see A Better Tomorrow II (1987) (aka &quot;A Better Tomorrow 2&quot;), The Killer (1989) (aka &quot;The Killer&quot;), and Hard Boiled (1992) (aka &quot;Hard Boiled&quot;). With the phenomenal global interest in the HK action genre, Chow was enticed to the United States and appeared in The Replacement Killers (1998) with Mira Sorvino, The Corruptor (1999) with Mark Wahlberg, and, for a change of pace, in the often-filmed romantic tale of Anna and the King (1999). Chow then returned to the Asian cinema circuit and starred in the critically lauded kung fu epic Crouching Tiger, Hidden Dragon (2000) (aka &quot;Crouching Tiger, Hidden Dragon&quot;). His wide appeal can be seen in his &quot;boy next door&quot; type of personality and his ability to play such a broad spectrum of roles from a comedic buffoon to a lovestruck Romeo to a trigger-happy professional killer. A highly entertaining and gifted actor with dynamic on-screen presence, Chow continues to remain in strong demand in many film markets.',
+                'bio' => 'Chow Yun Fat is a charismatic, athletically built and energetic Asian-born film star who first came to the attention of western audiences via his roles in the high-octane/blazing guns action films of maverick HK director John Woo. Chow as born in 1955 on the quiet island of Lamma, part of the then-British colony of Hong Kong, near its famous Victoria Harbour. His mother was a vegetable farmer and cleaning lady, and his father worked on a Shell Oil Company tanker. Chow&#039;s family moved to urban Hong Kong in 1965 and in early 1973.
+
+Chow came to the attention of Woo, who cast Chow in the fast-paced gangster film A Better Tomorrow (1986). Further hard-edged roles in more John Woo crime films escalated Chow&#039;s popularity even higher, and fans all over the world flocked to see A Better Tomorrow II (1987), {{The Killer (1989)}} and Hard Boiled (1992). 
+
+With the phenomenal global interest in the HK action genre, Chow was enticed to the United States and appeared in The Replacement Killers (1998) with Mira Sorvino, The Corruptor (1999) with Mark Wahlberg, and, for a change of pace, in the often-filmed romantic tale of Anna and the King (1999). Chow then returned to the Asian cinema circuit and starred in the critically lauded kung fu epic {{Crouching Tiger, Hidden Dragon (2000)}}',
                 'created_at' => '2016-01-27 11:50:30',
-                'updated_at' => '2016-01-27 11:50:30',
+                'updated_at' => '2016-01-28 11:43:29',
             ),
-            297 => 
+            296 => 
             array (
                 'person_id' => 299,
                 'forename' => 'Meat',
@@ -3651,7 +3643,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 11:53:36',
                 'updated_at' => '2016-01-27 11:53:36',
             ),
-            298 => 
+            297 => 
             array (
                 'person_id' => 300,
                 'forename' => 'Glenn',
@@ -3663,7 +3655,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:19:02',
                 'updated_at' => '2016-01-27 12:19:02',
             ),
-            299 => 
+            298 => 
             array (
                 'person_id' => 301,
                 'forename' => 'Dean',
@@ -3675,7 +3667,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:19:19',
                 'updated_at' => '2016-01-27 12:19:19',
             ),
-            300 => 
+            299 => 
             array (
                 'person_id' => 302,
                 'forename' => 'Paul',
@@ -3687,7 +3679,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:20:03',
                 'updated_at' => '2016-01-27 12:20:03',
             ),
-            301 => 
+            300 => 
             array (
                 'person_id' => 303,
                 'forename' => 'Wendy',
@@ -3699,7 +3691,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:20:31',
                 'updated_at' => '2016-01-27 12:20:31',
             ),
-            302 => 
+            301 => 
             array (
                 'person_id' => 304,
                 'forename' => 'Billy Dee',
@@ -3711,7 +3703,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:23:02',
                 'updated_at' => '2016-01-27 12:23:02',
             ),
-            303 => 
+            302 => 
             array (
                 'person_id' => 305,
                 'forename' => 'Frank',
@@ -3723,7 +3715,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:23:16',
                 'updated_at' => '2016-01-27 12:23:16',
             ),
-            304 => 
+            303 => 
             array (
                 'person_id' => 306,
                 'forename' => 'Jeremy',
@@ -3735,7 +3727,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:23:35',
                 'updated_at' => '2016-01-27 12:23:35',
             ),
-            305 => 
+            304 => 
             array (
                 'person_id' => 307,
                 'forename' => 'Sebastian',
@@ -3747,7 +3739,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:24:22',
                 'updated_at' => '2016-01-27 12:24:22',
             ),
-            306 => 
+            305 => 
             array (
                 'person_id' => 308,
                 'forename' => 'Brian',
@@ -3759,7 +3751,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:51:37',
                 'updated_at' => '2016-01-27 12:51:37',
             ),
-            307 => 
+            306 => 
             array (
                 'person_id' => 309,
                 'forename' => 'Jeff',
@@ -3771,7 +3763,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:51:54',
                 'updated_at' => '2016-01-27 12:51:54',
             ),
-            308 => 
+            307 => 
             array (
                 'person_id' => 310,
                 'forename' => 'Jason',
@@ -3783,7 +3775,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:52:09',
                 'updated_at' => '2016-01-27 12:52:09',
             ),
-            309 => 
+            308 => 
             array (
                 'person_id' => 311,
                 'forename' => 'Kevin',
@@ -3795,7 +3787,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:52:31',
                 'updated_at' => '2016-01-27 12:52:31',
             ),
-            310 => 
+            309 => 
             array (
                 'person_id' => 312,
                 'forename' => 'Bai',
@@ -3807,7 +3799,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:53:28',
                 'updated_at' => '2016-01-27 12:53:28',
             ),
-            311 => 
+            310 => 
             array (
                 'person_id' => 313,
                 'forename' => 'Michelle',
@@ -3819,7 +3811,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:54:47',
                 'updated_at' => '2016-01-27 12:54:47',
             ),
-            312 => 
+            311 => 
             array (
                 'person_id' => 314,
                 'forename' => 'Ziyi',
@@ -3831,7 +3823,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:55:14',
                 'updated_at' => '2016-01-27 12:55:14',
             ),
-            313 => 
+            312 => 
             array (
                 'person_id' => 315,
                 'forename' => 'Meg',
@@ -3843,19 +3835,19 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:55:44',
                 'updated_at' => '2016-01-27 12:55:44',
             ),
-            314 => 
+            313 => 
             array (
                 'person_id' => 316,
                 'forename' => 'Kyle',
-                'surname' => 'Maclachlan',
+                'surname' => 'MacLachlan',
                 'birthday' => '1959-02-22',
                 'deceased' => NULL,
                 'image' => 'Kyle_Maclachlan_1453899353.jpg',
             'bio' => 'The &quot;boy next door, if that boy spent lots of time alone in the basement&quot;, is how Rich Cohen described Kyle MacLachlan in a 1994 article for &quot;Rolling Stone&quot; magazine. That distinctly askew wholesomeness made MacLachlan a natural to become famous as the alter ego of twisted director David Lynch. MacLachlan was born and raised in Yakima, Washington, to Catherine Louise (Stone), a public relations director, and Kent Alan McLachlan, a lawyer and stockbroker. He has Scottish, English, Cornish, and German ancestry. MacLachlan graduated from the University of Washington in 1982. The darkly handsome actor made his feature film debut when he starred in the big-budget David Lynch adaptation of Frank Herbert&#039;s Dune (1984), but only enjoyed real success after appearing in a second Lynch project, the moody and perverse classic, Blue Velvet (1986). The following year saw MacLachlan appearing as an otherworldly FBI agent in the cult classic sci-fi film, The Hidden (1987). This turned out to be a sign of things to come, as MacLachlan soon took on another oddball G-man, &quot;Special Agent Dale Cooper&quot;, on Lynch&#039;s cryptic ABC-TV series, Twin Peaks (1990), perhaps, along with Blue Velvet (1986), his most famous role. MacLachlan&#039;s remarkable work as Agent Cooper earned him a Golden Globe award and a pair of Emmy nominations, as well as steady work in television and films, including a part as Ray Manzarek in the Oliver Stone film, The Doors (1991), and villain &quot;Cliff Vandercave&quot; in the live action version of The Flintstones (1994). His career took a hit after he appeared in the infamous flop, Showgirls (1995). However, MacLachlan returned to prominence in the early 2000s with a re-occurring role on HBO&#039;s Sex and the City (1998), as well as a starring role in the TV movie, The Spring (2000), and a turn as &quot;Claudius&quot; in director Michael Almereyda&#039;s version of Hamlet (2000). MacLachlan later took advantage of his resemblance to Cary Grant, when he played the classic actor&#039;s spirit in Un soup&ccedil;on de rose (2004). MacLachlan has remained a popular actor with independent filmmakers, and he has also been a familiar face on television, appearing on the ABC-TV shows, In Justice (2006) and Desperate Housewives (2004).',
                 'created_at' => '2016-01-27 12:55:53',
-                'updated_at' => '2016-01-27 12:55:53',
+                'updated_at' => '2016-01-28 12:27:31',
             ),
-            315 => 
+            314 => 
             array (
                 'person_id' => 317,
                 'forename' => 'Frank',
@@ -3867,7 +3859,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:56:04',
                 'updated_at' => '2016-01-27 12:56:04',
             ),
-            316 => 
+            315 => 
             array (
                 'person_id' => 318,
                 'forename' => 'Kevin',
@@ -3879,7 +3871,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:56:14',
                 'updated_at' => '2016-01-27 12:56:14',
             ),
-            317 => 
+            316 => 
             array (
                 'person_id' => 319,
                 'forename' => 'Michael',
@@ -3891,7 +3883,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:56:28',
                 'updated_at' => '2016-01-27 12:56:28',
             ),
-            318 => 
+            317 => 
             array (
                 'person_id' => 320,
                 'forename' => 'Olivia',
@@ -3903,7 +3895,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:57:10',
                 'updated_at' => '2016-01-27 12:57:10',
             ),
-            319 => 
+            318 => 
             array (
                 'person_id' => 321,
                 'forename' => 'Lena',
@@ -3915,7 +3907,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:57:20',
                 'updated_at' => '2016-01-27 12:57:20',
             ),
-            320 => 
+            319 => 
             array (
                 'person_id' => 322,
                 'forename' => 'Ryan',
@@ -3927,7 +3919,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:57:42',
                 'updated_at' => '2016-01-27 12:57:42',
             ),
-            321 => 
+            320 => 
             array (
                 'person_id' => 323,
                 'forename' => 'Carey',
@@ -3939,7 +3931,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:57:55',
                 'updated_at' => '2016-01-27 12:57:55',
             ),
-            322 => 
+            321 => 
             array (
                 'person_id' => 324,
                 'forename' => 'Albert',
@@ -3951,7 +3943,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:58:11',
                 'updated_at' => '2016-01-27 12:58:11',
             ),
-            323 => 
+            322 => 
             array (
                 'person_id' => 325,
                 'forename' => 'Oscar',
@@ -3963,7 +3955,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:58:21',
                 'updated_at' => '2016-01-27 12:58:21',
             ),
-            324 => 
+            323 => 
             array (
                 'person_id' => 326,
                 'forename' => 'Christina',
@@ -3975,7 +3967,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'created_at' => '2016-01-27 12:58:31',
                 'updated_at' => '2016-01-27 12:58:31',
             ),
-            325 => 
+            324 => 
             array (
                 'person_id' => 327,
                 'forename' => 'Jackie',
@@ -3989,7 +3981,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 12:59:03',
                 'updated_at' => '2016-01-28 09:37:15',
             ),
-            326 => 
+            325 => 
             array (
                 'person_id' => 328,
                 'forename' => 'Andy',
@@ -4001,7 +3993,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 12:59:16',
                 'updated_at' => '2016-01-27 12:59:16',
             ),
-            327 => 
+            326 => 
             array (
                 'person_id' => 329,
                 'forename' => 'Amy',
@@ -4013,7 +4005,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 12:59:38',
                 'updated_at' => '2016-01-27 12:59:38',
             ),
-            328 => 
+            327 => 
             array (
                 'person_id' => 330,
                 'forename' => 'Patrick',
@@ -4025,7 +4017,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 12:59:48',
                 'updated_at' => '2016-01-27 12:59:48',
             ),
-            329 => 
+            328 => 
             array (
                 'person_id' => 331,
                 'forename' => 'James',
@@ -4037,7 +4029,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 12:59:59',
                 'updated_at' => '2016-01-27 12:59:59',
             ),
-            330 => 
+            329 => 
             array (
                 'person_id' => 332,
                 'forename' => 'Idina',
@@ -4049,7 +4041,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:00:14',
                 'updated_at' => '2016-01-27 13:00:14',
             ),
-            331 => 
+            330 => 
             array (
                 'person_id' => 333,
                 'forename' => 'Susan',
@@ -4061,7 +4053,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:01:00',
                 'updated_at' => '2016-01-27 13:01:00',
             ),
-            332 => 
+            331 => 
             array (
                 'person_id' => 334,
                 'forename' => 'Julie',
@@ -4073,7 +4065,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:01:29',
                 'updated_at' => '2016-01-27 13:01:29',
             ),
-            333 => 
+            332 => 
             array (
                 'person_id' => 335,
                 'forename' => 'Kurt',
@@ -4085,7 +4077,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:01:53',
                 'updated_at' => '2016-01-27 13:01:53',
             ),
-            334 => 
+            333 => 
             array (
                 'person_id' => 336,
                 'forename' => 'Lee Van',
@@ -4097,7 +4089,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:02:03',
                 'updated_at' => '2016-01-27 13:02:03',
             ),
-            335 => 
+            334 => 
             array (
                 'person_id' => 337,
                 'forename' => 'Ernest',
@@ -4109,7 +4101,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:02:13',
                 'updated_at' => '2016-01-27 13:02:13',
             ),
-            336 => 
+            335 => 
             array (
                 'person_id' => 338,
                 'forename' => 'Donald',
@@ -4121,7 +4113,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:02:23',
                 'updated_at' => '2016-01-27 13:02:23',
             ),
-            337 => 
+            336 => 
             array (
                 'person_id' => 339,
                 'forename' => 'Isaac',
@@ -4133,7 +4125,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:02:36',
                 'updated_at' => '2016-01-27 13:02:36',
             ),
-            338 => 
+            337 => 
             array (
                 'person_id' => 340,
                 'forename' => 'Christoph',
@@ -4145,7 +4137,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:03:03',
                 'updated_at' => '2016-01-27 13:03:03',
             ),
-            339 => 
+            338 => 
             array (
                 'person_id' => 341,
                 'forename' => 'Kerry',
@@ -4157,7 +4149,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:03:14',
                 'updated_at' => '2016-01-27 13:03:14',
             ),
-            340 => 
+            339 => 
             array (
                 'person_id' => 342,
                 'forename' => 'Sharlto',
@@ -4169,7 +4161,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:03:39',
                 'updated_at' => '2016-01-27 13:03:39',
             ),
-            341 => 
+            340 => 
             array (
                 'person_id' => 343,
                 'forename' => 'Steve',
@@ -4181,7 +4173,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:03:56',
                 'updated_at' => '2016-01-27 13:03:56',
             ),
-            342 => 
+            341 => 
             array (
                 'person_id' => 344,
                 'forename' => 'Dwayne',
@@ -4193,7 +4185,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:04:17',
                 'updated_at' => '2016-01-27 13:04:17',
             ),
-            343 => 
+            342 => 
             array (
                 'person_id' => 345,
                 'forename' => 'Terence',
@@ -4205,7 +4197,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:04:27',
                 'updated_at' => '2016-01-27 13:04:27',
             ),
-            344 => 
+            343 => 
             array (
                 'person_id' => 346,
                 'forename' => 'Masi',
@@ -4217,7 +4209,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:04:52',
                 'updated_at' => '2016-01-27 13:04:52',
             ),
-            345 => 
+            344 => 
             array (
                 'person_id' => 347,
                 'forename' => 'Patrick',
@@ -4229,7 +4221,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:05:04',
                 'updated_at' => '2016-01-27 13:05:04',
             ),
-            346 => 
+            345 => 
             array (
                 'person_id' => 348,
                 'forename' => 'Bill',
@@ -4241,7 +4233,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:05:14',
                 'updated_at' => '2016-01-27 13:05:14',
             ),
-            347 => 
+            346 => 
             array (
                 'person_id' => 349,
                 'forename' => 'James',
@@ -4253,7 +4245,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:05:24',
                 'updated_at' => '2016-01-27 13:05:24',
             ),
-            348 => 
+            347 => 
             array (
                 'person_id' => 350,
                 'forename' => 'Terry',
@@ -4265,7 +4257,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:05:35',
                 'updated_at' => '2016-01-27 13:05:35',
             ),
-            349 => 
+            348 => 
             array (
                 'person_id' => 351,
                 'forename' => 'Harold',
@@ -4277,7 +4269,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:05:58',
                 'updated_at' => '2016-01-27 13:05:58',
             ),
-            350 => 
+            349 => 
             array (
                 'person_id' => 352,
                 'forename' => 'Rick',
@@ -4289,7 +4281,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:06:07',
                 'updated_at' => '2016-01-27 13:06:07',
             ),
-            351 => 
+            350 => 
             array (
                 'person_id' => 353,
                 'forename' => 'Annie',
@@ -4301,7 +4293,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:06:19',
                 'updated_at' => '2016-01-27 13:06:19',
             ),
-            352 => 
+            351 => 
             array (
                 'person_id' => 354,
                 'forename' => 'Dave',
@@ -4313,7 +4305,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:06:41',
                 'updated_at' => '2016-01-27 13:06:41',
             ),
-            353 => 
+            352 => 
             array (
                 'person_id' => 355,
                 'forename' => 'Vin',
@@ -4325,7 +4317,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:06:51',
                 'updated_at' => '2016-01-27 13:06:51',
             ),
-            354 => 
+            353 => 
             array (
                 'person_id' => 356,
                 'forename' => 'Bradley',
@@ -4337,7 +4329,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:07:00',
                 'updated_at' => '2016-01-27 13:07:00',
             ),
-            355 => 
+            354 => 
             array (
                 'person_id' => 357,
                 'forename' => 'Lee',
@@ -4349,7 +4341,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:07:11',
                 'updated_at' => '2016-01-27 13:07:11',
             ),
-            356 => 
+            355 => 
             array (
                 'person_id' => 358,
                 'forename' => 'Michael',
@@ -4361,7 +4353,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:07:31',
                 'updated_at' => '2016-01-27 13:07:31',
             ),
-            357 => 
+            356 => 
             array (
                 'person_id' => 359,
                 'forename' => 'Karen',
@@ -4373,7 +4365,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:07:39',
                 'updated_at' => '2016-01-27 13:07:39',
             ),
-            358 => 
+            357 => 
             array (
                 'person_id' => 360,
                 'forename' => 'Djimon',
@@ -4385,7 +4377,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:07:52',
                 'updated_at' => '2016-01-27 13:07:52',
             ),
-            359 => 
+            358 => 
             array (
                 'person_id' => 361,
                 'forename' => 'John C.',
@@ -4397,7 +4389,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:08:10',
                 'updated_at' => '2016-01-27 13:08:10',
             ),
-            360 => 
+            359 => 
             array (
                 'person_id' => 362,
                 'forename' => 'Benicio Del',
@@ -4409,7 +4401,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:08:21',
                 'updated_at' => '2016-01-27 13:08:21',
             ),
-            361 => 
+            360 => 
             array (
                 'person_id' => 363,
                 'forename' => 'Peter',
@@ -4421,7 +4413,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:08:47',
                 'updated_at' => '2016-01-27 13:08:47',
             ),
-            362 => 
+            361 => 
             array (
                 'person_id' => 364,
                 'forename' => 'Richard',
@@ -4433,7 +4425,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:09:04',
                 'updated_at' => '2016-01-27 13:09:04',
             ),
-            363 => 
+            362 => 
             array (
                 'person_id' => 365,
                 'forename' => 'Maggie',
@@ -4445,7 +4437,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:09:18',
                 'updated_at' => '2016-01-27 13:09:18',
             ),
-            364 => 
+            363 => 
             array (
                 'person_id' => 366,
                 'forename' => 'Robbie',
@@ -4457,7 +4449,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:09:27',
                 'updated_at' => '2016-01-27 13:09:27',
             ),
-            365 => 
+            364 => 
             array (
                 'person_id' => 367,
                 'forename' => 'Daniel',
@@ -4469,7 +4461,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:09:41',
                 'updated_at' => '2016-01-27 13:09:41',
             ),
-            366 => 
+            365 => 
             array (
                 'person_id' => 368,
                 'forename' => 'Fiona',
@@ -4481,7 +4473,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:09:51',
                 'updated_at' => '2016-01-27 13:09:51',
             ),
-            367 => 
+            366 => 
             array (
                 'person_id' => 369,
                 'forename' => 'Warwick',
@@ -4493,7 +4485,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:10:09',
                 'updated_at' => '2016-01-27 13:10:09',
             ),
-            368 => 
+            367 => 
             array (
                 'person_id' => 370,
                 'forename' => 'Verne',
@@ -4505,7 +4497,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:10:19',
                 'updated_at' => '2016-01-27 13:10:19',
             ),
-            369 => 
+            368 => 
             array (
                 'person_id' => 371,
                 'forename' => 'Richard',
@@ -4517,7 +4509,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:10:34',
                 'updated_at' => '2016-01-27 13:10:34',
             ),
-            370 => 
+            369 => 
             array (
                 'person_id' => 372,
                 'forename' => 'Harry',
@@ -4529,7 +4521,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:10:43',
                 'updated_at' => '2016-01-27 13:10:43',
             ),
-            371 => 
+            370 => 
             array (
                 'person_id' => 373,
                 'forename' => 'Rupert',
@@ -4541,7 +4533,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'created_at' => '2016-01-27 13:11:50',
                 'updated_at' => '2016-01-27 13:11:50',
             ),
-            372 => 
+            371 => 
             array (
                 'person_id' => 374,
                 'forename' => 'Emma',
@@ -4555,7 +4547,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:12:02',
                 'updated_at' => '2016-01-27 14:59:16',
             ),
-            373 => 
+            372 => 
             array (
                 'person_id' => 375,
                 'forename' => 'Toby',
@@ -4567,7 +4559,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:19:09',
                 'updated_at' => '2016-01-27 13:19:09',
             ),
-            374 => 
+            373 => 
             array (
                 'person_id' => 376,
                 'forename' => 'James',
@@ -4579,7 +4571,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:19:22',
                 'updated_at' => '2016-01-27 13:19:22',
             ),
-            375 => 
+            374 => 
             array (
                 'person_id' => 377,
                 'forename' => 'Oliver',
@@ -4591,7 +4583,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:19:32',
                 'updated_at' => '2016-01-27 13:19:32',
             ),
-            376 => 
+            375 => 
             array (
                 'person_id' => 378,
                 'forename' => 'Julie',
@@ -4603,7 +4595,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:19:42',
                 'updated_at' => '2016-01-27 13:19:42',
             ),
-            377 => 
+            376 => 
             array (
                 'person_id' => 379,
                 'forename' => 'Bonnie',
@@ -4615,7 +4607,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:19:52',
                 'updated_at' => '2016-01-27 13:19:52',
             ),
-            378 => 
+            377 => 
             array (
                 'person_id' => 380,
                 'forename' => 'Mark',
@@ -4627,7 +4619,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:20:04',
                 'updated_at' => '2016-01-27 13:20:04',
             ),
-            379 => 
+            378 => 
             array (
                 'person_id' => 381,
                 'forename' => 'Pam',
@@ -4639,7 +4631,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:22:19',
                 'updated_at' => '2016-01-27 13:22:19',
             ),
-            380 => 
+            379 => 
             array (
                 'person_id' => 382,
                 'forename' => 'Robert',
@@ -4651,7 +4643,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:22:38',
                 'updated_at' => '2016-01-27 13:22:38',
             ),
-            381 => 
+            380 => 
             array (
                 'person_id' => 383,
                 'forename' => 'Eric',
@@ -4663,7 +4655,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:24:06',
                 'updated_at' => '2016-01-27 13:24:06',
             ),
-            382 => 
+            381 => 
             array (
                 'person_id' => 384,
                 'forename' => 'David',
@@ -4675,7 +4667,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:24:25',
                 'updated_at' => '2016-01-27 13:24:25',
             ),
-            383 => 
+            382 => 
             array (
                 'person_id' => 385,
                 'forename' => 'Robert',
@@ -4687,7 +4679,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:24:39',
                 'updated_at' => '2016-01-27 13:24:39',
             ),
-            384 => 
+            383 => 
             array (
                 'person_id' => 386,
                 'forename' => 'Jason',
@@ -4699,7 +4691,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:24:49',
                 'updated_at' => '2016-01-27 13:24:49',
             ),
-            385 => 
+            384 => 
             array (
                 'person_id' => 387,
                 'forename' => 'Tom',
@@ -4711,7 +4703,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:24:58',
                 'updated_at' => '2016-01-27 13:24:58',
             ),
-            386 => 
+            385 => 
             array (
                 'person_id' => 388,
                 'forename' => 'Ralph',
@@ -4723,7 +4715,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:25:21',
                 'updated_at' => '2016-01-27 13:25:21',
             ),
-            387 => 
+            386 => 
             array (
                 'person_id' => 389,
                 'forename' => 'Natalia',
@@ -4735,7 +4727,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:25:29',
                 'updated_at' => '2016-01-27 13:25:29',
             ),
-            388 => 
+            387 => 
             array (
                 'person_id' => 390,
                 'forename' => 'Brendan',
@@ -4747,7 +4739,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:25:38',
                 'updated_at' => '2016-01-27 13:25:38',
             ),
-            389 => 
+            388 => 
             array (
                 'person_id' => 391,
                 'forename' => 'Michael',
@@ -4759,7 +4751,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:26:05',
                 'updated_at' => '2016-01-27 13:26:05',
             ),
-            390 => 
+            389 => 
             array (
                 'person_id' => 392,
                 'forename' => 'Jim',
@@ -4771,7 +4763,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:26:17',
                 'updated_at' => '2016-01-27 13:26:17',
             ),
-            391 => 
+            390 => 
             array (
                 'person_id' => 393,
                 'forename' => 'Bill',
@@ -4783,7 +4775,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:26:53',
                 'updated_at' => '2016-01-27 13:26:53',
             ),
-            392 => 
+            391 => 
             array (
                 'person_id' => 394,
                 'forename' => 'Evanna',
@@ -4795,7 +4787,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:27:17',
                 'updated_at' => '2016-01-27 13:27:17',
             ),
-            393 => 
+            392 => 
             array (
                 'person_id' => 395,
                 'forename' => 'Domhnall',
@@ -4807,7 +4799,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:27:25',
                 'updated_at' => '2016-01-27 13:27:25',
             ),
-            394 => 
+            393 => 
             array (
                 'person_id' => 396,
                 'forename' => 'Eddie',
@@ -4819,7 +4811,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:27:45',
                 'updated_at' => '2016-01-27 13:27:45',
             ),
-            395 => 
+            394 => 
             array (
                 'person_id' => 397,
                 'forename' => 'Nathaniel',
@@ -4831,7 +4823,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:28:04',
                 'updated_at' => '2016-01-27 13:28:04',
             ),
-            396 => 
+            395 => 
             array (
                 'person_id' => 398,
                 'forename' => 'Jennifer',
@@ -4843,7 +4835,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:28:16',
                 'updated_at' => '2016-01-27 13:28:16',
             ),
-            397 => 
+            396 => 
             array (
                 'person_id' => 399,
                 'forename' => 'Wallace',
@@ -4855,7 +4847,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:28:26',
                 'updated_at' => '2016-01-27 13:28:26',
             ),
-            398 => 
+            397 => 
             array (
                 'person_id' => 400,
                 'forename' => 'Paul',
@@ -4867,7 +4859,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:28:51',
                 'updated_at' => '2016-01-27 13:28:51',
             ),
-            399 => 
+            398 => 
             array (
                 'person_id' => 401,
                 'forename' => 'Jackie',
@@ -4879,7 +4871,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:29:02',
                 'updated_at' => '2016-01-27 13:29:02',
             ),
-            400 => 
+            399 => 
             array (
                 'person_id' => 402,
                 'forename' => 'Piper',
@@ -4891,7 +4883,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:29:20',
                 'updated_at' => '2016-01-27 13:29:20',
             ),
-            401 => 
+            400 => 
             array (
                 'person_id' => 403,
                 'forename' => 'George C.',
@@ -4903,7 +4895,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:29:30',
                 'updated_at' => '2016-01-27 13:29:30',
             ),
-            402 => 
+            401 => 
             array (
                 'person_id' => 404,
                 'forename' => 'Ben',
@@ -4915,7 +4907,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:29:57',
                 'updated_at' => '2016-01-27 13:29:57',
             ),
-            403 => 
+            402 => 
             array (
                 'person_id' => 405,
                 'forename' => 'Sacha Baron',
@@ -4927,7 +4919,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:30:09',
                 'updated_at' => '2016-01-27 13:30:09',
             ),
-            404 => 
+            403 => 
             array (
                 'person_id' => 406,
                 'forename' => 'Asa',
@@ -4939,7 +4931,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:30:32',
                 'updated_at' => '2016-01-27 13:30:32',
             ),
-            405 => 
+            404 => 
             array (
                 'person_id' => 407,
                 'forename' => 'Chlo&euml; Grace',
@@ -4951,7 +4943,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:30:42',
                 'updated_at' => '2016-01-27 13:30:42',
             ),
-            406 => 
+            405 => 
             array (
                 'person_id' => 408,
                 'forename' => 'Ray',
@@ -4963,7 +4955,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:30:51',
                 'updated_at' => '2016-01-27 13:30:51',
             ),
-            407 => 
+            406 => 
             array (
                 'person_id' => 409,
                 'forename' => 'Christopher',
@@ -4975,7 +4967,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:31:01',
                 'updated_at' => '2016-01-27 13:31:01',
             ),
-            408 => 
+            407 => 
             array (
                 'person_id' => 410,
                 'forename' => 'Jude',
@@ -4987,7 +4979,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:31:11',
                 'updated_at' => '2016-01-27 13:31:11',
             ),
-            409 => 
+            408 => 
             array (
                 'person_id' => 411,
                 'forename' => 'Jennifer',
@@ -4999,7 +4991,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:31:39',
                 'updated_at' => '2016-01-27 13:31:39',
             ),
-            410 => 
+            409 => 
             array (
                 'person_id' => 412,
                 'forename' => 'Liam',
@@ -5011,7 +5003,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:31:49',
                 'updated_at' => '2016-01-27 13:31:49',
             ),
-            411 => 
+            410 => 
             array (
                 'person_id' => 413,
                 'forename' => 'Woody',
@@ -5023,7 +5015,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:36:28',
                 'updated_at' => '2016-01-27 13:36:28',
             ),
-            412 => 
+            411 => 
             array (
                 'person_id' => 414,
                 'forename' => 'Josh',
@@ -5035,7 +5027,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:36:56',
                 'updated_at' => '2016-01-27 13:36:56',
             ),
-            413 => 
+            412 => 
             array (
                 'person_id' => 415,
                 'forename' => 'Paula',
@@ -5047,7 +5039,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:37:13',
                 'updated_at' => '2016-01-27 13:37:13',
             ),
-            414 => 
+            413 => 
             array (
                 'person_id' => 416,
                 'forename' => 'Willow',
@@ -5059,7 +5051,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:37:25',
                 'updated_at' => '2016-01-27 13:37:25',
             ),
-            415 => 
+            414 => 
             array (
                 'person_id' => 417,
                 'forename' => 'Donald',
@@ -5071,7 +5063,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:38:15',
                 'updated_at' => '2016-01-27 13:38:15',
             ),
-            416 => 
+            415 => 
             array (
                 'person_id' => 418,
                 'forename' => 'Elizabeth',
@@ -5083,7 +5075,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:38:23',
                 'updated_at' => '2016-01-27 13:38:23',
             ),
-            417 => 
+            416 => 
             array (
                 'person_id' => 419,
                 'forename' => 'Lenny',
@@ -5095,7 +5087,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:39:20',
                 'updated_at' => '2016-01-27 13:39:20',
             ),
-            418 => 
+            417 => 
             array (
                 'person_id' => 420,
                 'forename' => 'Stanley',
@@ -5107,7 +5099,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:39:32',
                 'updated_at' => '2016-01-27 13:39:32',
             ),
-            419 => 
+            418 => 
             array (
                 'person_id' => 421,
                 'forename' => 'Philip Seymour',
@@ -5119,7 +5111,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:39:55',
                 'updated_at' => '2016-01-27 13:39:55',
             ),
-            420 => 
+            419 => 
             array (
                 'person_id' => 422,
                 'forename' => 'Sam',
@@ -5131,7 +5123,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:40:05',
                 'updated_at' => '2016-01-27 13:40:05',
             ),
-            421 => 
+            420 => 
             array (
                 'person_id' => 423,
                 'forename' => 'Jena',
@@ -5143,7 +5135,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:40:19',
                 'updated_at' => '2016-01-27 13:40:19',
             ),
-            422 => 
+            421 => 
             array (
                 'person_id' => 424,
                 'forename' => 'Jeffrey',
@@ -5155,7 +5147,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:40:44',
                 'updated_at' => '2016-01-27 13:40:44',
             ),
-            423 => 
+            422 => 
             array (
                 'person_id' => 425,
                 'forename' => 'Mahershala',
@@ -5167,7 +5159,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:40:57',
                 'updated_at' => '2016-01-27 13:40:57',
             ),
-            424 => 
+            423 => 
             array (
                 'person_id' => 426,
                 'forename' => 'Will',
@@ -5179,7 +5171,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:41:15',
                 'updated_at' => '2016-01-27 13:41:15',
             ),
-            425 => 
+            424 => 
             array (
                 'person_id' => 427,
                 'forename' => 'Bridget',
@@ -5191,7 +5183,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:41:24',
                 'updated_at' => '2016-01-27 13:41:24',
             ),
-            426 => 
+            425 => 
             array (
                 'person_id' => 428,
                 'forename' => 'Alan',
@@ -5203,7 +5195,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:41:32',
                 'updated_at' => '2016-01-27 13:41:32',
             ),
-            427 => 
+            426 => 
             array (
                 'person_id' => 429,
                 'forename' => 'James',
@@ -5215,7 +5207,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:41:41',
                 'updated_at' => '2016-01-27 13:41:41',
             ),
-            428 => 
+            427 => 
             array (
                 'person_id' => 430,
                 'forename' => 'Bruce',
@@ -5227,7 +5219,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:41:52',
                 'updated_at' => '2016-01-27 13:41:52',
             ),
-            429 => 
+            428 => 
             array (
                 'person_id' => 431,
                 'forename' => 'Jim',
@@ -5239,19 +5231,19 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:42:41',
                 'updated_at' => '2016-01-27 13:42:41',
             ),
-            430 => 
+            429 => 
             array (
                 'person_id' => 432,
                 'forename' => 'Ewan',
-                'surname' => 'Mcgregor',
+                'surname' => 'McGregor',
                 'birthday' => '1971-03-31',
                 'deceased' => NULL,
                 'image' => 'Ewan_Mcgregor_1453902171.jpg',
             'bio' => 'Ewan Gordon McGregor was born on March 31, 1971 in Crieff, Scotland, to Carol Diane (Lawson) and James Charles McGregor, both teachers. His uncle is actor Denis Lawson. At age 16, he left Crieff and Morrison Academy to join the Perth Repertory Theatre. His parents encouraged him to leave school and pursue his acting goals rather than be unhappy. McGregor studied drama for a year at Kirkcaldly in Fife, then enrolled at London&#039;s Guildhall School of Music and Drama for a three-year course. He studied alongside Daniel Craig and Alistair McGowan, among others, and left right before graduating after snagging the role of Private Mick Hopper in Dennis Potter&#039;s six-part Channel 4 series Lipstick on Your Collar (1993). His first notable role was that of Alex Law in Shallow Grave (1994), directed by Danny Boyle, written by John Hodge and produced by Andrew MacDonald. This was followed by The Pillow Book (1996) and Trainspotting (1996), the latter of which brought him to the public&#039;s attention. He is now one of the most critically acclaimed actors of his generation, and portrays Obi-Wan Kenobi in the first three Star Wars episodes. McGregor is married to French production designer Eve Mavrakis, whom he met while working on the television series Kavanagh QC (1995). They married in France in the summer of 1995 and have two daughters, Clara Mathilde and Esther Rose. McGregor formed a production company, with friends Jonny Lee Miller, Sean Pertwee, Jude Law, Sadie Frost, Damon Bryant, Bradley Adams and Geoff Deehan, called &quot;Natural Nylon&quot;, and hoped it would make innovative films that do not conform to Hollywood standards. McGregor and Bryant left the company in 2002. He was awarded Officer of the Order of the British Empire in the 2013 Queen&#039;s New Years Honours List for his services to drama and charity.',
                 'created_at' => '2016-01-27 13:42:51',
-                'updated_at' => '2016-01-27 13:42:51',
+                'updated_at' => '2016-01-28 12:22:54',
             ),
-            431 => 
+            430 => 
             array (
                 'person_id' => 433,
                 'forename' => 'Leslie',
@@ -5263,7 +5255,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:43:11',
                 'updated_at' => '2016-01-27 13:43:11',
             ),
-            432 => 
+            431 => 
             array (
                 'person_id' => 434,
                 'forename' => 'M&eacute;lanie',
@@ -5275,7 +5267,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:43:38',
                 'updated_at' => '2016-01-27 13:43:38',
             ),
-            433 => 
+            432 => 
             array (
                 'person_id' => 435,
                 'forename' => 'Eli',
@@ -5287,7 +5279,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:44:10',
                 'updated_at' => '2016-01-27 13:44:10',
             ),
-            434 => 
+            433 => 
             array (
                 'person_id' => 436,
                 'forename' => 'Michael',
@@ -5299,7 +5291,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:44:38',
                 'updated_at' => '2016-01-27 13:44:38',
             ),
-            435 => 
+            434 => 
             array (
                 'person_id' => 437,
                 'forename' => 'Diane',
@@ -5311,7 +5303,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:44:46',
                 'updated_at' => '2016-01-27 13:44:46',
             ),
-            436 => 
+            435 => 
             array (
                 'person_id' => 438,
                 'forename' => 'Ellen',
@@ -5323,7 +5315,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:45:31',
                 'updated_at' => '2016-01-27 13:45:31',
             ),
-            437 => 
+            436 => 
             array (
                 'person_id' => 439,
                 'forename' => 'Dileep',
@@ -5335,7 +5327,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:45:40',
                 'updated_at' => '2016-01-27 13:45:40',
             ),
-            438 => 
+            437 => 
             array (
                 'person_id' => 440,
                 'forename' => 'Tom',
@@ -5347,7 +5339,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:45:52',
                 'updated_at' => '2016-01-27 13:45:52',
             ),
-            439 => 
+            438 => 
             array (
                 'person_id' => 441,
                 'forename' => 'Lukas',
@@ -5359,7 +5351,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:46:00',
                 'updated_at' => '2016-01-27 13:46:00',
             ),
-            440 => 
+            439 => 
             array (
                 'person_id' => 442,
                 'forename' => 'Terrence',
@@ -5371,7 +5363,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:46:17',
                 'updated_at' => '2016-01-27 13:46:17',
             ),
-            441 => 
+            440 => 
             array (
                 'person_id' => 443,
                 'forename' => 'Jeff',
@@ -5383,7 +5375,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:46:26',
                 'updated_at' => '2016-01-27 13:46:26',
             ),
-            442 => 
+            441 => 
             array (
                 'person_id' => 444,
                 'forename' => 'Leslie',
@@ -5395,7 +5387,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:46:34',
                 'updated_at' => '2016-01-27 13:46:34',
             ),
-            443 => 
+            442 => 
             array (
                 'person_id' => 445,
                 'forename' => 'Jon',
@@ -5407,7 +5399,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:46:46',
                 'updated_at' => '2016-01-27 13:46:46',
             ),
-            444 => 
+            443 => 
             array (
                 'person_id' => 446,
                 'forename' => 'Don',
@@ -5419,7 +5411,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:47:08',
                 'updated_at' => '2016-01-27 13:47:08',
             ),
-            445 => 
+            444 => 
             array (
                 'person_id' => 447,
                 'forename' => 'Sam',
@@ -5431,7 +5423,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:47:22',
                 'updated_at' => '2016-01-27 13:47:22',
             ),
-            446 => 
+            445 => 
             array (
                 'person_id' => 448,
                 'forename' => 'Mickey',
@@ -5443,7 +5435,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:47:32',
                 'updated_at' => '2016-01-27 13:47:32',
             ),
-            447 => 
+            446 => 
             array (
                 'person_id' => 449,
                 'forename' => 'Kate',
@@ -5455,7 +5447,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:48:22',
                 'updated_at' => '2016-01-27 13:48:22',
             ),
-            448 => 
+            447 => 
             array (
                 'person_id' => 450,
                 'forename' => 'John',
@@ -5467,7 +5459,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:49:36',
                 'updated_at' => '2016-01-27 13:49:36',
             ),
-            449 => 
+            448 => 
             array (
                 'person_id' => 451,
                 'forename' => 'David',
@@ -5479,7 +5471,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:49:53',
                 'updated_at' => '2016-01-27 13:49:53',
             ),
-            450 => 
+            449 => 
             array (
                 'person_id' => 452,
                 'forename' => 'David',
@@ -5491,7 +5483,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:51:26',
                 'updated_at' => '2016-01-27 13:51:26',
             ),
-            451 => 
+            450 => 
             array (
                 'person_id' => 453,
                 'forename' => 'Emma',
@@ -5503,7 +5495,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:51:42',
                 'updated_at' => '2016-01-27 13:51:42',
             ),
-            452 => 
+            451 => 
             array (
                 'person_id' => 454,
                 'forename' => 'Amanda',
@@ -5515,7 +5507,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 13:59:51',
                 'updated_at' => '2016-01-27 13:59:51',
             ),
-            453 => 
+            452 => 
             array (
                 'person_id' => 455,
                 'forename' => 'Natalie',
@@ -5527,7 +5519,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:00:26',
                 'updated_at' => '2016-01-27 14:00:26',
             ),
-            454 => 
+            453 => 
             array (
                 'person_id' => 456,
                 'forename' => 'Robert',
@@ -5539,7 +5531,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:00:42',
                 'updated_at' => '2016-01-27 14:00:42',
             ),
-            455 => 
+            454 => 
             array (
                 'person_id' => 457,
                 'forename' => 'Shia',
@@ -5551,7 +5543,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:02:54',
                 'updated_at' => '2016-01-27 14:02:54',
             ),
-            456 => 
+            455 => 
             array (
                 'person_id' => 458,
                 'forename' => 'Mike',
@@ -5563,7 +5555,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:07:53',
                 'updated_at' => '2016-01-27 14:07:53',
             ),
-            457 => 
+            456 => 
             array (
                 'person_id' => 459,
                 'forename' => 'Stan',
@@ -5575,7 +5567,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:12:12',
                 'updated_at' => '2016-01-27 14:12:12',
             ),
-            458 => 
+            457 => 
             array (
                 'person_id' => 460,
                 'forename' => 'Olivia',
@@ -5587,7 +5579,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:12:26',
                 'updated_at' => '2016-01-27 14:12:26',
             ),
-            459 => 
+            458 => 
             array (
                 'person_id' => 461,
                 'forename' => 'Guy',
@@ -5599,7 +5591,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:14:10',
                 'updated_at' => '2016-01-27 14:14:10',
             ),
-            460 => 
+            459 => 
             array (
                 'person_id' => 462,
                 'forename' => 'Rebecca',
@@ -5611,7 +5603,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:14:18',
                 'updated_at' => '2016-01-27 14:14:18',
             ),
-            461 => 
+            460 => 
             array (
                 'person_id' => 463,
                 'forename' => 'William',
@@ -5623,7 +5615,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:14:31',
                 'updated_at' => '2016-01-27 14:14:31',
             ),
-            462 => 
+            461 => 
             array (
                 'person_id' => 464,
                 'forename' => 'Miguel',
@@ -5635,7 +5627,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'created_at' => '2016-01-27 14:14:48',
                 'updated_at' => '2016-01-27 14:14:48',
             ),
-            463 => 
+            462 => 
             array (
                 'person_id' => 465,
                 'forename' => 'Aaron',
@@ -5649,7 +5641,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:15:30',
                 'updated_at' => '2016-01-28 09:28:28',
             ),
-            464 => 
+            463 => 
             array (
                 'person_id' => 466,
                 'forename' => 'Christopher',
@@ -5661,7 +5653,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:15:56',
                 'updated_at' => '2016-01-27 14:15:56',
             ),
-            465 => 
+            464 => 
             array (
                 'person_id' => 467,
                 'forename' => 'Mark',
@@ -5673,7 +5665,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:16:17',
                 'updated_at' => '2016-01-27 14:16:17',
             ),
-            466 => 
+            465 => 
             array (
                 'person_id' => 468,
                 'forename' => 'Dexter',
@@ -5685,7 +5677,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:16:32',
                 'updated_at' => '2016-01-27 14:16:32',
             ),
-            467 => 
+            466 => 
             array (
                 'person_id' => 469,
                 'forename' => 'Jason',
@@ -5697,19 +5689,19 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:17:08',
                 'updated_at' => '2016-01-27 14:17:08',
             ),
-            468 => 
+            467 => 
             array (
                 'person_id' => 470,
                 'forename' => 'Elizabeth',
-                'surname' => 'Mcgovern',
+                'surname' => 'McGovern',
                 'birthday' => '1961-07-18',
                 'deceased' => NULL,
                 'image' => 'Elizabeth_Mcgovern_1453904259.jpg',
             'bio' => 'Daughter of a law professor at Northwestern University, she moved with her family to Los Angeles when he transferred to the University of California at Los Angeles (U.C.L.A.). She began acting in school plays at North Hollywood High, graduated from The Oakwood School and then continued her stage training at the American Conservatory Theatre in San Francisco and the drama division of The Juilliard School in New York. Following a pleasant screen debut in Robert Redford&#039;s Oscar-winning Ordinary People (1980), McGovern gave a great performance as Evelyn Nesbit in Ragtime (1981) for which she earned an Academy Award nomination as Best Supporting Actress. She has continued performing on stage between film assignments rather than concentrate on being a film star.',
                 'created_at' => '2016-01-27 14:17:39',
-                'updated_at' => '2016-01-27 14:17:39',
+                'updated_at' => '2016-01-28 12:22:37',
             ),
-            469 => 
+            468 => 
             array (
                 'person_id' => 471,
                 'forename' => 'Emily',
@@ -5721,7 +5713,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:17:58',
                 'updated_at' => '2016-01-27 14:17:58',
             ),
-            470 => 
+            469 => 
             array (
                 'person_id' => 472,
                 'forename' => 'Paul',
@@ -5733,7 +5725,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:18:09',
                 'updated_at' => '2016-01-27 14:18:09',
             ),
-            471 => 
+            470 => 
             array (
                 'person_id' => 473,
                 'forename' => 'Jeff',
@@ -5745,7 +5737,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:18:34',
                 'updated_at' => '2016-01-27 14:18:34',
             ),
-            472 => 
+            471 => 
             array (
                 'person_id' => 474,
                 'forename' => 'Sean',
@@ -5757,7 +5749,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:19:17',
                 'updated_at' => '2016-01-27 14:19:17',
             ),
-            473 => 
+            472 => 
             array (
                 'person_id' => 475,
                 'forename' => 'Cate',
@@ -5769,7 +5761,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:19:26',
                 'updated_at' => '2016-01-27 14:19:26',
             ),
-            474 => 
+            473 => 
             array (
                 'person_id' => 476,
                 'forename' => 'Orlando',
@@ -5781,7 +5773,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:19:35',
                 'updated_at' => '2016-01-27 14:19:35',
             ),
-            475 => 
+            474 => 
             array (
                 'person_id' => 477,
                 'forename' => 'Billy',
@@ -5793,7 +5785,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:19:43',
                 'updated_at' => '2016-01-27 14:19:43',
             ),
-            476 => 
+            475 => 
             array (
                 'person_id' => 478,
                 'forename' => 'Andy',
@@ -5805,19 +5797,19 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:19:57',
                 'updated_at' => '2016-01-28 09:38:11',
             ),
-            477 => 
+            476 => 
             array (
                 'person_id' => 479,
                 'forename' => 'Ian',
-                'surname' => 'Mckellen',
+                'surname' => 'McKellen',
                 'birthday' => '1939-05-25',
                 'deceased' => NULL,
                 'image' => 'Ian_Mckellen_1453904406.jpg',
             'bio' => 'Ian Murray McKellen was born on May 25, 1939 in Burnley, Lancashire, England, to Margery Lois (Sutcliffe) and Denis Murray McKellen, a civil engineer. He is of Scottish, Northern Irish, and English descent. During his early childhood, his parents moved with Ian and his sister Jean to the mill town of Wigan. It was in this small town that young Ian rode out World War II. He soon developed a fascination with acting and the theater, which was encouraged by his parents. They would take him to plays, those by William Shakespeare, in particular. The amateur school productions fostered Ian&#039;s growing passion for theatre. When Ian was of age to begin attending school, he made sure to get roles in all of the productions. At Bolton School in particular, he developed his skills early on. Indeed, his first role in a Shakespearian play was at Bolton, as Malvolio in &quot;Twelfth Night&quot;. Ian soon began attending Stratford-upon-Avon theater festivals, where he saw the greats perform: Laurence Olivier, Wendy Hiller, John Gielgud, Ralph Richardson and Paul Robeson. He continued his education in English Drama, but soon it fell by the wayside as he concentrated more and more on performing. He eventually obtained his Bachelor of Arts in 1961, and began his career in earnest. McKellen began working in theatre over the next few years. Very few people knew of Ian&#039;s homosexuality; he saw no reason to go public, nor had he told his family. They did not seem interested in the subject and so he saw no reason to bring it up. In 1988, Ian publicly came out of the closet on the BBC Radio 4 program, while discussing Margaret Thatcher&#039;s &quot;section 28&quot; legislation which would make the &quot;public promotion of homosexuality&quot; a crime. It was reason enough for McKellen to take a stand, and he has been active in the Gay Rights movement ever since. Ian resides in Limehouse, where he lives with his lover of 8 years, Sean Mathias. The two worked together on the film Bent (1997). To this day, McKellen works mostly in theater, and was knighted by Queen Elizabeth II in 1990 for his efforts in the arts. However, he has managed to make several quite successful forays into film. He has appeared in several productions of Shakespeare&#039;s works including his well received Richard III (1995), and in a variety of other movies. However, it has only been recently that his star has finally begun to shine in the eyes of North American audiences. Roles in various films, Cold Comfort Farm (1995), Apt Pupil (1998) and Gods and Monsters (1998), riveted audiences. The latter, in particular, created a sensation in Hollywood, and McKellen&#039;s role garnered him several of awards and nominations, including a Golden Globe and an Oscar nod. McKellen continues to work extensively on stage... solidifying his role as Laurence Olivier&#039;s worthy successor, having recently scored hits in the London productions of &quot;Peter Pan&quot; and No&euml;l Coward&#039;s &quot;Present Laughter&quot;.',
                 'created_at' => '2016-01-27 14:20:06',
-                'updated_at' => '2016-01-27 14:20:06',
+                'updated_at' => '2016-01-28 12:23:32',
             ),
-            478 => 
+            477 => 
             array (
                 'person_id' => 480,
                 'forename' => 'Dominic',
@@ -5829,7 +5821,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:20:19',
                 'updated_at' => '2016-01-27 14:20:19',
             ),
-            479 => 
+            478 => 
             array (
                 'person_id' => 481,
                 'forename' => 'John',
@@ -5841,7 +5833,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:20:29',
                 'updated_at' => '2016-01-27 14:20:29',
             ),
-            480 => 
+            479 => 
             array (
                 'person_id' => 482,
                 'forename' => 'Liv',
@@ -5853,7 +5845,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:20:45',
                 'updated_at' => '2016-01-27 14:20:45',
             ),
-            481 => 
+            480 => 
             array (
                 'person_id' => 483,
                 'forename' => 'Peter',
@@ -5865,7 +5857,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:21:07',
                 'updated_at' => '2016-01-27 14:21:07',
             ),
-            482 => 
+            481 => 
             array (
                 'person_id' => 484,
                 'forename' => 'Miranda',
@@ -5877,7 +5869,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:22:43',
                 'updated_at' => '2016-01-27 14:22:43',
             ),
-            483 => 
+            482 => 
             array (
                 'person_id' => 485,
                 'forename' => 'David',
@@ -5889,7 +5881,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:23:37',
                 'updated_at' => '2016-01-27 14:23:37',
             ),
-            484 => 
+            483 => 
             array (
                 'person_id' => 486,
                 'forename' => 'Henry',
@@ -5901,7 +5893,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:26:27',
                 'updated_at' => '2016-01-27 14:26:27',
             ),
-            485 => 
+            484 => 
             array (
                 'person_id' => 487,
                 'forename' => 'Diane',
@@ -5913,7 +5905,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:26:46',
                 'updated_at' => '2016-01-27 14:26:46',
             ),
-            486 => 
+            485 => 
             array (
                 'person_id' => 488,
                 'forename' => 'Russell',
@@ -5925,7 +5917,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:26:57',
                 'updated_at' => '2016-01-27 14:26:57',
             ),
-            487 => 
+            486 => 
             array (
                 'person_id' => 489,
                 'forename' => 'Christopher',
@@ -5937,7 +5929,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:27:19',
                 'updated_at' => '2016-01-27 14:27:19',
             ),
-            488 => 
+            487 => 
             array (
                 'person_id' => 490,
                 'forename' => 'Kevin',
@@ -5949,7 +5941,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:27:27',
                 'updated_at' => '2016-01-27 14:27:27',
             ),
-            489 => 
+            488 => 
             array (
                 'person_id' => 491,
                 'forename' => 'Tommy Lee',
@@ -5961,7 +5953,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:28:21',
                 'updated_at' => '2016-01-27 14:28:21',
             ),
-            490 => 
+            489 => 
             array (
                 'person_id' => 492,
                 'forename' => 'Linda',
@@ -5973,7 +5965,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:28:31',
                 'updated_at' => '2016-01-27 14:28:31',
             ),
-            491 => 
+            490 => 
             array (
                 'person_id' => 493,
                 'forename' => 'Rip',
@@ -5985,7 +5977,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:29:56',
                 'updated_at' => '2016-01-27 14:29:56',
             ),
-            492 => 
+            491 => 
             array (
                 'person_id' => 494,
                 'forename' => 'Tony',
@@ -5997,7 +5989,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:30:04',
                 'updated_at' => '2016-01-27 14:30:04',
             ),
-            493 => 
+            492 => 
             array (
                 'person_id' => 495,
                 'forename' => 'Siobhan Fallon',
@@ -6009,7 +6001,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:30:12',
                 'updated_at' => '2016-01-27 14:30:12',
             ),
-            494 => 
+            493 => 
             array (
                 'person_id' => 496,
                 'forename' => 'David',
@@ -6021,7 +6013,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:30:35',
                 'updated_at' => '2016-01-27 14:30:35',
             ),
-            495 => 
+            494 => 
             array (
                 'person_id' => 497,
                 'forename' => 'Lara Flynn',
@@ -6033,7 +6025,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:31:07',
                 'updated_at' => '2016-01-27 14:31:07',
             ),
-            496 => 
+            495 => 
             array (
                 'person_id' => 498,
                 'forename' => 'Johnny',
@@ -6045,7 +6037,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:31:15',
                 'updated_at' => '2016-01-27 14:31:15',
             ),
-            497 => 
+            496 => 
             array (
                 'person_id' => 499,
                 'forename' => 'Rosario',
@@ -6057,7 +6049,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:31:24',
                 'updated_at' => '2016-01-27 14:31:24',
             ),
-            498 => 
+            497 => 
             array (
                 'person_id' => 500,
                 'forename' => 'Josh',
@@ -6069,7 +6061,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:32:26',
                 'updated_at' => '2016-01-27 14:32:26',
             ),
-            499 => 
+            498 => 
             array (
                 'person_id' => 501,
                 'forename' => 'Jemaine',
@@ -6081,9 +6073,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:32:36',
                 'updated_at' => '2016-01-27 14:32:36',
             ),
-        ));
-        \DB::table('persons')->insert(array (
-            0 => 
+            499 => 
             array (
                 'person_id' => 502,
                 'forename' => 'Michael',
@@ -6095,7 +6085,9 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:32:47',
                 'updated_at' => '2016-01-27 14:32:47',
             ),
-            1 => 
+        ));
+        \DB::table('persons')->insert(array (
+            0 => 
             array (
                 'person_id' => 503,
                 'forename' => 'Alice',
@@ -6107,7 +6099,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:32:57',
                 'updated_at' => '2016-01-27 14:32:57',
             ),
-            2 => 
+            1 => 
             array (
                 'person_id' => 504,
                 'forename' => 'Bill',
@@ -6119,7 +6111,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:33:11',
                 'updated_at' => '2016-01-27 14:33:11',
             ),
-            3 => 
+            2 => 
             array (
                 'person_id' => 505,
                 'forename' => 'C&eacute;cile De',
@@ -6131,7 +6123,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:34:06',
                 'updated_at' => '2016-01-27 14:34:06',
             ),
-            4 => 
+            3 => 
             array (
                 'person_id' => 506,
                 'forename' => 'G&eacute;rard',
@@ -6143,7 +6135,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:34:19',
                 'updated_at' => '2016-01-27 14:34:19',
             ),
-            5 => 
+            4 => 
             array (
                 'person_id' => 507,
                 'forename' => 'Matt',
@@ -6155,7 +6147,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:34:54',
                 'updated_at' => '2016-01-27 14:34:54',
             ),
-            6 => 
+            5 => 
             array (
                 'person_id' => 508,
                 'forename' => 'Jason',
@@ -6167,7 +6159,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:36:06',
                 'updated_at' => '2016-01-27 14:36:06',
             ),
-            7 => 
+            6 => 
             array (
                 'person_id' => 509,
                 'forename' => 'Ivana',
@@ -6179,7 +6171,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:36:33',
                 'updated_at' => '2016-01-27 14:36:33',
             ),
-            8 => 
+            7 => 
             array (
                 'person_id' => 510,
                 'forename' => 'Sergi',
@@ -6191,7 +6183,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:36:42',
                 'updated_at' => '2016-01-27 14:36:42',
             ),
-            9 => 
+            8 => 
             array (
                 'person_id' => 511,
                 'forename' => 'Doug',
@@ -6203,7 +6195,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:36:50',
                 'updated_at' => '2016-01-27 14:36:50',
             ),
-            10 => 
+            9 => 
             array (
                 'person_id' => 512,
                 'forename' => 'Simon',
@@ -6215,7 +6207,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:37:14',
                 'updated_at' => '2016-01-27 14:37:14',
             ),
-            11 => 
+            10 => 
             array (
                 'person_id' => 513,
                 'forename' => 'Nick',
@@ -6227,7 +6219,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:37:24',
                 'updated_at' => '2016-01-27 14:37:24',
             ),
-            12 => 
+            11 => 
             array (
                 'person_id' => 514,
                 'forename' => 'Jeffrey',
@@ -6239,7 +6231,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:37:33',
                 'updated_at' => '2016-01-27 14:37:33',
             ),
-            13 => 
+            12 => 
             array (
                 'person_id' => 515,
                 'forename' => 'Jane',
@@ -6251,7 +6243,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:37:43',
                 'updated_at' => '2016-01-27 14:37:43',
             ),
-            14 => 
+            13 => 
             array (
                 'person_id' => 516,
                 'forename' => 'Seth',
@@ -6263,7 +6255,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:37:55',
                 'updated_at' => '2016-01-27 14:37:55',
             ),
-            15 => 
+            14 => 
             array (
                 'person_id' => 517,
                 'forename' => 'Jason',
@@ -6275,7 +6267,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:38:04',
                 'updated_at' => '2016-01-27 14:38:04',
             ),
-            16 => 
+            15 => 
             array (
                 'person_id' => 518,
                 'forename' => 'Kristen',
@@ -6287,7 +6279,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:38:13',
                 'updated_at' => '2016-01-27 14:38:13',
             ),
-            17 => 
+            16 => 
             array (
                 'person_id' => 519,
                 'forename' => 'John Carroll',
@@ -6299,7 +6291,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:38:22',
                 'updated_at' => '2016-01-27 14:38:22',
             ),
-            18 => 
+            17 => 
             array (
                 'person_id' => 520,
                 'forename' => 'Freida',
@@ -6311,7 +6303,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:39:30',
                 'updated_at' => '2016-01-27 14:39:30',
             ),
-            19 => 
+            18 => 
             array (
                 'person_id' => 521,
                 'forename' => 'John',
@@ -6323,7 +6315,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:39:39',
                 'updated_at' => '2016-01-27 14:39:39',
             ),
-            20 => 
+            19 => 
             array (
                 'person_id' => 522,
                 'forename' => 'David',
@@ -6335,7 +6327,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:39:47',
                 'updated_at' => '2016-01-27 14:39:47',
             ),
-            21 => 
+            20 => 
             array (
                 'person_id' => 523,
                 'forename' => 'Tyler',
@@ -6347,7 +6339,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:39:55',
                 'updated_at' => '2016-01-27 14:39:55',
             ),
-            22 => 
+            21 => 
             array (
                 'person_id' => 524,
                 'forename' => 'James',
@@ -6359,7 +6351,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:41:04',
                 'updated_at' => '2016-01-27 14:41:04',
             ),
-            23 => 
+            22 => 
             array (
                 'person_id' => 525,
                 'forename' => 'Jason',
@@ -6371,7 +6363,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:41:50',
                 'updated_at' => '2016-01-27 14:41:50',
             ),
-            24 => 
+            23 => 
             array (
                 'person_id' => 526,
                 'forename' => 'Keri',
@@ -6383,7 +6375,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:42:00',
                 'updated_at' => '2016-01-27 14:42:00',
             ),
-            25 => 
+            24 => 
             array (
                 'person_id' => 527,
                 'forename' => 'Toby',
@@ -6395,7 +6387,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:42:10',
                 'updated_at' => '2016-01-27 14:42:10',
             ),
-            26 => 
+            25 => 
             array (
                 'person_id' => 528,
                 'forename' => 'Sylvester',
@@ -6407,7 +6399,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:43:02',
                 'updated_at' => '2016-01-27 14:43:02',
             ),
-            27 => 
+            26 => 
             array (
                 'person_id' => 529,
                 'forename' => 'Burt',
@@ -6419,7 +6411,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:43:10',
                 'updated_at' => '2016-01-27 14:43:10',
             ),
-            28 => 
+            27 => 
             array (
                 'person_id' => 530,
                 'forename' => 'Antonio',
@@ -6431,7 +6423,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:43:18',
                 'updated_at' => '2016-01-27 14:43:18',
             ),
-            29 => 
+            28 => 
             array (
                 'person_id' => 531,
                 'forename' => 'Geraldine',
@@ -6443,7 +6435,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:43:27',
                 'updated_at' => '2016-01-27 14:43:27',
             ),
-            30 => 
+            29 => 
             array (
                 'person_id' => 532,
                 'forename' => 'Milo',
@@ -6455,7 +6447,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:43:35',
                 'updated_at' => '2016-01-27 14:43:35',
             ),
-            31 => 
+            30 => 
             array (
                 'person_id' => 533,
                 'forename' => 'Tom',
@@ -6467,7 +6459,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:44:22',
                 'updated_at' => '2016-01-27 14:44:22',
             ),
-            32 => 
+            31 => 
             array (
                 'person_id' => 534,
                 'forename' => 'Tom',
@@ -6479,7 +6471,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:44:31',
                 'updated_at' => '2016-01-27 14:44:31',
             ),
-            33 => 
+            32 => 
             array (
                 'person_id' => 535,
                 'forename' => 'Edward',
@@ -6491,7 +6483,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:44:40',
                 'updated_at' => '2016-01-27 14:44:40',
             ),
-            34 => 
+            33 => 
             array (
                 'person_id' => 536,
                 'forename' => 'Jeremy',
@@ -6503,7 +6495,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:44:52',
                 'updated_at' => '2016-01-27 14:44:52',
             ),
-            35 => 
+            34 => 
             array (
                 'person_id' => 537,
                 'forename' => 'Barry',
@@ -6515,7 +6507,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:44:59',
                 'updated_at' => '2016-01-27 14:44:59',
             ),
-            36 => 
+            35 => 
             array (
                 'person_id' => 538,
                 'forename' => 'Adam',
@@ -6527,7 +6519,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:45:07',
                 'updated_at' => '2016-01-27 14:45:07',
             ),
-            37 => 
+            36 => 
             array (
                 'person_id' => 539,
                 'forename' => 'Ted',
@@ -6539,7 +6531,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:45:16',
                 'updated_at' => '2016-01-27 14:45:16',
             ),
-            38 => 
+            37 => 
             array (
                 'person_id' => 540,
                 'forename' => 'Paul',
@@ -6551,7 +6543,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:45:24',
                 'updated_at' => '2016-01-27 14:45:24',
             ),
-            39 => 
+            38 => 
             array (
                 'person_id' => 541,
                 'forename' => 'Dennis',
@@ -6563,7 +6555,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:45:32',
                 'updated_at' => '2016-01-27 14:45:32',
             ),
-            40 => 
+            39 => 
             array (
                 'person_id' => 542,
                 'forename' => 'Nathan',
@@ -6575,7 +6567,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:45:59',
                 'updated_at' => '2016-01-27 14:45:59',
             ),
-            41 => 
+            40 => 
             array (
                 'person_id' => 543,
                 'forename' => 'Gina',
@@ -6587,7 +6579,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:46:32',
                 'updated_at' => '2016-01-27 14:46:32',
             ),
-            42 => 
+            41 => 
             array (
                 'person_id' => 544,
                 'forename' => 'Morena',
@@ -6599,7 +6591,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:46:41',
                 'updated_at' => '2016-01-27 14:46:41',
             ),
-            43 => 
+            42 => 
             array (
                 'person_id' => 545,
                 'forename' => 'Adam',
@@ -6611,7 +6603,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:46:49',
                 'updated_at' => '2016-01-27 14:46:49',
             ),
-            44 => 
+            43 => 
             array (
                 'person_id' => 546,
                 'forename' => 'Jewel',
@@ -6623,7 +6615,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:46:57',
                 'updated_at' => '2016-01-27 14:46:57',
             ),
-            45 => 
+            44 => 
             array (
                 'person_id' => 547,
                 'forename' => 'Sean',
@@ -6635,7 +6627,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:47:07',
                 'updated_at' => '2016-01-27 14:47:07',
             ),
-            46 => 
+            45 => 
             array (
                 'person_id' => 548,
                 'forename' => 'Summer',
@@ -6647,7 +6639,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:47:36',
                 'updated_at' => '2016-01-27 14:47:36',
             ),
-            47 => 
+            46 => 
             array (
                 'person_id' => 549,
                 'forename' => 'Ron',
@@ -6659,7 +6651,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:47:45',
                 'updated_at' => '2016-01-27 14:47:45',
             ),
-            48 => 
+            47 => 
             array (
                 'person_id' => 550,
                 'forename' => 'Chiwetel',
@@ -6671,7 +6663,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:47:53',
                 'updated_at' => '2016-01-27 14:47:53',
             ),
-            49 => 
+            48 => 
             array (
                 'person_id' => 551,
                 'forename' => 'Jake',
@@ -6683,7 +6675,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:48:29',
                 'updated_at' => '2016-01-27 14:48:29',
             ),
-            50 => 
+            49 => 
             array (
                 'person_id' => 552,
                 'forename' => 'Michelle',
@@ -6695,7 +6687,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:48:38',
                 'updated_at' => '2016-01-27 14:48:38',
             ),
-            51 => 
+            50 => 
             array (
                 'person_id' => 553,
                 'forename' => 'Vera',
@@ -6707,7 +6699,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:48:46',
                 'updated_at' => '2016-01-27 14:48:46',
             ),
-            52 => 
+            51 => 
             array (
                 'person_id' => 554,
                 'forename' => 'Michael',
@@ -6719,7 +6711,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:48:54',
                 'updated_at' => '2016-01-27 14:48:54',
             ),
-            53 => 
+            52 => 
             array (
                 'person_id' => 555,
                 'forename' => 'Scott',
@@ -6731,7 +6723,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:49:13',
                 'updated_at' => '2016-01-27 14:49:13',
             ),
-            54 => 
+            53 => 
             array (
                 'person_id' => 556,
                 'forename' => 'Dev',
@@ -6743,7 +6735,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:49:31',
                 'updated_at' => '2016-01-27 14:49:31',
             ),
-            55 => 
+            54 => 
             array (
                 'person_id' => 557,
                 'forename' => 'Anil',
@@ -6755,7 +6747,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:49:41',
                 'updated_at' => '2016-01-27 14:49:41',
             ),
-            56 => 
+            55 => 
             array (
                 'person_id' => 558,
                 'forename' => 'Hank',
@@ -6767,7 +6759,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:50:05',
                 'updated_at' => '2016-01-27 14:50:05',
             ),
-            57 => 
+            56 => 
             array (
                 'person_id' => 559,
                 'forename' => 'Neil Patrick',
@@ -6779,7 +6771,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:50:14',
                 'updated_at' => '2016-01-27 14:50:14',
             ),
-            58 => 
+            57 => 
             array (
                 'person_id' => 560,
                 'forename' => 'Sof&iacute;a',
@@ -6791,7 +6783,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:50:23',
                 'updated_at' => '2016-01-27 14:50:23',
             ),
-            59 => 
+            58 => 
             array (
                 'person_id' => 561,
                 'forename' => 'Jonathan',
@@ -6803,7 +6795,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:50:47',
                 'updated_at' => '2016-01-27 14:50:47',
             ),
-            60 => 
+            59 => 
             array (
                 'person_id' => 562,
                 'forename' => 'Alan',
@@ -6815,7 +6807,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:50:56',
                 'updated_at' => '2016-01-27 14:50:56',
             ),
-            61 => 
+            60 => 
             array (
                 'person_id' => 563,
                 'forename' => 'Katy',
@@ -6827,7 +6819,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:51:07',
                 'updated_at' => '2016-01-27 14:51:07',
             ),
-            62 => 
+            61 => 
             array (
                 'person_id' => 564,
                 'forename' => 'Anton',
@@ -6839,7 +6831,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:51:17',
                 'updated_at' => '2016-01-27 14:51:17',
             ),
-            63 => 
+            62 => 
             array (
                 'person_id' => 565,
                 'forename' => 'John',
@@ -6851,7 +6843,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:51:28',
                 'updated_at' => '2016-01-27 14:51:28',
             ),
-            64 => 
+            63 => 
             array (
                 'person_id' => 566,
                 'forename' => 'Paul',
@@ -6863,7 +6855,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:51:36',
                 'updated_at' => '2016-01-27 14:51:36',
             ),
-            65 => 
+            64 => 
             array (
                 'person_id' => 567,
                 'forename' => 'Frank',
@@ -6875,7 +6867,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:52:33',
                 'updated_at' => '2016-01-27 14:52:33',
             ),
-            66 => 
+            65 => 
             array (
                 'person_id' => 568,
                 'forename' => 'Chris',
@@ -6887,7 +6879,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:52:57',
                 'updated_at' => '2016-01-27 14:52:57',
             ),
-            67 => 
+            66 => 
             array (
                 'person_id' => 569,
                 'forename' => 'Zachary',
@@ -6899,7 +6891,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:53:05',
                 'updated_at' => '2016-01-27 14:53:05',
             ),
-            68 => 
+            67 => 
             array (
                 'person_id' => 570,
                 'forename' => 'Leonard',
@@ -6911,7 +6903,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:53:13',
                 'updated_at' => '2016-01-27 14:53:13',
             ),
-            69 => 
+            68 => 
             array (
                 'person_id' => 571,
                 'forename' => 'Eric',
@@ -6923,7 +6915,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:53:25',
                 'updated_at' => '2016-01-27 14:53:25',
             ),
-            70 => 
+            69 => 
             array (
                 'person_id' => 572,
                 'forename' => 'John',
@@ -6935,7 +6927,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:53:34',
                 'updated_at' => '2016-01-27 14:53:34',
             ),
-            71 => 
+            70 => 
             array (
                 'person_id' => 573,
                 'forename' => 'Ben',
@@ -6947,7 +6939,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:53:45',
                 'updated_at' => '2016-01-27 14:53:45',
             ),
-            72 => 
+            71 => 
             array (
                 'person_id' => 574,
                 'forename' => 'Greg',
@@ -6959,7 +6951,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:53:59',
                 'updated_at' => '2016-01-27 14:53:59',
             ),
-            73 => 
+            72 => 
             array (
                 'person_id' => 575,
                 'forename' => 'Benedict',
@@ -6971,7 +6963,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:54:55',
                 'updated_at' => '2016-01-27 14:54:55',
             ),
-            74 => 
+            73 => 
             array (
                 'person_id' => 576,
                 'forename' => 'Peter',
@@ -6983,7 +6975,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:55:04',
                 'updated_at' => '2016-01-27 14:55:04',
             ),
-            75 => 
+            74 => 
             array (
                 'person_id' => 577,
                 'forename' => 'Nazneen',
@@ -6995,19 +6987,19 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 14:55:32',
                 'updated_at' => '2016-01-27 14:55:32',
             ),
-            76 => 
+            75 => 
             array (
                 'person_id' => 578,
                 'forename' => 'Ian',
-                'surname' => 'Mcdiarmid',
+                'surname' => 'McDiarmid',
                 'birthday' => '1944-08-11',
                 'deceased' => NULL,
                 'image' => 'Ian_Mcdiarmid_1453906624.jpg',
                 'bio' => 'Ian McDiarmid was born on August 11, 1944 in Carnoustie, Tayside, Scotland. He studied for a Master&#039;s degree in Clinical Psychology at the University of St. Andrews, but eventually found that his calling was in theatre. He went to the Royal Academy in Glasgow, where he received the prestigious gold medal for his work. He now has a highly successful career as a theatre director, and from 1990 until his retirement in 2001, was Joint Artistic Director of London&#039;s Almeida Theatre in Islington. He and his co-director Jonathan Kent revived the Almeida and persuaded many Hollywood stars including Kevin Spacey, Ralph Fiennes and Anna Friel to tread the boards in their humble theatre. They won the coveted London Evening Standard Award in 1998 for their efforts. McDiarmid is also well known for his film and television appearances, and is perhaps most famous for his chilling performance as Emperor Palpatine in George Lucas&#039;s Star Wars films.',
                 'created_at' => '2016-01-27 14:57:04',
-                'updated_at' => '2016-01-27 14:57:04',
+                'updated_at' => '2016-01-28 12:23:20',
             ),
-            77 => 
+            76 => 
             array (
                 'person_id' => 579,
                 'forename' => 'Jake',
@@ -7019,7 +7011,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:49:56',
                 'updated_at' => '2016-01-27 22:49:56',
             ),
-            78 => 
+            77 => 
             array (
                 'person_id' => 580,
                 'forename' => 'Pernilla',
@@ -7031,7 +7023,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:50:03',
                 'updated_at' => '2016-01-27 22:50:03',
             ),
-            79 => 
+            78 => 
             array (
                 'person_id' => 581,
                 'forename' => 'Hugh',
@@ -7043,7 +7035,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:50:12',
                 'updated_at' => '2016-01-27 22:50:12',
             ),
-            80 => 
+            79 => 
             array (
                 'person_id' => 582,
                 'forename' => 'Ahmed',
@@ -7055,7 +7047,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:50:20',
                 'updated_at' => '2016-01-27 22:50:20',
             ),
-            81 => 
+            80 => 
             array (
                 'person_id' => 583,
                 'forename' => 'Brian',
@@ -7067,7 +7059,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:50:28',
                 'updated_at' => '2016-01-27 22:50:28',
             ),
-            82 => 
+            81 => 
             array (
                 'person_id' => 584,
                 'forename' => 'Ray',
@@ -7079,7 +7071,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:50:36',
                 'updated_at' => '2016-01-27 22:50:36',
             ),
-            83 => 
+            82 => 
             array (
                 'person_id' => 585,
                 'forename' => 'Keira',
@@ -7091,7 +7083,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:50:54',
                 'updated_at' => '2016-01-28 09:29:47',
             ),
-            84 => 
+            83 => 
             array (
                 'person_id' => 586,
                 'forename' => 'Hayden',
@@ -7103,7 +7095,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:52:22',
                 'updated_at' => '2016-01-27 22:52:22',
             ),
-            85 => 
+            84 => 
             array (
                 'person_id' => 587,
                 'forename' => 'Temuera',
@@ -7115,7 +7107,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:52:29',
                 'updated_at' => '2016-01-27 22:52:29',
             ),
-            86 => 
+            85 => 
             array (
                 'person_id' => 588,
                 'forename' => 'Jimmy',
@@ -7127,7 +7119,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:52:36',
                 'updated_at' => '2016-01-27 22:52:36',
             ),
-            87 => 
+            86 => 
             array (
                 'person_id' => 589,
                 'forename' => 'Jamie',
@@ -7139,7 +7131,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:54:35',
                 'updated_at' => '2016-01-27 22:54:35',
             ),
-            88 => 
+            87 => 
             array (
                 'person_id' => 590,
                 'forename' => 'Daniel',
@@ -7151,7 +7143,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:54:43',
                 'updated_at' => '2016-01-27 22:54:43',
             ),
-            89 => 
+            88 => 
             array (
                 'person_id' => 591,
                 'forename' => 'Mackenzie',
@@ -7161,9 +7153,9 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'image' => 'Mackenzie_Crook_1453935297.jpg',
             'bio' => 'Mackenzie Crook, one of British comedy&#039;s best-known faces, who collected Star Wars figurines as a child, is now immortalized in plastic as a six-inch-high pirate action figure. He was born Paul Mackenzie Crook on September 29, 1971, in Maidstone, Kent, England, UK. His father worked for British Airways. His mother was a hospital manager. He went to grammar school in Dartford, and did his first plays there. In the summers, he spent time with his uncle in Zimbabwe. Young Mackenzie Crook expressed his creativity through painting and even copied a pre-Raphaelite&#039;s painting on to the back of his biker&#039;s jacket. He also joined a local youth theater. At the age of 18, he failed to secure a place at art college and turned to writing comedy sketches. Crook ended up working at Pizza Hut, then at a chicken factory and at hospitals. However, the principal of the youth theater believed in his potential and became his manager, guiding Crook to a career as a stand-up comedian. In 1996, he made his film debut in The Man Who Fell in Love with a Traffic Cone! (1996). In 1997, Crook was scouted by Bob Mortimer at the Edinburgh Festival. Soon he made his debut on television as a stand-up comedian on The 11 O&#039;Clock Show (1998), then worked on other TV shows playing grotesques and exaggerated characters. He shot to fame as Gareth Keenan, a quirky geek with a funny haircut in a TV hit comedy, The Office (2001), and earned himself a British Comedy Award nomination. He also was a member of the main cast of the BBC show &quot;TV to Go&quot; (2001)_. After that, Crook shared the screen with Al Pacino in The Merchant of Venice (2004), with Heath Ledger in The Brothers Grimm (2005), and with Johnny Depp in Finding Neverland (2004). Depp bonded with Crook during the making of &#039;Neverland&#039; and it was Depp who recommended him for the part of Ragetti, his best-known role, in Pirates of the Caribbean: The Curse of the Black Pearl (2003) and the sequel Pirates of the Caribbean: Dead Man&#039;s Chest (2006). Crook is also billed as Ragetti in the third installment of the &#039;Pirates&#039; franchise, Pirates of the Caribbean: At World&#039;s End (2007). After having spent about a decade on a stand-up comedian circuit, Crook made a perfect tool out of that character-actor face and added experience to his effortless style. It is in the &#039;Pirates&#039; trilogy that Mackenzie Crook had showed his funniest and widest variety of emotions, effortlessly shifting his facial expression from a deep philosophical pensiveness to a grotesque excitement, and from a comically exaggerated fear to such a gleeful exuberance while removing his wooden eyeball. For that particular scene he was wearing two contact lenses sandwiched on top of each other. In 2004, Crook appeared as Billy Bibbit opposite Christian Slater in the West End stage production of &quot;One Flew Over The Cuckoo&#039;s Nest,&quot; which initially opened at Gielgud Theatre and then was shown at the Edinburgh Theatre Festival. At the same time, Crook has been writing a script for his own future project; he describes it as a period production that is set in London around the same period as the &#039;Pirates&#039; movies. Mackenzie Crook has been enjoying a happy family life with his wife, Lindsay, a former advertising executive and club owner, and their son Jude (born in 2003). He is fond of gardening and is also focused on maintaining an organic way of life. He resides with his family in Peter Sellers&#039; old art-deco house in Muswell Hill, North London, England.',
                 'created_at' => '2016-01-27 22:54:57',
-                'updated_at' => '2016-01-27 22:54:57',
+                'updated_at' => '2016-01-28 12:29:15',
             ),
-            90 => 
+            89 => 
             array (
                 'person_id' => 592,
                 'forename' => 'Cary',
@@ -7175,7 +7167,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'created_at' => '2016-01-27 22:55:13',
                 'updated_at' => '2016-01-27 22:55:13',
             ),
-            91 => 
+            90 => 
             array (
                 'person_id' => 593,
                 'forename' => 'Arnold',
@@ -7191,7 +7183,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:55:36',
                 'updated_at' => '2016-01-28 09:35:17',
             ),
-            92 => 
+            91 => 
             array (
                 'person_id' => 594,
                 'forename' => 'Linda',
@@ -7203,7 +7195,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:55:47',
                 'updated_at' => '2016-01-27 22:55:47',
             ),
-            93 => 
+            92 => 
             array (
                 'person_id' => 595,
                 'forename' => 'Edward',
@@ -7215,7 +7207,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:56:23',
                 'updated_at' => '2016-01-27 22:56:23',
             ),
-            94 => 
+            93 => 
             array (
                 'person_id' => 596,
                 'forename' => 'Robert',
@@ -7227,7 +7219,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:56:35',
                 'updated_at' => '2016-01-27 22:56:35',
             ),
-            95 => 
+            94 => 
             array (
                 'person_id' => 597,
                 'forename' => 'Earl',
@@ -7239,7 +7231,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:56:45',
                 'updated_at' => '2016-01-27 22:56:45',
             ),
-            96 => 
+            95 => 
             array (
                 'person_id' => 598,
                 'forename' => 'Joe',
@@ -7251,7 +7243,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:56:53',
                 'updated_at' => '2016-01-27 22:56:53',
             ),
-            97 => 
+            96 => 
             array (
                 'person_id' => 599,
                 'forename' => 'Dean',
@@ -7263,7 +7255,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:57:10',
                 'updated_at' => '2016-01-27 22:57:10',
             ),
-            98 => 
+            97 => 
             array (
                 'person_id' => 600,
                 'forename' => 'Nick',
@@ -7275,7 +7267,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:57:36',
                 'updated_at' => '2016-01-27 22:57:36',
             ),
-            99 => 
+            98 => 
             array (
                 'person_id' => 601,
                 'forename' => 'Claire',
@@ -7287,7 +7279,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:57:45',
                 'updated_at' => '2016-01-27 22:57:45',
             ),
-            100 => 
+            99 => 
             array (
                 'person_id' => 602,
                 'forename' => 'Kristanna',
@@ -7299,7 +7291,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:57:53',
                 'updated_at' => '2016-01-27 22:57:53',
             ),
-            101 => 
+            100 => 
             array (
                 'person_id' => 603,
                 'forename' => 'Moon',
@@ -7311,7 +7303,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:58:57',
                 'updated_at' => '2016-01-27 22:58:57',
             ),
-            102 => 
+            101 => 
             array (
                 'person_id' => 604,
                 'forename' => 'Bryce Dallas',
@@ -7323,7 +7315,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:59:05',
                 'updated_at' => '2016-01-27 22:59:05',
             ),
-            103 => 
+            102 => 
             array (
                 'person_id' => 605,
                 'forename' => 'Michael',
@@ -7335,7 +7327,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:59:15',
                 'updated_at' => '2016-01-27 22:59:15',
             ),
-            104 => 
+            103 => 
             array (
                 'person_id' => 606,
                 'forename' => 'Jon',
@@ -7347,7 +7339,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 22:59:59',
                 'updated_at' => '2016-01-27 22:59:59',
             ),
-            105 => 
+            104 => 
             array (
                 'person_id' => 607,
                 'forename' => 'Blake',
@@ -7359,7 +7351,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:00:07',
                 'updated_at' => '2016-01-27 23:00:07',
             ),
-            106 => 
+            105 => 
             array (
                 'person_id' => 608,
                 'forename' => 'Hailee',
@@ -7371,7 +7363,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:01:30',
                 'updated_at' => '2016-01-27 23:01:30',
             ),
-            107 => 
+            106 => 
             array (
                 'person_id' => 609,
                 'forename' => 'J.k.',
@@ -7383,7 +7375,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:01:51',
                 'updated_at' => '2016-01-27 23:01:51',
             ),
-            108 => 
+            107 => 
             array (
                 'person_id' => 610,
                 'forename' => 'Megan',
@@ -7395,7 +7387,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:02:26',
                 'updated_at' => '2016-01-27 23:02:26',
             ),
-            109 => 
+            108 => 
             array (
                 'person_id' => 611,
                 'forename' => 'Josh',
@@ -7407,7 +7399,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:02:35',
                 'updated_at' => '2016-01-27 23:02:35',
             ),
-            110 => 
+            109 => 
             array (
                 'person_id' => 612,
                 'forename' => 'Tyrese',
@@ -7419,7 +7411,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:02:44',
                 'updated_at' => '2016-01-27 23:02:44',
             ),
-            111 => 
+            110 => 
             array (
                 'person_id' => 613,
                 'forename' => 'Anthony',
@@ -7431,7 +7423,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:02:59',
                 'updated_at' => '2016-01-27 23:02:59',
             ),
-            112 => 
+            111 => 
             array (
                 'person_id' => 614,
                 'forename' => 'Jon',
@@ -7443,7 +7435,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:03:17',
                 'updated_at' => '2016-01-27 23:03:17',
             ),
-            113 => 
+            112 => 
             array (
                 'person_id' => 615,
                 'forename' => 'John',
@@ -7455,7 +7447,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:03:27',
                 'updated_at' => '2016-01-27 23:03:27',
             ),
-            114 => 
+            113 => 
             array (
                 'person_id' => 616,
                 'forename' => 'Kevin',
@@ -7467,7 +7459,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:03:38',
                 'updated_at' => '2016-01-27 23:03:38',
             ),
-            115 => 
+            114 => 
             array (
                 'person_id' => 617,
                 'forename' => 'Julie',
@@ -7479,19 +7471,19 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:03:48',
                 'updated_at' => '2016-01-27 23:03:48',
             ),
-            116 => 
+            115 => 
             array (
                 'person_id' => 618,
                 'forename' => 'Bernie',
                 'surname' => 'Mac',
                 'birthday' => '1957-10-05',
-                'deceased' => NULL,
+                'deceased' => '2008-08-09',
                 'image' => 'Bernie_Mac_1453935841.jpg',
             'bio' => 'Bernard Jeffrey McCollough was born in Chicago in 1957. He grew up in Chicago, in a rougher neighborhood than most others, with a large family living under one roof. This situation provided him with a great insight into his comedy, as his family, and the situations surrounding them would be what dominated his comedy. Mac worked in the Regal Theater, and performed in Chicago parks in his younger days. He became a professional comedian in 1977, at the age of 19. He refused to change his image for television and films, and therefore was not very well known for most of the eighties. In 1992 he made his film debut with a small part with Mo&#039; Money (1992). This started a plethora of small parts in a string of movies, mostly comedies, including Who&#039;s the Man? (1993), House Party 3 (1994) and The Walking Dead (1995). 1995 proved to be a turning point in his career. He did an HBO Special called Midnight Mac (1995), and took a part as Pastor Clever in the Chris Tucker comedy Friday (1995). Bernie Mac developed a cult following due to the movie and had many small parts since. In 1996 he starred in the memorable Spike Lee movie Get on the Bus (1996), and was very funny in Don&#039;t Be a Menace to South Central While Drinking Your Juice in the Hood (1996). About this time he had a recurring role in the TV series Moesha (1996). Bernie Mac&#039;s star was slowly rising from this point. His next couple of movie parts were more substantial, including How to Be a Player (1997) and The Players Club (1998). In 1999 Bernie Mac got his most high profile part up to that point in the film Life (1999) starring Eddie Murphy. The new century started a new era for the brash Chicago comedian. He was a featured comedian in The Original Kings of Comedy (2000). This performance made him more of a household name, and led to many more major parts. In 2001 he played Martin Lawrence&#039;s uncle in What&#039;s the Worst That Could Happen? (2001) and later that year, was in the star studded remake of Ocean&#039;s Eleven (2001). However his biggest success was The Bernie Mac Show (2001), which debuted in 2001 to instant acclaim. However, soon after the series ended, Mac&#039;s health took a turn for the worse. He developed sarcoidosis, an autoimmune disease which causes inflammation in the lungs. On August 9, 2008, after weeks of unsuccessful treatments, Bernie Mac died at Northwestern Memorial Hospital in Chicago. He was 50. Bernie Mac was a comedian that refused to change his image for Hollywood and said that his life in Chicago was who he was and there was nothing that could change that. He was a mature comedian who was very intelligent and very engaging in his TV, movie and stand-up appearances.',
                 'created_at' => '2016-01-27 23:04:01',
-                'updated_at' => '2016-01-27 23:04:01',
+                'updated_at' => '2016-01-28 12:26:41',
             ),
-            117 => 
+            116 => 
             array (
                 'person_id' => 619,
                 'forename' => 'Glenn',
@@ -7503,7 +7495,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:04:13',
                 'updated_at' => '2016-01-27 23:04:13',
             ),
-            118 => 
+            117 => 
             array (
                 'person_id' => 620,
                 'forename' => 'Peter',
@@ -7515,7 +7507,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:04:36',
                 'updated_at' => '2016-01-27 23:04:36',
             ),
-            119 => 
+            118 => 
             array (
                 'person_id' => 621,
                 'forename' => 'Rainn',
@@ -7527,31 +7519,31 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:06:05',
                 'updated_at' => '2016-01-27 23:06:05',
             ),
-            120 => 
+            119 => 
             array (
                 'person_id' => 622,
                 'forename' => 'Rosie',
-                'surname' => 'Huntington-whiteley',
+                'surname' => 'Huntington-Whiteley',
                 'birthday' => '1987-04-18',
                 'deceased' => NULL,
                 'image' => 'Rosie_Huntington_whiteley_1453936010.jpg',
             'bio' => 'Rosie Alice Huntington-Whiteley was born in Plymouth, Devon, England, to Fiona (Jackson), a fitness instructor, and Charles Andrew Huntington-Whiteley, a chartered surveyor. She has two younger siblings: Toby and Florence. Her great-great-grandfather was politician Sir Herbert Huntington-Whiteley, 1st Baronet. Rosie has Ashkenazi Jewish and English ancestry. She grew up on her parents&#039; country farm. She attended Tavistock College and has been modeling since 2003 for a variety of clothiers: Abercrombie &amp; Fitch, Burberry, Bloomingdale&#039;s, Ralph Lauren, DKNY. She started modeling for Victoria&#039;s Secret in 2006 and was officially named one of the lingerie company&#039;s &quot;Angels&quot; in November 2009, at age 22. Her first film role was Carly Spencer, replacing Megan Fox as Sam Witwicky&#039;s new love interest in the third installment of the Transformers series: Transformers: Dark of the Moon (2011).',
                 'created_at' => '2016-01-27 23:06:50',
-                'updated_at' => '2016-01-27 23:06:50',
+                'updated_at' => '2016-01-28 11:41:02',
             ),
-            121 => 
+            120 => 
             array (
                 'person_id' => 623,
                 'forename' => 'Frances',
-                'surname' => 'Mcdormand',
+                'surname' => 'McDormand',
                 'birthday' => '1957-06-23',
                 'deceased' => NULL,
                 'image' => 'Frances_Mcdormand_1453936017.jpg',
             'bio' => 'Frances Louise McDormand was born on June 23, 1957 in Chicago, Illinois. She was adopted by Canadian-born parents Noreen Eloise (Nickleson), a nurse from Ontario, and Vernon Weir McDormand, a minister from Nova Scotia, who raised her in the suburbs of Pittsburgh. She earned her B.A. in Theater from Bethany College in 1979 and her MFA from Yale in 1982. Her career after graduation began onstage, and she has retained her association with the theater throughout her career. She soon obtained prominent roles in movies as well, first starring in Blood Simple. (1984), in which she worked with filmmaker Joel Coen, whom she married that year. She frequently collaborated with Coen and his brother Ethan Coen in their films. McDormand&#039;s skilled and versatile acting has been recognized by both the critics and the Academy and, in addition to many critics&#039; awards, she has been nominated for an Academy Award four times - for Mississippi Burning (1988), Fargo (1996) (for which she won the Best Actress Award), Almost Famous (2000) and North Country (2005). Keenly intelligent and possessed of a sharp wit, McDormand is the antithesis of the Hollywood starlet - rather than making every role about Frances McDormand, Frances McDormand dissolves into the characters she plays. Accordingly, she has expressed some reservations about the iconic recognition she has gained from her touching and amusing portrayal of Police Chief Marge Gunderson, the quintessential Minnesota Scandinavian, in Fargo (1996). McDormand and Coen adopted a son, Pedro, who was born in Paraguay, in 1994. They live in Manhattan, New York.',
                 'created_at' => '2016-01-27 23:06:58',
-                'updated_at' => '2016-01-27 23:06:58',
+                'updated_at' => '2016-01-28 12:23:09',
             ),
-            122 => 
+            121 => 
             array (
                 'person_id' => 624,
                 'forename' => 'John',
@@ -7563,7 +7555,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:07:06',
                 'updated_at' => '2016-01-27 23:07:06',
             ),
-            123 => 
+            122 => 
             array (
                 'person_id' => 625,
                 'forename' => 'Ken',
@@ -7575,7 +7567,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:07:15',
                 'updated_at' => '2016-01-27 23:07:15',
             ),
-            124 => 
+            123 => 
             array (
                 'person_id' => 626,
                 'forename' => 'Bruce',
@@ -7587,7 +7579,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:07:49',
                 'updated_at' => '2016-01-27 23:07:49',
             ),
-            125 => 
+            124 => 
             array (
                 'person_id' => 627,
                 'forename' => 'Cindy',
@@ -7599,7 +7591,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:07:57',
                 'updated_at' => '2016-01-27 23:07:57',
             ),
-            126 => 
+            125 => 
             array (
                 'person_id' => 628,
                 'forename' => 'Barnard',
@@ -7611,7 +7603,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:08:32',
                 'updated_at' => '2016-01-27 23:08:32',
             ),
-            127 => 
+            126 => 
             array (
                 'person_id' => 629,
                 'forename' => 'Dan',
@@ -7623,7 +7615,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:08:49',
                 'updated_at' => '2016-01-27 23:08:49',
             ),
-            128 => 
+            127 => 
             array (
                 'person_id' => 630,
                 'forename' => 'Garrett',
@@ -7635,7 +7627,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:09:38',
                 'updated_at' => '2016-01-27 23:09:38',
             ),
-            129 => 
+            128 => 
             array (
                 'person_id' => 631,
                 'forename' => 'Olivia',
@@ -7647,7 +7639,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:09:47',
                 'updated_at' => '2016-01-27 23:09:47',
             ),
-            130 => 
+            129 => 
             array (
                 'person_id' => 632,
                 'forename' => 'James',
@@ -7659,7 +7651,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:09:56',
                 'updated_at' => '2016-01-27 23:09:56',
             ),
-            131 => 
+            130 => 
             array (
                 'person_id' => 633,
                 'forename' => 'Beau',
@@ -7671,7 +7663,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:10:05',
                 'updated_at' => '2016-01-27 23:10:05',
             ),
-            132 => 
+            131 => 
             array (
                 'person_id' => 634,
                 'forename' => 'Matthew',
@@ -7683,7 +7675,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:11:06',
                 'updated_at' => '2016-01-27 23:11:06',
             ),
-            133 => 
+            132 => 
             array (
                 'person_id' => 635,
                 'forename' => 'David',
@@ -7695,7 +7687,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:11:14',
                 'updated_at' => '2016-01-27 23:11:14',
             ),
-            134 => 
+            133 => 
             array (
                 'person_id' => 636,
                 'forename' => 'Peter',
@@ -7707,7 +7699,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:11:25',
                 'updated_at' => '2016-01-27 23:11:25',
             ),
-            135 => 
+            134 => 
             array (
                 'person_id' => 637,
                 'forename' => 'Hugh',
@@ -7719,7 +7711,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:12:22',
                 'updated_at' => '2016-01-27 23:12:22',
             ),
-            136 => 
+            135 => 
             array (
                 'person_id' => 638,
                 'forename' => 'Liev',
@@ -7731,7 +7723,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:12:31',
                 'updated_at' => '2016-01-27 23:12:31',
             ),
-            137 => 
+            136 => 
             array (
                 'person_id' => 639,
                 'forename' => 'Danny',
@@ -7743,7 +7735,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:12:40',
                 'updated_at' => '2016-01-27 23:12:40',
             ),
-            138 => 
+            137 => 
             array (
                 'person_id' => 640,
                 'forename' => 'Kevin',
@@ -7755,7 +7747,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:12:52',
                 'updated_at' => '2016-01-27 23:12:52',
             ),
-            139 => 
+            138 => 
             array (
                 'person_id' => 641,
                 'forename' => 'Lynn',
@@ -7767,7 +7759,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:12:59',
                 'updated_at' => '2016-01-27 23:12:59',
             ),
-            140 => 
+            139 => 
             array (
                 'person_id' => 642,
                 'forename' => 'Ryan',
@@ -7779,7 +7771,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:13:09',
                 'updated_at' => '2016-01-27 23:13:09',
             ),
-            141 => 
+            140 => 
             array (
                 'person_id' => 643,
                 'forename' => 'Taylor',
@@ -7791,7 +7783,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:13:18',
                 'updated_at' => '2016-01-27 23:13:18',
             ),
-            142 => 
+            141 => 
             array (
                 'person_id' => 644,
                 'forename' => 'Tao',
@@ -7803,7 +7795,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:14:02',
                 'updated_at' => '2016-01-27 23:14:02',
             ),
-            143 => 
+            142 => 
             array (
                 'person_id' => 645,
                 'forename' => 'Svetlana',
@@ -7815,7 +7807,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:14:11',
                 'updated_at' => '2016-01-27 23:14:11',
             ),
-            144 => 
+            143 => 
             array (
                 'person_id' => 646,
                 'forename' => 'Famke',
@@ -7827,7 +7819,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:14:23',
                 'updated_at' => '2016-01-27 23:14:23',
             ),
-            145 => 
+            144 => 
             array (
                 'person_id' => 647,
                 'forename' => 'Patrick',
@@ -7839,19 +7831,19 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:14:48',
                 'updated_at' => '2016-01-27 23:14:48',
             ),
-            146 => 
+            145 => 
             array (
                 'person_id' => 648,
                 'forename' => 'James',
-                'surname' => 'Mcavoy',
+                'surname' => 'McAvoy',
                 'birthday' => '1979-04-21',
                 'deceased' => NULL,
                 'image' => 'James_Mcavoy_1453936513.jpg',
             'bio' => 'McAvoy was born on 21 April 1979 in Glasgow, Scotland, to Elizabeth (n&eacute;e Johnstone), a nurse, and James McAvoy senior, a bus driver. He was raised in Drumchapel, Glasgow by his grandparents after his father abandoned his mother when James was 7. He went to St Thomas Aquinas Secondary in Jordanhill, Glasgow, where he did well enough and started &#039;a little school band with a couple of mates&#039;. McAvoy toyed with the idea of the Catholic priesthood as a child but, when he was 16, a visit to the school by actor David Hayman sparked an interest in acting. Hayman offered him a part in his film The Near Room (1995) but despite enjoying the experience McAvoy didn&#039;t seriously consider acting as a career, although he did continue to act as a member of PACE Youth Theatre. He applied instead to the Royal Navy and had already been accepted when he was also offered a place at the Royal Scottish Academy of Music and Drama (RSAMD). He took the place at the RSAMD (now the Royal Conservatoire of Scotland) and, when he graduated in 2000, he moved to London. He had already made a couple of TV appearances by this time and continued to get a steady stream of TV and movie work until he came to attention of the British public in 2004 playing car thief Steve McBride in the successful UK TV series Shameless (2004) and then to the rest of the world in 2005 as Mr Tumnus, the faun, in Disney&#039;s adaptation of C. S. Lewis&#039;s The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005). In The Last King of Scotland (2006) McAvoy portrayed a Scottish doctor who becomes the personal physician to dictator Idi Amin, played by Forest Whitaker. McAvoy&#039;s career breakthrough came in Atonement (2007), Joe Wright&#039;s 2007 adaption of Ian McEwan&#039;s novel. Since then, McAvoy has taken on theatre roles, starring in Shakespeare&#039;s &#039;Macbeth&#039; (directed by Jamie Lloyd), which launched the first Trafalgar Transformed season in London&#039;s West End and earned him an Olivier award nomination for Best Actor. In January 2015, McAvoy returned to the Trafalgar Studios stage to play Jack Gurney, a delusional English earl, in the first revival of Peter Barnes&#039;s satire &#039;The Ruling Class&#039;, a role for which he was subsequently awarded the London Evening Standard Theatre Award&#039;s Best Actor. On screen, McAvoy has appeared as corrupt cop Bruce Robertson in Filth (2013), a part for which he received a Scottish BAFTA for Best Actor, a British Independent Film Award for Best Actor, a London Critics Circle Film Award for British Actor of the Year and an Empire Award for Best Actor. He has also reprised his role as Professor Charles Xavier in X-Men: Days of Future Past (2014), and will star in the next film in the franchise: X-Men: Apocalypse (2016). In 2017, McAvoy will appear in Split (2017), M. Night Shyamalan&#039;s suspense thriller.',
                 'created_at' => '2016-01-27 23:15:13',
-                'updated_at' => '2016-01-27 23:15:13',
+                'updated_at' => '2016-01-28 12:23:44',
             ),
-            147 => 
+            146 => 
             array (
                 'person_id' => 649,
                 'forename' => 'Kevin',
@@ -7863,7 +7855,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:15:25',
                 'updated_at' => '2016-01-27 23:15:25',
             ),
-            148 => 
+            147 => 
             array (
                 'person_id' => 650,
                 'forename' => 'Rose',
@@ -7875,7 +7867,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:16:39',
                 'updated_at' => '2016-01-27 23:16:39',
             ),
-            149 => 
+            148 => 
             array (
                 'person_id' => 651,
                 'forename' => 'Oliver',
@@ -7887,7 +7879,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:16:50',
                 'updated_at' => '2016-01-27 23:16:50',
             ),
-            150 => 
+            149 => 
             array (
                 'person_id' => 652,
                 'forename' => '&Aacute;lex',
@@ -7899,7 +7891,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:17:00',
                 'updated_at' => '2016-01-27 23:17:00',
             ),
-            151 => 
+            150 => 
             array (
                 'person_id' => 653,
                 'forename' => 'Zo&euml;',
@@ -7911,7 +7903,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:17:12',
                 'updated_at' => '2016-01-27 23:17:12',
             ),
-            152 => 
+            151 => 
             array (
                 'person_id' => 654,
                 'forename' => 'January',
@@ -7923,7 +7915,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:17:23',
                 'updated_at' => '2016-01-27 23:17:23',
             ),
-            153 => 
+            152 => 
             array (
                 'person_id' => 655,
                 'forename' => 'Nicholas',
@@ -7935,7 +7927,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:17:31',
                 'updated_at' => '2016-01-27 23:17:31',
             ),
-            154 => 
+            153 => 
             array (
                 'person_id' => 656,
                 'forename' => 'Ray',
@@ -7947,7 +7939,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:18:03',
                 'updated_at' => '2016-01-27 23:18:03',
             ),
-            155 => 
+            154 => 
             array (
                 'person_id' => 657,
                 'forename' => 'Halle',
@@ -7959,7 +7951,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:18:40',
                 'updated_at' => '2016-01-27 23:18:40',
             ),
-            156 => 
+            155 => 
             array (
                 'person_id' => 658,
                 'forename' => 'Anna',
@@ -7971,7 +7963,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:18:49',
                 'updated_at' => '2016-01-27 23:18:49',
             ),
-            157 => 
+            156 => 
             array (
                 'person_id' => 659,
                 'forename' => 'Peter',
@@ -7983,7 +7975,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:18:58',
                 'updated_at' => '2016-01-27 23:18:58',
             ),
-            158 => 
+            157 => 
             array (
                 'person_id' => 660,
                 'forename' => 'Shawn',
@@ -7995,7 +7987,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:19:08',
                 'updated_at' => '2016-01-27 23:19:08',
             ),
-            159 => 
+            158 => 
             array (
                 'person_id' => 661,
                 'forename' => 'Evan',
@@ -8007,7 +7999,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:19:23',
                 'updated_at' => '2016-01-27 23:19:23',
             ),
-            160 => 
+            159 => 
             array (
                 'person_id' => 662,
                 'forename' => 'Josh',
@@ -8019,7 +8011,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:19:38',
                 'updated_at' => '2016-01-27 23:19:38',
             ),
-            161 => 
+            160 => 
             array (
                 'person_id' => 663,
                 'forename' => 'Daniel',
@@ -8031,7 +8023,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:19:47',
                 'updated_at' => '2016-01-27 23:19:47',
             ),
-            162 => 
+            161 => 
             array (
                 'person_id' => 664,
                 'forename' => 'Lucas',
@@ -8043,7 +8035,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:20:02',
                 'updated_at' => '2016-01-27 23:20:02',
             ),
-            163 => 
+            162 => 
             array (
                 'person_id' => 665,
                 'forename' => 'Kelsey',
@@ -8055,7 +8047,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:20:35',
                 'updated_at' => '2016-01-27 23:20:35',
             ),
-            164 => 
+            163 => 
             array (
                 'person_id' => 666,
                 'forename' => 'Tyler',
@@ -8067,7 +8059,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:22:06',
                 'updated_at' => '2016-01-27 23:22:06',
             ),
-            165 => 
+            164 => 
             array (
                 'person_id' => 667,
                 'forename' => 'Rebecca',
@@ -8079,7 +8071,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:22:16',
                 'updated_at' => '2016-01-27 23:22:16',
             ),
-            166 => 
+            165 => 
             array (
                 'person_id' => 668,
                 'forename' => 'Bruce',
@@ -8091,7 +8083,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:22:25',
                 'updated_at' => '2016-01-27 23:22:25',
             ),
-            167 => 
+            166 => 
             array (
                 'person_id' => 669,
                 'forename' => 'Aaron',
@@ -8103,7 +8095,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:23:03',
                 'updated_at' => '2016-01-27 23:23:03',
             ),
-            168 => 
+            167 => 
             array (
                 'person_id' => 670,
                 'forename' => 'Kelly',
@@ -8115,7 +8107,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:23:12',
                 'updated_at' => '2016-01-27 23:23:12',
             ),
-            169 => 
+            168 => 
             array (
                 'person_id' => 671,
                 'forename' => 'Vinnie',
@@ -8127,7 +8119,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:23:59',
                 'updated_at' => '2016-01-27 23:23:59',
             ),
-            170 => 
+            169 => 
             array (
                 'person_id' => 672,
                 'forename' => 'Ben',
@@ -8139,7 +8131,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:24:08',
                 'updated_at' => '2016-01-27 23:24:08',
             ),
-            171 => 
+            170 => 
             array (
                 'person_id' => 673,
                 'forename' => 'Bill',
@@ -8151,7 +8143,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:24:20',
                 'updated_at' => '2016-01-27 23:24:20',
             ),
-            172 => 
+            171 => 
             array (
                 'person_id' => 674,
                 'forename' => 'R. Lee',
@@ -8163,7 +8155,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:24:44',
                 'updated_at' => '2016-01-27 23:24:44',
             ),
-            173 => 
+            172 => 
             array (
                 'person_id' => 675,
                 'forename' => 'Olivia',
@@ -8175,7 +8167,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:25:02',
                 'updated_at' => '2016-01-27 23:25:02',
             ),
-            174 => 
+            173 => 
             array (
                 'person_id' => 676,
                 'forename' => 'Emilio',
@@ -8187,7 +8179,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:25:21',
                 'updated_at' => '2016-01-27 23:25:21',
             ),
-            175 => 
+            174 => 
             array (
                 'person_id' => 677,
                 'forename' => 'Kiefer',
@@ -8199,7 +8191,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:25:30',
                 'updated_at' => '2016-01-27 23:25:30',
             ),
-            176 => 
+            175 => 
             array (
                 'person_id' => 678,
                 'forename' => 'Lou Diamond',
@@ -8211,7 +8203,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:25:38',
                 'updated_at' => '2016-01-27 23:25:38',
             ),
-            177 => 
+            176 => 
             array (
                 'person_id' => 679,
                 'forename' => 'Charlie',
@@ -8223,7 +8215,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:25:46',
                 'updated_at' => '2016-01-27 23:25:46',
             ),
-            178 => 
+            177 => 
             array (
                 'person_id' => 680,
                 'forename' => 'Dermot',
@@ -8235,7 +8227,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:25:54',
                 'updated_at' => '2016-01-27 23:25:54',
             ),
-            179 => 
+            178 => 
             array (
                 'person_id' => 681,
                 'forename' => 'Jack',
@@ -8247,7 +8239,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:26:01',
                 'updated_at' => '2016-01-27 23:26:01',
             ),
-            180 => 
+            179 => 
             array (
                 'person_id' => 682,
                 'forename' => 'Terry',
@@ -8259,7 +8251,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:26:09',
                 'updated_at' => '2016-01-27 23:26:09',
             ),
-            181 => 
+            180 => 
             array (
                 'person_id' => 683,
                 'forename' => 'Jesse',
@@ -8271,7 +8263,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:26:31',
                 'updated_at' => '2016-01-27 23:26:31',
             ),
-            182 => 
+            181 => 
             array (
                 'person_id' => 684,
                 'forename' => 'Abigail',
@@ -8283,7 +8275,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:26:45',
                 'updated_at' => '2016-01-27 23:26:45',
             ),
-            183 => 
+            182 => 
             array (
                 'person_id' => 685,
                 'forename' => 'Amber',
@@ -8295,7 +8287,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-27 23:26:54',
                 'updated_at' => '2016-01-27 23:26:54',
             ),
-            184 => 
+            183 => 
             array (
                 'person_id' => 686,
                 'forename' => 'Virginia',
@@ -8307,7 +8299,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 09:48:03',
                 'updated_at' => '2016-01-28 09:48:03',
             ),
-            185 => 
+            184 => 
             array (
                 'person_id' => 687,
                 'forename' => 'Edmond',
@@ -8319,7 +8311,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 09:48:51',
                 'updated_at' => '2016-01-28 09:50:11',
             ),
-            186 => 
+            185 => 
             array (
                 'person_id' => 688,
                 'forename' => 'Steve',
@@ -8331,7 +8323,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 09:49:24',
                 'updated_at' => '2016-01-28 09:49:24',
             ),
-            187 => 
+            186 => 
             array (
                 'person_id' => 689,
                 'forename' => 'Fred',
@@ -8342,6 +8334,1230 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
             'bio' => 'This popular, baggy-eyed, bald-domed, big lug of a character actor had few peers when called upon to display that special &quot;slow burn&quot; style of comedy few others perfected. But perfect he did -- on stage, film and TV. In fact, he pretty much cornered the market during the 50s and 60s as the dour, ill-tempered guy you loved to hate. Born Frederick Leonard Clark on March 19 1914, the son of Frederick Clark, a county agriculture commissioner, and Stella (n&eacute;e Bruce) Clark, in Lincoln, California, Fr ....',
                 'created_at' => '2016-01-28 09:49:46',
                 'updated_at' => '2016-01-28 09:49:46',
+            ),
+            187 => 
+            array (
+                'person_id' => 690,
+                'forename' => 'Jared',
+                'surname' => 'Leto',
+                'birthday' => '1971-12-26',
+                'deceased' => NULL,
+                'image' => 'Jared_Leto_1453979189.jpg',
+            'bio' => 'In the vein of musicians-turned-actors, Jared Leto is a very familiar face in recent film history. Although he has always been the lead vocals, rhythm guitar, and songwriter for American band 30 Seconds to Mars, Leto will always be remembered as an accomplished actor for the numerous, challenging projects he has taken in his life. Jared Leto was born in Bossier City, Louisiana, to Constance &quot;Connie&quot; (Metrejon) and Anthony L. &quot;Tony&quot; Bryant. &quot;Leto&quot; is a stepfather&#039;s surname. His ancestry includes English, Cajun (French), as well as Irish, German, Scottish. Jared and his family traveled across the United States throughout Leto&#039;s childhood, living in such states as Wyoming, Virginia and Colorado. Leto would continue this trend when he initially dropped a study of painting at Philadelphia&#039;s University of the Arts in favor of a focus on acting at the School of Visual Arts in New York City. In 1992, Leto moved to Los Angeles to pursue a musical career, intending to take acting roles on the side. Leto&#039;s first appearances on screen were guest appearances on the short-lived television shows Camp Wilder (1992), Almost Home (1993) and Rebel Highway (1994). However, his next role would change everything for Leto. While searching for film roles, he was cast in the show, My So-Called Life (1994) (TV Series 1994-1995). Leto&#039;s character was &quot;Jordan Catalano&quot;, the handsome, dyslexic slacker, but also the main love interest of &quot;Angela&quot; (played by Claire Danes). Leto contributed to the soundtrac ....',
+                'created_at' => '2016-01-28 11:06:29',
+                'updated_at' => '2016-01-28 11:06:29',
+            ),
+            188 => 
+            array (
+                'person_id' => 691,
+                'forename' => 'Jenny',
+                'surname' => 'Agutter',
+                'birthday' => '1952-12-20',
+                'deceased' => NULL,
+                'image' => 'Jenny_Agutter_1453979576.jpg',
+            'bio' => 'Jenny Agutter was born on December 20, 1952, in Taunton, Somerset, England, UK. The daughter of an army officer, she spent her childhood traveling and living in different countries. Her film career began at the age of 12 in East of Sudan (1964), which was quickly followed by Walt Disney&#039;s Wonderful World of Color: Ballerina: Part 1 (1966) and Walt Disney&#039;s Wonderful World of Color: Ballerina: Part 2 (1966), and A Man Could Get Killed (1966). Other films and television appearances in her early career include Gates to Paradise (1968), Long After Summer (1967), Star! (1968), I Start Counting (1970), The Great Inimitable Mr. Dickens (1970) and BBC Play of the Month: The Wild Duck (1971). In 1970, she appeared in what was her real big break as a child star: The Railway Children (1970), as &quot;Bobbie&quot;. The next year, Hollywood called and she spent several years there, appearing in such works as BBC Play of the Month: The Cherry Orchard (1971), Walkabout (1971) and The Snow Goose (1971) with Richard Harris, for which she received an Emmy Award. She also appeared in the critically acclaimed A War of Children (1972) and Shelley (1972). In 1976, Jenny really came to the attention of US film audiences with her starring role in the science-fiction classic Logan&#039;s Run (1976) with Michael York. Though not a critical favorite, it was a huge box-office success and spawned a television series. She also starred alongside Richard Chamberlain in a well-received made-for-TV version of the famous Dum ....',
+                'created_at' => '2016-01-28 11:12:56',
+                'updated_at' => '2016-01-28 11:12:56',
+            ),
+            189 => 
+            array (
+                'person_id' => 692,
+                'forename' => 'Suzy',
+                'surname' => 'Amis',
+                'birthday' => '1962-01-05',
+                'deceased' => NULL,
+                'image' => 'Suzy_Amis_1453979872.jpg',
+            'bio' => 'Born on January 5, 1962 in Oklahoma City, Oklahoma, Susan Elizabeth &quot;Suzy&quot; Amis first worked as a Ford model before she began acting in the 1980s. She made her film debut in the comedy film Fandango (1985), opposite Kevin Costner. After that, Amis next had roles in Rocket Gibraltar (1988), Where the Heart Is (1990), Rich in Love (1992) and The Ballad of Little Jo (1993). She later appeared in Blown Away (1994), The Usual Suspects (1995) and Titanic (1997) in which she played Rose DeWitt Bukater&#039;s granddaughter Lizzy Calvert. That same year, she starred opposite Tom Selleck in the television Western Last Stand at Saber River (1997) and appeared in the horror film Nadja (1994). Amis retired from acting after her last appearance in the science fiction action film Judgment Day (1999).',
+                'created_at' => '2016-01-28 11:17:52',
+                'updated_at' => '2016-01-28 11:17:52',
+            ),
+            190 => 
+            array (
+                'person_id' => 693,
+                'forename' => 'Blake',
+                'surname' => 'Clark',
+                'birthday' => '1946-02-02',
+                'deceased' => NULL,
+                'image' => 'Blake_Clark_1453980025.jpg',
+            'bio' => 'For the last 20 or so years, Clark has been doing stand-up comedy on the club circuit, on &quot;The Tonight Show&quot;, on HBO comedy specials, on Late Night with David Letterman (1982) and Late Night with Conan O&#039;Brien (1993). In addition, he has been in over 50 feature motion pictures and hundreds of episodic TV shows. A decorated Infantry Platoon Leader in Vietnam, Clark brought the plight of the Vietnam Veteran to the people of America in a humorous way in the 80s and was &quot;adopted&quot; by numerous Veteran Organizations throughout the United States. Having moved from his home state of Georgia to Hollywood, Clark soon landed his first The Tonight Show Starring Johnny Carson (1962) and soon, thereafter, was cast in his first of many recurring roles on television as &quot;Fred the Chauffeur&quot; on Remington Steele (1982). Since then, he has been &quot;Harry&quot; on Home Improvement (1991), &quot;Jules Lambermont&quot; on The Drew Carey Show (1995), &quot;Chet Hunter&quot; on Boy Meets World (1993) and &quot;Bob Nelson&quot; on The Jamie Foxx Show (1996). But Clark is perhaps best known as &quot;Farmer Fran&quot; in The Waterboy (1998). And he recently received critical acclaim as &quot;Marlin Whitmore&quot; in 50 First Dates (2004). He has traveled the world doing comedy and recently went to Iraq for an extended USO Tour with Drew Carey. Clark is a warm, smart, funny and innovative social commentator and a man of all seasons with a quiet patriotism that he lives as well as portrays. His comedy runs the gamut from observation on the current military confli ....',
+                'created_at' => '2016-01-28 11:20:25',
+                'updated_at' => '2016-01-28 11:20:25',
+            ),
+            191 => 
+            array (
+                'person_id' => 694,
+                'forename' => 'Missi',
+                'surname' => 'Pyle',
+                'birthday' => '1972-11-16',
+                'deceased' => NULL,
+                'image' => 'Missi_Pyle_1453980049.jpg',
+            'bio' => 'Missi Pyle was born on November 16, 1972 as Andrea Kay Pyle in Houston, Texas and was raised in Memphis, Tennessee. The daughter of Linda and Frank Pyle, she has four older siblings, sisters Debbie and Julie, and brothers Sam and Paul. Pyle attended the North Carolina School of the Arts and graduated in 1995. Since then, Pyle has had a significant career in many films and television series. She has also established in parallel a singing career as a member of the band Smith &amp; Pyle with actress Shawnee Smith. Pyle has started an acting career playing a minor role in comedy film As Good as It Gets (1997) starring Jack Nicholson and Helen Hunt. Her following notable roles were in science fiction parody film Galaxy Quest (1999), Home Alone 4 (2002) where she played her first role as a villain, Tim Burton films Big Fish (2003) and Charlie and the Chocolate Factory (2005) starring Johnny Depp and Christopher Lee, Just My Luck (2006) starring Lindsay Lohan, and Soccer Mom (2008) where she had a double role. Pyle has also played guest roles in many television series such as Mad About You (1992) also starring Helen Hunt, Frasier (1993), Friends (1994) in the episode &quot;The One with Ross&#039;s Teeth&quot;, Ally McBeal (1997), three episodes of Two and a Half Men (2003), three episodes of Boston Legal (2004), Grey&#039;s Anatomy (2005), two episodes Heroes (2006) and two episodes of The Mentalist (2008). Pyle is also an occasional voice actress, and has voiced characters in one episode of series Family  ....',
+                'created_at' => '2016-01-28 11:20:49',
+                'updated_at' => '2016-01-28 11:20:49',
+            ),
+            192 => 
+            array (
+                'person_id' => 695,
+                'forename' => 'Kevin',
+                'surname' => 'James',
+                'birthday' => '1965-04-26',
+                'deceased' => NULL,
+                'image' => 'Kevin_James_1453980063.jpg',
+            'bio' => 'Kevin James was born Kevin George Knipfing on April 26, 1965, in Mineola, New York, to Janet, an office worker, and Joseph Valentine Knipfing, Jr., an insurance agency owner. He has German ancestry. James attended Cortland University where he played fullback on the football team while majoring in sports management. He realized after 3 years that this wasn&#039;t the path for him. After returning home, he decided to break up the monotony of the summer, and joined a community theater. During a play in which he had a comedic role, he so enjoyed the crowd reaction, that he joined his brother&#039;s (comedian Gary Valentine&#039;s) improv group. He began going to clubs with Gary and realized he, too, had the knack for comedy. He has performed stand-up up for about 11 years. It was on the comedy circuit that he met Ray Romano. While Ray was getting a big break with his own sitcom, Kevin was getting recognition on Star Search (1983). After appearing on The Tonight Show with Jay Leno (1992), his big break came at the 1996 &quot;Just for Laughs&quot; Montreal Comedy Festival. Afterward, he landed a recurring role on Ray&#039;s sitcom, Everybody Loves Raymond (1996). He starred in his own sitcom, The King of Queens (1998), as Doug Heffernan, from 1998 to 2007, and later began a career as a leading film actor, co-starring in Hitch (2005), I Now Pronounce You Chuck &amp; Larry (2007), Grown Ups (2010), and Grown Ups 2 (2013), and headlining Paul Blart: Mall Cop (2009), Zookeeper (2011), Here Comes the Boom (2012)_, and P ....',
+                'created_at' => '2016-01-28 11:21:03',
+                'updated_at' => '2016-01-28 11:21:03',
+            ),
+            193 => 
+            array (
+                'person_id' => 696,
+                'forename' => 'Lusia',
+                'surname' => 'Strus',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Lusia_Strus_1453980095.jpg',
+            'bio' => 'Lusia Strus was born in Chicago, Illinois, USA. She is an actress, known for 50 First Dates (2004), Stir of Echoes (1999) and Miss Congeniality 2: Armed and Fabulous (2005). ....',
+                'created_at' => '2016-01-28 11:21:35',
+                'updated_at' => '2016-01-28 11:21:35',
+            ),
+            194 => 
+            array (
+                'person_id' => 697,
+                'forename' => 'Allen',
+                'surname' => 'Covert',
+                'birthday' => '1964-10-13',
+                'deceased' => NULL,
+                'image' => 'Allen_Covert_1453980119.jpg',
+            'bio' => 'Allen Covert was born on October 13, 1964 in Palm Beach County, Florida, USA as Allen Stephen Covert. He is an actor and producer, known for Grandma&#039;s Boy (2006), Big Daddy (1999) and Anger Management (2003). He is married to Kathryn Covert. They have one child. ....',
+                'created_at' => '2016-01-28 11:21:59',
+                'updated_at' => '2016-01-28 11:21:59',
+            ),
+            195 => 
+            array (
+                'person_id' => 698,
+                'forename' => 'Matthew',
+                'surname' => 'Broderick',
+                'birthday' => '1962-03-21',
+                'deceased' => NULL,
+                'image' => 'Matthew_Broderick_1453980146.jpg',
+            'bio' => 'A slight comic actor chiefly known for his boyish charm, Matthew Broderick was born on March 21, 1962 in New York City, to Patricia Broderick (n&eacute;e Biow), a playwright and painter, and James Broderick, an actor. His father had Irish and English ancestry, and his mother was from a Jewish family (from Germany and Poland). Matthew initially took up acting at New York&#039;s upper-crust Walden School after being sidelined from his athletic pursuits (football and soccer) by a knee injury. His father got him his stage debut at age 17 in a workshop production of the play &quot;On Valentine&#039;s Day&quot;. Matthew&#039;s career then accelerated with parts in two Neil Simon projects: the play &quot;Brighton Beach Memoirs&quot; (1982-83) and the feature film Max Dugan Returns (1983). Broderick reprised the role of Eugene in &quot;Biloxi Blues&quot; (1988), the second installment of the Simon trilogy, for both the Broadway production and the film adaptation (Biloxi Blues (1988)). For the third and final installment of the trilogy, he was replaced by Jonathan Silverman. In 1983, the same year as Max Dugan Returns (1983), Broderick had his first big-screen success in the light comedy WarGames (1983). Since then he has had his fair share of hits and misses, with some of his better films including Project X (1987) also starring Helen Hunt, whom he subsequently dated; Addicted to Love (1997); and Inspector Gadget (1999). Other films he has appeared in which may be known but not so much respected include Out on a Limb (1992) with his  ....',
+                'created_at' => '2016-01-28 11:22:26',
+                'updated_at' => '2016-01-28 11:22:26',
+            ),
+            196 => 
+            array (
+                'person_id' => 699,
+                'forename' => 'Jonathan Taylor',
+                'surname' => 'Thomas',
+                'birthday' => '1981-09-08',
+                'deceased' => NULL,
+                'image' => 'Jonathan_Taylor_Thomas_1453980155.jpg',
+            'bio' => 'Jonathan Taylor Thomas was born Jonathan Taylor Weiss on September 8, 1981 in Bethlehem, Pennsylvania, to Claudine (Gonsalves) and Stephen Weiss. He has an older brother, Joel, and has Pennsylvania Dutch (German) and Portuguese ancestry. Growing up, he liked the music group Boyz II Men, and his favorite TV shows were Roseanne (1988) and Grace Under Fire (1993), but he also liked watching CNN news, to keep up to date with current events. One thing that Jonathan does not like is meat. He has been a vegetarian since he was four years old, and he doesn&#039;t use products that are tested on animals because he believes that it is wrong to hurt them. When Jonathan was four years old, his family moved from Bethlehem to Sacramento, California. At the age of seven, Jonathan was working as a model for print advertisements in Sacramento, and over the next few years, he appeared in TV commercials for Kelloggs cereal, Mattel toys and for many other products. By this time, Jonathan was ready for bigger roles, and in 1989, he landed the part of Greg Brady&#039;s son Kevin in the TV special The Bradys (1990). In 1990, he landed his biggest role yet, as Randy Taylor on Home Improvement (1991). Jonathan&#039;s audition went well, but what really gave him an edge over the other boys was that the casting directors thought that he looked a lot like his TV dad-to-be, Tim Allen. In 1991, Jonathan&#039;s parents divorced. He lived with his mother and his brother. He began work in feature length movies, as the voice of  ....',
+                'created_at' => '2016-01-28 11:22:35',
+                'updated_at' => '2016-01-28 11:22:35',
+            ),
+            197 => 
+            array (
+                'person_id' => 700,
+                'forename' => 'Jeremy',
+                'surname' => 'Irons',
+                'birthday' => '1948-09-19',
+                'deceased' => NULL,
+                'image' => 'Jeremy_Irons_1453980167.jpg',
+            'bio' => 'Elegant and handsome British actor Jeremy Irons was born in Cowes, Isle of Wight, a small island just off the south coast of England. He is the son of Barbara Anne Brereton (Sharpe) and Paul Dugan Irons, an accountant. Young Jeremy didn&#039;t prove very fond of figures. A typical islander, he used to go to mainland England only once a year. He wound up being grounded when his family settled down in Hertfordshire. At the age of 13 he enrolled in Sherborne School, Dorset, where he was happy as he could practise his favorite sport, horse-riding. Before becoming an actor, he had considered a veterinarian surgeon&#039;s career. He trained at the Bristol Old Vic School for two years, then joined Bristol Old Vic repertory company where he gained much experience working in everything from Shakespeare to contemporary dramas. He moved to London in 1971 and had a number of odd jobs before landing the role of &quot;John the Baptist&quot; in the hit musical &quot;Godspell&quot;. He went on to a successful early career in the West End theatre and on TV, and debuted on-screen in Nijinsky (1980). In the early 80s, he gained international attention with his starring role in the Granada Television serial adaptation of Evelyn Waugh&#039;s classic novel Brideshead Revisited (1981), after which he was much in demand as a romantic leading man. He went on to a steady film career. In 1984, he debuted on Broadway opposite: Glenn Close in Tom Stoppard&#039;s &quot;The Real Thing&quot; and, in the mid-80s, he appeared in three lead roles with the Roy ....',
+                'created_at' => '2016-01-28 11:22:47',
+                'updated_at' => '2016-01-28 11:22:47',
+            ),
+            198 => 
+            array (
+                'person_id' => 701,
+                'forename' => 'Nathan',
+                'surname' => 'Lane',
+                'birthday' => '1956-02-03',
+                'deceased' => NULL,
+                'image' => 'Nathan_Lane_1453980177.jpg',
+            'bio' => 'Nathan Lane was born on February 3, 1956 in Jersey City, New Jersey, USA as Joseph Lane. He is an actor, known for The Lion King (1994), The Producers (2005) and The Birdcage (1996). He has been married to Devlin Elliott since November 17, 2015. ....',
+                'created_at' => '2016-01-28 11:22:57',
+                'updated_at' => '2016-01-28 11:22:57',
+            ),
+            199 => 
+            array (
+                'person_id' => 702,
+                'forename' => 'Rowan',
+                'surname' => 'Atkinson',
+                'birthday' => '1955-01-06',
+                'deceased' => NULL,
+                'image' => 'Rowan_Atkinson_1453980186.jpg',
+            'bio' => 'Rowan Sebastian Atkinson was born on 6 January, 1955, in Consett, Co. Durham, UK, to Ella May (Bainbridge) and Eric Atkinson. His father owned a farm, where Rowan grew up with his two older brothers, Rupert and Rodney. He attended Newcastle University and Oxford University where he earned degrees in electrical engineering. During that time, he met screenwriter Richard Curtis, with whom he wrote and performed comedy revues. Later, he co-wrote and appeared in Not the Nine O&#039;Clock News (1979), which was a huge success and spawned several best-selling books. It won an International Emmy Award and the British Academy Award for &quot;Best Light Entertainment Programme of 1980.&quot; He won the &quot;British Academy Award&quot; and was named &quot;BBC Personality of the Year&quot; for his performing on Not the Nine O&#039;Clock News (1979). Atkinson also appeared in several movies, including Dead on Time (1983), Pleasure at Her Majesty&#039;s (1976) (aka &quot;Monty Python Meets Beyond the Fringe&quot;), Never Say Never Again (1983), and The Tall Guy (1989). He played &quot;Mr. Bean&quot; in the TV series, Mr. Bean (1990) but, apart from that and Not the Nine O&#039;Clock News (1979), he also appeared in several other series like The Black Adder (1982) and Funny Business (1992), etc. Atkinson enjoys nothing better than fast cars. He has been married to Sunetra Sastry since 1990, and they have two children, named Benjamin and Lily. ....',
+                'created_at' => '2016-01-28 11:23:06',
+                'updated_at' => '2016-01-28 11:23:06',
+            ),
+            200 => 
+            array (
+                'person_id' => 703,
+                'forename' => 'Madge',
+                'surname' => 'Sinclair',
+                'birthday' => '1938-04-28',
+                'deceased' => NULL,
+                'image' => 'Madge_Sinclair_1453980198.jpg',
+            'bio' => 'Madge Sinclair was born Madge Dorita Walters on April 28 1938 in Kingston, Jamaica, married young and had two sons. Madge worked as a teacher in Jamaica until she was 30. She left her two boys with their father and went to New York City to be an actress. She began modeling and later acted with the New York Shakespearean Festival and at Joseph Papp&#039;s Public Theatre. In 1974, Madge made her film debut, playing Mrs. Scott in Conrack (1974). She was nominated for an Emmy Award for her performance as Bell Reynolds in the miniseries Roots (1977). In the early 1980s, shortly after joining the cast of Trapper John, M.D. (1979), she was diagnosed with leukemia. She continued to work outliving the doctors&#039; predictions by several years. On December 20, 1995, Madge Sinclair died at age 57 in Los Angeles, California. ....',
+                'created_at' => '2016-01-28 11:23:18',
+                'updated_at' => '2016-01-28 11:23:18',
+            ),
+            201 => 
+            array (
+                'person_id' => 704,
+                'forename' => 'Cheech',
+                'surname' => 'Marin',
+                'birthday' => '1946-07-13',
+                'deceased' => NULL,
+                'image' => 'Cheech_Marin_1453980210.jpg',
+            'bio' => 'Cheech Marin was born on July 13, 1946 in Los Angeles, California, USA as Richard Anthony Marin. He is an actor, known for The Lion King (1994), Nash Bridges (1996) and Cars (2006). He has been married to Natasha Rubin since August 8, 2009. He was previously married to Patti Heid and Rikki Marin. ....',
+                'created_at' => '2016-01-28 11:23:30',
+                'updated_at' => '2016-01-28 11:23:30',
+            ),
+            202 => 
+            array (
+                'person_id' => 705,
+                'forename' => 'Moira',
+                'surname' => 'Kelly',
+                'birthday' => '1968-03-06',
+                'deceased' => NULL,
+                'image' => 'Moira_Kelly_1453980239.jpg',
+                'bio' => 'Born March 6, 1968 in Queens, New York, she is the third of six kids. Her father, Peter, was trained as a concert violinist. Her mother, Anne, is a nurse. Both are Irish immigrants. Moira was raised in Ronkonkoma, NY. She attended Connetquot Senior High School and graduated in the class of 1986. Later Moira attended Marymount Manhattan College. In 1984 Moira was cast in a small role in Connetquot Senior High School&#039;s production of Annie. Due to illness, the young woman playing Miss Hannigan was replaced, causing a series of cast changes. Director Eric Martinsen chose to recast Moira as Grace Farrell. She was a great success, and so began her career. ....',
+                'created_at' => '2016-01-28 11:23:59',
+                'updated_at' => '2016-01-28 11:23:59',
+            ),
+            203 => 
+            array (
+                'person_id' => 706,
+                'forename' => 'Ernie',
+                'surname' => 'Sabella',
+                'birthday' => '1949-09-19',
+                'deceased' => NULL,
+                'image' => 'Ernie_Sabella_1453980250.jpg',
+            'bio' => 'Ernie Sabella was born on September 19, 1949 in Westchester, New York, USA as Ernest Sabella. He is an actor, known for The Lion King (1994), The Lion King 1 1/2 (2004) and The Lion King 2: Simba&#039;s Pride (1998). He is married to Cheryl. ....',
+                'created_at' => '2016-01-28 11:24:11',
+                'updated_at' => '2016-01-28 11:24:11',
+            ),
+            204 => 
+            array (
+                'person_id' => 707,
+                'forename' => 'Whoopi',
+                'surname' => 'Goldberg',
+                'birthday' => '1955-11-13',
+                'deceased' => NULL,
+                'image' => 'Whoopi_Goldberg_1453980260.jpg',
+            'bio' => 'Whoopi Goldberg was born Caryn Elaine Johnson in the Chelsea section of Manhattan on November 13, 1955. Her mother, Emma (Harris), was a teacher and a nurse, and her father, Robert James Johnson, Jr., was a clergyman. Whoopi&#039;s recent ancestors were from Georgia, Florida, and Virginia. She worked in a funeral parlor and as a bricklayer while taking small parts on Broadway. She moved to California and worked with improv groups, including Spontaneous Combustion, and developed her skills as a stand-up comedienne. She came to prominence doing an HBO special and a one-woman show as Moms Mabley. She has been known in her prosperous career as a unique and socially conscious talent with articulately liberal views. Among her boyfriends were Ted Danson and Frank Langella. She was married three times and was once addicted to drugs. Goldberg first came to prominence with her starring role in The Color Purple (1985). She received much critical acclaim, and an Oscar nomination for her role and became a major star as a result. Subsequent efforts in the late 1980s were, at best, marginal hits. These movies mostly were off-beat to formulaic comedies like Burglar (1987), The Telephone (1988) and Jumpin&#039; Jack Flash (1986). She made her mark as a household name and a mainstay in Hollywood for her Oscar-winning role in the box office smash Ghost (1990). Whoopi Goldberg was at her most famous in the early 1990s, making regular appearances on Star Trek: The Next Generation (1987). She admitted to be ....',
+                'created_at' => '2016-01-28 11:24:20',
+                'updated_at' => '2016-01-28 11:24:20',
+            ),
+            205 => 
+            array (
+                'person_id' => 708,
+                'forename' => 'Martin',
+                'surname' => 'Ferrero',
+                'birthday' => '1947-09-29',
+                'deceased' => NULL,
+                'image' => 'Martin_Ferrero_1453980282.jpg',
+            'bio' => 'Martin Ferrero was born on September 29, 1947 in Brockport, New York, USA. He is an actor, known for Jurassic Park (1993), Heat (1995) and Planes, Trains &amp; Automobiles (1987). ....',
+                'created_at' => '2016-01-28 11:24:42',
+                'updated_at' => '2016-01-28 11:24:42',
+            ),
+            206 => 
+            array (
+                'person_id' => 709,
+                'forename' => 'Miguel',
+                'surname' => 'Sandoval',
+                'birthday' => '1951-11-16',
+                'deceased' => NULL,
+                'image' => 'Miguel_Sandoval_1453980327.jpg',
+            'bio' => 'Miguel Sandoval was born on November 16, 1951 in Washington, District of Columbia, USA. He is an actor and director, known for Medium (2005), Jurassic Park (1993) and Blow (2001). ....',
+                'created_at' => '2016-01-28 11:25:27',
+                'updated_at' => '2016-01-28 11:25:27',
+            ),
+            207 => 
+            array (
+                'person_id' => 710,
+                'forename' => 'Robin',
+                'surname' => 'Sachs',
+                'birthday' => '1951-02-05',
+                'deceased' => '2013-02-01',
+                'image' => 'Robin_Sachs_1453980397.jpg',
+            'bio' => 'Robin Sachs was born on February 5, 1951 in Hammersmith, London, England as Robin David Sachs. He was an actor, known for Galaxy Quest (1999), The Lost World: Jurassic Park (1997) and Ocean&#039;s Eleven (2001). He was married to Casey Defranco and Si&acirc;n Phillips. He died on February 1, 2013 in Los Angeles, California, USA. ....',
+                'created_at' => '2016-01-28 11:26:37',
+                'updated_at' => '2016-01-28 11:26:37',
+            ),
+            208 => 
+            array (
+                'person_id' => 711,
+                'forename' => 'John',
+                'surname' => 'Diehl',
+                'birthday' => '1950-05-01',
+                'deceased' => NULL,
+                'image' => 'John_Diehl_1453980538.jpg',
+            'bio' => 'Performer whose career has spanned over 30 years. Particularly called upon to play various delinquents, wackos and psychos in his earlier years, he has matured into a fine screen character actor. His career began in the early 80s with a number of bit parts in movies such as Escape from New York (1981) with Kurt Russell and Stripes (1981) with Bill Murray amongst others before landing a co-starring role in the pilot for Miami Vice (1984) playing Hawiian shirt clad Detective Larry Zito. He continued his role in Miami Vice (1984) for three series before quitting to pursue other roles. He continued his film career and has since appeared in over 80 movies and has made over 40 guest appearances on TV. Notable film credits include The Client (1994), A Time to Kill (1996), Stargate - La porte des &eacute;toiles (1994), Nixon (1995) and more recently Pearl Harbor (2001) and a small role as dinosaur chow in Jurassic Park III (2001). He resides in Nashville, TN with his wife, singer Julie Christensen and son Magnus Diehl b. 1993. ....',
+                'created_at' => '2016-01-28 11:28:58',
+                'updated_at' => '2016-01-28 11:28:58',
+            ),
+            209 => 
+            array (
+                'person_id' => 712,
+                'forename' => 'Tate',
+                'surname' => 'Donovan',
+                'birthday' => '1963-09-25',
+                'deceased' => NULL,
+                'image' => 'Tate_Donovan_1453980853.jpg',
+            'bio' => 'Tate Buckley Donovan began making television appearances while still in his teens, most often cast as angst-ridden high schoolers in such made-for-TV films such as Not My Kid (1985) and Nutcracker: Money, Madness &amp; Murder (1987). Donovan was born to a large family in Tenafly, New Jersey, the son of Eileen Frances (McAllister) and John Timothy Donovan, a surgeon. He is of Irish descent. Donovan moved to Los Angeles to be closer to the television industry while he attended college at USC, where he also met several fellow actors who became longtime friends, such as Grant Heslov and George Clooney, with whom he still parties with to this day (he also had a fairly substantial part in their smash film, Good Night, and Good Luck. (2005). Although not quite as active as his friend Clooney in the romantic arena, confirmed bachelor Donovan has been engaged to both film star Sandra Bullock and television icon Jennifer Aniston, and has dated a diverse group of women such as socialite Plum Sikes (2000), stage actress Whitney Allen (2001) and television actress Lauren Graham, whom he met when they both appeared in the play &quot;Once in a Lifetime&quot; at the Williamstown Theater Festival in 2002. After graduating from college, Donovan gained prominent notice for his portrayal of the charismatic yet self-centered co-pilot in the ensemble period drama Memphis Belle (1990). Prior to that, Donovan had appeared as the cocky elder camper in SpaceCamp (1986) and as a recovering drug addict in Clean and S ....',
+                'created_at' => '2016-01-28 11:34:13',
+                'updated_at' => '2016-01-28 11:34:13',
+            ),
+            210 => 
+            array (
+                'person_id' => 713,
+                'forename' => 'Jason Scott',
+                'surname' => 'Lee',
+                'birthday' => '1966-11-19',
+                'deceased' => NULL,
+                'image' => 'Jason_Scott_Lee_1453981040.jpg',
+            'bio' => 'Of Hawaiian and Chinese descent, Jason Scott Lee was born in Los Angeles, California, but raised in Hawaii from the age of two. His interest in acting began while studying in high school. It blossomed further when he enrolled in Fullerton College, where he studied under acting coach Sal Romeo. His first film role was in Born in East L.A. (1987). After taking many supporting roles, he took his star turn in Dragon: The Bruce Lee Story (1993). His next starring role was in Le livre de la jungle (1994). Though he has not yet panned out as a leading man, Jason continues to work in supporting roles while pursuing his interest in live theater. ....',
+                'created_at' => '2016-01-28 11:37:20',
+                'updated_at' => '2016-01-28 11:37:20',
+            ),
+            211 => 
+            array (
+                'person_id' => 714,
+                'forename' => 'Richard',
+                'surname' => 'Dysart',
+                'birthday' => '1929-03-30',
+                'deceased' => '2015-04-05',
+                'image' => 'Richard_Dysart_1453981083.jpg',
+                'bio' => 'Richard Dysart served for four years in the Air Force during the Korean War. He&#039;s a founding member of the American Conservatory Theatre, San Francisco. He received the Drama Desk Award in 1972 and a Emmy Award in 1992. He is good friends with Diana Muldaur, who played Rosalind Shays on L.A. Law. ....',
+                'created_at' => '2016-01-28 11:38:04',
+                'updated_at' => '2016-01-28 11:38:04',
+            ),
+            212 => 
+            array (
+                'person_id' => 716,
+                'forename' => 'Edgar',
+                'surname' => 'Ramirez',
+                'birthday' => '1977-03-25',
+                'deceased' => NULL,
+                'image' => 'Edgar_Ramirez_1453981182.jpg',
+            'bio' => 'Edgar Ramirez Arellano is a Venezuelan actor, born on March 25, 1977 in the city of San Cristobal (Tachira State, southwest Venezuela). He is the son of Soday Arellano, an attorney, and Filiberto Ram&iacute;rez, a military officer. Being the son of a soldier and living abroad with his family, he learned several languages, like English, German, Italian and French, as well as his mother tongue, Spanish. He studied Journalism (Comunicaci&oacute;n Social) at the Andres Bello Catholic University, in Caracas. He began exploring his acting vocation, playing on several school made films. He was recognized as an actor after portraying &quot;Cacique&quot; in the popular venezuelan soap opera &quot;Cosita Rica&quot;, aired through 2003 and 2004, lasting over 270 episodes. His debut as an international Hollywood actor was playing Choco, Domino Harvery&#039;s love interest in Tony Scott&#039;s Domino. His next major feature film was Vantage Point directed by Pete Travis. In this high-budgeted Sony Pictures political thriller, Ram&iacute;rez joined an all-star international cast including Dennis Quaid, Matthew Fox, William Hurt, Forest Whitaker, Eduardo Noriega and Ayelet Zurer. Ram&iacute;rez plays Javier, an ex-special forces soldier forced to kidnap the American President. Later on he starred in the title role of Alberto Arvelo&#039;s Cyrano Fern&aacute;ndez, based on the French play Cyrano de Bergerac. Ram&iacute;rez also appears in La Hora Cero (The Magic Hour) (Venezuela), a short film directed by Guillermo Arriaga, the acclaimed screenwriter of Amores  ....',
+                'created_at' => '2016-01-28 11:39:42',
+                'updated_at' => '2016-01-28 11:39:42',
+            ),
+            213 => 
+            array (
+                'person_id' => 717,
+                'forename' => 'Wes',
+                'surname' => 'Bentley',
+                'birthday' => '1978-09-04',
+                'deceased' => NULL,
+                'image' => 'Wes_Bentley_1453981740.jpg',
+            'bio' => 'Wes Bentley is an American actor who first became well-known via his role in the Oscar-winning film American Beauty (1999), in which he played the soulful, artistic next-door neighbor Ricky Fitts. He also portrayed gamemaker Seneca Crane in The Hunger Games (2012), and co-stars in Lovelace (2013) as photographer Thomas. Wesley Cook Bentley was born September 4, 1978, in Jonesboro, Arkansas, to David and Cherie Bentley, two Methodist ministers. Wes joined older brothers Jamey and Philip, and was later joined by younger brother, Patrick. Wes attended Sylvan Hills High School in Sherwood, Arkansas, where he was in the drama club. Interest in acting came from Improv Comedy. He, his brother Patrick, his best friend Damien Bunting and other close friend Josh Cowdery developed an Improv group called B(3) + C. They regularly dominated competitions in Arkansas. He then placed First in the state of Arkansas in solo acting in 1996, his senior year of high school, Second in Duet, and also regularly won for Poetry and Prose Readings. Wes appeared on-stage quite a bit in Little Rock. At The Weekend Theater, Wes played the straight son of the gay couple in a production of La Cage aux Folles. At Murry&#039;s Dinner Playhouse, Wes&#039; plays included Oliver. At his mother&#039;s urging, Wes attended Juilliard School in New York after high school graduation. He was there only a short time but appeared in stage work like Henry IV, Part 1 and The Weavers. Wes then worked at Blockbuster and was a waiter at TGI ....',
+                'created_at' => '2016-01-28 11:49:00',
+                'updated_at' => '2016-01-28 11:49:00',
+            ),
+            214 => 
+            array (
+                'person_id' => 718,
+                'forename' => 'Robby',
+                'surname' => 'Benson',
+                'birthday' => '1956-01-21',
+                'deceased' => NULL,
+                'image' => 'Robby_Benson_1453982162.jpg',
+            'bio' => 'Robby Benson was born on January 21, 1956 in Dallas, Texas, USA as Robin David Segal. He is an actor and director, known for Beauty and the Beast (1991), The Legend of Prince Valiant (1991) and Beauty and the Beast: The Enchanted Christmas (1997). He has been married to Karla DeVito since July 11, 1982. They have two children. ....',
+                'created_at' => '2016-01-28 11:56:02',
+                'updated_at' => '2016-01-28 11:56:02',
+            ),
+            215 => 
+            array (
+                'person_id' => 719,
+                'forename' => 'Angela',
+                'surname' => 'Lansbury',
+                'birthday' => '1925-10-16',
+                'deceased' => NULL,
+                'image' => 'Angela_Lansbury_1453982172.jpg',
+            'bio' => 'British character actress, long in the United States. The daughter of an actress and the granddaughter of a high-ranking politician, Lansbury studied acting from her youth, departing for the United States as the Second World War began. She was contracted by MGM while still a teenager and nominated for an Academy Award for her first film, Gaslight (1944). Two pictures later, she was again nominated for Best Supporting Actress, this time for The Picture of Dorian Gray (1945). Now established as a supporting player of quality, she began a long career, often as &quot;the other woman&quot; in major productions and as the leading lady in lesser films. Her features, while not at all old-appearing, gave her an air of maturity that allowed her to pass as much older than she actually was, and she began playing mother roles, often to players of her own age, while yet in her thirties. She concentrated more and more on stage work, achieving notable success in a number of Broadway plays and musicals, winning four Tony Awards in sixteen years. Although active in television since the early 1950s, she obtained her greatest fame in the 1980s by starring in the light mystery program Murder, She Wrote (1984). As Jessica Fletcher, she became known and loved by millions for well over a decade. She also became known for the odd fact of almost annual Emmy Award nominations for the role without ever winning for it. An institution in American theatre and television, she is also an inspiration for the graciousne ....',
+                'created_at' => '2016-01-28 11:56:12',
+                'updated_at' => '2016-01-28 11:56:12',
+            ),
+            216 => 
+            array (
+                'person_id' => 720,
+                'forename' => 'Paige',
+                'surname' => 'O&#039;Hara',
+                'birthday' => '1956-05-10',
+                'deceased' => NULL,
+                'image' => 'Paige_O__039_Hara_1453982185.jpg',
+            'bio' => 'Paige O&#039;Hara was born on May 10, 1956 in Ft. Lauderdale, Florida, USA as Donna Paige Helmintoller. She is an actress, known for Beauty and the Beast (1991), Beauty and the Beast: The Enchanted Christmas (1997) and Enchanted (2007). She is married to Michael Piontek. ....',
+                'created_at' => '2016-01-28 11:56:25',
+                'updated_at' => '2016-01-28 11:56:25',
+            ),
+            217 => 
+            array (
+                'person_id' => 721,
+                'forename' => 'Scott',
+                'surname' => 'Adsit',
+                'birthday' => '1965-11-26',
+                'deceased' => NULL,
+                'image' => 'Scott_Adsit_1453982247.jpg',
+            'bio' => 'Scott Adsit performed on the mainstage of Chicago&#039;s Second City, between 1994 and 1998, and, alongside Saturday Night Live (1975)&#039;s Rachel Dratch and Tina Fey, was one of the driving forces behind such groundbreaking revues as &quot;Pinata Full of Bees&quot; and &quot;Paradigm Lost&quot;. An in-depth look at his craft is available in the PBS documentary, Second to None (2001). A 1995 sketch he performed with former SNL head writer, Adam McKay, &quot;Gump&quot;, was included as one of Second City&#039;s all-time best on the CD&#039;s which come with the book &quot;Second City&quot; by Sheldon Patinkin. Scott has proudly described the mission of comedy as &quot;changing the world with our funny skits and songs&quot;. ....',
+                'created_at' => '2016-01-28 11:57:27',
+                'updated_at' => '2016-01-28 11:57:27',
+            ),
+            218 => 
+            array (
+                'person_id' => 722,
+                'forename' => 'T.J.',
+                'surname' => 'Miller',
+                'birthday' => '1981-06-04',
+                'deceased' => NULL,
+                'image' => 'T_J__Miller_1453982261.jpg',
+            'bio' => 'A comedian. Improvisation, Sketch and Stand-up comedy are his forte. Originally from Denver, Colorado, (an East Angel), he went to college in Washington, D.C. There he performed with the group receSs for 4 years, being the only person in his class out of 100 to audition and be accepted into the group. He remained the sole member of receSs until his junior year, when he was joined by Michael &quot;Tuck The Ruckus&quot; Tokaruk, an acclaimed comedian and equestrian, who taught T.J. how to ride a horse, a pastime he calls &quot;droll.&quot; He met his future wife, Kate Gorney, when they performed in &quot;A Chorus Line&quot; in university production of the musical. She played The Ballerina (being an accomplished ballerina herself) and he played Richie, the African American character. He credits the casting to East High School, which was a primarily black and Latino high school, and also that no black people auditioned for the part. During his Time in the nation&#039;s capital, he studied classical acting at B.A.D.A in Oxford, England and circus arts at Frichess Theatre Urbain. He was outstanding in the field of Stilt Walking, but was never able to execute any trick, at all, on Trapeze. He is an accomplished Clown and Juggler, having mastered 5 ball juggling, over fifty 3-ball tricks, clubs, torches, knives, and his specialty (which garnered him a Magician Membership to The Magic Castle in Hollywood, CA) Cigar Boxes. After graduating with honors (a bachelor&#039;s degree in Psychology with a concentration in Persuasion ....',
+                'created_at' => '2016-01-28 11:57:41',
+                'updated_at' => '2016-01-28 11:57:41',
+            ),
+            219 => 
+            array (
+                'person_id' => 723,
+                'forename' => 'Damon Wayans',
+                'surname' => 'Jr.',
+                'birthday' => '1982-11-18',
+                'deceased' => NULL,
+                'image' => 'Damon_Wayans_Jr__1453982274.jpg',
+            'bio' => 'Damon Wayans Jr. was born at his grandmother&#039;s home in Vermont, in November 1982, and was raised in Los Angeles. He is the son of Lisa Thorner and actor Damon Wayans. He made his film debut at age 11 in the 1994 film &quot;Blank Man&quot; playing the role of young Kevin. Later, Damon pursued his early passion for fine arts and animation in High School before admittance to the Otis School for Art and Design. He performed in a few bit roles on &quot;My Wife and Kids&quot; and landed a job as staff writer on the series becoming at 20, the youngest staff writer on television. In 2005, Damon followed his father&#039;s comedic foot steps and braved the world of stand up comedy under the pseudonym Kyle Green. Damon Jr. has appeared performing alongside his father in the Showtime television series, &quot;The Underground&quot; (2006) and also served as a writer on that sketch comedy series. Damon also wrote, directed and starred in a series of innovative internet-based comedy sketches for &quot;Way-Out TV&quot; a website launched in 2007 by his father. In January 2008, Damon Jr. was featured on HBO&#039;s &quot;Def Comedy Jam&quot;. Wayans&#039;s first major film was Dance Flick (2009), a Paramount dance movie spoof, and he later starred on the series New Girl (2011) and in the film Let&#039;s Be Cops (2014). This young and talented multi-hyphenate continues honing his stand-up skills, performing in comedy clubs across the country, while further pursuing his crafts of acting and writing. ....',
+                'created_at' => '2016-01-28 11:57:54',
+                'updated_at' => '2016-01-28 11:57:54',
+            ),
+            220 => 
+            array (
+                'person_id' => 724,
+                'forename' => 'Genesis',
+                'surname' => 'Rodriguez',
+                'birthday' => '1987-07-29',
+                'deceased' => NULL,
+                'image' => 'Genesis_Rodriguez_1453982303.jpg',
+            'bio' => 'Genesis Rodriguez was born in Miami, Florida. She is the daughter of Jos&eacute; Luis Rodr&iacute;guez &#039;El Puma&#039;, the famous Venezuelan singer and actor, and Carolina Perez, a Cuban model. She has two half-sisters. She was educated at the Carrolton School of the Sacred Heart in Miami. From a child, Rodriguez knew she wanted to act and attended summer classes at the renowned Lee Strasberg Theatre and Film Institute, as well as embarking on other acting training. Success followed and she won roles in Spanish language series such as Prisionera (2004), Dame Chocolate (2007) and Do&ntilde;a B&aacute;rbara (2008). She also appeared as Sarah in the hit show &quot;Entourage&quot; (2004). Film projects include Man on a Ledge (2012) and What to Expect When You&#039;re Expecting (2012). ....',
+                'created_at' => '2016-01-28 11:58:23',
+                'updated_at' => '2016-01-28 11:58:23',
+            ),
+            221 => 
+            array (
+                'person_id' => 725,
+                'forename' => 'John',
+                'surname' => 'Travolta',
+                'birthday' => '1954-02-18',
+                'deceased' => NULL,
+                'image' => 'John_Travolta_1453982350.jpg',
+            'bio' => 'John Joseph Travolta was born in Englewood, New Jersey, one of six children of Helen Travolta (n&eacute;e Helen Cecilia Burke) and Salvatore/Samuel J. Travolta. His father was of Italian descent and his mother was of Irish ancestry. His father owned a tire repair shop called Travolta Tires in Hillsdale, NJ. Travolta started acting appearing in a local production of &quot;Who&#039;ll Save the Plowboy?&quot;. His mother, herself an actress and dancer, enrolled him in a drama school in New York, where he studied voice, dancing and acting. He decided to combine all three of these skills and become a musical comedy performer. At 16 he landed his first professional job in a summer stock production of the musical &quot;Bye Bye Birdie&quot;. He quit school at 16 and moved to New York, and worked regularly in summer stock and on television commercials. When work became scarce in New York, he went to Hollywood and appeared in minor roles in several series. A role in the national touring company of the hit 1950s musical &quot;Grease&quot; brought him back to New York. An opening in the New York production of &quot;Grease&quot; gave him his first Broadway role at age 18. After &quot;Grease&quot;, he became a member of the company of the Broadway show &quot;Over Here&quot;, which starred The Andrews Sisters. After ten months in &quot;Over Here&quot;, he decided to try Hollywood once again. Once back in Hollywood, he had little trouble getting roles in numerous television shows. He was seen on The Rookies (1972), Emergency! (1972) and Medical Center (1969) and also mad ....',
+                'created_at' => '2016-01-28 11:59:10',
+                'updated_at' => '2016-01-28 11:59:10',
+            ),
+            222 => 
+            array (
+                'person_id' => 726,
+                'forename' => 'Miley',
+                'surname' => 'Cyrus',
+                'birthday' => '1992-11-23',
+                'deceased' => NULL,
+                'image' => 'Miley_Cyrus_1453982361.jpg',
+            'bio' => 'Miley Cyrus was born in Franklin, Tennessee, the daughter of country singer Billy Ray Cyrus and his wife, Letitia Jean &quot;Tish&quot; (Finley). She has 5 siblings - two half-brothers, a half-sister and a younger brother and sister. Her birth name is Destiny Hope, given to her by her parents who hoped she would achieve greatness. Her childhood nickname was Smiley, as she had a cheerful disposition which was eventually shortened to Miley. Her paternal grandfather was Democratic politician Ron Cyrus. Cyrus was initially educated at Heritage Elementary School in Tennessee. When she turned eight, her family moved to Toronto, Canada where Cyrus&#039; father Billy Ray took a role in the TV series Doc (2001). It was around this time that Cyrus decided she wanted to act too. Her first role came alongside her father in Doc (2001). She also scored a small role in Tim Burton&#039;s Big Fish (2003). In 2005, Cyrus was cast as the lead in the Disney series Hannah Montana (2006), about a teen leading a double life as a pop star. Again her father acted alongside her. The show was a smash and hit records, sell-out tours and merchandising deals soon followed. Cyrus became a teen superstar. Following the success of Hannah Montana (2006), Cyrus made the move into other roles - including playing Ronnie Miller in The Last Song (2010) and Lola in LOL (2012) alongside Demi Moore. ....',
+                'created_at' => '2016-01-28 11:59:21',
+                'updated_at' => '2016-01-28 11:59:21',
+            ),
+            223 => 
+            array (
+                'person_id' => 727,
+                'forename' => 'Malcolm',
+                'surname' => 'McDowell',
+                'birthday' => '1943-06-13',
+                'deceased' => NULL,
+                'image' => 'Malcolm_Mcdowell_1453982373.jpg',
+            'bio' => 'Malcolm John Taylor was born on June 13, 1943 in Leeds, England, to working-class parents Edna (McDowell), a hotelier, and Charles Taylor, a publican. His father was an alcoholic. Malcolm hated his parents&#039; ways. His father was keen to send his son to private school to give him a good start in life, so Malcolm was packed off to boarding school at age 11. He attended the Tunbridge Boarding School and the Cannock House School in Eltham, Kent. At school, he was beaten with the slipper or cane every Monday for his waywardness. Whilst at school, he decided that he wanted to become an actor; it was also around this time that his love for race cars began. He attended the London Academy of Music and Art to study acting. Meanwhile, he worked at his parents&#039; pub but lost his job when the pub went bankrupt, his father drinking all the profits. He then had a variety of jobs, from coffee salesman to messenger. His first big-screen role was in Poor Cow (1967), although his two-minute scene was ultimately cut from the completed film. Soon after, he caught the attention of director Lindsay Anderson who cast him in the role of a rebellious student in his film If.... (1968). The film catapulted Malcolm to stardom in Britain but failed everywhere else. He was so enthusiastic about the film&#039;s success that he wanted to do another right away. He began writing what would become the semi-autobiographical O Lucky Man! (1973). Meanwhile, he starred as the infamous Alex DeLarge in Stanley Kubrick&#039;s con ....',
+                'created_at' => '2016-01-28 11:59:33',
+                'updated_at' => '2016-01-28 12:20:40',
+            ),
+            224 => 
+            array (
+                'person_id' => 728,
+                'forename' => 'Randy',
+                'surname' => 'Savage',
+                'birthday' => '1952-11-15',
+                'deceased' => NULL,
+                'image' => 'Randy_Savage_1453982394.jpg',
+            'bio' => 'One of the most colorful wrestlers in and out of the ring, Randy &quot;Macho Man&quot; Savage became larger-than-life pop icon along with other Superstars, such as &quot;Rowdy&quot; Roddy Piper, Hulk Hogan, &#039;Superfly &#039;Jimmy Snuka&#039;, Jesse Ventura and Dwayne Johnson. When signed to the WWE (Then WWF), Savage immediately became a top heel (bad guy). He was managed by WWE Hall of Fame managers such as Jimmy Hart, Bobby Heenan, Classie Freddie Blassie (Freddie Blassie) and of course his best known manager, Miss Elizabeth (Elizabeth Hulette). During his time in the WWE, Savage wrestle against other WWE legends in the 1980s, such as Junkyard Dog (Sylvester Ritter), Merced Solis (aka Tito Santana), Bruno Sammartino, George &#039;The Animal&#039; Steele, and his well-known feud of today, Hulk Hogan. While in the WWE, Savage won the WWE Heavywieght Title two times, the Intercontinental once and was the 1989 King of the Ring. He then moved to World Championship Wrestling (WCW) and signed a $6 million contract with them. There he won the WCW Heavyweight Title four times,. To fans, Savage is most notable for having an off and on screen relationship with Miss Elizabeth. Their relationship became the most remembered love relationship in WWE history. However, their relationship started to go down hill, and it began to show. Soon, they both split. Today, Savage is now working for Total Non-Stop Actin (TNA) Wrestling. ....',
+                'created_at' => '2016-01-28 11:59:54',
+                'updated_at' => '2016-01-28 11:59:54',
+            ),
+            225 => 
+            array (
+                'person_id' => 729,
+                'forename' => 'Kelly',
+                'surname' => 'MacDonald',
+                'birthday' => '1976-02-23',
+                'deceased' => NULL,
+                'image' => 'Kelly_MacDonald_1453985445.jpg',
+            'bio' => 'Scottish actress Kelly Macdonald was born and raised in Glasgow. Her parents divorced when she was young, and she was raised by her mother, a sales executive in the garment industry. She has one brother, David. As a hobby, she acted in an amateur theatrical club, which she enjoyed a great deal. Macdonald was working as a barmaid, when she saw a leaflet for an open casting call for a film. She went along and was cast as Diane in Trainspotting (1996). For this breakout role, she was nominated for a BAFTA Scotland Award and began a highly successful acting career. Other notable film projects include Stella Does Tricks (1996), Elizabeth (1998), Gosford Park (2001) and No Country for Old Men (2007). She won an Emmy for her role as Gina in The Girl in the Caf&eacute; (2005) and appeared as Helena Ravenclaw in the wildly popular Harry Potter and the Deathly Hallows: Part 2 (2011). In 2010, she won the role of Margaret Schroeder in Boardwalk Empire (2010). Macdonald is married to Travis bassist Dougie Payne, and they have a son, Freddie. ....',
+                'created_at' => '2016-01-28 12:50:45',
+                'updated_at' => '2016-01-28 12:50:45',
+            ),
+            226 => 
+            array (
+                'person_id' => 730,
+                'forename' => 'Billy',
+                'surname' => 'Connolly',
+                'birthday' => '1942-11-24',
+                'deceased' => NULL,
+                'image' => 'Billy_Connolly_1453985485.jpg',
+            'bio' => 'Billy Connolly was born and raised in Glasgow, Scotland. He left school to work in the shipyards becoming a welder and joined the Territorial Army (in the parachute regiment) at around the same time. He developed an interest in folk music, eventually becoming an accomplished banjo player and a member of the band Humblebums with Gerry Rafferty (later of Baker Street fame). The jokes he told between songs eventually took over his act and he became a full-time comedian. Already a big star in Scotland, he became a household name in the UK after appearing on Parkinson (1971) in the early seventies. Billy has released many recordings and videos of his concert performances over the years. He has expanded his repertoire to include acting, appearing in a number of television dramas and films, most recently in the USA. In the 90s he made two documentary series for the BBC, about Scotland and Australia respectively, and in 1997 he starred in the award winning film Mrs Brown (1997). He is one of the UK&#039;s top comedian. ....',
+                'created_at' => '2016-01-28 12:51:25',
+                'updated_at' => '2016-01-28 12:51:25',
+            ),
+            227 => 
+            array (
+                'person_id' => 731,
+                'forename' => 'Kevin',
+                'surname' => 'McKidd',
+                'birthday' => '1973-08-09',
+                'deceased' => NULL,
+                'image' => 'Kevin_McKidd_1453985494.jpg',
+            'bio' => 'Kevin McKidd was born and raised in Elgin, Scotland, the son of Kathleen, a secretary, and Neil McKidd, a plumber. He was a member of the Moray Youth Theatre, before going on to study Engineering at the University of Edinburgh. While at the university, Kevin became involved with Bedlam Theatre, the university&#039;s student theatre company. At this point, Kevin decided to give up on engineering and dropped out of the university to pursue acting full-time. In 1994, he landed the leading role in the stageplay, &quot;The Silver Darlings&quot;, produced by Robert Carlyle&#039;s Rain Dog Theatre Company. It was only a matter of time before Kevin made his screen debut as the vicious gangleader, &quot;Malky Johnson&quot;, in Gillies MacKinnon&#039;s Small Faces (1996). His next role was as the tragic, gentle giant, &quot;Tommy&quot;, in Trainspotting (1996). ....',
+                'created_at' => '2016-01-28 12:51:34',
+                'updated_at' => '2016-01-28 12:51:34',
+            ),
+            228 => 
+            array (
+                'person_id' => 732,
+                'forename' => 'Craig',
+                'surname' => 'Ferguson',
+                'birthday' => '1962-05-17',
+                'deceased' => NULL,
+                'image' => 'Craig_Ferguson_1453985535.jpg',
+                'bio' => 'By August of 1994, Craig Ferguson was established as one of Great Britain&#039;s leading comedians - he had just had huge success at the Edinburgh Festival. In January 1995 he moved to Los Angeles where he now works as an actor-writer-director-producer-creator. ....',
+                'created_at' => '2016-01-28 12:52:15',
+                'updated_at' => '2016-01-28 12:52:15',
+            ),
+            229 => 
+            array (
+                'person_id' => 733,
+                'forename' => 'John',
+                'surname' => 'Ratzenberger',
+                'birthday' => '1947-04-06',
+                'deceased' => NULL,
+                'image' => 'John_Ratzenberger_1453985559.jpg',
+                'bio' => 'John started the improvisational comedy group, &quot;Sal&#039;s Meat Market&quot;, in Bridgeport, Connecticut, while a student at Sacred Heart University, located in Fairfield/Bridgeport, Connecticut. He was later affiliated with the ensemble group, &quot;The Downtown Cabaret&quot;. Coincidentally, he was a friend of Susan Ryan, the mother of Meg Ryan. A mutual friend, also associated with &quot;The Downtown Cabaret&quot;, was the daughter-in-law of actress Mabel Albertson, the sister of actor Jack Albertson. ....',
+                'created_at' => '2016-01-28 12:52:39',
+                'updated_at' => '2016-01-28 12:52:39',
+            ),
+            230 => 
+            array (
+                'person_id' => 734,
+                'forename' => 'Dave',
+                'surname' => 'Foley',
+                'birthday' => '1963-01-04',
+                'deceased' => NULL,
+                'image' => 'Dave_Foley_1453985594.jpg',
+            'bio' => 'Dave Foley dropped out of an alternative high school to do stand-up comedy. He met Kevin McDonald at an improv class and, while employed as movie ushers, they began working as a comedy team. In 1984 they merged with another team to form &quot;The Kids in the Hall&quot;. Foley made his film debut at 22 as the lead in the Canadian film High Stakes (1986). ....',
+                'created_at' => '2016-01-28 12:53:14',
+                'updated_at' => '2016-01-28 12:53:14',
+            ),
+            231 => 
+            array (
+                'person_id' => 735,
+                'forename' => 'Kevin',
+                'surname' => 'Spacey',
+                'birthday' => '1959-07-26',
+                'deceased' => NULL,
+                'image' => 'Kevin_Spacey_1453985606.jpg',
+            'bio' => 'As enigmatic as he is talented, Kevin Spacey has always kept the details of his private life closely guarded. As he explained in a 1998 interview with the London Evening Standard, &quot;the less you know about me, the easier it is to convince you that I am that character on screen. It allows an audience to come into a movie theatre and believe I am that person&quot;. There are, however, certain biographical facts to be had - for starters, Kevin Spacey Fowler was the youngest of three children born to Kathleen Ann (Knutson) and Thomas Geoffrey Fowler, in South Orange, New Jersey. His ancestry includes Swedish (from his maternal grandfather) and English. His mother was a personal secretary, his father a technical writer whose irregular job prospects led the family all over the country. The family eventually settled in southern California, where young Kevin developed into quite a little hellion - after he set his sister&#039;s tree house on fire, he was shipped off to the Northridge Military Academy, only to be thrown out a few months later for pinging a classmate on the head with a tire. Spacey then found his way to Chatsworth High School in the San Fernando Valley, where he managed to channel his dramatic tendencies into a successful amateur acting career. In his senior year, he played &quot;Captain von Trapp&quot; opposite classmate Mare Winningham&#039;s &quot;Maria&quot; in &quot;The Sound of Music&quot; (the pair later graduated as co-valedictorians). Spacey claims that his interest in acting - and his nearly encyclopedic ....',
+                'created_at' => '2016-01-28 12:53:26',
+                'updated_at' => '2016-01-28 12:53:26',
+            ),
+            232 => 
+            array (
+                'person_id' => 736,
+                'forename' => 'Julia',
+                'surname' => 'Louis-Dreyfus',
+                'birthday' => '1961-01-13',
+                'deceased' => NULL,
+                'image' => 'Julia_Louis_Dreyfus_1453985614.jpg',
+            'bio' => 'Julia Louis-Dreyfus was born on January 13, 1961, in the New York City borough of Manhattan, to Judith (LeFever), a special needs tutor and author, and G&eacute;rard Louis-Dreyfus, a billionaire businessman. Her parents divorced when she was young, and she spent her childhood in Washington, D.C., and New York. She met her husband, Brad Hall, while in college. She made her feature movie debut in the Woody Allen film Hannah and Her Sisters (1986). She lives in Los Angeles with her husband and their two children. Julia&#039;s paternal grandfather, Pierre Louis-Dreyfus, was from a prominent French Jewish family, while Julia&#039;s other ancestry is German, Mexican, English, French, Scottish, and Scots-Irish. ....',
+                'created_at' => '2016-01-28 12:53:34',
+                'updated_at' => '2016-01-28 12:53:34',
+            ),
+            233 => 
+            array (
+                'person_id' => 737,
+                'forename' => 'Hayden',
+                'surname' => 'Panettiere',
+                'birthday' => '1989-08-21',
+                'deceased' => NULL,
+                'image' => 'Hayden_Panettiere_1453985626.jpg',
+            'bio' => 'Hayden Leslie Panettiere was born on 21st August 1989 in Palisades, New York, to actress Lesley Vogel and fire department captain Skip Panettiere. Her younger brother is actor Jansen Panettiere. She has Italian, and some English and German, ancestry. Her mother got her started in the business by doing commercials when she was just 11 months old. Then, at only 4 1/2, she was cast on the soap opera One Life to Live (1968), where she remained until 1997. Since then, she has gone on to appear in many feature films and TV movies. But she is probably best known in the United States for her role as &quot;Claire&quot; on the hit TV show, Heroes (2006). As for movies, Hayden starred in Remember the Titans (2000) with Denzel Washington and Joe Somebody (2001) with Tim Allen. When Hayden isn&#039;t working, she enjoys singing, dancing, horseback riding, gymnastics, taking piano lessons, and swimming. She has been involved with many animated movies, beginning with A Bug&#039;s Life (1998) as &quot;Dot&quot;, later to follow was Dinosaur (2000), the video game Kingdom Hearts (2002), and The Mark of Kri (2002). Her next movie is Racing Stripes (2005), a partly animated film, but Hayden will star in the human role; other cast members include the voices of Whoopi Goldberg, Dustin Hoffman, Joshua Jackson and Mandy Moore. In 2003, she joined the likes of Jessica Lange, Tom Wilkinson and Clancy Brown in Jane Anderson&#039;s Normal (2003), a film about a Midwestern husband and father who announces his plans to have a sex-change o ....',
+                'created_at' => '2016-01-28 12:53:46',
+                'updated_at' => '2016-01-28 12:53:46',
+            ),
+            234 => 
+            array (
+                'person_id' => 738,
+                'forename' => 'Richard',
+                'surname' => 'Kind',
+                'birthday' => '1956-11-22',
+                'deceased' => NULL,
+                'image' => 'Richard_Kind_1453985635.jpg',
+            'bio' => 'Richard Kind was born on November 22, 1956 in Trenton, New Jersey, USA as Richard Bruce Kind. He is an actor and writer, known for Inside Out (2015), Spin City (1996) and A Serious Man (2009). He has been married to Dana Stanley since November 13, 1999. They have three children. ....',
+                'created_at' => '2016-01-28 12:53:55',
+                'updated_at' => '2016-01-28 12:53:55',
+            ),
+            235 => 
+            array (
+                'person_id' => 739,
+                'forename' => 'David Hyde',
+                'surname' => 'Pierce',
+                'birthday' => '1959-04-03',
+                'deceased' => NULL,
+                'image' => 'David_Hyde_Pierce_1453985645.jpg',
+            'bio' => 'David Hyde Pierce was born on 3 April 1959 in Saratoga Springs, New York, USA. He is the youngest child of George and Laura Pierce (both deceased) and has two older sisters (Barbara and Nancy) and an older brother (Thomas). As a child, he was very interested in music (particularly piano) and regularly played the organ at his local church (Bethesda Episcopal Church). David discovered a love of drama in high school and, upon his graduation in 1977, he received the Yaddo Medal which is to honor academic achievement and personal character. However, his love of music was still strong so he decided to study classical piano at Yale University. Unfortunately, he soon grew bored with music history lessons and found that he wasn&#039;t dedicated enough to practice the required amount of hours to become a successful concert pianist. Instead, he returned to his love of drama and graduated in 1981 with a double major in English and Theatre Arts. He then moved to New York where he worked several menial jobs (including selling ties at Bloomingdales and working as a security guard) while acting in the theater during the late 80s and early 90s. He appeared in small roles in films such as Bright Lights, Big City (1988) before his life and career changed forever when he landed the role of &quot;Dr. Niles Crane&quot; in the television series Frasier (1993). Throughout the show&#039;s eleven year run (1993-2004), David was nominated for an Emmy Award for Outstanding Supporting Actor in a Comedy Series each year (he  ....',
+                'created_at' => '2016-01-28 12:54:05',
+                'updated_at' => '2016-01-28 12:54:05',
+            ),
+            236 => 
+            array (
+                'person_id' => 740,
+                'forename' => 'Roddy',
+                'surname' => 'McDowall',
+                'birthday' => '1928-09-17',
+                'deceased' => '1988-10-03',
+                'image' => 'Roddy_McDowall_1453985667.jpg',
+            'bio' => 'Roderick McDowall was born in London, the son of a Merchant Mariner father and a mother who had always wanted to be in movies. He was enrolled in elocution courses at age five and by ten had appeared in his first film, Murder in the Family (1938), playing Peter Osborne, the younger brother of sisters played by Jessica Tandy and Glynis Johns. His mother brought Roddy and his sister to the US at the beginning of World War II, and he soon got the part of Huw, youngest child in a family of Welsh coal miners, in John Ford&#039;s How Green Was My Valley (1941), acting alongside Walter Pidgeon, Maureen O&#039;Hara and Donald Crisp in the film that won that year&#039;s best film Oscar. He went on to many other child roles, in films like My Friend Flicka (1943) and Lassie Come Home (1943) until, at age 18, he moved to New York, where he played a long series of successful stage roles, both on Broadway and in such venues as Connecticut&#039;s Stratford Festival, where he did Shakespeare. In addition to making many more movies (over 150), McDowell acted in television, developed an extensive collection of movies and Hollywood memorabilia, and published five acclaimed books of his own photography. He died at his Los Angeles home, aged 70, of cancer. ....',
+                'created_at' => '2016-01-28 12:54:27',
+                'updated_at' => '2016-01-28 12:54:27',
+            ),
+            237 => 
+            array (
+                'person_id' => 741,
+                'forename' => 'Ashley',
+                'surname' => 'Tisdale',
+                'birthday' => '1985-07-02',
+                'deceased' => NULL,
+                'image' => 'Ashley_Tisdale_1453985693.jpg',
+            'bio' => 'Ashley Tisdale was born on July 2, 1985 in West Deal, New Jersey, USA as Ashley Michelle Tisdale. She is an actress, known for Phineas and Ferb (2007), High School Musical (2006) and The Suite Life of Zack and Cody (2005). She has been married to Christopher French since September 8, 2014. ....',
+                'created_at' => '2016-01-28 12:54:53',
+                'updated_at' => '2016-01-28 12:54:53',
+            ),
+            238 => 
+            array (
+                'person_id' => 742,
+                'forename' => 'Jonathan',
+                'surname' => 'Harris',
+                'birthday' => '1914-11-06',
+                'deceased' => '2002-11-03',
+                'image' => 'Jonathan_Harris_1453985722.jpg',
+            'bio' => 'Born Jonathan Charasuchin in the Bronx to impoverished Russian-Jewish &eacute;migr&eacute;s, Jonathan Harris worked as a box boy in a pharmacy at age 12 and later earned his pharmacy degree at Fordham University. However, the desire to act proved overwhelming and he forsook this promising trade for the theater, shaking off his thick Bronx accent and changing his surname to one easier to pronounce. After performing in over 100 plays in stock companies nationwide, he made his Broadway bow in 1942 with &quot;Heart of a City&quot; and entertained World War II troops in the South Pacific. Following his introduction to live television drama in 1948, he ventured off to Hollywood and made his film debut, co-starring with Alan Ladd and James Mason in Botany Bay (1952). However, it was television that would make him a household name - first as Bradley Webster in The Third Man (1959) opposite Michael Rennie, and then the role that made him a cult icon, Dr. Zachary Smith, the dastardly, effete stowaway on Lost in Space (1965), with Harris easily stealing the show week after week as he botched and mangled all the good intentions of the Robinson family to get back home to Earth. Unable to top this achievement and seriously typecast as a plummy villain, the remainder of his career was spent with great relish providing voice-over work in commercials and animated cartoons. Harris died of a blood clot to the heart just three days before his 88th birthday. ....',
+                'created_at' => '2016-01-28 12:55:22',
+                'updated_at' => '2016-01-28 12:55:22',
+            ),
+            239 => 
+            array (
+                'person_id' => 743,
+                'forename' => 'Joe',
+                'surname' => 'Ranft',
+                'birthday' => '1960-03-13',
+                'deceased' => '2005-08-16',
+                'image' => 'Joe_Ranft_1453985751.jpg',
+            'bio' => 'Joe Ranft was born on March 13, 1960 in Pasadena, California, USA as Joseph Henry Ranft. He was an actor and writer, known for Cars (2006), Toy Story (1995) and The Lion King (1994). He was married to Sue Barry Ranft. He died on August 16, 2005 in Mendocino County, California. ....',
+                'created_at' => '2016-01-28 12:55:52',
+                'updated_at' => '2016-01-28 12:55:52',
+            ),
+            240 => 
+            array (
+                'person_id' => 744,
+                'forename' => 'Owen',
+                'surname' => 'Wilson',
+                'birthday' => '1968-11-18',
+                'deceased' => NULL,
+                'image' => 'Owen_Wilson_1453985870.jpg',
+            'bio' => 'Self-proclaimed troublemaker Owen Wilson was born in Dallas, to Irish-American parents originally from Massachusetts. He grew up in Texas with his mother, Laura (Cunningham), a photographer; his father, Robert Andrew Wilson, an ad exec; and his brothers, Andrew Wilson (the eldest) and Luke Wilson (the youngest). Expelled from St. Mark&#039;s School of Texas (Dallas, TX) in the tenth grade, Wilson finished his sophomore year at Thomas Jefferson School and then headed to a military academy in New Mexico. He then attended the University of Texas at Austin, where he met his future mentor and friend, Wes Anderson. They wrote a screenplay, Bottle Rocket (1996), and sent it to their family friend, screenwriter L.M. Kit Carson, who sent it to producer Polly Platt, who gave it to James L. Brooks, who gave the Texans $5 million dollars to make it into a feature film. Despite critical praise, Bottle Rocket (1996) only grossed one million dollars. After making the film, Wilson moved to Hollywood, setting up house with his two brothers and Anderson. Fairly quickly, Owen found himself acting in a series of big budget films that scraped the bottom of the critical barrel, such as the dreadful The Cable Guy (1996), Hantise (1999), Anaconda (1997) and Breakfast of Champions (1999). This led to more work in slightly better fare, such as Shanghai Noon (2000), Meet the Parents (2000) and Behind Enemy Lines (2001). He&#039;s known not only for his nose, which has been broken several times, but also for his  ....',
+                'created_at' => '2016-01-28 12:57:50',
+                'updated_at' => '2016-01-28 12:57:50',
+            ),
+            241 => 
+            array (
+                'person_id' => 745,
+                'forename' => 'Michael',
+                'surname' => 'Keaton',
+                'birthday' => '1951-09-05',
+                'deceased' => NULL,
+                'image' => 'Michael_Keaton_1453985910.jpg',
+            'bio' => 'Quirky, inventive and handsome US actor Michael Keaton first achieved major fame with his door busting performance as fast talking, ideas man &quot;Bill Blazejowski&quot; alongside nerdish morgue attendant Henry Winkler in Night Shift (1982). Keaton was born Michael John Douglas on September 5, 1951 in Coraopolis, Pennsylvannia, to Leona Elizabeth (Loftus), a homemaker, and George A. Douglas, a civil engineer and surveyor. He is of Irish, as well as English, Scottish, and German, descent. Michael studied speech for two years at Kent State, before dropping out and moving to Pittsburgh. An unsuccessful attempt at stand-up comedy led Keaton to working as a TV cameraman in a cable station, and he came to realize he wanted to work in front of the cameras. Keaton first appeared on TV in several episodes of Mister Rogers&#039; Neighborhood (1968). He left Pittsburgh and moved to Los Angeles to begin auditioning for TV. He began cropping up in popular TV shows including Maude (1972) and The Mary Tyler Moore Hour (1979). Around this time, Keaton decided to use an alternative surname to remove confusion with better-known actor Michael Douglas. After reading an article on actress Diane Keaton, he decided that Michael Keaton sounded good. His next break was scoring a co-starring role alongside James Belushi in the short-lived comedy series Working Stiffs (1979), which showcased his comedic talent and led to his co-starring role in Night Shift (1982). Keaton next scored the lead in the comedy hits Mr. M ....',
+                'created_at' => '2016-01-28 12:58:30',
+                'updated_at' => '2016-01-28 12:58:30',
+            ),
+            242 => 
+            array (
+                'person_id' => 746,
+                'forename' => 'Bonnie',
+                'surname' => 'Hunt',
+                'birthday' => '1961-09-22',
+                'deceased' => NULL,
+                'image' => 'Bonnie_Hunt_1453986351.jpg',
+            'bio' => 'Bonnie Hunt was born on September 22, 1961 in Chicago, Illinois, USA as Bonnie Lynn Hunt. She is a producer and writer, known for The Bonnie Hunt Show (2008), Return to Me (2000) and The Green Mile (1999). She was previously married to John Murphy. ....',
+                'created_at' => '2016-01-28 13:05:51',
+                'updated_at' => '2016-01-28 13:05:51',
+            ),
+            243 => 
+            array (
+                'person_id' => 747,
+                'forename' => 'Larry The Cable',
+                'surname' => 'Guy',
+                'birthday' => '1963-02-17',
+                'deceased' => NULL,
+                'image' => 'Larry_The_Cable_Guy_1453986437.jpg',
+            'bio' => 'Larry the Cable Guy was born on February 17, 1963 in Pawnee City, Nebraska, USA as Daniel Lawrence Whitney. He is an actor and producer, known for Cars (2006), Cars 2 (2011) and Blue Collar Comedy Tour: The Movie (2003). He has been married to Cara Whitney since July 3, 2005. They have two children. ....',
+                'created_at' => '2016-01-28 13:07:17',
+                'updated_at' => '2016-01-28 13:07:17',
+            ),
+            244 => 
+            array (
+                'person_id' => 748,
+                'forename' => 'Jenifer',
+                'surname' => 'Lewis',
+                'birthday' => '1957-01-25',
+                'deceased' => NULL,
+                'image' => 'Jenifer_Lewis_1453986452.jpg',
+            'bio' => 'Jenifer Lewis was born and raised in Kinloch, Missouri. She holds a bachelor&#039;s degree in theater arts from Webster University in St. Louis. Jenifer has over 60 films and 200 TV appearances to her credit. Her uniquely recognizable voice is adored by fans, worldwide, in such animated roles as &quot;Flo&quot; in Cars (2006) and Cars 2 (2011) and as &quot;Mama Odie&quot; in The Princess and the Frog (2009). Jenifer earned the title, &quot;Black Mother of Hollywood&quot;, thanks to memorable performances as Tina Turner&#039;s mother in What&#039;s Love Got to Do with It (1993) and, alongside Denzel Washington, in The Preacher&#039;s Wife (1996). In 2010, she portrayed the distraught mother, &quot;Candace&quot;, opposite Matt Damon, in Clint Eastwood&#039;s Hereafter (2010). Jenifer is a series regular on NBC&#039;s The Playboy Club (2011). In October 2011, she plays a featured role on Lifetime&#039;s prestigious TV-movie, Five (2011), under the helm of first-time director, Alicia Keys. As an activist, Jenifer participates in mental health causes and, in 2007, Jenifer chose The Oprah Winfrey Show (1986) as a platform to reveal that she has bipolar disorder. Jenifer&#039;s versatility is at the heart of her long and diverse career. Her TV roles have ranged from regular appearances as &quot;Aunt Helen&quot; on The Fresh Prince of Bel-Air (1990) to guest star roles on Friends (1994), Boston Legal (2004) and Girlfriends (2000). For six seasons, Jenifer portrayed &quot;Lana Hawkins&quot; on Lifetime&#039;s number-one hit series, Strong Medicine (2000). Also on Lifetime, Jenifer achiev ....',
+                'created_at' => '2016-01-28 13:07:32',
+                'updated_at' => '2016-01-28 13:07:32',
+            ),
+            245 => 
+            array (
+                'person_id' => 749,
+                'forename' => 'George',
+                'surname' => 'Carlin',
+                'birthday' => '1937-05-12',
+                'deceased' => '2008-06-22',
+                'image' => 'George_Carlin_1453986485.jpg',
+            'bio' => 'Born and raised by his mother in Manhattan, New York City. His parents divorced when he was two months. His mother (as well as his father) worked in marketing, where they met. The long hours the mother worked left the young George by himself for long hours every day, providing him (in his own words), the time he needed to think about various subjects, listen to radio, and practice his impersonations, that where acclaimed by his mother and coworkers since an early age. Carlin started out as a conventional comedian and had achieved a fair degree of success as a Bill Cosby style raconteur in nightclubs and on TV until the late 1960s, when he radically overhauled his persona. His routines became more insightful, introducing more serious subjects. As he aged, he became more cynic and bitter, unintentionally changing his stage persona again in a radical way throughout the 90s. This new George Carlin, usually referred to as the late George Carlin, is one of the most acclaimed and enjoyed by the public and critics. Carlin&#039;s forte is Lenny Bruce-style social and political commentary, spiced with nihilistic observations about people and religion peppered with black humor. He is also noted for his masterful knowledge and use of the English language. Carlin&#039;s notorious &quot;Seven Dirty Words&quot; comedy routine was part of a radio censorship case that made its way to the U.S. Supreme Court in 1978. ....',
+                'created_at' => '2016-01-28 13:08:05',
+                'updated_at' => '2016-01-28 13:08:05',
+            ),
+            246 => 
+            array (
+                'person_id' => 750,
+                'forename' => 'Richard',
+                'surname' => 'Petty',
+                'birthday' => '1937-07-02',
+                'deceased' => NULL,
+                'image' => 'Richard_Petty_1453986507.jpg',
+            'bio' => 'The King of stock car racing, Richard Petty retired from NASCAR competition after the 1992 season. During his storied career, he won 200 Winston Cup race (a feat that will never be equaled), seven Winston Cup championships (tied by Dale Earnhardt in 1994), and seven Daytona 500&#039;s. His 200th win came in the July 4th, 1984 Firecracker 400 at Daytona, when he beat Cale Yarborough by mere inches with President Ronald Reagan in attendance. Petty remains a fixture on the Winston Cup circuit. He still owns the familiar number 43 STP Pontiac team, and you can still find him signing autographs for his legion of fans. His son, Kyle Petty, is currently a NASCAR Winston Cup series driver. ....',
+                'created_at' => '2016-01-28 13:08:27',
+                'updated_at' => '2016-01-28 13:08:27',
+            ),
+            247 => 
+            array (
+                'person_id' => 751,
+                'forename' => 'Jeremy',
+                'surname' => 'Piven',
+                'birthday' => '1965-07-26',
+                'deceased' => NULL,
+                'image' => 'Jeremy_Piven_1453986523.jpg',
+            'bio' => 'Born in Manhattan and raised in Evanston, Illinois, he is an alumnus of the Piven Theatre Workshop founded by his parents (Byrne Piven and Joyce Hiller Piven) and a one time Chicago stage actor. ....',
+                'created_at' => '2016-01-28 13:08:43',
+                'updated_at' => '2016-01-28 13:08:43',
+            ),
+            248 => 
+            array (
+                'person_id' => 752,
+                'forename' => 'Emily',
+                'surname' => 'Mortimer',
+                'birthday' => '1971-12-01',
+                'deceased' => NULL,
+                'image' => 'Emily_Mortimer_1453986814.jpg',
+            'bio' => 'English actress Emily Kathleen Anne Mortimer was born in Hammersmith, London, England, to writer and barrister Sir John Mortimer and his second wife, Penelope (n&eacute;e Gollop). She was educated at St Paul&#039;s Girls&#039; School in West London, and it was whilst there she began acting. Mortimer moved on from school to Lincoln College, Oxford University, where she studied English Literature and Russian, and spent two terms at the Moscow Arts Theater Drama School, studying acting. While appearing in an Oxford University student production, Mortimer was spotted by a TV producer who cast her in an adaptation of Catherine Cookson&#039; s The Glass Virgin (1995). She made her feature film debut in 1996 alongside Val Kilmer in The Ghost and the Darkness (1996). Roles in various projects have followed, including Elizabeth (1998), Love&#039;s Labour&#039;s Lost (2000), Match Point (2005), Lars and the Real Girl (2007), Shutter Island (2010) and Hugo (2011). During the making of Love&#039;s Labour&#039;s Lost (2000), Mortimer met her husband Alessandro Nivola. The couple have two children, Samuel and May. ....',
+                'created_at' => '2016-01-28 13:13:34',
+                'updated_at' => '2016-01-28 13:13:34',
+            ),
+            249 => 
+            array (
+                'person_id' => 753,
+                'forename' => 'Eddie',
+                'surname' => 'Izzard',
+                'birthday' => '1962-02-07',
+                'deceased' => NULL,
+                'image' => 'Eddie_Izzard_1453986918.jpg',
+            'bio' => 'Best-known for his cross-dressing stand-up comedy routines, British actor/comedian Eddie Izzard was born on February 7, 1962 in Aden, Yemen, while his English parents were there on business. He is the son of Dorothy Ella, a nurse and midwife, and Harold John Izzard, an accountant for British Petroleum. After working as a street performer and in smaller comedy venues throughout the 1980s, Izzard received his big break with his his first stage appearance in London&#039;s West End in 1993, with his one-man comedy show Eddie Izzard: Live at the Ambassadors (1993). The show earned Izzard a Laurence Olivier Award nomination for outstanding achievement and garnered Izzard his first British Comedy Award for top stand-up comedian. He returned to the West End the next year with his second one-man show, Eddie Izzard: Unrepeatable (1994), followed by his dramatic West End debut as the lead in the world premiere of David Mamet&#039;s &quot;The Cryptogram&quot; with Lindsay Duncan, which landed Izzard his second starring role in &quot;900 Oneonta&quot;. Izzard appeared in 1995 portraying the title character in Christopher Marlowe&#039;s groundbreaking &quot;Edward II&quot;. In 1996, Izzard made his big screen debut alongside Bob Hoskins and Robin Williams in The Secret Agent (1996) and staged another one-man show, Eddie Izzard: Definite Article (1996), for which he received his second British Comedy Award. He then took &quot;Definite Article&quot; to major cities outside the UK including New York City and returned to the West End with a new sh ....',
+                'created_at' => '2016-01-28 13:15:18',
+                'updated_at' => '2016-01-28 13:15:18',
+            ),
+            250 => 
+            array (
+                'person_id' => 754,
+                'forename' => 'Joe',
+                'surname' => 'Mantegna',
+                'birthday' => '1947-11-13',
+                'deceased' => NULL,
+                'image' => 'Joe_Mantegna_1453987103.jpg',
+            'bio' => 'Joe Mantegna is an American actor who has made over 200 film and TV appearances. He is also a producer, writer, and director, and is probably best known for his role as Joey Zasa in the Francis Ford Coppola epic The Godfather: Part III (1990), in which he stars alongside Al Pacino and Andy Garcia. Joseph Anthony Mantegna, Jr. was born in Chicago, Illinois, to Mary Anne (Novelli), a shipping clerk, and Joseph Anthony Mantegna, Sr., an insurance salesman. He is of Italian descent. Having obtained a degree in acting from the Goodman School of Drama and taken to the stage early on in life, it is no surprise that Joe has maintained a strong relationship with the playwright -turned- screenwriter-director David Mamet. They have collaborated on several projects. He also stars as SSA David Rossi on the long running TV drama Criminal Minds. (2005-) ....',
+                'created_at' => '2016-01-28 13:18:23',
+                'updated_at' => '2016-01-28 13:18:23',
+            ),
+            251 => 
+            array (
+                'person_id' => 755,
+                'forename' => 'Bruce',
+                'surname' => 'Campbell',
+                'birthday' => '1958-06-22',
+                'deceased' => NULL,
+                'image' => 'Bruce_Campbell_1453987116.jpg',
+            'bio' => 'In 1979 with his Detroit friends, Sam Raimi and Rob Tapert, Bruce Campbell raised $350,000 for a low-budget film, The Evil Dead (1981), in which he starred and co-executive produced. Completed piecemeal over four years, the film first gained notoriety in England where it became the best-selling video of 1983, beating out The Shining. After its appearance at Cannes, where Stephen King dubbed it &quot;the most ferociously original horror film of the year,&quot; New Line Cinema stepped forward to release Evil Dead in the U.S. After co-producing Crimewave (1985), a cross-genre comedy written by Sam Raimi, Ethan and Joel Coen, Campbell moved to Los Angeles and quickly gained a foothold producing or starring in genre films such as the Maniac Cop (1988) series, Lunatics: A Love Story (1991), Moontrap (1989), and Mindwarp (1992), a post-apocalyptic Jeremiah Johnson, during which he met his wife-to-be, filmmaker, Ida Gearon. Campbell then rejoined his Detroit colleagues to star and co-produce the second and third films in the Evil Dead trilogy (Evil Dead II (1987) &amp; Army of Darkness (1992)), completing 12 years of work on the cult favorite. This rough-and-tumble background was a plus as Campbell made his foray into television, first starring in the highly touted Fox series The Adventures of Brisco County Jr. (1993), then as a recurring guest-star on the hit show Lois &amp; Clark: The New Adventures of Superman (1993). With these under his belt, Campbell easily made the transition to director, helmi ....',
+                'created_at' => '2016-01-28 13:18:37',
+                'updated_at' => '2016-01-28 13:18:37',
+            ),
+            252 => 
+            array (
+                'person_id' => 756,
+                'forename' => 'Vanessa',
+                'surname' => 'Redgrave',
+                'birthday' => '1937-01-30',
+                'deceased' => NULL,
+                'image' => 'Vanessa_Redgrave_1453987128.jpg',
+            'bio' => 'On January 30, 1937, renowned theatre actor Michael Redgrave was performing in a production of Hamlet in London. During the curtain call, the show&#039;s lead, Laurence Olivier, announced to the audience: &quot;tonight a great actress was born&quot;. This was in reference to his co-star&#039;s newborn daughter, Vanessa Redgrave. Vanessa was born in Greenwich, London, to Michael Redgrave and Rachel Kempson, both thespians. Three quarters of a century after her birth (despite numerous ups and down) this rather forward expectation has definitely been lived up to with an acclaimed actress that has won (among many others) an Academy Award, two Emmys, two Golden Globes, two Cannes Best Actress awards, a Tony, a Screen Actors Guild award, a Laurence Olivier theatre award and a BAFTA fellowship. Growing up with such celebrated theatrical parents, great expectations were put on both herself, her brother Corin Redgrave and sister Lynn Redgrave at an early age. Shooting up early and finally reaching a height just short of 6 foot, Redgrave initially had plans to dance and perform ballet as a profession. However she settled on acting and entered the Central School of Speech and Drama in 1954 and four years later made her West End debut. In the decade of the 1960s she developed and progressed to become one of the most noted young stars of the English stage and then film. Performances on the London stage included the classics: &#039;A Touch of Sun&#039;, &#039;Coriolanus&#039;, &#039;A Midsummer&#039;s Night Dream&#039;, &#039;All&#039;s Well that Ends W ....',
+                'created_at' => '2016-01-28 13:18:48',
+                'updated_at' => '2016-01-28 13:18:48',
+            ),
+            253 => 
+            array (
+                'person_id' => 757,
+                'forename' => 'Ellen',
+                'surname' => 'Degeneres',
+                'birthday' => '1958-01-26',
+                'deceased' => NULL,
+                'image' => 'Ellen_Degeneres_1453987206.jpg',
+            'bio' => 'Emmy-winning talk-show host Ellen DeGeneres was born in Metairie, Louisiana, a suburb of New Orleans. Her father, insurance salesman Elliot De Generes and her mother, a real-estate agent, were divorced when she was 16 years old. Her mother remarried, and her new husband, salesman Roy Gruessendorf, moved the family (which included Ellen&#039;s brother) to Atlanta, Texas. After graduating from Atlanta High School in 1976, Ellen attended the University of New Orleans as a communication major, but she dropped out after one semester. She held a wide variety of jobs until she turned to stand-up comedy, making her bones at small clubs and coffeehouses before working her way up to emcee Clyde&#039;s Comedy Club by 1981. Her comedy was described as a distaff version of Bob Newhart. Beginning in the early 1980s, she toured nationally and was named the funniest person in America after winning a competition sponsored by the cable network Showtime. This led to better gigs, including her first appearance on The Tonight Show Starring Johnny Carson (1962) in 1986. Though DeGeneres&#039;s early forays into series television were not successful (she appeared as a supporting player in two short-lived TV situation comedies in the period 1989-92, Open House (1989) and Laurie Hill (1992)), she scored a hit headlining her own 1994 sitcom on ABC &quot;These Friends of Mine&quot; (later renamed Ellen (1994) after its first season). She made TV history in April 1997 when her character, and DeGeneres herself personally, reveal ....',
+                'created_at' => '2016-01-28 13:20:06',
+                'updated_at' => '2016-01-28 13:20:06',
+            ),
+            254 => 
+            array (
+                'person_id' => 758,
+                'forename' => 'Alexander',
+                'surname' => 'Gould',
+                'birthday' => '1994-05-04',
+                'deceased' => NULL,
+                'image' => 'Alexander_Gould_1453987233.jpg',
+            'bio' => 'Gould was born and raised in Los Angeles, California, to parents Valerie and Tom Gould. He began acting at the age of two and is perhaps best known for providing the voice of the title character of Disney/Pixar&#039;s Finding Nemo (2003). His on-camera credits include guest spots on the television series Ally McBeal (1997), Malcolm in the Middle (2000), and Law &amp; Order: Special Victims Unit (1999), Supernatural (2005), and Pushing Daisies (2007). In 2004, he starred as David Collins in the WB remake of the soap opera Dark Shadows (2005). However, the pilot was rejected by the WB Television Network, and it never aired. More recently, he starred as Shane Botwin on the Showtime drama/comedy series Weeds (2005). ....',
+                'created_at' => '2016-01-28 13:20:33',
+                'updated_at' => '2016-01-28 13:20:33',
+            ),
+            255 => 
+            array (
+                'person_id' => 759,
+                'forename' => 'Willem',
+                'surname' => 'Dafoe',
+                'birthday' => '1955-07-22',
+                'deceased' => NULL,
+                'image' => 'Willem_Dafoe_1453987239.jpg',
+            'bio' => 'Willem Dafoe was born in Appleton, Wisconsin, to Muriel Isabel (Sprissler), a nurse, and Dr. William Alfred Dafoe, a surgeon. He is of French, German, English, Irish, and Scottish descent. In 1979, Dafoe was given a small role in Michael Cimino&#039;s Heaven&#039;s Gate (1980) from which he was fired. His first feature role came shortly after in Kathryn Bigelow&#039;s The Loveless (1981). From there, he went on to perform in over 80 films - in Hollywood (John Carter (2012), Spider-Man (2002), The English Patient (1996), Finding Nemo (2003), Once Upon a Time in Mexico (2003), Clear and Present Danger (1994), White Sands (1992), Mississippi Burning (1988), Streets of Fire (1984), American Dreamz (2006)) and in independent cinema in the U.S. (The Clearing (2004), Animal Factory (2000), The Boondock Saints (1999), American Psycho (2000)) and abroad (Theo Angelopoulos&#039; La poussi&egrave;re du temps (2008), Yim Ho&#039;s Pavillon de femmes (2001), Yurek Bogayevicz&#039;s Edges of the Lord (2001), Wim Wenders&#039; Faraway (2011), So Close (2009), Nobuhiro Suwa&#039;s segment of Paris, je t&#039;aime (2006), Brian Gilbert&#039;s Tom &amp; Viv (1994), Christian Carion&#039;s Farewell (2001), _Mr. Bean&#039;s Holiday and The Spierig Brothers&#039; Daybreakers_, Daniel Nettheim&#039;s The Hunter (2011)). He has chosen projects for diversity of roles and opportunities to work with strong directors. He has worked in the films of Wes Anderson (The Life Aquatic with Steve Zissou (2004), Fantastic Mr. Fox (2009)), Martin Scorsese (The Aviator (2004), The Last Tempt ....',
+                'created_at' => '2016-01-28 13:20:39',
+                'updated_at' => '2016-01-28 13:20:39',
+            ),
+            256 => 
+            array (
+                'person_id' => 760,
+                'forename' => 'Brad',
+                'surname' => 'Garrett',
+                'birthday' => '1960-04-14',
+                'deceased' => NULL,
+                'image' => 'Brad_Garrett_1453987250.jpg',
+            'bio' => 'Standing 6 feet 8-1/2 inches tall, Garrett grew up in Woodland Hills outside of Los Angeles. His father was a hearing aid specialist working in geriatrics and his mother was a housewife. Garrett spent a whopping six weeks at UCLA before going into stand-up comedy full time. He began performing his act at various Los Angeles comedy clubs, getting his start at the Ice House in Pasadena and the Improv in Hollywood. In 1984, he became the first $100,000 grand champion winner in the comedy category of Star Search (1983). This led to his first appearance, at age 23, on The Tonight Show Starring Johnny Carson (1962), making him one of the youngest comedians ever to perform on the show. In 1986, Garrett told a joke the talent booker warned him against and he hasn&#039;t been on the show since. Following his &quot;Tonight Show&quot; appearance, Garrett&#039;s career took off, garnering him headlining gigs at several national venues as well as opening spots for legends including Diana Ross and Liza Minnelli. He has headlined at Bally&#039;s Park Place and co-headlined with The Temptations at Trump Plaza. He has also worked at The Sands Hotel in Las Vegas with Frank Sinatra, Caesar&#039;s Palace with David Copperfield, and Smokey Robinson, Harrah&#039;s with Sammy Davis Jr. and The Beach Boys, and Radio City Music Hall with Julio Iglesias. In 1989, the Las Vegas Review Journal named him the Best Comedian working on the strip. Changing gears, he made his way into the world of television. He struck gold with Everybody Love ....',
+                'created_at' => '2016-01-28 13:20:50',
+                'updated_at' => '2016-01-28 13:20:50',
+            ),
+            257 => 
+            array (
+                'person_id' => 761,
+                'forename' => 'Geoffrey',
+                'surname' => 'Rush',
+                'birthday' => '1951-07-06',
+                'deceased' => NULL,
+                'image' => 'Geoffrey_Rush_1453987272.jpg',
+            'bio' => 'Geoffrey Rush was born on July 6, 1951, in Toowoomba, Queensland, Australia, to Merle (Bischof), a department store sales assistant, and Roy Baden Rush, an accountant for the Royal Australian Air Force. His mother was of German descent and his father had English, Irish, and Scottish ancestry. He was raised in Brisbane, Queensland, after his parents split up. Rush attended Everton Park State High School during his formative years. His early interest in the theatre led to his 1971 stage debut at age 20 in &quot;Wrong Side of the Moon&quot; with the Queensland Theatre Company. Known for his classical repertory work over the years, he scored an unexpected hit with his Queensland role as Snoopy in the musical &quot;You&#039;re a Good Man, Charlie Brown&quot;. A few years later he moved to France to study but subsequently returned to his homeland within a short time and continued work as both actor and director with the Queensland company (&quot;June and the Paycock,&quot; &quot;Aladdin,&quot; &quot;Godspell,&quot; &quot;Present Laughter,&quot; &quot;The Rivals&quot;). In the 1980s Rush became a vital member of the State Theatre Company of South Australia and showed an equally strong range there in such productions as &quot;Revenger&#039;s Tragedy,&quot; &quot;A Midsummer Night&#039;s Dream,&quot; &quot;Mother Courage...and Her Children,&quot; &quot;Blood Wedding,&quot; &quot;Pal Joey,&quot; &quot;Twelfth Night&quot; and as The Fool in &quot;King Lear&quot;. Rush made an inauspicious debut in films with the feature Hoodwink (1981), having little more than a bit part, and didn&#039;t carry off his first major role until playing Sir Andrew  ....',
+                'created_at' => '2016-01-28 13:21:12',
+                'updated_at' => '2016-01-28 13:21:12',
+            ),
+            258 => 
+            array (
+                'person_id' => 762,
+                'forename' => 'Elizabeth',
+                'surname' => 'Perkins',
+                'birthday' => '1960-11-18',
+                'deceased' => NULL,
+                'image' => 'Elizabeth_Perkins_1453987284.jpg',
+            'bio' => 'Elizabeth Ann Perkins was born on November 18, 1960, in the borough of Queens, New York, and was raised in Vermont. Her mother, Jo Williams, was a concert pianist and drug treatment counselor, and her father, James Perkins, was a businessman, farmer, and writer. She is of Greek and English descent. Perkins studied acting at Chicago&#039;s Goodman School of Drama at DePaul University for three years, then launched her professional career with a co-starring gig in the touring company of Neil Simon&#039;s Brighton Beach Memoirs (1986). Seasoned, she returned to New York in the spring of 1984 to make her Broadway debut as a replacement in the Simon play. As a stage actress, she has trod the boards with Playwrights Horizon, the Ensemble Studio, The New York Shakespeare Festival, and, back in Chcago, with the Steppenwolf Theater. She found time out to marry the Chicago actor Terry Kinney. Her first major film role was in the underwhelming screen adaptation of David Mamet&#039;s &quot;Sexual Perversity in Chicago,&quot; which was turned into a Rob Lowe/Demi Moore star vehicle retitled About Last Night... (1986). Perkins sparkled as the grown woman interested in Tom Hanks in Big (1988), but her career was spotty and she never gained the traction to bring her the stardom that seemed to be within her grasp. In 1991, Perkins starred with Kevin Bacon in He Said, She Said (1991) (thus giving her a Bacon Factor of exactly 1) but, sadly, for such a talented actress, her biggest box-office hit has proven to be The F ....',
+                'created_at' => '2016-01-28 13:21:24',
+                'updated_at' => '2016-01-28 13:21:24',
+            ),
+            259 => 
+            array (
+                'person_id' => 763,
+                'forename' => 'Barry',
+                'surname' => 'Humphries',
+                'birthday' => '1934-02-17',
+                'deceased' => NULL,
+                'image' => 'Barry_Humphries_1453987294.jpg',
+                'bio' => 'His father was an affluent construction manager. Barry was a very intelligent boy who attended Melbourne University. There, he began in revues and doing some impersonations. He moved to London around 1960 and began his TV career. He has created numerous characters, including Dame Edna Everidge and Sir Les Patterson. ....',
+                'created_at' => '2016-01-28 13:21:34',
+                'updated_at' => '2016-01-28 13:21:34',
+            ),
+            260 => 
+            array (
+                'person_id' => 764,
+                'forename' => 'Bruce',
+                'surname' => 'Spence',
+                'birthday' => '1945-09-17',
+                'deceased' => NULL,
+                'image' => 'Bruce_Spence_1453987301.jpg',
+            'bio' => 'Bruce Spence was born on September 17, 1945 in Auckland, North Island, New Zealand. He is an actor, known for Mad Max 2: The Road Warrior (1981), Star Wars: Episode III - Revenge of the Sith (2005) and Finding Nemo (2003). He has been married to Jenny since September 16, 1973. They have two children. ....',
+                'created_at' => '2016-01-28 13:21:41',
+                'updated_at' => '2016-01-28 13:21:41',
+            ),
+            261 => 
+            array (
+                'person_id' => 765,
+                'forename' => 'Kristen',
+                'surname' => 'Bell',
+                'birthday' => '1980-07-18',
+                'deceased' => NULL,
+                'image' => 'Kristen_Bell_1453987354.jpg',
+            'bio' => 'Kristen Anne Bell (born in 1980) is an American actress and singer. She was born and raised in Huntington Woods, Michigan, and is the daughter of Lorelei (Frygier), a nurse, and Tom Bell, a television news director. Her mother&#039;s family is entirely Polish. Bell found her talent in entertainment at an early age. In 1992, she went to her first audition and won a role in Raggedy Ann and Andy. Bell&#039;s mother established her with an agent before she was 13, and she was cast in newspaper advertisements and television commercials. At this time, she also began private acting lessons. Bell had an uncredited role in the film Polish Wedding (1998) in 1998. Bell attended Shrine Catholic High School, where she took part in drama and music club. She won the starring role of Dorothy in her high school&#039;s production of The Wizard of Oz. After graduation Bell moved to New York City to attend prestigious Tisch School of the Arts, where she studied musical theater. In 2001, Bell left university to play the role of Becky in Tom Sawyer. That same year, she made her first credited debut in Pootie Tang (2001), but her scene was cut and her appearance exists only in the credit sequence. In 2002, Bell appeared in the Broadway revival of The Crucible with Liam Neeson and Angela Bettis. She then moved to Los Angeles, California, and appeared in a handful television shows as a special guest, finding trouble gaining a recurring role in a television series. In 2004, Bell appeared in the Lifetime&#039;s television ....',
+                'created_at' => '2016-01-28 13:22:34',
+                'updated_at' => '2016-01-28 13:22:34',
+            ),
+            262 => 
+            array (
+                'person_id' => 766,
+                'forename' => 'Jonathan',
+                'surname' => 'Groff',
+                'birthday' => '1985-03-26',
+                'deceased' => NULL,
+                'image' => 'Jonathan_Groff_1453987516.jpg',
+            'bio' => 'Jonathan Groff was born on March 26, 1985 in Lancaster, Pennsylvania, USA as Jonathan Drew Groff. He is an actor, known for Frozen (2013), The Normal Heart (2014) and American Sniper (2014). ....',
+                'created_at' => '2016-01-28 13:25:16',
+                'updated_at' => '2016-01-28 13:25:16',
+            ),
+            263 => 
+            array (
+                'person_id' => 767,
+                'forename' => 'Josh',
+                'surname' => 'Gad',
+                'birthday' => '1981-02-23',
+                'deceased' => NULL,
+                'image' => 'Josh_Gad_1453987644.jpg',
+            'bio' => 'Josh Gad was born on February 23, 1981 in Hollywood, Florida, USA. He is an actor and producer, known for Frozen (2013), The Wedding Ringer (2015) and Love &amp; Other Drugs (2010). He has been married to Ida Darvish since May 10, 2008. They have two children. ....',
+                'created_at' => '2016-01-28 13:27:24',
+                'updated_at' => '2016-01-28 13:27:24',
+            ),
+            264 => 
+            array (
+                'person_id' => 768,
+                'forename' => 'Santino',
+                'surname' => 'Fontana',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Santino_Fontana_1453987675.jpg',
+            'bio' => 'Santino Fontana is an actor, known for Frozen (2013), Sisters (2015) and Jack Ryan: Shadow Recruit (2014). ....',
+                'created_at' => '2016-01-28 13:27:55',
+                'updated_at' => '2016-01-28 13:27:55',
+            ),
+            265 => 
+            array (
+                'person_id' => 769,
+                'forename' => 'Chris',
+                'surname' => 'Williams',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Chris_Williams_1453987753.jpg',
+            'bio' => 'Chris Williams is known for his work on Bolt (2008), Mulan (1998) and The Emperor&#039;s New Groove (2000). ....',
+                'created_at' => '2016-01-28 13:29:13',
+                'updated_at' => '2016-01-28 13:29:13',
+            ),
+            266 => 
+            array (
+                'person_id' => 770,
+                'forename' => 'Craig T.',
+                'surname' => 'Nelson',
+                'birthday' => '1944-04-04',
+                'deceased' => NULL,
+                'image' => 'Craig_T__Nelson_1453988053.jpg',
+            'bio' => 'Craig T. Nelson was born on April 4, 1944 in Spokane, Washington, USA as Craig Theodore Nelson. He is an actor and producer, known for The Incredibles (2004), Coach (1989) and Poltergeist (1982). He has been married to Doria Cook-Nelson since 1987. He was previously married to Robin McCarthy. ....',
+                'created_at' => '2016-01-28 13:34:13',
+                'updated_at' => '2016-01-28 13:34:13',
+            ),
+            267 => 
+            array (
+                'person_id' => 771,
+                'forename' => 'Holly',
+                'surname' => 'Hunter',
+                'birthday' => '1958-03-20',
+                'deceased' => NULL,
+                'image' => 'Holly_Hunter_1453988322.jpg',
+            'bio' => 'Holly Hunter was born in Conyers, Georgia, to Opal Marguerite (Catledge), a homemaker, and Charles Edwin Hunter, a part-time sporting goods company representative and farmer with a 250 acre farm. She is the youngest of seven children. Her parents encouraged her talent at an early age, and her first acting part was as Helen Keller in a fifth-grade play. In 1976 she went to Pittsburgh to pursue a degree in drama from Carnegie Mellon University. After graduating in 1980, she went to New York City, where she met playwright Beth Henley in a stalled elevator. Hunter went on to get roles in a number of Henley&#039;s southern gothic plays, including Crimes of the Heart and The Miss Firecracker Contest. In 1982 the actress went to Los Angeles. She landed her first starring role in the movies in the Coen brothers&#039; Raising Arizona (1987), a part that is said to have been written with her in mind. She gained stardom in 1987 when she played the driven TV news producer Jane Craig in James L. Brooks&#039; Broadcast News (1987). In 1993 she earned an Academy Award and worldwide acclaim with her performance as a mute bride to a New Zealand planter in La le&ccedil;on de piano (1993). ....',
+                'created_at' => '2016-01-28 13:38:42',
+                'updated_at' => '2016-01-28 13:38:42',
+            ),
+            268 => 
+            array (
+                'person_id' => 772,
+                'forename' => 'Jason',
+                'surname' => 'Lee',
+                'birthday' => '1970-04-25',
+                'deceased' => NULL,
+                'image' => 'Jason_Lee_1453988373.jpg',
+            'bio' => 'With a flourishing career that includes an Independent Spirit Award for his performance in writer-director Kevin Smith&#039;s Chasing Amy (1997) and memorable roles in multiple features for such directors as Smith, Cameron Crowe and Lawrence Kasdan, Jason Lee has solidly established himself among critics, directors and peers. Jason Michael Lee was born and raised in Orange County, California, to Carol Lynn (Weaver) and Gregory E. Lee, a car dealership manager. Jason took up skateboarding at age 13. By 18, he was on the professional skateboarding circuit, where he wowed legions of young fans and popularized a move called the &quot;360 flip&quot;. Inspired to tap into the commercial aspect of the sport, Lee and a friend started the twin companies &quot;Stereo Skateboards&quot; and &quot;Stereo Sounds Clothing&quot;. After moving to Los Angeles during his early twenties, however, he began developing an interest in acting. &quot;I met friends that were actors and thought maybe I should try it out&quot;, says Lee, who appeared in commercials and music videos. &quot;After watching Steve Buscemi as the bellboy in Barton Fink (1991), I knew I wanted to be in movies&quot;, he says. In the early 1990s, Lee took his skateboarding tricks in front of the camera, appearing in several music videos - including one for the Sonic Youth song &quot;100%&quot;, directed by Spike Jonze. Lee got his first taste of straight acting the next year, when he turned up alongside Jonze as a teenage drug customer in Allison Anders&#039;s Mi vida loca (1993). Lee&#039;s big break c ....',
+                'created_at' => '2016-01-28 13:39:33',
+                'updated_at' => '2016-01-28 13:39:33',
+            ),
+            269 => 
+            array (
+                'person_id' => 773,
+                'forename' => 'Lou',
+                'surname' => 'Romano',
+                'birthday' => '1972-04-15',
+                'deceased' => NULL,
+                'image' => 'Lou_Romano_1453988518.jpg',
+            'bio' => 'Lou Romano was born on April 15, 1972. He is known for his work on Ratatouille (2007), The Incredibles (2004) and Up (2009). ....',
+                'created_at' => '2016-01-28 13:41:58',
+                'updated_at' => '2016-01-28 13:41:58',
+            ),
+            270 => 
+            array (
+                'person_id' => 774,
+                'forename' => 'Elizabeth',
+                'surname' => 'Pe&ntilde;a',
+                'birthday' => '1959-09-23',
+                'deceased' => '2014-10-14',
+                'image' => 'Elizabeth_Pe_ntilde_a_1453988571.jpg',
+            'bio' => 'Her love for the arts came naturally, as her father was a well-known playwright, actor, director and novelist, so its not hard to understand that by the time she was eight, Cuban-American Elizabeth Pena already had designs to become an actress. Born in New Jersey and raised in New York, her parents, who opened off-Broadway&#039;s &quot;Latin American Theatre Ensemble&quot;, were more than encouraging. Elizabeth attended NY&#039;s &quot;High School of the Performing Arts&quot; and found occasional work in repertory theatre and in television commercials. Her film debut in the independent Spanish-speaking feature, El Super (1979), started her on a long line of feisty, rebellious characters that showed plenty of attitude. During the early 80s, she played everything, from a knife-threatening waitress to a disco queen, as she waited for her big break. That big break came in the form of the hugely successful comedy film, Down and Out in Beverly Hills (1986), co-starring Bette Midler, Richard Dreyfuss and Nick Nolte, in which she stole many scenes as the sultry, politically-minded maid, &quot;Carmen&quot;, who lusts for Nolte. This propelled her to move to Los Angeles, where she continued to spice up both the big and small screen, including the part of Ritchie Valens&#039; stepsister-in-law, in the well-received biopic, La Bamba (1987). Honors also came by Elizabeth&#039;s way, when she received the &quot;Independent Spirit&quot; and &quot;Bravo&quot; awards for the film, Lone Star (1996), and the &quot;ALMA Award&quot; for Tortilla Soup (2001). On TV, she hasn&#039; ....',
+                'created_at' => '2016-01-28 13:42:51',
+                'updated_at' => '2016-01-28 13:42:51',
+            ),
+            271 => 
+            array (
+                'person_id' => 775,
+                'forename' => 'Sarah',
+                'surname' => 'Vowell',
+                'birthday' => '1969-12-27',
+                'deceased' => NULL,
+                'image' => 'Sarah_Vowell_1453988668.jpg',
+                'bio' => 'Born in Oklahoma and raised in Montana, Sarah Vowell is best known for her bits on public radio&#039;s This American Life. A contributing editor for the program since 1996, she has been a staple of TAL&#039;s popular live shows around the country, for which The New York Times has commended her &quot;funny querulous voice and shrewd comic delivery.&quot; As a critic and reporter, she has contributed to numerous newspapers and magazines, including Esquire, GQ, Los Angeles Times, The Village Voice, Spin, The New York Times Book Review and McSweeney&#039;s. She is a former columnist for Time, Salon.com and San Francisco Weekly. Hip, irreverent, and with a voice that NPR fans of This American Life instantly perk up to, Sarah makes both readers and listeners laugh out loud with her wry, comic observations on everything from politics to pop culture. ....',
+                'created_at' => '2016-01-28 13:44:28',
+                'updated_at' => '2016-01-28 13:44:28',
+            ),
+            272 => 
+            array (
+                'person_id' => 776,
+                'forename' => 'Brad',
+                'surname' => 'Bird',
+                'birthday' => '1957-09-24',
+                'deceased' => NULL,
+                'image' => 'Brad_Bird_1453988815.jpg',
+            'bio' => 'Brad Bird was born on September 24, 1957 in Kalispell, Montana, USA as Phillip Bradley Bird. He is known for his work on Ratatouille (2007), The Simpsons (1989) and The Incredibles (2004). He has been married to Elizabeth Canney since 1988. They have three children. ....',
+                'created_at' => '2016-01-28 13:46:55',
+                'updated_at' => '2016-01-28 13:46:55',
+            ),
+            273 => 
+            array (
+                'person_id' => 777,
+                'forename' => 'Spencer',
+                'surname' => 'Fox',
+                'birthday' => '1993-05-10',
+                'deceased' => NULL,
+                'image' => 'Spencer_Fox_1453988938.jpg',
+            'bio' => 'Spencer Fox was born on May 10, 1993 in New York, USA. He is an actor and writer, known for The Incredibles (2004), The Incredibles (2004) and The Groomsmen (2006).',
+                'created_at' => '2016-01-28 13:48:58',
+                'updated_at' => '2016-01-28 13:48:58',
+            ),
+            274 => 
+            array (
+                'person_id' => 778,
+                'forename' => 'Peggy',
+                'surname' => 'Lee',
+                'birthday' => '1920-05-26',
+                'deceased' => '2002-01-21',
+                'image' => 'Peggy_Lee_1453989241.jpg',
+                'bio' => 'Peggy Lee was Born Norma Dolores Egstrom in Jamestown, North Dakota, on May 26, 1920. At age four her mother died. Peggy&#039;s father, a railroad station agent, remarried but later left home, leaving Peggy&#039;s care entrusted to a stepmother who physically abused her. Peggy later memorialized this in the calypso number &quot;One Beating a Day&quot;, one of 22 songs she co-wrote for the autobiographical musical &quot;Peg&quot;, in which she made her Broadway debut in 1983 at the age of 62. As a youngster Peggy worked as a milkmaid, later turning to singing for money in her teens. While singing on a local radio station in Fargo, the program director there suggested she change her name to Peggy Lee. Peggy&#039;s big break came when Benny Goodman hired her to sing with his band after hearing her perform. Peggy shot to stardom when she and Goodman cut the hit record &quot;Why Don&#039;t You Do Right?&quot; and went out on her own to record such classics as &quot;Fever&quot;, &quot;Lover&quot;, &quot;Golden Earrings&quot;, &quot;Big Spender&quot; and &quot;Is That All There Is?&quot; - the latter winning her a Grammy Award in 1969. Peggy&#039;s vocal style provided a distinctive imprint to countless swing tunes, ballads and big band numbers. She was considered the type of performer equally capable of interpreting a song as uniquely as Billie Holiday, Ella Fitzgerald and Bessie Smith. Her 1989 album, &quot;Peggy Sings the Blues&quot;, was a Grammy Award nominee. Peggy was a prolific songwriter and arranger and her 1990 &quot;The Peggy Lee Songbook&quot; contained four songs she wrote with guitarist Joh ....',
+                'created_at' => '2016-01-28 13:54:01',
+                'updated_at' => '2016-01-28 13:54:01',
+            ),
+            275 => 
+            array (
+                'person_id' => 779,
+                'forename' => 'Verna',
+                'surname' => 'Felton',
+                'birthday' => '1890-07-20',
+                'deceased' => '1966-12-14',
+                'image' => 'Verna_Felton_1453989413.jpg',
+            'bio' => 'Verna Felton had extensive experience on the stage and in radio before she broke into film and television. Her trademarks was her distinctive husky voice and her no-nonsense attitude. She was quite in demand for voiceover work, as evidenced by her roles in Cendrillon (1950), Alice au pays des merveilles (1951) and La belle et le clochard (1955). She appeared in many films, but is best remembered as Hilda Crocker in the TV series December Bride (1954), a character she carried over into its spinoff, Pete and Gladys (1960). Verna died in 1966 at 76 years of age of a stroke. ....',
+                'created_at' => '2016-01-28 13:56:53',
+                'updated_at' => '2016-01-28 13:56:53',
+            ),
+            276 => 
+            array (
+                'person_id' => 780,
+                'forename' => 'Judge',
+                'surname' => 'Reinhold',
+                'birthday' => '1957-05-21',
+                'deceased' => NULL,
+                'image' => 'Judge_Reinhold_1453989459.jpg',
+                'bio' => 'Educated at Mary Washington College &amp; North Carolina School of the Arts; performed at various regional theatres, including Burt Reynolds&#039; Dinner Theater in Jupiter, Florida before getting national exposure on TV in the 1970s. ....',
+                'created_at' => '2016-01-28 13:57:39',
+                'updated_at' => '2016-01-28 13:57:39',
+            ),
+            277 => 
+            array (
+                'person_id' => 781,
+                'forename' => 'John',
+                'surname' => 'Ashton',
+                'birthday' => '1948-02-22',
+                'deceased' => NULL,
+                'image' => 'John_Ashton_1453989476.jpg',
+            'bio' => 'John Ashton was born on February 22, 1948 in Springfield, Massachusetts, USA as John David Ashton. He is an actor, known for Gone Baby Gone (2007), Beverly Hills Cop (1984) and Beverly Hills Cop II (1987). He was previously married to Bridget Ashton and Victoria Marie Runn. ....',
+                'created_at' => '2016-01-28 13:57:57',
+                'updated_at' => '2016-01-28 13:57:57',
+            ),
+            278 => 
+            array (
+                'person_id' => 782,
+                'forename' => 'Lisa',
+                'surname' => 'Eilbacher',
+                'birthday' => '1956-05-05',
+                'deceased' => NULL,
+                'image' => 'Lisa_Eilbacher_1453989489.jpg',
+            'bio' => 'Lisa Eilbacher was born in Saudi Arabia, the daughter of an oil company executive. She spent her most formative years in Paris. After moving to Beverly Hills, California with her family, she soon appeared on television on episodes of Wagon Train (1957), Laredo (1965), My Three Sons (1960), Gunsmoke (1955) and Combat! (1962). Among her credits as a teenager is The War Between Men and Women (1972), a motion picture starring Jack Lemmon and Barbara Harris. She has since been featured prominently in many TV and film productions. ....',
+                'created_at' => '2016-01-28 13:58:10',
+                'updated_at' => '2016-01-28 13:58:10',
+            ),
+            279 => 
+            array (
+                'person_id' => 783,
+                'forename' => 'Ronny',
+                'surname' => 'Cox',
+                'birthday' => '1938-07-23',
+                'deceased' => NULL,
+                'image' => 'Ronny_Cox_1453989502.jpg',
+            'bio' => 'Ronny Cox is a superbly talented actor, singer-songwriter and musician who has been consistently active in Hollywood for over 40 years portraying a diverse range of characters. Born in Cloudcroft, New Mexico, Cox received positive reviews in his first film role for his portrayal of ill-fated businessman Drew Ballinger in the terrifying backwoods thriller Deliverance (1972) with Cox featuring in the entertaining &quot;Duelling Banjos&quot; sequence of the film. Following this promising start, Cox was regularly guest-starring in numerous television series, before scoring the lead in the short-lived family drama Apple&#039;s Way (1974) and grabbing the critics attention again with an excellent performance in the Emmy nominated telemovie A Case of Rape (1974). Interestingly, Cox was often at his best playing rigorous authority figures usually in law enforcement or military roles including as a detective in the telemovie Who Is the Black Dahlia? (1975), alongside Charlton Heston in the submarine drama Gray Lady Down (1978), an Los Angeles detective pursuing cop killers in The Onion Field (1979), and alongside then-rising stars Tom Cruise and Sean Penn in the powerful Taps (1981). The 1980s was a high profile decade for Cox with strong supporting roles in several blockbusters playing strong-willed figures on both sides of the law. Cox starred alongside box office sensation Eddie Murphy in the mega-hit Beverly Hills Cop (1984) and its sequel Beverly Hills Cop II (1987), as well as portraying sinis ....',
+                'created_at' => '2016-01-28 13:58:22',
+                'updated_at' => '2016-01-28 13:58:22',
+            ),
+            280 => 
+            array (
+                'person_id' => 784,
+                'forename' => 'Steven',
+                'surname' => 'Berkoff',
+                'birthday' => '1937-08-03',
+                'deceased' => NULL,
+                'image' => 'Steven_Berkoff_1453989513.jpg',
+            'bio' => 'Highly acclaimed English actor, playwright, author and director continues to set the benchmark in stunning, intense performances on both stage and screen. Berkoff was born in Stepney, London in August 1937 and received dramatic arts training in both Paris and London and then moved on to performing with several repertory companies, before he formed the London Theatre Group in 1968. Berkoff had actually been appearing in uncredited roles in UK cinema since 1959, and started to get noticed by casting agents with his performances in Hamlet at Elsinore (1964), Nicholas and Alexandra (1971), A Clockwork Orange (1971) and Barry Lyndon (1975). Mainstream film fans are probably most familiar with Steven Berkoff via his portrayal of a trio of ice cold villains in several big budget Hollywood productions of the 1980s. Firstly, he played a rogue general plotting to launch a war in Europe in Octopussy (1983), then a drug smuggling art dealer out to kill Detroit narcotics officer Eddie Murphy in Beverly Hills Cop (1984), and thirdly as a sadistic Russian commando officer torturing Sylvester Stallone in Rambo: First Blood Part II (1985). Berkoff continued to contribute scintillating performances and was quite memorable as Adolf Hitler in War and Remembrance (1988), The Krays (1990) and the haunting The Tell-Tale Heart (1991). Further villainous roles followed for the steely Berkoff in Fair Game (1995) and the Jean-Claude Van Damme kick flick Legionnaire (1998). He excelled in the camp comed ....',
+                'created_at' => '2016-01-28 13:58:34',
+                'updated_at' => '2016-01-28 13:58:34',
+            ),
+            281 => 
+            array (
+                'person_id' => 785,
+                'forename' => 'James',
+                'surname' => 'Russo',
+                'birthday' => '1953-04-23',
+                'deceased' => NULL,
+                'image' => 'James_Russo_1453989524.jpg',
+            'bio' => 'A Manhattan-born character player who attended New York University, actor James Russo wrote and starred in a prize-winning short film, &quot;The Candy Store&quot;, while attending college. His first big film break was as a convenience store robber in Fast Times at Ridgemont High (1982). Possessed with a stare that can bring shivers down one&#039;s back, he has been quite the accessible villain over the years, memorably portraying a number of gritty psychopaths and gangsters, among other undesirables. Surprisingly, Russo is not a name or commodity, yet an intense and dependable &quot;tough guy&quot; performer he has proven to be. One only needs to be reminded of his sadistic sexual animal role in &quot;Extremities&quot; on stage (in which he won a 1983 Theatre World) and in film (in which he terrorized Farrah Fawcett), to recall how chillingly effective he can be. Other decent roles in films include Kevin Costner&#039;s The Postman (1997) and Open Range (2003), plus Beverly Hills Cop (1984), We&#039;re No Angels (1989), Donnie Brasco (1997), No Way Home (1996), and a number of low-budget crimers. On stage, he has &quot;Welcome to Andromeda&quot;, &quot;Deathwatch&quot;, &quot;Marat/Sade&quot; and the afore-mentioned &quot;Extremities&quot; to his credit. Russo appeared opposite Johnny Depp in Roman Polanski&#039;s La neuvi&egrave;me porte (1999), and portrayed mobster &quot;Victor Mura&quot; in TV&#039;s short-lived, Falcone (2000), the following year. More recently, he offered a penetrating cameo as Frank Sinatra in Stealing Sinatra (2003). ....',
+                'created_at' => '2016-01-28 13:58:44',
+                'updated_at' => '2016-01-28 13:58:44',
+            ),
+            282 => 
+            array (
+                'person_id' => 786,
+                'forename' => 'Jonathan',
+                'surname' => 'Banks',
+                'birthday' => '1947-01-31',
+                'deceased' => NULL,
+                'image' => 'Jonathan_Banks_1453989532.jpg',
+            'bio' => 'Versatile veteran character actor Jonathan Banks was born in Washington D.C in 1947. While growing up he always had an interest in acting and stage work, so decided to pursue a career in entertainment. To this day he is a very accomplished stage actor. While acting in film, he usually plays sinister types or villains. Most recently he can be seen in Better Call Saul (2015) as Mike Ehrmantraut. ....',
+                'created_at' => '2016-01-28 13:58:53',
+                'updated_at' => '2016-01-28 13:58:53',
+            ),
+            283 => 
+            array (
+                'person_id' => 787,
+                'forename' => 'Gilbert R.',
+                'surname' => 'Hill',
+                'birthday' => '1931-11-06',
+                'deceased' => NULL,
+                'image' => 'Gilbert_R__Hill_1453989542.jpg',
+            'bio' => 'Gilbert R. Hill was born on November 6, 1931 in Birmingham, Alabama, USA as Gilbert Roland Hill. He is an actor, known for Beverly Hills Cop (1984), Beverly Hills Cop II (1987) and Beverly Hills Cop III (1994). ....',
+                'created_at' => '2016-01-28 13:59:02',
+                'updated_at' => '2016-01-28 13:59:02',
+            ),
+            284 => 
+            array (
+                'person_id' => 788,
+                'forename' => 'Damon',
+                'surname' => 'Wayans',
+                'birthday' => '1960-09-04',
+                'deceased' => NULL,
+                'image' => 'Damon_Wayans_1453989562.jpg',
+            'bio' => 'An outrageous cueball-domed comedian of film and TV satire, fortified by a dazzling, sly smile, New York-born Damon Wayans is the third of ten children of Elvira Alethia (Green), a social worker and singer, and Howell Wayans, a supermarket manager. He grew up humbly in the Fulton Housing Projects. He began zeroing in on his comedic skills while still a child, conjuring up a number of weird characters that were later utilized on his older brother Keenen Ivory Wayans&#039; ground-breaking In Living Color (1990), the show that made Damon a huge comedy star. Ostracized by other children due to a severe physical disability - a club foot - humor was a strong part of helping Damon overcome a severely painful and debilitating childhood. He wore leg braces, orthopedic shoes and endured numerous surgeries before his affliction was corrected. Dropping out of high school in the ninth grade, he worked various jobs (mail clerk, etc.) until following older brother Keenen out to Hollywood to seek comedy fame and fortune. Doing the typical L.A. stand-up scene starting in 1982, he toured in national comedy club circuits until earning a regular featured slot on Saturday Night Live (1975) for one season (1985-1986). On the big screen he had a number of bit parts in films that showcased Hollywood&#039;s top comedians, including Eddie Murphy in Beverly Hills Cop (1984), his movie debut, and Steve Martin in Roxanne (1987). He also appeared briefly in brother Keenen&#039;s film spoofs Hollywood Shuffle (1987) and  ....',
+                'created_at' => '2016-01-28 13:59:22',
+                'updated_at' => '2016-01-28 13:59:22',
+            ),
+            285 => 
+            array (
+                'person_id' => 789,
+                'forename' => 'J&uuml;rgen',
+                'surname' => 'Prochnow',
+                'birthday' => '1941-06-10',
+                'deceased' => NULL,
+                'image' => 'J_uuml_rgen_Prochnow_1453989647.jpg',
+            'bio' => 'Born in Berlin, Germany, in 1941, J&uuml;rgen Prochnow is a leading actor of the German stage and screen. He was memorable as the submarine captain in the gritty WW II film Das Boot (1981), which brought him to international prominence. He has since starred in many well-received European and Hollywood productions. ....',
+                'created_at' => '2016-01-28 14:00:47',
+                'updated_at' => '2016-01-28 14:00:47',
+            ),
+            286 => 
+            array (
+                'person_id' => 790,
+                'forename' => 'Brigitte',
+                'surname' => 'Nielsen',
+                'birthday' => '1963-07-15',
+                'deceased' => NULL,
+                'image' => 'Brigitte_Nielsen_1453989655.jpg',
+            'bio' => 'Brigitte Nielsen was born Gitte Nielsen on July 15, 1963 in R&oslash;dovre, Denmark. In 1979, she moved to France, then Italy, where she began her modeling career. In 1984, Italian producer Dino De Laurentiis hired her for the lead in Kalidor - la l&eacute;gende du talisman (1985) with Arnold Schwarzenegger. The following year, she met Sylvester Stallone and, in December 1985, married him. Meanwhile, she shot three other films: Rocky IV (1985), Cobra (1986) and Beverly Hills Cop II (1987), directed by Tony Scott, with Eddie Murphy, Paul Reiser and Chris Rock. In July 1987, Nielsen and Stallone divorced, and she recorded an LP called &quot;Everybody Tells a Story&quot; and sang &quot;Body Next to Body&quot; with Falco. In the 1990s, she made quite a few films, including 976-Evil II (1991), La caverne de la rose d&#039;or 2 (1992) and its sequels, The Double 0 Kid (1992), Chained Heat - Enchain&eacute;es (1993), Galaxis (1995) with Sam Raimi, Compelling Evidence (1995), She&#039;s Too Tall (1999) with Corey Feldman and George Hamilton, and L&#039;apocalypse (2000). In recent years, she has become interested in the music world, doing a duet with drag-queen RuPaul, &quot;You&#039;re No Lady&quot; (2002). She has four children: Julian (b. 1984), Killian (b. 1989), Douglas (b. 1993) and Raoul Jr. (b. 1995). She divides her residences between Milan, Italy and the United States. ....',
+                'created_at' => '2016-01-28 14:00:55',
+                'updated_at' => '2016-01-28 14:00:55',
+            ),
+            287 => 
+            array (
+                'person_id' => 791,
+                'forename' => 'Chris',
+                'surname' => 'Rock',
+                'birthday' => '1965-02-07',
+                'deceased' => NULL,
+                'image' => 'Chris_Rock_1453989672.jpg',
+            'bio' => 'Christopher Julius Rock was born in Andrews, South Carolina and raised in Bedford-Stuyvesant, Brooklyn, New York. He is the son of Rosalie (Tingman), a teacher and social worker for the mentally handicapped, and Julius Rock, a truck driver and newspaper deliveryman, whose own father was a preacher. Rock has been in stand-up comedy for several decades. He made his big screen debut in Beverly Hills Cop II (1987) and spent three years on the cast of Saturday Night Live (1975). He does commercials for 1-800 Collect and Nike and covered the presidential campaign for the show Politically Incorrect (1993). He lives in Alpine, New Jersey. ....',
+                'created_at' => '2016-01-28 14:01:12',
+                'updated_at' => '2016-01-28 14:01:12',
+            ),
+            288 => 
+            array (
+                'person_id' => 792,
+                'forename' => 'Jon',
+                'surname' => 'Tenney',
+                'birthday' => '1961-12-16',
+                'deceased' => NULL,
+                'image' => 'Jon_Tenney_1453989854.jpg',
+            'bio' => 'Jon Tenney was born on December 16, 1961 in Princeton, New Jersey, USA as Jonathan F. W. Tenney. He is an actor and director, known for The Closer (2005), Beverly Hills Cop III (1994) and Tombstone (1993). He has been married to Leslie Urdang since June 16, 2012. He was previously married to Teri Hatcher.',
+                'created_at' => '2016-01-28 14:04:14',
+                'updated_at' => '2016-01-28 14:04:14',
             ),
         ));
         

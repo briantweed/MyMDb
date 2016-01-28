@@ -15,7 +15,7 @@
             <div class="col-xs-3" style="padding-top:18px"><a href="{{$actor->urlProfile}}" target="_blank" >{{$actor->actorName}}</a></div>
             <div class="col-xs-4" style="padding-top:18px">{{$actor->character}}</div>
             <div class="col-xs-2" style="padding-top:18px">
-               <a class="btn btn-block btn-success-outline btn-xs" onclick="showModal('createImdbActor','{{$actor->actorId}}'); setCharacterName('{{$actor->character}}', this)" href="javascript:void(0)"><i class="ft icon-plus"></i> <span class="hidden-xs hidden-sm">add</span></a>
+               <a class="btn btn-block btn-success-outline btn-xs" onclick="showModal('createImdbActor','{{$actor->actorId}}'); setCharacterName('{{$actor->clean_character}}', this)" href="javascript:void(0)"><i class="ft icon-plus"></i> <span class="hidden-xs hidden-sm">add</span></a>
             </div>
             <div class="col-xs-2" style="padding-top:18px">
                <a class="btn btn-block btn-danger-outline btn-xs" onclick="javascript:$(this).parent().parent('div').slideUp()" href="javascript:void(0)"><i class="ft icon-fail"></i> <span class="hidden-xs hidden-sm">discard</span></a>

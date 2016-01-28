@@ -111,11 +111,6 @@
                         <a onclick="getCastFromIMDb(this)" class="btn btn-warning btn-block" href="javascript:void(0)">check IMDb</a>
                      @endif
                   </div>
-                  <div id="copy-cast-div" class="col-xs-6">
-                     @if(!count($movie->cast))
-                        {!! Form::select('copy_from', array('' => 'copy cast from ...') + $options->movies, '', ['class'=>'form-control','id'=>'copy_from', 'onchange'=>'showModal("duplicateCast", this.value)']) !!}
-                     @endif
-                  </div>
                </div>
                <div class="row">
                   @if(count($movie->cast))
@@ -123,7 +118,9 @@
                      <div class="col-xs-4"><b>Character</b></div>
                   @endif
                </div>
-               @include('movies.cast')
+               <div id="cast-list">
+                  @include('movies.cast')
+               </div>
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="crew">
@@ -136,7 +133,9 @@
                   <div class="col-xs-4"><b>Name</b></div>
                   <div class="col-xs-4"><b>Position</b></div>
                </div>
-               @include('movies.crew')
+               <div id="crew-list">
+                  @include('movies.crew')
+               </div>
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="genres">
@@ -146,7 +145,9 @@
                   </div>
                </div>
                <div class="row genres">
-                  @include('movies.genres')
+                  <div id="genre-list">
+                     @include('movies.genres')
+                  </div>
                </div>
             </div>
 
