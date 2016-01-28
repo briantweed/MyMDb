@@ -11073,6 +11073,51 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            228 => 
+            array (
+                'cast_id' => 1242,
+                'movie_id' => 15,
+                'person_id' => 302,
+                'character' => 'Roy Parker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            229 => 
+            array (
+                'cast_id' => 1243,
+                'movie_id' => 15,
+                'person_id' => 686,
+                'character' => 'Verna Jarrett',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            230 => 
+            array (
+                'cast_id' => 1244,
+                'movie_id' => 15,
+                'person_id' => 687,
+                'character' => 'Hank Fallon',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            231 => 
+            array (
+                'cast_id' => 1245,
+                'movie_id' => 15,
+                'person_id' => 688,
+                'character' => 'Big Ed Somers',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            232 => 
+            array (
+                'cast_id' => 1246,
+                'movie_id' => 15,
+                'person_id' => 689,
+                'character' => 'Trader Winston',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

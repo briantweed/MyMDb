@@ -56,16 +56,22 @@ class ApiController extends Controller {
 				$values = $app->make('stdClass');
 				$values->forename = $forename;
 				$values->surname = $surname;
-				$values->bio = $imdb->bio;
+				$values->bio = $str = substr($imdb->bio, 0, 1500)." ....";
 				if(isset($imdb->dateOfBirth))
 				{
 					$born = new DateTime(preg_replace("/[^a-zA-Z0-9]/", ' ', $imdb->dateOfBirth));
 					$values->birthday =  $born->format('d-m-Y');
 				}
+				if(isset($imdb->died))
+				{
+					$app = app();
+					$infos = $app->make('stdClass');
+					$infos->deceased = $imdb->died;
+				}
 				$values->image = $imdb->urlPhoto;
 				$fields = Forms::getFormFields('create_person', false);
 
-				return (String) view('modal.create_person', compact('fields', 'values'));
+				return (String) view('modal.create_person', compact('fields', 'values', 'infos'));
 			}
 		}
 	 }

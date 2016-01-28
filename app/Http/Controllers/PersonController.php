@@ -75,7 +75,21 @@ class PersonController extends Controller {
 		$person_exist = $this->checkExistingPeople($data['forename'], $data['surname']);
 		if(!$person_exist)
 		{
-			if($request->hasFile('image_upload'))
+			if($request->image)
+			{
+				$content = file_get_contents($request->image);
+				$image_name = $this->createImageName(trim($data['sort_name']));
+				$fp = fopen('images/people/'.$image_name, "w");
+				fwrite($fp, $content);
+				fclose($fp);
+
+				$img = Image::make('images/people/'.$image_name);
+				$img->resize(300, 450);
+				$img->save('images/people/'.$image_name);
+				$data['image'] = $image_name;
+
+			}
+			else if($request->hasFile('image_upload'))
 			{
 				if ($request->file('image_upload')->isValid()) {
 					$person_concat = strtolower($data['forename']." ".$data['surname']);
@@ -100,8 +114,8 @@ class PersonController extends Controller {
 	{
 		if(!$this->isAdmin) return view('auth.login');
 		$person = Persons::findorfail($person_id);
-		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
-		$person->cover_count = strlen($person->image);
+		$person->cover = $this->checkImageExists($person->image, $person->forename, 'people');
+		$person->cover_count = strlen($person->cover);
 		$person->birthday =$this->formatDate($person->birthday, 'output');
 		$person->deceased = $this->formatDate($person->deceased, 'output');
 		$fields = Forms::getFormFields('create_person', true);
