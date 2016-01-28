@@ -91,8 +91,6 @@
             <div class="col-xs-12"><p>{!! $person->bio !!}</p></div>
          </div>
 
-         @include('segments.layout.padding')
-
          {{-- acting roles --}}
          @if(count($person->roles)!==0)
             <div class="row">
