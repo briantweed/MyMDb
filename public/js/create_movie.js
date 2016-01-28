@@ -37,4 +37,5 @@ function runFormSetup() {
       todayHighlight: true
    });
 
+   $('[data-placement]').tooltip();
 }
