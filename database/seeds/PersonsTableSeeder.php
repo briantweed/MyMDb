@@ -4469,9 +4469,13 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'birthday' => '1970-02-03',
                 'deceased' => NULL,
                 'image' => 'Warwick_Davis_1453900209.jpg',
-            'bio' => 'English actor Warwick Davis was born in Epsom, Surrey, England, the son of an insurance broker and his wife. Davis was born with the condition spondyloepiphyseal dysplasia congenital (SED), which caused his dwarfism. He was educated at City of London Freemen&#039;s School. When he was 11 years old, his grandmother heard a radio appeal for people under four feet tall to appear in Star Wars: Episode VI - Return of the Jedi (1983). A huge Star Wars fan, Davis auditioned successfully and was cast as an extra, playing an Ewok. Kenny Baker was cast as lead Ewok Wicket, but fell ill so George Lucas chose Davis to replace him. The film was a smash hit, and Davis went on to reprise his role as Wicket in further TV projects - Caravan of Courage: An Ewok Adventure (1984) and Ewoks: The Battle for Endor (1985). Davis next big role came with a part specifically written for him, as the titular hero in Willow (1988). Other successes followed with roles in such projects as Prince Caspian and the Voyage of the Dawn Treader (1989) and two distinctly different film series - the &#039;Harry Potter&#039; and &#039;Leprechaun&#039; film series. In 2006, he appeared in a cameo role in Ricky Gervais and Stephen Merchant&#039;s hit sitcom Extras (2005), which led to the pair writing a series specifically for Davis, the comic mockumentary Life&#039;s Too Short (2011). Davis, along with his father-in-law Peter Burroughs, is also the director of an acting agency for very short and tall actors called Willow Management. He is married to Samantha Davis and they have a son and a daughter.',
+            'bio' => 'English actor Warwick Davis was born in Epsom, Surrey, England, the son of an insurance broker and his wife. Davis was born with the condition spondyloepiphyseal dysplasia congenital (SED), which caused his dwarfism. 
+
+He was educated at City of London Freemen&#039;s School. When he was 11 years old, his grandmother heard a radio appeal for people under four feet tall to appear in {{Star Wars: Return of the Jedi (1983)}}. A huge Star Wars fan, Davis auditioned successfully and was cast as an extra, playing an Ewok. 
+
+Davis next big role came with a part specifically written for him, as the titular hero in Willow (1988). Other successes followed with roles in such projects as Prince Caspian and the Voyage of the Dawn Treader (1989) and two distinctly different film series - the &#039;Harry Potter&#039; and &#039;Leprechaun&#039; film series.',
                 'created_at' => '2016-01-27 13:10:09',
-                'updated_at' => '2016-01-27 13:10:09',
+                'updated_at' => '2016-01-29 13:36:00',
             ),
             366 => 
             array (
@@ -5155,9 +5159,13 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'birthday' => '1968-09-25',
                 'deceased' => NULL,
                 'image' => 'Will_Smith_1453902075.jpg',
-            'bio' => 'Willard Carroll Smith, Jr. was born in West Philadelphia, Pennsylvania, the second of four children of Caroline (Bright), a school board employee, and Willard Carroll Smith, Sr., who owned a refrigeration company. He grew up in a middle class area in West Philadelphia called Wynnefield. Will attended the Overbrook High School located in the Overbrook section of Philadelphia, Pennsylvania. He got the nickname &quot;Prince&quot; because of the way he could charm his way out of trouble. Bright student Will also signed up with the high-status Julia Reynolds Masterman Laboratory and Demonstration School in Philadelphia. Pursuing music, he met Jeffrey A. Townes at a party and they soon began performing together as &quot;D.J. Jazzy Jeff and the Fresh Prince&quot;. When the duo took off in popularity, Smith made and spent a lot of money on a house, cars and jewelry, leading to his near-bankruptcy in his early twenties. Luckily, in 1989, he met Benny Medina, who had an idea for a sitcom based on his life in Beverly Hills. Smith loved the idea as did N.B.C. which put on the The Fresh Prince of Bel-Air (1990). The plot was simple - Will basically played himself; a street-smart West Philly kid transplanted to Beverly Hills. The series lasted six years. During that time, he ventured into movies where the critics took note of him in Six Degrees of Separation (1993). With the success that came with the action picture Bad Boys (1995), Will&#039;s movie career was set. He had a huge Blockbuster hit with Independence Day (1996), where he plays the alien-battling Marine Corps Captain Steven Hiller.',
+            'bio' => 'Willard Carroll Smith, Jr. was born in West Philadelphia, Pennsylvania, the second of four children of Caroline (Bright), a school board employee, and Willard Carroll Smith, Sr., who owned a refrigeration company. He grew up in a middle class area in West Philadelphia called Wynnefield. 
+
+In 1989, he met Benny Medina, who had an idea for a sitcom based on his life in Beverly Hills. Smith loved the idea as did N.B.C. which put on the The Fresh Prince of Bel-Air (1990).
+
+With the success that came with the action picture {{Bad Boys (1995)}}, Will&#039;s movie career was set. He had a huge Blockbuster hit with {{Independence Day (1996)}}.',
                 'created_at' => '2016-01-27 13:41:15',
-                'updated_at' => '2016-01-27 13:41:15',
+                'updated_at' => '2016-01-29 13:41:38',
             ),
             423 => 
             array (
@@ -5179,9 +5187,13 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'birthday' => '1971-03-16',
                 'deceased' => NULL,
                 'image' => 'Alan_Tudyk_1453902092.jpg',
-            'bio' => 'Alan Tudyk was born in El Paso, Texas, and grew up in Plano, where he attended Plano Sr. High. In 1990, he went on to study drama at Lon Morris Jr. College. While there, he was awarded the Academic Excellence Award for Drama. He was also named Most Likely to Succeed and Sophomore Beau. During this time, Alan was also an active member of the Delta Psi Omega fraternity. After leaving LMJC, Alan went on to study at the prestigious Juilliard conservatory but left in 1996 before earning a degree. After a number of smaller stage productions and a small role in the movie Patch Adams (1998), Alan landed his first Broadway role in 1999 with &quot;Epic Proportions.&quot; He quickly became a sought-after comedic actor, with roles in such films as 28 Days (2000) and A Knight&#039;s Tale (2001). In 2002, Alan got the role of Wash, the wise-cracking pilot of Serenity on the short-lived series Firefly (2002). Although it lasted only eleven episodes, this may be Alan&#039;s most well-known and best-loved role. No other networks would buy the failed series, but Universal Pictures began courting creator Joss Whedon to produce a big-screen version of the series. While awaiting the final news of Firefly&#039;s fate, Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog Story (2004) and the voice of the robot Sonny in I, Robot (2004). In 2005, Alan finally reprised the role of Wash in Serenity (2005), the feature-film version of the series Firefly. The same year, he went back to Broadway from June to November, taking over the role of Lancelot for Hank Azaria in the successful musical &quot;Spamalot.&quot; He lives in New York City but also has a place in Los Angeles, California',
+                'bio' => 'Alan Tudyk was born in El Paso, Texas, and grew up in Plano, where he attended Plano Sr. High. In 1990, he went on to study drama at Lon Morris Jr. College.
+
+He quickly became a sought-after comedic actor, with roles in such films as 28 Days (2000) and A Knight&#039;s Tale (2001). In 2002, Alan got the role of Wash, the wise-cracking pilot of Serenity on the short-lived series Firefly (2002). Although it lasted only eleven episodes, this may be Alan&#039;s most well-known and best-loved role.
+
+Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog Story (2004) and the voice of the robot Sonny in {{I, Robot (2004)}}. In 2005, Alan finally reprised the role of Wash in {{Serenity (2005)}}, the feature-film version of the series Firefly.',
                 'created_at' => '2016-01-27 13:41:32',
-                'updated_at' => '2016-01-27 13:41:32',
+                'updated_at' => '2016-01-29 13:38:43',
             ),
             425 => 
             array (
@@ -14760,6 +14772,54 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
             'bio' => 'Bridget Jane Fonda was born in Los Angeles, California, to Susan Brewer and actor Peter Fonda. She is the granddaughter of Henry Fonda and niece of Jane Fonda, both famous actors. Bridget made her film debut at age five as an extra in Easy Rider (1969), but first became interested in acting after appearing in a high school production of &quot;Harvey.&quot; At age 18, she enrolled at New York University and spent four years there and at the Lee Strasberg Theatre Institute. She went on to hone her craft in workshop productions and worked on such stage projects as &quot;Just Horrible,&quot; written by Nicholas Kazan, who later cast Bridget in his directorial debut, &quot;Professional Man,&quot; an episode for The Edge (1989) series on HBO. She also starred in PBS&#039;s Jacob Have I Loved (1989) and in a segment of Aria (1987), a film composed of short works by 10 respected directors. Bridget Fonda&#039;s film credits include The Godfather: Part III (1990), Strapless (1989), Doc Hollywood (1991), Singles (1992), and Single Whit ....',
                 'created_at' => '2016-01-28 23:20:58',
                 'updated_at' => '2016-01-28 23:20:58',
+            ),
+            222 => 
+            array (
+                'person_id' => 1227,
+                'forename' => 'Clint',
+                'surname' => 'Eastwood',
+                'birthday' => '1930-05-31',
+                'deceased' => NULL,
+                'image' => 'Clint_Eastwood_1454073673.jpg',
+            'bio' => 'Perhaps the icon of macho movie stars, Clint Eastwood has become a standard in international cinema. He was born in 1930 in San Francisco, to Margaret Ruth (Runner), a factory worker, and Clinton Eastwood, Sr., a steelworker. Eastwood briefly attended Los Angeles City College but dropped out to pursue acting. He found bit work in such B-films as Revenge of the Creature (1955) and Tarantula (1955) until he got his first breakthrough in the long-running TV series Rawhide (1959). As Rowdy Yates, he made the show his own and became a household name around the country. Eastwood found bigger and better things in Italy with the spaghetti westerns A Fistful of Dollars (1964) and For a Few Dollars More (1965), but it was the third installment in the trilogy where he found one of his signature roles: The Good, the Bad and the Ugly (1966). The movie was a big hit and brought him instant international recognition. He followed it up with his first American-made western, Hang &#039;Em High (1968), before ....',
+                'created_at' => '2016-01-29 13:21:13',
+                'updated_at' => '2016-01-29 13:21:13',
+            ),
+            223 => 
+            array (
+                'person_id' => 1228,
+                'forename' => 'Andrew',
+                'surname' => 'Robinson',
+                'birthday' => '1942-02-14',
+                'deceased' => NULL,
+                'image' => 'Andrew_Robinson_1454073691.jpg',
+            'bio' => 'Andrew Jordt Robinson was born in New York City and attended the University of New Hampshire, later receiving his B.A. in English from the New School for Social Research in NYC. After graduation, he spent a year in England at the London Academy for Music and Dramatic Arts on a Fulbright Scholarship. Throughout the 1960s and 1970s, Mr. Robinson performed a wide variety of theater, movie and television roles. These included the infamous Scorpio killer in Dirty Harry (1971), a stint on Ryan&#039;s Hope (1975), which earned him an Emmy nomination, and the title role in a TV movie about Liberace. He was chosen for the continuing guest role of &quot;Elim Garak&quot;, the Cardassian tailor/spy on Star Trek: Deep Space Nine (1993), after first reading for the part of &quot;Odo&quot;! In the early 90s, Mr. Robinson helped found The Matrix Theatre Company in Los Angeles. In addition to acting in several of the company&#039;s productions, in 1995 and 1996 his direction of &quot;Endgame&quot; and &quot;The Homecoming&quot; at the Matrix earned hi ....',
+                'created_at' => '2016-01-29 13:21:31',
+                'updated_at' => '2016-01-29 13:21:31',
+            ),
+            224 => 
+            array (
+                'person_id' => 1229,
+                'forename' => 'David',
+                'surname' => 'Soul',
+                'birthday' => '1943-08-28',
+                'deceased' => NULL,
+                'image' => 'David_Soul_1454073794.jpg',
+            'bio' => 'David Soul achieved pop icon status as handsome, blond-haired, blue-eyed Detective Kenneth Hutchinson on the cult &quot;buddy cop&quot; TV series Starsky and Hutch (1975), Soul also had a very successful singing career recording several albums, with worldwide number one hit singles including &quot;Silver Lady&quot; &amp; &quot;Don&#039;t Give Up on Us Baby&quot;. Born in Chicago, Illinois, David Soul is the son of a minister who was at one time serving as the religious affairs advisor to the U.S. High Commission in Berlin. At 24 years of age, young Soul joined a North Dakota musical revue, was noticed by a keen-eyed talent scout, and signed to a studio contract. He went on to study acting with the Irene Daly School of The Actors Company, and with the Columbia Workshop in Hollywood. He first appeared on TV in small roles in shows including I Dream of Jeannie (1965), Flipper (1964) and All in the Family (1971). Regular TV work kept coming in for Soul including making masked appearances on The Merv Griffin Show (1962), as the  ....',
+                'created_at' => '2016-01-29 13:23:14',
+                'updated_at' => '2016-01-29 13:23:14',
+            ),
+            225 => 
+            array (
+                'person_id' => 1230,
+                'forename' => 'Marc',
+                'surname' => 'Alaimo',
+                'birthday' => '1942-05-05',
+                'deceased' => NULL,
+                'image' => 'Marc_Alaimo_1454073995.jpg',
+            'bio' => 'Marc Alaimo was born on May 5, 1942 in Milwaukee, Wisconsin, USA as Michael Anthony Alaimo. He is an actor, known for Total Recall (1990), Tango &amp; Cash (1989) and Star Trek: Deep Space Nine (1993).',
+                'created_at' => '2016-01-29 13:26:35',
+                'updated_at' => '2016-01-29 13:26:35',
             ),
         ));
         

@@ -122,31 +122,8 @@
 
                   @include('segments.layout.padding')
 
-                  @foreach( $details->highlight->crew as $director )
-                     <div class="row">
-                        <div class="col-xs-12 col-sm-5 col-lg-4">
-                           <b>Directed by:</b>
-                        </div>
-                        <div class="col-xs-12 col-sm-7 col-lg-8">
-                           {{$director->list}}
-                        </div>
-                     </div>
-                     @include('segments.layout.padding')
-                  @endforeach
-
-                  @foreach( $details->highlight->cast as $actor )
-                     <div class="row">
-                        <div class="col-xs-12 col-sm-5 col-lg-4">
-                           {{$actor->forename}} {{$actor->surname}}
-                        </div>
-                        <div class="col-xs-12 col-sm-7 col-lg-8">
-                           <em>{{$actor->pivot->character}}</em>
-                        </div>
-                     </div>
-                  @endforeach
-                  @include('segments.layout.padding')
                   <div class="row">
-                     <div class="col-xs-12 col-sm-5 col-lg-3">
+                     <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
                         <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}" class="btn btn-block btn-primary"> view </a>
                      </div>
                   </div>
