@@ -31612,6 +31612,69 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            9 => 
+            array (
+                'cast_id' => 3648,
+                'movie_id' => 437,
+                'person_id' => 1437,
+                'character' => 'Moneypenny',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            10 => 
+            array (
+                'cast_id' => 3649,
+                'movie_id' => 437,
+                'person_id' => 1436,
+                'character' => '\'M\'',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            11 => 
+            array (
+                'cast_id' => 3650,
+                'movie_id' => 437,
+                'person_id' => 1439,
+                'character' => '\'Q\'',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            12 => 
+            array (
+                'cast_id' => 3651,
+                'movie_id' => 437,
+                'person_id' => 1476,
+                'character' => 'James Bond',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            13 => 
+            array (
+                'cast_id' => 3652,
+                'movie_id' => 437,
+                'person_id' => 1477,
+                'character' => 'Tracy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            14 => 
+            array (
+                'cast_id' => 3653,
+                'movie_id' => 437,
+                'person_id' => 1478,
+                'character' => 'Blofeld',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            15 => 
+            array (
+                'cast_id' => 3654,
+                'movie_id' => 437,
+                'person_id' => 1479,
+                'character' => 'The English Girl',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

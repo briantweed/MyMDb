@@ -17749,6 +17749,54 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:48:59',
                     'updated_at' => '2016-02-01 16:48:59',
                 ),
+                470 => 
+                array (
+                    'person_id' => 1476,
+                    'forename' => 'George',
+                    'surname' => 'Lazenby',
+                    'birthday' => '1939-09-05',
+                    'deceased' => NULL,
+                    'image' => 'George_Lazenby_1454346637.jpg',
+                'bio' => 'George Robert Lazenby was born September 5, 1939 in Goulburn, New South Wales, Australia, to Sheila Joan (Bodel) and George Edward Lazenby. He moved to London, England in 1964, after serving in the Australian Army. Before becoming an actor, he worked as an auto mechanic, used car salesman, prestige car salesman, and as a male model, in London, England. In 1968, Lazenby was cast as &quot;James Bond&quot;, despite his only previous acting experience being in commercials, and his only film appearance being a bit-part in a 1965 Italian-made Bond spoof. Lazenby won the role based on a screen-test fight scene, the strength of his interviews, fight skills and audition footage. A chance encounter with Bond series producer Albert R. Broccoli in a hair salon in 1966, in London, had given Lazenby his first shot at getting the role. Broccoli had made a mental note to remember Lazenby as a possible candidate at the time when he thought Lazenby looked like a Bond. The lengths Lazenby went to to get the role i ....',
+                    'created_at' => '2016-02-01 17:10:37',
+                    'updated_at' => '2016-02-01 17:10:37',
+                ),
+                471 => 
+                array (
+                    'person_id' => 1477,
+                    'forename' => 'Diana',
+                    'surname' => 'Rigg',
+                    'birthday' => '1938-07-20',
+                    'deceased' => NULL,
+                    'image' => 'Diana_Rigg_1454346647.jpg',
+                'bio' => 'Diana Rigg was born on July 20, 1938 in Doncaster, Yorkshire, England as Enid Diana Elizabeth Rigg. She is an actress, known for On Her Majesty&#039;s Secret Service (1969), The Avengers (1961) and Le voile des illusions (2006). She was previously married to Archibald Hugh (Archie) Stirling and Menachen Gueffen.',
+                    'created_at' => '2016-02-01 17:10:47',
+                    'updated_at' => '2016-02-01 17:10:47',
+                ),
+                472 => 
+                array (
+                    'person_id' => 1478,
+                    'forename' => 'Telly',
+                    'surname' => 'Savalas',
+                    'birthday' => '1922-01-21',
+                    'deceased' => '1994-01-22',
+                    'image' => 'Telly_Savalas_1454346683.jpg',
+                'bio' => 'Son of Greek immigrants. Soldier during World War II. Studied psychology. Worked as journalist for ABC News. The bald-headed actor played character roles, often as sadistic or psychotic types. He became a TV favorite in the 1970s when his role as Det. Theo Kojak in the TV movie Kojak: The Marcus-Nelson Murders (1973) was expanded into the gritty Kojak (1973) TV series, lasting from 1973-78.',
+                    'created_at' => '2016-02-01 17:11:23',
+                    'updated_at' => '2016-02-01 17:11:23',
+                ),
+                473 => 
+                array (
+                    'person_id' => 1479,
+                    'forename' => 'Joanna',
+                    'surname' => 'Lumley',
+                    'birthday' => '1946-05-01',
+                    'deceased' => NULL,
+                    'image' => 'Joanna_Lumley_1454346698.jpg',
+                'bio' => 'Joanna Lumley was born in Kashmir, India, on 1st May 1946. Her father was a major in the Gurkha Rifles, and she spent most of her early childhood in the Far East where her father was posted. An aspiring actress, she first came to fame as a model in London&#039;s swinging 1960s, where she was photographed by the greats, including her friend, the late Patrick Lichfield. She was designer Jean Muir&#039;s muse and house model for several years before carving a career as a freelance model where she became one of the top ten most-booked models of the 1960s. Lumley&#039;s breakthrough role was as Purdey in Chapeau melon et bottes de cuir (1976), a role for which over 800 girls auditioned. Purdey propelled Lumley to instant fame and created one of the &quot;must-have&quot; hairstyles of the 1970s -- the Purdey bob. Lumley became a pin-up figure for a generation of British males who grew up watching her as the high-kicking action girl. Other roles followed, most notably as Sapphire in Sapphire &amp; Steel (1979) opposite D ....',
+                    'created_at' => '2016-02-01 17:11:38',
+                    'updated_at' => '2016-02-01 17:11:38',
+                ),
             ));
         
         
