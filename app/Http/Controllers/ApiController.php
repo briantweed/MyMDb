@@ -100,13 +100,13 @@ class ApiController extends Controller {
 			{
 				$imdb = $imdb_api->data->movies[0];
 
-				$values->name = $imdb->title;
-				$values->imdb_id = $imdb->idIMDB;
-				$values->bio = $imdb->plot;
+				$values->name = trim($imdb->title);
+				$values->imdb_id = trim($imdb->idIMDB);
+				$values->bio = trim($imdb->plot);
 				$values->purchased = "01-01-2015";
 				$values->rating = $rating;
 				$values->format_id = 1;
-				$values->released = $imdb->year;
+				$values->released = trim($imdb->year);
 				$values->image = $imdb->urlPoster;
 
 				$tmdb_response = $client->get('http://api.myapifilms.com/tmdb/movieInfoImdb?idIMDB='.$imdb->idIMDB.'&token='.$my_token.'&format=json&language=en&casts=1&releases=1');

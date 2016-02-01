@@ -80,9 +80,9 @@
                <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-6 col-lr-6">
                   @include('welcome.highest_rated')
                </div>
-               <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-6 col-lr-6">
-                  <h4>Movies By Rating</h4>
-                  <div id="ratingChart" style="height: 350px; width: 100%;"></div>
+               <div class="col-xs-12 col-sm-6">
+                  <h4>Movies By Certificate</h4>
+                  <div id="certificateChart" style="height: 350px; width: 100%;"></div>
                </div>
             </div>
 
@@ -100,12 +100,12 @@
             @include('segments.layout.padding')
 
             <div class="row">
-               <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+               <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2  col-lg-offset-1">
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
                      <img class="img-rounded img-responsive" src="{{asset('images/covers/'.$details->highlight->image)}}"  alt="" />
                   </a>
                </div>
-               <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+               <div class="col-xs-12 col-sm-9 col-md-9 col-lg-8">
                   <h4>{{$details->highlight->name}} ({{$details->highlight->released}}) </h4>
                   <span class="rating-display @if($details->highlight->rating==10) top-rated @endif"
                      data-toggle='tooltip' data-placement='top' title='{{$details->highlight->rating}} / @if($movie->movie_id==176) 11 @else 10 @endif'>
@@ -230,19 +230,6 @@
             <div class="row">
                <div class="col-xs-12">
                   <div id="yearChart" style="height: 300px; width: 100%;"></div>
-               </div>
-            </div>
-
-            @include('segments.layout.padding')
-
-            <div class="row">
-               <div class="col-xs-12 col-sm-6">
-                  <h4>Movies By Format</h4>
-                  <div id="formatChart" style="height: 350px; width: 100%;"></div>
-               </div>
-               <div class="col-xs-12 col-sm-6">
-                  <h4>Movies By Certificate</h4>
-                  <div id="certificateChart" style="height: 350px; width: 100%;"></div>
                </div>
             </div>
 

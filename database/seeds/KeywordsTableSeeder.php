@@ -45,6 +45,13 @@ class KeywordsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            4 => 
+            array (
+                'keyword_id' => 5,
+                'word' => 'Bond',
+                'created_at' => '2016-02-01 16:49:40',
+                'updated_at' => '2016-02-01 16:49:40',
+            ),
         ));
         
         
