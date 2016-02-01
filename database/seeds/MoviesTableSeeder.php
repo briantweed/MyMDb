@@ -6188,7 +6188,7 @@ Yippee Kayaye Maggot Farmer!',
                 'certificate_id' => 5,
                 'format_id' => 1,
                 'studio_id' => 5,
-                'duplicate' => 1,
+                'duplicate' => 0,
                 'bio' => 'Tony Stark. Genius, billionaire, playboy, philanthropist. Son of legendary inventor and weapons contractor Howard Stark. When Tony Stark is assigned to give a weapons presentation to an Iraqi unit led by Lt. Col. James Rhodes, he&#039;s given a ride on enemy lines. That ride ends badly when Stark&#039;s Humvee that he&#039;s riding in is attacked by enemy combatants. He survives - barely - with a chest full of shrapnel and a car battery attached to his heart. In order to survive he comes up with a way to miniaturize the battery and figures out that the battery can power something else. Thus Iron Man is born. He uses the primitive device to escape from the cave in Iraq. Once back home, he then begins work on perfecting the Iron Man suit. But the man who was put in charge of Stark Industries has plans of his own to take over Tony&#039;s technology for other matters.',
                 'purchased' => '2015-01-01 00:00:00',
                 'created_at' => '2016-02-01 10:52:20',
@@ -8970,25 +8970,6 @@ Yippee Kayaye Maggot Farmer!',
             ),
             471 => 
             array (
-                'movie_id' => 476,
-                'name' => 'Speed',
-                'sort_name' => 'Speed',
-                'imdb_id' => 'tt0111257',
-                'released' => 1994,
-                'rating' => 7,
-                'running_time' => 116,
-                'image' => 'Speed___1454356320.jpg',
-                'certificate_id' => 6,
-                'format_id' => 1,
-                'studio_id' => 1,
-                'duplicate' => 1,
-                'bio' => 'Bomber terrorist&#039;s elevator plan backfires, so he rigs a bomb to a LA city bus. The stipulation is: once armed, the bus must stay above 50 mph to keep from exploding. Also if LAPD Officer tries to unload any passengers off, Payne will detonate it. Joe Morton co-stars as Jack&#039;s superior, and Jeff Daniels supports Jack helping him try to defuse the bomb.',
-                'purchased' => '2015-01-01 00:00:00',
-                'created_at' => '2016-02-01 19:52:00',
-                'updated_at' => '2016-02-01 19:52:00',
-            ),
-            472 => 
-            array (
                 'movie_id' => 477,
                 'name' => 'Spider-Man',
                 'sort_name' => 'Spider-Man',
@@ -9006,7 +8987,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 19:53:20',
                 'updated_at' => '2016-02-01 19:53:20',
             ),
-            473 => 
+            472 => 
             array (
                 'movie_id' => 478,
                 'name' => 'Spider-Man 2',
@@ -9025,7 +9006,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 19:56:04',
                 'updated_at' => '2016-02-01 19:56:04',
             ),
-            474 => 
+            473 => 
             array (
                 'movie_id' => 479,
                 'name' => 'Spider-Man 3',
@@ -9044,7 +9025,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 19:57:18',
                 'updated_at' => '2016-02-01 19:57:18',
             ),
-            475 => 
+            474 => 
             array (
                 'movie_id' => 480,
                 'name' => 'Splash',
@@ -9063,7 +9044,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 19:59:25',
                 'updated_at' => '2016-02-01 19:59:25',
             ),
-            476 => 
+            475 => 
             array (
                 'movie_id' => 481,
                 'name' => 'Stardust',
@@ -9082,7 +9063,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:00:46',
                 'updated_at' => '2016-02-01 20:00:46',
             ),
-            477 => 
+            476 => 
             array (
                 'movie_id' => 482,
                 'name' => 'Starship Troopers',
@@ -9101,7 +9082,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:08:09',
                 'updated_at' => '2016-02-01 20:08:09',
             ),
-            478 => 
+            477 => 
             array (
                 'movie_id' => 483,
                 'name' => 'State of Grace&nbsp;',
@@ -9120,7 +9101,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:11:35',
                 'updated_at' => '2016-02-01 20:11:35',
             ),
-            479 => 
+            478 => 
             array (
                 'movie_id' => 484,
                 'name' => 'The Sting',
@@ -9139,7 +9120,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:12:35',
                 'updated_at' => '2016-02-01 20:12:35',
             ),
-            480 => 
+            479 => 
             array (
                 'movie_id' => 485,
                 'name' => 'Superman',
@@ -9158,7 +9139,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:13:14',
                 'updated_at' => '2016-02-01 20:18:35',
             ),
-            481 => 
+            480 => 
             array (
                 'movie_id' => 486,
                 'name' => 'Superman 2',
@@ -9177,7 +9158,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:14:50',
                 'updated_at' => '2016-02-01 20:18:46',
             ),
-            482 => 
+            481 => 
             array (
                 'movie_id' => 487,
                 'name' => 'Superman Returns',
@@ -9196,7 +9177,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:19:43',
                 'updated_at' => '2016-02-01 20:19:43',
             ),
-            483 => 
+            482 => 
             array (
                 'movie_id' => 488,
                 'name' => 'Taxi Driver ',
@@ -9215,7 +9196,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:21:32',
                 'updated_at' => '2016-02-01 20:21:38',
             ),
-            484 => 
+            483 => 
             array (
                 'movie_id' => 489,
                 'name' => 'There\'s Something About Mary',
@@ -9234,7 +9215,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:22:52',
                 'updated_at' => '2016-02-01 20:23:42',
             ),
-            485 => 
+            484 => 
             array (
                 'movie_id' => 490,
                 'name' => 'The Thing&nbsp;',
@@ -9253,7 +9234,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:26:21',
                 'updated_at' => '2016-02-01 20:26:21',
             ),
-            486 => 
+            485 => 
             array (
                 'movie_id' => 491,
                 'name' => 'The Third Man&nbsp;',
@@ -9272,7 +9253,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:27:35',
                 'updated_at' => '2016-02-01 20:27:35',
             ),
-            487 => 
+            486 => 
             array (
                 'movie_id' => 492,
                 'name' => 'The Thomas Crown Affair&nbsp;',
@@ -9291,7 +9272,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:28:49',
                 'updated_at' => '2016-02-01 20:28:49',
             ),
-            488 => 
+            487 => 
             array (
                 'movie_id' => 493,
                 'name' => 'A Time to Kill&nbsp;',
@@ -9310,7 +9291,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:29:52',
                 'updated_at' => '2016-02-01 20:29:52',
             ),
-            489 => 
+            488 => 
             array (
                 'movie_id' => 494,
                 'name' => 'Top Gun&nbsp;',
@@ -9329,7 +9310,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:31:12',
                 'updated_at' => '2016-02-01 20:31:12',
             ),
-            490 => 
+            489 => 
             array (
                 'movie_id' => 495,
                 'name' => 'Torrid Zone&nbsp;',
@@ -9348,7 +9329,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:33:00',
                 'updated_at' => '2016-02-01 20:33:00',
             ),
-            491 => 
+            490 => 
             array (
                 'movie_id' => 496,
                 'name' => 'Trading Places&nbsp;',
@@ -9367,7 +9348,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:34:25',
                 'updated_at' => '2016-02-01 20:34:25',
             ),
-            492 => 
+            491 => 
             array (
                 'movie_id' => 497,
                 'name' => 'Training Day&nbsp;',
@@ -9386,7 +9367,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:46:46',
                 'updated_at' => '2016-02-01 20:46:46',
             ),
-            493 => 
+            492 => 
             array (
                 'movie_id' => 498,
                 'name' => 'True Lies&nbsp;',
@@ -9405,7 +9386,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:49:24',
                 'updated_at' => '2016-02-01 20:49:24',
             ),
-            494 => 
+            493 => 
             array (
                 'movie_id' => 499,
                 'name' => 'True Romance&nbsp;',
@@ -9424,7 +9405,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:51:19',
                 'updated_at' => '2016-02-01 20:51:19',
             ),
-            495 => 
+            494 => 
             array (
                 'movie_id' => 500,
                 'name' => 'The Truman Show&nbsp;',
@@ -9443,7 +9424,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:52:15',
                 'updated_at' => '2016-02-01 20:52:15',
             ),
-            496 => 
+            495 => 
             array (
                 'movie_id' => 501,
                 'name' => 'Twelve Monkeys&nbsp;',
@@ -9462,7 +9443,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:54:14',
                 'updated_at' => '2016-02-01 20:54:14',
             ),
-            497 => 
+            496 => 
             array (
                 'movie_id' => 502,
                 'name' => 'Twister&nbsp;',
@@ -9481,7 +9462,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:56:04',
                 'updated_at' => '2016-02-01 20:56:04',
             ),
-            498 => 
+            497 => 
             array (
                 'movie_id' => 503,
                 'name' => 'Unforgiven&nbsp;',
@@ -9500,7 +9481,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:57:33',
                 'updated_at' => '2016-02-01 20:57:33',
             ),
-            499 => 
+            498 => 
             array (
                 'movie_id' => 504,
                 'name' => 'United 93&nbsp;',
@@ -9519,9 +9500,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:58:43',
                 'updated_at' => '2016-02-01 20:58:43',
             ),
-        ));
-        \DB::table('movies')->insert(array (
-            0 => 
+            499 => 
             array (
                 'movie_id' => 505,
                 'name' => 'The Untouchables&nbsp;',
@@ -9540,7 +9519,9 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 20:59:25',
                 'updated_at' => '2016-02-01 20:59:25',
             ),
-            1 => 
+        ));
+        \DB::table('movies')->insert(array (
+            0 => 
             array (
                 'movie_id' => 506,
                 'name' => 'The Usual Suspects&nbsp;',
@@ -9559,7 +9540,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:00:26',
                 'updated_at' => '2016-02-01 21:00:26',
             ),
-            2 => 
+            1 => 
             array (
                 'movie_id' => 507,
                 'name' => 'Vertigo&nbsp;',
@@ -9578,7 +9559,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:01:39',
                 'updated_at' => '2016-02-01 21:01:39',
             ),
-            3 => 
+            2 => 
             array (
                 'movie_id' => 508,
                 'name' => 'Urotsukidoji: Legend of the Overfiend',
@@ -9597,7 +9578,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:02:52',
                 'updated_at' => '2016-02-01 21:02:52',
             ),
-            4 => 
+            3 => 
             array (
                 'movie_id' => 509,
                 'name' => 'Urotsukidoji: Legend of the Demon Womb ',
@@ -9616,7 +9597,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:03:40',
                 'updated_at' => '2016-02-01 21:05:58',
             ),
-            5 => 
+            4 => 
             array (
                 'movie_id' => 510,
                 'name' => 'Urotsukidoji: Infernal Road',
@@ -9635,7 +9616,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:05:11',
                 'updated_at' => '2016-02-01 21:05:11',
             ),
-            6 => 
+            5 => 
             array (
                 'movie_id' => 511,
                 'name' => 'War of the Worlds&nbsp;',
@@ -9654,7 +9635,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:07:30',
                 'updated_at' => '2016-02-01 21:07:30',
             ),
-            7 => 
+            6 => 
             array (
                 'movie_id' => 512,
                 'name' => 'What Lies Beneath&nbsp;',
@@ -9673,7 +9654,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:08:43',
                 'updated_at' => '2016-02-01 21:08:43',
             ),
-            8 => 
+            7 => 
             array (
                 'movie_id' => 513,
                 'name' => 'When Harry Met Sally...&nbsp;',
@@ -9692,7 +9673,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:11:22',
                 'updated_at' => '2016-02-01 21:11:22',
             ),
-            9 => 
+            8 => 
             array (
                 'movie_id' => 514,
                 'name' => 'When We Were Kings&nbsp;',
@@ -9711,7 +9692,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:12:41',
                 'updated_at' => '2016-02-01 21:12:41',
             ),
-            10 => 
+            9 => 
             array (
                 'movie_id' => 515,
                 'name' => 'Who Framed Roger Rabbit&nbsp;',
@@ -9730,7 +9711,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:13:22',
                 'updated_at' => '2016-02-01 21:13:22',
             ),
-            11 => 
+            10 => 
             array (
                 'movie_id' => 516,
                 'name' => 'The Wizard of Oz',
@@ -9749,7 +9730,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:16:51',
                 'updated_at' => '2016-02-01 21:20:39',
             ),
-            12 => 
+            11 => 
             array (
                 'movie_id' => 517,
                 'name' => 'Return to Oz',
@@ -9768,7 +9749,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:21:35',
                 'updated_at' => '2016-02-01 21:21:35',
             ),
-            13 => 
+            12 => 
             array (
                 'movie_id' => 518,
                 'name' => 'Withnail &amp; I&nbsp;',
@@ -9787,7 +9768,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:22:38',
                 'updated_at' => '2016-02-01 21:22:38',
             ),
-            14 => 
+            13 => 
             array (
                 'movie_id' => 519,
                 'name' => 'It&#039;s a Wonderful Life',
@@ -9806,7 +9787,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:24:03',
                 'updated_at' => '2016-02-01 21:24:03',
             ),
-            15 => 
+            14 => 
             array (
                 'movie_id' => 520,
                 'name' => 'You&#039;ve Got Mail&nbsp;',
@@ -9825,7 +9806,7 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-01 21:24:58',
                 'updated_at' => '2016-02-01 21:24:58',
             ),
-            16 => 
+            15 => 
             array (
                 'movie_id' => 521,
                 'name' => 'Zulu&nbsp;',

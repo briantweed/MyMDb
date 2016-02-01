@@ -32811,78 +32811,6 @@ class CastTableSeeder extends Seeder
             ),
             142 => 
             array (
-                'cast_id' => 3792,
-                'movie_id' => 476,
-                'person_id' => 1,
-                'character' => 'Jack Traven',
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            143 => 
-            array (
-                'cast_id' => 3793,
-                'movie_id' => 476,
-                'person_id' => 920,
-                'character' => 'Howard Payne',
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            144 => 
-            array (
-                'cast_id' => 3794,
-                'movie_id' => 476,
-                'person_id' => 902,
-                'character' => 'Annie',
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            145 => 
-            array (
-                'cast_id' => 3795,
-                'movie_id' => 476,
-                'person_id' => 598,
-                'character' => 'Capt. McMahon',
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            146 => 
-            array (
-                'cast_id' => 3796,
-                'movie_id' => 476,
-                'person_id' => 473,
-                'character' => 'Harry',
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            147 => 
-            array (
-                'cast_id' => 3797,
-                'movie_id' => 476,
-                'person_id' => 1151,
-                'character' => 'Stephens',
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            148 => 
-            array (
-                'cast_id' => 3798,
-                'movie_id' => 476,
-                'person_id' => 104,
-                'character' => 'Train Driver',
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            149 => 
-            array (
-                'cast_id' => 3799,
-                'movie_id' => 476,
-                'person_id' => 25,
-                'character' => 'Bag Lady',
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            150 => 
-            array (
                 'cast_id' => 3800,
                 'movie_id' => 477,
                 'person_id' => 1149,
@@ -32890,7 +32818,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            151 => 
+            143 => 
             array (
                 'cast_id' => 3801,
                 'movie_id' => 477,
@@ -32899,7 +32827,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            152 => 
+            144 => 
             array (
                 'cast_id' => 3802,
                 'movie_id' => 477,
@@ -32908,7 +32836,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            153 => 
+            145 => 
             array (
                 'cast_id' => 3803,
                 'movie_id' => 477,
@@ -32917,7 +32845,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            154 => 
+            146 => 
             array (
                 'cast_id' => 3804,
                 'movie_id' => 477,
@@ -32926,7 +32854,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            155 => 
+            147 => 
             array (
                 'cast_id' => 3805,
                 'movie_id' => 477,
@@ -32935,7 +32863,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            156 => 
+            148 => 
             array (
                 'cast_id' => 3806,
                 'movie_id' => 477,
@@ -32944,7 +32872,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            157 => 
+            149 => 
             array (
                 'cast_id' => 3807,
                 'movie_id' => 477,
@@ -32953,7 +32881,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            158 => 
+            150 => 
             array (
                 'cast_id' => 3808,
                 'movie_id' => 477,
@@ -32962,7 +32890,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            159 => 
+            151 => 
             array (
                 'cast_id' => 3809,
                 'movie_id' => 477,
@@ -32971,7 +32899,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            160 => 
+            152 => 
             array (
                 'cast_id' => 3810,
                 'movie_id' => 477,
@@ -32980,7 +32908,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            161 => 
+            153 => 
             array (
                 'cast_id' => 3811,
                 'movie_id' => 477,
@@ -32989,7 +32917,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            162 => 
+            154 => 
             array (
                 'cast_id' => 3812,
                 'movie_id' => 478,
@@ -32998,7 +32926,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            163 => 
+            155 => 
             array (
                 'cast_id' => 3813,
                 'movie_id' => 478,
@@ -33007,7 +32935,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            164 => 
+            156 => 
             array (
                 'cast_id' => 3814,
                 'movie_id' => 478,
@@ -33016,7 +32944,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            165 => 
+            157 => 
             array (
                 'cast_id' => 3815,
                 'movie_id' => 478,
@@ -33025,7 +32953,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            166 => 
+            158 => 
             array (
                 'cast_id' => 3816,
                 'movie_id' => 478,
@@ -33034,7 +32962,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            167 => 
+            159 => 
             array (
                 'cast_id' => 3817,
                 'movie_id' => 478,
@@ -33043,7 +32971,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            168 => 
+            160 => 
             array (
                 'cast_id' => 3818,
                 'movie_id' => 478,
@@ -33052,7 +32980,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            169 => 
+            161 => 
             array (
                 'cast_id' => 3819,
                 'movie_id' => 478,
@@ -33061,7 +32989,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            170 => 
+            162 => 
             array (
                 'cast_id' => 3820,
                 'movie_id' => 478,
@@ -33070,7 +32998,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            171 => 
+            163 => 
             array (
                 'cast_id' => 3821,
                 'movie_id' => 478,
@@ -33079,7 +33007,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            172 => 
+            164 => 
             array (
                 'cast_id' => 3822,
                 'movie_id' => 478,
@@ -33088,7 +33016,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            173 => 
+            165 => 
             array (
                 'cast_id' => 3823,
                 'movie_id' => 478,
@@ -33097,7 +33025,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            174 => 
+            166 => 
             array (
                 'cast_id' => 3824,
                 'movie_id' => 478,
@@ -33106,7 +33034,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            175 => 
+            167 => 
             array (
                 'cast_id' => 3825,
                 'movie_id' => 479,
@@ -33115,7 +33043,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            176 => 
+            168 => 
             array (
                 'cast_id' => 3826,
                 'movie_id' => 479,
@@ -33124,7 +33052,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            177 => 
+            169 => 
             array (
                 'cast_id' => 3827,
                 'movie_id' => 479,
@@ -33133,7 +33061,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            178 => 
+            170 => 
             array (
                 'cast_id' => 3828,
                 'movie_id' => 479,
@@ -33142,7 +33070,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            179 => 
+            171 => 
             array (
                 'cast_id' => 3829,
                 'movie_id' => 479,
@@ -33151,7 +33079,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            180 => 
+            172 => 
             array (
                 'cast_id' => 3830,
                 'movie_id' => 479,
@@ -33160,7 +33088,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            181 => 
+            173 => 
             array (
                 'cast_id' => 3831,
                 'movie_id' => 479,
@@ -33169,7 +33097,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            182 => 
+            174 => 
             array (
                 'cast_id' => 3832,
                 'movie_id' => 479,
@@ -33178,7 +33106,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            183 => 
+            175 => 
             array (
                 'cast_id' => 3833,
                 'movie_id' => 479,
@@ -33187,7 +33115,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            184 => 
+            176 => 
             array (
                 'cast_id' => 3834,
                 'movie_id' => 479,
@@ -33196,7 +33124,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            185 => 
+            177 => 
             array (
                 'cast_id' => 3835,
                 'movie_id' => 479,
@@ -33205,7 +33133,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            186 => 
+            178 => 
             array (
                 'cast_id' => 3837,
                 'movie_id' => 479,
@@ -33214,7 +33142,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            187 => 
+            179 => 
             array (
                 'cast_id' => 3838,
                 'movie_id' => 479,
@@ -33223,7 +33151,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            188 => 
+            180 => 
             array (
                 'cast_id' => 3839,
                 'movie_id' => 479,
@@ -33232,7 +33160,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            189 => 
+            181 => 
             array (
                 'cast_id' => 3840,
                 'movie_id' => 480,
@@ -33241,7 +33169,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            190 => 
+            182 => 
             array (
                 'cast_id' => 3841,
                 'movie_id' => 480,
@@ -33250,7 +33178,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            191 => 
+            183 => 
             array (
                 'cast_id' => 3842,
                 'movie_id' => 480,
@@ -33259,7 +33187,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            192 => 
+            184 => 
             array (
                 'cast_id' => 3843,
                 'movie_id' => 480,
@@ -33268,7 +33196,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            193 => 
+            185 => 
             array (
                 'cast_id' => 3844,
                 'movie_id' => 480,
@@ -33277,7 +33205,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            194 => 
+            186 => 
             array (
                 'cast_id' => 3845,
                 'movie_id' => 481,
@@ -33286,7 +33214,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            195 => 
+            187 => 
             array (
                 'cast_id' => 3846,
                 'movie_id' => 481,
@@ -33295,7 +33223,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            196 => 
+            188 => 
             array (
                 'cast_id' => 3847,
                 'movie_id' => 481,
@@ -33304,7 +33232,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            197 => 
+            189 => 
             array (
                 'cast_id' => 3848,
                 'movie_id' => 481,
@@ -33313,7 +33241,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            198 => 
+            190 => 
             array (
                 'cast_id' => 3849,
                 'movie_id' => 481,
@@ -33322,7 +33250,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            199 => 
+            191 => 
             array (
                 'cast_id' => 3850,
                 'movie_id' => 481,
@@ -33331,7 +33259,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            200 => 
+            192 => 
             array (
                 'cast_id' => 3851,
                 'movie_id' => 481,
@@ -33340,7 +33268,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            201 => 
+            193 => 
             array (
                 'cast_id' => 3852,
                 'movie_id' => 481,
@@ -33349,7 +33277,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            202 => 
+            194 => 
             array (
                 'cast_id' => 3853,
                 'movie_id' => 481,
@@ -33358,7 +33286,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            203 => 
+            195 => 
             array (
                 'cast_id' => 3854,
                 'movie_id' => 481,
@@ -33367,7 +33295,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            204 => 
+            196 => 
             array (
                 'cast_id' => 3855,
                 'movie_id' => 481,
@@ -33376,7 +33304,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            205 => 
+            197 => 
             array (
                 'cast_id' => 3856,
                 'movie_id' => 481,
@@ -33385,7 +33313,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            206 => 
+            198 => 
             array (
                 'cast_id' => 3857,
                 'movie_id' => 481,
@@ -33394,7 +33322,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            207 => 
+            199 => 
             array (
                 'cast_id' => 3858,
                 'movie_id' => 481,
@@ -33403,7 +33331,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            208 => 
+            200 => 
             array (
                 'cast_id' => 3859,
                 'movie_id' => 481,
@@ -33412,7 +33340,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            209 => 
+            201 => 
             array (
                 'cast_id' => 3860,
                 'movie_id' => 481,
@@ -33421,7 +33349,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            210 => 
+            202 => 
             array (
                 'cast_id' => 3861,
                 'movie_id' => 481,
@@ -33430,7 +33358,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            211 => 
+            203 => 
             array (
                 'cast_id' => 3862,
                 'movie_id' => 481,
@@ -33439,7 +33367,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            212 => 
+            204 => 
             array (
                 'cast_id' => 3863,
                 'movie_id' => 481,
@@ -33448,7 +33376,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            213 => 
+            205 => 
             array (
                 'cast_id' => 3864,
                 'movie_id' => 481,
@@ -33457,7 +33385,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            214 => 
+            206 => 
             array (
                 'cast_id' => 3865,
                 'movie_id' => 481,
@@ -33466,7 +33394,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            215 => 
+            207 => 
             array (
                 'cast_id' => 3866,
                 'movie_id' => 481,
@@ -33475,7 +33403,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            216 => 
+            208 => 
             array (
                 'cast_id' => 3867,
                 'movie_id' => 482,
@@ -33484,7 +33412,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            217 => 
+            209 => 
             array (
                 'cast_id' => 3868,
                 'movie_id' => 482,
@@ -33493,7 +33421,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            218 => 
+            210 => 
             array (
                 'cast_id' => 3869,
                 'movie_id' => 482,
@@ -33502,7 +33430,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            219 => 
+            211 => 
             array (
                 'cast_id' => 3870,
                 'movie_id' => 482,
@@ -33511,7 +33439,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            220 => 
+            212 => 
             array (
                 'cast_id' => 3871,
                 'movie_id' => 482,
@@ -33520,7 +33448,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            221 => 
+            213 => 
             array (
                 'cast_id' => 3872,
                 'movie_id' => 482,
@@ -33529,7 +33457,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            222 => 
+            214 => 
             array (
                 'cast_id' => 3873,
                 'movie_id' => 482,
@@ -33538,7 +33466,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            223 => 
+            215 => 
             array (
                 'cast_id' => 3875,
                 'movie_id' => 482,
@@ -33547,7 +33475,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            224 => 
+            216 => 
             array (
                 'cast_id' => 3876,
                 'movie_id' => 482,
@@ -33556,7 +33484,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            225 => 
+            217 => 
             array (
                 'cast_id' => 3877,
                 'movie_id' => 482,
@@ -33565,7 +33493,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            226 => 
+            218 => 
             array (
                 'cast_id' => 3878,
                 'movie_id' => 483,
@@ -33574,7 +33502,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            227 => 
+            219 => 
             array (
                 'cast_id' => 3879,
                 'movie_id' => 483,
@@ -33583,7 +33511,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            228 => 
+            220 => 
             array (
                 'cast_id' => 3880,
                 'movie_id' => 483,
@@ -33592,7 +33520,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            229 => 
+            221 => 
             array (
                 'cast_id' => 3881,
                 'movie_id' => 483,
@@ -33601,7 +33529,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            230 => 
+            222 => 
             array (
                 'cast_id' => 3882,
                 'movie_id' => 483,
@@ -33610,7 +33538,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            231 => 
+            223 => 
             array (
                 'cast_id' => 3883,
                 'movie_id' => 483,
@@ -33619,7 +33547,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            232 => 
+            224 => 
             array (
                 'cast_id' => 3884,
                 'movie_id' => 483,
@@ -33628,7 +33556,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            233 => 
+            225 => 
             array (
                 'cast_id' => 3885,
                 'movie_id' => 483,
@@ -33637,7 +33565,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            234 => 
+            226 => 
             array (
                 'cast_id' => 3886,
                 'movie_id' => 484,
@@ -33646,7 +33574,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            235 => 
+            227 => 
             array (
                 'cast_id' => 3887,
                 'movie_id' => 484,
@@ -33655,7 +33583,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            236 => 
+            228 => 
             array (
                 'cast_id' => 3888,
                 'movie_id' => 484,
@@ -33664,7 +33592,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            237 => 
+            229 => 
             array (
                 'cast_id' => 3889,
                 'movie_id' => 485,
@@ -33673,7 +33601,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            238 => 
+            230 => 
             array (
                 'cast_id' => 3890,
                 'movie_id' => 485,
@@ -33682,7 +33610,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            239 => 
+            231 => 
             array (
                 'cast_id' => 3891,
                 'movie_id' => 485,
@@ -33691,7 +33619,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            240 => 
+            232 => 
             array (
                 'cast_id' => 3892,
                 'movie_id' => 485,
@@ -33700,7 +33628,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            241 => 
+            233 => 
             array (
                 'cast_id' => 3893,
                 'movie_id' => 485,
@@ -33709,7 +33637,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            242 => 
+            234 => 
             array (
                 'cast_id' => 3894,
                 'movie_id' => 485,
@@ -33718,7 +33646,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            243 => 
+            235 => 
             array (
                 'cast_id' => 3895,
                 'movie_id' => 485,
@@ -33727,7 +33655,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            244 => 
+            236 => 
             array (
                 'cast_id' => 3896,
                 'movie_id' => 486,
@@ -33736,7 +33664,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            245 => 
+            237 => 
             array (
                 'cast_id' => 3897,
                 'movie_id' => 486,
@@ -33745,7 +33673,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            246 => 
+            238 => 
             array (
                 'cast_id' => 3898,
                 'movie_id' => 486,
@@ -33754,7 +33682,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            247 => 
+            239 => 
             array (
                 'cast_id' => 3899,
                 'movie_id' => 486,
@@ -33763,7 +33691,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            248 => 
+            240 => 
             array (
                 'cast_id' => 3900,
                 'movie_id' => 486,
@@ -33772,7 +33700,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            249 => 
+            241 => 
             array (
                 'cast_id' => 3901,
                 'movie_id' => 486,
@@ -33781,7 +33709,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            250 => 
+            242 => 
             array (
                 'cast_id' => 3908,
                 'movie_id' => 487,
@@ -33790,7 +33718,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            251 => 
+            243 => 
             array (
                 'cast_id' => 3909,
                 'movie_id' => 487,
@@ -33799,7 +33727,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            252 => 
+            244 => 
             array (
                 'cast_id' => 3910,
                 'movie_id' => 487,
@@ -33808,7 +33736,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            253 => 
+            245 => 
             array (
                 'cast_id' => 3911,
                 'movie_id' => 487,
@@ -33817,7 +33745,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            254 => 
+            246 => 
             array (
                 'cast_id' => 3912,
                 'movie_id' => 487,
@@ -33826,7 +33754,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            255 => 
+            247 => 
             array (
                 'cast_id' => 3913,
                 'movie_id' => 487,
@@ -33835,7 +33763,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            256 => 
+            248 => 
             array (
                 'cast_id' => 3914,
                 'movie_id' => 487,
@@ -33844,7 +33772,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            257 => 
+            249 => 
             array (
                 'cast_id' => 3915,
                 'movie_id' => 487,
@@ -33853,7 +33781,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            258 => 
+            250 => 
             array (
                 'cast_id' => 3916,
                 'movie_id' => 488,
@@ -33862,7 +33790,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            259 => 
+            251 => 
             array (
                 'cast_id' => 3917,
                 'movie_id' => 488,
@@ -33871,7 +33799,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            260 => 
+            252 => 
             array (
                 'cast_id' => 3918,
                 'movie_id' => 488,
@@ -33880,7 +33808,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            261 => 
+            253 => 
             array (
                 'cast_id' => 3919,
                 'movie_id' => 488,
@@ -33889,7 +33817,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            262 => 
+            254 => 
             array (
                 'cast_id' => 3920,
                 'movie_id' => 488,
@@ -33898,7 +33826,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            263 => 
+            255 => 
             array (
                 'cast_id' => 3921,
                 'movie_id' => 489,
@@ -33907,7 +33835,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            264 => 
+            256 => 
             array (
                 'cast_id' => 3922,
                 'movie_id' => 489,
@@ -33916,7 +33844,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            265 => 
+            257 => 
             array (
                 'cast_id' => 3923,
                 'movie_id' => 489,
@@ -33925,7 +33853,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            266 => 
+            258 => 
             array (
                 'cast_id' => 3924,
                 'movie_id' => 489,
@@ -33934,7 +33862,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            267 => 
+            259 => 
             array (
                 'cast_id' => 3925,
                 'movie_id' => 489,
@@ -33943,7 +33871,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            268 => 
+            260 => 
             array (
                 'cast_id' => 3926,
                 'movie_id' => 489,
@@ -33952,7 +33880,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            269 => 
+            261 => 
             array (
                 'cast_id' => 3927,
                 'movie_id' => 489,
@@ -33961,7 +33889,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            270 => 
+            262 => 
             array (
                 'cast_id' => 3928,
                 'movie_id' => 489,
@@ -33970,7 +33898,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            271 => 
+            263 => 
             array (
                 'cast_id' => 3929,
                 'movie_id' => 489,
@@ -33979,7 +33907,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            272 => 
+            264 => 
             array (
                 'cast_id' => 3930,
                 'movie_id' => 489,
@@ -33988,7 +33916,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            273 => 
+            265 => 
             array (
                 'cast_id' => 3931,
                 'movie_id' => 489,
@@ -33997,7 +33925,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            274 => 
+            266 => 
             array (
                 'cast_id' => 3932,
                 'movie_id' => 490,
@@ -34006,7 +33934,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            275 => 
+            267 => 
             array (
                 'cast_id' => 3933,
                 'movie_id' => 490,
@@ -34015,7 +33943,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            276 => 
+            268 => 
             array (
                 'cast_id' => 3934,
                 'movie_id' => 490,
@@ -34024,7 +33952,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            277 => 
+            269 => 
             array (
                 'cast_id' => 3935,
                 'movie_id' => 491,
@@ -34033,7 +33961,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            278 => 
+            270 => 
             array (
                 'cast_id' => 3937,
                 'movie_id' => 491,
@@ -34042,7 +33970,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            279 => 
+            271 => 
             array (
                 'cast_id' => 3938,
                 'movie_id' => 492,
@@ -34051,7 +33979,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            280 => 
+            272 => 
             array (
                 'cast_id' => 3939,
                 'movie_id' => 492,
@@ -34060,7 +33988,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            281 => 
+            273 => 
             array (
                 'cast_id' => 3940,
                 'movie_id' => 492,
@@ -34069,7 +33997,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            282 => 
+            274 => 
             array (
                 'cast_id' => 3941,
                 'movie_id' => 492,
@@ -34078,7 +34006,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            283 => 
+            275 => 
             array (
                 'cast_id' => 3942,
                 'movie_id' => 493,
@@ -34087,7 +34015,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            284 => 
+            276 => 
             array (
                 'cast_id' => 3943,
                 'movie_id' => 493,
@@ -34096,7 +34024,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            285 => 
+            277 => 
             array (
                 'cast_id' => 3944,
                 'movie_id' => 493,
@@ -34105,7 +34033,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            286 => 
+            278 => 
             array (
                 'cast_id' => 3945,
                 'movie_id' => 493,
@@ -34114,7 +34042,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            287 => 
+            279 => 
             array (
                 'cast_id' => 3946,
                 'movie_id' => 493,
@@ -34123,7 +34051,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            288 => 
+            280 => 
             array (
                 'cast_id' => 3947,
                 'movie_id' => 493,
@@ -34132,7 +34060,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            289 => 
+            281 => 
             array (
                 'cast_id' => 3948,
                 'movie_id' => 493,
@@ -34141,7 +34069,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            290 => 
+            282 => 
             array (
                 'cast_id' => 3949,
                 'movie_id' => 493,
@@ -34150,7 +34078,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            291 => 
+            283 => 
             array (
                 'cast_id' => 3950,
                 'movie_id' => 493,
@@ -34159,7 +34087,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            292 => 
+            284 => 
             array (
                 'cast_id' => 3951,
                 'movie_id' => 493,
@@ -34168,7 +34096,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            293 => 
+            285 => 
             array (
                 'cast_id' => 3952,
                 'movie_id' => 493,
@@ -34177,7 +34105,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            294 => 
+            286 => 
             array (
                 'cast_id' => 3953,
                 'movie_id' => 493,
@@ -34186,7 +34114,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            295 => 
+            287 => 
             array (
                 'cast_id' => 3954,
                 'movie_id' => 493,
@@ -34195,7 +34123,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            296 => 
+            288 => 
             array (
                 'cast_id' => 3955,
                 'movie_id' => 493,
@@ -34204,7 +34132,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            297 => 
+            289 => 
             array (
                 'cast_id' => 3956,
                 'movie_id' => 493,
@@ -34213,7 +34141,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            298 => 
+            290 => 
             array (
                 'cast_id' => 3957,
                 'movie_id' => 494,
@@ -34222,7 +34150,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            299 => 
+            291 => 
             array (
                 'cast_id' => 3958,
                 'movie_id' => 494,
@@ -34231,7 +34159,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            300 => 
+            292 => 
             array (
                 'cast_id' => 3959,
                 'movie_id' => 494,
@@ -34240,7 +34168,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            301 => 
+            293 => 
             array (
                 'cast_id' => 3960,
                 'movie_id' => 494,
@@ -34249,7 +34177,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            302 => 
+            294 => 
             array (
                 'cast_id' => 3961,
                 'movie_id' => 494,
@@ -34258,7 +34186,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            303 => 
+            295 => 
             array (
                 'cast_id' => 3962,
                 'movie_id' => 494,
@@ -34267,7 +34195,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            304 => 
+            296 => 
             array (
                 'cast_id' => 3963,
                 'movie_id' => 494,
@@ -34276,7 +34204,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            305 => 
+            297 => 
             array (
                 'cast_id' => 3964,
                 'movie_id' => 494,
@@ -34285,7 +34213,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            306 => 
+            298 => 
             array (
                 'cast_id' => 3965,
                 'movie_id' => 494,
@@ -34294,7 +34222,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            307 => 
+            299 => 
             array (
                 'cast_id' => 3966,
                 'movie_id' => 494,
@@ -34303,7 +34231,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            308 => 
+            300 => 
             array (
                 'cast_id' => 3967,
                 'movie_id' => 494,
@@ -34312,7 +34240,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            309 => 
+            301 => 
             array (
                 'cast_id' => 3968,
                 'movie_id' => 495,
@@ -34321,7 +34249,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            310 => 
+            302 => 
             array (
                 'cast_id' => 3969,
                 'movie_id' => 495,
@@ -34330,7 +34258,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            311 => 
+            303 => 
             array (
                 'cast_id' => 3970,
                 'movie_id' => 495,
@@ -34339,7 +34267,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            312 => 
+            304 => 
             array (
                 'cast_id' => 3971,
                 'movie_id' => 495,
@@ -34348,7 +34276,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            313 => 
+            305 => 
             array (
                 'cast_id' => 3972,
                 'movie_id' => 496,
@@ -34357,7 +34285,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            314 => 
+            306 => 
             array (
                 'cast_id' => 3973,
                 'movie_id' => 496,
@@ -34366,7 +34294,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            315 => 
+            307 => 
             array (
                 'cast_id' => 3974,
                 'movie_id' => 496,
@@ -34375,7 +34303,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            316 => 
+            308 => 
             array (
                 'cast_id' => 3975,
                 'movie_id' => 496,
@@ -34384,7 +34312,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            317 => 
+            309 => 
             array (
                 'cast_id' => 3976,
                 'movie_id' => 496,
@@ -34393,7 +34321,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            318 => 
+            310 => 
             array (
                 'cast_id' => 3977,
                 'movie_id' => 496,
@@ -34402,7 +34330,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            319 => 
+            311 => 
             array (
                 'cast_id' => 3978,
                 'movie_id' => 496,
@@ -34411,7 +34339,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            320 => 
+            312 => 
             array (
                 'cast_id' => 3979,
                 'movie_id' => 496,
@@ -34420,7 +34348,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            321 => 
+            313 => 
             array (
                 'cast_id' => 3980,
                 'movie_id' => 496,
@@ -34429,7 +34357,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            322 => 
+            314 => 
             array (
                 'cast_id' => 3981,
                 'movie_id' => 496,
@@ -34438,7 +34366,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            323 => 
+            315 => 
             array (
                 'cast_id' => 3982,
                 'movie_id' => 8,
@@ -34447,7 +34375,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            324 => 
+            316 => 
             array (
                 'cast_id' => 3983,
                 'movie_id' => 497,
@@ -34456,7 +34384,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            325 => 
+            317 => 
             array (
                 'cast_id' => 3984,
                 'movie_id' => 497,
@@ -34465,7 +34393,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            326 => 
+            318 => 
             array (
                 'cast_id' => 3985,
                 'movie_id' => 497,
@@ -34474,7 +34402,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            327 => 
+            319 => 
             array (
                 'cast_id' => 3986,
                 'movie_id' => 497,
@@ -34483,7 +34411,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            328 => 
+            320 => 
             array (
                 'cast_id' => 3987,
                 'movie_id' => 497,
@@ -34492,7 +34420,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            329 => 
+            321 => 
             array (
                 'cast_id' => 3988,
                 'movie_id' => 497,
@@ -34501,7 +34429,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            330 => 
+            322 => 
             array (
                 'cast_id' => 3989,
                 'movie_id' => 497,
@@ -34510,7 +34438,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            331 => 
+            323 => 
             array (
                 'cast_id' => 3990,
                 'movie_id' => 497,
@@ -34519,7 +34447,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            332 => 
+            324 => 
             array (
                 'cast_id' => 3991,
                 'movie_id' => 497,
@@ -34528,7 +34456,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            333 => 
+            325 => 
             array (
                 'cast_id' => 3992,
                 'movie_id' => 498,
@@ -34537,7 +34465,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            334 => 
+            326 => 
             array (
                 'cast_id' => 3993,
                 'movie_id' => 498,
@@ -34546,7 +34474,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            335 => 
+            327 => 
             array (
                 'cast_id' => 3994,
                 'movie_id' => 498,
@@ -34555,7 +34483,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            336 => 
+            328 => 
             array (
                 'cast_id' => 3995,
                 'movie_id' => 498,
@@ -34564,7 +34492,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            337 => 
+            329 => 
             array (
                 'cast_id' => 3996,
                 'movie_id' => 498,
@@ -34573,7 +34501,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            338 => 
+            330 => 
             array (
                 'cast_id' => 3997,
                 'movie_id' => 498,
@@ -34582,7 +34510,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            339 => 
+            331 => 
             array (
                 'cast_id' => 3998,
                 'movie_id' => 498,
@@ -34591,7 +34519,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            340 => 
+            332 => 
             array (
                 'cast_id' => 3999,
                 'movie_id' => 498,
@@ -34600,7 +34528,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            341 => 
+            333 => 
             array (
                 'cast_id' => 4000,
                 'movie_id' => 498,
@@ -34609,7 +34537,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            342 => 
+            334 => 
             array (
                 'cast_id' => 4001,
                 'movie_id' => 499,
@@ -34618,7 +34546,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            343 => 
+            335 => 
             array (
                 'cast_id' => 4002,
                 'movie_id' => 499,
@@ -34627,7 +34555,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            344 => 
+            336 => 
             array (
                 'cast_id' => 4003,
                 'movie_id' => 499,
@@ -34636,7 +34564,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            345 => 
+            337 => 
             array (
                 'cast_id' => 4004,
                 'movie_id' => 499,
@@ -34645,7 +34573,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            346 => 
+            338 => 
             array (
                 'cast_id' => 4005,
                 'movie_id' => 499,
@@ -34654,7 +34582,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            347 => 
+            339 => 
             array (
                 'cast_id' => 4006,
                 'movie_id' => 499,
@@ -34663,7 +34591,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            348 => 
+            340 => 
             array (
                 'cast_id' => 4007,
                 'movie_id' => 499,
@@ -34672,7 +34600,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            349 => 
+            341 => 
             array (
                 'cast_id' => 4008,
                 'movie_id' => 499,
@@ -34681,7 +34609,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            350 => 
+            342 => 
             array (
                 'cast_id' => 4009,
                 'movie_id' => 499,
@@ -34690,7 +34618,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            351 => 
+            343 => 
             array (
                 'cast_id' => 4010,
                 'movie_id' => 499,
@@ -34699,7 +34627,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            352 => 
+            344 => 
             array (
                 'cast_id' => 4011,
                 'movie_id' => 499,
@@ -34708,7 +34636,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            353 => 
+            345 => 
             array (
                 'cast_id' => 4012,
                 'movie_id' => 499,
@@ -34717,7 +34645,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            354 => 
+            346 => 
             array (
                 'cast_id' => 4013,
                 'movie_id' => 500,
@@ -34726,7 +34654,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            355 => 
+            347 => 
             array (
                 'cast_id' => 4014,
                 'movie_id' => 500,
@@ -34735,7 +34663,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            356 => 
+            348 => 
             array (
                 'cast_id' => 4015,
                 'movie_id' => 500,
@@ -34744,7 +34672,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            357 => 
+            349 => 
             array (
                 'cast_id' => 4016,
                 'movie_id' => 500,
@@ -34753,7 +34681,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            358 => 
+            350 => 
             array (
                 'cast_id' => 4017,
                 'movie_id' => 500,
@@ -34762,7 +34690,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            359 => 
+            351 => 
             array (
                 'cast_id' => 4018,
                 'movie_id' => 500,
@@ -34771,7 +34699,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            360 => 
+            352 => 
             array (
                 'cast_id' => 4019,
                 'movie_id' => 500,
@@ -34780,7 +34708,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            361 => 
+            353 => 
             array (
                 'cast_id' => 4020,
                 'movie_id' => 500,
@@ -34789,7 +34717,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            362 => 
+            354 => 
             array (
                 'cast_id' => 4021,
                 'movie_id' => 500,
@@ -34798,7 +34726,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            363 => 
+            355 => 
             array (
                 'cast_id' => 4022,
                 'movie_id' => 501,
@@ -34807,7 +34735,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            364 => 
+            356 => 
             array (
                 'cast_id' => 4023,
                 'movie_id' => 501,
@@ -34816,7 +34744,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            365 => 
+            357 => 
             array (
                 'cast_id' => 4024,
                 'movie_id' => 501,
@@ -34825,7 +34753,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            366 => 
+            358 => 
             array (
                 'cast_id' => 4025,
                 'movie_id' => 501,
@@ -34834,7 +34762,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            367 => 
+            359 => 
             array (
                 'cast_id' => 4026,
                 'movie_id' => 501,
@@ -34843,7 +34771,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            368 => 
+            360 => 
             array (
                 'cast_id' => 4027,
                 'movie_id' => 501,
@@ -34852,7 +34780,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            369 => 
+            361 => 
             array (
                 'cast_id' => 4028,
                 'movie_id' => 502,
@@ -34861,7 +34789,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            370 => 
+            362 => 
             array (
                 'cast_id' => 4029,
                 'movie_id' => 502,
@@ -34870,7 +34798,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            371 => 
+            363 => 
             array (
                 'cast_id' => 4030,
                 'movie_id' => 502,
@@ -34879,7 +34807,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            372 => 
+            364 => 
             array (
                 'cast_id' => 4031,
                 'movie_id' => 502,
@@ -34888,7 +34816,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            373 => 
+            365 => 
             array (
                 'cast_id' => 4032,
                 'movie_id' => 502,
@@ -34897,7 +34825,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            374 => 
+            366 => 
             array (
                 'cast_id' => 4033,
                 'movie_id' => 502,
@@ -34906,7 +34834,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            375 => 
+            367 => 
             array (
                 'cast_id' => 4034,
                 'movie_id' => 502,
@@ -34915,7 +34843,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            376 => 
+            368 => 
             array (
                 'cast_id' => 4035,
                 'movie_id' => 502,
@@ -34924,7 +34852,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            377 => 
+            369 => 
             array (
                 'cast_id' => 4036,
                 'movie_id' => 503,
@@ -34933,7 +34861,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            378 => 
+            370 => 
             array (
                 'cast_id' => 4037,
                 'movie_id' => 503,
@@ -34942,7 +34870,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            379 => 
+            371 => 
             array (
                 'cast_id' => 4038,
                 'movie_id' => 503,
@@ -34951,7 +34879,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            380 => 
+            372 => 
             array (
                 'cast_id' => 4039,
                 'movie_id' => 503,
@@ -34960,7 +34888,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            381 => 
+            373 => 
             array (
                 'cast_id' => 4040,
                 'movie_id' => 503,
@@ -34969,7 +34897,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            382 => 
+            374 => 
             array (
                 'cast_id' => 4041,
                 'movie_id' => 504,
@@ -34978,7 +34906,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            383 => 
+            375 => 
             array (
                 'cast_id' => 4042,
                 'movie_id' => 505,
@@ -34987,7 +34915,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            384 => 
+            376 => 
             array (
                 'cast_id' => 4043,
                 'movie_id' => 505,
@@ -34996,7 +34924,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            385 => 
+            377 => 
             array (
                 'cast_id' => 4044,
                 'movie_id' => 505,
@@ -35005,7 +34933,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            386 => 
+            378 => 
             array (
                 'cast_id' => 4045,
                 'movie_id' => 505,
@@ -35014,7 +34942,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            387 => 
+            379 => 
             array (
                 'cast_id' => 4046,
                 'movie_id' => 505,
@@ -35023,7 +34951,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            388 => 
+            380 => 
             array (
                 'cast_id' => 4047,
                 'movie_id' => 506,
@@ -35032,7 +34960,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            389 => 
+            381 => 
             array (
                 'cast_id' => 4048,
                 'movie_id' => 506,
@@ -35041,7 +34969,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            390 => 
+            382 => 
             array (
                 'cast_id' => 4049,
                 'movie_id' => 506,
@@ -35050,7 +34978,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            391 => 
+            383 => 
             array (
                 'cast_id' => 4050,
                 'movie_id' => 506,
@@ -35059,7 +34987,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            392 => 
+            384 => 
             array (
                 'cast_id' => 4051,
                 'movie_id' => 506,
@@ -35068,7 +34996,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            393 => 
+            385 => 
             array (
                 'cast_id' => 4052,
                 'movie_id' => 506,
@@ -35077,7 +35005,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            394 => 
+            386 => 
             array (
                 'cast_id' => 4053,
                 'movie_id' => 506,
@@ -35086,7 +35014,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            395 => 
+            387 => 
             array (
                 'cast_id' => 4054,
                 'movie_id' => 506,
@@ -35095,7 +35023,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            396 => 
+            388 => 
             array (
                 'cast_id' => 4055,
                 'movie_id' => 506,
@@ -35104,7 +35032,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            397 => 
+            389 => 
             array (
                 'cast_id' => 4056,
                 'movie_id' => 506,
@@ -35113,7 +35041,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            398 => 
+            390 => 
             array (
                 'cast_id' => 4057,
                 'movie_id' => 506,
@@ -35122,7 +35050,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            399 => 
+            391 => 
             array (
                 'cast_id' => 4058,
                 'movie_id' => 507,
@@ -35131,7 +35059,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            400 => 
+            392 => 
             array (
                 'cast_id' => 4059,
                 'movie_id' => 507,
@@ -35140,7 +35068,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            401 => 
+            393 => 
             array (
                 'cast_id' => 4060,
                 'movie_id' => 511,
@@ -35149,7 +35077,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            402 => 
+            394 => 
             array (
                 'cast_id' => 4061,
                 'movie_id' => 511,
@@ -35158,7 +35086,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            403 => 
+            395 => 
             array (
                 'cast_id' => 4062,
                 'movie_id' => 511,
@@ -35167,7 +35095,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            404 => 
+            396 => 
             array (
                 'cast_id' => 4063,
                 'movie_id' => 511,
@@ -35176,7 +35104,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            405 => 
+            397 => 
             array (
                 'cast_id' => 4064,
                 'movie_id' => 511,
@@ -35185,7 +35113,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            406 => 
+            398 => 
             array (
                 'cast_id' => 4065,
                 'movie_id' => 511,
@@ -35194,7 +35122,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            407 => 
+            399 => 
             array (
                 'cast_id' => 4067,
                 'movie_id' => 511,
@@ -35203,7 +35131,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            408 => 
+            400 => 
             array (
                 'cast_id' => 4068,
                 'movie_id' => 512,
@@ -35212,7 +35140,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            409 => 
+            401 => 
             array (
                 'cast_id' => 4069,
                 'movie_id' => 512,
@@ -35221,7 +35149,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            410 => 
+            402 => 
             array (
                 'cast_id' => 4070,
                 'movie_id' => 512,
@@ -35230,7 +35158,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            411 => 
+            403 => 
             array (
                 'cast_id' => 4072,
                 'movie_id' => 512,
@@ -35239,7 +35167,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            412 => 
+            404 => 
             array (
                 'cast_id' => 4073,
                 'movie_id' => 512,
@@ -35248,7 +35176,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            413 => 
+            405 => 
             array (
                 'cast_id' => 4074,
                 'movie_id' => 512,
@@ -35257,7 +35185,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            414 => 
+            406 => 
             array (
                 'cast_id' => 4075,
                 'movie_id' => 513,
@@ -35266,7 +35194,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            415 => 
+            407 => 
             array (
                 'cast_id' => 4076,
                 'movie_id' => 513,
@@ -35275,7 +35203,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            416 => 
+            408 => 
             array (
                 'cast_id' => 4077,
                 'movie_id' => 513,
@@ -35284,7 +35212,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            417 => 
+            409 => 
             array (
                 'cast_id' => 4078,
                 'movie_id' => 513,
@@ -35293,7 +35221,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            418 => 
+            410 => 
             array (
                 'cast_id' => 4080,
                 'movie_id' => 514,
@@ -35302,7 +35230,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            419 => 
+            411 => 
             array (
                 'cast_id' => 4081,
                 'movie_id' => 515,
@@ -35311,7 +35239,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            420 => 
+            412 => 
             array (
                 'cast_id' => 4082,
                 'movie_id' => 515,
@@ -35320,7 +35248,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            421 => 
+            413 => 
             array (
                 'cast_id' => 4083,
                 'movie_id' => 515,
@@ -35329,7 +35257,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            422 => 
+            414 => 
             array (
                 'cast_id' => 4084,
                 'movie_id' => 515,
@@ -35338,7 +35266,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            423 => 
+            415 => 
             array (
                 'cast_id' => 4085,
                 'movie_id' => 515,
@@ -35347,7 +35275,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            424 => 
+            416 => 
             array (
                 'cast_id' => 4086,
                 'movie_id' => 515,
@@ -35356,7 +35284,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            425 => 
+            417 => 
             array (
                 'cast_id' => 4087,
                 'movie_id' => 516,
@@ -35365,7 +35293,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            426 => 
+            418 => 
             array (
                 'cast_id' => 4088,
                 'movie_id' => 516,
@@ -35374,7 +35302,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            427 => 
+            419 => 
             array (
                 'cast_id' => 4089,
                 'movie_id' => 516,
@@ -35383,7 +35311,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            428 => 
+            420 => 
             array (
                 'cast_id' => 4090,
                 'movie_id' => 516,
@@ -35392,7 +35320,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            429 => 
+            421 => 
             array (
                 'cast_id' => 4091,
                 'movie_id' => 516,
@@ -35401,7 +35329,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            430 => 
+            422 => 
             array (
                 'cast_id' => 4092,
                 'movie_id' => 516,
@@ -35410,7 +35338,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            431 => 
+            423 => 
             array (
                 'cast_id' => 4093,
                 'movie_id' => 517,
@@ -35419,7 +35347,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            432 => 
+            424 => 
             array (
                 'cast_id' => 4094,
                 'movie_id' => 517,
@@ -35428,7 +35356,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            433 => 
+            425 => 
             array (
                 'cast_id' => 4095,
                 'movie_id' => 517,
@@ -35437,7 +35365,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            434 => 
+            426 => 
             array (
                 'cast_id' => 4096,
                 'movie_id' => 518,
@@ -35446,7 +35374,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            435 => 
+            427 => 
             array (
                 'cast_id' => 4097,
                 'movie_id' => 518,
@@ -35455,7 +35383,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            436 => 
+            428 => 
             array (
                 'cast_id' => 4098,
                 'movie_id' => 518,
@@ -35464,7 +35392,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            437 => 
+            429 => 
             array (
                 'cast_id' => 4099,
                 'movie_id' => 519,
@@ -35473,7 +35401,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            438 => 
+            430 => 
             array (
                 'cast_id' => 4100,
                 'movie_id' => 520,
@@ -35482,7 +35410,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            439 => 
+            431 => 
             array (
                 'cast_id' => 4101,
                 'movie_id' => 520,
@@ -35491,7 +35419,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            440 => 
+            432 => 
             array (
                 'cast_id' => 4102,
                 'movie_id' => 520,
@@ -35500,7 +35428,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            441 => 
+            433 => 
             array (
                 'cast_id' => 4103,
                 'movie_id' => 520,
@@ -35509,7 +35437,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            442 => 
+            434 => 
             array (
                 'cast_id' => 4104,
                 'movie_id' => 520,
@@ -35518,7 +35446,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            443 => 
+            435 => 
             array (
                 'cast_id' => 4105,
                 'movie_id' => 520,
@@ -35527,7 +35455,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            444 => 
+            436 => 
             array (
                 'cast_id' => 4106,
                 'movie_id' => 521,
@@ -35536,7 +35464,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            445 => 
+            437 => 
             array (
                 'cast_id' => 4107,
                 'movie_id' => 521,
