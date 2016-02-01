@@ -118,7 +118,7 @@ class StudiosTableSeeder extends Seeder
             14 => 
             array (
                 'studio_id' => 15,
-                'name' => 'Tri-Star',
+                'name' => 'TriStar',
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),

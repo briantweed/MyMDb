@@ -76,6 +76,12 @@ class ApiController extends Controller {
 		}
 	 }
 
+	 /**
+ 	*
+ 	* Return search result from API call
+ 	* @return Response
+ 	*
+ 	*/
 	public function searchForMovie()
 	{
 		$data = Request::all();
@@ -121,7 +127,6 @@ class ApiController extends Controller {
 					foreach($tmdb->releases as $rel) if($rel->iso_3166_1=="GB") $certification = $rel->certification;
 					switch($certification)
 					{
-						case "UC":  $certificate_id = 1; break;
 						case "U":   $certificate_id = 2; break;
 						case "PG":  $certificate_id = 3; break;
 						case "12":  $certificate_id = 4; break;
@@ -151,9 +156,6 @@ class ApiController extends Controller {
 		}
 		else $message = "Enter a title to search for";
 
-		// foreach($tmdb->genres as $genres) $genre_names[] = $genres->name;
-		// echo implode($genre_names, ", ");
-
 		$app = app();
 		$options = $app->make('stdClass');
 
@@ -168,6 +170,12 @@ class ApiController extends Controller {
 		return view('movies.create_content', compact('fields', 'options', 'values', 'infos', 'user', 'message'));
 	}
 
+	/**
+	*
+	* Get cast list from IMDb ID number
+	* @return Response
+	*
+	*/
 	public function getCastFromIMDb()
 	{
 		if(Request::ajax())
