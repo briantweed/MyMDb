@@ -12,6 +12,7 @@
          <li><a onclick="startFilter('format','')">By Format</a></li>
          <li><a onclick="startFilter('year','')">By Year</a></li>
          <li><a onclick="startFilter('rating','')">By Rating</a></li>
+         <li><a onclick="startFilter('tag','')">By Tag</a></li>
          <li class="divider" role="separator"></li>
          <li><a href="javascript:location.reload()">Clear</a></li>
       </ul>

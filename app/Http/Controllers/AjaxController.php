@@ -83,6 +83,12 @@ class AjaxController extends Controller
                case "rating":
                   $query->where('rating', $search_string);
                break;
+
+               case "tag":
+                  $query->where('keywords.word', 'LIKE', '%'.$search_string.'%')
+                     ->join('tags', 'movies.movie_id', '=', 'tags.movie_id')
+                     ->join('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id');
+            break;
             }
 
             $query->orderBy('sort_name');
