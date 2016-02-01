@@ -29090,6 +29090,186 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            229 => 
+            array (
+                'cast_id' => 3359,
+                'movie_id' => 412,
+                'person_id' => 233,
+                'character' => 'Alice',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            230 => 
+            array (
+                'cast_id' => 3360,
+                'movie_id' => 412,
+                'person_id' => 154,
+                'character' => 'Rain',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            231 => 
+            array (
+                'cast_id' => 3361,
+                'movie_id' => 412,
+                'person_id' => 386,
+                'character' => 'Dr. William Birkin',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            232 => 
+            array (
+                'cast_id' => 3362,
+                'movie_id' => 412,
+                'person_id' => 1402,
+                'character' => 'Ms Black',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            233 => 
+            array (
+                'cast_id' => 3363,
+                'movie_id' => 412,
+                'person_id' => 1403,
+                'character' => 'Spence',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            234 => 
+            array (
+                'cast_id' => 3364,
+                'movie_id' => 412,
+                'person_id' => 1404,
+                'character' => 'Dr. Blue',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            235 => 
+            array (
+                'cast_id' => 3365,
+                'movie_id' => 413,
+                'person_id' => 233,
+                'character' => 'Alice',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            236 => 
+            array (
+                'cast_id' => 3366,
+                'movie_id' => 413,
+                'person_id' => 1322,
+                'character' => 'Carlos Olivera',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            237 => 
+            array (
+                'cast_id' => 3367,
+                'movie_id' => 413,
+                'person_id' => 1010,
+                'character' => 'Dr. Isaacs',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            238 => 
+            array (
+                'cast_id' => 3368,
+                'movie_id' => 413,
+                'person_id' => 1405,
+                'character' => 'Jill Valentine',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            239 => 
+            array (
+                'cast_id' => 3369,
+                'movie_id' => 413,
+                'person_id' => 1406,
+                'character' => 'Dr Ashford',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            240 => 
+            array (
+                'cast_id' => 3370,
+                'movie_id' => 414,
+                'person_id' => 233,
+                'character' => 'Alice',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            241 => 
+            array (
+                'cast_id' => 3371,
+                'movie_id' => 414,
+                'person_id' => 1322,
+                'character' => 'Carlos Olivera',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            242 => 
+            array (
+                'cast_id' => 3372,
+                'movie_id' => 414,
+                'person_id' => 1160,
+                'character' => 'Claire',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            243 => 
+            array (
+                'cast_id' => 3373,
+                'movie_id' => 414,
+                'person_id' => 1010,
+                'character' => 'Dr. Isaacs',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            244 => 
+            array (
+                'cast_id' => 3374,
+                'movie_id' => 415,
+                'person_id' => 233,
+                'character' => 'Alice',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            245 => 
+            array (
+                'cast_id' => 3375,
+                'movie_id' => 415,
+                'person_id' => 1160,
+                'character' => 'Claire Redfield',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            246 => 
+            array (
+                'cast_id' => 3376,
+                'movie_id' => 415,
+                'person_id' => 1405,
+                'character' => 'Jill Valentine',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            247 => 
+            array (
+                'cast_id' => 3377,
+                'movie_id' => 415,
+                'person_id' => 1407,
+                'character' => 'Bennett',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            248 => 
+            array (
+                'cast_id' => 3378,
+                'movie_id' => 415,
+                'person_id' => 1408,
+                'character' => 'Chris Redfield',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
