@@ -14,7 +14,7 @@
             <div class="modal-body"><p>Are you sure you want to delete this movie?</p></div>
             <div class="modal-footer">
                <div class="col-xs-4 col-xs-offset-3">
-                  <button type="button" class="btn btn-xs btn-block btn-default" data-dismiss="modal">cancel</button>
+                  <button type="button" class="btn btn-block btn-default" data-dismiss="modal">cancel</button>
                </div>
                <div class="col-xs-5">
                   <button id="delete_movie" type="button" class="btn btn-block btn-danger">Delete</button>
