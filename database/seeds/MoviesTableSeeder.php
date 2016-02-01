@@ -3955,7 +3955,7 @@ Yippee Kayaye Maggot Farmer!',
             207 => 
             array (
                 'movie_id' => 208,
-                'name' => 'Bird on a Wire&',
+                'name' => 'Bird on a Wire',
                 'sort_name' => 'Bird on a Wire',
                 'imdb_id' => 'tt0099141',
                 'released' => 1990,
@@ -4145,7 +4145,7 @@ Yippee Kayaye Maggot Farmer!',
             217 => 
             array (
                 'movie_id' => 219,
-                'name' => 'Butch Cassidy and the Sundance Kid&',
+                'name' => 'Butch Cassidy and the Sundance Kid',
                 'sort_name' => 'Butch Cassidy and the Sundance Kid',
                 'imdb_id' => 'tt0064115',
                 'released' => 1969,
@@ -4183,7 +4183,7 @@ Yippee Kayaye Maggot Farmer!',
             219 => 
             array (
                 'movie_id' => 221,
-                'name' => 'Casino&',
+                'name' => 'Casino',
                 'sort_name' => 'Casino',
                 'imdb_id' => 'tt0112641',
                 'released' => 1995,
@@ -4202,7 +4202,7 @@ Yippee Kayaye Maggot Farmer!',
             220 => 
             array (
                 'movie_id' => 222,
-                'name' => 'Charade&',
+                'name' => 'Charade',
                 'sort_name' => 'Charade',
                 'imdb_id' => 'tt0056923',
                 'released' => 1963,
@@ -4278,7 +4278,7 @@ Yippee Kayaye Maggot Farmer!',
             224 => 
             array (
                 'movie_id' => 226,
-                'name' => 'Chinatown&',
+                'name' => 'Chinatown',
                 'sort_name' => 'Chinatown',
                 'imdb_id' => 'tt0071315',
                 'released' => 1974,
@@ -4316,7 +4316,7 @@ Yippee Kayaye Maggot Farmer!',
             226 => 
             array (
                 'movie_id' => 228,
-                'name' => 'Cinema Paradiso&',
+                'name' => 'Cinema Paradiso',
                 'sort_name' => 'Cinema Paradiso',
                 'imdb_id' => 'tt0095765',
                 'released' => 1988,
@@ -4330,7 +4330,7 @@ Yippee Kayaye Maggot Farmer!',
                 'bio' => 'A famous film director remembers his childhood at the Cinema Paradiso where Alfredo, the projectionist, first brought about his love of films. He returns home to his Sicilian village for the first time after almost 30 years and is reminded of his first love, Elena, who disappeared from his life before he left for Rome.',
                 'purchased' => '0000-00-00 00:00:00',
                 'created_at' => '2016-01-26 22:15:04',
-                'updated_at' => '2016-01-26 22:15:04',
+                'updated_at' => '2016-02-01 14:35:28',
             ),
             227 => 
             array (
@@ -4411,7 +4411,7 @@ Yippee Kayaye Maggot Farmer!',
             231 => 
             array (
                 'movie_id' => 233,
-                'name' => 'Commando&',
+                'name' => 'Commando',
                 'sort_name' => 'Commando',
                 'imdb_id' => 'tt0088944',
                 'released' => 1985,
@@ -4468,7 +4468,7 @@ Yippee Kayaye Maggot Farmer!',
             234 => 
             array (
                 'movie_id' => 236,
-                'name' => 'Cool Runnings&',
+                'name' => 'Cool Runnings',
                 'sort_name' => 'Cool Runnings',
                 'imdb_id' => 'tt0106611',
                 'released' => 1993,
@@ -4525,7 +4525,7 @@ Yippee Kayaye Maggot Farmer!',
             237 => 
             array (
                 'movie_id' => 239,
-                'name' => 'Crimson Tide&',
+                'name' => 'Crimson Tide',
                 'sort_name' => 'Crimson Tide',
                 'imdb_id' => 'tt0112740',
                 'released' => 1995,
@@ -4620,7 +4620,7 @@ Yippee Kayaye Maggot Farmer!',
             242 => 
             array (
                 'movie_id' => 244,
-                'name' => 'Dark City&',
+                'name' => 'Dark City',
                 'sort_name' => 'Dark City',
                 'imdb_id' => 'tt0118929',
                 'released' => 1998,
@@ -4658,7 +4658,7 @@ Yippee Kayaye Maggot Farmer!',
             244 => 
             array (
                 'movie_id' => 246,
-                'name' => 'Daylight&',
+                'name' => 'Daylight',
                 'sort_name' => 'Daylight',
                 'imdb_id' => 'tt0116040',
                 'released' => 1996,
@@ -4753,7 +4753,7 @@ Yippee Kayaye Maggot Farmer!',
             249 => 
             array (
                 'movie_id' => 251,
-                'name' => 'Dirty Dancing&',
+                'name' => 'Dirty Dancing',
                 'sort_name' => 'Dirty Dancing',
                 'imdb_id' => 'tt0092890',
                 'released' => 1987,
@@ -4829,7 +4829,7 @@ Yippee Kayaye Maggot Farmer!',
             253 => 
             array (
                 'movie_id' => 255,
-                'name' => 'Donnie Brasco&',
+                'name' => 'Donnie Brasco',
                 'sort_name' => 'Donnie Brasco',
                 'imdb_id' => 'tt0119008',
                 'released' => 1997,
@@ -4867,7 +4867,7 @@ Yippee Kayaye Maggot Farmer!',
             255 => 
             array (
                 'movie_id' => 257,
-                'name' => 'Drunken Master&',
+                'name' => 'Drunken Master',
                 'sort_name' => 'Drunken Master',
                 'imdb_id' => 'tt0080179',
                 'released' => 1978,
@@ -4886,7 +4886,7 @@ Yippee Kayaye Maggot Farmer!',
             256 => 
             array (
                 'movie_id' => 258,
-                'name' => 'Ed Wood&',
+                'name' => 'Ed Wood',
                 'sort_name' => 'Ed Wood',
                 'imdb_id' => 'tt0109707',
                 'released' => 1994,
@@ -4905,7 +4905,7 @@ Yippee Kayaye Maggot Farmer!',
             257 => 
             array (
                 'movie_id' => 260,
-                'name' => 'Edward Scissorhands&',
+                'name' => 'Edward Scissorhands',
                 'sort_name' => 'Edward Scissorhands',
                 'imdb_id' => 'tt0099487',
                 'released' => 1990,
@@ -5057,7 +5057,7 @@ Yippee Kayaye Maggot Farmer!',
             265 => 
             array (
                 'movie_id' => 268,
-                'name' => 'Father of the Bride&',
+                'name' => 'Father of the Bride',
                 'sort_name' => 'Father of the Bride',
                 'imdb_id' => 'tt0101862',
                 'released' => 1991,
@@ -5095,7 +5095,7 @@ Yippee Kayaye Maggot Farmer!',
             267 => 
             array (
                 'movie_id' => 271,
-                'name' => 'Ferris Bueller&#039;s Day Off&',
+                'name' => 'Ferris Bueller&#039;s Day Off',
                 'sort_name' => 'Ferris Bueller&#039;s Day Off',
                 'imdb_id' => 'tt0091042',
                 'released' => 1986,
@@ -5190,7 +5190,7 @@ Yippee Kayaye Maggot Farmer!',
             272 => 
             array (
                 'movie_id' => 276,
-                'name' => 'The Fighting 69th&',
+                'name' => 'The Fighting 69th',
                 'sort_name' => 'Fighting 69th',
                 'imdb_id' => 'tt0032467',
                 'released' => 1940,
@@ -5247,7 +5247,7 @@ Yippee Kayaye Maggot Farmer!',
             275 => 
             array (
                 'movie_id' => 279,
-                'name' => 'A Fish Called Wanda&',
+                'name' => 'A Fish Called Wanda',
                 'sort_name' => 'Fish Called Wanda',
                 'imdb_id' => 'tt0095159',
                 'released' => 1988,
@@ -5361,7 +5361,7 @@ Yippee Kayaye Maggot Farmer!',
             281 => 
             array (
                 'movie_id' => 285,
-                'name' => 'Get Shorty&',
+                'name' => 'Get Shorty',
                 'sort_name' => 'Get Shorty',
                 'imdb_id' => 'tt0113161',
                 'released' => 1995,
@@ -5380,7 +5380,7 @@ Yippee Kayaye Maggot Farmer!',
             282 => 
             array (
                 'movie_id' => 286,
-                'name' => 'Ghost&',
+                'name' => 'Ghost',
                 'sort_name' => 'Ghost',
                 'imdb_id' => 'tt0099653',
                 'released' => 1990,
@@ -5399,7 +5399,7 @@ Yippee Kayaye Maggot Farmer!',
             283 => 
             array (
                 'movie_id' => 287,
-                'name' => 'Ghostbusters II&',
+                'name' => 'Ghostbusters II',
                 'sort_name' => 'Ghostbusters 2',
                 'imdb_id' => 'tt0097428',
                 'released' => 1989,
@@ -5456,7 +5456,7 @@ Yippee Kayaye Maggot Farmer!',
             286 => 
             array (
                 'movie_id' => 290,
-                'name' => 'Go&',
+                'name' => 'Go',
                 'sort_name' => 'Go',
                 'imdb_id' => 'tt0139239',
                 'released' => 1999,
@@ -5475,7 +5475,7 @@ Yippee Kayaye Maggot Farmer!',
             287 => 
             array (
                 'movie_id' => 291,
-                'name' => 'The Golden Child&',
+                'name' => 'The Golden Child',
                 'sort_name' => 'Golden Child',
                 'imdb_id' => 'tt0091129',
                 'released' => 1986,
@@ -5532,7 +5532,7 @@ Yippee Kayaye Maggot Farmer!',
             290 => 
             array (
                 'movie_id' => 294,
-                'name' => 'The Goonies&',
+                'name' => 'The Goonies',
                 'sort_name' => 'Goonies',
                 'imdb_id' => 'tt0089218',
                 'released' => 1985,
@@ -5703,7 +5703,7 @@ Yippee Kayaye Maggot Farmer!',
             299 => 
             array (
                 'movie_id' => 303,
-                'name' => 'Dirty Harry&',
+                'name' => 'Dirty Harry',
                 'sort_name' => 'Dirty Harry',
                 'imdb_id' => 'tt0066999',
                 'released' => 1971,
@@ -5741,7 +5741,7 @@ Yippee Kayaye Maggot Farmer!',
             301 => 
             array (
                 'movie_id' => 305,
-                'name' => 'The Enforcer&',
+                'name' => 'The Enforcer',
                 'sort_name' => 'Dirty Harry 3',
                 'imdb_id' => 'tt0074483',
                 'released' => 1976,
@@ -5798,7 +5798,7 @@ Yippee Kayaye Maggot Farmer!',
             304 => 
             array (
                 'movie_id' => 308,
-                'name' => 'Full Metal Jacket&',
+                'name' => 'Full Metal Jacket',
                 'sort_name' => 'Full Metal Jacket',
                 'imdb_id' => 'tt0093058',
                 'released' => 1987,
@@ -5817,7 +5817,7 @@ Yippee Kayaye Maggot Farmer!',
             305 => 
             array (
                 'movie_id' => 309,
-                'name' => 'High School Musical&',
+                'name' => 'High School Musical',
                 'sort_name' => 'High School Musical',
                 'imdb_id' => 'tt0475293',
                 'released' => 2006,
@@ -5836,7 +5836,7 @@ Yippee Kayaye Maggot Farmer!',
             306 => 
             array (
                 'movie_id' => 310,
-                'name' => 'High School Musical 2&',
+                'name' => 'High School Musical 2',
                 'sort_name' => 'High School Musical 2',
                 'imdb_id' => 'tt0810900',
                 'released' => 2007,
@@ -5874,7 +5874,7 @@ Yippee Kayaye Maggot Farmer!',
             308 => 
             array (
                 'movie_id' => 312,
-                'name' => 'Hitch&',
+                'name' => 'Hitch',
                 'sort_name' => 'Hitch',
                 'imdb_id' => 'tt0386588',
                 'released' => 2005,
@@ -5893,7 +5893,7 @@ Yippee Kayaye Maggot Farmer!',
             309 => 
             array (
                 'movie_id' => 313,
-                'name' => 'Home Alone&',
+                'name' => 'Home Alone',
                 'sort_name' => 'Home Alone',
                 'imdb_id' => 'tt0099785',
                 'released' => 1990,
@@ -5912,7 +5912,7 @@ Yippee Kayaye Maggot Farmer!',
             310 => 
             array (
                 'movie_id' => 314,
-                'name' => 'Highlander&',
+                'name' => 'Highlander',
                 'sort_name' => 'Highlander',
                 'imdb_id' => 'tt0091203',
                 'released' => 1986,
@@ -5931,7 +5931,7 @@ Yippee Kayaye Maggot Farmer!',
             311 => 
             array (
                 'movie_id' => 315,
-                'name' => 'Hot Fuzz&',
+                'name' => 'Hot Fuzz',
                 'sort_name' => 'Hot Fuzz',
                 'imdb_id' => 'tt0425112',
                 'released' => 2007,
@@ -5950,7 +5950,7 @@ Yippee Kayaye Maggot Farmer!',
             312 => 
             array (
                 'movie_id' => 316,
-                'name' => 'How to Lose Friends &amp; Alienate People&',
+                'name' => 'How to Lose Friends &amp; Alienate People',
                 'sort_name' => 'How to Lose Friends &amp; Alienate People',
                 'imdb_id' => 'tt0455538',
                 'released' => 2008,
@@ -5969,7 +5969,7 @@ Yippee Kayaye Maggot Farmer!',
             313 => 
             array (
                 'movie_id' => 317,
-                'name' => 'Human Traffic&',
+                'name' => 'Human Traffic',
                 'sort_name' => 'Human Traffic',
                 'imdb_id' => 'tt0188674',
                 'released' => 1999,
@@ -5988,7 +5988,7 @@ Yippee Kayaye Maggot Farmer!',
             314 => 
             array (
                 'movie_id' => 318,
-                'name' => 'I Love You, Man&',
+                'name' => 'I Love You, Man',
                 'sort_name' => 'I Love You, Man',
                 'imdb_id' => 'tt1155056',
                 'released' => 2009,
@@ -6007,7 +6007,7 @@ Yippee Kayaye Maggot Farmer!',
             315 => 
             array (
                 'movie_id' => 319,
-                'name' => 'I Am Legend&',
+                'name' => 'I Am Legend',
                 'sort_name' => 'I Am Legend',
                 'imdb_id' => 'tt0480249',
                 'released' => 2007,
@@ -6102,7 +6102,7 @@ Yippee Kayaye Maggot Farmer!',
             320 => 
             array (
                 'movie_id' => 324,
-                'name' => 'Innerspace&',
+                'name' => 'Innerspace',
                 'sort_name' => 'Innerspace',
                 'imdb_id' => 'tt0093260',
                 'released' => 1987,
@@ -6140,7 +6140,7 @@ Yippee Kayaye Maggot Farmer!',
             322 => 
             array (
                 'movie_id' => 326,
-                'name' => 'It Could Happen to You&',
+                'name' => 'It Could Happen to You',
                 'sort_name' => 'It Could Happen to You',
                 'imdb_id' => 'tt0110167',
                 'released' => 1994,
@@ -6197,7 +6197,7 @@ Yippee Kayaye Maggot Farmer!',
             325 => 
             array (
                 'movie_id' => 329,
-                'name' => 'Iron Man&',
+                'name' => 'Iron Man',
                 'sort_name' => 'Iron Man',
                 'imdb_id' => 'tt0371746',
                 'released' => 2008,
@@ -6216,7 +6216,7 @@ Yippee Kayaye Maggot Farmer!',
             326 => 
             array (
                 'movie_id' => 330,
-                'name' => 'Jaws&',
+                'name' => 'Jaws',
                 'sort_name' => 'Jaws',
                 'imdb_id' => 'tt0073195',
                 'released' => 1975,
@@ -6311,7 +6311,7 @@ Yippee Kayaye Maggot Farmer!',
             331 => 
             array (
                 'movie_id' => 335,
-                'name' => 'L.A. Confidential&',
+                'name' => 'L.A. Confidential',
                 'sort_name' => 'L.A. Confidential',
                 'imdb_id' => 'tt0119488',
                 'released' => 1997,
@@ -6330,7 +6330,7 @@ Yippee Kayaye Maggot Farmer!',
             332 => 
             array (
                 'movie_id' => 336,
-                'name' => 'La Haine&',
+                'name' => 'La Haine',
                 'sort_name' => 'La Haine',
                 'imdb_id' => 'tt0113247',
                 'released' => 1995,
@@ -6349,7 +6349,7 @@ Yippee Kayaye Maggot Farmer!',
             333 => 
             array (
                 'movie_id' => 337,
-                'name' => 'Labyrinth&',
+                'name' => 'Labyrinth',
                 'sort_name' => 'Labyrinth',
                 'imdb_id' => 'tt0091369',
                 'released' => 1986,
@@ -6368,7 +6368,7 @@ Yippee Kayaye Maggot Farmer!',
             334 => 
             array (
                 'movie_id' => 338,
-                'name' => 'Leon&',
+                'name' => 'Leon',
                 'sort_name' => 'Leon',
                 'imdb_id' => 'tt0110413',
                 'released' => 1994,
@@ -6387,7 +6387,7 @@ Yippee Kayaye Maggot Farmer!',
             335 => 
             array (
                 'movie_id' => 339,
-                'name' => 'Lethal Weapon&',
+                'name' => 'Lethal Weapon',
                 'sort_name' => 'Lethal Weapon',
                 'imdb_id' => 'tt0093409',
                 'released' => 1987,
@@ -6406,7 +6406,7 @@ Yippee Kayaye Maggot Farmer!',
             336 => 
             array (
                 'movie_id' => 340,
-                'name' => 'Lethal Weapon 2&',
+                'name' => 'Lethal Weapon 2',
                 'sort_name' => 'Lethal Weapon 2',
                 'imdb_id' => 'tt0097733',
                 'released' => 1989,
@@ -6425,7 +6425,7 @@ Yippee Kayaye Maggot Farmer!',
             337 => 
             array (
                 'movie_id' => 341,
-                'name' => 'Lethal Weapon 3&',
+                'name' => 'Lethal Weapon 3',
                 'sort_name' => 'Lethal Weapon 3',
                 'imdb_id' => 'tt0104714',
                 'released' => 1992,
@@ -6444,7 +6444,7 @@ Yippee Kayaye Maggot Farmer!',
             338 => 
             array (
                 'movie_id' => 342,
-                'name' => 'Lethal Weapon 4&',
+                'name' => 'Lethal Weapon 4',
                 'sort_name' => 'Lethal Weapon 4',
                 'imdb_id' => 'tt0122151',
                 'released' => 1998,
@@ -6463,7 +6463,7 @@ Yippee Kayaye Maggot Farmer!',
             339 => 
             array (
                 'movie_id' => 343,
-                'name' => 'Life of Brian&',
+                'name' => 'Life of Brian',
                 'sort_name' => 'Life of Brian',
                 'imdb_id' => 'tt0079470',
                 'released' => 1979,
@@ -6482,7 +6482,7 @@ Yippee Kayaye Maggot Farmer!',
             340 => 
             array (
                 'movie_id' => 344,
-                'name' => 'Lock, Stock and Two Smoking Barrels&',
+                'name' => 'Lock, Stock and Two Smoking Barrels',
                 'sort_name' => 'Lock, Stock and Two Smoking Barrels',
                 'imdb_id' => 'tt0120735',
                 'released' => 1998,
@@ -6520,7 +6520,7 @@ Yippee Kayaye Maggot Farmer!',
             342 => 
             array (
                 'movie_id' => 346,
-                'name' => 'Maleficent&',
+                'name' => 'Maleficent',
                 'sort_name' => 'Maleficent',
                 'imdb_id' => 'tt1587310',
                 'released' => 2014,
@@ -6558,7 +6558,7 @@ Yippee Kayaye Maggot Farmer!',
             344 => 
             array (
                 'movie_id' => 348,
-                'name' => 'Mary Poppins&',
+                'name' => 'Mary Poppins',
                 'sort_name' => 'Mary Poppins',
                 'imdb_id' => 'tt0058331',
                 'released' => 1964,
@@ -6615,7 +6615,7 @@ Yippee Kayaye Maggot Farmer!',
             347 => 
             array (
                 'movie_id' => 351,
-                'name' => 'Mars Attacks!&',
+                'name' => 'Mars Attacks!',
                 'sort_name' => 'Mars Attacks',
                 'imdb_id' => 'tt0116996',
                 'released' => 1996,
@@ -6634,7 +6634,7 @@ Yippee Kayaye Maggot Farmer!',
             348 => 
             array (
                 'movie_id' => 352,
-                'name' => 'Maverick&',
+                'name' => 'Maverick',
                 'sort_name' => 'Maverick',
                 'imdb_id' => 'tt0110478',
                 'released' => 1994,
@@ -6653,7 +6653,7 @@ Yippee Kayaye Maggot Farmer!',
             349 => 
             array (
                 'movie_id' => 353,
-                'name' => 'Meet the Parents&',
+                'name' => 'Meet the Parents',
                 'sort_name' => 'Meet the Parents',
                 'imdb_id' => 'tt0212338',
                 'released' => 2000,
@@ -6672,7 +6672,7 @@ Yippee Kayaye Maggot Farmer!',
             350 => 
             array (
                 'movie_id' => 354,
-                'name' => 'Meet the Fockers&',
+                'name' => 'Meet the Fockers',
                 'sort_name' => 'Meet the Fockers',
                 'imdb_id' => 'tt0290002',
                 'released' => 2004,
@@ -6748,7 +6748,7 @@ Yippee Kayaye Maggot Farmer!',
             354 => 
             array (
                 'movie_id' => 358,
-                'name' => 'Memento&',
+                'name' => 'Memento',
                 'sort_name' => 'Memento',
                 'imdb_id' => 'tt0209144',
                 'released' => 2000,
@@ -6767,7 +6767,7 @@ Yippee Kayaye Maggot Farmer!',
             355 => 
             array (
                 'movie_id' => 359,
-                'name' => 'Midnight Cowboy&',
+                'name' => 'Midnight Cowboy',
                 'sort_name' => 'Midnight Cowboy',
                 'imdb_id' => 'tt0064665',
                 'released' => 1969,
@@ -6786,7 +6786,7 @@ Yippee Kayaye Maggot Farmer!',
             356 => 
             array (
                 'movie_id' => 360,
-                'name' => 'Miller&#039;s Crossing&',
+                'name' => 'Miller&#039;s Crossing',
                 'sort_name' => 'Miller&#039;s Crossing',
                 'imdb_id' => 'tt0100150',
                 'released' => 1990,
@@ -6805,7 +6805,7 @@ Yippee Kayaye Maggot Farmer!',
             357 => 
             array (
                 'movie_id' => 361,
-                'name' => 'Million Dollar Baby&',
+                'name' => 'Million Dollar Baby',
                 'sort_name' => 'Million Dollar Baby',
                 'imdb_id' => 'tt0405159',
                 'released' => 2004,
@@ -6938,7 +6938,7 @@ Yippee Kayaye Maggot Farmer!',
             364 => 
             array (
                 'movie_id' => 368,
-                'name' => 'Father of the Bride Part II&',
+                'name' => 'Father of the Bride Part II',
                 'sort_name' => 'Father of the Bride Part II',
                 'imdb_id' => 'tt0113041',
                 'released' => 1995,
@@ -6976,7 +6976,7 @@ Yippee Kayaye Maggot Farmer!',
             366 => 
             array (
                 'movie_id' => 370,
-                'name' => 'Night at the Museum&',
+                'name' => 'Night at the Museum',
                 'sort_name' => 'Night at the Museum',
                 'imdb_id' => 'tt0477347',
                 'released' => 2006,
@@ -6995,7 +6995,7 @@ Yippee Kayaye Maggot Farmer!',
             367 => 
             array (
                 'movie_id' => 371,
-                'name' => 'New Jack City&',
+                'name' => 'New Jack City',
                 'sort_name' => 'New Jack City',
                 'imdb_id' => 'tt0102526',
                 'released' => 1991,
@@ -7109,7 +7109,7 @@ Yippee Kayaye Maggot Farmer!',
             373 => 
             array (
                 'movie_id' => 377,
-                'name' => 'Freddy&#039;s Dead: The Final Nightmare&',
+                'name' => 'Freddy&#039;s Dead: The Final Nightmare',
                 'sort_name' => 'Nightmare on Elm Street 6',
                 'imdb_id' => 'tt0101917',
                 'released' => 1991,
@@ -7128,7 +7128,7 @@ Yippee Kayaye Maggot Farmer!',
             374 => 
             array (
                 'movie_id' => 378,
-                'name' => 'New Nightmare&',
+                'name' => 'New Nightmare',
                 'sort_name' => 'Nightmare on Elm Street 7',
                 'imdb_id' => 'tt0111686',
                 'released' => 1994,
@@ -7147,7 +7147,7 @@ Yippee Kayaye Maggot Farmer!',
             375 => 
             array (
                 'movie_id' => 379,
-                'name' => 'The Omen&',
+                'name' => 'The Omen',
                 'sort_name' => 'Omen',
                 'imdb_id' => 'tt0075005',
                 'released' => 1976,
@@ -7204,7 +7204,7 @@ Yippee Kayaye Maggot Farmer!',
             378 => 
             array (
                 'movie_id' => 382,
-                'name' => 'O Brother, Where Art Thou?&',
+                'name' => 'O Brother, Where Art Thou?',
                 'sort_name' => 'O Brother, Where Art Thou?',
                 'imdb_id' => 'tt0190590',
                 'released' => 2000,
@@ -7223,7 +7223,7 @@ Yippee Kayaye Maggot Farmer!',
             379 => 
             array (
                 'movie_id' => 383,
-                'name' => 'Ocean&#039;s Eleven&',
+                'name' => 'Ocean&#039;s Eleven',
                 'sort_name' => 'Ocean&#039;s Eleven',
                 'imdb_id' => 'tt0240772',
                 'released' => 2001,
@@ -7261,7 +7261,7 @@ Yippee Kayaye Maggot Farmer!',
             381 => 
             array (
                 'movie_id' => 385,
-                'name' => 'Once Upon a Time in Mexico&',
+                'name' => 'Once Upon a Time in Mexico',
                 'sort_name' => 'Once Upon a Time in Mexico',
                 'imdb_id' => 'tt0285823',
                 'released' => 2003,
@@ -7280,7 +7280,7 @@ Yippee Kayaye Maggot Farmer!',
             382 => 
             array (
                 'movie_id' => 386,
-                'name' => 'Out of Sight&',
+                'name' => 'Out of Sight',
                 'sort_name' => 'Out of Sight',
                 'imdb_id' => 'tt0120780',
                 'released' => 1998,
@@ -7299,7 +7299,7 @@ Yippee Kayaye Maggot Farmer!',
             383 => 
             array (
                 'movie_id' => 387,
-                'name' => 'Outlander&',
+                'name' => 'Outlander',
                 'sort_name' => 'Outlander',
                 'imdb_id' => 'tt0462465',
                 'released' => 2008,
@@ -7318,7 +7318,7 @@ Yippee Kayaye Maggot Farmer!',
             384 => 
             array (
                 'movie_id' => 388,
-                'name' => 'One Flew Over the Cuckoo&#039;s Nest&',
+                'name' => 'One Flew Over the Cuckoo&#039;s Nest',
                 'sort_name' => 'One Flew Over the Cuckoo&#039;s Nest',
                 'imdb_id' => 'tt0073486',
                 'released' => 1975,
@@ -7337,7 +7337,7 @@ Yippee Kayaye Maggot Farmer!',
             385 => 
             array (
                 'movie_id' => 389,
-                'name' => 'Philadelphia&',
+                'name' => 'Philadelphia',
                 'sort_name' => 'Philadelphia',
                 'imdb_id' => 'tt0107818',
                 'released' => 1993,
@@ -7356,7 +7356,7 @@ Yippee Kayaye Maggot Farmer!',
             386 => 
             array (
                 'movie_id' => 390,
-                'name' => 'Panic Room&',
+                'name' => 'Panic Room',
                 'sort_name' => 'Panic Room',
                 'imdb_id' => 'tt0258000',
                 'released' => 2002,
@@ -7375,7 +7375,7 @@ Yippee Kayaye Maggot Farmer!',
             387 => 
             array (
                 'movie_id' => 391,
-                'name' => 'Percy Jackson: Sea of Monsters&',
+                'name' => 'Percy Jackson: Sea of Monsters',
                 'sort_name' => 'Percy Jackson 2',
                 'imdb_id' => 'tt1854564',
                 'released' => 2013,
@@ -7432,7 +7432,7 @@ Yippee Kayaye Maggot Farmer!',
             390 => 
             array (
                 'movie_id' => 394,
-                'name' => 'Pirates of the Caribbean: Dead Man&#039;s Chest&',
+                'name' => 'Pirates of the Caribbean: Dead Man&#039;s Chest',
                 'sort_name' => 'Pirates of the Caribbean 2',
                 'imdb_id' => 'tt0383574',
                 'released' => 2006,
@@ -7451,7 +7451,7 @@ Yippee Kayaye Maggot Farmer!',
             391 => 
             array (
                 'movie_id' => 395,
-                'name' => 'Pirates of the Caribbean: At World&#039;s End&',
+                'name' => 'Pirates of the Caribbean: At World&#039;s End',
                 'sort_name' => 'Pirates of the Caribbean 3',
                 'imdb_id' => 'tt0449088',
                 'released' => 2007,
@@ -7470,7 +7470,7 @@ Yippee Kayaye Maggot Farmer!',
             392 => 
             array (
                 'movie_id' => 396,
-                'name' => 'Pirates of the Caribbean: On Stranger Tides&',
+                'name' => 'Pirates of the Caribbean: On Stranger Tides',
                 'sort_name' => 'Pirates of the Caribbean 4',
                 'imdb_id' => 'tt1298650',
                 'released' => 2011,
@@ -7489,7 +7489,7 @@ Yippee Kayaye Maggot Farmer!',
             393 => 
             array (
                 'movie_id' => 397,
-                'name' => 'Pitch Black&',
+                'name' => 'Pitch Black',
                 'sort_name' => 'Pitch Black',
                 'imdb_id' => 'tt0134847',
                 'released' => 2000,
@@ -7508,7 +7508,7 @@ Yippee Kayaye Maggot Farmer!',
             394 => 
             array (
                 'movie_id' => 398,
-                'name' => 'Platoon&',
+                'name' => 'Platoon',
                 'sort_name' => 'Platoon',
                 'imdb_id' => 'tt0091763',
                 'released' => 1986,
@@ -7527,7 +7527,7 @@ Yippee Kayaye Maggot Farmer!',
             395 => 
             array (
                 'movie_id' => 399,
-                'name' => 'Pleasantville&',
+                'name' => 'Pleasantville',
                 'sort_name' => 'Pleasantville',
                 'imdb_id' => 'tt0120789',
                 'released' => 1998,
@@ -7546,7 +7546,7 @@ Yippee Kayaye Maggot Farmer!',
             396 => 
             array (
                 'movie_id' => 400,
-                'name' => 'Point Break&',
+                'name' => 'Point Break',
                 'sort_name' => 'Point Break',
                 'imdb_id' => 'tt0102685',
                 'released' => 1991,
@@ -7565,7 +7565,7 @@ Yippee Kayaye Maggot Farmer!',
             397 => 
             array (
                 'movie_id' => 401,
-                'name' => 'Poltergeist&',
+                'name' => 'Poltergeist',
                 'sort_name' => 'Poltergeist',
                 'imdb_id' => 'tt0084516',
                 'released' => 1982,
@@ -7603,7 +7603,7 @@ Yippee Kayaye Maggot Farmer!',
             399 => 
             array (
                 'movie_id' => 403,
-                'name' => 'Pretty Woman&',
+                'name' => 'Pretty Woman',
                 'sort_name' => 'Pretty Woman',
                 'imdb_id' => 'tt0100405',
                 'released' => 1990,
@@ -7622,7 +7622,7 @@ Yippee Kayaye Maggot Farmer!',
             400 => 
             array (
                 'movie_id' => 404,
-                'name' => 'Primal Fear&',
+                'name' => 'Primal Fear',
                 'sort_name' => 'Primal Fear',
                 'imdb_id' => 'tt0117381',
                 'released' => 1996,
@@ -7660,7 +7660,7 @@ Yippee Kayaye Maggot Farmer!',
             402 => 
             array (
                 'movie_id' => 406,
-                'name' => 'Psycho&',
+                'name' => 'Psycho',
                 'sort_name' => 'Psycho',
                 'imdb_id' => 'tt0054215',
                 'released' => 1960,
@@ -7679,7 +7679,7 @@ Yippee Kayaye Maggot Farmer!',
             403 => 
             array (
                 'movie_id' => 407,
-                'name' => 'The Public Enemy&',
+                'name' => 'The Public Enemy',
                 'sort_name' => 'Public Enemy',
                 'imdb_id' => 'tt0022286',
                 'released' => 1931,
@@ -7698,7 +7698,7 @@ Yippee Kayaye Maggot Farmer!',
             404 => 
             array (
                 'movie_id' => 408,
-                'name' => 'Pulp Fiction&',
+                'name' => 'Pulp Fiction',
                 'sort_name' => 'Pulp Fiction',
                 'imdb_id' => 'tt0110912',
                 'released' => 1994,
@@ -7736,7 +7736,7 @@ Yippee Kayaye Maggot Farmer!',
             406 => 
             array (
                 'movie_id' => 410,
-                'name' => 'Rear Window&',
+                'name' => 'Rear Window',
                 'sort_name' => 'Rear Window',
                 'imdb_id' => 'tt0047396',
                 'released' => 1954,
@@ -7755,7 +7755,7 @@ Yippee Kayaye Maggot Farmer!',
             407 => 
             array (
                 'movie_id' => 411,
-                'name' => 'Reservoir Dogs&',
+                'name' => 'Reservoir Dogs',
                 'sort_name' => 'Reservoir Dogs',
                 'imdb_id' => 'tt0105236',
                 'released' => 1992,
@@ -7774,7 +7774,7 @@ Yippee Kayaye Maggot Farmer!',
             408 => 
             array (
                 'movie_id' => 412,
-                'name' => 'Resident Evil&',
+                'name' => 'Resident Evil',
                 'sort_name' => 'Resident Evil',
                 'imdb_id' => 'tt0120804',
                 'released' => 2002,
