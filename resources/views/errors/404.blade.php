@@ -31,7 +31,7 @@
 
          <div class="main-content">
             <div class="row">
-               <div class="col-xs-8 col-xs-offset-2">
+               <div class="col-xs-10 col-xs-offset-1">
                   <p class="error-quote">"This is not the page you're looking for."</p>
                   <p class="error-link"><a href="{{ action('MovieController@show', 10) }}">Star Wars (1977)</a></p>
                </div>

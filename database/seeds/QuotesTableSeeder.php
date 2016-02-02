@@ -12,12 +12,12 @@ class QuotesTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('quotes')->delete();
-        
+
         \DB::table('quotes')->insert(array (
-            0 => 
+            0 =>
             array (
                 'quote_id' => 1,
                 'movie_id' => 8,
@@ -25,7 +25,7 @@ class QuotesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            1 => 
+            1 =>
             array (
                 'quote_id' => 2,
                 'movie_id' => 9,
@@ -33,7 +33,7 @@ class QuotesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            2 => 
+            2 =>
             array (
                 'quote_id' => 3,
                 'movie_id' => 10,
@@ -41,7 +41,7 @@ class QuotesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            3 => 
+            3 =>
             array (
                 'quote_id' => 4,
                 'movie_id' => 22,
@@ -49,7 +49,7 @@ class QuotesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            4 => 
+            4 =>
             array (
                 'quote_id' => 5,
                 'movie_id' => 25,
@@ -57,7 +57,7 @@ class QuotesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            5 => 
+            5 =>
             array (
                 'quote_id' => 6,
                 'movie_id' => 33,
@@ -65,7 +65,7 @@ class QuotesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            6 => 
+            6 =>
             array (
                 'quote_id' => 7,
                 'movie_id' => 37,
@@ -73,7 +73,7 @@ class QuotesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            7 => 
+            7 =>
             array (
                 'quote_id' => 8,
                 'movie_id' => 55,
@@ -81,7 +81,7 @@ class QuotesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            8 => 
+            8 =>
             array (
                 'quote_id' => 9,
                 'movie_id' => 96,
@@ -89,16 +89,16 @@ class QuotesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            9 => 
+            9 =>
             array (
                 'quote_id' => 10,
-                'movie_id' => 170,
+                'movie_id' => 171,
                 'text' => 'What we got here is ... failure to communicate.',
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
         ));
-        
-        
+
+
     }
 }
