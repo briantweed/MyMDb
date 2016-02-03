@@ -21711,6 +21711,42 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-03 09:41:15',
                 'updated_at' => '2016-02-03 09:41:15',
             ),
+            300 => 
+            array (
+                'person_id' => 1809,
+                'forename' => 'Jack',
+                'surname' => 'Hawkins',
+                'birthday' => '1910-09-14',
+                'deceased' => '1973-07-18',
+                'image' => 'Jack_Hawkins_1454506013.jpg',
+            'bio' => 'In Britain, special Christmas plays called pantomimes are produced for children. Jack Hawkins made his London theatrical debut at age 12, playing the elf king in &quot;Where The Rainbow Ends&quot;. At 17, he got the lead role of St. George in the same play. At 18, he made his debut on Broadway in &quot;Journey&#039;s End&quot;. At 21, he was back in London playing a young lover in &quot;Autumn Crocus&quot;. He married his leading lady, Jessica Tandy. That year he also played his first real film role in the 1931 sound version of Alfred Hitchcock&#039;s The Phantom Fiend (1932). During the 30s, he took his roles in plays more seriously than the films he made. In 1940, Jessica accepted a role in America and Jack volunteered to serve in the Royal Welsh Fusiliers. He spent most of his military career arranging entertainment for the British forces in India. One of the actresses who came out to India was Doreen Lawrence who became his second wife after the war. Alexander Korda advised Jack to go into films and offered him a three-y ....',
+                'created_at' => '2016-02-03 13:26:53',
+                'updated_at' => '2016-02-03 13:26:53',
+            ),
+            301 => 
+            array (
+                'person_id' => 1810,
+                'forename' => 'Anthony',
+                'surname' => 'Quinn',
+                'birthday' => '1915-04-21',
+                'deceased' => '2001-06-03',
+                'image' => 'Anthony_Quinn_1454506086.jpg',
+            'bio' => 'Anthony Quinn was born Antonio Rudolfo Oaxaca Quinn on April 21, 1915, in Chihuahua, Mexico, to Manuela (Oaxaca) and Francisco Quinn, who became an assistant cameraman at an LA film studio. His paternal grandfather was Irish, and the rest of his family was Mexican. After starting life in extremely modest circumstances in Mexico, his family moved to Los Angeles, California, where he grew up in the Boyle Heights and the Echo Park neighborhoods. In Los Angeles he attended Polytechnic High School and later Belmont High, but he eventually dropped out. The young Quinn boxed (which stood him in good stead as a stage actor, when he played Stanley Kowalski to rave reviews in Chicago), then later studied architecture under Frank Lloyd Wright at the great architect&#039;s studio, Taliesin, in Arizona. Quinn was close to Wright, who encouraged him when Quinn decided to give acting a try. After a brief apprenticeship in theatre, Quinn hit Hollywood in 1936 and picked up a variety of small roles in sever ....',
+                'created_at' => '2016-02-03 13:28:06',
+                'updated_at' => '2016-02-03 13:28:06',
+            ),
+            302 => 
+            array (
+                'person_id' => 1811,
+                'forename' => 'Patrick',
+                'surname' => 'Breen',
+                'birthday' => '1960-10-26',
+                'deceased' => NULL,
+                'image' => 'Patrick_Breen_1454506306.jpg',
+            'bio' => 'Patrick Breen was born on October 26, 1960 in Brooklyn, New York, USA as Joseph Patrick Breen. He is an actor and writer, known for Men in Black (1997), One Life to Live (1968) and Magic Adventures of Mumfie (1995). He has been married to Nadine Van der Velde since 1992. They have two children.',
+                'created_at' => '2016-02-03 13:31:46',
+                'updated_at' => '2016-02-03 13:31:46',
+            ),
         ));
         
         

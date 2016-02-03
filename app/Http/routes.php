@@ -15,6 +15,7 @@ Route::post('getCastFromIMDb', 'ApiController@getCastFromIMDb');
 Route::post('createImdbActor', 'ApiController@createImdbActor');
 Route::post('searchForMovie', 'ApiController@searchForMovie');
 Route::get('getDirectors', 'ApiController@getDirectors');
+Route::get('getGenres', 'ApiController@getGenres');
 
 // AJAX QUERIES
 Route::post('aviary', 'AviaryController@replaceImage');
@@ -23,6 +24,7 @@ Route::post('getCastDetails', 'AjaxController@getCastDetails');
 Route::post('movieFormatCount', 'AjaxController@movieFormatCount');
 Route::post('movieRatingCount', 'AjaxController@movieRatingCount');
 Route::post('movieCertificateCount', 'AjaxController@movieCertificateCount');
+Route::post('movieGenreCount', 'AjaxController@movieGenreCount');
 Route::post('movieYearCount', 'AjaxController@movieYearCount');
 Route::post('movieDecadeCount', 'AjaxController@movieDecadeCount');
 

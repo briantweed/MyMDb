@@ -229,93 +229,139 @@ class ApiController extends Controller {
 		flush();
 		ob_flush();
 
-		for($x=450;$x<600;$x+=10)
+		$movies = Movies::all();
+		foreach($movies as $movie)
+		{
+			if($movie->imdb_id)
+			{
+				$hasDirector = false;
+				foreach($movie->crew as $person)
+				{
+					if($person->pivot->position=="Director") $hasDirector = true;
+				}
+				if(!$hasDirector)
+				{
+					$client = new \GuzzleHttp\Client();
+					$my_token = env('IMDB_KEY');
+
+					$url = 'http://api.myapifilms.com/imdb/idIMDB?idIMDB='.$movie->imdb_id.'&token='.$my_token.'&format=json&language=en-us';
+					$imdb_response = $client->get($url);
+					$imdb_body = $imdb_response->getBody();
+					$imdb_api = json_decode($imdb_body);
+					if(count($imdb_api->data->movies))
+					{
+						$imdb = $imdb_api->data->movies[0];
+						if($imdb->directors)
+						{
+							$director_name = $imdb->directors[0]->name;
+							$imdb_id = $imdb->directors[0]->nameId;
+							$person = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), htmlentities($director_name, ENT_QUOTES))->first();
+							if(!$person)
+							{
+								$client = new \GuzzleHttp\Client();
+								$url = 'http://api.myapifilms.com/imdb/idIMDB?idName='.$imdb_id.'&token='.$my_token.'&format=json&language=en-us&bornDied=1';
+								$imdb_response = $client->get($url);
+								$imdb_body = $imdb_response->getBody();
+								$imdb_api = json_decode($imdb_body);
+								if(count($imdb_api->data->names))
+								{
+									$data = [];
+									$imdb = $imdb_api->data->names[0];
+									$names = array_values(array_filter(explode(' ', $imdb->name)));
+									$data['surname'] = count($names) ? $this->formatName(array_pop($names)) : "";
+									$data['forename'] = count($names) ? $this->formatName(implode(" ", $names)) : "";
+
+									$deceased = isset($imdb->died) ? $imdb->died."<br/><br/>" : "";
+									$data['bio'] = isset($imdb->bio) ? (strlen($imdb->bio) > 1000 ? $deceased . substr($imdb->bio, 0, 1000)." ...." : $deceased . $imdb->bio) : "";
+									$content = file_get_contents($imdb->urlPhoto);
+									$image_name = $this->createImageName($data['forename']." ".$data['surname']);
+									$fp = fopen('images/people/'.$image_name, "w");
+									fwrite($fp, $content);
+									fclose($fp);
+
+									$img = Image::make('images/people/'.$image_name);
+									$img->resize(300, 450);
+									$img->save('images/people/'.$image_name);
+									$data['image'] = $image_name;
+
+									if(isset($imdb->dateOfBirth))
+									{
+										$born = new DateTime(preg_replace("/[^a-zA-Z0-9]/", ' ', $imdb->dateOfBirth));
+										$data['birthday'] =  $born->format('Y-m-d');
+									}
+
+									$update = Persons::create($data);
+									$inserted_id = $update->person_id;
+									$movie->crew()->attach($inserted_id, array('position' => 'Director'));
+									echo "NEW (".$movie->movie_id.") ".$movie->name." : ".$director_name." added<br/>";
+								}
+							}
+							else
+							{
+								$movie->crew()->attach($person->person_id, array('position' => 'Director'));
+								echo "ADD (".$movie->movie_id.") ".$movie->name." : ".$director_name." added to movie<br/>";
+							}
+						}
+						else echo "N/A (".$movie->movie_id.") ".$movie->name." : no directors found<br/>";
+					}
+					else echo "N/A (".$movie->movie_id.") ".$movie->name." : no data found<br/>";
+				}
+				else echo "EXT (".$movie->movie_id.") ".$movie->name." : director exists<br/>";
+			}
+			else echo "nID (".$movie->movie_id.") ".$movie->name." : no imdb id<br/>";
+			flush();
+    		ob_flush();
+		}
+		echo "<br/><br/>Finished ".date("H:i:s");
+	}
+
+	public function getGenres()
+	{
+		echo "Started ".date("H:i:s")."...... <br/><br/>";
+		$movie_count = Movies::all()->count();
+		echo $movie_count." movies<br/>";
+		flush();
+		ob_flush();
+
+		for($x=500;$x<7000;$x+=10)
 		{
 			$movies = Movies::take(10)->offset($x)->get();
 			foreach($movies as $movie)
 			{
 				if($movie->imdb_id)
 				{
-					$hasDirector = false;
-					foreach($movie->crew as $person)
-					{
-						if($person->pivot->position=="Director") $hasDirector = true;
-					}
-					if(!$hasDirector)
-					{
-						$client = new \GuzzleHttp\Client();
-						$my_token = env('IMDB_KEY');
+					$client = new \GuzzleHttp\Client();
+					$my_token = env('IMDB_KEY');
 
-						$url = 'http://api.myapifilms.com/imdb/idIMDB?idIMDB='.$movie->imdb_id.'&token='.$my_token.'&format=json&language=en-us';
-						$imdb_response = $client->get($url);
-						$imdb_body = $imdb_response->getBody();
-						$imdb_api = json_decode($imdb_body);
-						if(count($imdb_api->data->movies))
+					$url = 'http://api.myapifilms.com/imdb/idIMDB?idIMDB='.$movie->imdb_id.'&token='.$my_token.'&format=json&language=en-us';
+					$imdb_response = $client->get($url);
+					$imdb_body = $imdb_response->getBody();
+					$imdb_api = json_decode($imdb_body);
+					if(count($imdb_api->data->movies))
+					{
+						$imdb = $imdb_api->data->movies[0];
+						echo $movie->name." : ";
+						if($imdb->genres)
 						{
-							$imdb = $imdb_api->data->movies[0];
-							if($imdb->directors)
+							$data = [];
+							foreach($imdb->genres as $genre)
 							{
-								$director_name = $imdb->directors[0]->name;
-								$imdb_id = $imdb->directors[0]->nameId;
-								$person = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), htmlentities($director_name, ENT_QUOTES))->first();
-								if(!$person)
-								{
-									$client = new \GuzzleHttp\Client();
-									$url = 'http://api.myapifilms.com/imdb/idIMDB?idName='.$imdb_id.'&token='.$my_token.'&format=json&language=en-us&bornDied=1';
-									$imdb_response = $client->get($url);
-									$imdb_body = $imdb_response->getBody();
-									$imdb_api = json_decode($imdb_body);
-									if(count($imdb_api->data->names))
-									{
-										$data = [];
-										$imdb = $imdb_api->data->names[0];
-										$names = array_values(array_filter(explode(' ', $imdb->name)));
-										$data['surname'] = count($names) ? $this->formatName(array_pop($names)) : "";
-										$data['forename'] = count($names) ? $this->formatName(implode(" ", $names)) : "";
-
-										$deceased = isset($imdb->died) ? $imdb->died."<br/><br/>" : "";
-										$data['bio'] = isset($imdb->bio) ? (strlen($imdb->bio) > 1000 ? $deceased . substr($imdb->bio, 0, 1000)." ...." : $deceased . $imdb->bio) : "";
-										$content = file_get_contents($imdb->urlPhoto);
-										$image_name = $this->createImageName($data['forename']." ".$data['surname']);
-										$fp = fopen('images/people/'.$image_name, "w");
-										fwrite($fp, $content);
-										fclose($fp);
-
-										$img = Image::make('images/people/'.$image_name);
-										$img->resize(300, 450);
-										$img->save('images/people/'.$image_name);
-										$data['image'] = $image_name;
-
-										if(isset($imdb->dateOfBirth))
-										{
-											$born = new DateTime(preg_replace("/[^a-zA-Z0-9]/", ' ', $imdb->dateOfBirth));
-											$data['birthday'] =  $born->format('Y-m-d');
-										}
-
-										$update = Persons::create($data);
-										$inserted_id = $update->person_id;
-										$movie->crew()->attach($inserted_id, array('position' => 'Director'));
-										echo "(".$movie->movie_id.") ".$movie->name." : ".$director_name." added<br/>";
-									}
-								}
-								else
-								{
-									$movie->crew()->attach($person->person_id, array('position' => 'Director'));
-									echo "(".$movie->movie_id.") ".$movie->name." : ".$director_name." added to movie<br/>";
-								}
+								$genre_id = Genres::where('type', $genre)->value('genre_id');
+								if($genre_id) $data[] = $genre_id;
 							}
-							else echo "(".$movie->movie_id.") ".$movie->name." : no directors found<br/>";
+							$movie->genres()->sync($data);
+							echo " genres added<br/>";
 						}
-						else echo "(".$movie->movie_id.") ".$movie->name." : no data found<br/>";
+						else echo "no genres<br/>";
+						flush();
+						ob_flush();
 					}
-					else echo "(".$movie->movie_id.") ".$movie->name." : director exists<br/>";
 				}
-				else echo "(".$movie->movie_id.") ".$movie->name." : no imdb id<br/>";
-				flush();
-	    		ob_flush();
 			}
 		}
 		echo "<br/><br/>Finished ".date("H:i:s");
 	}
+
+
 
 } // end of class

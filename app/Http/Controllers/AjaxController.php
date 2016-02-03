@@ -4,6 +4,7 @@ use DB;
 use Request;
 use App\Cast;
 use App\Movies;
+use App\Genres;
 use App\Persons;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -193,6 +194,20 @@ class AjaxController extends Controller
 		$movies = Movies::select('certificates.title as label', DB::raw('count(*) as y'), 'movies.certificate_id as id')
 			->join('certificates', 'movies.certificate_id', '=', 'certificates.certificate_id')
 			->groupBy('movies.certificate_id')
+			->get();
+      foreach($movies as $movie)
+      {
+         $movie['exploded'] = true;
+      }
+      return $movies;
+	}
+
+	public function movieGenreCount()
+	{
+		$movies = Genres::select('genres.type as label', DB::raw('count(*) as y'))
+			->join('categories', 'categories.genre_id', '=', 'genres.genre_id')
+			->groupBy('genres.type')
+         ->orderBy('genres.type','DESC')
 			->get();
       foreach($movies as $movie)
       {

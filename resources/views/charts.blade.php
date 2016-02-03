@@ -94,6 +94,22 @@
 
             @include('segments.layout.padding')
 
+            <div class="row">
+               <div class="col-xs-12">
+                  <h4 id="movies-by-label">Movies By Genre</h4>
+               </div>
+            </div>
+
+            @include('segments.layout.padding')
+
+            <div class="row">
+               <div class="col-xs-12">
+                  <div id="genreChart" style="height: 600px; width: 100%;"></div>
+               </div>
+            </div>
+
+            @include('segments.layout.padding')
+            
          </div>
 
       </div>

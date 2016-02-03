@@ -2,7 +2,7 @@
 
 {{-- Page Title --}}
 @section('title')
-   All Genres
+   Admin
 @stop
 
 {{-- Subnav --}}

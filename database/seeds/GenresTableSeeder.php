@@ -111,14 +111,14 @@ class GenresTableSeeder extends Seeder
             13 => 
             array (
                 'genre_id' => 14,
-                'type' => 'Film Noir',
+                'type' => 'Film-Noir',
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
             14 => 
             array (
                 'genre_id' => 15,
-                'type' => 'Historical',
+                'type' => 'History',
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
@@ -167,7 +167,7 @@ class GenresTableSeeder extends Seeder
             21 => 
             array (
                 'genre_id' => 22,
-                'type' => 'Science Fiction',
+                'type' => 'Sci-Fi',
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
@@ -217,6 +217,13 @@ class GenresTableSeeder extends Seeder
             array (
                 'genre_id' => 29,
                 'type' => 'World',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            29 => 
+            array (
+                'genre_id' => 30,
+                'type' => 'Music',
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),

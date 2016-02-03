@@ -10,6 +10,7 @@ CanvasJS.addColorSet('cert', ['#6bc954', '#158b1a', '#e6dd19', '#d9a125', '#c127
 var runRating = true,
     runDecade = true,
     runCertif = true,
+    runGenre = true,
     runFormat = true;
 
 $(document).resize(function(event) {
@@ -100,6 +101,7 @@ function displayCharts() {
    if( $('#yearChart').onScreen() )   displayMoviesByDecade();
    if( $('#formatChart').onScreen() ) displayMoviesByFormat();
    if( $('#certificateChart').onScreen() ) displayMoviesByCertificate();
+   if( $('#genreChart').onScreen() ) displayMoviesByGenre();
 }
 
 function displayMoviesByDecade() {
@@ -271,6 +273,53 @@ function displayMoviesByCertificate() {
    }
 }
 
+function displayMoviesByGenre() {
+   if(runGenre === true) {
+      $.ajax({
+         beforeSend: function() {
+            runGenre = false
+         },
+         type: 'POST',
+         url: '/MyMDb/public/movieGenreCount',
+         data: {
+            _token: $('meta[name="_token"]').attr('content')
+         }
+      }).done(function(json) {
+         var chart = new CanvasJS.Chart('genreChart', {
+            animationEnabled: true,
+            axisX: {
+               interval: 1,
+               labelFontSize: 12
+			   },
+            axisY: {
+               interval: 10,
+               maximum: 230,
+               labelFontSize: 12,
+               gridColor: '#ddd',
+               gridThickness: 1,
+			   },
+            toolTip: {
+               contentFormatter: function(event) {
+                  var str = '';
+                  for (var i = 0; i < event.entries.length; i++){
+                     str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
+                     return (str);
+                  }
+               }
+            },
+            data: [{
+               type: 'bar',
+               dataPoints: json,
+               click: function(event){
+                  // startFilter('certificate', event.dataPoint.id);
+               },
+            }]
+         });
+         chart.render();
+      });
+   }
+}
+
 function displayMoviesByRating() {
    if(runRating === true)
    {
@@ -308,7 +357,7 @@ function displayMoviesByRating() {
                dataPoints: json,
                indexLabelPlacement: "outside",
                indexLabelOrientation: "horizontal",
-               // indexLabel: "{y} movies",
+               indexLabel: "{y}",
                click: function(event){
                   // startFilter('rating', event.dataPoint.id);
                },
