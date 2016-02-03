@@ -18886,10 +18886,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Liu',
                 'birthday' => '1936-08-01',
                 'deceased' => '2013-06-25',
-                'image' => 'Chia_Liang_Liu_1454457138.jpg',
+                'image' => '',
             'bio' => 'Chia-Liang Liu was born on August 1, 1936 in Guangzhou, Guangdong, China. He is known for his work on The Legend of Drunken Master (1994), Seven swords (2005) and My Young Auntie (1981). He was married to Jing-Jing Yung and Hsiu-Hsia Ho. He died on June 25, 2013 in Hong Kong, China.',
                 'created_at' => '2016-02-02 23:52:18',
-                'updated_at' => '2016-02-02 23:52:18',
+                'updated_at' => '2016-02-03 19:32:07',
             ),
             65 => 
             array (
@@ -19018,10 +19018,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Rossen',
                 'birthday' => '1908-03-16',
                 'deceased' => '1966-02-18',
-                'image' => 'Robert_Rossen_1454457197.jpg',
-            'bio' => 'Robert Rossen was born on March 16, 1908 in New York City, New York, USA as Robert Rosen. He was a writer and director, known for The Hustler (1961), All the King\'s Men (1949) and The Strange Love of Martha Ivers (1946). He was married to Susan Siegal. He died on February 18, 1966 in Hollywood, Los Angeles, California, USA.',
+                'image' => '',
+            'bio' => 'Robert Rossen was born on March 16, 1908 in New York City, New York, USA as Robert Rosen. He was a writer and director, known for The Hustler (1961), All the King&#039;s Men (1949) and The Strange Love of Martha Ivers (1946). He was married to Susan Siegal. He died on February 18, 1966 in Hollywood, Los Angeles, California, USA.',
                 'created_at' => '2016-02-02 23:53:17',
-                'updated_at' => '2016-02-02 23:53:17',
+                'updated_at' => '2016-02-03 19:50:34',
             ),
             76 => 
             array (
@@ -19258,10 +19258,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Marquand',
                 'birthday' => '1937-09-22',
                 'deceased' => '1987-09-04',
-                'image' => 'Richard_Marquand_1454457416.jpg',
+                'image' => '',
             'bio' => 'Richard Marquand was born on September 22, 1937 in Llanishen, Cardiff, Glamorgan, Wales as Richard Alfred Marquand. He was a director and producer, known for Star Wars: Episode VI - Return of the Jedi (1983), Jagged Edge (1985) and Eye of the Needle (1981). He was married to Carol Bell and Josephine Marquand. He died on September 4, 1987 in Tunbridge Wells, Kent, England.',
                 'created_at' => '2016-02-02 23:56:56',
-                'updated_at' => '2016-02-02 23:56:56',
+                'updated_at' => '2016-02-03 19:49:50',
             ),
             96 => 
             array (
@@ -19390,10 +19390,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Cain',
                 'birthday' => '1943-10-29',
                 'deceased' => NULL,
-                'image' => 'Christopher_Cain_1454457491.jpg',
+                'image' => '',
             'bio' => 'Christopher Cain was born on October 29, 1943 in Sioux Falls, South Dakota, USA as Bruce Doggett. He is a director and writer, known for Young Guns (1988), The Next Karate Kid (1994) and The Principal (1987).',
                 'created_at' => '2016-02-02 23:58:11',
-                'updated_at' => '2016-02-02 23:58:11',
+                'updated_at' => '2016-02-03 19:32:34',
             ),
             107 => 
             array (
@@ -19414,10 +19414,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Trousdale',
                 'birthday' => '1960-06-08',
                 'deceased' => NULL,
-                'image' => 'Gary_Trousdale_1454457500.jpg',
-                'bio' => 'Gary Trousdale was born in La Crescenta, California. His fascination with animation was fostered as a child, where he drew cartoons from an elementary school age. He planned to become an architect, but decided instead to study animation at CalArts, where he studied for three years. He was hired in 1982 to design storyboards and do other animation. He then went to work designing restaurant menus and t-shirts. He was hired in 1985 by Disney to work on "The Black Cauldron," and continued his relationship with the company for years. He gained true prominence in his field with the success of his animated film directorial debut "Beauty and the Beast," which was nominated for an Academy Award for Best Picture. He continues to work with Disney, and lives in the San Fernando Valley, a suburban area of Los Angeles, California.',
+                'image' => '',
+                'bio' => 'Gary Trousdale was born in La Crescenta, California. His fascination with animation was fostered as a child, where he drew cartoons from an elementary school age. He planned to become an architect, but decided instead to study animation at CalArts, where he studied for three years. He was hired in 1982 to design storyboards and do other animation. He then went to work designing restaurant menus and t-shirts. He was hired in 1985 by Disney to work on &quot;The Black Cauldron,&quot; and continued his relationship with the company for years. He gained true prominence in his field with the success of his animated film directorial debut &quot;Beauty and the Beast,&quot; which was nominated for an Academy Award for Best Picture. He continues to work with Disney, and lives in the San Fernando Valley, a suburban area of Los Angeles, California.',
                 'created_at' => '2016-02-02 23:58:20',
-                'updated_at' => '2016-02-02 23:58:20',
+                'updated_at' => '2016-02-03 19:35:59',
             ),
             109 => 
             array (
@@ -19474,10 +19474,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Ferguson',
                 'birthday' => '1902-09-02',
                 'deceased' => '1957-11-04',
-                'image' => 'Norman_Ferguson_1454457527.jpg',
+                'image' => '',
             'bio' => 'Norman Ferguson was born on September 2, 1902 in Manhattan, New York City, New York, USA as William Norman Ferguson. He is known for his work on Blanche Neige et les sept nains (1937), Fantasia (1940) and Cendrillon (1950). He was married to Gladys F. He died on November 4, 1957 in Los Angeles, California, USA.',
                 'created_at' => '2016-02-02 23:58:47',
-                'updated_at' => '2016-02-02 23:58:47',
+                'updated_at' => '2016-02-03 19:45:31',
             ),
             114 => 
             array (
@@ -19522,10 +19522,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Geronimi',
                 'birthday' => '1901-06-12',
                 'deceased' => '1989-04-24',
-                'image' => 'Clyde_Geronimi_1454457546.jpg',
+                'image' => '',
             'bio' => 'Clyde Geronimi was born on June 12, 1901 in Chiavenna, Lombardy, Italy as Clito Enrico Geronimi. He is known for his work on Cendrillon (1950), Sleeping Beauty (1959) and 101 Dalmatians (1961). He died on April 24, 1989 in Newport Beach, California, USA.',
                 'created_at' => '2016-02-02 23:59:06',
-                'updated_at' => '2016-02-02 23:59:06',
+                'updated_at' => '2016-02-03 19:32:55',
             ),
             118 => 
             array (
@@ -19534,10 +19534,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Rooney',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'Darrell_Rooney_1454457556.jpg',
+                'image' => '',
             'bio' => 'Darrell Rooney is known for his work on The Brave Little Toaster (1987), The Smurfs (1981) and Once Upon a Forest (1993).',
                 'created_at' => '2016-02-02 23:59:16',
-                'updated_at' => '2016-02-02 23:59:16',
+                'updated_at' => '2016-02-03 19:33:49',
             ),
             119 => 
             array (
@@ -19594,10 +19594,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Cottrell',
                 'birthday' => '1906-11-19',
                 'deceased' => '1995-12-22',
-                'image' => 'William_Cottrell_1454457579.jpg',
+                'image' => '',
             'bio' => 'William Cottrell was born on November 19, 1906. He is known for his work on Alice au pays des merveilles (1951), Pinocchio (1940) and Peter Pan (1953). He was married to Hazel Sewell. He died on December 22, 1995 in Burbank, California, USA.',
                 'created_at' => '2016-02-02 23:59:39',
-                'updated_at' => '2016-02-02 23:59:39',
+                'updated_at' => '2016-02-03 19:55:26',
             ),
             124 => 
             array (
@@ -19726,10 +19726,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Blanco',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'Jorge_Blanco_1454457639.jpg',
-            'bio' => 'Jorge Blanco is a director and writer, known for Planète 51 (2009), Mortadelo and Filemon: Mission Implausible (2014) and Life on Planet 51 (2010).',
+                'image' => '',
+            'bio' => 'Jorge Blanco is a director and writer, known for Plan&egrave;te 51 (2009), Mortadelo and Filemon: Mission Implausible (2014) and Life on Planet 51 (2010).',
                 'created_at' => '2016-02-03 00:00:39',
-                'updated_at' => '2016-02-03 00:00:39',
+                'updated_at' => '2016-02-03 19:42:55',
             ),
             135 => 
             array (
@@ -19738,10 +19738,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Rosenberg',
                 'birthday' => '1927-08-11',
                 'deceased' => '2007-03-15',
-                'image' => 'Stuart_Rosenberg_1454457653.jpg',
+                'image' => '',
             'bio' => 'Stuart Rosenberg was born on August 11, 1927 in Brooklyn, New York City, New York, USA. He was a director and producer, known for Cool Hand Luke (1967), The Amityville Horror (1979) and Brubaker (1980). He was married to Margot Pohoryles. He died on March 15, 2007 in Beverly Hills, Los Angeles, California, USA.',
                 'created_at' => '2016-02-03 00:00:53',
-                'updated_at' => '2016-02-03 00:00:53',
+                'updated_at' => '2016-02-03 19:52:38',
             ),
             136 => 
             array (
@@ -19786,10 +19786,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Parisot',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'Dean_Parisot_1454457675.jpg',
+                'image' => '',
             'bio' => 'Dean Parisot was born as Aldo Luis Parisot. He is a director and producer, known for Galaxy Quest (1999), RED 2 (2013) and Fun with Dick and Jane (2005). He was previously married to Sally Menke.',
                 'created_at' => '2016-02-03 00:01:15',
-                'updated_at' => '2016-02-03 00:01:15',
+                'updated_at' => '2016-02-03 19:34:25',
             ),
             140 => 
             array (
@@ -20122,10 +20122,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Keighley',
                 'birthday' => '1889-08-04',
                 'deceased' => '1984-06-24',
-                'image' => 'William_Keighley_1454457859.jpg',
-            'bio' => 'William Keighley\'s professional career spanned three distinct mediums: the theatre, motion pictures and, finally, radio. Initially trained as a stage actor and Broadway director, he arrived in Hollywood shortly after the advent of sound, landing a job with Warner Brothers (where he spent most of his career) as an assistant director and dialog director before helming his first film there in 1932. Keighley\'s gangster films of the period, such as \'G\' Men (1935) and Bullets or Ballots (1936), are models of the kind of fast-paced, tightly made, exciting films that Warner\'s specialized in--and which kept the cash flowing in during the studio\'s devastating losses of the period. Interestingly, although his career is closely associated with the meteoric ascent of James Cagney, the two men did not particularly care for each other, as Cagney was somewhat put off by what he felt were Keighley\'s phony European affectations (something the director acquired during his tenure on Broadway in the early  ....',
+                'image' => '',
+            'bio' => 'William Keighley&#039;s professional career spanned three distinct mediums: the theatre, motion pictures and, finally, radio. Initially trained as a stage actor and Broadway director, he arrived in Hollywood shortly after the advent of sound, landing a job with Warner Brothers (where he spent most of his career) as an assistant director and dialog director before helming his first film there in 1932. Keighley&#039;s gangster films of the period, such as &#039;G&#039; Men (1935) and Bullets or Ballots (1936), are models of the kind of fast-paced, tightly made, exciting films that Warner&#039;s specialized in--and which kept the cash flowing in during the studio&#039;s devastating losses of the period. Interestingly, although his career is closely associated with the meteoric ascent of James Cagney, the two men did not particularly care for each other, as Cagney was somewhat put off by what he felt were Keighley&#039;s phony European affectations (something the director acquired during his tenure on Broadway in the early  ....',
                 'created_at' => '2016-02-03 00:04:19',
-                'updated_at' => '2016-02-03 00:04:19',
+                'updated_at' => '2016-02-03 19:58:44',
             ),
             168 => 
             array (
@@ -20146,10 +20146,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Donen',
                 'birthday' => '1924-04-13',
                 'deceased' => NULL,
-                'image' => 'Stanley_Donen_1454457874.jpg',
-            'bio' => 'Since he was a child, Stanley Donen attended dance classes and debuted on Broadway at age 17. With the help of the producer Arthur Freed and the actor Gene Kelly he got the chance to direct the musicals On the Town (1949), Singin\' in the Rain (1952), and Love Is Better Than Ever (1952) which revolutionized the genre. Another important work of his own was the musical version of the book of Antoine de Saint-Exupéry \'s The Little Prince (1974). As producer, he turned to the genre of comedy, with Surprise Package (1960), but he also produced some films of other genres.',
+                'image' => '',
+            'bio' => 'Since he was a child, Stanley Donen attended dance classes and debuted on Broadway at age 17. With the help of the producer Arthur Freed and the actor Gene Kelly he got the chance to direct the musicals On the Town (1949), Singin&#039; in the Rain (1952), and Love Is Better Than Ever (1952) which revolutionized the genre. Another important work of his own was the musical version of the book of Antoine de Saint-Exup&eacute;ry &#039;s The Little Prince (1974). As producer, he turned to the genre of comedy, with Surprise Package (1960), but he also produced some films of other genres.',
                 'created_at' => '2016-02-03 00:04:34',
-                'updated_at' => '2016-02-03 00:04:34',
+                'updated_at' => '2016-02-03 19:52:11',
             ),
             170 => 
             array (
@@ -20386,10 +20386,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Leven',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'Jeremy_Leven_1454457994.jpg',
-            'bio' => 'Jeremy Leven was born in 1941 in South Bend, Indiana, USA. He is a writer and producer, known for The Notebook (2004), Real Steel (2011) and My Sister\'s Keeper (2009).',
+                'image' => '',
+            'bio' => 'Jeremy Leven was born in 1941 in South Bend, Indiana, USA. He is a writer and producer, known for The Notebook (2004), Real Steel (2011) and My Sister&#039;s Keeper (2009).',
                 'created_at' => '2016-02-03 00:06:34',
-                'updated_at' => '2016-02-03 00:06:34',
+                'updated_at' => '2016-02-03 19:39:38',
             ),
             190 => 
             array (
@@ -20410,10 +20410,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Yuen',
                 'birthday' => '1945-01-01',
                 'deceased' => NULL,
-                'image' => 'Woo_Ping_Yuen_1454458008.jpg',
+                'image' => '',
             'bio' => 'Woo-Ping Yuen was born on January 1, 1945 in Guangzhou, China as Yuen Woo Ping. He is known for his work on Kill Bill: Vol. 2 (2004), Drunken Master (1978) and Iron Monkey (1993).',
                 'created_at' => '2016-02-03 00:06:48',
-                'updated_at' => '2016-02-03 00:06:48',
+                'updated_at' => '2016-02-03 19:59:00',
             ),
             192 => 
             array (
@@ -20494,10 +20494,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Crichton',
                 'birthday' => '1910-08-06',
                 'deceased' => '1999-09-14',
-                'image' => 'Charles_Crichton_1454458069.jpg',
-            'bio' => 'Director Charles Crichton\'s film career began as an editor in 1935 with Alexander Korda\'s London Films, and in that capacity he worked on such productions as Sanders of the River (1935), Things to Come (1936) and Elephant Boy (1937) (which introduced Sabu to movie audiences). He soon left London Films for Ealing Studios, and rose quickly through the ranks, making his directorial debut with For Those in Peril (1944). Meticulous to the point of being referred to as a "perfectionist", Crichton came into his own at Ealing, a studio noted for its comedies, and among his best known are the quirky but charming The Titfield Thunderbolt (1953) and the wildly popular The Lavender Hill Mob (1951). He tried his hand at drama--outside of Ealing--with The Stranger in Between (1952), starring Dirk Bogarde. When Ealing closed its doors in 1959, Crichton\'s film work petered off, and he turned more and more to television, becoming a prolific director of crime and adventure series. His occasional forays  ....',
+                'image' => '',
+            'bio' => 'Director Charles Crichton&#039;s film career began as an editor in 1935 with Alexander Korda&#039;s London Films, and in that capacity he worked on such productions as Sanders of the River (1935), Things to Come (1936) and Elephant Boy (1937) (which introduced Sabu to movie audiences). He soon left London Films for Ealing Studios, and rose quickly through the ranks, making his directorial debut with For Those in Peril (1944). Meticulous to the point of being referred to as a &quot;perfectionist&quot;, Crichton came into his own at Ealing, a studio noted for its comedies, and among his best known are the quirky but charming The Titfield Thunderbolt (1953) and the wildly popular The Lavender Hill Mob (1951). He tried his hand at drama--outside of Ealing--with The Stranger in Between (1952), starring Dirk Bogarde. When Ealing closed its doors in 1959, Crichton&#039;s film work petered off, and he turned more and more to television, becoming a prolific director of crime and adventure series. His occasional forays  ....',
                 'created_at' => '2016-02-03 00:07:49',
-                'updated_at' => '2016-02-03 00:07:49',
+                'updated_at' => '2016-02-03 19:31:32',
             ),
             199 => 
             array (
@@ -20626,10 +20626,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Siegel',
                 'birthday' => '1912-10-26',
                 'deceased' => '1991-04-20',
-                'image' => 'Don_Siegel_1454458148.jpg',
-            'bio' => 'Don Siegel was educated at Cambridge University, England. In Hollywood from the mid-\'30s, he began his career as an editor and second unit director. In 1945 he directed two shorts (Hitler Lives (1945) and Star in the Night (1945)) which both won Academy Awards. His first feature as a director was 1946\'s The Verdict (1946). He made his reputation in the early and mid-\'50s with a series of tightly made, expertly crafted, tough but intelligent "B" pictures (among them The Lineup (1958), Riot in Cell Block 11 (1954), Invasion of the Body Snatchers (1956)), then graduated to major "A" films in the 1960s and early 1970s. He made several "side trips" to television, mostly as a producer. Siegel directed what is generally considered to be Elvis Presley\'s best picture, Flaming Star (1960). He had a long professional relationship and personal friendship with Clint Eastwood, who has often said that everything he knows about filmmaking he learned from Don Siegel.',
+                'image' => '',
+            'bio' => 'Don Siegel was educated at Cambridge University, England. In Hollywood from the mid-&#039;30s, he began his career as an editor and second unit director. In 1945 he directed two shorts (Hitler Lives (1945) and Star in the Night (1945)) which both won Academy Awards. His first feature as a director was 1946&#039;s The Verdict (1946). He made his reputation in the early and mid-&#039;50s with a series of tightly made, expertly crafted, tough but intelligent &quot;B&quot; pictures (among them The Lineup (1958), Riot in Cell Block 11 (1954), Invasion of the Body Snatchers (1956)), then graduated to major &quot;A&quot; films in the 1960s and early 1970s. He made several &quot;side trips&quot; to television, mostly as a producer. Siegel directed what is generally considered to be Elvis Presley&#039;s best picture, Flaming Star (1960). He had a long professional relationship and personal friendship with Clint Eastwood, who has often said that everything he knows about filmmaking he learned from Don Siegel.',
                 'created_at' => '2016-02-03 00:09:08',
-                'updated_at' => '2016-02-03 00:09:08',
+                'updated_at' => '2016-02-03 19:34:52',
             ),
             210 => 
             array (
@@ -20662,10 +20662,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Horn',
                 'birthday' => '1929-08-20',
                 'deceased' => NULL,
-                'image' => 'Buddy_Van_Horn_1454491143.jpg',
+                'image' => '',
             'bio' => 'Buddy Van Horn was born on August 20, 1929. He is known for his work on Million Dollar Baby (2004), Mystic River (2003) and The Deer Hunter (1978).',
                 'created_at' => '2016-02-03 09:19:03',
-                'updated_at' => '2016-02-03 09:19:03',
+                'updated_at' => '2016-02-03 19:30:16',
             ),
             213 => 
             array (
@@ -20734,10 +20734,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Kerrigan',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'Justin_Kerrigan_1454491271.jpg',
+                'image' => '',
             'bio' => 'Justin Kerrigan was born in 1974 in Cardiff, Wales. He is a director and writer, known for Human Traffic (1999), I Know You Know (2008) and Pubroom Paranoia (1996).',
                 'created_at' => '2016-02-03 09:21:11',
-                'updated_at' => '2016-02-03 09:21:11',
+                'updated_at' => '2016-02-03 19:41:59',
             ),
             219 => 
             array (
@@ -20782,10 +20782,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Collinson',
                 'birthday' => '1936-04-01',
                 'deceased' => '1980-12-16',
-                'image' => 'Peter_Collinson_1454491318.jpg',
+                'image' => '',
             'bio' => 'Peter Collinson was born on April 1, 1936 in Lincolnshire, England as Peter Kenneth Collinson. He was a director and producer, known for The Italian Job (1969), Australia Kid (1980) and Ten Little Indians (1974). He was married to Ann Collinson and Hazel Collinson. He died on December 16, 1980 in Los Angeles, California, USA.',
                 'created_at' => '2016-02-03 09:21:58',
-                'updated_at' => '2016-02-03 09:21:58',
+                'updated_at' => '2016-02-03 19:46:38',
             ),
             223 => 
             array (
@@ -20890,10 +20890,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Gottlieb',
                 'birthday' => '1945-04-12',
                 'deceased' => '2014-05-23',
-                'image' => 'Michael_Gottlieb_1454491552.jpg',
+                'image' => '',
                 'bio' => '',
                 'created_at' => '2016-02-03 09:25:52',
-                'updated_at' => '2016-02-03 09:25:52',
+                'updated_at' => '2016-02-03 19:44:48',
             ),
             232 => 
             array (
@@ -20902,10 +20902,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Stevenson',
                 'birthday' => '1905-03-31',
                 'deceased' => '1986-04-30',
-                'image' => 'Robert_Stevenson_1454491556.jpg',
+                'image' => '',
             'bio' => 'Robert Stevenson was born on March 31, 1905 in Buxton, Derbyshire, England as Robert Edward Stevenson. He was a director and writer, known for Mary Poppins (1964), Bedknobs and Broomsticks (1971) and The Love Bug (1968). He was married to Ursula Henderson, Frances Holyoke Howard, Anna Lee and Cecilie L Leslie. He died on April 30, 1986 in Santa Barbara, California, USA.',
                 'created_at' => '2016-02-03 09:25:56',
-                'updated_at' => '2016-02-03 09:25:56',
+                'updated_at' => '2016-02-03 19:51:30',
             ),
             233 => 
             array (
@@ -21034,10 +21034,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Talalay',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'Rachel_Talalay_1454491788.jpg',
-                'bio' => 'Rachel Talalay was born in Chicago Illinois. Her parents, Paul and Prudence, moved to Baltimore to work/teach at Johns Hopkins when she was 4 years old. After studying Applied Mathematics at Yale University, she worked as a computer programmer at Johns Hopkins University. During this time, she met Director John Waters and entered the movie business as a production assistant on his \'Polyester\', starring Divine. Here she met Robert Shaye, head of New Line Cinema, and started a long relationship which led to her work on the "Nightmare on Elm Street" films, culminating her relationship with directing "Freddy\'s Dead: The Final Nightmare". From there she continued her directing career, moving into television, and working on a wide variety of projects from family entertainment "Wind in the Willows" to Horror "Supernatural" to Comedy "Ally McBeal". In 2014 she became the first American and seventh woman to direct "Doctor Who".',
+                'image' => '',
+                'bio' => 'Rachel Talalay was born in Chicago Illinois. Her parents, Paul and Prudence, moved to Baltimore to work/teach at Johns Hopkins when she was 4 years old. After studying Applied Mathematics at Yale University, she worked as a computer programmer at Johns Hopkins University. During this time, she met Director John Waters and entered the movie business as a production assistant on his &#039;Polyester&#039;, starring Divine. Here she met Robert Shaye, head of New Line Cinema, and started a long relationship which led to her work on the &quot;Nightmare on Elm Street&quot; films, culminating her relationship with directing &quot;Freddy&#039;s Dead: The Final Nightmare&quot;. From there she continued her directing career, moving into television, and working on a wide variety of projects from family entertainment &quot;Wind in the Willows&quot; to Horror &quot;Supernatural&quot; to Comedy &quot;Ally McBeal&quot;. In 2014 she became the first American and seventh woman to direct &quot;Doctor Who&quot;.',
                 'created_at' => '2016-02-03 09:29:48',
-                'updated_at' => '2016-02-03 09:29:48',
+                'updated_at' => '2016-02-03 19:48:23',
             ),
             244 => 
             array (
@@ -21046,10 +21046,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Taylor',
                 'birthday' => '1920-12-13',
                 'deceased' => '1998-12-29',
-                'image' => 'Don_Taylor_1454491798.jpg',
-            'bio' => 'Born in Freeport, Pennsylvania, Don Taylor studied law, then speech and drama at Penn State University, where as a freshman he began taking part in college stage productions. Hitchhiking to Hollywood in 1942, the youthful Taylor screen-tested at Warner Brothers but was rejected because of his draft status. MGM, not as fussy, signed him to a contract and immediately put him to work, assigning him the minuscule role of a soldier in director Clarence Brown\'s sentimental slice of Americana, The Human Comedy (1943). More minor roles followed before Taylor enlisted in the army, but even there he continued to act: Playwright/screenwriter Moss Hart chose him to play one of the leads in the Army-Air Force production of Hart\'s play, "Winged Victory." Returning to civilian life, Taylor resumed his work in pictures with a top role in the trend-setting crime drama The Naked City (1948). In later years Taylor became a film and TV director, being nominated for an Emmy for his direction of an episode  ....',
+                'image' => '',
+            'bio' => 'Born in Freeport, Pennsylvania, Don Taylor studied law, then speech and drama at Penn State University, where as a freshman he began taking part in college stage productions. Hitchhiking to Hollywood in 1942, the youthful Taylor screen-tested at Warner Brothers but was rejected because of his draft status. MGM, not as fussy, signed him to a contract and immediately put him to work, assigning him the minuscule role of a soldier in director Clarence Brown&#039;s sentimental slice of Americana, The Human Comedy (1943). More minor roles followed before Taylor enlisted in the army, but even there he continued to act: Playwright/screenwriter Moss Hart chose him to play one of the leads in the Army-Air Force production of Hart&#039;s play, &quot;Winged Victory.&quot; Returning to civilian life, Taylor resumed his work in pictures with a top role in the trend-setting crime drama The Naked City (1948). In later years Taylor became a film and TV director, being nominated for an Emmy for his direction of an episode  ....',
                 'created_at' => '2016-02-03 09:29:58',
-                'updated_at' => '2016-02-03 09:29:58',
+                'updated_at' => '2016-02-03 19:35:17',
             ),
             245 => 
             array (
@@ -21058,10 +21058,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Baker',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'Graham_Baker_1454491802.jpg',
+                'image' => '',
                 'bio' => '',
                 'created_at' => '2016-02-03 09:30:02',
-                'updated_at' => '2016-02-03 09:30:02',
+                'updated_at' => '2016-02-03 19:36:35',
             ),
             246 => 
             array (
@@ -21082,10 +21082,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'McCain',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'Howard_McCain_1454491819.jpg',
-                'bio' => 'It looks like we don\'t have any Biography for Howard McCain yet.',
+                'image' => '',
+                'bio' => 'It looks like we don&#039;t have any Biography for Howard McCain yet.',
                 'created_at' => '2016-02-03 09:30:19',
-                'updated_at' => '2016-02-03 09:30:19',
+                'updated_at' => '2016-02-03 19:38:08',
             ),
             248 => 
             array (
@@ -21322,10 +21322,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Szwarc',
                 'birthday' => '1939-11-21',
                 'deceased' => NULL,
-                'image' => 'Jeannot_Szwarc_1454491969.jpg',
+                'image' => '',
             'bio' => 'Jeannot Szwarc was born on November 21, 1939 in Paris, France. He is a director and producer, known for Jaws 2 (1978), Somewhere in Time (1980) and Boston Public (2000).',
                 'created_at' => '2016-02-03 09:32:49',
-                'updated_at' => '2016-02-03 09:32:49',
+                'updated_at' => '2016-02-03 19:38:48',
             ),
             268 => 
             array (
@@ -21346,10 +21346,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Young',
                 'birthday' => '1915-06-20',
                 'deceased' => '1994-09-07',
-                'image' => 'Terence_Young_1454491984.jpg',
-            'bio' => 'Born in Shanghai and Cambridge-educated, Terence Young began in the industry as a scriptwriter. In the 1940s he worked on a variety of subjects, including the hugely popular wartime romance Suicide Squadron (1941), set to Richard Addinsell\'s rousing "Warsaw Concerto". His original story was devised while listening to a concert in an army training camp. As it turned out, Young was soon after involved in the war himself, as a member of the Guards. By the end of the decade Young had graduated to directing. He made his debut with the psychological melodrama Corridor of Mirrors (1948), starring Eric Portman as a reclusive art collector obsessed with reincarnation and murder. During the following decade Young helmed a number of international co-productions, which featured imported stars from Hollywood (Alan Ladd in Paratrooper (1953); Olivia de Havilland in La princesse d\'Eboli (1955); Victor Mature in Safari (1956), Zarak (1956) and Tank Force (1958)). These films were made by Warwick, an i ....',
+                'image' => '',
+            'bio' => 'Born in Shanghai and Cambridge-educated, Terence Young began in the industry as a scriptwriter. In the 1940s he worked on a variety of subjects, including the hugely popular wartime romance Suicide Squadron (1941), set to Richard Addinsell&#039;s rousing &quot;Warsaw Concerto&quot;. His original story was devised while listening to a concert in an army training camp. As it turned out, Young was soon after involved in the war himself, as a member of the Guards. By the end of the decade Young had graduated to directing. He made his debut with the psychological melodrama Corridor of Mirrors (1948), starring Eric Portman as a reclusive art collector obsessed with reincarnation and murder. During the following decade Young helmed a number of international co-productions, which featured imported stars from Hollywood (Alan Ladd in Paratrooper (1953); Olivia de Havilland in La princesse d&#039;Eboli (1955); Victor Mature in Safari (1956), Zarak (1956) and Tank Force (1958)). These films were made by Warwick, an i ....',
                 'created_at' => '2016-02-03 09:33:05',
-                'updated_at' => '2016-02-03 09:33:05',
+                'updated_at' => '2016-02-03 19:53:16',
             ),
             270 => 
             array (
@@ -21358,10 +21358,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Hamilton',
                 'birthday' => '1922-09-16',
                 'deceased' => NULL,
-                'image' => 'Guy_Hamilton_1454491990.jpg',
+                'image' => '',
             'bio' => 'Guy Hamilton was born on September 16, 1922 in Paris, France. He is a director and assistant director, known for Goldfinger (1964), Diamonds Are Forever (1971) and Live and Let Die (1973).',
                 'created_at' => '2016-02-03 09:33:10',
-                'updated_at' => '2016-02-03 09:33:10',
+                'updated_at' => '2016-02-03 19:37:02',
             ),
             271 => 
             array (
@@ -21370,10 +21370,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Gilbert',
                 'birthday' => '1920-03-06',
                 'deceased' => NULL,
-                'image' => 'Lewis_Gilbert_1454491996.jpg',
+                'image' => '',
             'bio' => 'Lewis Gilbert was born on March 6, 1920 in London, England. He is a director and writer, known for The Spy Who Loved Me (1977), You Only Live Twice (1967) and Moonraker (1979). He was previously married to Hylda Tafler.',
                 'created_at' => '2016-02-03 09:33:16',
-                'updated_at' => '2016-02-03 09:33:16',
+                'updated_at' => '2016-02-03 19:44:07',
             ),
             272 => 
             array (
@@ -21382,10 +21382,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Hunt',
                 'birthday' => '1925-03-11',
                 'deceased' => '2002-08-14',
-                'image' => 'Peter_R__Hunt_1454492000.jpg',
-            'bio' => 'Peter R. Hunt was born on March 11, 1925 in London, England as Peter Roger Hunt. He was an editor and director, known for On Her Majesty\'s Secret Service (1969), Goldfinger (1964) and Dr. No (1962). He died on August 14, 2002 in Santa Monica, California, USA.',
+                'image' => '',
+            'bio' => 'Peter R. Hunt was born on March 11, 1925 in London, England as Peter Roger Hunt. He was an editor and director, known for On Her Majesty&#039;s Secret Service (1969), Goldfinger (1964) and Dr. No (1962). He died on August 14, 2002 in Santa Monica, California, USA.',
                 'created_at' => '2016-02-03 09:33:21',
-                'updated_at' => '2016-02-03 09:33:21',
+                'updated_at' => '2016-02-03 19:47:27',
             ),
             273 => 
             array (
@@ -21394,10 +21394,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Glen',
                 'birthday' => '1932-05-15',
                 'deceased' => NULL,
-                'image' => 'John_Glen_1454492013.jpg',
+                'image' => 'john_glen_1454529606.jpg',
             'bio' => 'John Glen was born on May 15, 1932 in Sunbury-on-Thames, England. He is an editor and assistant director, known for For Your Eyes Only (1981), The Living Daylights (1987) and Octopussy (1983).',
                 'created_at' => '2016-02-03 09:33:33',
-                'updated_at' => '2016-02-03 09:33:33',
+                'updated_at' => '2016-02-03 20:00:06',
             ),
             274 => 
             array (
@@ -21574,10 +21574,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Lester',
                 'birthday' => '1932-01-19',
                 'deceased' => NULL,
-                'image' => 'Richard_Lester_1454492236.jpg',
-            'bio' => 'Richard Lester was one of the most influential directors of the 1960s, and continued his career into the 1970s and early \'80s. He is best remembered for the two films he helmed starring The Beatles: A Hard Day\'s Night (1964) (1964) and Help! (1965) (1965), the frenetic cutting style of which was seen by many as the predecessor of the music video a generation later. Lester had made his name with the Oscar-nominated short subject The Running Jumping & Standing Still Film (1959) that he made with "The Goon Show" veterans Peter Sellers and Spike Milligan. He then directed Sellers in The Mouse on the Moon (1963), which was produced by Walter Shenson. The Goons were a favorite of The Beatles, and when Shenson got the rights to make a movie with The Beatles, Lester seemed to be the ideal director for the project. That project, "A Hard Day\'s Night", was not only a huge box-office hit but a major critical success as well. "Village Voice" movie critic Andrew Sarris, the American promoter of the  ....',
+                'image' => '',
+            'bio' => 'Richard Lester was one of the most influential directors of the 1960s, and continued his career into the 1970s and early &#039;80s. He is best remembered for the two films he helmed starring The Beatles: A Hard Day&#039;s Night (1964) (1964) and Help! (1965) (1965), the frenetic cutting style of which was seen by many as the predecessor of the music video a generation later. Lester had made his name with the Oscar-nominated short subject The Running Jumping &amp; Standing Still Film (1959) that he made with &quot;The Goon Show&quot; veterans Peter Sellers and Spike Milligan. He then directed Sellers in The Mouse on the Moon (1963), which was produced by Walter Shenson. The Goons were a favorite of The Beatles, and when Shenson got the rights to make a movie with The Beatles, Lester seemed to be the ideal director for the project. That project, &quot;A Hard Day&#039;s Night&quot;, was not only a huge box-office hit but a major critical success as well. &quot;Village Voice&quot; movie critic Andrew Sarris, the American promoter of the  ....',
                 'created_at' => '2016-02-03 09:37:16',
-                'updated_at' => '2016-02-03 09:37:16',
+                'updated_at' => '2016-02-03 19:49:18',
             ),
             289 => 
             array (
@@ -21598,10 +21598,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Reed',
                 'birthday' => '1906-12-30',
                 'deceased' => '1976-04-25',
-                'image' => 'Carol_Reed_1454492250.jpg',
-                'bio' => 'Carol Reed was the second son of stage actor, dramatics teacher and impresario founder of the Royal School of Dramatic Arts \'Sir Herbert Beerbohm Tree\'. Reed was one of Tree\'s six illegitimate children with Beatrice Mae Pinney, who Tree established in a second household apart from his married life. There were no social scars here; Reed grew up in a well-mannered, middle-class atmosphere. His public school days were at King\'s School, Canterbury, and he was only too glad to push on with the idea of following father and become an actor. His mother wanted no such thing and shipped him off to Massachusetts in 1922, where his older brother resided on--of all things--a chicken ranch. It was a wasted six months before Reed was back in England and joined a stage company of Dame Sybil Thorndike, making his stage debut in 1924. He forthwith met British writer Edgar Wallace, who cashed in on his constant output of thrillers by establishing a road troupe to do stage adaptations of them. Reed was in ....',
+                'image' => '',
+                'bio' => 'Carol Reed was the second son of stage actor, dramatics teacher and impresario founder of the Royal School of Dramatic Arts &#039;Sir Herbert Beerbohm Tree&#039;. Reed was one of Tree&#039;s six illegitimate children with Beatrice Mae Pinney, who Tree established in a second household apart from his married life. There were no social scars here; Reed grew up in a well-mannered, middle-class atmosphere. His public school days were at King&#039;s School, Canterbury, and he was only too glad to push on with the idea of following father and become an actor. His mother wanted no such thing and shipped him off to Massachusetts in 1922, where his older brother resided on--of all things--a chicken ranch. It was a wasted six months before Reed was back in England and joined a stage company of Dame Sybil Thorndike, making his stage debut in 1924. He forthwith met British writer Edgar Wallace, who cashed in on his constant output of thrillers by establishing a road troupe to do stage adaptations of them. Reed was in ....',
                 'created_at' => '2016-02-03 09:37:30',
-                'updated_at' => '2016-02-03 09:37:30',
+                'updated_at' => '2016-02-03 19:30:50',
             ),
             291 => 
             array (
@@ -21634,10 +21634,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Takayama',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'image' => 'Hideki_Takayama_1454492430.jpg',
-                'bio' => 'It looks like we don\'t have any Biography for Hideki Takayama yet.',
+                'image' => '',
+                'bio' => 'It looks like we don&#039;t have any Biography for Hideki Takayama yet.',
                 'created_at' => '2016-02-03 09:40:30',
-                'updated_at' => '2016-02-03 09:40:30',
+                'updated_at' => '2016-02-03 19:37:34',
             ),
             294 => 
             array (
@@ -21658,10 +21658,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Fleming',
                 'birthday' => '1889-02-23',
                 'deceased' => '1949-01-06',
-                'image' => 'Victor_Fleming_1454492452.jpg',
-            'bio' => 'Victor Fleming entered the film business as a stuntman in 1910, mainly doing stunt driving - which came easy to him, as he had been a mechanic and professional race-car driver. He became interested in working on the other side of the camera, and eventually got a job as a cameraman on many of the films of Douglas Fairbanks. He soon began directing, and his first big hit was The Virginian (1929). It was the movie that turned Gary Cooper into a star (a fact Cooper never forgot; he and Fleming remained friends for life). Fleming\'s star continued to rise during the \'30s, and he was responsible for many of the films that would eventually be considered classics, such as Red Dust (1932), Bombshell (1933), Treasure Island (1934), and the two films that were the high marks of his career: Gone with the Wind (1939) and The Wizard of Oz (1939). Ironically Fleming was brought in on both pictures to replace other directors and smooth out the troubled productions, a feat he accomplished masterfully. H ....',
+                'image' => '',
+            'bio' => 'Victor Fleming entered the film business as a stuntman in 1910, mainly doing stunt driving - which came easy to him, as he had been a mechanic and professional race-car driver. He became interested in working on the other side of the camera, and eventually got a job as a cameraman on many of the films of Douglas Fairbanks. He soon began directing, and his first big hit was The Virginian (1929). It was the movie that turned Gary Cooper into a star (a fact Cooper never forgot; he and Fleming remained friends for life). Fleming&#039;s star continued to rise during the &#039;30s, and he was responsible for many of the films that would eventually be considered classics, such as Red Dust (1932), Bombshell (1933), Treasure Island (1934), and the two films that were the high marks of his career: Gone with the Wind (1939) and The Wizard of Oz (1939). Ironically Fleming was brought in on both pictures to replace other directors and smooth out the troubled productions, a feat he accomplished masterfully. H ....',
                 'created_at' => '2016-02-03 09:40:52',
-                'updated_at' => '2016-02-03 09:40:52',
+                'updated_at' => '2016-02-03 19:53:54',
             ),
             296 => 
             array (
@@ -21670,10 +21670,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Murch',
                 'birthday' => '1943-07-12',
                 'deceased' => NULL,
-                'image' => 'Walter_Murch_1454492459.jpg',
-            'bio' => 'Walter Murch has been editing sound in Hollywood since starting on Francis Ford Coppola\'s film The Rain People (1969). He edited sound on American Graffiti (1973) and The Godfather: Part II (1974), won his first Academy Award nomination for The Conversation (1974), won his first Oscar for Apocalypse Now (1979), and won an unprecedented double Oscar for Best Sound and Best Film Editing for his work on The English Patient (1996). Most recently he helped reconstruct Touch of Evil (1958) to Orson Welles\' original notes, and edited The Talented Mr. Ripley (1999). Mr. Murch was, along with George Lucas and Francis Ford Coppola, a founding member of northern California cinema. Mr. Murch has directed --Return to Oz (1985) -- and longs to do so again, but as an editor and sound man he is one of the few universally acknowledged masters in his field. For his work on the film "Apocalypse Now (1979)", Walter coined the term "sound designer", and along with colleagues such as Ben Burtt, helped to el ....',
+                'image' => '',
+            'bio' => 'Walter Murch has been editing sound in Hollywood since starting on Francis Ford Coppola&#039;s film The Rain People (1969). He edited sound on American Graffiti (1973) and The Godfather: Part II (1974), won his first Academy Award nomination for The Conversation (1974), won his first Oscar for Apocalypse Now (1979), and won an unprecedented double Oscar for Best Sound and Best Film Editing for his work on The English Patient (1996). Most recently he helped reconstruct Touch of Evil (1958) to Orson Welles&#039; original notes, and edited The Talented Mr. Ripley (1999). Mr. Murch was, along with George Lucas and Francis Ford Coppola, a founding member of northern California cinema. Mr. Murch has directed --Return to Oz (1985) -- and longs to do so again, but as an editor and sound man he is one of the few universally acknowledged masters in his field. For his work on the film &quot;Apocalypse Now (1979)&quot;, Walter coined the term &quot;sound designer&quot;, and along with colleagues such as Ben Burtt, helped to el ....',
                 'created_at' => '2016-02-03 09:40:59',
-                'updated_at' => '2016-02-03 09:40:59',
+                'updated_at' => '2016-02-03 19:54:40',
             ),
             297 => 
             array (
@@ -21706,10 +21706,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Endfield',
                 'birthday' => '1914-11-10',
                 'deceased' => '1995-04-16',
-                'image' => 'Cy_Endfield_1454492474.jpg',
+                'image' => '',
                 'bio' => 'The son of a struggling businessman, Cy Endfield--born Cyril Raker Endfield--worked hard to be admitted to Yale University in 1933. While completing his education he became enamored with progressive theatre and appeared in a New Haven production of a minor Russian play in 1934. He was also profoundly influenced by such friends as writer Paul Jarrico, who was in Hollywood and who advocated liberal and leftist views. For several years Endfield worked as a director and choreographer with avant-garde theatre companies in and around New York and Montreal. He led his own repertory company of amateur players in performances of musicals and satirical revue at resorts in the Catskills. Endfield had another string to his bow, having established a not inconsiderable reputation as master of the art of micro magic, particularly card tricks. In a circuitous way this brought him to Hollywood in 1940. There have been conflicting stories as to how he came to the attention of Orson Welles, who was known ....',
                 'created_at' => '2016-02-03 09:41:15',
-                'updated_at' => '2016-02-03 09:41:15',
+                'updated_at' => '2016-02-03 19:33:23',
             ),
             300 => 
             array (
