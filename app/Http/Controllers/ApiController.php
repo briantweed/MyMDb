@@ -229,7 +229,7 @@ class ApiController extends Controller {
 		flush();
 		ob_flush();
 
-		for($x=200;$x<300;$x+=10)
+		for($x=450;$x<600;$x+=10)
 		{
 			$movies = Movies::take(10)->offset($x)->get();
 			foreach($movies as $movie)
@@ -247,7 +247,6 @@ class ApiController extends Controller {
 						$my_token = env('IMDB_KEY');
 
 						$url = 'http://api.myapifilms.com/imdb/idIMDB?idIMDB='.$movie->imdb_id.'&token='.$my_token.'&format=json&language=en-us';
-
 						$imdb_response = $client->get($url);
 						$imdb_body = $imdb_response->getBody();
 						$imdb_api = json_decode($imdb_body);
@@ -263,7 +262,6 @@ class ApiController extends Controller {
 								{
 									$client = new \GuzzleHttp\Client();
 									$url = 'http://api.myapifilms.com/imdb/idIMDB?idName='.$imdb_id.'&token='.$my_token.'&format=json&language=en-us&bornDied=1';
-
 									$imdb_response = $client->get($url);
 									$imdb_body = $imdb_response->getBody();
 									$imdb_api = json_decode($imdb_body);
@@ -276,7 +274,7 @@ class ApiController extends Controller {
 										$data['forename'] = count($names) ? $this->formatName(implode(" ", $names)) : "";
 
 										$deceased = isset($imdb->died) ? $imdb->died."<br/><br/>" : "";
-										$data['bio'] = strlen($imdb->bio) > 1000 ? $deceased . substr($imdb->bio, 0, 1000)." ...." : $deceased . $imdb->bio;
+										$data['bio'] = isset($imdb->bio) ? (strlen($imdb->bio) > 1000 ? $deceased . substr($imdb->bio, 0, 1000)." ...." : $deceased . $imdb->bio) : "";
 										$content = file_get_contents($imdb->urlPhoto);
 										$image_name = $this->createImageName($data['forename']." ".$data['surname']);
 										$fp = fopen('images/people/'.$image_name, "w");
@@ -297,26 +295,26 @@ class ApiController extends Controller {
 										$update = Persons::create($data);
 										$inserted_id = $update->person_id;
 										$movie->crew()->attach($inserted_id, array('position' => 'Director'));
-										echo $director_name." added<br/>";
-									} // person returned check
+										echo "(".$movie->movie_id.") ".$movie->name." : ".$director_name." added<br/>";
+									}
 								}
 								else
 								{
 									$movie->crew()->attach($person->person_id, array('position' => 'Director'));
 									echo "(".$movie->movie_id.") ".$movie->name." : ".$director_name." added to movie<br/>";
-								} // person in database check
-							} // director details check
+								}
+							}
 							else echo "(".$movie->movie_id.") ".$movie->name." : no directors found<br/>";
-						} // data returned check
+						}
 						else echo "(".$movie->movie_id.") ".$movie->name." : no data found<br/>";
-					} // existing director check
+					}
 					else echo "(".$movie->movie_id.") ".$movie->name." : director exists<br/>";
-				} // imdb id check
+				}
 				else echo "(".$movie->movie_id.") ".$movie->name." : no imdb id<br/>";
 				flush();
 	    		ob_flush();
-			} // foreach loop
-		} // for loop
+			}
+		}
 		echo "<br/><br/>Finished ".date("H:i:s");
 	}
 

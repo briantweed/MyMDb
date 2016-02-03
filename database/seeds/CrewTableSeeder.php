@@ -3149,6 +3149,1952 @@ class CrewTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            348 => 
+            array (
+                'crew_id' => 354,
+                'movie_id' => 305,
+                'person_id' => 1720,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            349 => 
+            array (
+                'crew_id' => 355,
+                'movie_id' => 306,
+                'person_id' => 1227,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            350 => 
+            array (
+                'crew_id' => 356,
+                'movie_id' => 307,
+                'person_id' => 1721,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            351 => 
+            array (
+                'crew_id' => 357,
+                'movie_id' => 308,
+                'person_id' => 1649,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            352 => 
+            array (
+                'crew_id' => 358,
+                'movie_id' => 309,
+                'person_id' => 1722,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            353 => 
+            array (
+                'crew_id' => 359,
+                'movie_id' => 310,
+                'person_id' => 1722,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            354 => 
+            array (
+                'crew_id' => 360,
+                'movie_id' => 311,
+                'person_id' => 1722,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            355 => 
+            array (
+                'crew_id' => 361,
+                'movie_id' => 312,
+                'person_id' => 1723,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            356 => 
+            array (
+                'crew_id' => 362,
+                'movie_id' => 313,
+                'person_id' => 1578,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            357 => 
+            array (
+                'crew_id' => 363,
+                'movie_id' => 314,
+                'person_id' => 1724,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            358 => 
+            array (
+                'crew_id' => 364,
+                'movie_id' => 315,
+                'person_id' => 1725,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            359 => 
+            array (
+                'crew_id' => 365,
+                'movie_id' => 316,
+                'person_id' => 1726,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            360 => 
+            array (
+                'crew_id' => 366,
+                'movie_id' => 317,
+                'person_id' => 1727,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            361 => 
+            array (
+                'crew_id' => 367,
+                'movie_id' => 318,
+                'person_id' => 1728,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            362 => 
+            array (
+                'crew_id' => 368,
+                'movie_id' => 319,
+                'person_id' => 1586,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            363 => 
+            array (
+                'crew_id' => 369,
+                'movie_id' => 320,
+                'person_id' => 1691,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            364 => 
+            array (
+                'crew_id' => 370,
+                'movie_id' => 321,
+                'person_id' => 105,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            365 => 
+            array (
+                'crew_id' => 371,
+                'movie_id' => 322,
+                'person_id' => 105,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            366 => 
+            array (
+                'crew_id' => 372,
+                'movie_id' => 323,
+                'person_id' => 105,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            367 => 
+            array (
+                'crew_id' => 373,
+                'movie_id' => 324,
+                'person_id' => 1729,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            368 => 
+            array (
+                'crew_id' => 374,
+                'movie_id' => 325,
+                'person_id' => 1666,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            369 => 
+            array (
+                'crew_id' => 375,
+                'movie_id' => 326,
+                'person_id' => 1730,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            370 => 
+            array (
+                'crew_id' => 376,
+                'movie_id' => 327,
+                'person_id' => 1731,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            371 => 
+            array (
+                'crew_id' => 377,
+                'movie_id' => 328,
+                'person_id' => 1732,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            372 => 
+            array (
+                'crew_id' => 378,
+                'movie_id' => 329,
+                'person_id' => 445,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            373 => 
+            array (
+                'crew_id' => 379,
+                'movie_id' => 330,
+                'person_id' => 105,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            374 => 
+            array (
+                'crew_id' => 380,
+                'movie_id' => 331,
+                'person_id' => 1733,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            375 => 
+            array (
+                'crew_id' => 381,
+                'movie_id' => 332,
+                'person_id' => 1734,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            376 => 
+            array (
+                'crew_id' => 382,
+                'movie_id' => 333,
+                'person_id' => 1735,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            377 => 
+            array (
+                'crew_id' => 383,
+                'movie_id' => 334,
+                'person_id' => 1595,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            378 => 
+            array (
+                'crew_id' => 384,
+                'movie_id' => 335,
+                'person_id' => 1736,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            379 => 
+            array (
+                'crew_id' => 385,
+                'movie_id' => 336,
+                'person_id' => 241,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            380 => 
+            array (
+                'crew_id' => 386,
+                'movie_id' => 337,
+                'person_id' => 1737,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            381 => 
+            array (
+                'crew_id' => 387,
+                'movie_id' => 338,
+                'person_id' => 244,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            382 => 
+            array (
+                'crew_id' => 388,
+                'movie_id' => 339,
+                'person_id' => 1714,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            383 => 
+            array (
+                'crew_id' => 389,
+                'movie_id' => 340,
+                'person_id' => 1714,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            384 => 
+            array (
+                'crew_id' => 390,
+                'movie_id' => 341,
+                'person_id' => 1714,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            385 => 
+            array (
+                'crew_id' => 391,
+                'movie_id' => 342,
+                'person_id' => 1714,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            386 => 
+            array (
+                'crew_id' => 392,
+                'movie_id' => 343,
+                'person_id' => 1281,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            387 => 
+            array (
+                'crew_id' => 393,
+                'movie_id' => 344,
+                'person_id' => 1738,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            388 => 
+            array (
+                'crew_id' => 394,
+                'movie_id' => 345,
+                'person_id' => 1659,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            389 => 
+            array (
+                'crew_id' => 395,
+                'movie_id' => 346,
+                'person_id' => 1739,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            390 => 
+            array (
+                'crew_id' => 396,
+                'movie_id' => 347,
+                'person_id' => 1740,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            391 => 
+            array (
+                'crew_id' => 397,
+                'movie_id' => 348,
+                'person_id' => 1741,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            392 => 
+            array (
+                'crew_id' => 398,
+                'movie_id' => 349,
+                'person_id' => 1716,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            393 => 
+            array (
+                'crew_id' => 399,
+                'movie_id' => 350,
+                'person_id' => 1716,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            394 => 
+            array (
+                'crew_id' => 400,
+                'movie_id' => 351,
+                'person_id' => 65,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            395 => 
+            array (
+                'crew_id' => 401,
+                'movie_id' => 352,
+                'person_id' => 1714,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            396 => 
+            array (
+                'crew_id' => 402,
+                'movie_id' => 353,
+                'person_id' => 1657,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            397 => 
+            array (
+                'crew_id' => 403,
+                'movie_id' => 354,
+                'person_id' => 1657,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            398 => 
+            array (
+                'crew_id' => 404,
+                'movie_id' => 355,
+                'person_id' => 1742,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            399 => 
+            array (
+                'crew_id' => 405,
+                'movie_id' => 356,
+                'person_id' => 76,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            400 => 
+            array (
+                'crew_id' => 406,
+                'movie_id' => 357,
+                'person_id' => 76,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            401 => 
+            array (
+                'crew_id' => 407,
+                'movie_id' => 358,
+                'person_id' => 204,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            402 => 
+            array (
+                'crew_id' => 408,
+                'movie_id' => 359,
+                'person_id' => 1743,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            403 => 
+            array (
+                'crew_id' => 409,
+                'movie_id' => 360,
+                'person_id' => 1666,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            404 => 
+            array (
+                'crew_id' => 410,
+                'movie_id' => 361,
+                'person_id' => 1227,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            405 => 
+            array (
+                'crew_id' => 411,
+                'movie_id' => 362,
+                'person_id' => 1744,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            406 => 
+            array (
+                'crew_id' => 412,
+                'movie_id' => 363,
+                'person_id' => 1744,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            407 => 
+            array (
+                'crew_id' => 413,
+                'movie_id' => 364,
+                'person_id' => 1692,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            408 => 
+            array (
+                'crew_id' => 414,
+                'movie_id' => 365,
+                'person_id' => 1745,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            409 => 
+            array (
+                'crew_id' => 415,
+                'movie_id' => 366,
+                'person_id' => 1745,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            410 => 
+            array (
+                'crew_id' => 416,
+                'movie_id' => 367,
+                'person_id' => 1746,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            411 => 
+            array (
+                'crew_id' => 417,
+                'movie_id' => 368,
+                'person_id' => 1658,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            412 => 
+            array (
+                'crew_id' => 418,
+                'movie_id' => 369,
+                'person_id' => 1686,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            413 => 
+            array (
+                'crew_id' => 419,
+                'movie_id' => 370,
+                'person_id' => 1747,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            414 => 
+            array (
+                'crew_id' => 420,
+                'movie_id' => 371,
+                'person_id' => 1335,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            415 => 
+            array (
+                'crew_id' => 421,
+                'movie_id' => 372,
+                'person_id' => 1748,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            416 => 
+            array (
+                'crew_id' => 422,
+                'movie_id' => 373,
+                'person_id' => 1749,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            417 => 
+            array (
+                'crew_id' => 423,
+                'movie_id' => 374,
+                'person_id' => 1750,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            418 => 
+            array (
+                'crew_id' => 424,
+                'movie_id' => 375,
+                'person_id' => 1694,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            419 => 
+            array (
+                'crew_id' => 425,
+                'movie_id' => 376,
+                'person_id' => 1751,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            420 => 
+            array (
+                'crew_id' => 426,
+                'movie_id' => 377,
+                'person_id' => 1752,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            421 => 
+            array (
+                'crew_id' => 427,
+                'movie_id' => 378,
+                'person_id' => 1748,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            422 => 
+            array (
+                'crew_id' => 428,
+                'movie_id' => 379,
+                'person_id' => 1714,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            423 => 
+            array (
+                'crew_id' => 429,
+                'movie_id' => 380,
+                'person_id' => 1753,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            424 => 
+            array (
+                'crew_id' => 430,
+                'movie_id' => 381,
+                'person_id' => 1754,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            425 => 
+            array (
+                'crew_id' => 431,
+                'movie_id' => 382,
+                'person_id' => 1666,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            426 => 
+            array (
+                'crew_id' => 432,
+                'movie_id' => 383,
+                'person_id' => 1702,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            427 => 
+            array (
+                'crew_id' => 433,
+                'movie_id' => 384,
+                'person_id' => 1755,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            428 => 
+            array (
+                'crew_id' => 434,
+                'movie_id' => 385,
+                'person_id' => 1709,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            429 => 
+            array (
+                'crew_id' => 435,
+                'movie_id' => 386,
+                'person_id' => 1702,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            430 => 
+            array (
+                'crew_id' => 436,
+                'movie_id' => 387,
+                'person_id' => 1756,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            431 => 
+            array (
+                'crew_id' => 437,
+                'movie_id' => 388,
+                'person_id' => 1757,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            432 => 
+            array (
+                'crew_id' => 438,
+                'movie_id' => 389,
+                'person_id' => 1758,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            433 => 
+            array (
+                'crew_id' => 439,
+                'movie_id' => 390,
+                'person_id' => 44,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            434 => 
+            array (
+                'crew_id' => 440,
+                'movie_id' => 391,
+                'person_id' => 1759,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            435 => 
+            array (
+                'crew_id' => 441,
+                'movie_id' => 392,
+                'person_id' => 1578,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            436 => 
+            array (
+                'crew_id' => 442,
+                'movie_id' => 393,
+                'person_id' => 1760,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            437 => 
+            array (
+                'crew_id' => 443,
+                'movie_id' => 394,
+                'person_id' => 1760,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            438 => 
+            array (
+                'crew_id' => 444,
+                'movie_id' => 395,
+                'person_id' => 1760,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            439 => 
+            array (
+                'crew_id' => 445,
+                'movie_id' => 396,
+                'person_id' => 1761,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            440 => 
+            array (
+                'crew_id' => 446,
+                'movie_id' => 397,
+                'person_id' => 1762,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            441 => 
+            array (
+                'crew_id' => 447,
+                'movie_id' => 398,
+                'person_id' => 1569,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            442 => 
+            array (
+                'crew_id' => 448,
+                'movie_id' => 399,
+                'person_id' => 1585,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            443 => 
+            array (
+                'crew_id' => 449,
+                'movie_id' => 400,
+                'person_id' => 1763,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            444 => 
+            array (
+                'crew_id' => 450,
+                'movie_id' => 401,
+                'person_id' => 1764,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            445 => 
+            array (
+                'crew_id' => 451,
+                'movie_id' => 402,
+                'person_id' => 70,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            446 => 
+            array (
+                'crew_id' => 452,
+                'movie_id' => 403,
+                'person_id' => 1765,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            447 => 
+            array (
+                'crew_id' => 453,
+                'movie_id' => 404,
+                'person_id' => 1766,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            448 => 
+            array (
+                'crew_id' => 454,
+                'movie_id' => 405,
+                'person_id' => 1053,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            449 => 
+            array (
+                'crew_id' => 455,
+                'movie_id' => 406,
+                'person_id' => 1670,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            450 => 
+            array (
+                'crew_id' => 456,
+                'movie_id' => 407,
+                'person_id' => 1767,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            451 => 
+            array (
+                'crew_id' => 457,
+                'movie_id' => 408,
+                'person_id' => 1168,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            452 => 
+            array (
+                'crew_id' => 458,
+                'movie_id' => 409,
+                'person_id' => 1654,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            453 => 
+            array (
+                'crew_id' => 459,
+                'movie_id' => 410,
+                'person_id' => 1670,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            454 => 
+            array (
+                'crew_id' => 460,
+                'movie_id' => 411,
+                'person_id' => 1168,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            455 => 
+            array (
+                'crew_id' => 461,
+                'movie_id' => 412,
+                'person_id' => 1768,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            456 => 
+            array (
+                'crew_id' => 462,
+                'movie_id' => 413,
+                'person_id' => 1769,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            457 => 
+            array (
+                'crew_id' => 463,
+                'movie_id' => 414,
+                'person_id' => 1724,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            458 => 
+            array (
+                'crew_id' => 464,
+                'movie_id' => 415,
+                'person_id' => 1768,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            459 => 
+            array (
+                'crew_id' => 465,
+                'movie_id' => 416,
+                'person_id' => 1760,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            460 => 
+            array (
+                'crew_id' => 466,
+                'movie_id' => 417,
+                'person_id' => 1651,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            461 => 
+            array (
+                'crew_id' => 467,
+                'movie_id' => 418,
+                'person_id' => 1563,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            462 => 
+            array (
+                'crew_id' => 468,
+                'movie_id' => 419,
+                'person_id' => 1770,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            463 => 
+            array (
+                'crew_id' => 469,
+                'movie_id' => 420,
+                'person_id' => 165,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            464 => 
+            array (
+                'crew_id' => 470,
+                'movie_id' => 421,
+                'person_id' => 1771,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            465 => 
+            array (
+                'crew_id' => 471,
+                'movie_id' => 422,
+                'person_id' => 1772,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            466 => 
+            array (
+                'crew_id' => 472,
+                'movie_id' => 423,
+                'person_id' => 1773,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            467 => 
+            array (
+                'crew_id' => 473,
+                'movie_id' => 424,
+                'person_id' => 1774,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            468 => 
+            array (
+                'crew_id' => 474,
+                'movie_id' => 425,
+                'person_id' => 1775,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            469 => 
+            array (
+                'crew_id' => 475,
+                'movie_id' => 426,
+                'person_id' => 1776,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            470 => 
+            array (
+                'crew_id' => 476,
+                'movie_id' => 427,
+                'person_id' => 269,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            471 => 
+            array (
+                'crew_id' => 477,
+                'movie_id' => 428,
+                'person_id' => 1777,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            472 => 
+            array (
+                'crew_id' => 478,
+                'movie_id' => 429,
+                'person_id' => 1748,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            473 => 
+            array (
+                'crew_id' => 479,
+                'movie_id' => 430,
+                'person_id' => 1748,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            474 => 
+            array (
+                'crew_id' => 480,
+                'movie_id' => 431,
+                'person_id' => 1748,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            475 => 
+            array (
+                'crew_id' => 481,
+                'movie_id' => 432,
+                'person_id' => 1778,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            476 => 
+            array (
+                'crew_id' => 482,
+                'movie_id' => 433,
+                'person_id' => 1778,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            477 => 
+            array (
+                'crew_id' => 483,
+                'movie_id' => 434,
+                'person_id' => 1779,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            478 => 
+            array (
+                'crew_id' => 484,
+                'movie_id' => 435,
+                'person_id' => 1778,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            479 => 
+            array (
+                'crew_id' => 485,
+                'movie_id' => 436,
+                'person_id' => 1780,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            480 => 
+            array (
+                'crew_id' => 486,
+                'movie_id' => 437,
+                'person_id' => 1781,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            481 => 
+            array (
+                'crew_id' => 487,
+                'movie_id' => 438,
+                'person_id' => 1779,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            482 => 
+            array (
+                'crew_id' => 488,
+                'movie_id' => 439,
+                'person_id' => 1779,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            483 => 
+            array (
+                'crew_id' => 489,
+                'movie_id' => 440,
+                'person_id' => 1779,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            484 => 
+            array (
+                'crew_id' => 490,
+                'movie_id' => 441,
+                'person_id' => 1780,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            485 => 
+            array (
+                'crew_id' => 491,
+                'movie_id' => 442,
+                'person_id' => 1780,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            486 => 
+            array (
+                'crew_id' => 492,
+                'movie_id' => 443,
+                'person_id' => 1782,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            487 => 
+            array (
+                'crew_id' => 493,
+                'movie_id' => 444,
+                'person_id' => 1782,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            488 => 
+            array (
+                'crew_id' => 494,
+                'movie_id' => 445,
+                'person_id' => 1782,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            489 => 
+            array (
+                'crew_id' => 495,
+                'movie_id' => 446,
+                'person_id' => 1782,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            490 => 
+            array (
+                'crew_id' => 496,
+                'movie_id' => 447,
+                'person_id' => 1782,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            491 => 
+            array (
+                'crew_id' => 497,
+                'movie_id' => 448,
+                'person_id' => 1716,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            492 => 
+            array (
+                'crew_id' => 498,
+                'movie_id' => 449,
+                'person_id' => 1783,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            493 => 
+            array (
+                'crew_id' => 499,
+                'movie_id' => 450,
+                'person_id' => 1746,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            494 => 
+            array (
+                'crew_id' => 500,
+                'movie_id' => 451,
+                'person_id' => 1784,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            495 => 
+            array (
+                'crew_id' => 501,
+                'movie_id' => 452,
+                'person_id' => 1716,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            496 => 
+            array (
+                'crew_id' => 502,
+                'movie_id' => 453,
+                'person_id' => 1610,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            497 => 
+            array (
+                'crew_id' => 503,
+                'movie_id' => 454,
+                'person_id' => 1651,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            498 => 
+            array (
+                'crew_id' => 504,
+                'movie_id' => 455,
+                'person_id' => 1714,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            499 => 
+            array (
+                'crew_id' => 505,
+                'movie_id' => 456,
+                'person_id' => 1785,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+        ));
+        \DB::table('crew')->insert(array (
+            0 => 
+            array (
+                'crew_id' => 506,
+                'movie_id' => 457,
+                'person_id' => 270,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            1 => 
+            array (
+                'crew_id' => 507,
+                'movie_id' => 458,
+                'person_id' => 1786,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            2 => 
+            array (
+                'crew_id' => 508,
+                'movie_id' => 459,
+                'person_id' => 1787,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            3 => 
+            array (
+                'crew_id' => 509,
+                'movie_id' => 460,
+                'person_id' => 44,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            4 => 
+            array (
+                'crew_id' => 510,
+                'movie_id' => 461,
+                'person_id' => 1788,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            5 => 
+            array (
+                'crew_id' => 511,
+                'movie_id' => 462,
+                'person_id' => 1789,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            6 => 
+            array (
+                'crew_id' => 512,
+                'movie_id' => 463,
+                'person_id' => 1649,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            7 => 
+            array (
+                'crew_id' => 513,
+                'movie_id' => 464,
+                'person_id' => 1758,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            8 => 
+            array (
+                'crew_id' => 514,
+                'movie_id' => 465,
+                'person_id' => 65,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            9 => 
+            array (
+                'crew_id' => 515,
+                'movie_id' => 466,
+                'person_id' => 1790,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            10 => 
+            array (
+                'crew_id' => 516,
+                'movie_id' => 467,
+                'person_id' => 1791,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            11 => 
+            array (
+                'crew_id' => 517,
+                'movie_id' => 468,
+                'person_id' => 1792,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            12 => 
+            array (
+                'crew_id' => 518,
+                'movie_id' => 469,
+                'person_id' => 1725,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            13 => 
+            array (
+                'crew_id' => 519,
+                'movie_id' => 470,
+                'person_id' => 1738,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            14 => 
+            array (
+                'crew_id' => 520,
+                'movie_id' => 471,
+                'person_id' => 1793,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            15 => 
+            array (
+                'crew_id' => 521,
+                'movie_id' => 472,
+                'person_id' => 1794,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            16 => 
+            array (
+                'crew_id' => 522,
+                'movie_id' => 473,
+                'person_id' => 1795,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            17 => 
+            array (
+                'crew_id' => 523,
+                'movie_id' => 474,
+                'person_id' => 1508,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            18 => 
+            array (
+                'crew_id' => 524,
+                'movie_id' => 475,
+                'person_id' => 1053,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            19 => 
+            array (
+                'crew_id' => 525,
+                'movie_id' => 477,
+                'person_id' => 1699,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            20 => 
+            array (
+                'crew_id' => 526,
+                'movie_id' => 478,
+                'person_id' => 1699,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            21 => 
+            array (
+                'crew_id' => 527,
+                'movie_id' => 479,
+                'person_id' => 1699,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            22 => 
+            array (
+                'crew_id' => 528,
+                'movie_id' => 480,
+                'person_id' => 1688,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            23 => 
+            array (
+                'crew_id' => 529,
+                'movie_id' => 481,
+                'person_id' => 1588,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            24 => 
+            array (
+                'crew_id' => 530,
+                'movie_id' => 482,
+                'person_id' => 1770,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            25 => 
+            array (
+                'crew_id' => 531,
+                'movie_id' => 483,
+                'person_id' => 1796,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            26 => 
+            array (
+                'crew_id' => 532,
+                'movie_id' => 484,
+                'person_id' => 1677,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            27 => 
+            array (
+                'crew_id' => 533,
+                'movie_id' => 485,
+                'person_id' => 1714,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            28 => 
+            array (
+                'crew_id' => 534,
+                'movie_id' => 486,
+                'person_id' => 1797,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            29 => 
+            array (
+                'crew_id' => 535,
+                'movie_id' => 487,
+                'person_id' => 1613,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            30 => 
+            array (
+                'crew_id' => 536,
+                'movie_id' => 488,
+                'person_id' => 1584,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            31 => 
+            array (
+                'crew_id' => 537,
+                'movie_id' => 489,
+                'person_id' => 1798,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            32 => 
+            array (
+                'crew_id' => 538,
+                'movie_id' => 490,
+                'person_id' => 1574,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            33 => 
+            array (
+                'crew_id' => 539,
+                'movie_id' => 491,
+                'person_id' => 1799,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            34 => 
+            array (
+                'crew_id' => 540,
+                'movie_id' => 492,
+                'person_id' => 70,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            35 => 
+            array (
+                'crew_id' => 541,
+                'movie_id' => 493,
+                'person_id' => 1659,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            36 => 
+            array (
+                'crew_id' => 542,
+                'movie_id' => 494,
+                'person_id' => 1663,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            37 => 
+            array (
+                'crew_id' => 543,
+                'movie_id' => 495,
+                'person_id' => 1676,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            38 => 
+            array (
+                'crew_id' => 544,
+                'movie_id' => 496,
+                'person_id' => 1664,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            39 => 
+            array (
+                'crew_id' => 545,
+                'movie_id' => 497,
+                'person_id' => 1800,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            40 => 
+            array (
+                'crew_id' => 546,
+                'movie_id' => 498,
+                'person_id' => 39,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            41 => 
+            array (
+                'crew_id' => 547,
+                'movie_id' => 499,
+                'person_id' => 1663,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            42 => 
+            array (
+                'crew_id' => 548,
+                'movie_id' => 500,
+                'person_id' => 1801,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            43 => 
+            array (
+                'crew_id' => 549,
+                'movie_id' => 501,
+                'person_id' => 1279,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            44 => 
+            array (
+                'crew_id' => 550,
+                'movie_id' => 502,
+                'person_id' => 1689,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            45 => 
+            array (
+                'crew_id' => 551,
+                'movie_id' => 503,
+                'person_id' => 1227,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            46 => 
+            array (
+                'crew_id' => 552,
+                'movie_id' => 504,
+                'person_id' => 187,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            47 => 
+            array (
+                'crew_id' => 553,
+                'movie_id' => 505,
+                'person_id' => 269,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            48 => 
+            array (
+                'crew_id' => 554,
+                'movie_id' => 506,
+                'person_id' => 1613,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            49 => 
+            array (
+                'crew_id' => 555,
+                'movie_id' => 507,
+                'person_id' => 1670,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            50 => 
+            array (
+                'crew_id' => 556,
+                'movie_id' => 508,
+                'person_id' => 1802,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            51 => 
+            array (
+                'crew_id' => 557,
+                'movie_id' => 509,
+                'person_id' => 1802,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            52 => 
+            array (
+                'crew_id' => 558,
+                'movie_id' => 510,
+                'person_id' => 1802,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            53 => 
+            array (
+                'crew_id' => 559,
+                'movie_id' => 511,
+                'person_id' => 105,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            54 => 
+            array (
+                'crew_id' => 560,
+                'movie_id' => 512,
+                'person_id' => 165,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            55 => 
+            array (
+                'crew_id' => 561,
+                'movie_id' => 513,
+                'person_id' => 1053,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            56 => 
+            array (
+                'crew_id' => 562,
+                'movie_id' => 514,
+                'person_id' => 1803,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            57 => 
+            array (
+                'crew_id' => 563,
+                'movie_id' => 515,
+                'person_id' => 165,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            58 => 
+            array (
+                'crew_id' => 564,
+                'movie_id' => 516,
+                'person_id' => 1804,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            59 => 
+            array (
+                'crew_id' => 565,
+                'movie_id' => 517,
+                'person_id' => 1805,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            60 => 
+            array (
+                'crew_id' => 566,
+                'movie_id' => 518,
+                'person_id' => 1806,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            61 => 
+            array (
+                'crew_id' => 567,
+                'movie_id' => 519,
+                'person_id' => 1807,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            62 => 
+            array (
+                'crew_id' => 568,
+                'movie_id' => 520,
+                'person_id' => 1792,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            63 => 
+            array (
+                'crew_id' => 569,
+                'movie_id' => 521,
+                'person_id' => 1808,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
