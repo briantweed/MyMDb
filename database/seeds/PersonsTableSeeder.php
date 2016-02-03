@@ -13263,7 +13263,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
             ),
             96 => 
             array (
-                'person_id' => 1102,
+                'person_id' => 1103,
                 'forename' => 'Gabrielle',
                 'surname' => 'Union',
                 'birthday' => '1972-10-29',
@@ -13275,18 +13275,6 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
             ),
             97 => 
             array (
-                'person_id' => 1103,
-                'forename' => 'Gabrielle',
-                'surname' => 'Union',
-                'birthday' => '1972-10-29',
-                'deceased' => NULL,
-                'image' => 'Gabrielle_Union_1454013958.jpg',
-            'bio' => 'Gabrielle Union was born on October 29, 1972, in Omaha, Nebraska, to Theresa (Glass), who managed a phone company, and Sylvester E. Union, a military sergeant and business executive. At the age of 8, her family moved to Pleasanton, California, where she grew up and attended high school. In high school, Union was an all-star point guard and a year-round athlete participating in soccer, basketball, and track. After high school, Gabrielle attended college at University of Nebraska, where she played on the soccer team; and then later transferred to Cuesta College. Eventually, she ended up at UCLA. On her way to law school, just planning on being a working stiff, things started to happen during her senior year. Gabrielle had a college internship at a L.A. modeling agency, she thought it would be an easy way to pick up some extra credits. Little did she know that clients were eying the help. Upon the completion of the internship, she was asked to become a client with the agency. Gabby though ....',
-                'created_at' => '2016-01-28 20:45:58',
-                'updated_at' => '2016-01-28 20:45:58',
-            ),
-            98 => 
-            array (
                 'person_id' => 1104,
                 'forename' => 'Otto',
                 'surname' => 'Sanchez',
@@ -13297,7 +13285,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:46:07',
                 'updated_at' => '2016-01-28 20:46:07',
             ),
-            99 => 
+            98 => 
             array (
                 'person_id' => 1105,
                 'forename' => 'Henry',
@@ -13309,7 +13297,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:46:17',
                 'updated_at' => '2016-01-28 20:46:17',
             ),
-            100 => 
+            99 => 
             array (
                 'person_id' => 1106,
                 'forename' => 'Kim',
@@ -13321,7 +13309,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:46:50',
                 'updated_at' => '2016-01-28 20:46:50',
             ),
-            101 => 
+            100 => 
             array (
                 'person_id' => 1107,
                 'forename' => 'Michael',
@@ -13333,7 +13321,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:47:15',
                 'updated_at' => '2016-01-28 20:47:15',
             ),
-            102 => 
+            101 => 
             array (
                 'person_id' => 1108,
                 'forename' => 'Jerry',
@@ -13345,7 +13333,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:47:24',
                 'updated_at' => '2016-01-28 20:47:24',
             ),
-            103 => 
+            102 => 
             array (
                 'person_id' => 1109,
                 'forename' => 'Danny',
@@ -13357,7 +13345,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:48:16',
                 'updated_at' => '2016-01-28 20:48:16',
             ),
-            104 => 
+            103 => 
             array (
                 'person_id' => 1110,
                 'forename' => 'Michelle',
@@ -13369,7 +13357,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:48:23',
                 'updated_at' => '2016-01-28 20:48:23',
             ),
-            105 => 
+            104 => 
             array (
                 'person_id' => 1111,
                 'forename' => 'Christopher',
@@ -13381,7 +13369,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:48:35',
                 'updated_at' => '2016-01-28 20:48:35',
             ),
-            106 => 
+            105 => 
             array (
                 'person_id' => 1112,
                 'forename' => 'Chris',
@@ -13393,7 +13381,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:49:13',
                 'updated_at' => '2016-01-28 20:49:13',
             ),
-            107 => 
+            106 => 
             array (
                 'person_id' => 1113,
                 'forename' => 'Rene',
@@ -13405,7 +13393,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:49:25',
                 'updated_at' => '2016-01-28 20:49:25',
             ),
-            108 => 
+            107 => 
             array (
                 'person_id' => 1114,
                 'forename' => 'George',
@@ -13417,7 +13405,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:50:27',
                 'updated_at' => '2016-01-28 20:50:27',
             ),
-            109 => 
+            108 => 
             array (
                 'person_id' => 1115,
                 'forename' => 'Uma',
@@ -13429,7 +13417,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:50:43',
                 'updated_at' => '2016-01-28 20:50:43',
             ),
-            110 => 
+            109 => 
             array (
                 'person_id' => 1116,
                 'forename' => 'Alicia',
@@ -13441,7 +13429,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:50:58',
                 'updated_at' => '2016-01-28 20:50:58',
             ),
-            111 => 
+            110 => 
             array (
                 'person_id' => 1117,
                 'forename' => 'Vivica A.',
@@ -13453,7 +13441,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:51:16',
                 'updated_at' => '2016-01-28 20:51:16',
             ),
-            112 => 
+            111 => 
             array (
                 'person_id' => 1118,
                 'forename' => 'John',
@@ -13465,7 +13453,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:51:53',
                 'updated_at' => '2016-01-28 20:51:53',
             ),
-            113 => 
+            112 => 
             array (
                 'person_id' => 1119,
                 'forename' => 'Catherine',
@@ -13477,7 +13465,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:52:05',
                 'updated_at' => '2016-01-28 20:52:05',
             ),
-            114 => 
+            113 => 
             array (
                 'person_id' => 1120,
                 'forename' => 'Robin',
@@ -13489,7 +13477,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:52:36',
                 'updated_at' => '2016-01-28 20:52:36',
             ),
-            115 => 
+            114 => 
             array (
                 'person_id' => 1121,
                 'forename' => 'Anthony',
@@ -13501,7 +13489,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:52:45',
                 'updated_at' => '2016-01-28 20:52:45',
             ),
-            116 => 
+            115 => 
             array (
                 'person_id' => 1122,
                 'forename' => 'Tommy &#039;Tiny&#039;',
@@ -13513,7 +13501,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 20:59:33',
                 'updated_at' => '2016-01-28 20:59:33',
             ),
-            117 => 
+            116 => 
             array (
                 'person_id' => 1123,
                 'forename' => 'Anne',
@@ -13525,7 +13513,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:01:03',
                 'updated_at' => '2016-01-28 21:01:03',
             ),
-            118 => 
+            117 => 
             array (
                 'person_id' => 1124,
                 'forename' => 'Gretchen',
@@ -13537,7 +13525,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:01:15',
                 'updated_at' => '2016-01-28 21:01:15',
             ),
-            119 => 
+            118 => 
             array (
                 'person_id' => 1125,
                 'forename' => 'Alison',
@@ -13549,7 +13537,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:02:14',
                 'updated_at' => '2016-01-28 21:02:14',
             ),
-            120 => 
+            119 => 
             array (
                 'person_id' => 1126,
                 'forename' => 'Martin',
@@ -13561,7 +13549,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:04:23',
                 'updated_at' => '2016-01-28 21:04:23',
             ),
-            121 => 
+            120 => 
             array (
                 'person_id' => 1127,
                 'forename' => 'Sarah Jessica',
@@ -13573,7 +13561,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:04:33',
                 'updated_at' => '2016-01-28 21:04:33',
             ),
-            122 => 
+            121 => 
             array (
                 'person_id' => 1128,
                 'forename' => 'Patricia',
@@ -13585,7 +13573,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:04:45',
                 'updated_at' => '2016-01-28 21:04:45',
             ),
-            123 => 
+            122 => 
             array (
                 'person_id' => 1129,
                 'forename' => 'Jeffrey',
@@ -13597,7 +13585,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:04:54',
                 'updated_at' => '2016-01-28 21:04:54',
             ),
-            124 => 
+            123 => 
             array (
                 'person_id' => 1130,
                 'forename' => 'Lisa',
@@ -13609,7 +13597,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:05:09',
                 'updated_at' => '2016-01-28 21:05:09',
             ),
-            125 => 
+            124 => 
             array (
                 'person_id' => 1131,
                 'forename' => 'Dianne',
@@ -13621,7 +13609,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:06:09',
                 'updated_at' => '2016-01-28 21:06:09',
             ),
-            126 => 
+            125 => 
             array (
                 'person_id' => 1132,
                 'forename' => 'Vincent',
@@ -13633,7 +13621,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:07:21',
                 'updated_at' => '2016-01-28 21:07:21',
             ),
-            127 => 
+            126 => 
             array (
                 'person_id' => 1133,
                 'forename' => 'Anthony',
@@ -13645,7 +13633,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:08:33',
                 'updated_at' => '2016-01-28 21:08:33',
             ),
-            128 => 
+            127 => 
             array (
                 'person_id' => 1134,
                 'forename' => 'Maxwell',
@@ -13657,7 +13645,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:08:41',
                 'updated_at' => '2016-01-28 21:08:41',
             ),
-            129 => 
+            128 => 
             array (
                 'person_id' => 1135,
                 'forename' => 'Johnny',
@@ -13669,7 +13657,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:08:50',
                 'updated_at' => '2016-01-28 21:08:50',
             ),
-            130 => 
+            129 => 
             array (
                 'person_id' => 1136,
                 'forename' => 'Robin',
@@ -13681,7 +13669,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:09:01',
                 'updated_at' => '2016-01-28 21:09:01',
             ),
-            131 => 
+            130 => 
             array (
                 'person_id' => 1137,
                 'forename' => 'Ren&eacute;e',
@@ -13693,7 +13681,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:09:16',
                 'updated_at' => '2016-01-28 21:09:16',
             ),
-            132 => 
+            131 => 
             array (
                 'person_id' => 1138,
                 'forename' => 'Gabriel',
@@ -13705,7 +13693,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:10:31',
                 'updated_at' => '2016-01-28 21:10:31',
             ),
-            133 => 
+            132 => 
             array (
                 'person_id' => 1139,
                 'forename' => 'Jamie',
@@ -13717,7 +13705,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:10:41',
                 'updated_at' => '2016-01-28 21:10:41',
             ),
-            134 => 
+            133 => 
             array (
                 'person_id' => 1140,
                 'forename' => 'Julia',
@@ -13729,7 +13717,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:12:00',
                 'updated_at' => '2016-01-28 21:12:00',
             ),
-            135 => 
+            134 => 
             array (
                 'person_id' => 1141,
                 'forename' => 'Kirsten',
@@ -13741,7 +13729,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:12:51',
                 'updated_at' => '2016-01-28 21:12:51',
             ),
-            136 => 
+            135 => 
             array (
                 'person_id' => 1142,
                 'forename' => 'Gina',
@@ -13753,7 +13741,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:15:22',
                 'updated_at' => '2016-01-28 21:15:22',
             ),
-            137 => 
+            136 => 
             array (
                 'person_id' => 1143,
                 'forename' => 'Dominique',
@@ -13765,7 +13753,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:15:35',
                 'updated_at' => '2016-01-28 21:15:35',
             ),
-            138 => 
+            137 => 
             array (
                 'person_id' => 1144,
                 'forename' => 'Nick',
@@ -13777,7 +13765,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:15:45',
                 'updated_at' => '2016-01-28 21:15:45',
             ),
-            139 => 
+            138 => 
             array (
                 'person_id' => 1145,
                 'forename' => 'Steve',
@@ -13789,7 +13777,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:17:29',
                 'updated_at' => '2016-01-28 21:17:29',
             ),
-            140 => 
+            139 => 
             array (
                 'person_id' => 1146,
                 'forename' => 'Kimberly',
@@ -13801,7 +13789,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:17:42',
                 'updated_at' => '2016-01-28 21:17:42',
             ),
-            141 => 
+            140 => 
             array (
                 'person_id' => 1147,
                 'forename' => 'Kieran',
@@ -13813,7 +13801,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:17:52',
                 'updated_at' => '2016-01-28 21:17:52',
             ),
-            142 => 
+            141 => 
             array (
                 'person_id' => 1148,
                 'forename' => 'Martin',
@@ -13825,7 +13813,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:18:03',
                 'updated_at' => '2016-01-28 21:18:03',
             ),
-            143 => 
+            142 => 
             array (
                 'person_id' => 1149,
                 'forename' => 'Tobey',
@@ -13837,7 +13825,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:20:01',
                 'updated_at' => '2016-01-28 21:20:01',
             ),
-            144 => 
+            143 => 
             array (
                 'person_id' => 1150,
                 'forename' => 'Gary',
@@ -13849,7 +13837,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:20:12',
                 'updated_at' => '2016-01-28 21:20:12',
             ),
-            145 => 
+            144 => 
             array (
                 'person_id' => 1151,
                 'forename' => 'Alan',
@@ -13861,7 +13849,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:21:00',
                 'updated_at' => '2016-01-28 21:21:00',
             ),
-            146 => 
+            145 => 
             array (
                 'person_id' => 1152,
                 'forename' => 'Mia',
@@ -13873,7 +13861,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:21:11',
                 'updated_at' => '2016-01-28 21:21:11',
             ),
-            147 => 
+            146 => 
             array (
                 'person_id' => 1153,
                 'forename' => 'Edie',
@@ -13885,7 +13873,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:21:26',
                 'updated_at' => '2016-01-28 21:21:26',
             ),
-            148 => 
+            147 => 
             array (
                 'person_id' => 1154,
                 'forename' => 'Rachel',
@@ -13897,7 +13885,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:22:50',
                 'updated_at' => '2016-01-28 21:22:50',
             ),
-            149 => 
+            148 => 
             array (
                 'person_id' => 1155,
                 'forename' => 'Tuesday',
@@ -13909,7 +13897,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:23:09',
                 'updated_at' => '2016-01-28 21:23:09',
             ),
-            150 => 
+            149 => 
             array (
                 'person_id' => 1156,
                 'forename' => 'Jessica',
@@ -13921,7 +13909,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:24:55',
                 'updated_at' => '2016-01-28 21:24:55',
             ),
-            151 => 
+            150 => 
             array (
                 'person_id' => 1157,
                 'forename' => 'Michael',
@@ -13933,7 +13921,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:25:04',
                 'updated_at' => '2016-01-28 21:25:04',
             ),
-            152 => 
+            151 => 
             array (
                 'person_id' => 1158,
                 'forename' => 'Julian',
@@ -13945,7 +13933,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:25:13',
                 'updated_at' => '2016-01-28 21:25:13',
             ),
-            153 => 
+            152 => 
             array (
                 'person_id' => 1159,
                 'forename' => 'Devon',
@@ -13957,7 +13945,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:33:49',
                 'updated_at' => '2016-01-28 21:33:49',
             ),
-            154 => 
+            153 => 
             array (
                 'person_id' => 1160,
                 'forename' => 'Ali',
@@ -13969,7 +13957,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:33:59',
                 'updated_at' => '2016-01-28 21:33:59',
             ),
-            155 => 
+            154 => 
             array (
                 'person_id' => 1161,
                 'forename' => 'Kerr',
@@ -13981,7 +13969,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:34:19',
                 'updated_at' => '2016-01-28 21:34:19',
             ),
-            156 => 
+            155 => 
             array (
                 'person_id' => 1162,
                 'forename' => 'Jamie Lee',
@@ -13993,7 +13981,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:35:51',
                 'updated_at' => '2016-01-28 21:35:51',
             ),
-            157 => 
+            156 => 
             array (
                 'person_id' => 1163,
                 'forename' => 'Kevin',
@@ -14005,7 +13993,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:36:01',
                 'updated_at' => '2016-01-28 21:36:01',
             ),
-            158 => 
+            157 => 
             array (
                 'person_id' => 1164,
                 'forename' => 'Michael',
@@ -14017,7 +14005,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:36:12',
                 'updated_at' => '2016-01-28 21:36:12',
             ),
-            159 => 
+            158 => 
             array (
                 'person_id' => 1165,
                 'forename' => 'Gary',
@@ -14029,7 +14017,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:38:05',
                 'updated_at' => '2016-01-28 21:38:05',
             ),
-            160 => 
+            159 => 
             array (
                 'person_id' => 1166,
                 'forename' => 'Dj',
@@ -14041,7 +14029,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:39:07',
                 'updated_at' => '2016-01-28 21:39:07',
             ),
-            161 => 
+            160 => 
             array (
                 'person_id' => 1167,
                 'forename' => 'F. Gary',
@@ -14053,7 +14041,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:39:36',
                 'updated_at' => '2016-01-28 21:39:36',
             ),
-            162 => 
+            161 => 
             array (
                 'person_id' => 1168,
                 'forename' => 'Quentin',
@@ -14065,7 +14053,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:41:40',
                 'updated_at' => '2016-01-28 21:41:40',
             ),
-            163 => 
+            162 => 
             array (
                 'person_id' => 1169,
                 'forename' => 'Juliette',
@@ -14077,7 +14065,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:41:48',
                 'updated_at' => '2016-01-28 21:41:48',
             ),
-            164 => 
+            163 => 
             array (
                 'person_id' => 1170,
                 'forename' => 'Salma',
@@ -14089,7 +14077,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:41:56',
                 'updated_at' => '2016-01-28 21:41:56',
             ),
-            165 => 
+            164 => 
             array (
                 'person_id' => 1171,
                 'forename' => 'Danny',
@@ -14101,7 +14089,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:42:05',
                 'updated_at' => '2016-01-28 21:42:05',
             ),
-            166 => 
+            165 => 
             array (
                 'person_id' => 1172,
                 'forename' => 'Tom',
@@ -14113,7 +14101,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:42:13',
                 'updated_at' => '2016-01-28 21:42:13',
             ),
-            167 => 
+            166 => 
             array (
                 'person_id' => 1173,
                 'forename' => 'Fred',
@@ -14125,7 +14113,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:42:24',
                 'updated_at' => '2016-01-28 21:42:24',
             ),
-            168 => 
+            167 => 
             array (
                 'person_id' => 1174,
                 'forename' => 'Kelly',
@@ -14137,7 +14125,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:42:37',
                 'updated_at' => '2016-01-28 21:42:37',
             ),
-            169 => 
+            168 => 
             array (
                 'person_id' => 1175,
                 'forename' => 'Deborah Kara',
@@ -14149,7 +14137,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:44:10',
                 'updated_at' => '2016-01-28 21:44:10',
             ),
-            170 => 
+            169 => 
             array (
                 'person_id' => 1176,
                 'forename' => 'Rene',
@@ -14161,7 +14149,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:45:11',
                 'updated_at' => '2016-01-28 21:45:11',
             ),
-            171 => 
+            170 => 
             array (
                 'person_id' => 1177,
                 'forename' => 'Delroy',
@@ -14173,7 +14161,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:45:20',
                 'updated_at' => '2016-01-28 21:45:20',
             ),
-            172 => 
+            171 => 
             array (
                 'person_id' => 1178,
                 'forename' => 'Bette',
@@ -14185,7 +14173,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:45:40',
                 'updated_at' => '2016-01-28 21:45:40',
             ),
-            173 => 
+            172 => 
             array (
                 'person_id' => 1179,
                 'forename' => 'Demi',
@@ -14197,7 +14185,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:46:27',
                 'updated_at' => '2016-01-28 21:46:27',
             ),
-            174 => 
+            173 => 
             array (
                 'person_id' => 1180,
                 'forename' => 'Vincent',
@@ -14209,7 +14197,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:46:49',
                 'updated_at' => '2016-01-28 21:46:49',
             ),
-            175 => 
+            174 => 
             array (
                 'person_id' => 1181,
                 'forename' => 'Tony',
@@ -14221,7 +14209,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:47:00',
                 'updated_at' => '2016-01-28 21:47:00',
             ),
-            176 => 
+            175 => 
             array (
                 'person_id' => 1182,
                 'forename' => 'Peter',
@@ -14233,7 +14221,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:48:13',
                 'updated_at' => '2016-01-28 21:48:13',
             ),
-            177 => 
+            176 => 
             array (
                 'person_id' => 1183,
                 'forename' => 'Harris',
@@ -14245,7 +14233,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:48:22',
                 'updated_at' => '2016-01-28 21:48:22',
             ),
-            178 => 
+            177 => 
             array (
                 'person_id' => 1184,
                 'forename' => 'Jennifer',
@@ -14257,7 +14245,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:49:08',
                 'updated_at' => '2016-01-28 21:49:08',
             ),
-            179 => 
+            178 => 
             array (
                 'person_id' => 1185,
                 'forename' => 'Breckin',
@@ -14269,7 +14257,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:49:18',
                 'updated_at' => '2016-01-28 21:49:18',
             ),
-            180 => 
+            179 => 
             array (
                 'person_id' => 1186,
                 'forename' => 'Lacey',
@@ -14281,7 +14269,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:49:30',
                 'updated_at' => '2016-01-28 21:49:30',
             ),
-            181 => 
+            180 => 
             array (
                 'person_id' => 1187,
                 'forename' => 'Robert',
@@ -14293,7 +14281,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:49:40',
                 'updated_at' => '2016-01-28 21:49:40',
             ),
-            182 => 
+            181 => 
             array (
                 'person_id' => 1188,
                 'forename' => 'Anne',
@@ -14305,7 +14293,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:49:48',
                 'updated_at' => '2016-01-28 21:49:48',
             ),
-            183 => 
+            182 => 
             array (
                 'person_id' => 1189,
                 'forename' => 'Joaquin',
@@ -14317,7 +14305,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:50:53',
                 'updated_at' => '2016-01-28 21:50:53',
             ),
-            184 => 
+            183 => 
             array (
                 'person_id' => 1190,
                 'forename' => 'Connie',
@@ -14329,7 +14317,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:51:03',
                 'updated_at' => '2016-01-28 21:51:03',
             ),
-            185 => 
+            184 => 
             array (
                 'person_id' => 1191,
                 'forename' => 'Oliver',
@@ -14341,7 +14329,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:51:20',
                 'updated_at' => '2016-01-28 21:51:20',
             ),
-            186 => 
+            185 => 
             array (
                 'person_id' => 1192,
                 'forename' => 'Omid',
@@ -14353,7 +14341,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:51:36',
                 'updated_at' => '2016-01-28 21:51:36',
             ),
-            187 => 
+            186 => 
             array (
                 'person_id' => 1193,
                 'forename' => 'Sarah',
@@ -14365,7 +14353,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:52:27',
                 'updated_at' => '2016-01-28 21:52:27',
             ),
-            188 => 
+            187 => 
             array (
                 'person_id' => 1194,
                 'forename' => 'Scott',
@@ -14377,7 +14365,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:52:42',
                 'updated_at' => '2016-01-28 21:52:42',
             ),
-            189 => 
+            188 => 
             array (
                 'person_id' => 1195,
                 'forename' => 'Timothy',
@@ -14389,7 +14377,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:52:52',
                 'updated_at' => '2016-01-28 21:52:52',
             ),
-            190 => 
+            189 => 
             array (
                 'person_id' => 1196,
                 'forename' => 'Melissa',
@@ -14401,7 +14389,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:53:12',
                 'updated_at' => '2016-01-28 21:53:12',
             ),
-            191 => 
+            190 => 
             array (
                 'person_id' => 1197,
                 'forename' => 'Charlotte',
@@ -14413,7 +14401,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:54:27',
                 'updated_at' => '2016-01-28 21:54:27',
             ),
-            192 => 
+            191 => 
             array (
                 'person_id' => 1198,
                 'forename' => 'Robin',
@@ -14425,7 +14413,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:55:32',
                 'updated_at' => '2016-01-28 21:55:32',
             ),
-            193 => 
+            192 => 
             array (
                 'person_id' => 1199,
                 'forename' => 'Minnie',
@@ -14437,7 +14425,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:55:39',
                 'updated_at' => '2016-01-28 21:55:39',
             ),
-            194 => 
+            193 => 
             array (
                 'person_id' => 1200,
                 'forename' => 'Casey',
@@ -14449,7 +14437,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:55:47',
                 'updated_at' => '2016-01-28 21:55:47',
             ),
-            195 => 
+            194 => 
             array (
                 'person_id' => 1201,
                 'forename' => 'Cole',
@@ -14461,7 +14449,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 21:55:56',
                 'updated_at' => '2016-01-28 21:55:56',
             ),
-            196 => 
+            195 => 
             array (
                 'person_id' => 1202,
                 'forename' => 'Ed',
@@ -14473,7 +14461,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:46:26',
                 'updated_at' => '2016-01-28 22:46:26',
             ),
-            197 => 
+            196 => 
             array (
                 'person_id' => 1203,
                 'forename' => 'Amy',
@@ -14485,7 +14473,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:46:34',
                 'updated_at' => '2016-01-28 22:46:34',
             ),
-            198 => 
+            197 => 
             array (
                 'person_id' => 1204,
                 'forename' => 'Jeff',
@@ -14497,7 +14485,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:47:38',
                 'updated_at' => '2016-01-28 22:47:38',
             ),
-            199 => 
+            198 => 
             array (
                 'person_id' => 1205,
                 'forename' => 'Corey',
@@ -14509,7 +14497,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:47:49',
                 'updated_at' => '2016-01-28 22:47:49',
             ),
-            200 => 
+            199 => 
             array (
                 'person_id' => 1206,
                 'forename' => 'Jonathan Ke',
@@ -14521,7 +14509,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:48:03',
                 'updated_at' => '2016-01-28 22:48:03',
             ),
-            201 => 
+            200 => 
             array (
                 'person_id' => 1207,
                 'forename' => 'Anne',
@@ -14533,7 +14521,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:48:20',
                 'updated_at' => '2016-01-28 22:48:20',
             ),
-            202 => 
+            201 => 
             array (
                 'person_id' => 1208,
                 'forename' => 'Olivia',
@@ -14545,7 +14533,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:49:19',
                 'updated_at' => '2016-01-28 22:49:19',
             ),
-            203 => 
+            202 => 
             array (
                 'person_id' => 1209,
                 'forename' => 'Peter',
@@ -14557,7 +14545,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:50:11',
                 'updated_at' => '2016-01-28 22:50:11',
             ),
-            204 => 
+            203 => 
             array (
                 'person_id' => 1210,
                 'forename' => 'Tim',
@@ -14569,7 +14557,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:50:20',
                 'updated_at' => '2016-01-28 22:50:20',
             ),
-            205 => 
+            204 => 
             array (
                 'person_id' => 1211,
                 'forename' => 'Clancy',
@@ -14581,7 +14569,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:50:42',
                 'updated_at' => '2016-01-28 22:50:42',
             ),
-            206 => 
+            205 => 
             array (
                 'person_id' => 1212,
                 'forename' => 'Andie',
@@ -14593,7 +14581,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:51:45',
                 'updated_at' => '2016-01-28 22:51:45',
             ),
-            207 => 
+            206 => 
             array (
                 'person_id' => 1213,
                 'forename' => 'Chris',
@@ -14605,7 +14593,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:51:56',
                 'updated_at' => '2016-01-28 22:51:56',
             ),
-            208 => 
+            207 => 
             array (
                 'person_id' => 1214,
                 'forename' => 'Brian',
@@ -14617,7 +14605,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:52:06',
                 'updated_at' => '2016-01-28 22:52:06',
             ),
-            209 => 
+            208 => 
             array (
                 'person_id' => 1215,
                 'forename' => 'Christopher',
@@ -14629,7 +14617,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:53:10',
                 'updated_at' => '2016-01-28 22:53:10',
             ),
-            210 => 
+            209 => 
             array (
                 'person_id' => 1216,
                 'forename' => 'Julie',
@@ -14641,7 +14629,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:53:19',
                 'updated_at' => '2016-01-28 22:53:19',
             ),
-            211 => 
+            210 => 
             array (
                 'person_id' => 1217,
                 'forename' => 'Frances',
@@ -14653,7 +14641,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:53:46',
                 'updated_at' => '2016-01-28 22:53:46',
             ),
-            212 => 
+            211 => 
             array (
                 'person_id' => 1218,
                 'forename' => 'Carl',
@@ -14665,7 +14653,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:53:57',
                 'updated_at' => '2016-01-28 22:53:57',
             ),
-            213 => 
+            212 => 
             array (
                 'person_id' => 1219,
                 'forename' => 'Ben',
@@ -14677,7 +14665,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:54:12',
                 'updated_at' => '2016-01-28 22:54:12',
             ),
-            214 => 
+            213 => 
             array (
                 'person_id' => 1220,
                 'forename' => 'Ashley',
@@ -14689,7 +14677,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:55:34',
                 'updated_at' => '2016-01-28 22:55:34',
             ),
-            215 => 
+            214 => 
             array (
                 'person_id' => 1221,
                 'forename' => 'Richard S.',
@@ -14701,7 +14689,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:56:59',
                 'updated_at' => '2016-01-28 22:56:59',
             ),
-            216 => 
+            215 => 
             array (
                 'person_id' => 1222,
                 'forename' => 'Abe',
@@ -14713,7 +14701,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:57:18',
                 'updated_at' => '2016-01-28 22:57:18',
             ),
-            217 => 
+            216 => 
             array (
                 'person_id' => 1223,
                 'forename' => 'Talia',
@@ -14725,7 +14713,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 22:57:28',
                 'updated_at' => '2016-01-28 22:57:28',
             ),
-            218 => 
+            217 => 
             array (
                 'person_id' => 1224,
                 'forename' => 'Lee',
@@ -14737,7 +14725,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 23:18:24',
                 'updated_at' => '2016-01-28 23:18:24',
             ),
-            219 => 
+            218 => 
             array (
                 'person_id' => 1225,
                 'forename' => 'Andy',
@@ -14749,7 +14737,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 23:20:49',
                 'updated_at' => '2016-01-28 23:20:49',
             ),
-            220 => 
+            219 => 
             array (
                 'person_id' => 1226,
                 'forename' => 'Bridget',
@@ -14761,7 +14749,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-28 23:20:58',
                 'updated_at' => '2016-01-28 23:20:58',
             ),
-            221 => 
+            220 => 
             array (
                 'person_id' => 1227,
                 'forename' => 'Clint',
@@ -14773,7 +14761,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-29 13:21:13',
                 'updated_at' => '2016-01-29 13:21:13',
             ),
-            222 => 
+            221 => 
             array (
                 'person_id' => 1228,
                 'forename' => 'Andrew',
@@ -14785,7 +14773,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-29 13:21:31',
                 'updated_at' => '2016-01-29 13:21:31',
             ),
-            223 => 
+            222 => 
             array (
                 'person_id' => 1229,
                 'forename' => 'David',
@@ -14797,7 +14785,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-29 13:23:14',
                 'updated_at' => '2016-01-29 13:23:14',
             ),
-            224 => 
+            223 => 
             array (
                 'person_id' => 1230,
                 'forename' => 'Marc',
@@ -14809,7 +14797,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-01-29 13:26:35',
                 'updated_at' => '2016-01-29 13:26:35',
             ),
-            225 => 
+            224 => 
             array (
                 'person_id' => 1231,
                 'forename' => 'Zac',
@@ -14821,7 +14809,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:25:20',
                 'updated_at' => '2016-02-01 10:25:20',
             ),
-            226 => 
+            225 => 
             array (
                 'person_id' => 1232,
                 'forename' => 'Vanessa',
@@ -14833,7 +14821,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:25:30',
                 'updated_at' => '2016-02-01 10:25:30',
             ),
-            227 => 
+            226 => 
             array (
                 'person_id' => 1233,
                 'forename' => 'Amber',
@@ -14845,7 +14833,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:28:45',
                 'updated_at' => '2016-02-01 10:28:45',
             ),
-            228 => 
+            227 => 
             array (
                 'person_id' => 1234,
                 'forename' => 'MacAulay',
@@ -14857,7 +14845,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:29:35',
                 'updated_at' => '2016-02-01 10:29:35',
             ),
-            229 => 
+            228 => 
             array (
                 'person_id' => 1235,
                 'forename' => 'Daniel',
@@ -14869,7 +14857,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:29:45',
                 'updated_at' => '2016-02-01 10:29:45',
             ),
-            230 => 
+            229 => 
             array (
                 'person_id' => 1236,
                 'forename' => 'Christopher',
@@ -14881,7 +14869,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:30:47',
                 'updated_at' => '2016-02-01 10:30:47',
             ),
-            231 => 
+            230 => 
             array (
                 'person_id' => 1237,
                 'forename' => 'Sean',
@@ -14893,7 +14881,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:31:10',
                 'updated_at' => '2016-02-01 10:31:10',
             ),
-            232 => 
+            231 => 
             array (
                 'person_id' => 1238,
                 'forename' => 'Martin',
@@ -14905,7 +14893,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:32:22',
                 'updated_at' => '2016-02-01 10:32:22',
             ),
-            233 => 
+            232 => 
             array (
                 'person_id' => 1239,
                 'forename' => 'Gillian',
@@ -14917,7 +14905,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:33:44',
                 'updated_at' => '2016-02-01 10:33:44',
             ),
-            234 => 
+            233 => 
             array (
                 'person_id' => 1240,
                 'forename' => 'John',
@@ -14929,7 +14917,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:35:11',
                 'updated_at' => '2016-02-01 10:35:11',
             ),
-            235 => 
+            234 => 
             array (
                 'person_id' => 1241,
                 'forename' => 'Shaun',
@@ -14941,7 +14929,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:35:20',
                 'updated_at' => '2016-02-01 10:35:20',
             ),
-            236 => 
+            235 => 
             array (
                 'person_id' => 1242,
                 'forename' => 'Danny',
@@ -14953,7 +14941,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:35:28',
                 'updated_at' => '2016-02-01 10:35:28',
             ),
-            237 => 
+            236 => 
             array (
                 'person_id' => 1243,
                 'forename' => 'Rashida',
@@ -14965,7 +14953,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:36:35',
                 'updated_at' => '2016-02-01 10:36:35',
             ),
-            238 => 
+            237 => 
             array (
                 'person_id' => 1244,
                 'forename' => 'Jaime',
@@ -14977,7 +14965,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:36:46',
                 'updated_at' => '2016-02-01 10:36:46',
             ),
-            239 => 
+            238 => 
             array (
                 'person_id' => 1245,
                 'forename' => 'Bill',
@@ -14989,7 +14977,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:39:14',
                 'updated_at' => '2016-02-01 10:39:14',
             ),
-            240 => 
+            239 => 
             array (
                 'person_id' => 1246,
                 'forename' => 'Mary',
@@ -15001,7 +14989,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:39:23',
                 'updated_at' => '2016-02-01 10:39:23',
             ),
-            241 => 
+            240 => 
             array (
                 'person_id' => 1247,
                 'forename' => 'Randy',
@@ -15013,7 +15001,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:39:35',
                 'updated_at' => '2016-02-01 10:39:35',
             ),
-            242 => 
+            241 => 
             array (
                 'person_id' => 1248,
                 'forename' => 'Brent',
@@ -15025,7 +15013,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:39:47',
                 'updated_at' => '2016-02-01 10:39:47',
             ),
-            243 => 
+            242 => 
             array (
                 'person_id' => 1249,
                 'forename' => 'Harry Connick',
@@ -15037,7 +15025,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:40:00',
                 'updated_at' => '2016-02-01 10:40:00',
             ),
-            244 => 
+            243 => 
             array (
                 'person_id' => 1250,
                 'forename' => 'Karen',
@@ -15049,7 +15037,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:42:21',
                 'updated_at' => '2016-02-01 10:42:21',
             ),
-            245 => 
+            244 => 
             array (
                 'person_id' => 1251,
                 'forename' => 'Denholm',
@@ -15061,7 +15049,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:42:40',
                 'updated_at' => '2016-02-01 10:42:40',
             ),
-            246 => 
+            245 => 
             array (
                 'person_id' => 1252,
                 'forename' => 'Alison',
@@ -15073,7 +15061,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:45:32',
                 'updated_at' => '2016-02-01 10:45:32',
             ),
-            247 => 
+            246 => 
             array (
                 'person_id' => 1253,
                 'forename' => 'River',
@@ -15085,7 +15073,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:46:06',
                 'updated_at' => '2016-02-01 10:46:06',
             ),
-            248 => 
+            247 => 
             array (
                 'person_id' => 1254,
                 'forename' => 'Robert',
@@ -15097,7 +15085,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:47:11',
                 'updated_at' => '2016-02-01 10:47:11',
             ),
-            249 => 
+            248 => 
             array (
                 'person_id' => 1255,
                 'forename' => 'Catherine',
@@ -15109,7 +15097,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:48:24',
                 'updated_at' => '2016-02-01 10:48:24',
             ),
-            250 => 
+            249 => 
             array (
                 'person_id' => 1256,
                 'forename' => 'Rosie',
@@ -15121,7 +15109,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:49:24',
                 'updated_at' => '2016-02-01 10:49:24',
             ),
-            251 => 
+            250 => 
             array (
                 'person_id' => 1257,
                 'forename' => 'Wendell',
@@ -15133,7 +15121,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:49:32',
                 'updated_at' => '2016-02-01 10:49:32',
             ),
-            252 => 
+            251 => 
             array (
                 'person_id' => 1258,
                 'forename' => 'No&euml;l',
@@ -15145,7 +15133,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:50:28',
                 'updated_at' => '2016-02-01 10:50:28',
             ),
-            253 => 
+            252 => 
             array (
                 'person_id' => 1259,
                 'forename' => 'Christian',
@@ -15157,7 +15145,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:51:24',
                 'updated_at' => '2016-02-01 10:51:24',
             ),
-            254 => 
+            253 => 
             array (
                 'person_id' => 1260,
                 'forename' => 'Stephen',
@@ -15169,7 +15157,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:51:37',
                 'updated_at' => '2016-02-01 10:51:37',
             ),
-            255 => 
+            254 => 
             array (
                 'person_id' => 1261,
                 'forename' => 'Antonio',
@@ -15181,7 +15169,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:51:50',
                 'updated_at' => '2016-02-01 10:51:50',
             ),
-            256 => 
+            255 => 
             array (
                 'person_id' => 1262,
                 'forename' => 'Roy',
@@ -15193,7 +15181,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:53:32',
                 'updated_at' => '2016-02-01 10:53:32',
             ),
-            257 => 
+            256 => 
             array (
                 'person_id' => 1263,
                 'forename' => 'Robert',
@@ -15205,7 +15193,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:53:47',
                 'updated_at' => '2016-02-01 10:53:47',
             ),
-            258 => 
+            257 => 
             array (
                 'person_id' => 1264,
                 'forename' => 'Richard',
@@ -15217,7 +15205,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:53:57',
                 'updated_at' => '2016-02-01 10:53:57',
             ),
-            259 => 
+            258 => 
             array (
                 'person_id' => 1265,
                 'forename' => 'Ralph',
@@ -15229,7 +15217,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:55:42',
                 'updated_at' => '2016-02-01 10:55:42',
             ),
-            260 => 
+            259 => 
             array (
                 'person_id' => 1266,
                 'forename' => 'Pat',
@@ -15241,7 +15229,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:55:59',
                 'updated_at' => '2016-02-01 10:55:59',
             ),
-            261 => 
+            260 => 
             array (
                 'person_id' => 1267,
                 'forename' => 'Jaden',
@@ -15253,7 +15241,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:57:41',
                 'updated_at' => '2016-02-01 10:57:41',
             ),
-            262 => 
+            261 => 
             array (
                 'person_id' => 1268,
                 'forename' => 'David',
@@ -15265,7 +15253,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:58:55',
                 'updated_at' => '2016-02-01 10:58:55',
             ),
-            263 => 
+            262 => 
             array (
                 'person_id' => 1269,
                 'forename' => 'Wesley',
@@ -15277,7 +15265,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:59:05',
                 'updated_at' => '2016-02-01 10:59:05',
             ),
-            264 => 
+            263 => 
             array (
                 'person_id' => 1270,
                 'forename' => 'Giancarlo',
@@ -15289,7 +15277,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 10:59:14',
                 'updated_at' => '2016-02-01 10:59:14',
             ),
-            265 => 
+            264 => 
             array (
                 'person_id' => 1271,
                 'forename' => 'Sa&iuml;d',
@@ -15301,7 +15289,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:02:09',
                 'updated_at' => '2016-02-01 11:02:09',
             ),
-            266 => 
+            265 => 
             array (
                 'person_id' => 1272,
                 'forename' => 'David',
@@ -15313,7 +15301,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:03:44',
                 'updated_at' => '2016-02-01 11:03:44',
             ),
-            267 => 
+            266 => 
             array (
                 'person_id' => 1273,
                 'forename' => 'Danny',
@@ -15325,7 +15313,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:05:18',
                 'updated_at' => '2016-02-01 11:05:18',
             ),
-            268 => 
+            267 => 
             array (
                 'person_id' => 1274,
                 'forename' => 'Michael',
@@ -15337,7 +15325,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:05:31',
                 'updated_at' => '2016-02-01 11:05:31',
             ),
-            269 => 
+            268 => 
             array (
                 'person_id' => 1275,
                 'forename' => 'Danny',
@@ -15349,7 +15337,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:06:39',
                 'updated_at' => '2016-02-01 11:06:39',
             ),
-            270 => 
+            269 => 
             array (
                 'person_id' => 1276,
                 'forename' => 'Patsy',
@@ -15361,7 +15349,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:07:55',
                 'updated_at' => '2016-02-01 11:07:55',
             ),
-            271 => 
+            270 => 
             array (
                 'person_id' => 1277,
                 'forename' => 'Jet',
@@ -15373,7 +15361,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:09:44',
                 'updated_at' => '2016-02-01 11:09:44',
             ),
-            272 => 
+            271 => 
             array (
                 'person_id' => 1278,
                 'forename' => 'Graham',
@@ -15385,7 +15373,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:11:38',
                 'updated_at' => '2016-02-01 11:11:38',
             ),
-            273 => 
+            272 => 
             array (
                 'person_id' => 1279,
                 'forename' => 'Terry',
@@ -15397,7 +15385,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:11:51',
                 'updated_at' => '2016-02-01 11:11:51',
             ),
-            274 => 
+            273 => 
             array (
                 'person_id' => 1280,
                 'forename' => 'Eric',
@@ -15409,7 +15397,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:12:14',
                 'updated_at' => '2016-02-01 11:12:14',
             ),
-            275 => 
+            274 => 
             array (
                 'person_id' => 1281,
                 'forename' => 'Terry',
@@ -15421,7 +15409,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:12:30',
                 'updated_at' => '2016-02-01 11:12:30',
             ),
-            276 => 
+            275 => 
             array (
                 'person_id' => 1282,
                 'forename' => 'Nick',
@@ -15433,7 +15421,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:14:25',
                 'updated_at' => '2016-02-01 11:14:25',
             ),
-            277 => 
+            276 => 
             array (
                 'person_id' => 1283,
                 'forename' => 'Jason',
@@ -15445,7 +15433,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:14:33',
                 'updated_at' => '2016-02-01 11:14:33',
             ),
-            278 => 
+            277 => 
             array (
                 'person_id' => 1284,
                 'forename' => 'Sting',
@@ -15457,7 +15445,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:15:10',
                 'updated_at' => '2016-02-01 11:15:10',
             ),
-            279 => 
+            278 => 
             array (
                 'person_id' => 1285,
                 'forename' => 'Rob',
@@ -15469,7 +15457,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:15:27',
                 'updated_at' => '2016-02-01 11:15:27',
             ),
-            280 => 
+            279 => 
             array (
                 'person_id' => 1286,
                 'forename' => 'Danny',
@@ -15481,7 +15469,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:15:38',
                 'updated_at' => '2016-02-01 11:15:38',
             ),
-            281 => 
+            280 => 
             array (
                 'person_id' => 1287,
                 'forename' => 'Jason',
@@ -15493,7 +15481,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:16:51',
                 'updated_at' => '2016-02-01 11:16:51',
             ),
-            282 => 
+            281 => 
             array (
                 'person_id' => 1288,
                 'forename' => 'Corey',
@@ -15505,7 +15493,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:17:07',
                 'updated_at' => '2016-02-01 11:17:07',
             ),
-            283 => 
+            282 => 
             array (
                 'person_id' => 1289,
                 'forename' => 'Edward',
@@ -15517,7 +15505,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:17:28',
                 'updated_at' => '2016-02-01 11:17:28',
             ),
-            284 => 
+            283 => 
             array (
                 'person_id' => 1290,
                 'forename' => 'Jami',
@@ -15529,7 +15517,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:17:38',
                 'updated_at' => '2016-02-01 11:17:38',
             ),
-            285 => 
+            284 => 
             array (
                 'person_id' => 1291,
                 'forename' => 'Elle',
@@ -15541,7 +15529,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:19:05',
                 'updated_at' => '2016-02-01 11:19:05',
             ),
-            286 => 
+            285 => 
             array (
                 'person_id' => 1292,
                 'forename' => 'Imelda',
@@ -15553,7 +15541,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:19:15',
                 'updated_at' => '2016-02-01 11:19:15',
             ),
-            287 => 
+            286 => 
             array (
                 'person_id' => 1293,
                 'forename' => 'Andrew',
@@ -15565,7 +15553,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:20:25',
                 'updated_at' => '2016-02-01 11:20:25',
             ),
-            288 => 
+            287 => 
             array (
                 'person_id' => 1294,
                 'forename' => 'Estelle',
@@ -15577,7 +15565,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:20:40',
                 'updated_at' => '2016-02-01 11:20:40',
             ),
-            289 => 
+            288 => 
             array (
                 'person_id' => 1295,
                 'forename' => 'G.W.',
@@ -15589,7 +15577,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:20:50',
                 'updated_at' => '2016-02-01 11:20:50',
             ),
-            290 => 
+            289 => 
             array (
                 'person_id' => 1296,
                 'forename' => 'Steve',
@@ -15601,7 +15589,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:21:00',
                 'updated_at' => '2016-02-01 11:21:00',
             ),
-            291 => 
+            290 => 
             array (
                 'person_id' => 1297,
                 'forename' => 'Meshach',
@@ -15613,7 +15601,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:21:20',
                 'updated_at' => '2016-02-01 11:21:20',
             ),
-            292 => 
+            291 => 
             array (
                 'person_id' => 1298,
                 'forename' => 'Dick Van',
@@ -15625,7 +15613,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:24:02',
                 'updated_at' => '2016-02-01 11:24:02',
             ),
-            293 => 
+            292 => 
             array (
                 'person_id' => 1299,
                 'forename' => 'David',
@@ -15637,7 +15625,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:24:17',
                 'updated_at' => '2016-02-01 11:24:17',
             ),
-            294 => 
+            293 => 
             array (
                 'person_id' => 1300,
                 'forename' => 'Stuart',
@@ -15649,7 +15637,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:26:03',
                 'updated_at' => '2016-02-01 11:26:03',
             ),
-            295 => 
+            294 => 
             array (
                 'person_id' => 1301,
                 'forename' => 'L.Q.',
@@ -15661,7 +15649,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:26:15',
                 'updated_at' => '2016-02-01 11:26:15',
             ),
-            296 => 
+            295 => 
             array (
                 'person_id' => 1302,
                 'forename' => 'Matt',
@@ -15673,7 +15661,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:26:59',
                 'updated_at' => '2016-02-01 11:26:59',
             ),
-            297 => 
+            296 => 
             array (
                 'person_id' => 1303,
                 'forename' => 'Tom',
@@ -15685,7 +15673,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:30:25',
                 'updated_at' => '2016-02-01 11:30:25',
             ),
-            298 => 
+            297 => 
             array (
                 'person_id' => 1304,
                 'forename' => 'Jim',
@@ -15697,7 +15685,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:30:34',
                 'updated_at' => '2016-02-01 11:30:34',
             ),
-            299 => 
+            298 => 
             array (
                 'person_id' => 1305,
                 'forename' => 'Joe Don',
@@ -15709,7 +15697,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:30:47',
                 'updated_at' => '2016-02-01 11:30:47',
             ),
-            300 => 
+            299 => 
             array (
                 'person_id' => 1306,
                 'forename' => 'Christina',
@@ -15721,7 +15709,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:30:58',
                 'updated_at' => '2016-02-01 11:30:58',
             ),
-            301 => 
+            300 => 
             array (
                 'person_id' => 1307,
                 'forename' => 'James',
@@ -15733,7 +15721,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:32:29',
                 'updated_at' => '2016-02-01 11:32:29',
             ),
-            302 => 
+            301 => 
             array (
                 'person_id' => 1308,
                 'forename' => 'Margot',
@@ -15745,7 +15733,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:33:01',
                 'updated_at' => '2016-02-01 11:33:01',
             ),
-            303 => 
+            302 => 
             array (
                 'person_id' => 1309,
                 'forename' => 'Teri',
@@ -15757,7 +15745,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:34:10',
                 'updated_at' => '2016-02-01 11:34:10',
             ),
-            304 => 
+            303 => 
             array (
                 'person_id' => 1310,
                 'forename' => 'Barbra',
@@ -15769,7 +15757,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:34:51',
                 'updated_at' => '2016-02-01 11:34:51',
             ),
-            305 => 
+            304 => 
             array (
                 'person_id' => 1311,
                 'forename' => 'Tim Blake',
@@ -15781,7 +15769,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:35:19',
                 'updated_at' => '2016-02-01 11:35:19',
             ),
-            306 => 
+            305 => 
             array (
                 'person_id' => 1312,
                 'forename' => 'Helmut',
@@ -15793,7 +15781,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:37:25',
                 'updated_at' => '2016-02-01 11:37:25',
             ),
-            307 => 
+            306 => 
             array (
                 'person_id' => 1313,
                 'forename' => 'Monica',
@@ -15805,7 +15793,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:37:46',
                 'updated_at' => '2016-02-01 11:37:46',
             ),
-            308 => 
+            307 => 
             array (
                 'person_id' => 1314,
                 'forename' => 'Collin',
@@ -15817,7 +15805,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:38:02',
                 'updated_at' => '2016-02-01 11:38:02',
             ),
-            309 => 
+            308 => 
             array (
                 'person_id' => 1315,
                 'forename' => 'Nona',
@@ -15829,7 +15817,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:38:14',
                 'updated_at' => '2016-02-01 11:38:14',
             ),
-            310 => 
+            309 => 
             array (
                 'person_id' => 1316,
                 'forename' => 'Harold',
@@ -15841,7 +15829,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:38:34',
                 'updated_at' => '2016-02-01 11:38:34',
             ),
-            311 => 
+            310 => 
             array (
                 'person_id' => 1317,
                 'forename' => 'Hilary',
@@ -15853,7 +15841,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:43:11',
                 'updated_at' => '2016-02-01 11:43:11',
             ),
-            312 => 
+            311 => 
             array (
                 'person_id' => 1318,
                 'forename' => 'Riki',
@@ -15865,7 +15853,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:46:03',
                 'updated_at' => '2016-02-01 11:46:03',
             ),
-            313 => 
+            312 => 
             array (
                 'person_id' => 1319,
                 'forename' => 'Margo',
@@ -15877,7 +15865,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:46:12',
                 'updated_at' => '2016-02-01 11:46:12',
             ),
-            314 => 
+            313 => 
             array (
                 'person_id' => 1320,
                 'forename' => 'John',
@@ -15889,7 +15877,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:47:28',
                 'updated_at' => '2016-02-01 11:47:28',
             ),
-            315 => 
+            314 => 
             array (
                 'person_id' => 1321,
                 'forename' => 'Arnold',
@@ -15901,7 +15889,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:47:36',
                 'updated_at' => '2016-02-01 11:47:36',
             ),
-            316 => 
+            315 => 
             array (
                 'person_id' => 1322,
                 'forename' => 'Oded',
@@ -15913,7 +15901,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:47:47',
                 'updated_at' => '2016-02-01 11:47:47',
             ),
-            317 => 
+            316 => 
             array (
                 'person_id' => 1323,
                 'forename' => 'Patricia',
@@ -15925,7 +15913,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:47:59',
                 'updated_at' => '2016-02-01 11:47:59',
             ),
-            318 => 
+            317 => 
             array (
                 'person_id' => 1324,
                 'forename' => 'Maria',
@@ -15937,7 +15925,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:52:02',
                 'updated_at' => '2016-02-01 11:52:02',
             ),
-            319 => 
+            318 => 
             array (
                 'person_id' => 1325,
                 'forename' => 'Georgie',
@@ -15949,7 +15937,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:53:27',
                 'updated_at' => '2016-02-01 11:53:27',
             ),
-            320 => 
+            319 => 
             array (
                 'person_id' => 1326,
                 'forename' => 'Skandar',
@@ -15961,7 +15949,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:53:36',
                 'updated_at' => '2016-02-01 11:53:36',
             ),
-            321 => 
+            320 => 
             array (
                 'person_id' => 1327,
                 'forename' => 'William',
@@ -15973,7 +15961,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:53:46',
                 'updated_at' => '2016-02-01 11:53:46',
             ),
-            322 => 
+            321 => 
             array (
                 'person_id' => 1328,
                 'forename' => 'Anna',
@@ -15985,7 +15973,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:53:56',
                 'updated_at' => '2016-02-01 11:53:56',
             ),
-            323 => 
+            322 => 
             array (
                 'person_id' => 1329,
                 'forename' => 'Ben',
@@ -15997,7 +15985,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:55:19',
                 'updated_at' => '2016-02-01 11:55:19',
             ),
-            324 => 
+            323 => 
             array (
                 'person_id' => 1330,
                 'forename' => 'Will',
@@ -16009,7 +15997,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 11:57:21',
                 'updated_at' => '2016-02-01 11:57:21',
             ),
-            325 => 
+            324 => 
             array (
                 'person_id' => 1331,
                 'forename' => 'Justin',
@@ -16021,7 +16009,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 12:25:43',
                 'updated_at' => '2016-02-01 12:25:43',
             ),
-            326 => 
+            325 => 
             array (
                 'person_id' => 1332,
                 'forename' => 'Ricky',
@@ -16033,7 +16021,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 12:26:42',
                 'updated_at' => '2016-02-01 12:26:42',
             ),
-            327 => 
+            326 => 
             array (
                 'person_id' => 1333,
                 'forename' => 'Rami',
@@ -16045,7 +16033,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 12:26:51',
                 'updated_at' => '2016-02-01 12:26:51',
             ),
-            328 => 
+            327 => 
             array (
                 'person_id' => 1334,
                 'forename' => 'Ice',
@@ -16057,7 +16045,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 12:28:29',
                     'updated_at' => '2016-02-01 12:28:29',
                 ),
-                329 => 
+                328 => 
                 array (
                     'person_id' => 1335,
                     'forename' => 'Mario Van',
@@ -16069,7 +16057,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 12:28:41',
                     'updated_at' => '2016-02-01 12:28:41',
                 ),
-                330 => 
+                329 => 
                 array (
                     'person_id' => 1336,
                     'forename' => 'Judd',
@@ -16081,7 +16069,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 12:28:49',
                     'updated_at' => '2016-02-01 12:28:49',
                 ),
-                331 => 
+                330 => 
                 array (
                     'person_id' => 1337,
                     'forename' => 'John',
@@ -16093,7 +16081,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 12:29:42',
                     'updated_at' => '2016-02-01 12:29:42',
                 ),
-                332 => 
+                331 => 
                 array (
                     'person_id' => 1338,
                     'forename' => 'Heather',
@@ -16105,7 +16093,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 12:29:52',
                     'updated_at' => '2016-02-01 12:29:52',
                 ),
-                333 => 
+                332 => 
                 array (
                     'person_id' => 1339,
                     'forename' => 'Robert',
@@ -16117,7 +16105,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 12:30:12',
                     'updated_at' => '2016-02-01 12:30:12',
                 ),
-                334 => 
+                333 => 
                 array (
                     'person_id' => 1340,
                     'forename' => 'Tom',
@@ -16129,7 +16117,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 12:36:07',
                     'updated_at' => '2016-02-01 12:36:07',
                 ),
-                335 => 
+                334 => 
                 array (
                     'person_id' => 1341,
                     'forename' => 'Gregory',
@@ -16141,7 +16129,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 12:39:03',
                     'updated_at' => '2016-02-01 12:39:03',
                 ),
-                336 => 
+                335 => 
                 array (
                     'person_id' => 1342,
                     'forename' => 'William',
@@ -16153,7 +16141,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 12:42:13',
                     'updated_at' => '2016-02-01 12:42:13',
                 ),
-                337 => 
+                336 => 
                 array (
                     'person_id' => 1343,
                     'forename' => 'Jennifer',
@@ -16165,7 +16153,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:18:35',
                     'updated_at' => '2016-02-01 13:18:35',
                 ),
-                338 => 
+                337 => 
                 array (
                     'person_id' => 1344,
                     'forename' => 'Ving',
@@ -16177,7 +16165,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:18:45',
                     'updated_at' => '2016-02-01 13:18:45',
                 ),
-                339 => 
+                338 => 
                 array (
                     'person_id' => 1345,
                     'forename' => 'Nancy',
@@ -16189,7 +16177,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:19:11',
                     'updated_at' => '2016-02-01 13:19:11',
                 ),
-                340 => 
+                339 => 
                 array (
                     'person_id' => 1346,
                     'forename' => 'Jim',
@@ -16201,7 +16189,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:21:21',
                     'updated_at' => '2016-02-01 13:21:21',
                 ),
-                341 => 
+                340 => 
                 array (
                     'person_id' => 1347,
                     'forename' => 'Jack',
@@ -16213,7 +16201,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:21:48',
                     'updated_at' => '2016-02-01 13:21:48',
                 ),
-                342 => 
+                341 => 
                 array (
                     'person_id' => 1348,
                     'forename' => 'Scatman',
@@ -16225,7 +16213,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:22:58',
                     'updated_at' => '2016-02-01 13:22:58',
                 ),
-                343 => 
+                342 => 
                 array (
                     'person_id' => 1349,
                     'forename' => 'Louise',
@@ -16237,7 +16225,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:23:07',
                     'updated_at' => '2016-02-01 13:23:07',
                 ),
-                344 => 
+                343 => 
                 array (
                     'person_id' => 1350,
                     'forename' => 'Kristen',
@@ -16249,7 +16237,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:25:41',
                     'updated_at' => '2016-02-01 13:25:41',
                 ),
-                345 => 
+                344 => 
                 array (
                     'person_id' => 1351,
                     'forename' => 'Forest',
@@ -16261,7 +16249,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:25:50',
                     'updated_at' => '2016-02-01 13:25:50',
                 ),
-                346 => 
+                345 => 
                 array (
                     'person_id' => 1352,
                     'forename' => 'Dwight',
@@ -16273,7 +16261,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:25:59',
                     'updated_at' => '2016-02-01 13:25:59',
                 ),
-                347 => 
+                346 => 
                 array (
                     'person_id' => 1353,
                     'forename' => 'Logan',
@@ -16285,7 +16273,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:27:05',
                     'updated_at' => '2016-02-01 13:27:05',
                 ),
-                348 => 
+                347 => 
                 array (
                     'person_id' => 1354,
                     'forename' => 'Douglas',
@@ -16297,7 +16285,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:27:12',
                     'updated_at' => '2016-02-01 13:27:12',
                 ),
-                349 => 
+                348 => 
                 array (
                     'person_id' => 1355,
                     'forename' => 'Leven',
@@ -16309,7 +16297,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:27:20',
                     'updated_at' => '2016-02-01 13:27:20',
                 ),
-                350 => 
+                349 => 
                 array (
                     'person_id' => 1356,
                     'forename' => 'Brandon T.',
@@ -16321,7 +16309,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:27:27',
                     'updated_at' => '2016-02-01 13:27:27',
                 ),
-                351 => 
+                350 => 
                 array (
                     'person_id' => 1357,
                     'forename' => 'Jake',
@@ -16333,7 +16321,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:27:35',
                     'updated_at' => '2016-02-01 13:27:35',
                 ),
-                352 => 
+                351 => 
                 array (
                     'person_id' => 1358,
                     'forename' => 'Anthony',
@@ -16345,7 +16333,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:27:45',
                     'updated_at' => '2016-02-01 13:27:45',
                 ),
-                353 => 
+                352 => 
                 array (
                     'person_id' => 1359,
                     'forename' => 'Octavia',
@@ -16357,7 +16345,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:28:04',
                     'updated_at' => '2016-02-01 13:28:04',
                 ),
-                354 => 
+                353 => 
                 array (
                     'person_id' => 1360,
                     'forename' => 'Craig',
@@ -16369,7 +16357,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:28:12',
                     'updated_at' => '2016-02-01 13:28:12',
                 ),
-                355 => 
+                354 => 
                 array (
                     'person_id' => 1361,
                     'forename' => 'Steve',
@@ -16381,7 +16369,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:29:20',
                     'updated_at' => '2016-02-01 13:29:20',
                 ),
-                356 => 
+                355 => 
                 array (
                     'person_id' => 1362,
                     'forename' => 'Jack',
@@ -16393,7 +16381,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:30:59',
                     'updated_at' => '2016-02-01 13:30:59',
                 ),
-                357 => 
+                356 => 
                 array (
                     'person_id' => 1363,
                     'forename' => 'Jonathan',
@@ -16405,7 +16393,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:31:09',
                     'updated_at' => '2016-02-01 13:31:09',
                 ),
-                358 => 
+                357 => 
                 array (
                     'person_id' => 1364,
                     'forename' => 'Kevin',
@@ -16417,7 +16405,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:31:25',
                     'updated_at' => '2016-02-01 13:31:25',
                 ),
-                359 => 
+                358 => 
                 array (
                     'person_id' => 1365,
                     'forename' => 'Tom',
@@ -16429,7 +16417,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:32:36',
                     'updated_at' => '2016-02-01 13:32:36',
                 ),
-                360 => 
+                359 => 
                 array (
                     'person_id' => 1366,
                     'forename' => 'Naomie',
@@ -16441,7 +16429,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:32:43',
                     'updated_at' => '2016-02-01 13:32:43',
                 ),
-                361 => 
+                360 => 
                 array (
                     'person_id' => 1367,
                     'forename' => 'Astrid',
@@ -16453,7 +16441,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:35:17',
                     'updated_at' => '2016-02-01 13:35:17',
                 ),
-                362 => 
+                361 => 
                 array (
                     'person_id' => 1368,
                     'forename' => 'Stephen',
@@ -16465,7 +16453,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:35:25',
                     'updated_at' => '2016-02-01 13:35:25',
                 ),
-                363 => 
+                362 => 
                 array (
                     'person_id' => 1369,
                     'forename' => 'Keith',
@@ -16477,7 +16465,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:35:35',
                     'updated_at' => '2016-02-01 13:35:35',
                 ),
-                364 => 
+                363 => 
                 array (
                     'person_id' => 1370,
                     'forename' => 'Reese',
@@ -16489,7 +16477,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:38:56',
                     'updated_at' => '2016-02-01 13:38:56',
                 ),
-                365 => 
+                364 => 
                 array (
                     'person_id' => 1371,
                     'forename' => 'J.T.',
@@ -16501,7 +16489,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:39:11',
                     'updated_at' => '2016-02-01 13:39:11',
                 ),
-                366 => 
+                365 => 
                 array (
                     'person_id' => 1372,
                     'forename' => 'Don',
@@ -16513,7 +16501,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:39:59',
                     'updated_at' => '2016-02-01 13:39:59',
                 ),
-                367 => 
+                366 => 
                 array (
                     'person_id' => 1373,
                     'forename' => 'Lori',
@@ -16525,7 +16513,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:41:18',
                     'updated_at' => '2016-02-01 13:41:18',
                 ),
-                368 => 
+                367 => 
                 array (
                     'person_id' => 1374,
                     'forename' => 'Heather',
@@ -16537,7 +16525,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:42:48',
                     'updated_at' => '2016-02-01 13:42:48',
                 ),
-                369 => 
+                368 => 
                 array (
                     'person_id' => 1375,
                     'forename' => 'Jesse',
@@ -16549,7 +16537,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:44:23',
                     'updated_at' => '2016-02-01 13:44:23',
                 ),
-                370 => 
+                369 => 
                 array (
                     'person_id' => 1376,
                     'forename' => 'Shane',
@@ -16561,7 +16549,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:44:34',
                     'updated_at' => '2016-02-01 13:44:34',
                 ),
-                371 => 
+                370 => 
                 array (
                     'person_id' => 1377,
                     'forename' => 'Sonny',
@@ -16573,7 +16561,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:44:43',
                     'updated_at' => '2016-02-01 13:44:43',
                 ),
-                372 => 
+                371 => 
                 array (
                     'person_id' => 1378,
                     'forename' => 'Richard',
@@ -16585,7 +16573,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:44:52',
                     'updated_at' => '2016-02-01 13:44:52',
                 ),
-                373 => 
+                372 => 
                 array (
                     'person_id' => 1379,
                     'forename' => 'Kevin Peter',
@@ -16597,7 +16585,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:45:09',
                     'updated_at' => '2016-02-01 13:45:09',
                 ),
-                374 => 
+                373 => 
                 array (
                     'person_id' => 1380,
                     'forename' => 'Richard',
@@ -16609,7 +16597,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:45:59',
                     'updated_at' => '2016-02-01 13:45:59',
                 ),
-                375 => 
+                374 => 
                 array (
                     'person_id' => 1381,
                     'forename' => 'Jason',
@@ -16621,7 +16609,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:46:09',
                     'updated_at' => '2016-02-01 13:46:09',
                 ),
-                376 => 
+                375 => 
                 array (
                     'person_id' => 1382,
                     'forename' => 'Hector',
@@ -16633,7 +16621,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:46:23',
                     'updated_at' => '2016-02-01 13:46:23',
                 ),
-                377 => 
+                376 => 
                 array (
                     'person_id' => 1383,
                     'forename' => 'Laura',
@@ -16645,7 +16633,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:48:37',
                     'updated_at' => '2016-02-01 13:48:37',
                 ),
-                378 => 
+                377 => 
                 array (
                     'person_id' => 1384,
                     'forename' => 'Steven',
@@ -16657,7 +16645,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:48:49',
                     'updated_at' => '2016-02-01 13:48:49',
                 ),
-                379 => 
+                378 => 
                 array (
                     'person_id' => 1385,
                     'forename' => 'Mandy',
@@ -16669,7 +16657,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:49:47',
                     'updated_at' => '2016-02-01 13:49:47',
                 ),
-                380 => 
+                379 => 
                 array (
                     'person_id' => 1386,
                     'forename' => 'Andr&eacute; The',
@@ -16681,7 +16669,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:50:00',
                     'updated_at' => '2016-02-01 13:50:00',
                 ),
-                381 => 
+                380 => 
                 array (
                     'person_id' => 1387,
                     'forename' => 'Fred',
@@ -16693,7 +16681,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:50:08',
                     'updated_at' => '2016-02-01 13:50:08',
                 ),
-                382 => 
+                381 => 
                 array (
                     'person_id' => 1388,
                     'forename' => 'Peter',
@@ -16705,7 +16693,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:50:23',
                     'updated_at' => '2016-02-01 13:50:23',
                 ),
-                383 => 
+                382 => 
                 array (
                     'person_id' => 1389,
                     'forename' => 'Anthony',
@@ -16717,7 +16705,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:51:36',
                     'updated_at' => '2016-02-01 13:51:36',
                 ),
-                384 => 
+                383 => 
                 array (
                     'person_id' => 1390,
                     'forename' => 'Janet',
@@ -16729,7 +16717,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:51:52',
                     'updated_at' => '2016-02-01 13:51:52',
                 ),
-                385 => 
+                384 => 
                 array (
                     'person_id' => 1391,
                     'forename' => 'Jean',
@@ -16741,7 +16729,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:53:04',
                     'updated_at' => '2016-02-01 13:53:04',
                 ),
-                386 => 
+                385 => 
                 array (
                     'person_id' => 1392,
                     'forename' => 'Tim',
@@ -16753,7 +16741,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:53:48',
                     'updated_at' => '2016-02-01 13:53:48',
                 ),
-                387 => 
+                386 => 
                 array (
                     'person_id' => 1393,
                     'forename' => 'Burr',
@@ -16765,7 +16753,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:53:55',
                     'updated_at' => '2016-02-01 13:53:55',
                 ),
-                388 => 
+                387 => 
                 array (
                     'person_id' => 1394,
                     'forename' => 'Rosanna',
@@ -16777,7 +16765,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:54:03',
                     'updated_at' => '2016-02-01 13:54:03',
                 ),
-                389 => 
+                388 => 
                 array (
                     'person_id' => 1395,
                     'forename' => 'Eric',
@@ -16789,7 +16777,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:54:14',
                     'updated_at' => '2016-02-01 13:54:14',
                 ),
-                390 => 
+                389 => 
                 array (
                     'person_id' => 1396,
                     'forename' => 'James',
@@ -16801,7 +16789,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:56:26',
                     'updated_at' => '2016-02-01 13:56:26',
                 ),
-                391 => 
+                390 => 
                 array (
                     'person_id' => 1397,
                     'forename' => 'Grace',
@@ -16813,7 +16801,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:56:46',
                     'updated_at' => '2016-02-01 13:56:46',
                 ),
-                392 => 
+                391 => 
                 array (
                     'person_id' => 1398,
                     'forename' => 'Chris',
@@ -16825,7 +16813,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:58:56',
                     'updated_at' => '2016-02-01 13:58:56',
                 ),
-                393 => 
+                392 => 
                 array (
                     'person_id' => 1399,
                     'forename' => 'Lawrence',
@@ -16837,7 +16825,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:59:17',
                     'updated_at' => '2016-02-01 13:59:17',
                 ),
-                394 => 
+                393 => 
                 array (
                     'person_id' => 1400,
                     'forename' => 'Edward',
@@ -16849,7 +16837,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 13:59:40',
                     'updated_at' => '2016-02-01 13:59:40',
                 ),
-                395 => 
+                394 => 
                 array (
                     'person_id' => 1401,
                     'forename' => 'Kirk',
@@ -16861,7 +16849,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:00:09',
                     'updated_at' => '2016-02-01 14:00:09',
                 ),
-                396 => 
+                395 => 
                 array (
                     'person_id' => 1402,
                     'forename' => 'Indra',
@@ -16873,7 +16861,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:08:24',
                     'updated_at' => '2016-02-01 14:08:24',
                 ),
-                397 => 
+                396 => 
                 array (
                     'person_id' => 1403,
                     'forename' => 'James',
@@ -16885,7 +16873,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:10:12',
                     'updated_at' => '2016-02-01 14:10:12',
                 ),
-                398 => 
+                397 => 
                 array (
                     'person_id' => 1404,
                     'forename' => 'Joseph',
@@ -16897,7 +16885,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:11:25',
                     'updated_at' => '2016-02-01 14:11:25',
                 ),
-                399 => 
+                398 => 
                 array (
                     'person_id' => 1405,
                     'forename' => 'Sienna',
@@ -16909,7 +16897,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:17:08',
                     'updated_at' => '2016-02-01 14:17:08',
                 ),
-                400 => 
+                399 => 
                 array (
                     'person_id' => 1406,
                     'forename' => 'Jared',
@@ -16921,7 +16909,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:17:26',
                     'updated_at' => '2016-02-01 14:17:26',
                 ),
-                401 => 
+                400 => 
                 array (
                     'person_id' => 1407,
                     'forename' => 'Kim',
@@ -16933,7 +16921,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:19:51',
                     'updated_at' => '2016-02-01 14:19:51',
                 ),
-                402 => 
+                401 => 
                 array (
                     'person_id' => 1408,
                     'forename' => 'Wentworth',
@@ -16945,7 +16933,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:20:04',
                     'updated_at' => '2016-02-01 14:20:04',
                 ),
-                403 => 
+                402 => 
                 array (
                     'person_id' => 1409,
                     'forename' => 'Naomi',
@@ -16957,7 +16945,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:42:37',
                     'updated_at' => '2016-02-01 14:42:37',
                 ),
-                404 => 
+                403 => 
                 array (
                     'person_id' => 1410,
                     'forename' => 'Martin',
@@ -16969,7 +16957,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:43:05',
                     'updated_at' => '2016-02-01 14:43:05',
                 ),
-                405 => 
+                404 => 
                 array (
                     'person_id' => 1411,
                     'forename' => 'Jennifer Jason',
@@ -16981,7 +16969,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:43:51',
                     'updated_at' => '2016-02-01 14:43:51',
                 ),
-                406 => 
+                405 => 
                 array (
                     'person_id' => 1412,
                     'forename' => 'Kurtwood',
@@ -16993,7 +16981,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:48:10',
                     'updated_at' => '2016-02-01 14:48:10',
                 ),
-                407 => 
+                406 => 
                 array (
                     'person_id' => 1413,
                     'forename' => 'Kathleen',
@@ -17005,7 +16993,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:49:21',
                     'updated_at' => '2016-02-01 14:49:21',
                 ),
-                408 => 
+                407 => 
                 array (
                     'person_id' => 1414,
                     'forename' => 'Maria Conchita',
@@ -17017,7 +17005,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:53:56',
                     'updated_at' => '2016-02-01 14:53:56',
                 ),
-                409 => 
+                408 => 
                 array (
                     'person_id' => 1415,
                     'forename' => 'Mick',
@@ -17029,7 +17017,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:54:04',
                     'updated_at' => '2016-02-01 14:54:04',
                 ),
-                410 => 
+                409 => 
                 array (
                     'person_id' => 1416,
                     'forename' => 'Richard',
@@ -17041,7 +17029,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:54:22',
                     'updated_at' => '2016-02-01 14:54:22',
                 ),
-                411 => 
+                410 => 
                 array (
                     'person_id' => 1417,
                     'forename' => 'Helen',
@@ -17053,7 +17041,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:55:15',
                     'updated_at' => '2016-02-01 14:55:15',
                 ),
-                412 => 
+                411 => 
                 array (
                     'person_id' => 1418,
                     'forename' => 'Dudley',
@@ -17065,7 +17053,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:57:37',
                     'updated_at' => '2016-02-01 14:57:37',
                 ),
-                413 => 
+                412 => 
                 array (
                     'person_id' => 1419,
                     'forename' => 'Burgess',
@@ -17077,7 +17065,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:57:54',
                     'updated_at' => '2016-02-01 14:57:54',
                 ),
-                414 => 
+                413 => 
                 array (
                     'person_id' => 1420,
                     'forename' => 'Mary Elizabeth',
@@ -17089,7 +17077,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:58:49',
                     'updated_at' => '2016-02-01 14:58:49',
                 ),
-                415 => 
+                414 => 
                 array (
                     'person_id' => 1421,
                     'forename' => 'F. Murray',
@@ -17101,7 +17089,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:58:58',
                     'updated_at' => '2016-02-01 14:58:58',
                 ),
-                416 => 
+                415 => 
                 array (
                     'person_id' => 1422,
                     'forename' => 'Paul',
@@ -17113,7 +17101,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 14:59:14',
                     'updated_at' => '2016-02-01 14:59:14',
                 ),
-                417 => 
+                416 => 
                 array (
                     'person_id' => 1423,
                     'forename' => 'Heather',
@@ -17125,7 +17113,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:02:41',
                     'updated_at' => '2016-02-01 15:02:41',
                 ),
-                418 => 
+                417 => 
                 array (
                     'person_id' => 1424,
                     'forename' => 'Neve',
@@ -17137,7 +17125,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:02:52',
                     'updated_at' => '2016-02-01 15:02:52',
                 ),
-                419 => 
+                418 => 
                 array (
                     'person_id' => 1425,
                     'forename' => 'Sarah Michelle',
@@ -17149,7 +17137,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:03:11',
                     'updated_at' => '2016-02-01 15:03:11',
                 ),
-                420 => 
+                419 => 
                 array (
                     'person_id' => 1426,
                     'forename' => 'Jerry',
@@ -17161,7 +17149,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:03:19',
                     'updated_at' => '2016-02-01 15:03:19',
                 ),
-                421 => 
+                420 => 
                 array (
                     'person_id' => 1427,
                     'forename' => 'David',
@@ -17173,7 +17161,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:03:33',
                     'updated_at' => '2016-02-01 15:03:33',
                 ),
-                422 => 
+                421 => 
                 array (
                     'person_id' => 1428,
                     'forename' => 'Luke',
@@ -17185,7 +17173,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:03:47',
                     'updated_at' => '2016-02-01 15:03:47',
                 ),
-                423 => 
+                422 => 
                 array (
                     'person_id' => 1429,
                     'forename' => 'Rose',
@@ -17197,7 +17185,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:04:35',
                     'updated_at' => '2016-02-01 15:04:35',
                 ),
-                424 => 
+                423 => 
                 array (
                     'person_id' => 1430,
                     'forename' => 'Matthew',
@@ -17209,7 +17197,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:04:45',
                     'updated_at' => '2016-02-01 15:04:45',
                 ),
-                425 => 
+                424 => 
                 array (
                     'person_id' => 1431,
                     'forename' => 'Henry',
@@ -17221,7 +17209,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:04:58',
                     'updated_at' => '2016-02-01 15:04:58',
                 ),
-                426 => 
+                425 => 
                 array (
                     'person_id' => 1432,
                     'forename' => 'Parker',
@@ -17233,7 +17221,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 15:06:17',
                     'updated_at' => '2016-02-01 15:06:17',
                 ),
-                427 => 
+                426 => 
                 array (
                     'person_id' => 1433,
                     'forename' => 'Ursula',
@@ -17245,7 +17233,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:24:19',
                     'updated_at' => '2016-02-01 16:24:19',
                 ),
-                428 => 
+                427 => 
                 array (
                     'person_id' => 1434,
                     'forename' => 'Joseph',
@@ -17257,7 +17245,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:24:36',
                     'updated_at' => '2016-02-01 16:24:36',
                 ),
-                429 => 
+                428 => 
                 array (
                     'person_id' => 1435,
                     'forename' => 'Jack',
@@ -17269,7 +17257,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:24:50',
                     'updated_at' => '2016-02-01 16:24:50',
                 ),
-                430 => 
+                429 => 
                 array (
                     'person_id' => 1436,
                     'forename' => 'Bernard',
@@ -17281,7 +17269,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:25:06',
                     'updated_at' => '2016-02-01 16:25:06',
                 ),
-                431 => 
+                430 => 
                 array (
                     'person_id' => 1437,
                     'forename' => 'Lois',
@@ -17293,7 +17281,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:25:25',
                     'updated_at' => '2016-02-01 16:25:25',
                 ),
-                432 => 
+                431 => 
                 array (
                     'person_id' => 1438,
                     'forename' => 'Daniela',
@@ -17305,7 +17293,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:26:16',
                     'updated_at' => '2016-02-01 16:26:16',
                 ),
-                433 => 
+                432 => 
                 array (
                     'person_id' => 1439,
                     'forename' => 'Desmond',
@@ -17317,7 +17305,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:26:41',
                     'updated_at' => '2016-02-01 16:26:41',
                 ),
-                434 => 
+                433 => 
                 array (
                     'person_id' => 1440,
                     'forename' => 'Anthony',
@@ -17329,7 +17317,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:27:10',
                     'updated_at' => '2016-02-01 16:27:10',
                 ),
-                435 => 
+                434 => 
                 array (
                     'person_id' => 1441,
                     'forename' => 'Honor',
@@ -17341,7 +17329,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:27:47',
                     'updated_at' => '2016-02-01 16:27:47',
                 ),
-                436 => 
+                435 => 
                 array (
                     'person_id' => 1442,
                     'forename' => 'Claudine',
@@ -17353,7 +17341,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:28:30',
                     'updated_at' => '2016-02-01 16:28:30',
                 ),
-                437 => 
+                436 => 
                 array (
                     'person_id' => 1443,
                     'forename' => 'Adolfo',
@@ -17365,7 +17353,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:28:48',
                     'updated_at' => '2016-02-01 16:28:48',
                 ),
-                438 => 
+                437 => 
                 array (
                     'person_id' => 1444,
                     'forename' => 'Charles',
@@ -17377,7 +17365,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:31:15',
                     'updated_at' => '2016-02-01 16:31:15',
                 ),
-                439 => 
+                438 => 
                 array (
                     'person_id' => 1445,
                     'forename' => 'Jill St.',
@@ -17389,7 +17377,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:31:24',
                     'updated_at' => '2016-02-01 16:31:24',
                 ),
-                440 => 
+                439 => 
                 array (
                     'person_id' => 1446,
                     'forename' => 'Lana',
@@ -17401,7 +17389,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:31:33',
                     'updated_at' => '2016-02-01 16:31:33',
                 ),
-                441 => 
+                440 => 
                 array (
                     'person_id' => 1447,
                     'forename' => 'Bruce',
@@ -17413,7 +17401,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:31:42',
                     'updated_at' => '2016-02-01 16:31:42',
                 ),
-                442 => 
+                441 => 
                 array (
                     'person_id' => 1448,
                     'forename' => 'Roger',
@@ -17425,7 +17413,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:32:53',
                     'updated_at' => '2016-02-01 16:32:53',
                 ),
-                443 => 
+                442 => 
                 array (
                     'person_id' => 1449,
                     'forename' => 'Jane',
@@ -17437,7 +17425,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:33:04',
                     'updated_at' => '2016-02-01 16:33:04',
                 ),
-                444 => 
+                443 => 
                 array (
                     'person_id' => 1450,
                     'forename' => 'Clifton',
@@ -17449,7 +17437,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:33:13',
                     'updated_at' => '2016-02-01 16:33:13',
                 ),
-                445 => 
+                444 => 
                 array (
                     'person_id' => 1451,
                     'forename' => 'Britt',
@@ -17461,7 +17449,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:34:05',
                     'updated_at' => '2016-02-01 16:34:05',
                 ),
-                446 => 
+                445 => 
                 array (
                     'person_id' => 1452,
                     'forename' => 'Maud',
@@ -17473,7 +17461,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:34:12',
                     'updated_at' => '2016-02-01 16:34:12',
                 ),
-                447 => 
+                446 => 
                 array (
                     'person_id' => 1453,
                     'forename' => 'Barbara',
@@ -17485,7 +17473,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:35:02',
                     'updated_at' => '2016-02-01 16:35:02',
                 ),
-                448 => 
+                447 => 
                 array (
                     'person_id' => 1454,
                     'forename' => 'Caroline',
@@ -17497,7 +17485,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:35:14',
                     'updated_at' => '2016-02-01 16:35:14',
                 ),
-                449 => 
+                448 => 
                 array (
                     'person_id' => 1455,
                     'forename' => 'Lois',
@@ -17509,7 +17497,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:36:03',
                     'updated_at' => '2016-02-01 16:36:03',
                 ),
-                450 => 
+                449 => 
                 array (
                     'person_id' => 1456,
                     'forename' => 'Michael',
@@ -17521,7 +17509,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:36:13',
                     'updated_at' => '2016-02-01 16:36:13',
                 ),
-                451 => 
+                450 => 
                 array (
                     'person_id' => 1457,
                     'forename' => 'Carole',
@@ -17533,7 +17521,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:37:02',
                     'updated_at' => '2016-02-01 16:37:02',
                 ),
-                452 => 
+                451 => 
                 array (
                     'person_id' => 1458,
                     'forename' => 'Robert',
@@ -17545,7 +17533,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:38:02',
                     'updated_at' => '2016-02-01 16:38:02',
                 ),
-                453 => 
+                452 => 
                 array (
                     'person_id' => 1459,
                     'forename' => 'Tanya',
@@ -17557,7 +17545,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:38:44',
                     'updated_at' => '2016-02-01 16:38:44',
                 ),
-                454 => 
+                453 => 
                 array (
                     'person_id' => 1460,
                     'forename' => 'Patrick',
@@ -17569,7 +17557,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:39:34',
                     'updated_at' => '2016-02-01 16:39:34',
                 ),
-                455 => 
+                454 => 
                 array (
                     'person_id' => 1461,
                     'forename' => 'Maryam',
@@ -17581,7 +17569,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:40:27',
                     'updated_at' => '2016-02-01 16:40:27',
                 ),
-                456 => 
+                455 => 
                 array (
                     'person_id' => 1462,
                     'forename' => 'Art',
@@ -17593,7 +17581,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:40:42',
                     'updated_at' => '2016-02-01 16:40:42',
                 ),
-                457 => 
+                456 => 
                 array (
                     'person_id' => 1463,
                     'forename' => 'Carey',
@@ -17605,7 +17593,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:41:35',
                     'updated_at' => '2016-02-01 16:41:35',
                 ),
-                458 => 
+                457 => 
                 array (
                     'person_id' => 1464,
                     'forename' => 'Izabella',
@@ -17617,7 +17605,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:42:30',
                     'updated_at' => '2016-02-01 16:42:30',
                 ),
-                459 => 
+                458 => 
                 array (
                     'person_id' => 1465,
                     'forename' => 'Samantha',
@@ -17629,7 +17617,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:42:41',
                     'updated_at' => '2016-02-01 16:42:41',
                 ),
-                460 => 
+                459 => 
                 array (
                     'person_id' => 1466,
                     'forename' => 'Robert',
@@ -17641,7 +17629,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:44:39',
                     'updated_at' => '2016-02-01 16:44:39',
                 ),
-                461 => 
+                460 => 
                 array (
                     'person_id' => 1467,
                     'forename' => 'Denise',
@@ -17653,7 +17641,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:44:47',
                     'updated_at' => '2016-02-01 16:44:47',
                 ),
-                462 => 
+                461 => 
                 array (
                     'person_id' => 1468,
                     'forename' => 'Toby',
@@ -17665,7 +17653,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:45:38',
                     'updated_at' => '2016-02-01 16:45:38',
                 ),
-                463 => 
+                462 => 
                 array (
                     'person_id' => 1469,
                     'forename' => 'Rosamund',
@@ -17677,7 +17665,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:45:48',
                     'updated_at' => '2016-02-01 16:45:48',
                 ),
-                464 => 
+                463 => 
                 array (
                     'person_id' => 1470,
                     'forename' => 'Eva',
@@ -17689,7 +17677,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:46:38',
                     'updated_at' => '2016-02-01 16:46:38',
                 ),
-                465 => 
+                464 => 
                 array (
                     'person_id' => 1471,
                     'forename' => 'Caterina',
@@ -17701,7 +17689,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:46:50',
                     'updated_at' => '2016-02-01 16:46:50',
                 ),
-                466 => 
+                465 => 
                 array (
                     'person_id' => 1472,
                     'forename' => 'Jesper',
@@ -17713,7 +17701,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:47:02',
                     'updated_at' => '2016-02-01 16:47:02',
                 ),
-                467 => 
+                466 => 
                 array (
                     'person_id' => 1473,
                     'forename' => 'Olga',
@@ -17725,7 +17713,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:48:00',
                     'updated_at' => '2016-02-01 16:48:00',
                 ),
-                468 => 
+                467 => 
                 array (
                     'person_id' => 1474,
                     'forename' => 'Mathieu',
@@ -17737,7 +17725,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:48:10',
                     'updated_at' => '2016-02-01 16:48:10',
                 ),
-                469 => 
+                468 => 
                 array (
                     'person_id' => 1475,
                     'forename' => 'Ben',
@@ -17749,7 +17737,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 16:48:59',
                     'updated_at' => '2016-02-01 16:48:59',
                 ),
-                470 => 
+                469 => 
                 array (
                     'person_id' => 1476,
                     'forename' => 'George',
@@ -17761,7 +17749,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 17:10:37',
                     'updated_at' => '2016-02-01 17:10:37',
                 ),
-                471 => 
+                470 => 
                 array (
                     'person_id' => 1477,
                     'forename' => 'Diana',
@@ -17773,7 +17761,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 17:10:47',
                     'updated_at' => '2016-02-01 17:10:47',
                 ),
-                472 => 
+                471 => 
                 array (
                     'person_id' => 1478,
                     'forename' => 'Telly',
@@ -17785,7 +17773,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 17:11:23',
                     'updated_at' => '2016-02-01 17:11:23',
                 ),
-                473 => 
+                472 => 
                 array (
                     'person_id' => 1479,
                     'forename' => 'Joanna',
@@ -17797,7 +17785,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 17:11:38',
                     'updated_at' => '2016-02-01 17:11:38',
                 ),
-                474 => 
+                473 => 
                 array (
                     'person_id' => 1480,
                     'forename' => 'John',
@@ -17809,7 +17797,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:11:08',
                     'updated_at' => '2016-02-01 19:11:08',
                 ),
-                475 => 
+                474 => 
                 array (
                     'person_id' => 1481,
                     'forename' => 'David',
@@ -17821,7 +17809,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:11:19',
                     'updated_at' => '2016-02-01 19:11:19',
                 ),
-                476 => 
+                475 => 
                 array (
                     'person_id' => 1482,
                     'forename' => 'Carol',
@@ -17833,7 +17821,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:11:29',
                     'updated_at' => '2016-02-01 19:11:29',
                 ),
-                477 => 
+                476 => 
                 array (
                     'person_id' => 1483,
                     'forename' => 'Robert',
@@ -17845,7 +17833,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:11:50',
                     'updated_at' => '2016-02-01 19:11:50',
                 ),
-                478 => 
+                477 => 
                 array (
                     'person_id' => 1484,
                     'forename' => 'Timothy',
@@ -17857,7 +17845,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:15:17',
                     'updated_at' => '2016-02-01 19:15:17',
                 ),
-                479 => 
+                478 => 
                 array (
                     'person_id' => 1485,
                     'forename' => 'Kate',
@@ -17869,7 +17857,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:20:00',
                     'updated_at' => '2016-02-01 19:20:00',
                 ),
-                480 => 
+                479 => 
                 array (
                     'person_id' => 1486,
                     'forename' => 'Bob',
@@ -17881,7 +17869,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:25:04',
                     'updated_at' => '2016-02-01 19:25:04',
                 ),
-                481 => 
+                480 => 
                 array (
                     'person_id' => 1487,
                     'forename' => 'Shelley',
@@ -17893,7 +17881,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:27:30',
                     'updated_at' => '2016-02-01 19:27:30',
                 ),
-                482 => 
+                481 => 
                 array (
                     'person_id' => 1488,
                     'forename' => 'Christina',
@@ -17905,7 +17893,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:30:31',
                     'updated_at' => '2016-02-01 19:30:31',
                 ),
-                483 => 
+                482 => 
                 array (
                     'person_id' => 1489,
                     'forename' => 'Miranda',
@@ -17917,7 +17905,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:30:40',
                     'updated_at' => '2016-02-01 19:30:40',
                 ),
-                484 => 
+                483 => 
                 array (
                     'person_id' => 1490,
                     'forename' => 'Casper Van',
@@ -17929,7 +17917,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:30:53',
                     'updated_at' => '2016-02-01 19:30:53',
                 ),
-                485 => 
+                484 => 
                 array (
                     'person_id' => 1491,
                     'forename' => 'Dan',
@@ -17941,7 +17929,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:33:15',
                     'updated_at' => '2016-02-01 19:33:15',
                 ),
-                486 => 
+                485 => 
                 array (
                     'person_id' => 1492,
                     'forename' => 'Julie',
@@ -17953,7 +17941,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:33:30',
                     'updated_at' => '2016-02-01 19:33:30',
                 ),
-                487 => 
+                486 => 
                 array (
                     'person_id' => 1493,
                     'forename' => 'Nancy',
@@ -17965,7 +17953,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:33:52',
                     'updated_at' => '2016-02-01 19:33:52',
                 ),
-                488 => 
+                487 => 
                 array (
                     'person_id' => 1494,
                     'forename' => 'Yeardley',
@@ -17977,7 +17965,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:34:16',
                     'updated_at' => '2016-02-01 19:34:16',
                 ),
-                489 => 
+                488 => 
                 array (
                     'person_id' => 1495,
                     'forename' => 'Toni',
@@ -17989,7 +17977,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:35:40',
                     'updated_at' => '2016-02-01 19:35:40',
                 ),
-                490 => 
+                489 => 
                 array (
                     'person_id' => 1496,
                     'forename' => 'Donnie',
@@ -18001,7 +17989,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:35:51',
                     'updated_at' => '2016-02-01 19:35:51',
                 ),
-                491 => 
+                490 => 
                 array (
                     'person_id' => 1497,
                     'forename' => 'Mischa',
@@ -18013,7 +18001,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:36:19',
                     'updated_at' => '2016-02-01 19:36:19',
                 ),
-                492 => 
+                491 => 
                 array (
                     'person_id' => 1498,
                     'forename' => 'Kate',
@@ -18025,7 +18013,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:39:20',
                     'updated_at' => '2016-02-01 19:39:20',
                 ),
-                493 => 
+                492 => 
                 array (
                     'person_id' => 1499,
                     'forename' => 'Lucy',
@@ -18037,7 +18025,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:39:38',
                     'updated_at' => '2016-02-01 19:39:38',
                 ),
-                494 => 
+                493 => 
                 array (
                     'person_id' => 1500,
                     'forename' => 'Dylan',
@@ -18049,7 +18037,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:40:08',
                     'updated_at' => '2016-02-01 19:40:08',
                 ),
-                495 => 
+                494 => 
                 array (
                     'person_id' => 1501,
                     'forename' => 'Rade',
@@ -18061,7 +18049,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:40:57',
                     'updated_at' => '2016-02-01 19:40:57',
                 ),
-                496 => 
+                495 => 
                 array (
                     'person_id' => 1502,
                     'forename' => 'Alan',
@@ -18073,7 +18061,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:41:05',
                     'updated_at' => '2016-02-01 19:41:05',
                 ),
-                497 => 
+                496 => 
                 array (
                     'person_id' => 1503,
                     'forename' => 'Marilyn',
@@ -18085,7 +18073,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:42:12',
                     'updated_at' => '2016-02-01 19:42:12',
                 ),
-                498 => 
+                497 => 
                 array (
                     'person_id' => 1504,
                     'forename' => 'Tony',
@@ -18097,45 +18085,33 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'created_at' => '2016-02-01 19:42:32',
                     'updated_at' => '2016-02-01 19:42:32',
                 ),
-                499 => 
+                498 => 
                 array (
-                    'person_id' => 1505,
+                    'person_id' => 1506,
                     'forename' => 'Jack',
                     'surname' => 'Lemmon',
                     'birthday' => '1925-02-08',
                     'deceased' => '2001-06-27',
                     'image' => 'Jack_Lemmon_1454355770.jpg',
                 'bio' => 'Jack Lemmon was born in Newton, Massachusetts, to Mildred Burgess LaRue (Noel) and John Uhler Lemmon, Jr., the president of a doughnut company. His ancestry included Irish (from his paternal grandmother) and English. Jack attended Ward Elementary near his Newton, MA home. At age 9 he was sent to Rivers Country Day School, then located in nearby Brookline. After RCDS, he went to high school at Phillips Andover Academy. Jack was a member of the Harvard class of 1947, where he was in Navy ROTC and the Dramatic Club. After service as a Navy ensign, he worked in a beer hall (playing piano), on radio, off Broadway, TV and Broadway. His movie debut was with Judy Holliday in It Should Happen to You (1954). He won Best Supporting Actor as Ensign Pulver in Mister Roberts (1955). He received nominations in comedy (Some Like It Hot (1959), The Apartment (1960)) and drama (Days of Wine and Roses (1962), The China Syndrome (1979), Un fils pour l&#039;&eacute;t&eacute; (1980) and Missing (1982)). He won the Best Acto ....',
-                    'created_at' => '2016-02-01 19:42:50',
-                    'updated_at' => '2016-02-01 19:42:50',
+                    'created_at' => '2016-02-01 19:42:51',
+                    'updated_at' => '2016-02-01 19:42:51',
+                ),
+                499 => 
+                array (
+                    'person_id' => 1507,
+                    'forename' => 'George',
+                    'surname' => 'Raft',
+                    'birthday' => '1901-09-26',
+                    'deceased' => '1980-11-24',
+                    'image' => 'George_Raft_1454355792.jpg',
+                'bio' => 'George Raft was born and grew up in a poor family in Hell&#039;s Kitchen, at the time one of the roughest, meanest areas of New York City. He was born George Ranft, and was the son of Eva (Glockner) and Conrad Ranft, a department store deliveryman. His parents were both of German descent. In his youth, he showed a great interest in, and aptitude for, dancing. That, combined with his dark good looks and sharp dressing, made him a local favorite at such spots as the El Fey Club with Texas Guinan. In 1928, Raft went to Hollywood to try his luck at acting. His first big role was as the coin-tossing henchman in Scarface (1932). His career was marked by numerous tough-guy roles, often a gangster or convict. The believability with which he played these, together with his lifelong associations with such real-life gangsters as Owney Madden and Bugsy Siegel, added to persistent rumors that he was also a gangster. The slightly shady reputation may have helped his popularity early on, but it made him s ....',
+                    'created_at' => '2016-02-01 19:43:12',
+                    'updated_at' => '2016-02-01 19:43:12',
                 ),
             ));
         \DB::table('persons')->insert(array (
             0 => 
-            array (
-                'person_id' => 1506,
-                'forename' => 'Jack',
-                'surname' => 'Lemmon',
-                'birthday' => '1925-02-08',
-                'deceased' => '2001-06-27',
-                'image' => 'Jack_Lemmon_1454355770.jpg',
-            'bio' => 'Jack Lemmon was born in Newton, Massachusetts, to Mildred Burgess LaRue (Noel) and John Uhler Lemmon, Jr., the president of a doughnut company. His ancestry included Irish (from his paternal grandmother) and English. Jack attended Ward Elementary near his Newton, MA home. At age 9 he was sent to Rivers Country Day School, then located in nearby Brookline. After RCDS, he went to high school at Phillips Andover Academy. Jack was a member of the Harvard class of 1947, where he was in Navy ROTC and the Dramatic Club. After service as a Navy ensign, he worked in a beer hall (playing piano), on radio, off Broadway, TV and Broadway. His movie debut was with Judy Holliday in It Should Happen to You (1954). He won Best Supporting Actor as Ensign Pulver in Mister Roberts (1955). He received nominations in comedy (Some Like It Hot (1959), The Apartment (1960)) and drama (Days of Wine and Roses (1962), The China Syndrome (1979), Un fils pour l&#039;&eacute;t&eacute; (1980) and Missing (1982)). He won the Best Acto ....',
-                'created_at' => '2016-02-01 19:42:51',
-                'updated_at' => '2016-02-01 19:42:51',
-            ),
-            1 => 
-            array (
-                'person_id' => 1507,
-                'forename' => 'George',
-                'surname' => 'Raft',
-                'birthday' => '1901-09-26',
-                'deceased' => '1980-11-24',
-                'image' => 'George_Raft_1454355792.jpg',
-            'bio' => 'George Raft was born and grew up in a poor family in Hell&#039;s Kitchen, at the time one of the roughest, meanest areas of New York City. He was born George Ranft, and was the son of Eva (Glockner) and Conrad Ranft, a department store deliveryman. His parents were both of German descent. In his youth, he showed a great interest in, and aptitude for, dancing. That, combined with his dark good looks and sharp dressing, made him a local favorite at such spots as the El Fey Club with Texas Guinan. In 1928, Raft went to Hollywood to try his luck at acting. His first big role was as the coin-tossing henchman in Scarface (1932). His career was marked by numerous tough-guy roles, often a gangster or convict. The believability with which he played these, together with his lifelong associations with such real-life gangsters as Owney Madden and Bugsy Siegel, added to persistent rumors that he was also a gangster. The slightly shady reputation may have helped his popularity early on, but it made him s ....',
-                'created_at' => '2016-02-01 19:43:12',
-                'updated_at' => '2016-02-01 19:43:12',
-            ),
-            2 => 
             array (
                 'person_id' => 1508,
                 'forename' => 'Trey',
@@ -18147,7 +18123,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 19:49:30',
                 'updated_at' => '2016-02-01 19:49:30',
             ),
-            3 => 
+            1 => 
             array (
                 'person_id' => 1509,
                 'forename' => 'Matt',
@@ -18159,7 +18135,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 19:49:47',
                 'updated_at' => '2016-02-01 19:49:47',
             ),
-            4 => 
+            2 => 
             array (
                 'person_id' => 1510,
                 'forename' => 'Wil',
@@ -18171,7 +18147,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 19:51:22',
                 'updated_at' => '2016-02-01 19:51:22',
             ),
-            5 => 
+            3 => 
             array (
                 'person_id' => 1511,
                 'forename' => 'Rosemary',
@@ -18183,7 +18159,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 19:54:38',
                 'updated_at' => '2016-02-01 19:54:38',
             ),
-            6 => 
+            4 => 
             array (
                 'person_id' => 1512,
                 'forename' => 'Dylan',
@@ -18195,7 +18171,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 19:56:48',
                 'updated_at' => '2016-02-01 19:56:48',
             ),
-            7 => 
+            5 => 
             array (
                 'person_id' => 1513,
                 'forename' => 'Thomas Haden',
@@ -18207,7 +18183,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 19:58:10',
                 'updated_at' => '2016-02-01 19:58:10',
             ),
-            8 => 
+            6 => 
             array (
                 'person_id' => 1514,
                 'forename' => 'Topher',
@@ -18219,7 +18195,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 19:58:26',
                 'updated_at' => '2016-02-01 19:58:26',
             ),
-            9 => 
+            7 => 
             array (
                 'person_id' => 1515,
                 'forename' => 'Daryl',
@@ -18231,7 +18207,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 19:59:50',
                 'updated_at' => '2016-02-01 19:59:50',
             ),
-            10 => 
+            8 => 
             array (
                 'person_id' => 1516,
                 'forename' => 'Charlie',
@@ -18243,7 +18219,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:01:15',
                 'updated_at' => '2016-02-01 20:01:15',
             ),
-            11 => 
+            9 => 
             array (
                 'person_id' => 1517,
                 'forename' => 'Sienna',
@@ -18255,7 +18231,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:01:28',
                 'updated_at' => '2016-02-01 20:01:28',
             ),
-            12 => 
+            10 => 
             array (
                 'person_id' => 1518,
                 'forename' => 'Rupert',
@@ -18267,7 +18243,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:01:38',
                 'updated_at' => '2016-02-01 20:01:38',
             ),
-            13 => 
+            11 => 
             array (
                 'person_id' => 1519,
                 'forename' => 'Adam',
@@ -18279,7 +18255,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:01:50',
                 'updated_at' => '2016-02-01 20:01:50',
             ),
-            14 => 
+            12 => 
             array (
                 'person_id' => 1520,
                 'forename' => 'Kate',
@@ -18291,7 +18267,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:02:08',
                 'updated_at' => '2016-02-01 20:02:08',
             ),
-            15 => 
+            13 => 
             array (
                 'person_id' => 1521,
                 'forename' => 'Melanie',
@@ -18303,7 +18279,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:02:23',
                 'updated_at' => '2016-02-01 20:02:23',
             ),
-            16 => 
+            14 => 
             array (
                 'person_id' => 1522,
                 'forename' => 'Mark',
@@ -18315,7 +18291,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:02:38',
                 'updated_at' => '2016-02-01 20:02:38',
             ),
-            17 => 
+            15 => 
             array (
                 'person_id' => 1523,
                 'forename' => 'David',
@@ -18327,7 +18303,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:02:55',
                 'updated_at' => '2016-02-01 20:02:55',
             ),
-            18 => 
+            16 => 
             array (
                 'person_id' => 1524,
                 'forename' => 'Dina',
@@ -18339,7 +18315,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:09:35',
                 'updated_at' => '2016-02-01 20:09:35',
             ),
-            19 => 
+            17 => 
             array (
                 'person_id' => 1525,
                 'forename' => 'Seth',
@@ -18351,7 +18327,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:09:45',
                 'updated_at' => '2016-02-01 20:09:45',
             ),
-            20 => 
+            18 => 
             array (
                 'person_id' => 1526,
                 'forename' => 'Patrick',
@@ -18363,7 +18339,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:09:56',
                 'updated_at' => '2016-02-01 20:09:56',
             ),
-            21 => 
+            19 => 
             array (
                 'person_id' => 1527,
                 'forename' => 'Christopher',
@@ -18375,7 +18351,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:13:42',
                 'updated_at' => '2016-02-01 20:13:42',
             ),
-            22 => 
+            20 => 
             array (
                 'person_id' => 1528,
                 'forename' => 'Brandon',
@@ -18387,7 +18363,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:20:08',
                 'updated_at' => '2016-02-01 20:20:08',
             ),
-            23 => 
+            21 => 
             array (
                 'person_id' => 1529,
                 'forename' => 'Kate',
@@ -18399,7 +18375,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:20:24',
                 'updated_at' => '2016-02-01 20:20:24',
             ),
-            24 => 
+            22 => 
             array (
                 'person_id' => 1530,
                 'forename' => 'Frank',
@@ -18411,7 +18387,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:20:35',
                 'updated_at' => '2016-02-01 20:20:35',
             ),
-            25 => 
+            23 => 
             array (
                 'person_id' => 1531,
                 'forename' => 'Kal',
@@ -18423,7 +18399,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:20:49',
                 'updated_at' => '2016-02-01 20:20:49',
             ),
-            26 => 
+            24 => 
             array (
                 'person_id' => 1532,
                 'forename' => 'Cybill',
@@ -18435,7 +18411,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:22:03',
                 'updated_at' => '2016-02-01 20:22:03',
             ),
-            27 => 
+            25 => 
             array (
                 'person_id' => 1533,
                 'forename' => 'Khandi',
@@ -18447,7 +18423,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:24:05',
                 'updated_at' => '2016-02-01 20:24:05',
             ),
-            28 => 
+            26 => 
             array (
                 'person_id' => 1534,
                 'forename' => 'W. Earl',
@@ -18459,7 +18435,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:24:43',
                 'updated_at' => '2016-02-01 20:24:43',
             ),
-            29 => 
+            27 => 
             array (
                 'person_id' => 1535,
                 'forename' => 'Orson',
@@ -18471,7 +18447,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:28:04',
                 'updated_at' => '2016-02-01 20:28:04',
             ),
-            30 => 
+            28 => 
             array (
                 'person_id' => 1536,
                 'forename' => 'Brenda',
@@ -18483,7 +18459,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:30:12',
                 'updated_at' => '2016-02-01 20:30:12',
             ),
-            31 => 
+            29 => 
             array (
                 'person_id' => 1537,
                 'forename' => 'Kelly',
@@ -18495,7 +18471,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:31:29',
                 'updated_at' => '2016-02-01 20:31:29',
             ),
-            32 => 
+            30 => 
             array (
                 'person_id' => 1538,
                 'forename' => 'Anthony',
@@ -18507,7 +18483,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:31:41',
                 'updated_at' => '2016-02-01 20:31:41',
             ),
-            33 => 
+            31 => 
             array (
                 'person_id' => 1539,
                 'forename' => 'John',
@@ -18519,7 +18495,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:31:52',
                 'updated_at' => '2016-02-01 20:31:52',
             ),
-            34 => 
+            32 => 
             array (
                 'person_id' => 1540,
                 'forename' => 'George',
@@ -18531,7 +18507,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:33:47',
                 'updated_at' => '2016-02-01 20:33:47',
             ),
-            35 => 
+            33 => 
             array (
                 'person_id' => 1541,
                 'forename' => 'James',
@@ -18543,7 +18519,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:35:24',
                 'updated_at' => '2016-02-01 20:35:24',
             ),
-            36 => 
+            34 => 
             array (
                 'person_id' => 1542,
                 'forename' => 'Paul',
@@ -18555,7 +18531,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:36:56',
                 'updated_at' => '2016-02-01 20:36:56',
             ),
-            37 => 
+            35 => 
             array (
                 'person_id' => 1543,
                 'forename' => 'Ethan',
@@ -18567,7 +18543,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:47:27',
                 'updated_at' => '2016-02-01 20:47:27',
             ),
-            38 => 
+            36 => 
             array (
                 'person_id' => 1544,
                 'forename' => 'Tia',
@@ -18579,7 +18555,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:49:56',
                 'updated_at' => '2016-02-01 20:49:56',
             ),
-            39 => 
+            37 => 
             array (
                 'person_id' => 1545,
                 'forename' => 'Eliza',
@@ -18591,7 +18567,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:50:07',
                 'updated_at' => '2016-02-01 20:50:07',
             ),
-            40 => 
+            38 => 
             array (
                 'person_id' => 1546,
                 'forename' => 'Charlton',
@@ -18603,7 +18579,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:50:29',
                 'updated_at' => '2016-02-01 20:50:29',
             ),
-            41 => 
+            39 => 
             array (
                 'person_id' => 1547,
                 'forename' => 'Natascha',
@@ -18615,7 +18591,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:52:40',
                 'updated_at' => '2016-02-01 20:52:40',
             ),
-            42 => 
+            40 => 
             array (
                 'person_id' => 1548,
                 'forename' => 'Madeleine',
@@ -18627,7 +18603,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 20:54:47',
                 'updated_at' => '2016-02-01 20:54:47',
             ),
-            43 => 
+            41 => 
             array (
                 'person_id' => 1549,
                 'forename' => 'Stephen',
@@ -18639,7 +18615,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:00:41',
                 'updated_at' => '2016-02-01 21:00:41',
             ),
-            44 => 
+            42 => 
             array (
                 'person_id' => 1550,
                 'forename' => 'Kevin',
@@ -18651,7 +18627,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:00:51',
                 'updated_at' => '2016-02-01 21:00:51',
             ),
-            45 => 
+            43 => 
             array (
                 'person_id' => 1551,
                 'forename' => 'Chazz',
@@ -18663,7 +18639,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:01:02',
                 'updated_at' => '2016-02-01 21:01:02',
             ),
-            46 => 
+            44 => 
             array (
                 'person_id' => 1552,
                 'forename' => 'Kim',
@@ -18675,7 +18651,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:01:55',
                 'updated_at' => '2016-02-01 21:01:55',
             ),
-            47 => 
+            45 => 
             array (
                 'person_id' => 1553,
                 'forename' => 'Bob',
@@ -18687,7 +18663,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:13:53',
                 'updated_at' => '2016-02-01 21:13:53',
             ),
-            48 => 
+            46 => 
             array (
                 'person_id' => 1554,
                 'forename' => 'Judy',
@@ -18699,7 +18675,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:17:21',
                 'updated_at' => '2016-02-01 21:17:21',
             ),
-            49 => 
+            47 => 
             array (
                 'person_id' => 1555,
                 'forename' => 'Frank',
@@ -18711,7 +18687,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:17:44',
                 'updated_at' => '2016-02-01 21:17:44',
             ),
-            50 => 
+            48 => 
             array (
                 'person_id' => 1556,
                 'forename' => 'Ray',
@@ -18723,7 +18699,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:18:11',
                 'updated_at' => '2016-02-01 21:18:11',
             ),
-            51 => 
+            49 => 
             array (
                 'person_id' => 1557,
                 'forename' => 'Bert',
@@ -18735,7 +18711,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:18:43',
                 'updated_at' => '2016-02-01 21:18:43',
             ),
-            52 => 
+            50 => 
             array (
                 'person_id' => 1558,
                 'forename' => 'Jack',
@@ -18747,7 +18723,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:19:18',
                 'updated_at' => '2016-02-01 21:19:18',
             ),
-            53 => 
+            51 => 
             array (
                 'person_id' => 1559,
                 'forename' => 'Margaret',
@@ -18759,7 +18735,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:20:19',
                 'updated_at' => '2016-02-01 21:20:19',
             ),
-            54 => 
+            52 => 
             array (
                 'person_id' => 1560,
                 'forename' => 'Richard E.',
@@ -18771,7 +18747,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'created_at' => '2016-02-01 21:23:06',
                 'updated_at' => '2016-02-01 21:23:06',
             ),
-            55 => 
+            53 => 
             array (
                 'person_id' => 1561,
                 'forename' => 'Stanley',
@@ -18782,6 +18758,1890 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'bio' => 'Stanley Baker was unusual star material to emerge during the Fifties - when impossibly handsome and engagingly romantic leading men were almost de rigueur. Baker was forged from a rougher mould. His was good-looking, but his features were angular, taut, austere and unwelcoming. His screen persona was taciturn, even surly, and the young actor displayed a predilection for introspection and blunt speaking, and was almost wilfully unromantic. For the times a potential leading actor cast heavily against the grain. Baker immediately proved a unique screen presence - tough, gritty, combustible - and possessing an aura of dark, even menacing power. Stanley Baker came from rugged Welsh mining stock - and as a lad was unruly, quick to flare, and first to fight. But like his compatriot and friend Richard Burton, the young Baker was rescued from a gruelling life of coal mining by a local teacher, Glyn Morse, who recognized in the proud and self-willed lad a potent combination of a fine speaking vo ....',
                 'created_at' => '2016-02-01 21:27:13',
                 'updated_at' => '2016-02-01 21:27:13',
+            ),
+            54 => 
+            array (
+                'person_id' => 1562,
+                'forename' => 'Michael',
+                'surname' => 'Curtiz',
+                'birthday' => '1886-12-24',
+                'deceased' => '1962-04-10',
+                'image' => 'Michael_Curtiz_1454456895.jpg',
+            'bio' => 'Curtiz began acting in and then directing films in his native Hungary in 1912. After WWI, he continued his filmmaking career in Austria and Germany and into the early 1920s when he directed films in other countries in Europe. Moving to the US in 1926, he started making films in Hollywood for Warner Bros. and became thoroughly entrenched in the studio system. His films during the 1930s and &#039;40s encompassed nearly every genre imaginable and some, including {{Casablanca (1942)}} and Mildred Pierce (1945), are considered to be film classics. His brilliance waned in the 1950s when he made a number of mediocre films for studios other than Warner. He directed his last film in 1961, a year before his death at 74.',
+                'created_at' => '2016-02-02 23:48:15',
+                'updated_at' => '2016-02-02 23:49:03',
+            ),
+            55 => 
+            array (
+                'person_id' => 1563,
+                'forename' => 'Raoul',
+                'surname' => 'Walsh',
+                'birthday' => '1887-03-11',
+                'deceased' => '1980-12-31',
+                'image' => 'raoul_walsh_1454457038.jpg',
+            'bio' => 'Raoul Walsh&#039;s 52-year directorial career made him a Hollywood legend. Walsh was also an actor: He appeared in the first version of W. Somerset Maugham&#039;s &quot;Rain&quot; renamed Sadie Thompson (1928) opposite Gloria Swanson in the title role. He would have played the Cisco Kid in his own film In Old Arizona (1928) if an errant jackrabbit hadn&#039;t cost him his right eye by leaping through the windshield of his automobile. Warner Baxter filled the role and won an Oscar. Before John Ford and Nicholas Ray, it was Raoul Walsh who made the eye-patch almost as synonymous with a Hollywood director as Cecil B. DeMille&#039;s jodhpurs. He interned with the best, serving as assistant director and editor on D.W. Griffith&#039;s racist masterpiece, The Clansman, better known as The Birth of a Nation (1915), a blockbuster that may have been the highest-grossing film of all time if accurate box office records had been kept before the sound era.',
+                'created_at' => '2016-02-02 23:48:20',
+                'updated_at' => '2016-02-02 23:50:38',
+            ),
+            56 => 
+            array (
+                'person_id' => 1564,
+                'forename' => 'Peter',
+                'surname' => 'Segal',
+                'birthday' => '1962-02-02',
+                'deceased' => NULL,
+                'image' => 'Peter_Segal_1454456904.jpg',
+            'bio' => 'Peter Segal was born in 1962. He is a director and producer, known for 50 First Dates (2004), Get Smart (2008) and Anger Management (2003). He is married to Linda.',
+                'created_at' => '2016-02-02 23:48:24',
+                'updated_at' => '2016-02-02 23:48:24',
+            ),
+            57 => 
+            array (
+                'person_id' => 1565,
+                'forename' => 'Roger',
+                'surname' => 'Allers',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Roger_Allers_1454456909.jpg',
+            'bio' => 'Roger Allers is known for his work on The Lion King (1994), Aladdin (1992) and The Emperor\'s New Groove (2000).',
+                'created_at' => '2016-02-02 23:48:29',
+                'updated_at' => '2016-02-02 23:48:29',
+            ),
+            58 => 
+            array (
+                'person_id' => 1566,
+                'forename' => 'Josh',
+                'surname' => 'Trank',
+                'birthday' => '1984-02-19',
+                'deceased' => NULL,
+                'image' => 'Josh_Trank_1454457101.jpg',
+            'bio' => 'Josh Trank was born on February 19, 1984 in Los Angeles, California, USA as Joshua Benjamin Trank. He is a writer and director, known for Chronicle (2012), Fantastic Four (2015) and The Kill Point (2007).',
+                'created_at' => '2016-02-02 23:51:41',
+                'updated_at' => '2016-02-02 23:51:41',
+            ),
+            59 => 
+            array (
+                'person_id' => 1567,
+                'forename' => 'Alex',
+                'surname' => 'Proyas',
+                'birthday' => '1963-09-23',
+                'deceased' => NULL,
+                'image' => 'Alex_Proyas_1454457110.jpg',
+            'bio' => 'Alex Proyas has moved effortlessly between helming TV commercials and music videos to feature films. Born to Greek parents in Egypt, Proyas relocated to Australia with his family when he was three years old. He began making films at age ten and went on to attend the Australian Film Television and Radio School along with Jane Campion and Jocelyn Moorhouse. Proyas collaborated with Campion on two of her shorts, Histoire de jeune fille (1984), for which he wrote and performed a song, and Passionless Moments (1983), which he photographed. Proyas\' own short, Groping (1980), had earned him some attention at festival screenings in Sydney and London. Also while still a student, the enterprising novice formed Meaningful Eye Contact, a production company. Spirits of the Air, Gremlins of the Clouds (1989) marked Proyas\' feature debut as director and screenwriter. Set in a post-apocalyptic world, the film, with its stylized production design and aural texture, was atypical of standard Australian f ....',
+                'created_at' => '2016-02-02 23:51:50',
+                'updated_at' => '2016-02-02 23:51:50',
+            ),
+            60 => 
+            array (
+                'person_id' => 1568,
+                'forename' => 'Ang',
+                'surname' => 'Lee',
+                'birthday' => '1954-10-23',
+                'deceased' => NULL,
+                'image' => 'Ang_Lee_1454457116.jpg',
+            'bio' => 'Born in 1954 in Pingtung, Taiwan, Ang Lee has become one of today\'s greatest contemporary filmmakers. Ang graduated from the National Taiwan College of Arts in 1975 and then came to the U.S. to receive a B.F.A. Degree in Theatre/Theater Direction at the University of Illinois at Urbana-Champaign, and a Masters Degree in Film Production at New York University. At NYU, he served as Assistant Director on Spike Lee\'s student film, Joe\'s Bed-Stuy Barbershop: We Cut Heads (1983). After Lee wrote a couple of screenplays, he eventually appeared on the film scene with Pushing Hands (1992) (aka Pushing Hands), a dramatic-comedy reflecting on generational conflicts and cultural adaptation, centering on the metaphor of the grandfather\'s Tai-Chi technique of "Pushing Hands". The Wedding Banquet (1993) (aka The Wedding Banquet) was Lee\'s next film, an exploration of cultural and generational conflicts through a homosexual Taiwanese man who feigns a marriage in order to satisfy the traditional demand ....',
+                'created_at' => '2016-02-02 23:51:56',
+                'updated_at' => '2016-02-02 23:51:56',
+            ),
+            61 => 
+            array (
+                'person_id' => 1569,
+                'forename' => 'Oliver',
+                'surname' => 'Stone',
+                'birthday' => '1946-09-15',
+                'deceased' => NULL,
+                'image' => 'Oliver_Stone_1454457122.jpg',
+            'bio' => 'Oliver Stone has become known as a master of controversial subjects and a legendary film maker. His films are filled with a variety of film angles and styles, he pushes his actors to give Oscar-worthy performances, and despite his failures, has always returned to success. William Oliver Stone was born in New York City, to Jacqueline (Goddet) and Louis Stone, a stockbroker. His American father was from a Jewish family (from Germany and Eastern Europe), and his mother, a war bride, was French (and Catholic). After dropping out of Yale University, he became a soldier in the Vietnam War. Serving in two different regiments (including 1rst Cavalry), he was introduced to The Doors, drugs, Jefferson Airplane, and other things that defined the sixties. For his actions in the war, he was awarded a Bronze Star for Gallantry and a Purple Heart. Returning from the war, Stone did not return to graduate from Yale. His first film was a student film entitled Last Year in Viet Nam (1971), followed by th ....',
+                'created_at' => '2016-02-02 23:52:02',
+                'updated_at' => '2016-02-02 23:52:02',
+            ),
+            62 => 
+            array (
+                'person_id' => 1570,
+                'forename' => 'Pete',
+                'surname' => 'Travis',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Pete_Travis_1454457127.jpg',
+            'bio' => 'Pete Travis is a director and writer, known for Dredd (2012), Vantage Point (2008) and Omagh (2004).',
+                'created_at' => '2016-02-02 23:52:07',
+                'updated_at' => '2016-02-02 23:52:07',
+            ),
+            63 => 
+            array (
+                'person_id' => 1571,
+                'forename' => 'Nicolas Winding',
+                'surname' => 'Refn',
+                'birthday' => '1970-09-29',
+                'deceased' => NULL,
+                'image' => 'Nicolas_Winding_Refn_1454457132.jpg',
+            'bio' => 'Writer, director, and producer Nicolas Winding Refn was born in Copenhagen, Denmark, in 1970, to Anders Refn, a film director and editor, and Vibeke Winding (née Tuxen), a cinematographer. At the age of eight, he moved to New York with his parents where he lived out his teenage years. New York quickly became his city and soon began to shape Nicolas\'s future. At 17, Nicolas moved back to his native Copenhagen to complete his Gymnasium (High School) Education. Upon his school graduation, he swiftly flew back to New York where he attended the American Academy of Dramatic Arts. However, this education was cut short when Nicolas threw a desk at a classroom wall and was expelled from the Academy. Consequently, he applied to the Danish Film School and was readily accepted. This education too was to be short-lived though as one month prior to the start of term Nicolas dropped out. A short film Nicolas had written, directed and starred in was aired on an obscure cable TV channel and lead to th ....',
+                'created_at' => '2016-02-02 23:52:12',
+                'updated_at' => '2016-02-02 23:52:12',
+            ),
+            64 => 
+            array (
+                'person_id' => 1572,
+                'forename' => 'Chia-Liang',
+                'surname' => 'Liu',
+                'birthday' => '1936-08-01',
+                'deceased' => NULL,
+                'image' => 'Chia_Liang_Liu_1454457138.jpg',
+            'bio' => 'June 25, 2013 (age 76) in Hong Kong, China<br/><br/>Chia-Liang Liu was born on August 1, 1936 in Guangzhou, Guangdong, China. He is known for his work on The Legend of Drunken Master (1994), Seven swords (2005) and My Young Auntie (1981). He was married to Jing-Jing Yung and Hsiu-Hsia Ho. He died on June 25, 2013 in Hong Kong, China.',
+                'created_at' => '2016-02-02 23:52:18',
+                'updated_at' => '2016-02-02 23:52:18',
+            ),
+            65 => 
+            array (
+                'person_id' => 1573,
+                'forename' => 'Kevin',
+                'surname' => 'Lima',
+                'birthday' => '1962-02-02',
+                'deceased' => NULL,
+                'image' => 'Kevin_Lima_1454457143.jpg',
+            'bio' => 'Kevin Lima was born in 1962 in Pawtucket, Rhode Island, USA. He is known for his work on Enchanted (2007), Tarzan (1999) and A Goofy Movie (1995). He is married to Brenda Chapman. They have one child.',
+                'created_at' => '2016-02-02 23:52:23',
+                'updated_at' => '2016-02-02 23:52:23',
+            ),
+            66 => 
+            array (
+                'person_id' => 1574,
+                'forename' => 'John',
+                'surname' => 'Carpenter',
+                'birthday' => '1948-01-16',
+                'deceased' => NULL,
+                'image' => 'John_Carpenter_1454457147.jpg',
+            'bio' => 'John Howard Carpenter was born in Carthage, New York, to mother Milton Jean (Carter) and father Howard Ralph Carpenter. His family moved to Bowling Green, Kentucky, where his father, a professor, was head of the music department at Western Kentucky University. He attended Western Kentucky University and then USC film school in Los Angeles. He began making short films in 1962, and won an Academy Award for Best Live-Action Short Subject in 1970, for The Resurrection of Broncho Billy (1970), which he made while at USC. Carpenter formed a band in the mid-1970s called The Coupe de Villes, which included future directors Tommy Lee Wallace and Nick Castle. Since the 1970s, he has had numerous roles in the film industry including writer, actor, composer, producer, and director. After directing Dark Star (1974), he has helmed both classic horror films like Halloween (1978), The Fog (1980), and The Thing (1982), and noted sci-fi tales like Escape from New York (1981) and Starman (1984).',
+                'created_at' => '2016-02-02 23:52:27',
+                'updated_at' => '2016-02-02 23:52:27',
+            ),
+            67 => 
+            array (
+                'person_id' => 1575,
+                'forename' => 'Neill',
+                'surname' => 'Blomkamp',
+                'birthday' => '1979-09-17',
+                'deceased' => NULL,
+                'image' => 'Neill_Blomkamp_1454457152.jpg',
+            'bio' => 'Neill Blomkamp was born on September 17, 1979 in Johannesburg, South Africa. He is a director and writer, known for District 9 (2009), Elysium (2013) and Chappie (2015). He is married to Terri Tatchell. They have one child.',
+                'created_at' => '2016-02-02 23:52:32',
+                'updated_at' => '2016-02-02 23:52:32',
+            ),
+            68 => 
+            array (
+                'person_id' => 1576,
+                'forename' => 'Ivan',
+                'surname' => 'Reitman',
+                'birthday' => '1946-10-27',
+                'deceased' => NULL,
+                'image' => 'Ivan_Reitman_1454457158.jpg',
+            'bio' => 'Ivan Reitman, as a producer and director, has created many of American cinema\'s most successful and best loved feature film comedies and has worked with Hollywood\'s acting elite. Reitman has produced such hits as the ground-breaking sensation National Lampoon\'s Animal House (1978), which introduced John Belushi to American filmgoers, and the family features Beethoven (1992) and Beethoven\'s 2nd (1993). His directing credits include Arrête de ramer, t\'es sur le sable (1979), Stripes (1981) and Ghostbusters (1984), films starring Bill Murray, Dan Aykroyd and Harold Ramis; Dave (1993), which starred Kevin Kline and Sigourney Weaver, Junior (1994) which starred Arnold Schwarzenegger, Danny DeVito and Emma Thompson. Reitman also produced the HBO telefilm The Late Shift (1996), based on Bill Carter\'s non-fiction book about the late-night television wars which received seven Emmy nominations. Other recent producing endeavors include Commandments (1997), starring Aidan Quinn and Courteney Cox, ....',
+                'created_at' => '2016-02-02 23:52:38',
+                'updated_at' => '2016-02-02 23:52:38',
+            ),
+            69 => 
+            array (
+                'person_id' => 1577,
+                'forename' => 'James',
+                'surname' => 'Gunn',
+                'birthday' => '1970-08-05',
+                'deceased' => NULL,
+                'image' => 'James_Gunn_1454457162.jpg',
+                'bio' => 'James Gunn was born and raised in St. Louis, Missouri in a large Irish Catholic family. His father and his uncles were all lawyers. He has been writing and performing as long as he can remember. He began making 8mm films at the age of 12. Many of these were comedic splatter films featuring his brothers being disemboweled by zombies. Gunn dropped out of college to pursue a rock and roll career. His band, "the Icons", released one album, "Mom, We Like It Here on Earth". He earned very little money doing this and so during this time, he also worked as an orderly in Tucson, Arizona, upon which many of the situations in his first novel, "The Toy Collector", are based. He also wrote and drew comic strips for underground and college newspapers. Gunn eventually returned to school and received his B.A. at Saint Louis University. He immediately thereafter moved to New York where he received an MFA in creative writing from Columbia University, which he today thinks may have been a wonderfully exp ....',
+                'created_at' => '2016-02-02 23:52:42',
+                'updated_at' => '2016-02-02 23:52:42',
+            ),
+            70 => 
+            array (
+                'person_id' => 1578,
+                'forename' => 'Chris',
+                'surname' => 'Columbus',
+                'birthday' => '1958-09-10',
+                'deceased' => NULL,
+                'image' => 'Chris_Columbus_1454457167.jpg',
+            'bio' => 'Born in Pennsylvania and raised in Ohio, Chris Columbus was first inspired to make movies after seeing "The Godfather" at age 15. After enrolling at NYU film school, he sold his first screenplay (never produced) while a sophomore there. After graduation Columbus tried to sell his fourth script, "Gremlins", with no success, until Steven Spielberg optioned it; Columbus moved to Los Angeles for a year during rewrites on the project in Spielberg\'s bungalow at Universal. After writing two more scripts for Spielberg, "The Goonies" and "Young Sherlock Holmes", Columbus\' own directing career was launched a few years later with "Adventures in Babysitting". He is best known to audiences as the director of the runaway hit "Home Alone", written and produced by John Hughes its sequel "Home Alone 2", and most recently "Mrs. Doubtfire".',
+                'created_at' => '2016-02-02 23:52:47',
+                'updated_at' => '2016-02-02 23:52:47',
+            ),
+            71 => 
+            array (
+                'person_id' => 1579,
+                'forename' => 'Alfonso',
+                'surname' => 'Cuar&oacute;n',
+                'birthday' => '1961-11-28',
+                'deceased' => NULL,
+                'image' => 'Alfonso_Cuar_oacute_n_1454457173.jpg',
+            'bio' => 'Alfonso Cuarón Orozco was born on November 28th in Mexico City, Mexico. From an early age, he yearned to be either a film director or an astronaut. However, he did not want to enter the army, so he settled for directing. He didn\'t receive his first camera until his twelfth birthday, and then immediately started to film everything he saw, showing it afterwards to everyone. In his teen years, films were his hobby. Sometimes he said to his mother he would go to a friend\'s home, when in fact he would go to the cinema. His ambition was to know every theatre in the city. Near his house there were two studios, Studios Churubusco and Studios 212. After finishing school, Cuarón decided to study cinema right away. He tried to study at C.C.C. (Centro de Capacitación Cinematográfica) but wasn\'t accepted because at that time they weren\'t accepting students under twenty-four years old. His mother didn\'t support that idea of cinema, so he studied philosophy in the morning and in the afternoon he  ....',
+                'created_at' => '2016-02-02 23:52:54',
+                'updated_at' => '2016-02-02 23:52:54',
+            ),
+            72 => 
+            array (
+                'person_id' => 1580,
+                'forename' => 'Mike',
+                'surname' => 'Newell',
+                'birthday' => '1942-03-28',
+                'deceased' => NULL,
+                'image' => 'Mike_Newell_1454457178.jpg',
+                'bio' => 'Attended Cambridge University. Three year training course at Granada Television, with intention of going into theatre. Graduated to directing TV plays, building strong reputation for work with David Hare, David Edgar, Hohn, John Osborne, Jack Rosenthal.',
+                'created_at' => '2016-02-02 23:52:58',
+                'updated_at' => '2016-02-02 23:52:58',
+            ),
+            73 => 
+            array (
+                'person_id' => 1581,
+                'forename' => 'David',
+                'surname' => 'Yates',
+                'birthday' => '1963-11-30',
+                'deceased' => NULL,
+                'image' => 'David_Yates_1454457182.jpg',
+            'bio' => 'David Yates was born on November 30, 1963 in St. Helens, Merseyside, England. He is a director and producer, known for Harry Potter and the Deathly Hallows: Part 2 (2011), Harry Potter and the Order of the Phoenix (2007) and Harry Potter and the Half-Blood Prince (2009).',
+                'created_at' => '2016-02-02 23:53:02',
+                'updated_at' => '2016-02-02 23:53:02',
+            ),
+            74 => 
+            array (
+                'person_id' => 1582,
+                'forename' => 'Rob',
+                'surname' => 'Minkoff',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Rob_Minkoff_1454457192.jpg',
+            'bio' => 'Rob Minkoff is a producer and director, known for The Lion King (1994), Stuart Little (1999) and The Forbidden Kingdom (2008). He has been married to Crystal Kung since September 29, 2007.',
+                'created_at' => '2016-02-02 23:53:12',
+                'updated_at' => '2016-02-02 23:53:12',
+            ),
+            75 => 
+            array (
+                'person_id' => 1583,
+                'forename' => 'Robert',
+                'surname' => 'Rossen',
+                'birthday' => '1908-03-16',
+                'deceased' => NULL,
+                'image' => 'Robert_Rossen_1454457197.jpg',
+            'bio' => 'February 18, 1966 (age 57) in Hollywood, Los Angeles, California, USA<br/><br/>Robert Rossen was born on March 16, 1908 in New York City, New York, USA as Robert Rosen. He was a writer and director, known for The Hustler (1961), All the King\'s Men (1949) and The Strange Love of Martha Ivers (1946). He was married to Susan Siegal. He died on February 18, 1966 in Hollywood, Los Angeles, California, USA.',
+                'created_at' => '2016-02-02 23:53:17',
+                'updated_at' => '2016-02-02 23:53:17',
+            ),
+            76 => 
+            array (
+                'person_id' => 1584,
+                'forename' => 'Martin',
+                'surname' => 'Scorsese',
+                'birthday' => '1942-11-17',
+                'deceased' => NULL,
+                'image' => 'Martin_Scorsese_1454457202.jpg',
+            'bio' => 'Martin Charles Scorsese was born on November 17, 1942, in New York City, to Italian-American parents Catherine (Cappa) and Charles Scorsese. He was raised in the neighborhood of Little Italy, which later provided the inspiration for several of his films. Scorsese earned a B.S. degree in film communications in 1964, followed by an M.A. in the same field in 1966 at New York University\'s School of Film. During this time, he made numerous prize-winning short films including The Big Shave (1968), and directed his first feature film, Who\'s That Knocking at My Door (1967). He served as assistant director and an editor of the documentary Woodstock (1970) and won critical and popular acclaim for Mean Streets (1973), which first paired him with actor and frequent collaborator Robert De Niro. In 1976, Scorsese\'s Taxi Driver (1976), also starring De Niro, was awarded the Palme d\'Or at the Cannes Film Festival, and he followed that film with New York, New York (1977) and The Last Waltz (1978). Scor ....',
+                'created_at' => '2016-02-02 23:53:22',
+                'updated_at' => '2016-02-02 23:53:22',
+            ),
+            77 => 
+            array (
+                'person_id' => 1585,
+                'forename' => 'Gary',
+                'surname' => 'Ross',
+                'birthday' => '1956-11-03',
+                'deceased' => NULL,
+                'image' => 'Gary_Ross_1454457207.jpg',
+            'bio' => 'Gary Ross is an American writer, director and actor born November 3rd, 1956 in Los Angeles, California. His father was screenwriter Arthur A. Ross (1920 - 2008). After writing for television series Deadly Nightmares (1983) in 1986, Ross broke through by penning the Tom Hanks hit Big (1988), his first screenplay to be made into a feature film. Ross followed up the success of Big (1988) with a series of notable screenwriting credits including Mr. Baseball (1992), Dave (1993), Pleasantville (1998) and Seabiscuit (2003). 1998\'s Pleasantville (1998) also marked Ross\'s directorial debut, after which he went on to direct Seabiscuit (2003) and The Hunger Games (2012), which he adapted for the screen alongside Hunger Games novelist Suzanne Collins. Ross has been nominated for four Academy Awards, including Best Picture and Adapted Screenplay nods for Seabiscuit (2003), which received a total of seven Academy Awards nominations but no wins. Despite the extraordinary commercial success of The Hun ....',
+                'created_at' => '2016-02-02 23:53:27',
+                'updated_at' => '2016-02-02 23:53:27',
+            ),
+            78 => 
+            array (
+                'person_id' => 1586,
+                'forename' => 'Francis',
+                'surname' => 'Lawrence',
+                'birthday' => '1971-03-26',
+                'deceased' => NULL,
+                'image' => 'Francis_Lawrence_1454457211.jpg',
+            'bio' => 'Francis Lawrence was born on March 26, 1971 in Vienna, Austria. He is a producer and director, known for The Hunger Games: Catching Fire (2013), I Am Legend (2007) and The Hunger Games: Mockingjay - Part 1 (2014).',
+                'created_at' => '2016-02-02 23:53:31',
+                'updated_at' => '2016-02-02 23:53:31',
+            ),
+            79 => 
+            array (
+                'person_id' => 1587,
+                'forename' => 'Glenn',
+                'surname' => 'Ficarra',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Glenn_Ficarra_1454457220.jpg',
+            'bio' => 'Glenn Ficarra is a writer and producer, known for Focus (2015), I Love You Phillip Morris (2009) and Bad Santa (2003).',
+                'created_at' => '2016-02-02 23:53:40',
+                'updated_at' => '2016-02-02 23:53:40',
+            ),
+            80 => 
+            array (
+                'person_id' => 1588,
+                'forename' => 'Matthew',
+                'surname' => 'Vaughn',
+                'birthday' => '1971-03-07',
+                'deceased' => NULL,
+                'image' => 'Matthew_Vaughn_1454457231.jpg',
+            'bio' => 'Matthew Vaughn is an English film producer and director. He is known for producing such films as Lock, Stock and Two Smoking Barrels (1998) and Snatch. (2000) and for directing the crime thriller, Layer Cake (2004), the fantasy epic, Stardust (2007), the superhero comedy, Kick-Ass (2010), and the superhero film, X-Men: First Class (2011). Vaughn was educated at Stowe School in Buckingham, England. Taking a gap year between Stowe and university, he traveled the world on a Hard Rock Cafe tour and landed in Los Angeles, U.S. Here, he began working as an assistant to a director. He returned to London, attending University College London where he studied anthropology and ancient history. But the film bug had taken hold. He dropped out of university after a few weeks and returned to Los Angeles to start his career. He quickly realized, however, that everyone in town was trying to do the same thing, so he crossed back over the Atlantic to make a name for himself in England. At 25, he produced ....',
+                'created_at' => '2016-02-02 23:53:51',
+                'updated_at' => '2016-02-02 23:53:51',
+            ),
+            81 => 
+            array (
+                'person_id' => 1589,
+                'forename' => 'Rian',
+                'surname' => 'Johnson',
+                'birthday' => '1973-12-17',
+                'deceased' => NULL,
+                'image' => 'Rian_Johnson_1454457235.jpg',
+            'bio' => 'Rian Johnson was born in Maryland. At a young age, he moved to San Clemente, California where he was raised. After graduating from High school, he went on to attend University of Southern California School of Cinematic Arts. His first feature film "Brick" was released in 2005 and was the building block (no pun intended) that launched his career. He is a Director, writer and musician among other things.',
+                'created_at' => '2016-02-02 23:53:56',
+                'updated_at' => '2016-02-02 23:53:56',
+            ),
+            82 => 
+            array (
+                'person_id' => 1590,
+                'forename' => 'Zack',
+                'surname' => 'Snyder',
+                'birthday' => '1966-03-01',
+                'deceased' => NULL,
+                'image' => 'Zack_Snyder_1454457244.jpg',
+            'bio' => 'Zachary Edward "Zack" Snyder (born March 1, 1966) is an American film director, film producer, and screenwriter, best known for action and science fiction films. Snyder made his feature film debut with the 2004 remake Dawn of the Dead and has gone on to be known for his comic book movies and superhero films, including 300 (2007), Watchmen (2009), Man of Steel (2013) and its upcoming sequel, Batman v Superman: Dawn of Justice (2016). Snyder is the co-founder of Cruel and Unusual Films, a production company he established in 2004, alongside his wife Deborah Snyder and producing partner Wesley Coller.',
+                'created_at' => '2016-02-02 23:54:04',
+                'updated_at' => '2016-02-02 23:54:04',
+            ),
+            83 => 
+            array (
+                'person_id' => 1591,
+                'forename' => 'Barry',
+                'surname' => 'Sonnenfeld',
+                'birthday' => '1953-04-01',
+                'deceased' => NULL,
+                'image' => 'Barry_Sonnenfeld_1454457249.jpg',
+            'bio' => 'Barry Sonnenfeld was born and raised in New York City. He graduated from New York University of Film School in 1978. He started work as director of photography on the Oscar-nominated In Our Water (1982). Then Joel Coen and Ethan Coen hired him for Blood Simple. (1984). This film began his collaboration with the Coen Bros., who used him for their next two pictures, Raising Arizona (1987) and Miller\'s Crossing (1990). He also worked with Danny DeVito on his Throw Momma from the Train (1987) and Rob Reiner on When Harry Met Sally... (1989) and Misery (1990). Sonnenfeld got his first work as a director from Orion Pictures on The Addams Family (1991), a box-office success released in November 1991 followed by it\'s sequel, Addams Family Values (1993), He received critical acclaim for his fourth directorial effort, Get Shorty (1995). Produced by Jersey Films and based on a novel by Elmore Leonard, the film won a Golden Globe for best male performance. In 1996 Steven Spielberg asked him to dir ....',
+                'created_at' => '2016-02-02 23:54:09',
+                'updated_at' => '2016-02-02 23:54:09',
+            ),
+            84 => 
+            array (
+                'person_id' => 1592,
+                'forename' => 'Jean-Fran&ccedil;ois',
+                'surname' => 'Richet',
+                'birthday' => '1966-07-02',
+                'deceased' => NULL,
+                'image' => 'Jean_Fran_ccedil_ois_Richet_1454457257.jpg',
+            'bio' => 'Jean-François Richet was born on July 2, 1966 in Paris, France. He is a director and writer, known for Mesrine Part 1: Killer Instinct (2008), Mesrine Part 2: Public Enemy #1 (2008) and Assault on Precinct 13 (2005).',
+                'created_at' => '2016-02-02 23:54:17',
+                'updated_at' => '2016-02-02 23:54:17',
+            ),
+            85 => 
+            array (
+                'person_id' => 1593,
+                'forename' => 'Guillermo Del',
+                'surname' => 'Toro',
+                'birthday' => '1964-10-09',
+                'deceased' => NULL,
+                'image' => 'Guillermo_Del_Toro_1454457263.jpg',
+            'bio' => 'Guillermo del Toro was born October 9, 1964 in Guadalajara Jalisco, Mexico. Raised by his Catholic grandmother, del Toro developed an interest in filmmaking in his early teens. Later, he learned about makeup and effects from the legendary Dick Smith (The Exorcist (1973)) and worked on making his own short films. At the age of 21, del Toro executive produced his first feature, Dona Herlinda and Her Son (1986). Del Toro spent almost 10 years as a makeup supervisor, and formed his own company, Necropia in the early 1980s. He also produced and directed Mexican television programs at this time, and taught film. del Toro got his first big break when Cronos (1993) won nine academy awards in Mexico, then went on to win the International Critics Week prize at Cannes. Following this success, del Toro made his first Hollywood film, Mimic (1997), starring Mira Sorvino. del Toro had some unfortunate experiences working with a demanding Hollywood studio on Mimic (1997), and returned to Mexico to for ....',
+                'created_at' => '2016-02-02 23:54:23',
+                'updated_at' => '2016-02-02 23:54:23',
+            ),
+            86 => 
+            array (
+                'person_id' => 1594,
+                'forename' => 'Greg',
+                'surname' => 'Mottola',
+                'birthday' => '1964-07-11',
+                'deceased' => NULL,
+                'image' => 'Greg_Mottola_1454457268.jpg',
+            'bio' => 'Greg Mottola was born on July 11, 1964 in Dix Hills, Long Island, New York, USA as Gregory James Mottola. He is a director and producer, known for Superbad (2007), Paul (2011) and Adventureland (2009).',
+                'created_at' => '2016-02-02 23:54:28',
+                'updated_at' => '2016-02-02 23:54:28',
+            ),
+            87 => 
+            array (
+                'person_id' => 1595,
+                'forename' => 'John',
+                'surname' => 'Woo',
+                'birthday' => '1946-09-23',
+                'deceased' => NULL,
+                'image' => 'John_Woo_1454457272.jpg',
+            'bio' => 'Born in southern China, John Woo grew up in Hong Kong, where he began his film career as an assistant director in 1969, working for Shaw Brothers Studios. He directed his first feature in 1973 and has been a prolific director ever since, working in a wide variety of genres before A Better Tomorrow (1986) established his reputation as a master stylist specializing in ultra-violent gangster films and thrillers, with hugely elaborate action scenes shot with breathtaking panache. After gaining a cult reputation in the US with The Killer (1989), Woo was offered a Hollywood contract. He now works in the US.',
+                'created_at' => '2016-02-02 23:54:32',
+                'updated_at' => '2016-02-02 23:54:32',
+            ),
+            88 => 
+            array (
+                'person_id' => 1596,
+                'forename' => 'Rupert',
+                'surname' => 'Wyatt',
+                'birthday' => '1972-10-26',
+                'deceased' => NULL,
+                'image' => 'Rupert_Wyatt_1454457277.jpg',
+            'bio' => 'Rupert Wyatt is the co-founder of Picture Farm, the award-winning London & New York based production collective which includes film makers Adrian Sturges and Ben Freedman, Damian Lewis and Gareth Lewis, and Marc Singer. In its 8 year history Picture Farm has produced short films, documentaries, and features including: Dark Days (2000), Hotel Infinity (2004), Out There (2006), The Baker (2007), and most recently The Escapist (2008). Wyatt studied Film in Paris and while at University started writing for producers Claudie Ossard and Jean-Pierre Ramsay. This was followed by five years of writing and developing features in New York for companies Shooting Gallery, Miramax and Radical Media. Between 2000-2005 he worked in London and Liverpool directing episodic television and developing his own scripts through UK Film Council lottery funded the Film Consortium and with producers Adrian Sturges, Simon Relph and Michael Kuhn. He is currently developing the follow-up to his debut feature The Es ....',
+                'created_at' => '2016-02-02 23:54:37',
+                'updated_at' => '2016-02-02 23:54:37',
+            ),
+            89 => 
+            array (
+                'person_id' => 1597,
+                'forename' => 'Matt',
+                'surname' => 'Reeves',
+                'birthday' => '1966-04-27',
+                'deceased' => NULL,
+                'image' => 'Matt_Reeves_1454457281.jpg',
+            'bio' => 'Matt Reeves was born on April 27, 1966 in Rockville Center, New York, USA as Matthew George Reeves. He is a writer and producer, known for Let Me In (2010), The Yards (2000) and Under Siege 2: Dark Territory (1995).',
+                'created_at' => '2016-02-02 23:54:41',
+                'updated_at' => '2016-02-02 23:54:41',
+            ),
+            90 => 
+            array (
+                'person_id' => 1598,
+                'forename' => 'Duncan',
+                'surname' => 'Jones',
+                'birthday' => '1971-05-30',
+                'deceased' => NULL,
+                'image' => 'Duncan_Jones_1454457292.jpg',
+            'bio' => 'Duncan Jones was born on May 30, 1971 in Bromley, Kent, England as Duncan Zowie Haywood Jones. He is a director and writer, known for Moon (2009), Source Code (2011) and Warcraft (2016). He has been married to Rodene Ronquillo since November 6, 2012.',
+                'created_at' => '2016-02-02 23:54:52',
+                'updated_at' => '2016-02-02 23:54:52',
+            ),
+            91 => 
+            array (
+                'person_id' => 1599,
+                'forename' => 'Danny',
+                'surname' => 'Boyle',
+                'birthday' => '1956-10-20',
+                'deceased' => NULL,
+                'image' => 'Danny_Boyle_1454457296.jpg',
+            'bio' => 'Danny Boyle was born on October 20, 1956 in Manchester, England as Daniel Boyle. He is a director and producer, known for Slumdog Millionaire (2008), Trainspotting (1996) and 127 Hours (2010).',
+                'created_at' => '2016-02-02 23:54:56',
+                'updated_at' => '2016-02-02 23:54:56',
+            ),
+            92 => 
+            array (
+                'person_id' => 1600,
+                'forename' => 'Raja',
+                'surname' => 'Gosnell',
+                'birthday' => '1958-12-09',
+                'deceased' => NULL,
+                'image' => 'Raja_Gosnell_1454457302.jpg',
+            'bio' => 'Raja Gosnell was born on December 9, 1958 in Los Angeles, California, USA as Raja Raymond Gosnell. He is an editor and director, known for Big Momma\'s House (2000), Never Been Kissed (1999) and Scooby-Doo (2002).',
+                'created_at' => '2016-02-02 23:55:02',
+                'updated_at' => '2016-02-02 23:55:02',
+            ),
+            93 => 
+            array (
+                'person_id' => 1601,
+                'forename' => 'J.J.',
+                'surname' => 'Abrams',
+                'birthday' => '1966-06-27',
+                'deceased' => NULL,
+                'image' => 'J_J__Abrams_1454457308.jpg',
+            'bio' => 'J.J. Abrams was born on June 27, 1966 in New York City, New York, USA as Jeffrey Jacob Abrams. He is a producer and writer, known for Star Wars: Episode VII - The Force Awakens (2015), Lost (2004) and Super 8 (2011). He has been married to Katie McGrath since 1996. They have three children.',
+                'created_at' => '2016-02-02 23:55:08',
+                'updated_at' => '2016-02-02 23:55:08',
+            ),
+            94 => 
+            array (
+                'person_id' => 1602,
+                'forename' => 'Irvin',
+                'surname' => 'Kershner',
+                'birthday' => '1923-04-29',
+                'deceased' => NULL,
+                'image' => 'Irvin_Kershner_1454457411.jpg',
+            'bio' => 'November 27, 2010 (age 87) in Los Angeles, California, USA<br/><br/>Irvin Kershner was born on April 29, 1923 in Philadelphia, Pennsylvania. A graduate of the University of Southern California film school, Kershner began his career in 1950, producing documentaries for the United States Information Service in the Middle East. He later turned to television, directing and photographing a series of documentaries called "Confidential File". Kershner was one of the directors given his first break by producer Roger Corman, for whom he shot Stakeout on Dope Street (1958). The main theme that runs through many of his films is social alienation and human weaknesses - although his biggest commercial success was the science fiction blockbuster Star Wars: Episode V - The Empire Strikes Back (1980). Irvin Kershner died at age 87 of lung cancer in his home in Los Angeles, California on November 27, 2010.',
+                'created_at' => '2016-02-02 23:56:51',
+                'updated_at' => '2016-02-02 23:56:51',
+            ),
+            95 => 
+            array (
+                'person_id' => 1603,
+                'forename' => 'Richard',
+                'surname' => 'Marquand',
+                'birthday' => '1937-09-22',
+                'deceased' => NULL,
+                'image' => 'Richard_Marquand_1454457416.jpg',
+            'bio' => 'September 4, 1987 (age 49) in Tunbridge Wells, Kent, England, UK<br/><br/>Richard Marquand was born on September 22, 1937 in Llanishen, Cardiff, Glamorgan, Wales as Richard Alfred Marquand. He was a director and producer, known for Star Wars: Episode VI - Return of the Jedi (1983), Jagged Edge (1985) and Eye of the Needle (1981). He was married to Carol Bell and Josephine Marquand. He died on September 4, 1987 in Tunbridge Wells, Kent, England.',
+                'created_at' => '2016-02-02 23:56:56',
+                'updated_at' => '2016-02-02 23:56:56',
+            ),
+            96 => 
+            array (
+                'person_id' => 1604,
+                'forename' => 'Jonathan',
+                'surname' => 'Mostow',
+                'birthday' => '1961-11-28',
+                'deceased' => NULL,
+                'image' => 'Jonathan_Mostow_1454457430.jpg',
+            'bio' => 'Jonathan Mostow was born on November 28, 1961 in Woodbridge, Connecticut, USA. He is a director and writer, known for U-571 (2000), Terminator 3: Rise of the Machines (2003) and Breakdown (1997).',
+                'created_at' => '2016-02-02 23:57:10',
+                'updated_at' => '2016-02-02 23:57:10',
+            ),
+            97 => 
+            array (
+                'person_id' => 1606,
+                'forename' => 'Ethan',
+                'surname' => 'Coen',
+                'birthday' => '1957-09-21',
+                'deceased' => NULL,
+                'image' => 'Ethan_Coen_1454457443.jpg',
+            'bio' => 'Ethan Coen was born on September 21, 1957 in Minneapolis, Minnesota, USA as Ethan Jesse Coen. He is a producer and writer, known for No Country for Old Men (2007), True Grit (2010) and Fargo (1996). He has been married to Tricia Cooke since October 2, 1990. They have two children.',
+                'created_at' => '2016-02-02 23:57:23',
+                'updated_at' => '2016-02-02 23:57:23',
+            ),
+            98 => 
+            array (
+                'person_id' => 1607,
+                'forename' => 'Michael',
+                'surname' => 'Bay',
+                'birthday' => '1965-02-17',
+                'deceased' => NULL,
+                'image' => 'Michael_Bay_1454457448.jpg',
+            'bio' => 'A graduate of Wesleyan University, Michael Bay spent his 20s working on advertisements and music videos. His first projects after film school were in the music video business. He created music videos for Tina Turner, Meat Loaf, Lionel Richie, Wilson Phillips, Donny Osmond and The Divinyls. His work won him recognition and a number of MTV award nominations. He also filmed advertisements for Nike, Reebok, Coca-Cola, Budweiser and Miller Lite. He won the Grand Prix Clio for Commercial of the Year for his "Got Milk/Aaron Burr" commercial. At Cannes, he has won the Gold Lion for The Best Beer campaign for Miller Lite, as well as the Silver for "Got Milk". In 1995, Bay was honored by the Directors Guild of America as Commercial Director of the Year. That same year, he also directed his first feature film, Bad Boys (1995), starring Will Smith and Martin Lawrence, which grossed more than $160 million, worldwide. His follow-up film, The Rock (1996), starring Sean Connery and Nicolas Cage, was a ....',
+                'created_at' => '2016-02-02 23:57:28',
+                'updated_at' => '2016-02-02 23:57:28',
+            ),
+            99 => 
+            array (
+                'person_id' => 1608,
+                'forename' => 'Steven',
+                'surname' => 'Lisberger',
+                'birthday' => '1951-04-24',
+                'deceased' => NULL,
+                'image' => 'Steven_Lisberger_1454457455.jpg',
+            'bio' => 'Steven Lisberger was born on April 24, 1951 in New York City, New York, USA. He is a writer and director, known for TRON (1982), TRON: Legacy (2010) and Hot Pursuit (1987).',
+                'created_at' => '2016-02-02 23:57:35',
+                'updated_at' => '2016-02-02 23:57:35',
+            ),
+            100 => 
+            array (
+                'person_id' => 1609,
+                'forename' => 'Joseph',
+                'surname' => 'Kosinski',
+                'birthday' => '1974-05-03',
+                'deceased' => NULL,
+                'image' => 'Joseph_Kosinski_1454457460.jpg',
+            'bio' => 'Joseph Kosinski was born on May 3, 1974 in Marshalltown, Iowa, USA. He is a director and writer, known for Oblivion (2013), TRON: Legacy (2010) and Destiny (2014).',
+                'created_at' => '2016-02-02 23:57:40',
+                'updated_at' => '2016-02-02 23:57:40',
+            ),
+            101 => 
+            array (
+                'person_id' => 1610,
+                'forename' => 'Marc',
+                'surname' => 'Forster',
+                'birthday' => '1969-11-30',
+                'deceased' => NULL,
+                'image' => 'Marc_Forster_1454457464.jpg',
+            'bio' => 'Marc Forster was born on November 30, 1969 in Illertissen, Bavaria, Germany. He is a producer and director, known for World War Z (2013), Quantum of Solace (2008) and Finding Neverland (2004).',
+                'created_at' => '2016-02-02 23:57:44',
+                'updated_at' => '2016-02-02 23:57:44',
+            ),
+            102 => 
+            array (
+                'person_id' => 1611,
+                'forename' => 'Gavin',
+                'surname' => 'Hood',
+                'birthday' => '1963-05-12',
+                'deceased' => NULL,
+                'image' => 'Gavin_Hood_1454457468.jpg',
+            'bio' => 'Gavin Hood was born on May 12, 1963 in Johannesburg, South Africa. He is an actor and producer, known for Ender\'s Game (2013), X-Men Origins: Wolverine (2009) and Tsotsi (2005).',
+                'created_at' => '2016-02-02 23:57:48',
+                'updated_at' => '2016-02-02 23:57:48',
+            ),
+            103 => 
+            array (
+                'person_id' => 1612,
+                'forename' => 'James',
+                'surname' => 'Mangold',
+                'birthday' => '1963-12-16',
+                'deceased' => NULL,
+                'image' => 'James_Mangold_1454457473.jpg',
+            'bio' => 'James Mangold was born on December 16, 1963 in New York City, New York, USA as James Allen Mangold. He is a producer and director, known for Walk the Line (2005), Girl, Interrupted (1999) and The Wolverine (2013).',
+                'created_at' => '2016-02-02 23:57:53',
+                'updated_at' => '2016-02-02 23:57:53',
+            ),
+            104 => 
+            array (
+                'person_id' => 1613,
+                'forename' => 'Bryan',
+                'surname' => 'Singer',
+                'birthday' => '1965-09-17',
+                'deceased' => NULL,
+                'image' => 'Bryan_Singer_1454457479.jpg',
+            'bio' => 'Bryan Singer was born on September 17, 1965 in New York City, New York, USA as Bryan Jay Singer. He is a producer and director, known for House M.D. (2004), The Usual Suspects (1995) and X-Men 2 (2003).',
+                'created_at' => '2016-02-02 23:57:59',
+                'updated_at' => '2016-02-02 23:57:59',
+            ),
+            105 => 
+            array (
+                'person_id' => 1614,
+                'forename' => 'Brett',
+                'surname' => 'Ratner',
+                'birthday' => '1969-03-28',
+                'deceased' => NULL,
+                'image' => 'Brett_Ratner_1454457487.jpg',
+                'bio' => 'Ratner grew up in Miami Beach, the only child of a famous Jewish socialite mother. He attended Miami Beach Senior High and was President of the Leo Club in 1986. He was also a member of the "fraternity" Royal Palm. He attended NYU film school currently lives in a $3.6 M house in Beverly Hills. Ratner is also a good friend of Def Jam mogul Russell Simmons, and has directed music videos for many rap stars.',
+                'created_at' => '2016-02-02 23:58:07',
+                'updated_at' => '2016-02-02 23:58:07',
+            ),
+            106 => 
+            array (
+                'person_id' => 1615,
+                'forename' => 'Christopher',
+                'surname' => 'Cain',
+                'birthday' => '1943-10-29',
+                'deceased' => NULL,
+                'image' => 'Christopher_Cain_1454457491.jpg',
+            'bio' => 'Christopher Cain was born on October 29, 1943 in Sioux Falls, South Dakota, USA as Bruce Doggett. He is a director and writer, known for Young Guns (1988), The Next Karate Kid (1994) and The Principal (1987).',
+                'created_at' => '2016-02-02 23:58:11',
+                'updated_at' => '2016-02-02 23:58:11',
+            ),
+            107 => 
+            array (
+                'person_id' => 1616,
+                'forename' => 'Ruben',
+                'surname' => 'Fleischer',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Ruben_Fleischer_1454457496.jpg',
+            'bio' => 'Ruben Fleischer is a producer and writer, known for Zombieland (2009), Gangster Squad (2013) and 30 minutes maximum (2011). He has been married to Holly Shakoor since November 10, 2012.',
+                'created_at' => '2016-02-02 23:58:16',
+                'updated_at' => '2016-02-02 23:58:16',
+            ),
+            108 => 
+            array (
+                'person_id' => 1617,
+                'forename' => 'Gary',
+                'surname' => 'Trousdale',
+                'birthday' => '1960-06-08',
+                'deceased' => NULL,
+                'image' => 'Gary_Trousdale_1454457500.jpg',
+                'bio' => 'Gary Trousdale was born in La Crescenta, California. His fascination with animation was fostered as a child, where he drew cartoons from an elementary school age. He planned to become an architect, but decided instead to study animation at CalArts, where he studied for three years. He was hired in 1982 to design storyboards and do other animation. He then went to work designing restaurant menus and t-shirts. He was hired in 1985 by Disney to work on "The Black Cauldron," and continued his relationship with the company for years. He gained true prominence in his field with the success of his animated film directorial debut "Beauty and the Beast," which was nominated for an Academy Award for Best Picture. He continues to work with Disney, and lives in the San Fernando Valley, a suburban area of Los Angeles, California.',
+                'created_at' => '2016-02-02 23:58:20',
+                'updated_at' => '2016-02-02 23:58:20',
+            ),
+            109 => 
+            array (
+                'person_id' => 1618,
+                'forename' => 'Don',
+                'surname' => 'Hall',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Don_Hall_1454457505.jpg',
+            'bio' => 'Don Hall is known for his work on The Emperor\'s New Groove (2000), Tarzan (1999) and Frère des ours (2003).',
+                'created_at' => '2016-02-02 23:58:25',
+                'updated_at' => '2016-02-02 23:58:25',
+            ),
+            110 => 
+            array (
+                'person_id' => 1619,
+                'forename' => 'Byron',
+                'surname' => 'Howard',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Byron_Howard_1454457509.jpg',
+            'bio' => 'Byron Howard is known for his work on Tangled (2010), Bolt (2008) and Lilo & Stitch (2002).',
+                'created_at' => '2016-02-02 23:58:29',
+                'updated_at' => '2016-02-02 23:58:29',
+            ),
+            111 => 
+            array (
+                'person_id' => 1620,
+                'forename' => 'Mark',
+                'surname' => 'Andrews',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Mark_Andrews_1454457513.jpg',
+            'bio' => 'Mark Andrews is known for his work on Brave (2012), John Carter (2012) and Star Wars: Clone Wars (2003).',
+                'created_at' => '2016-02-02 23:58:33',
+                'updated_at' => '2016-02-02 23:58:33',
+            ),
+            112 => 
+            array (
+                'person_id' => 1621,
+                'forename' => 'John',
+                'surname' => 'Lasseter',
+                'birthday' => '1957-01-12',
+                'deceased' => NULL,
+                'image' => 'John_Lasseter_1454457519.jpg',
+            'bio' => 'John Lasseter was born on January 12, 1957 in Hollywood, Los Angeles, California, USA as John Alan Lasseter. He is a producer and director, known for Toy Story (1995), Cars (2006) and Toy Story 3 (2010). He is married to Nancy Lasseter. They have five children.',
+                'created_at' => '2016-02-02 23:58:39',
+                'updated_at' => '2016-02-02 23:58:39',
+            ),
+            113 => 
+            array (
+                'person_id' => 1622,
+                'forename' => 'Norman',
+                'surname' => 'Ferguson',
+                'birthday' => '1902-09-02',
+                'deceased' => NULL,
+                'image' => 'Norman_Ferguson_1454457527.jpg',
+            'bio' => 'November 4, 1957 (age 55) in Los Angeles, California, USA<br/><br/>Norman Ferguson was born on September 2, 1902 in Manhattan, New York City, New York, USA as William Norman Ferguson. He is known for his work on Blanche Neige et les sept nains (1937), Fantasia (1940) and Cendrillon (1950). He was married to Gladys F. He died on November 4, 1957 in Los Angeles, California, USA.',
+                'created_at' => '2016-02-02 23:58:47',
+                'updated_at' => '2016-02-02 23:58:47',
+            ),
+            114 => 
+            array (
+                'person_id' => 1623,
+                'forename' => 'James',
+                'surname' => 'Algar',
+                'birthday' => '1912-06-11',
+                'deceased' => NULL,
+                'image' => 'James_Algar_1454457531.jpg',
+            'bio' => 'February 26, 1998 (age 85) in Carmel, California, USA<br/><br/>James Algar studied at Stanford where he developed his skills as a cartoonist by drawing for the university\'s satirical magazine, The Chaparral. He joined the Disney Organisation in 1934, initially as animator. He directed the classic "Sorcerer\'s Apprentice" segment of Fantasia (1940), as well as several sequences of Bambi (1942). Algar was one of several key personnel to whom Walt Disney delegated higher executive functions. During the 1950\'s, he assumed the mantle of chief writer/director for Disney\'s True Life Adventure series, turning out such Oscar-winning documentaries as The Living Desert (1953) and The Vanishing Prairie (1954). Algar was named a Disney Legend in 1998 and has been recipient of the Look Magazine Movie Award for outstanding achievement in production.',
+                'created_at' => '2016-02-02 23:58:51',
+                'updated_at' => '2016-02-02 23:58:51',
+            ),
+            115 => 
+            array (
+                'person_id' => 1624,
+                'forename' => 'Andrew',
+                'surname' => 'Stanton',
+                'birthday' => '1965-12-03',
+                'deceased' => NULL,
+                'image' => 'Andrew_Stanton_1454457535.jpg',
+            'bio' => 'Oscar-winning filmmaker Andrew Stanton was raised in Rockport, Massachusetts. He was educated at The California Institute of the Arts (or "CalArts") in Los Angeles, where he studied character animation. After graduation, Stanton began working as a writer on the TV series Mighty Mouse, the New Adventures (1987). In 1990, he became only the second animator and ninth employee to join Pixar Animation Studios. Stanton went on to help establish Pixar as one of the world\'s leading animation studios. He was designer and writer on Toy Story (1995), for which he was nominated for an Oscar. He went on to write and direct such worldwide hits as A Bug\'s Life (1998), Finding Nemo (2003) and WALL·E (2008), the latter two both winning Oscars for Best Animated Feature. Stanton also dabbles in voice work, perhaps most memorably as Crush, the laid back turtle, in Finding Nemo (2003).',
+                'created_at' => '2016-02-02 23:58:55',
+                'updated_at' => '2016-02-02 23:58:55',
+            ),
+            116 => 
+            array (
+                'person_id' => 1625,
+                'forename' => 'Chris',
+                'surname' => 'Buck',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Chris_Buck_1454457539.jpg',
+            'bio' => 'Chris Buck is known for his work on Frozen (2013), Pocahontas (1995) and Tarzan (1999).',
+                'created_at' => '2016-02-02 23:58:59',
+                'updated_at' => '2016-02-02 23:58:59',
+            ),
+            117 => 
+            array (
+                'person_id' => 1626,
+                'forename' => 'Clyde',
+                'surname' => 'Geronimi',
+                'birthday' => '1901-06-12',
+                'deceased' => NULL,
+                'image' => 'Clyde_Geronimi_1454457546.jpg',
+            'bio' => 'April 24, 1989 (age 87) in Newport Beach, California, USA<br/><br/>Clyde Geronimi was born on June 12, 1901 in Chiavenna, Lombardy, Italy as Clito Enrico Geronimi. He is known for his work on Cendrillon (1950), Sleeping Beauty (1959) and 101 Dalmatians (1961). He died on April 24, 1989 in Newport Beach, California, USA.',
+                'created_at' => '2016-02-02 23:59:06',
+                'updated_at' => '2016-02-02 23:59:06',
+            ),
+            118 => 
+            array (
+                'person_id' => 1627,
+                'forename' => 'Darrell',
+                'surname' => 'Rooney',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Darrell_Rooney_1454457556.jpg',
+            'bio' => 'Darrell Rooney is known for his work on The Brave Little Toaster (1987), The Smurfs (1981) and Once Upon a Forest (1993).',
+                'created_at' => '2016-02-02 23:59:16',
+                'updated_at' => '2016-02-02 23:59:16',
+            ),
+            119 => 
+            array (
+                'person_id' => 1628,
+                'forename' => 'Dan',
+                'surname' => 'Scanlon',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Dan_Scanlon_1454457560.jpg',
+            'bio' => 'Dan Scanlon is known for his work on Monsters University (2013), Cars (2006) and Mater and the Ghostlight (2006).',
+                'created_at' => '2016-02-02 23:59:20',
+                'updated_at' => '2016-02-02 23:59:20',
+            ),
+            120 => 
+            array (
+                'person_id' => 1629,
+                'forename' => 'Pete',
+                'surname' => 'Docter',
+                'birthday' => '1968-10-09',
+                'deceased' => NULL,
+                'image' => 'Pete_Docter_1454457564.jpg',
+            'bio' => 'Pete Docter was born on October 9, 1968 in Bloomington, Minnesota, USA as Peter Hans Docter. He is a writer and actor, known for Up (2009), Inside Out (2015) and Monsters, Inc. (2001). He is married to Sharon Docter. They have two children.',
+                'created_at' => '2016-02-02 23:59:24',
+                'updated_at' => '2016-02-02 23:59:24',
+            ),
+            121 => 
+            array (
+                'person_id' => 1630,
+                'forename' => 'Henry',
+                'surname' => 'Selick',
+                'birthday' => '1952-11-30',
+                'deceased' => NULL,
+                'image' => 'Henry_Selick_1454457569.jpg',
+            'bio' => 'Henry Selick was born on November 30, 1952 in Glen Ridge, New Jersey, USA. He is a director and writer, known for Coraline (2009), The Nightmare Before Christmas (1993) and James and the Giant Peach (1996). He is married to Heather Selick.',
+                'created_at' => '2016-02-02 23:59:29',
+                'updated_at' => '2016-02-02 23:59:29',
+            ),
+            122 => 
+            array (
+                'person_id' => 1631,
+                'forename' => 'Ron',
+                'surname' => 'Clements',
+                'birthday' => '1953-04-25',
+                'deceased' => NULL,
+                'image' => 'Ron_Clements_1454457573.jpg',
+            'bio' => 'Ron Clements was born on April 25, 1953 in Sioux City, Iowa, USA as Ronald Francis Clements. He is a writer and director, known for Aladdin (1992), The Princess and the Frog (2009) and Treasure Planet (2002). He has been married to Tamara Lee Glumace since February 25, 1989.',
+                'created_at' => '2016-02-02 23:59:33',
+                'updated_at' => '2016-02-02 23:59:33',
+            ),
+            123 => 
+            array (
+                'person_id' => 1632,
+                'forename' => 'William',
+                'surname' => 'Cottrell',
+                'birthday' => '1906-11-19',
+                'deceased' => NULL,
+                'image' => 'William_Cottrell_1454457579.jpg',
+            'bio' => 'December 22, 1995 (age 89) in Burbank, California, USA<br/><br/>William Cottrell was born on November 19, 1906. He is known for his work on Alice au pays des merveilles (1951), Pinocchio (1940) and Peter Pan (1953). He was married to Hazel Sewell. He died on December 22, 1995 in Burbank, California, USA.',
+                'created_at' => '2016-02-02 23:59:39',
+                'updated_at' => '2016-02-02 23:59:39',
+            ),
+            124 => 
+            array (
+                'person_id' => 1633,
+                'forename' => 'Nathan',
+                'surname' => 'Greno',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Nathan_Greno_1454457583.jpg',
+                'bio' => 'Nathan Greno was born in Kenosha, Wisc., on the southwestern shores of Lake Michigan. As a child, he developed a love for drawing, which quickly evolved into a passion for visual storytelling. Influenced by comic books and newspaper comic strips, he started filling tablets of paper full of sketches. He began creating his own characters, his own worlds and story lines. It was his frequent trips to the local movie theater that planted the seed for a future career at Walt Disney Animation Studios. He made sure to see all of Disney\'s classic animated films on the big screen. Animation was quickly becoming his favorite form of visual storytelling, so at the ripe old age of 8, he just knew he wanted to work for Disney. Greno devoted himself to discovering all there was to know about the art of animation. He continued to create his own characters, crudely animating them in the pages of his school textbooks. In 1989, a family trip to Walt Disney World gave him his first real glimpse of animato ....',
+                'created_at' => '2016-02-02 23:59:43',
+                'updated_at' => '2016-02-02 23:59:43',
+            ),
+            125 => 
+            array (
+                'person_id' => 1634,
+                'forename' => 'Lee',
+                'surname' => 'Unkrich',
+                'birthday' => '1967-08-08',
+                'deceased' => NULL,
+                'image' => 'Lee_Unkrich_1454457591.jpg',
+            'bio' => 'Lee Unkrich attended Chagrin Falls High School in Chagrin Falls, Ohio. He was born in 1967 and graduated in 1985. He was a great French student and created a character in his movie, Toy Story 2 (1999) after his high school French teacher. He was featured in the local paper twice for Monsters, Inc. (2001) and for Finding Nemo (2003).',
+                'created_at' => '2016-02-02 23:59:51',
+                'updated_at' => '2016-02-02 23:59:51',
+            ),
+            126 => 
+            array (
+                'person_id' => 1635,
+                'forename' => 'Rich',
+                'surname' => 'Moore',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Rich_Moore_1454457599.jpg',
+            'bio' => 'Rich Moore is known for his work on Wreck-It Ralph (2012), Zootopia (2016) and The Simpsons (1989).',
+                'created_at' => '2016-02-02 23:59:59',
+                'updated_at' => '2016-02-02 23:59:59',
+            ),
+            127 => 
+            array (
+                'person_id' => 1636,
+                'forename' => 'Phil',
+                'surname' => 'Lord',
+                'birthday' => '1975-07-12',
+                'deceased' => NULL,
+                'image' => 'Phil_Lord_1454457603.jpg',
+            'bio' => 'Phil Lord was born on July 12, 1975 in Miami, Florida, USA as Philip A. Lord. He is a producer and writer, known for The Lego Movie (2014), Cloudy with a Chance of Meatballs (2009) and 22 Jump Street (2014).',
+                'created_at' => '2016-02-03 00:00:03',
+                'updated_at' => '2016-02-03 00:00:03',
+            ),
+            128 => 
+            array (
+                'person_id' => 1637,
+                'forename' => 'Pierre',
+                'surname' => 'Coffin',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Pierre_Coffin_1454457609.jpg',
+            'bio' => 'Pierre Coffin is an actor and director, known for Despicable Me (2010), Despicable Me 2 (2013) and Minions (2015).',
+                'created_at' => '2016-02-03 00:00:09',
+                'updated_at' => '2016-02-03 00:00:09',
+            ),
+            129 => 
+            array (
+                'person_id' => 1638,
+                'forename' => 'Dean',
+                'surname' => 'Deblois',
+                'birthday' => '1970-06-07',
+                'deceased' => NULL,
+                'image' => 'Dean_Deblois_1454457615.jpg',
+            'bio' => 'Dean DeBlois is a Canadian writer, director, and producer known best for having co-written and co-directed Disney\'s Lilo & Stitch (2002) and Dreamworks\' How to Train Your Dragon (2010), both Oscar nominated. While working as an assistant animator and layout artist for Hinton Animation Studios in Ottawa, Ontario, DeBlois simultaneously attended Sheridan College\'s three year Classical Animation program. Upon graduation in 1990, DeBlois was immediately hired by Don Bluth Studios in Dublin, Ireland. There, he cut his teeth as a layout artist, character designer, and storyboard assistant to Don Bluth on such films as Poucelina (1994) and A Troll in Central Park (1994)." In 1994, DeBlois left Ireland to work for Walt Disney Feature Animation as a storyboard artist, where he soon replaced his frequent collaborator, Chris Sanders, as Head of Story on Mulan (1998)." Shortly thereafter, they re-re-teamed to create the lush and whimsical Lilo & Stitch (2002), heralded by critics as Disney\'s last  ....',
+                'created_at' => '2016-02-03 00:00:15',
+                'updated_at' => '2016-02-03 00:00:15',
+            ),
+            130 => 
+            array (
+                'person_id' => 1639,
+                'forename' => 'Chris',
+                'surname' => 'Wedge',
+                'birthday' => '1957-03-20',
+                'deceased' => NULL,
+                'image' => 'Chris_Wedge_1454457619.jpg',
+            'bio' => 'John Christian Wedge was born on March 20, 1957 in Binghamton, New York. After graduating from Fayetteville-Manlius High School, Wedge went to study at the State University of New York at Purchase, where he received a BFA in film, and soon after that he went on to study at Ohio State University, earning him a MA in computer graphics and art education. Wedge began his career as an effects artist for films such as Tron (1982). In February, 1987, he founded Blue Sky Studios, along with Carl Ludwig, Dr. Eugene Troubetzkoy, Alison Brown, David Brown and Michael Ferraro. Throughout the 80s and 90s the studio helped create visual effects for television commercials and films like "Alien Resurrection" (1997), "Star Trek: Insurrection" (1998), "Fight Club" (1999) and "Titan A.E." (2000). Wedge produced the short animated "Bunny", in 1998, which earned him an Academy Award for Best Animated Short Film. After Wedge directed the critically acclaimed feature film "Ice Age" (2002), Blue Sky Studios w ....',
+                'created_at' => '2016-02-03 00:00:19',
+                'updated_at' => '2016-02-03 00:00:19',
+            ),
+            131 => 
+            array (
+                'person_id' => 1640,
+                'forename' => 'Carlos',
+                'surname' => 'Saldanha',
+                'birthday' => '1965-01-24',
+                'deceased' => NULL,
+                'image' => 'Carlos_Saldanha_1454457624.jpg',
+            'bio' => 'Carlos Saldanha is a Brazilian director of animated films. He was the director of Ice Age: The Meltdown (2006), Ice Age: Dawn of the Dinosaurs (2009) and Rio (2011), and the co-director of Ice Age (2002) and Robots (2005). Saldanha was born in Rio de Janeiro, Brazil. He left his hometown in 1991 to follow his artistic instinct and passion for animation. With a background in computer science and a natural artistic sensibility, he found New York City the perfect locale to merge these skills and become an animator. He attended the MFA program at New York\'s School of Visual Arts, where he graduated with honors in 1993, after completing two animated shorts, The Adventures of Korky, the Corkscrew (1992) and Time For Love (1993). The shorts have been screened at animation festivals around the world. At SVA, Saldanha met Chris Wedge, one of the cofounders of Blue Sky Studios, who invited him to join their growing team of artists. He also worked as animator on Wedge\'s short film Bunny.',
+                'created_at' => '2016-02-03 00:00:24',
+                'updated_at' => '2016-02-03 00:00:24',
+            ),
+            132 => 
+            array (
+                'person_id' => 1641,
+                'forename' => 'Mark',
+                'surname' => 'Osborne',
+                'birthday' => '1970-09-17',
+                'deceased' => NULL,
+                'image' => 'Mark_Osborne_1454457631.jpg',
+            'bio' => 'Mark Osborne was born on September 17, 1970 in Trenton, New Jersey, USA. He is a director and producer, known for Kung Fu Panda (2008), The SpongeBob SquarePants Movie (2004) and Le Petit Prince (2015).',
+                'created_at' => '2016-02-03 00:00:31',
+                'updated_at' => '2016-02-03 00:00:31',
+            ),
+            133 => 
+            array (
+                'person_id' => 1642,
+                'forename' => 'Jennifer',
+                'surname' => 'Yuh',
+                'birthday' => '1972-05-07',
+                'deceased' => NULL,
+                'image' => 'Jennifer_Yuh_1454457635.jpg',
+            'bio' => 'Jennifer Yuh was born on May 7, 1972 in South Korea. She is known for her work on Kung Fu Panda (2008), Kung Fu Panda 2 (2011) and Spawn (1997).',
+                'created_at' => '2016-02-03 00:00:35',
+                'updated_at' => '2016-02-03 00:00:35',
+            ),
+            134 => 
+            array (
+                'person_id' => 1643,
+                'forename' => 'Jorge',
+                'surname' => 'Blanco',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Jorge_Blanco_1454457639.jpg',
+            'bio' => 'Jorge Blanco is a director and writer, known for Planète 51 (2009), Mortadelo and Filemon: Mission Implausible (2014) and Life on Planet 51 (2010).',
+                'created_at' => '2016-02-03 00:00:39',
+                'updated_at' => '2016-02-03 00:00:39',
+            ),
+            135 => 
+            array (
+                'person_id' => 1644,
+                'forename' => 'Stuart',
+                'surname' => 'Rosenberg',
+                'birthday' => '1927-08-11',
+                'deceased' => NULL,
+                'image' => 'Stuart_Rosenberg_1454457653.jpg',
+            'bio' => 'March 15, 2007 (age 79) in Beverly Hills, Los Angeles, California, USA<br/><br/>Stuart Rosenberg was born on August 11, 1927 in Brooklyn, New York City, New York, USA. He was a director and producer, known for Cool Hand Luke (1967), The Amityville Horror (1979) and Brubaker (1980). He was married to Margot Pohoryles. He died on March 15, 2007 in Beverly Hills, Los Angeles, California, USA.',
+                'created_at' => '2016-02-03 00:00:53',
+                'updated_at' => '2016-02-03 00:00:53',
+            ),
+            136 => 
+            array (
+                'person_id' => 1645,
+                'forename' => 'Doug',
+                'surname' => 'Ellin',
+                'birthday' => '1968-04-06',
+                'deceased' => NULL,
+                'image' => 'Doug_Ellin_1454457659.jpg',
+            'bio' => 'Doug Ellin was born on April 6, 1968 in Brooklyn, New York, USA as Douglas Reed Ellin. He is a writer and producer, known for Entourage (2015), Entourage (2004) and Kissing a Fool (1998).',
+                'created_at' => '2016-02-03 00:00:59',
+                'updated_at' => '2016-02-03 00:00:59',
+            ),
+            137 => 
+            array (
+                'person_id' => 1646,
+                'forename' => 'Peyton',
+                'surname' => 'Reed',
+                'birthday' => '1964-07-03',
+                'deceased' => NULL,
+                'image' => 'Peyton_Reed_1454457663.jpg',
+            'bio' => 'Peyton Reed was born on July 3, 1964 in Raleigh, North Carolina, USA. He is a director and producer, known for Ant-Man (2015), Yes Man (2008) and The Break-Up (2006).',
+                'created_at' => '2016-02-03 00:01:03',
+                'updated_at' => '2016-02-03 00:01:03',
+            ),
+            138 => 
+            array (
+                'person_id' => 1647,
+                'forename' => 'Brad',
+                'surname' => 'Peyton',
+                'birthday' => '1979-02-03',
+                'deceased' => NULL,
+                'image' => 'Brad_Peyton_1454457667.jpg',
+            'bio' => 'Brad Peyton was born in 1979 in Gander, Newfoundland, Canada. He is a director and writer, known for San Andreas (2015), Journey 2: The Mysterious Island (2012) and Cats & Dogs: The Revenge of Kitty Galore (2010).',
+                'created_at' => '2016-02-03 00:01:07',
+                'updated_at' => '2016-02-03 00:01:07',
+            ),
+            139 => 
+            array (
+                'person_id' => 1648,
+                'forename' => 'Dean',
+                'surname' => 'Parisot',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'Dean_Parisot_1454457675.jpg',
+            'bio' => 'Dean Parisot was born as Aldo Luis Parisot. He is a director and producer, known for Galaxy Quest (1999), RED 2 (2013) and Fun with Dick and Jane (2005). He was previously married to Sally Menke.',
+                'created_at' => '2016-02-03 00:01:15',
+                'updated_at' => '2016-02-03 00:01:15',
+            ),
+            140 => 
+            array (
+                'person_id' => 1649,
+                'forename' => 'Stanley',
+                'surname' => 'Kubrick',
+                'birthday' => '1928-07-26',
+                'deceased' => NULL,
+                'image' => 'Stanley_Kubrick_1454457683.jpg',
+            'bio' => 'March 7, 1999 (age 70) in Harpenden, Hertfordshire, England, UK<br/><br/>Stanley Kubrick was born in New York, and was considered intelligent despite poor grades at school. Hoping that a change of scenery would produce better academic performance, Kubrick\'s father Jack (a physician) sent him in 1940 to Pasadena, California, to stay with his uncle Martin Perveler. Returning to the Bronx in 1941 for his last year of grammar school, there seemed to be little change in his attitude or his results. Hoping to find something to interest his son, Jack introduced Stanley to chess, with the desired result. Kubrick took to the game passionately, and quickly became a skilled player. Chess would become an important device for Kubrick in later years, often as a tool for dealing with recalcitrant actors, but also as an artistic motif in his films. Jack Kubrick\'s decision to give his son a camera for his thirteenth birthday would be an even wiser move: Kubrick became an avid photographer, and would often make trips around New York taking photographs which he would develop  ....',
+                'created_at' => '2016-02-03 00:01:23',
+                'updated_at' => '2016-02-03 00:01:23',
+            ),
+            141 => 
+            array (
+                'person_id' => 1650,
+                'forename' => 'Tom',
+                'surname' => 'Shadyac',
+                'birthday' => '1958-12-11',
+                'deceased' => NULL,
+                'image' => 'Tom_Shadyac_1454457687.jpg',
+                'bio' => 'Tom Shadyac moved to Los Angeles in 1983 and, at age 24, became the youngest staff joke writer ever for comedian Bob Hope. Shadyac received his master\'s degree in film from UCLA in 1989 after completing the critically acclaimed short, Tom, Dick and Harry. He then worked on movies-of-the-week, rewrote and directed for Fox. Shadyac has also dabbled in stand-up comedy and at one time, appeared regularly at the Improv on Melrose, as well as guest starring on TV series and movies.',
+                'created_at' => '2016-02-03 00:01:27',
+                'updated_at' => '2016-02-03 00:01:27',
+            ),
+            142 => 
+            array (
+                'person_id' => 1651,
+                'forename' => 'Sam',
+                'surname' => 'Mendes',
+                'birthday' => '1965-08-01',
+                'deceased' => NULL,
+                'image' => 'Sam_Mendes_1454457691.jpg',
+                'bio' => 'Samuel Alexander Mendes was born on August 1, 1965 in Reading, England, UK to parents James Peter Mendes, a retired university lecturer, and Valerie Helene Mendes, an author who writes children\'s books. Their marriage didn\'t last long, James divorced Sam\'s mother in 1970 when Sam was just 5-years-old. Sam was educated at Cambridge University and joined the Chichester Festival Theatre following his graduation in 1987. Afterwards, he directed Judi Dench in "The Cherry Orchard", for which he won a Critics Circle Award for Best Newcomer. He then joined the Royal Shakespeare Company, where he directed such productions as "Troilus and Cressida" with Ralph Fiennes and "Richard III". In 1992, he became artistic director of the reopened Donmar Warehouse in London, where he directed such productions as "The Glass Menagerie" and the revival of the musical "Cabaret", which earned four Tony Awards including one for Best Revival of a Musical. He also directed "The Blue Room" starring Nicole Kidman.  ....',
+                'created_at' => '2016-02-03 00:01:31',
+                'updated_at' => '2016-02-03 00:01:31',
+            ),
+            143 => 
+            array (
+                'person_id' => 1652,
+                'forename' => 'Tony',
+                'surname' => 'Kaye',
+                'birthday' => '2016-02-03',
+                'deceased' => NULL,
+                'image' => 'Tony_Kaye_1454457695.jpg',
+            'bio' => 'Tony Kaye was born in London, United Kingdom. He has made several well-known music videos, including the video for "Runaway Train" by Soul Asylum, which won a Grammy Award, "Dani California" by Red Hot Chili Peppers, "What God Wants" by Roger Waters, and "Help Me" and "God\'s Gonna Cut You Down" by Johnny Cash. Kaye is a six time Grammy nominated music video director. His feature film debut was American History X (1998), a drama about racism starring Edward Norton and Edward Furlong. Kaye disowned the final cut of the film, as he did not approve of its quality. He unsuccessfully attempted to have his name removed from the credits. The final cut was critically lauded and Norton was nominated for the Academy Award for Best Actor for his performance in the film. Kaye\'s second feature, a documentary called Lake of Fire, was about the abortion debate in the United States. It opened in Toronto in September 2006. The movie was shortlisted for an Oscar, nominated for Best Documentary Film at th ....',
+                'created_at' => '2016-02-03 00:01:35',
+                'updated_at' => '2016-02-03 00:01:35',
+            ),
+            144 => 
+            array (
+                'person_id' => 1653,
+                'forename' => 'Paul',
+                'surname' => 'Weitz',
+                'birthday' => '1965-11-19',
+                'deceased' => NULL,
+                'image' => 'Paul_Weitz_1454457700.jpg',
+            'bio' => 'Paul Weitz was born on November 19, 1965 in New York City, New York, USA as Paul J. Weitz. He is a producer and writer, known for About a Boy (2002), Antz (1998) and In Good Company (2004). He has been married to Patricia Brown since December 15, 2001. They have one child.',
+                'created_at' => '2016-02-03 00:01:40',
+                'updated_at' => '2016-02-03 00:01:40',
+            ),
+            145 => 
+            array (
+                'person_id' => 1654,
+                'forename' => 'Francis Ford',
+                'surname' => 'Coppola',
+                'birthday' => '1939-04-07',
+                'deceased' => NULL,
+                'image' => 'Francis_Ford_Coppola_1454457706.jpg',
+            'bio' => 'Francis Ford Coppola was born in 1939 in Detroit, Michigan, but grew up in a New York suburb in a creative, supportive Italian-American family. His father, Carmine Coppola, was a composer and musician. His mother, Italia Coppola (née Pennino), had been an actress. Francis Ford Coppola graduated with a degree in drama from Hofstra University, and did graduate work at UCLA in filmmaking. He was training as assistant with filmmaker Roger Corman, working in such capacities as sound-man, dialogue director, associate producer and, eventually, director of Dementia 13 (1963), Coppola\'s first feature film. During the next four years, Coppola was involved in a variety of script collaborations, including writing an adaptation of "This Property is Condemned" by Tennessee Williams (with Fred Coe and Edith Sommer), and screenplays for Paris brûle-t-il? (1966) and Patton (1970), the film for which Coppola won a Best Original Screenplay Academy Award. In 1966, Coppola\'s 2nd film brought him critical ....',
+                'created_at' => '2016-02-03 00:01:46',
+                'updated_at' => '2016-02-03 00:01:46',
+            ),
+            146 => 
+            array (
+                'person_id' => 1655,
+                'forename' => 'James L.',
+                'surname' => 'Brooks',
+                'birthday' => '1940-05-09',
+                'deceased' => NULL,
+                'image' => 'James_L__Brooks_1454457725.jpg',
+            'bio' => 'James L. Brooks was born on May 9, 1940 in Brooklyn, New York, USA. He is a writer and producer, known for The Simpsons (1989), The Simpsons Movie (2007) and As Good as It Gets (1997). He has been married to Holly Holmberg Brooks since July 23, 1978. They have three children. He was previously married to Marianne Catherine Morrissey.',
+                'created_at' => '2016-02-03 00:02:05',
+                'updated_at' => '2016-02-03 00:02:05',
+            ),
+            147 => 
+            array (
+                'person_id' => 1656,
+                'forename' => 'Joe',
+                'surname' => 'Cornish',
+                'birthday' => '1968-12-20',
+                'deceased' => NULL,
+                'image' => 'Joe_Cornish_1454457730.jpg',
+            'bio' => 'Joe Cornish was born on December 20, 1968 in London, England as Joseph Murray Cornish. He is a writer and director, known for Ant-Man (2015), Attack the Block (2011) and The Adventures of Tintin (2011).',
+                'created_at' => '2016-02-03 00:02:10',
+                'updated_at' => '2016-02-03 00:02:10',
+            ),
+            148 => 
+            array (
+                'person_id' => 1657,
+                'forename' => 'Jay',
+                'surname' => 'Roach',
+                'birthday' => '1957-06-14',
+                'deceased' => NULL,
+                'image' => 'Jay_Roach_1454457735.jpg',
+            'bio' => 'Jay Roach was born on June 14, 1957 in Albuquerque, New Mexico, USA as Mathew Jay Roach. He is a producer and director, known for Meet the Parents (2000), Meet the Fockers (2004) and Austin Powers: The Spy Who Shagged Me (1999). He has been married to Susanna Hoffs since April 17, 1993. They have two children.',
+                'created_at' => '2016-02-03 00:02:15',
+                'updated_at' => '2016-02-03 00:02:15',
+            ),
+            149 => 
+            array (
+                'person_id' => 1658,
+                'forename' => 'Charles',
+                'surname' => 'Shyer',
+                'birthday' => '1941-10-11',
+                'deceased' => NULL,
+                'image' => 'Charles_Shyer_1454457743.jpg',
+            'bio' => 'Charles Shyer was born on October 11, 1941 in Los Angeles, California, USA as Charles Richard Shyer. He is a director, producer and writer, known for Private Benjamin (1980), The Parent Trap (1998), Alfie (2004) and Father of the Bride (1991). He was previously married to Deborah Lynn, Nancy Meyers and Diana Ewing.',
+                'created_at' => '2016-02-03 00:02:23',
+                'updated_at' => '2016-02-03 00:02:23',
+            ),
+            150 => 
+            array (
+                'person_id' => 1659,
+                'forename' => 'Joel',
+                'surname' => 'Schumacher',
+                'birthday' => '1939-08-29',
+                'deceased' => NULL,
+                'image' => 'Joel_Schumacher_1454457754.jpg',
+            'bio' => 'Joel Schumacher was born on August 29, 1939 in New York City, New York, USA as Joel T. Schumacher. He is a director and writer, known for The Phantom of the Opera (2004), Phone Booth (2002) and Batman Forever (1995).',
+                'created_at' => '2016-02-03 00:02:34',
+                'updated_at' => '2016-02-03 00:02:34',
+            ),
+            151 => 
+            array (
+                'person_id' => 1660,
+                'forename' => 'Spike',
+                'surname' => 'Jonze',
+                'birthday' => '1969-10-22',
+                'deceased' => NULL,
+                'image' => 'Spike_Jonze_1454457760.jpg',
+            'bio' => 'Spike Jonze made up one-third (along with Andy Jenkins and Mark Lewman) of the triumvirate of genius minds behind Dirt Magazine, the brother publication of the much lamented ground-breaking Sassy Magazine. These three uncommon characters were all editors for Grand Royal Magazine as well, under the direction of Mike D and Adam Horovitz and Adam Yauch before the sad demise of Grand Royal Records. Jonze was also responsible for directing the famous Beastie Boys: Sabotage (1994) short film as well as numerous other music videos for various artists.',
+                'created_at' => '2016-02-03 00:02:40',
+                'updated_at' => '2016-02-03 00:02:40',
+            ),
+            152 => 
+            array (
+                'person_id' => 1661,
+                'forename' => 'Wolfgang',
+                'surname' => 'Petersen',
+                'birthday' => '1941-03-14',
+                'deceased' => NULL,
+                'image' => 'Wolfgang_Petersen_1454457766.jpg',
+            'bio' => 'Wolfgang Petersen was born on March 14, 1941 in Emden, Germany. He is a director and producer, known for Troy (2004), Das Boot (1981) and The NeverEnding Story (1984). He has been married to Maria-Antoinette Borgel since 1978. He was previously married to Ursula Sieg.',
+                'created_at' => '2016-02-03 00:02:47',
+                'updated_at' => '2016-02-03 00:02:47',
+            ),
+            153 => 
+            array (
+                'person_id' => 1662,
+                'forename' => 'Martin',
+                'surname' => 'Brest',
+                'birthday' => '1951-08-08',
+                'deceased' => NULL,
+                'image' => 'Martin_Brest_1454457771.jpg',
+            'bio' => 'Martin Brest was born on August 8, 1951 in The Bronx, New York City, New York, USA. He is a director and producer, known for Scent of a Woman (1992), Meet Joe Black (1998) and Beverly Hills Cop (1984).',
+                'created_at' => '2016-02-03 00:02:52',
+                'updated_at' => '2016-02-03 00:02:52',
+            ),
+            154 => 
+            array (
+                'person_id' => 1663,
+                'forename' => 'Tony',
+                'surname' => 'Scott',
+                'birthday' => '1944-06-21',
+                'deceased' => NULL,
+                'image' => 'Tony_Scott_1454457776.jpg',
+            'bio' => 'August 19, 2012 (age 68) in San Pedro, Los Angeles, California, USA<br/><br/>Tony Scott was a British-born film director and producer. He was the youngest of three brothers, one of whom is fellow film director Ridley Scott. He was born in North Shields, Northumberland, England to parents Jean and Colonel Francis Percy Scott. As a result of his father\'s career in the British military, his family moved around a lot. Their mother loved the going to the movies and instilled a love of cinema in her children. At age 16, Tony made his first appearance on screen as \'the boy\' in his brother\'s directorial debut, the short film Boy and Bicycle (1965). In 1969, Tony directed his own short film One of the Missing (1969) about a soldier in the American civil war. Tony had a talent for art and painting. He spent a year in Leeds College of Art and Design and went on to study for a fine arts degree at the School of Art at the University of Sunderland. He won a scholarship to study for his Masters of fine arts at the Royal College of Art. Following university, he spent several y ....',
+                'created_at' => '2016-02-03 00:02:56',
+                'updated_at' => '2016-02-03 00:02:56',
+            ),
+            155 => 
+            array (
+                'person_id' => 1664,
+                'forename' => 'John',
+                'surname' => 'Landis',
+                'birthday' => '1950-08-03',
+                'deceased' => NULL,
+                'image' => 'John_Landis_1454457793.jpg',
+            'bio' => 'John Landis began his career in the mail room of 20th Century-Fox. A high-school dropout, 18-year-old Landis made his way to Yugoslavia to work as a production assistant on De l\'or pour les braves (1970). Remaining in Europe, Landis found work as an actor, extra and stuntman in many of the Spanish/Italian "spaghetti" westerns. Returning to the US, he made his feature debut as a writer-director at age 21 with Schlock (1973), an affectionate tribute to monster movies. Clad in a Rick Baker-designed gorilla suit, Landis starred as "Schlockthropus", the missing link. After working as a writer, actor and production assistant, Landis made his second film, The Kentucky Fried Movie (1977), in collaboration with the Zucker brothers and Jim Abrahams. Landis rose to international recognition as director of the wildly successful Animal House (1978). With blockbusters such as The Blues Brothers (1980), Trading Places (1983), Spies Like Us (1985), ¡Three Amigos! (1986) and Coming to America (1988),  ....',
+                'created_at' => '2016-02-03 00:03:13',
+                'updated_at' => '2016-02-03 00:03:13',
+            ),
+            156 => 
+            array (
+                'person_id' => 1665,
+                'forename' => 'Penny',
+                'surname' => 'Marshall',
+                'birthday' => '1943-10-15',
+                'deceased' => NULL,
+                'image' => 'Penny_Marshall_1454457799.jpg',
+            'bio' => 'Penny Marshall was born Carole Penny Marshall in the Bronx, New York, on October 15, 1943. The Libra is 5\' 6 1/2", with brown hair and green eyes. She is the daughter of Marjorie (Ward), a tap dance teacher, and Anthony "Tony" Marshall, an industrial film director. She is the younger sister of filmmakers Garry Marshall and Ronny Hallin. Her father was of Italian descent (originally surnamed "Masciarelli") and her mother was of German, Scottish, English, and Irish ancestry. Penny was known in her family as "the bad one"... because not only did she walk on the ledge of her family\'s apartment building, but she snuck into the movies as a child and even dated a guy named "Lefty." She attended a private girls\' high school in New York and then went to the University of New Mexico for 2 1/2 years. There, Penny got pregnant with daughter, Tracy Reiner, and soon after married the father, Michael Henry, in 1961. The couple divorced two years later in 1963. She worked as a secretary for awhile. He ....',
+                'created_at' => '2016-02-03 00:03:19',
+                'updated_at' => '2016-02-03 00:03:19',
+            ),
+            157 => 
+            array (
+                'person_id' => 1666,
+                'forename' => 'Joel',
+                'surname' => 'Coen',
+                'birthday' => '1954-11-29',
+                'deceased' => NULL,
+                'image' => 'Joel_Coen_1454457803.jpg',
+            'bio' => 'Joel Coen was born on November 29, 1954 in Minneapolis, Minnesota, USA as Joel Daniel Coen. He is a producer and writer, known for No Country for Old Men (2007), Fargo (1996) and The Big Lebowski (1998). He has been married to Frances McDormand since April 1, 1984. They have one child.',
+                'created_at' => '2016-02-03 00:03:24',
+                'updated_at' => '2016-02-03 00:03:24',
+            ),
+            158 => 
+            array (
+                'person_id' => 1667,
+                'forename' => 'Stephen',
+                'surname' => 'Herek',
+                'birthday' => '1958-11-10',
+                'deceased' => NULL,
+                'image' => 'Stephen_Herek_1454457810.jpg',
+            'bio' => 'Stephen Herek was born on November 10, 1958 in San Antonio, Texas, USA as Stephen Robert Herek. He is known for his work on Bill & Ted\'s Excellent Adventure (1989), 101 Dalmatians (1996) and Mr. Holland\'s Opus (1995).',
+                'created_at' => '2016-02-03 00:03:30',
+                'updated_at' => '2016-02-03 00:03:30',
+            ),
+            159 => 
+            array (
+                'person_id' => 1668,
+                'forename' => 'Peter',
+                'surname' => 'Hewitt',
+                'birthday' => '1962-02-03',
+                'deceased' => NULL,
+                'image' => 'Peter_Hewitt_1454457815.jpg',
+            'bio' => 'Peter Hewitt was born in 1962 in England. He is a director and writer, known for Garfield (2004), Bill & Ted\'s Bogus Journey (1991) and The Borrowers (1997).',
+                'created_at' => '2016-02-03 00:03:35',
+                'updated_at' => '2016-02-03 00:03:35',
+            ),
+            160 => 
+            array (
+                'person_id' => 1669,
+                'forename' => 'John',
+                'surname' => 'Badham',
+                'birthday' => '1939-08-25',
+                'deceased' => NULL,
+                'image' => 'John_Badham_1454457820.jpg',
+            'bio' => 'English-born "Army brat" John Badham is the son of English actress Mary Hewitt and the stepson of an American Army general. Raised in Alabama and schooled at Yale, he cut his teeth producing and directing for TV before making his feature debut with The Bingo Long Traveling All-Stars & Motor Kings (1976). Badham\'s breakthrough credit was the box office smash Saturday Night Fever (1977), made the following year; other hits on his resume include Blue Thunder (1983), WarGames (1983), and Short Circuit (1986).',
+                'created_at' => '2016-02-03 00:03:40',
+                'updated_at' => '2016-02-03 00:03:40',
+            ),
+            161 => 
+            array (
+                'person_id' => 1670,
+                'forename' => 'Alfred',
+                'surname' => 'Hitchcock',
+                'birthday' => '1899-08-13',
+                'deceased' => NULL,
+                'image' => 'Alfred_Hitchcock_1454457825.jpg',
+            'bio' => 'April 29, 1980 (age 80) in Bel Air, Los Angeles, California, USA<br/><br/>Alfred Joseph Hitchcock was born in Leytonstone, Essex, England. He was the son of Emma Jane (Whelan; 1863 - 1942) and East End greengrocer William Hitchcock (1862 - 1914). His parents were both of half English and half Irish ancestry. He had two older siblings, William Hitchcock (born 1890) and Eileen Hitchcock (born 1892). Raised as a strict Catholic and attending Saint Ignatius College, a school run by Jesuits, Hitch had very much of a regular upbringing. His first job outside of the family business was in 1915 as an estimator for the Henley Telegraph and Cable Company. His interest in movies began at around this time, frequently visiting the cinema and reading US trade journals. It was around 1920 when Hitchcock joined the film industry. He started off drawing the sets (he was a very skilled artist). It was there that he met Alma Reville, though they never really spoke to each other. It was only after the director for Always Tell Your Wife (1923) fell ill and Hitchcock was named di ....',
+                'created_at' => '2016-02-03 00:03:45',
+                'updated_at' => '2016-02-03 00:03:45',
+            ),
+            162 => 
+            array (
+                'person_id' => 1671,
+                'forename' => 'Ted',
+                'surname' => 'Demme',
+                'birthday' => '1963-10-26',
+                'deceased' => NULL,
+                'image' => 'Ted_Demme_1454457830.jpg',
+            'bio' => 'January 13, 2002 (age 38) in Santa Monica, California, USA<br/><br/>Ted Demme was born on October 26, 1963 in New York City, New York, USA as Edward Demme. He was a director and producer, known for Blow (2001), Life (1999) and Beautiful Girls (1996). He was married to Amanda Scheer-Demme. He died on January 13, 2002 in Santa Monica, California, USA.',
+                'created_at' => '2016-02-03 00:03:50',
+                'updated_at' => '2016-02-03 00:03:50',
+            ),
+            163 => 
+            array (
+                'person_id' => 1672,
+                'forename' => 'Brian',
+                'surname' => 'Trenchard-Smith',
+                'birthday' => '2016-02-03',
+                'deceased' => NULL,
+                'image' => 'Brian_Trenchard_Smith_1454457837.jpg',
+                'bio' => 'Brian Trenchard-Smith is an Anglo Australian film and television director, producer, and writer, with a reputation for large scale movies on small scale budgets, many of which display a quirky sense of humor that has earned him a cult following. Quentin Tarantino referred to him in Entertainment Weekly as one of his favorite directors. His early work is featured in Not Quite Hollywood, an award winning documentary released by Magnolia. Among his early successes were the 20th Century Fox release The Man from Hong Kong, a wry James Bond/Chop Sockey cocktail, the Vietnam battle movie Siege of Firebase Gloria, and the futuristic satire Dead End Drive-In, a particular Tarantino favorite. BMX Bandits, showcasing a 15-year old Nicole Kidman, and Miramax\'s The Quest, starring ET\'s Henry Thomas, won prizes at children\'s film festivals in Montreal and Europe. He has also directed 35 episodes of television series as diverse as Silk Stalkings, Time Trax, The Others, and Flipper. Born in England, w ....',
+                'created_at' => '2016-02-03 00:03:57',
+                'updated_at' => '2016-02-03 00:03:57',
+            ),
+            164 => 
+            array (
+                'person_id' => 1673,
+                'forename' => 'John',
+                'surname' => 'Singleton',
+                'birthday' => '1968-01-06',
+                'deceased' => NULL,
+                'image' => 'John_Singleton_1454457841.jpg',
+            'bio' => 'Son of mortgage broker Danny Singleton and pharmaceutical company sales executive Sheila Ward and raised in separate households by his unmarried parents, John Singleton attended the Film Writing Program at USC after graduating from high school in 1986. While studying there, he won three writing awards from the university, which led to a contract with Creative Artists Agency during his sophomore year. Columbia Pictures bought his script for Boyz n the Hood (1991) and budgeted it at $7 million. Singleton notes that much of the story comes from his own experiences in South Central LA and credits his parents with keeping him off the street.',
+                'created_at' => '2016-02-03 00:04:02',
+                'updated_at' => '2016-02-03 00:04:02',
+            ),
+            165 => 
+            array (
+                'person_id' => 1674,
+                'forename' => 'Blake',
+                'surname' => 'Edwards',
+                'birthday' => '1922-07-26',
+                'deceased' => NULL,
+                'image' => 'Blake_Edwards_1454457848.jpg',
+            'bio' => 'December 15, 2010 (age 88) in Santa Monica, California, USA<br/><br/>Blake Edwards\' stepfather\'s father J. Gordon Edwards was a silent screen director, and his stepfather Jack McEdward was a stage director and movie production manager. Blake acted in a number films, beginning with Ten Gentlemen from West Point (1942) and wrote a number of others, beginning with Panhandle (1948) and including six for director Richard Quine. He created the popular TV series Peter Gunn (1958), Mr. Lucky (1959) and Dante (1960). He directed a diverse body of films, from comedies to dramas to war films to westerns, including such pictures as Operation Petticoat (1959), Breakfast at Tiffany\'s (1961), Experiment in Terror (1962), Days of Wine and Roses (1962), The Pink Panther (1963) and A Shot in the Dark (1964). After The Great Race (1965) he began fighting with studios. In England he surfaced again with The Return of the Pink Panther (1975), then went back to Hollywood and a real hit, 10 (1979). Victor Victoria (1982) won him French and Italian awards for Best Foreign Film.',
+                'created_at' => '2016-02-03 00:04:08',
+                'updated_at' => '2016-02-03 00:04:08',
+            ),
+            166 => 
+            array (
+                'person_id' => 1675,
+                'forename' => 'Walter',
+                'surname' => 'Hill',
+                'birthday' => '1942-01-10',
+                'deceased' => NULL,
+                'image' => 'Walter_Hill_1454457853.jpg',
+                'bio' => 'Hill was born in Long Beach, California and educated at Mexico City College and Michigan State University. He worked in oil drilling and construction in the 60s before becoming a 2nd assistant director in 1967. He has written and co-written screenplays, including several uncredited works. He has produced and directed films since 1975.',
+                'created_at' => '2016-02-03 00:04:13',
+                'updated_at' => '2016-02-03 00:04:13',
+            ),
+            167 => 
+            array (
+                'person_id' => 1676,
+                'forename' => 'William',
+                'surname' => 'Keighley',
+                'birthday' => '1889-08-04',
+                'deceased' => NULL,
+                'image' => 'William_Keighley_1454457859.jpg',
+            'bio' => 'June 24, 1984 (age 94) in New York City, New York, USA<br/><br/>William Keighley\'s professional career spanned three distinct mediums: the theatre, motion pictures and, finally, radio. Initially trained as a stage actor and Broadway director, he arrived in Hollywood shortly after the advent of sound, landing a job with Warner Brothers (where he spent most of his career) as an assistant director and dialog director before helming his first film there in 1932. Keighley\'s gangster films of the period, such as \'G\' Men (1935) and Bullets or Ballots (1936), are models of the kind of fast-paced, tightly made, exciting films that Warner\'s specialized in--and which kept the cash flowing in during the studio\'s devastating losses of the period. Interestingly, although his career is closely associated with the meteoric ascent of James Cagney, the two men did not particularly care for each other, as Cagney was somewhat put off by what he felt were Keighley\'s phony European affectations (something the director acquired during his tenure on Broadway in the early  ....',
+                'created_at' => '2016-02-03 00:04:19',
+                'updated_at' => '2016-02-03 00:04:19',
+            ),
+            168 => 
+            array (
+                'person_id' => 1677,
+                'forename' => 'George Roy',
+                'surname' => 'Hill',
+                'birthday' => '1921-12-20',
+                'deceased' => NULL,
+                'image' => 'George_Roy_Hill_1454457864.jpg',
+            'bio' => 'December 27, 2002 (age 81) in New York City, New York, USA<br/><br/>Combative director George Roy Hill never hit it off with the critics, despite the fact that two of his films -- Butch Cassidy and the Sundance Kid (1969) and The Sting (1973) -- had remained among the top ten box office hits by 1976. His work was frequently derided as \'impersonal\' or lacking in stylistic trademarks, Andrew Sarris famously referring to it as \'idiosyncratic odious oiliness\'. Hill himself didn\'t help his own cause by shunning the limelight, avoiding appearances on chat shows and often keeping the press off his sets. In a rare interview for a book by Edward Shores in 1983, he declared: "I find publicity distasteful and I don\'t think it does the picture any good to focus on the director" (LA Times, Dec. 28 2002). Conversely, Hill was \'commercially reliable\', a winner with the public and with the academy, picking up an Oscar and a Director\'s Guild Award for "The Sting" and a BAFTA for "Butch". At his best, he was an \'actor\'s director\', a gifted storyteller with a powerful se ....',
+                'created_at' => '2016-02-03 00:04:24',
+                'updated_at' => '2016-02-03 00:04:24',
+            ),
+            169 => 
+            array (
+                'person_id' => 1678,
+                'forename' => 'Stanley',
+                'surname' => 'Donen',
+                'birthday' => '1924-04-13',
+                'deceased' => NULL,
+                'image' => 'Stanley_Donen_1454457874.jpg',
+            'bio' => 'Since he was a child, Stanley Donen attended dance classes and debuted on Broadway at age 17. With the help of the producer Arthur Freed and the actor Gene Kelly he got the chance to direct the musicals On the Town (1949), Singin\' in the Rain (1952), and Love Is Better Than Ever (1952) which revolutionized the genre. Another important work of his own was the musical version of the book of Antoine de Saint-Exupéry \'s The Little Prince (1974). As producer, he turned to the genre of comedy, with Surprise Package (1960), but he also produced some films of other genres.',
+                'created_at' => '2016-02-03 00:04:34',
+                'updated_at' => '2016-02-03 00:04:34',
+            ),
+            170 => 
+            array (
+                'person_id' => 1679,
+                'forename' => '',
+                'surname' => 'McG',
+                'birthday' => '1968-08-09',
+                'deceased' => NULL,
+                'image' => '_McG_1454457881.jpg',
+            'bio' => 'McG was born on August 9, 1968 in Kalamazoo, Michigan, USA as Joseph McGinty Nichol. He is known for his work on Supernatural (2005), Chuck (2007) and The O.C. (2003).',
+                'created_at' => '2016-02-03 00:04:41',
+                'updated_at' => '2016-02-03 00:04:41',
+            ),
+            171 => 
+            array (
+                'person_id' => 1680,
+                'forename' => 'Roman',
+                'surname' => 'Polanski',
+                'birthday' => '1933-08-18',
+                'deceased' => NULL,
+                'image' => 'Roman_Polanski_1454457890.jpg',
+                'bio' => 'Roman Polanski is a Polish film director, producer, writer and actor. Having made films in Poland, Britain, France and the USA, he is considered one of the few truly international filmmakers. Roman Polanski was born in Paris in 1933. His parents returned to Poland from France in 1936, three years before World War II began. On Germany\'s invasion in 1939, as a family of mostly Jewish heritage, they were all sent to the Krakow ghetto. His parents were then captured and sent to two different concentration camps: his father to Mauthausen-Gusen in Austria, where he survived the war, and his mother to Auschwitz where she was murdered. Roman witnessed his father\'s capture and then, at only 7, managed to escape the ghetto and survive the war, at first wandering through the Polish countryside and pretending to be a Roman-Catholic kid visiting his relatives. Although this saved his life, he was severely mistreated suffering nearly fatal beating which left him with a fractured skull. Local people  ....',
+                'created_at' => '2016-02-03 00:04:50',
+                'updated_at' => '2016-02-03 00:04:50',
+            ),
+            172 => 
+            array (
+                'person_id' => 1681,
+                'forename' => 'Lasse',
+                'surname' => 'Hallstr&ouml;m',
+                'birthday' => '1946-06-02',
+                'deceased' => NULL,
+                'image' => 'Lasse_Hallstr_ouml_m_1454457895.jpg',
+            'bio' => 'Lasse Hallström was born on June 2, 1946 in Stockholm, Stockholms län, Sweden as Lars Hallström. He is a director and writer, known for What\'s Eating Gilbert Grape (1993), Chocolat (2000) and Hachi: A Dog\'s Tale (2009). He has been married to Lena Olin since March 18, 1994. They have one child. He was previously married to Malou Hallström.',
+                'created_at' => '2016-02-03 00:04:55',
+                'updated_at' => '2016-02-03 00:04:55',
+            ),
+            173 => 
+            array (
+                'person_id' => 1682,
+                'forename' => 'Giuseppe',
+                'surname' => 'Tornatore',
+                'birthday' => '1956-05-27',
+                'deceased' => NULL,
+                'image' => 'Giuseppe_Tornatore_1454457900.jpg',
+            'bio' => 'Giuseppe Tornatore was born on May 27, 1956 in Bagheria, Sicily, Italy. He is a writer and director, known for Cinema Paradiso (1988), The Best Offer (2013) and Malena (2000).',
+                'created_at' => '2016-02-03 00:05:00',
+                'updated_at' => '2016-02-03 00:05:00',
+            ),
+            174 => 
+            array (
+                'person_id' => 1683,
+                'forename' => 'Fernando',
+                'surname' => 'Meirelles',
+                'birthday' => '1955-11-09',
+                'deceased' => NULL,
+                'image' => 'Fernando_Meirelles_1454457906.jpg',
+            'bio' => 'Fernando Meirelles was born in a middle class family in São Paulo City, Brazil. He studied architecture at the university of São Paulo. At the same time he developed an interest in filmmaking. With a group of friends he started producing experimental videos. They won a huge number of awards in Brazilian film festivals. After that, the group formed a small independent company called Olhar Eletrônico. After working in independent television during nine years, in the eighties Meirelles gravitated towards publicity and commercials. He also became the director of a very popular children\'s television show. In the early 90s, together with Paulo Morelli and Andrea Barata Ribeiro, he opened the O2 Filmes production company. His first feature, in 1998, was the family film "Menino Maluquinho 2: A Aventura". His next feature, "Domésticas" (2001), exposed the invisible world of five Brazilian maids in São Paulo and their secret dreams and desires. In 1997 he read the Brazilian best-seller "Cid ....',
+                'created_at' => '2016-02-03 00:05:06',
+                'updated_at' => '2016-02-03 00:05:06',
+            ),
+            175 => 
+            array (
+                'person_id' => 1684,
+                'forename' => 'Louis',
+                'surname' => 'Leterrier',
+                'birthday' => '1973-06-17',
+                'deceased' => NULL,
+                'image' => 'Louis_Leterrier_1454457911.jpg',
+            'bio' => 'Louis Leterrier was born on June 17, 1973 in Paris, France. He is a director, known for Insaisissables (2013), The Incredible Hulk (2008) and Le transporteur (2002).',
+                'created_at' => '2016-02-03 00:05:11',
+                'updated_at' => '2016-02-03 00:05:11',
+            ),
+            176 => 
+            array (
+                'person_id' => 1685,
+                'forename' => 'Mark L.',
+                'surname' => 'Lester',
+                'birthday' => '1946-11-26',
+                'deceased' => NULL,
+                'image' => 'Mark_L__Lester_1454457919.jpg',
+            'bio' => 'Director, writer and producer Mark L. Lester has created high-action films throughout his career, including some of the world\'s biggest box office draws. His directorial expertise has garnered praise for such films as Arnold Schwarzenegger\'s box-office mega-hit Commando (1985), Stephen King\'s supernatural thriller Firestarter (1984) with Drew Barrymore and Martin Sheen, Showdown in Little Tokyo (1991) starring Dolph Lundgren and the late Brandon Lee in his first major role, and two frighteningly prophetic films about the state of society: Class 1984 (1982) with Michael J. Fox in his first film role and the sequel, Class of 1999 (1989). In addition to receiving international critical acclaim, Lester\'s films are box-office hits. "Commando" was an international success story, grossing over $120 million, and "Class of 1984" was a #1 US box-office draw and became the top-grossing film in many major markets around the world. Lester\'s career as a director was launched when his first feature p ....',
+                'created_at' => '2016-02-03 00:05:19',
+                'updated_at' => '2016-02-03 00:05:19',
+            ),
+            177 => 
+            array (
+                'person_id' => 1686,
+                'forename' => 'Jon',
+                'surname' => 'Turteltaub',
+                'birthday' => '1963-08-08',
+                'deceased' => NULL,
+                'image' => 'Jon_Turteltaub_1454457927.jpg',
+            'bio' => 'Jon Turteltaub was born on August 8, 1963 in New York City, New York, USA as Jonathan Charles Turteltaub. He is a producer and director, known for National Treasure (2004), National Treasure: Book of Secrets (2007) and The Sorcerer\'s Apprentice (2010). He has been married to Amy Eldon since July 6, 2006.',
+                'created_at' => '2016-02-03 00:05:27',
+                'updated_at' => '2016-02-03 00:05:27',
+            ),
+            178 => 
+            array (
+                'person_id' => 1687,
+                'forename' => 'Paul',
+                'surname' => 'Haggis',
+                'birthday' => '1953-03-10',
+                'deceased' => NULL,
+                'image' => 'Paul_Haggis_1454457933.jpg',
+            'bio' => 'Paul Haggis is the award-winning filmmaker who, in 2006, became the first screenwriter to write two Best Film Oscar winners back-to-back - Million Dollar Baby (2004) directed by Clint Eastwood, and Collision (2004) which he himself directed. For Collision (2004), he won Academy Awards for Best Picture and Best Original Screenplay. The film also received an additional four nominations including one for Haggis\' direction. Collision (2004) reaped numerous awards during its year of release from associations such as the IFP Spirit Awards, the Screen Actors Guild, and BAFTA. In 2006, Haggis\' screenplays included the duo Clint Eastwood productions Flags of Our Fathers (2006) and Letters from Iwo Jima (2006), the latter earning him his third screenplay Oscar nomination. He also helped pen Casino Royale (2006), which garnered considerable acclaim for reinvigorating the James Bond spy franchise. In 2007, Haggis wrote, directed and produced In the Valley of Elah (2007) for Warner Independent Pict ....',
+                'created_at' => '2016-02-03 00:05:33',
+                'updated_at' => '2016-02-03 00:05:33',
+            ),
+            179 => 
+            array (
+                'person_id' => 1688,
+                'forename' => 'Ron',
+                'surname' => 'Howard',
+                'birthday' => '1954-03-01',
+                'deceased' => NULL,
+                'image' => 'Ron_Howard_1454457940.jpg',
+            'bio' => 'Ron was born in Oklahoma, into an acting family - his father, Rance Howard, had realized a boyhood dream of acting by attending the University of Oklahoma and majoring in drama, and his mother, Jean Speegle Howard, went through acting school in New York. The family surname had been changed from "Beckenholdt" to "Howard" several years before Ron was born. Ron was in his first movie at 18 months, Frontier Woman (1956), although his first real part was at the age of 4. Soon a regular on Playhouse 90 (1956), he was cast as Opie on The Andy Griffith Show (1960), and later moved from a child in Mayberry to America\'s teenager as Richie Cunningham in Happy Days (1974). The life of a child star is certainly not routine, but Ron\'s parents wanted his life to be as normal as possible - he attended public schools and at age 15 even took nine months off to play a basketball season. The transition from child actor to adult actor is always difficult, but for Ron the real transition was from child acto ....',
+                'created_at' => '2016-02-03 00:05:40',
+                'updated_at' => '2016-02-03 00:05:40',
+            ),
+            180 => 
+            array (
+                'person_id' => 1689,
+                'forename' => 'Jan De',
+                'surname' => 'Bont',
+                'birthday' => '1943-10-22',
+                'deceased' => NULL,
+                'image' => 'Jan_De_Bont_1454457947.jpg',
+            'bio' => 'Jan de Bont was born in the Netherlands to a Roman Catholic Dutch family on the 22 of October 1943. He has always had a creative mind and good mentality for camera techniques and soon got into film as a popular cinematographer. He worked on a huge number of films before finding himself on the production of the film Speed (1994), which became his first as a director. The film was a success and took him onto the next set for Twister (1996), which he also directed. But then the total flops started coming his way: firstly, Speed 2: Cruise Control (1997), which he wrote and directed but without the company of Keanu Reeves. He also directed the star-packed Hantise (1999) but that also failed him at the Box Office. Later, Jan directed Lara Croft Tomb Raider: The Cradle of Life (2003), and is still active in cinema. His brilliant direction of Speed (1994) proves he is a director with a spark of his own.',
+                'created_at' => '2016-02-03 00:05:47',
+                'updated_at' => '2016-02-03 00:05:47',
+            ),
+            181 => 
+            array (
+                'person_id' => 1690,
+                'forename' => 'Roger',
+                'surname' => 'Donaldson',
+                'birthday' => '1945-11-15',
+                'deceased' => NULL,
+                'image' => 'Roger_Donaldson_1454457952.jpg',
+            'bio' => 'Roger Donaldson was born on November 15, 1945 in Ballarat, Australia. He is a director and producer, known for The Bank Job (2008), The Recruit (2003) and The World\'s Fastest Indian (2005). He is married to Marliese Schneider. He was previously married to Susan Hockley.',
+                'created_at' => '2016-02-03 00:05:52',
+                'updated_at' => '2016-02-03 00:05:52',
+            ),
+            182 => 
+            array (
+                'person_id' => 1691,
+                'forename' => 'Roland',
+                'surname' => 'Emmerich',
+                'birthday' => '1955-11-10',
+                'deceased' => NULL,
+                'image' => 'Roland_Emmerich_1454457958.jpg',
+            'bio' => 'Emmerich began his career in his native Germany. In his youth, he pursued painting and sculpting. While enrolled in the director\'s program at film school in Munich, his student film Le principe de l\'Arche de Noé (1984) went on to open the 1984 Berlin Film Festival. The feature became a huge success and was sold to more than 20 countries.',
+                'created_at' => '2016-02-03 00:05:58',
+                'updated_at' => '2016-02-03 00:05:58',
+            ),
+            183 => 
+            array (
+                'person_id' => 1692,
+                'forename' => 'Rob',
+                'surname' => 'Cohen',
+                'birthday' => '1949-03-12',
+                'deceased' => NULL,
+                'image' => 'Rob_Cohen_1454457963.jpg',
+            'bio' => 'Rob Cohen was born on March 12, 1949 in Cornwall, New York, USA. He is a producer and director, known for The Fast and the Furious (2001), xXx (2002) and Dragon: The Bruce Lee Story (1993). He has been married to Barbara Cashulin since March 25, 2006. They have three children.',
+                'created_at' => '2016-02-03 00:06:03',
+                'updated_at' => '2016-02-03 00:06:03',
+            ),
+            184 => 
+            array (
+                'person_id' => 1693,
+                'forename' => 'David',
+                'surname' => 'Frankel',
+                'birthday' => '1959-04-02',
+                'deceased' => NULL,
+                'image' => 'David_Frankel_1454457969.jpg',
+            'bio' => 'David Frankel was born on April 2, 1959 in New York City, New York, USA. He is a producer and director, known for The Devil Wears Prada (2006), Marley & Me (2008) and Hope Springs (2012).',
+                'created_at' => '2016-02-03 00:06:09',
+                'updated_at' => '2016-02-03 00:06:09',
+            ),
+            185 => 
+            array (
+                'person_id' => 1694,
+                'forename' => 'Renny',
+                'surname' => 'Harlin',
+                'birthday' => '1959-03-15',
+                'deceased' => NULL,
+                'image' => 'Renny_Harlin_1454457974.jpg',
+            'bio' => 'Born in 15 March 1959 as Renny Lauri Mauritz Harjola, he is the most successful Finnish film director in the history of Hollywood. Harlin started his career in film business in the beginning of 1980s when he was directing commercials and company films for companies like Shell. Later he worked as a buyer for Finnish film distributor and met Finnish Markus Selin in Los Angeles. They became friends and started writing a screenplay called "Arctic Heat". The project started fast and soon they had Chuck Norris signed on leading role for the film. But with money problems shooting schedule didn\'t hold and Norris left the project, but Selin and Harlin got Mike Norris for the leading role. They wrote new script, Born American (1986), and got financial help from USA. In the year 1986 Born American (1986) was finished and the most expensive Finnish film ever opened in USA in over 1,000 theaters and reached no 9. The film wasn\'t successful in Finland, where it was banned. Harlin moved to Los Angele ....',
+                'created_at' => '2016-02-03 00:06:14',
+                'updated_at' => '2016-02-03 00:06:14',
+            ),
+            186 => 
+            array (
+                'person_id' => 1695,
+                'forename' => 'Emile',
+                'surname' => 'Ardolino',
+                'birthday' => '1943-05-09',
+                'deceased' => NULL,
+                'image' => 'Emile_Ardolino_1454457980.jpg',
+            'bio' => 'November 20, 1993 (age 50) in Bel Air, California, USA<br/><br/>Emile Ardolino was born on May 9, 1943 in Maspeth, New York, USA. He was a director and producer, known for Dirty Dancing (1987), Sister Act (1992) and 3 Men and a Little Lady (1990). He died on November 20, 1993 in Bel Air, California, USA.',
+                'created_at' => '2016-02-03 00:06:20',
+                'updated_at' => '2016-02-03 00:06:20',
+            ),
+            187 => 
+            array (
+                'person_id' => 1696,
+                'forename' => 'D.J.',
+                'surname' => 'Caruso',
+                'birthday' => '1965-01-17',
+                'deceased' => NULL,
+                'image' => 'D_J__Caruso_1454457986.jpg',
+            'bio' => 'Born in Norwalk, Connecticut, Caruso came west to play tennis and study Television Production at Pepperdine University. Interned at Disney Studios in the Product Placement department and later hooked up with Director John Badham, who mentored him into a second-unit director, after Badham lost his 2nd-unit director Rob Cohen to a first-unit directing career. He hooked up with writer Scott Rosenberg, who penned a short film for him entitled, Cyclops, Baby (1997). The film helped launch Caruso\'s directing career.',
+                'created_at' => '2016-02-03 00:06:26',
+                'updated_at' => '2016-02-03 00:06:26',
+            ),
+            188 => 
+            array (
+                'person_id' => 1697,
+                'forename' => 'David',
+                'surname' => 'Lean',
+                'birthday' => '1908-03-25',
+                'deceased' => NULL,
+                'image' => 'David_Lean_1454457990.jpg',
+            'bio' => 'April 16, 1991 (age 83) in London, England, UK<br/><br/>An important British filmmaker, David Lean was born in Croydon in 1908 and brought up in a strict Quaker family (ironically, as a child he wasn\'t allowed to go to the movies). During the 1920s he briefly considered the possibility of becoming an accountant like his father before finding a job at Gaumont British Studios in 1927. He worked as tea boy, clapper boy, messenger, then cutting room assistant. By 1935 he\'d become chief editor of Gaumont British News until in 1939 when he began to edit feature films, notably for Anthony Asquith,Paul Czinner and Michael Powell.Amongst films he worked on were \'Pygmalion\' (1938), \'Major Barbara\' (1941 and \'One of Our Aircraft is Missing\' (1941). By the end of the 1930s Lean\'s reputation as an editor was very well established. In 1942 Noël Coward gave Lean the chance to co-direct with him the war film In Which We Serve (1942). Shortly after, with the encouragement of Coward, Lean, cinematographer Ronald Neame and producer \'Anthony Havelock-Allan\' l ....',
+                'created_at' => '2016-02-03 00:06:30',
+                'updated_at' => '2016-02-03 00:06:30',
+            ),
+            189 => 
+            array (
+                'person_id' => 1698,
+                'forename' => 'Jeremy',
+                'surname' => 'Leven',
+                'birthday' => '2016-02-03',
+                'deceased' => NULL,
+                'image' => 'Jeremy_Leven_1454457994.jpg',
+            'bio' => 'Jeremy Leven was born in 1941 in South Bend, Indiana, USA. He is a writer and producer, known for The Notebook (2004), Real Steel (2011) and My Sister\'s Keeper (2009).',
+                'created_at' => '2016-02-03 00:06:34',
+                'updated_at' => '2016-02-03 00:06:34',
+            ),
+            190 => 
+            array (
+                'person_id' => 1699,
+                'forename' => 'Sam',
+                'surname' => 'Raimi',
+                'birthday' => '1959-10-23',
+                'deceased' => NULL,
+                'image' => 'Sam_Raimi_1454458002.jpg',
+            'bio' => 'Highly inventive U.S. film director/producer/writer/actor Sam Raimi first came to the attention of film fans with the savage, yet darkly humorous, low-budget horror film, The Evil Dead (1981). From his childhood, Raimi was a fan of the cinema and, before he was ten-years-old, he was out making movies with an 8mm camera. He was a devoted fan of The Three Stooges, so much of Raimi\'s film work in his teens, with good friends Bruce Campbell and Rob Tapert, was slapstick comedy based around what they had observed from "Stooges" movies. Among the three of them, they wrote, directed, produced and edited a short horror movie titled Within the Woods (1978), which was then shown to prospective investors to raise the money necessary to film The Evil Dead (1981). It met with lukewarm interest in the U.S. with local distributors, so Raimi took the film to Europe, where it was much more warmly received. After it started gaining positive reviews and, more importantly, ticket sales upon its release in ....',
+                'created_at' => '2016-02-03 00:06:42',
+                'updated_at' => '2016-02-03 00:06:42',
+            ),
+            191 => 
+            array (
+                'person_id' => 1700,
+                'forename' => 'Woo-Ping',
+                'surname' => 'Yuen',
+                'birthday' => '1945-01-01',
+                'deceased' => NULL,
+                'image' => 'Woo_Ping_Yuen_1454458008.jpg',
+            'bio' => 'Woo-Ping Yuen was born on January 1, 1945 in Guangzhou, China as Yuen Woo Ping. He is known for his work on Kill Bill: Vol. 2 (2004), Drunken Master (1978) and Iron Monkey (1993).',
+                'created_at' => '2016-02-03 00:06:48',
+                'updated_at' => '2016-02-03 00:06:48',
+            ),
+            192 => 
+            array (
+                'person_id' => 1701,
+                'forename' => 'Allan',
+                'surname' => 'Moyle',
+                'birthday' => '2016-02-03',
+                'deceased' => NULL,
+                'image' => 'Allan_Moyle_1454458017.jpg',
+            'bio' => 'Unconventional filmmaker who moved from independent cinema into the Hollywood mainstream. Moyle became a sought-after writer-director after the surprising success of Pump Up the Volume (1990), a sleeper hit about teen angst starring Christian Slater. His previous directorial outing occurred a full decade earlier: the critically lambasted Times Square (1980), a flop which concerned the surprisingly tame adventures of two runaway teenage girls in the Big Apple. This film--Moyle\'s first studio directing assignment--was such an unpleasant experience for the neophyte filmmaker that he succumbed to a stress-related disorder that caused all his hair to fall out. Moyle began his career as an actor and screenwriter working in close collaboration with Frank Vitale, a Canada-based independent filmmaker. Their film Montreal Main (1974) was a loosely structured quasi-documentary about gay life in Montreal. Moyle made his directorial debut with The Rubber Gun (1977), an exploration of the city\'s dru ....',
+                'created_at' => '2016-02-03 00:06:57',
+                'updated_at' => '2016-02-03 00:06:57',
+            ),
+            193 => 
+            array (
+                'person_id' => 1702,
+                'forename' => 'Steven',
+                'surname' => 'Soderbergh',
+                'birthday' => '1963-01-14',
+                'deceased' => NULL,
+                'image' => 'Steven_Soderbergh_1454458023.jpg',
+            'bio' => 'Steven Andrew Soderbergh was born on January 14, 1963 in Atlanta, Georgia, USA, the second of six children of Mary Ann (Bernard) and Peter Soderbergh. His father was of Swedish and Irish descent, and his mother was of Italian ancestry. While he was still at a very young age, his family moved to Baton Rouge, Louisiana, where his father was a professor and the dean of the College of Education at Louisiana State University. While still in high school, around the age of 15, Soderbergh enrolled in the university\'s film animation class and began making short 16-millimeter films with second-hand equipment, one of which was the short film "Janitor". After graduating high school, he went to Hollywood, where he worked as a freelance editor. His time there was brief and, shortly after, he returned home and continued making short films and writing scripts. His first major break was in 1986 when the rock group Yes assigned him to shoot a full-length concert film for the band, which eventually earne ....',
+                'created_at' => '2016-02-03 00:07:03',
+                'updated_at' => '2016-02-03 00:07:03',
+            ),
+            194 => 
+            array (
+                'person_id' => 1703,
+                'forename' => 'Michel',
+                'surname' => 'Gondry',
+                'birthday' => '1963-05-08',
+                'deceased' => NULL,
+                'image' => 'Michel_Gondry_1454458028.jpg',
+            'bio' => 'He grew up in Versailles with a family who was very influenced by pop music. When he was young, Gondry wanted to be a painter or an inventor. In the 80s he entered in an art school in Paris where he could develop his graphic skills and where he also met friends with whom he created a pop-rock band called Oui-Oui. The band released 2 albums (\'Chacun tout le monde\' and \'Formidable\') and several singles until their separation in 1992. Gondry was the drummer of the band and also directed their video clips in which it was possible to see his strange world, influenced by the 60s and by his childhood. One of his videos was shown on MTV and when Björk saw it, she asked him to make her first solo video for \'Human Behaviour\'. The partnership is famous: Gondry directed five other Björk\'s videos, benefiting by the huge budgets. This led to commissions for other artists around the world, including Massive Attack. He also made a lot of commercials for Gap, Smirnoff, Air France, Nike, Coca Cola, Ad ....',
+                'created_at' => '2016-02-03 00:07:08',
+                'updated_at' => '2016-02-03 00:07:08',
+            ),
+            195 => 
+            array (
+                'person_id' => 1704,
+                'forename' => 'John',
+                'surname' => 'Hughes',
+                'birthday' => '1950-02-18',
+                'deceased' => NULL,
+                'image' => 'John_Hughes_1454458043.jpg',
+            'bio' => 'August 6, 2009 (age 59) in Manhattan, New York City, New York, USA<br/><br/>John Hughes was born on February 18, 1950 in Lansing, Michigan, USA as John Wilden Hughes Jr. He was a writer and producer, known for Home Alone 2: Lost in New York (1992), The Breakfast Club (1985) and Home Alone (1990). He was married to Nancy Ludwig. He died on August 6, 2009 in Manhattan, New York City, New York, USA.',
+                'created_at' => '2016-02-03 00:07:23',
+                'updated_at' => '2016-02-03 00:07:23',
+            ),
+            196 => 
+            array (
+                'person_id' => 1705,
+                'forename' => 'Tim',
+                'surname' => 'Story',
+                'birthday' => '1970-03-13',
+                'deceased' => NULL,
+                'image' => 'Tim_Story_1454458050.jpg',
+                'bio' => 'Timothy Kevin Story was born on March 13, 1970 in Los Angeles, California. Attended Westchester High School in Los Angeles, California with jazz pianist Eric Reed and actresses Regina King and Nia Long. Graduated from USC film school.',
+                'created_at' => '2016-02-03 00:07:30',
+                'updated_at' => '2016-02-03 00:07:30',
+            ),
+            197 => 
+            array (
+                'person_id' => 1706,
+                'forename' => 'James',
+                'surname' => 'Wong',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'image' => 'James_Wong_1454458062.jpg',
+            'bio' => 'James Wong is a producer and writer, known for Final Destination (2000), Destination finale 3 (2006) and The One (2001). He is married to Teena Wong. They have three children.',
+                'created_at' => '2016-02-03 00:07:42',
+                'updated_at' => '2016-02-03 00:07:42',
+            ),
+            198 => 
+            array (
+                'person_id' => 1707,
+                'forename' => 'Charles',
+                'surname' => 'Crichton',
+                'birthday' => '1910-08-06',
+                'deceased' => NULL,
+                'image' => 'Charles_Crichton_1454458069.jpg',
+            'bio' => 'September 14, 1999 (age 89) in South Kensington, London, England, UK<br/><br/>Director Charles Crichton\'s film career began as an editor in 1935 with Alexander Korda\'s London Films, and in that capacity he worked on such productions as Sanders of the River (1935), Things to Come (1936) and Elephant Boy (1937) (which introduced Sabu to movie audiences). He soon left London Films for Ealing Studios, and rose quickly through the ranks, making his directorial debut with For Those in Peril (1944). Meticulous to the point of being referred to as a "perfectionist", Crichton came into his own at Ealing, a studio noted for its comedies, and among his best known are the quirky but charming The Titfield Thunderbolt (1953) and the wildly popular The Lavender Hill Mob (1951). He tried his hand at drama--outside of Ealing--with The Stranger in Between (1952), starring Dirk Bogarde. When Ealing closed its doors in 1959, Crichton\'s film work petered off, and he turned more and more to television, becoming a prolific director of crime and adventure series. His occasional forays  ....',
+                'created_at' => '2016-02-03 00:07:49',
+                'updated_at' => '2016-02-03 00:07:49',
+            ),
+            199 => 
+            array (
+                'person_id' => 1708,
+                'forename' => 'Bob',
+                'surname' => 'Rafelson',
+                'birthday' => '1933-02-21',
+                'deceased' => NULL,
+                'image' => 'Bob_Rafelson_1454458076.jpg',
+            'bio' => 'Bob Rafelson was born on February 21, 1933 in New York City, New York, USA as Robert Jay Rafelson. He is a producer and director, known for Five Easy Pieces (1970), The Postman Always Rings Twice (1981) and Head (1968). He is married to Gabrielle Taurek. He was previously married to Toby Carr Rafelson.',
+                'created_at' => '2016-02-03 00:07:56',
+                'updated_at' => '2016-02-03 00:07:56',
+            ),
+            200 => 
+            array (
+                'person_id' => 1709,
+                'forename' => 'Robert',
+                'surname' => 'Rodriguez',
+                'birthday' => '1968-06-20',
+                'deceased' => NULL,
+                'image' => 'Robert_Rodriguez_1454458085.jpg',
+            'bio' => 'Robert Anthony Rodriguez was born and raised in San Antonio, Texas, USA, to Rebecca (Villegas), a nurse, and Cecilio G. Rodríguez, a salesman. His family is of Mexican descent. Of all the people to be amazed by the images of John Carpenter\'s 1981 sci-fi parable, Escape from New York (1981), none were as captivated as the 12-year-old Rodriguez, who sat with his friends in a crowded cinema. Many people watch films and arrogantly proclaim "I can do that." This young man said something different: "I WILL do that. I\'m gonna make movies." The young man in question is Robert Rodriguez and this day was the catalyst of his dream career. Born and raised in Texas, Robert was the middle child of a family that would include 10 children. While many-a-child would easily succumb to a Jan Brady-sense of being lost in the shuffle, Robert always stood out as a very creative and very active young man. An artist by nature, he was very rarely seen sans pencil-in-hand doodling some abstract (yet astounding) ....',
+                'created_at' => '2016-02-03 00:08:05',
+                'updated_at' => '2016-02-03 00:08:05',
+            ),
+            201 => 
+            array (
+                'person_id' => 1710,
+                'forename' => 'Jerry',
+                'surname' => 'Zucker',
+                'birthday' => '1950-03-11',
+                'deceased' => NULL,
+                'image' => 'Jerry_Zucker_1454458092.jpg',
+            'bio' => 'Jerry Zucker was born on March 11, 1950 in Milwaukee, Wisconsin, USA. He is a producer and writer, known for The Naked Gun: From the Files of Police Squad! (1988), Airplane! (1980) and Top Secret! (1984). He has been married to Janet Zucker since May 1987. They have two children.',
+                'created_at' => '2016-02-03 00:08:12',
+                'updated_at' => '2016-02-03 00:08:12',
+            ),
+            202 => 
+            array (
+                'person_id' => 1711,
+                'forename' => 'Mark',
+                'surname' => 'Waters',
+                'birthday' => '1964-06-30',
+                'deceased' => NULL,
+                'image' => 'Mark_Waters_1454458098.jpg',
+            'bio' => 'Mark Waters was born on June 30, 1964 in Wyandotte, Michigan, USA as Mark Stephen Waters. He is a director and producer, known for Mean Girls (2004), Freaky Friday (2003) and Just Like Heaven (2005). He has been married to Dina Spybey-Waters since November 10, 2000.',
+                'created_at' => '2016-02-03 00:08:18',
+                'updated_at' => '2016-02-03 00:08:18',
+            ),
+            203 => 
+            array (
+                'person_id' => 1712,
+                'forename' => 'Michael',
+                'surname' => 'Ritchie',
+                'birthday' => '1938-11-28',
+                'deceased' => NULL,
+                'image' => 'Michael_Ritchie_1454458107.jpg',
+            'bio' => 'April 16, 2001 (age 62) in New York City, New York, USA<br/><br/>Michael Ritchie was born on November 28, 1938 in Waukesha, Wisconsin, USA. He was a director and producer, known for Fletch (1985), The Golden Child (1986) and The Bad News Bears (1976). He was married to Jimmie B. Ritchie. He died on April 16, 2001 in New York City, New York, USA.',
+                'created_at' => '2016-02-03 00:08:27',
+                'updated_at' => '2016-02-03 00:08:27',
+            ),
+            204 => 
+            array (
+                'person_id' => 1713,
+                'forename' => 'Gus Van',
+                'surname' => 'Sant',
+                'birthday' => '1952-07-24',
+                'deceased' => NULL,
+                'image' => 'Gus_Van_Sant_1454458112.jpg',
+            'bio' => 'Gus Van Sant was born on July 24, 1952 in Louisville, Kentucky, USA as Gus Greene Van Sant Junior. He is a producer and director, known for Good Will Hunting (1997), Milk (2008) and Elephant (2003).',
+                'created_at' => '2016-02-03 00:08:32',
+                'updated_at' => '2016-02-03 00:08:32',
+            ),
+            205 => 
+            array (
+                'person_id' => 1714,
+                'forename' => 'Richard',
+                'surname' => 'Donner',
+                'birthday' => '1930-04-24',
+                'deceased' => NULL,
+                'image' => 'Richard_Donner_1454458118.jpg',
+            'bio' => 'Richard Donner was born on April 24, 1930 in New York City, New York, USA as Richard D. Schwartzberg. He is a director and producer, known for Lethal Weapon (1987), The Goonies (1985) and Lethal Weapon 2 (1989). He has been married to Lauren Shuler Donner since November 27, 1986.',
+                'created_at' => '2016-02-03 00:08:38',
+                'updated_at' => '2016-02-03 00:08:38',
+            ),
+            206 => 
+            array (
+                'person_id' => 1715,
+                'forename' => 'Randal',
+                'surname' => 'Kleiser',
+                'birthday' => '1946-07-20',
+                'deceased' => NULL,
+                'image' => 'Randal_Kleiser_1454458124.jpg',
+            'bio' => 'Randal Kleiser has been an internationally known film director since the release of his first feature, Grease (1978), the most successful movie musical ever made. Other features include The Blue Lagoon (1980) with Brooke Shields, Summer Lovers (1982) starring Peter Gallagher and Daryl Hannah, Grandview, U.S.A. (1984) with Jamie Lee Curtis, Flight of the Navigator (1986), featuring the first use of digital morphing in a motion picture; Honey I Blew Up the Kid (1992) and White Fang (1991). In London he directed the critically acclaimed comedy Getting It Right (1989) starring Lynn Redgrave, Helena Bonham Carter, Jane Horrocks and Sir John Gielgud. In 1996 he wrote and directed It\'s My Party (1996) starring Eric Roberts, Gregory Harrison, Lee Grant, Bruce Davison and Marlee Matlin. As a writer-producer, he was responsible for the surfing classic North Shore (1987) for Universal Pictures. He also directed the thriller Shadow of Doubt (1998) with Melanie Griffith and Tom Berenger. Working in ....',
+                'created_at' => '2016-02-03 00:08:44',
+                'updated_at' => '2016-02-03 00:08:44',
+            ),
+            207 => 
+            array (
+                'person_id' => 1716,
+                'forename' => 'Martin',
+                'surname' => 'Campbell',
+                'birthday' => '1943-10-24',
+                'deceased' => NULL,
+                'image' => 'Martin_Campbell_1454458129.jpg',
+            'bio' => 'Martin Campbell knows how to entertain an audience when he steps behind the camera. When he directed The Mask of Zorro (1998), the movie earned Academy Award and Golden Globe nominations and launched the international careers of Antonio Banderas and Catherine Zeta-Jones. Next, when he helmed Vertical Limit (2000), the film was well received by the critics and earned over $200 million in worldwide box-office sales. In addition, Campbell is credited with rejuvenating the James Bond franchise when he directed GoldenEye (1995), Pierce Brosnan\'s first outing as the famed British spy, which went on to gross more than $350 million. He also directed Daniel Craig\'s debut Bond feature as well, Casino Royale (2006). Born in New Zealand, Campbell moved to London where he began his career as a cameraman. He went on to produce the controversial British feature Scum (1979), as well as Black Joy (1977), which was selected for competition at the Cannes Film Festival. Campbell made his directorial debut ....',
+                'created_at' => '2016-02-03 00:08:49',
+                'updated_at' => '2016-02-03 00:08:49',
+            ),
+            208 => 
+            array (
+                'person_id' => 1717,
+                'forename' => 'Dennis',
+                'surname' => 'Dugan',
+                'birthday' => '1946-09-05',
+                'deceased' => NULL,
+                'image' => 'Dennis_Dugan_1454458137.jpg',
+            'bio' => 'Dennis Dugan was born on September 5, 1946 in Wheaton, Illinois, USA. He is an actor and director, known for Happy Gilmore (1996), Grown Ups (2010) and Big Daddy (1999). He is married to Sharon Dugan. He was previously married to Joyce Van Patten.',
+                'created_at' => '2016-02-03 00:08:57',
+                'updated_at' => '2016-02-03 00:08:57',
+            ),
+            209 => 
+            array (
+                'person_id' => 1718,
+                'forename' => 'Don',
+                'surname' => 'Siegel',
+                'birthday' => '1912-10-26',
+                'deceased' => NULL,
+                'image' => 'Don_Siegel_1454458148.jpg',
+            'bio' => 'April 20, 1991 (age 78) in Nipomo, California, USA<br/><br/>Don Siegel was educated at Cambridge University, England. In Hollywood from the mid-\'30s, he began his career as an editor and second unit director. In 1945 he directed two shorts (Hitler Lives (1945) and Star in the Night (1945)) which both won Academy Awards. His first feature as a director was 1946\'s The Verdict (1946). He made his reputation in the early and mid-\'50s with a series of tightly made, expertly crafted, tough but intelligent "B" pictures (among them The Lineup (1958), Riot in Cell Block 11 (1954), Invasion of the Body Snatchers (1956)), then graduated to major "A" films in the 1960s and early 1970s. He made several "side trips" to television, mostly as a producer. Siegel directed what is generally considered to be Elvis Presley\'s best picture, Flaming Star (1960). He had a long professional relationship and personal friendship with Clint Eastwood, who has often said that everything he knows about filmmaking he learned from Don Siegel.',
+                'created_at' => '2016-02-03 00:09:08',
+                'updated_at' => '2016-02-03 00:09:08',
+            ),
+            210 => 
+            array (
+                'person_id' => 1719,
+                'forename' => 'Ted',
+                'surname' => 'Post',
+                'birthday' => '1918-03-31',
+                'deceased' => NULL,
+                'image' => 'Ted_Post_1454458154.jpg',
+            'bio' => 'August 20, 2013 (age 95) in Santa Monica, California, USA<br/><br/>Ted Post first began thinking about a career in show business in 1938, when he was working as a weekend usher at the Loew\'s Pitkin Theater in Brooklyn, New York, and getting so caught up in the movies that he would sometimes forget to escort the patrons to their seats. He received some acting training at the workshop of Tamara Daykarhanova, but later set aside the dream of becoming a performer and segued into directing summer theater. In the mid- to late 1940s, Post made a name for himself in the theater and then moved into the adventurous arena of early television. He has since directed numerous segments of TV\'s top series (Gunsmoke (1955), Perry Mason (1957), The Twilight Zone (1959), "Columbo," many more) and feature films ranging from Clint Eastwood\'s Hang \'Em High (1968) and Magnum Force (1973) to Beneath the Planet of the Apes (1970). Returning to his theater roots, Post recently directed the 2001-02 Festival of the Arts at Bel-Air\'s University of Judaism.',
+                'created_at' => '2016-02-03 00:09:14',
+                'updated_at' => '2016-02-03 00:09:14',
             ),
         ));
         
