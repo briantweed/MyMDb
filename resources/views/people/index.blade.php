@@ -30,13 +30,6 @@
       </div>
    </div>
 
-   {{-- pagination --}}
-   <div class="row">
-      <div class="col-xs-12">
-         {!! $people->render() !!}
-      </div>
-   </div>
-
    @include('segments.layout.padding')
 
 @stop
