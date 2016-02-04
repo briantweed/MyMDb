@@ -47,7 +47,7 @@ class MovieController extends Controller {
 	*/
 	public function index()
 	{
-		$movies = Movies::all()->orderBy('sort_name');
+		$movies = Movies::orderBy('sort_name')->get();
 		$user = $this->isAdmin;
 		return view('movies.index', compact('movies', 'user'));
 	}
