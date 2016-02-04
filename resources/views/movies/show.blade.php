@@ -73,7 +73,7 @@
          <h1>{{$movie->name}}<br/></h1>
 
          <div class="row">
-            <div class="col-sm-4 visible-sm-block" style="padding-top:20px">
+            <div class="col-sm-4 visible-sm-block" style="padding-top:10px">
                @if($movie->cover_count == 1)
                   <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}"  />
                @else
