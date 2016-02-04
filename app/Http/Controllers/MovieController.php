@@ -47,7 +47,7 @@ class MovieController extends Controller {
 	*/
 	public function index()
 	{
-		$movies = Movies::orderBy('sort_name')->paginate(48);
+		$movies = Movies::orderBy('sort_name');
 		$user = $this->isAdmin;
 		return view('movies.index', compact('movies', 'user'));
 	}
