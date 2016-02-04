@@ -77,10 +77,10 @@
             @include('segments.layout.padding')
 
             <div class="row">
-               <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-6 col-lr-6">
+               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   @include('welcome.highest_rated')
                </div>
-               <div class="col-xs-12 col-sm-6">
+               <div class="col-xs-12 col-md-6">
                   <h4>Movies By Certificate</h4>
                   <div id="certificateChart" style="height: 350px; width: 100%;"></div>
                </div>

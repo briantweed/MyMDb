@@ -77,7 +77,7 @@ class ApiController extends Controller {
 		}
 	 }
 
-	 /**
+	/**
  	*
  	* Return search result from API call
  	* @return Response
