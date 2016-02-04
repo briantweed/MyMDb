@@ -142,7 +142,7 @@ function displayMoviesByDecade() {
                indexLabelOrientation: "horizontal",
                indexLabel: "{y}",
                click: function(event) {
-                  // displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
+                  displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
                }
             }]
          });
