@@ -80,10 +80,10 @@
                   <img class="img-responsive img-rounded" src="{{asset($movie->cover)}}" />
                @endif
                <ul class="sm-block-grid-2">
-                  <li style="padding:0.2em"><a style="padding:6px 0" class="btn btn-primary btn-block" href="{{ action('WelcomeController@index') }}"><i class="ft icon-home"></i></a></li>
-                  <li style="padding:0.2em"><a style="padding:6px 0" class="btn btn-info btn-block" href="{{ action('MovieController@edit',[$movie->movie_id]) }}"><i class="ft icon-edit"></i></a></li>
-                  <li style="padding:0.2em"><a style="padding:6px 0" onclick="showModal('viewing')" class="btn btn-info btn-block" href="javascript:void(0);"><i class="ft icon-view"></i></a></li>
-                  <li style="padding:0.2em"><a style="padding:6px 0" href="http://www.imdb.com/title/{{$movie->imdb_id}}" target="_blank" class="btn btn-warning  btn-block" href="javascript:void(0);"><i class="ft icon-imdb"></i></a></li>
+                  <li style="padding:0.2em"><a style="padding:6px 0" class="btn btn-primary btn-block" href="{{ action('WelcomeController@index') }}"><i class="ft icon-home"></i></a> home</li>
+                  <li style="padding:0.2em"><a style="padding:6px 0" class="btn btn-info btn-block" href="{{ action('MovieController@edit',[$movie->movie_id]) }}"><i class="ft icon-edit"></i></a> edit</li>
+                  <li style="padding:0.2em"><a style="padding:6px 0" onclick="showModal('viewing')" class="btn btn-info btn-block" href="javascript:void(0);"><i class="ft icon-view"></i></a> log</li>
+                  <li style="padding:0.2em"><a style="padding:6px 0" href="http://www.imdb.com/title/{{$movie->imdb_id}}" target="_blank" class="btn btn-warning  btn-block" href="javascript:void(0);"><i class="ft icon-imdb"></i></a> imdb</li>
                </ul>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-12">
