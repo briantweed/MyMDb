@@ -414,7 +414,7 @@ $(document).ready(function() {
    // Lazy load images
    $('img.lazy').lazyload({
       effect : "fadeIn",
-      threshold : 100
+      threshold : 200
    });
 
    // auto size text areas
