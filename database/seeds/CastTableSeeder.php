@@ -35563,6 +35563,15 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            448 => 
+            array (
+                'cast_id' => 4128,
+                'movie_id' => 49,
+                'person_id' => 1572,
+                'character' => 'Master Fu Wen-Chi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
