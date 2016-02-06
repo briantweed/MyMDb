@@ -14,6 +14,8 @@ Route::get('charts', 'ChartController@index');
 Route::post('getCastFromIMDb', 'ApiController@getCastFromIMDb');
 Route::post('createImdbActor', 'ApiController@createImdbActor');
 Route::post('searchForMovie', 'ApiController@searchForMovie');
+Route::get('getDirectors', 'ApiController@getDirectors');
+Route::get('getGenres', 'ApiController@getGenres');
 
 // AJAX QUERIES
 Route::post('aviary', 'AviaryController@replaceImage');

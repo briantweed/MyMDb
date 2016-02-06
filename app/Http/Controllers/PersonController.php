@@ -25,7 +25,9 @@ class PersonController extends Controller {
 
 	public function index()
 	{
-		$people = Persons::orderBy('forename')->get();
+		$people = Persons::orderBy('forename')
+					->orderBy('surname')
+					->get();
 		$user = $this->isAdmin;
 		return view('people.index', compact('people','user'));
 	}

@@ -39,6 +39,14 @@
             <div class="col-xs-5"><b>Total movies in collection :</b></div>
             <div class="col-xs-7">{{$data->movie_total}}</div>
          </div>
+         <div class="row">
+            <div class="col-xs-5"><b>Total running time :</b></div>
+            <div class="col-xs-7">{{$data->running_total}} minutes</div>
+         </div>
+         <div class="row">
+            <div class="col-xs-5"><b>Time required to watch :</b></div>
+            <div class="col-xs-7">{{$data->watching_time}}</div>
+         </div>
       </div>
    </div>
 

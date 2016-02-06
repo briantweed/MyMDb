@@ -35572,6 +35572,4283 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            449 => 
+            array (
+                'cast_id' => 4129,
+                'movie_id' => 524,
+                'person_id' => 818,
+                'character' => 'Pongo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            450 => 
+            array (
+                'cast_id' => 4130,
+                'movie_id' => 524,
+                'person_id' => 1812,
+                'character' => 'Colonel  Jasper',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            451 => 
+            array (
+                'cast_id' => 4131,
+                'movie_id' => 525,
+                'person_id' => 1381,
+                'character' => 'Lightning',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            452 => 
+            array (
+                'cast_id' => 4132,
+                'movie_id' => 525,
+                'person_id' => 1148,
+                'character' => 'Lars',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            453 => 
+            array (
+                'cast_id' => 4133,
+                'movie_id' => 525,
+                'person_id' => 969,
+                'character' => 'Anita',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            454 => 
+            array (
+                'cast_id' => 4134,
+                'movie_id' => 526,
+                'person_id' => 1198,
+                'character' => 'Genie / Peddler',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            455 => 
+            array (
+                'cast_id' => 4135,
+                'movie_id' => 526,
+                'person_id' => 1813,
+                'character' => 'Aladdin',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            456 => 
+            array (
+                'cast_id' => 4136,
+                'movie_id' => 526,
+                'person_id' => 1814,
+                'character' => 'Jasmine',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            457 => 
+            array (
+                'cast_id' => 4137,
+                'movie_id' => 526,
+                'person_id' => 1815,
+                'character' => 'Iago',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            458 => 
+            array (
+                'cast_id' => 4138,
+                'movie_id' => 526,
+                'person_id' => 1816,
+                'character' => 'Jafar',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            459 => 
+            array (
+                'cast_id' => 4139,
+                'movie_id' => 527,
+                'person_id' => 1381,
+                'character' => 'Abis Mal',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            460 => 
+            array (
+                'cast_id' => 4140,
+                'movie_id' => 527,
+                'person_id' => 1816,
+                'character' => 'Jafar',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            461 => 
+            array (
+                'cast_id' => 4141,
+                'movie_id' => 527,
+                'person_id' => 1815,
+                'character' => 'Iago',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            462 => 
+            array (
+                'cast_id' => 4142,
+                'movie_id' => 527,
+                'person_id' => 1814,
+                'character' => 'Princess Jasmine',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            463 => 
+            array (
+                'cast_id' => 4143,
+                'movie_id' => 527,
+                'person_id' => 1491,
+                'character' => 'Genie',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            464 => 
+            array (
+                'cast_id' => 4144,
+                'movie_id' => 527,
+                'person_id' => 1813,
+                'character' => 'Aladdin',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            465 => 
+            array (
+                'cast_id' => 4145,
+                'movie_id' => 528,
+                'person_id' => 1815,
+                'character' => 'Iago',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            466 => 
+            array (
+                'cast_id' => 4146,
+                'movie_id' => 528,
+                'person_id' => 1814,
+                'character' => 'Princess Jasmine',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            467 => 
+            array (
+                'cast_id' => 4147,
+                'movie_id' => 528,
+                'person_id' => 481,
+                'character' => 'Cassim',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            468 => 
+            array (
+                'cast_id' => 4148,
+                'movie_id' => 528,
+                'person_id' => 1813,
+                'character' => 'Aladdin',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            469 => 
+            array (
+                'cast_id' => 4149,
+                'movie_id' => 528,
+                'person_id' => 1198,
+                'character' => 'Genie',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            470 => 
+            array (
+                'cast_id' => 4150,
+                'movie_id' => 528,
+                'person_id' => 157,
+                'character' => 'The Oracle',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            471 => 
+            array (
+                'cast_id' => 4151,
+                'movie_id' => 530,
+                'person_id' => 779,
+                'character' => 'Queen of Hearts',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            472 => 
+            array (
+                'cast_id' => 4152,
+                'movie_id' => 530,
+                'person_id' => 1812,
+                'character' => 'Walrus',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            473 => 
+            array (
+                'cast_id' => 4153,
+                'movie_id' => 531,
+                'person_id' => 1348,
+                'character' => 'Scat Cat',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            474 => 
+            array (
+                'cast_id' => 4154,
+                'movie_id' => 531,
+                'person_id' => 173,
+                'character' => 'Napoleon',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            475 => 
+            array (
+                'cast_id' => 4155,
+                'movie_id' => 531,
+                'person_id' => 1817,
+                'character' => 'OMalley',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            476 => 
+            array (
+                'cast_id' => 4156,
+                'movie_id' => 532,
+                'person_id' => 1132,
+                'character' => 'Professor Ratigan',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            477 => 
+            array (
+                'cast_id' => 4157,
+                'movie_id' => 532,
+                'person_id' => 794,
+                'character' => 'Hiram Flaversham',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            478 => 
+            array (
+                'cast_id' => 4158,
+                'movie_id' => 532,
+                'person_id' => 1818,
+                'character' => 'Sherlock Holmes',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            479 => 
+            array (
+                'cast_id' => 4159,
+                'movie_id' => 533,
+                'person_id' => 720,
+                'character' => 'Belle',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            480 => 
+            array (
+                'cast_id' => 4160,
+                'movie_id' => 533,
+                'person_id' => 718,
+                'character' => 'Beast',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            481 => 
+            array (
+                'cast_id' => 4161,
+                'movie_id' => 533,
+                'person_id' => 858,
+                'character' => 'Forte',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            482 => 
+            array (
+                'cast_id' => 4162,
+                'movie_id' => 533,
+                'person_id' => 1039,
+                'character' => 'Chip',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            483 => 
+            array (
+                'cast_id' => 4163,
+                'movie_id' => 533,
+                'person_id' => 566,
+                'character' => 'Fife',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            484 => 
+            array (
+                'cast_id' => 4164,
+                'movie_id' => 533,
+                'person_id' => 719,
+                'character' => 'Mrs. Potts',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            485 => 
+            array (
+                'cast_id' => 4165,
+                'movie_id' => 534,
+                'person_id' => 27,
+                'character' => 'The Horned King',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            486 => 
+            array (
+                'cast_id' => 4166,
+                'movie_id' => 534,
+                'person_id' => 864,
+                'character' => 'Prologue Narrator',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            487 => 
+            array (
+                'cast_id' => 4167,
+                'movie_id' => 534,
+                'person_id' => 1819,
+                'character' => 'Fflewddur Fflam',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            488 => 
+            array (
+                'cast_id' => 4168,
+                'movie_id' => 535,
+                'person_id' => 1189,
+                'character' => 'Kenai',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            489 => 
+            array (
+                'cast_id' => 4169,
+                'movie_id' => 535,
+                'person_id' => 352,
+                'character' => 'Rutt',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            490 => 
+            array (
+                'cast_id' => 4170,
+                'movie_id' => 535,
+                'person_id' => 1002,
+                'character' => 'Tug',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            491 => 
+            array (
+                'cast_id' => 4171,
+                'movie_id' => 535,
+                'person_id' => 968,
+                'character' => 'Old Lady Bear',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            492 => 
+            array (
+                'cast_id' => 4172,
+                'movie_id' => 536,
+                'person_id' => 330,
+                'character' => 'Kenai',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            493 => 
+            array (
+                'cast_id' => 4173,
+                'movie_id' => 536,
+                'person_id' => 957,
+                'character' => 'Nita',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            494 => 
+            array (
+                'cast_id' => 4174,
+                'movie_id' => 536,
+                'person_id' => 352,
+                'character' => 'Rutt',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            495 => 
+            array (
+                'cast_id' => 4175,
+                'movie_id' => 536,
+                'person_id' => 1002,
+                'character' => 'Tug',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            496 => 
+            array (
+                'cast_id' => 4176,
+                'movie_id' => 537,
+                'person_id' => 1765,
+                'character' => 'Buck Cluck',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            497 => 
+            array (
+                'cast_id' => 4177,
+                'movie_id' => 537,
+                'person_id' => 1372,
+                'character' => 'Mayor Turkey Lurkey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            498 => 
+            array (
+                'cast_id' => 4178,
+                'movie_id' => 537,
+                'person_id' => 647,
+                'character' => 'Mr. Woolensworth',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            499 => 
+            array (
+                'cast_id' => 4179,
+                'movie_id' => 537,
+                'person_id' => 914,
+                'character' => 'Runt of the Litter',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+        ));
+        \DB::table('cast')->insert(array (
+            0 => 
+            array (
+                'cast_id' => 4180,
+                'movie_id' => 537,
+                'person_id' => 967,
+                'character' => 'Abby Mallard',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            1 => 
+            array (
+                'cast_id' => 4181,
+                'movie_id' => 537,
+                'person_id' => 399,
+                'character' => 'Principal Fetchit',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            2 => 
+            array (
+                'cast_id' => 4182,
+                'movie_id' => 537,
+                'person_id' => 1057,
+                'character' => 'Dog Announcer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            3 => 
+            array (
+                'cast_id' => 4183,
+                'movie_id' => 537,
+                'person_id' => 975,
+                'character' => 'Melvin - Alien Dad',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            4 => 
+            array (
+                'cast_id' => 4184,
+                'movie_id' => 537,
+                'person_id' => 347,
+                'character' => 'Alien Cop',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            5 => 
+            array (
+                'cast_id' => 4185,
+                'movie_id' => 537,
+                'person_id' => 1820,
+                'character' => 'Chicken Little',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            6 => 
+            array (
+                'cast_id' => 4186,
+                'movie_id' => 537,
+                'person_id' => 1821,
+                'character' => 'Foxy Loxy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            7 => 
+            array (
+                'cast_id' => 4187,
+                'movie_id' => 538,
+                'person_id' => 779,
+                'character' => 'Fairy Godmother',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            8 => 
+            array (
+                'cast_id' => 4188,
+                'movie_id' => 538,
+                'person_id' => 1822,
+                'character' => 'Lady Tremaine',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            9 => 
+            array (
+                'cast_id' => 4189,
+                'movie_id' => 541,
+                'person_id' => 779,
+                'character' => 'Mrs. Jumbo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            10 => 
+            array (
+                'cast_id' => 4190,
+                'movie_id' => 541,
+                'person_id' => 1823,
+                'character' => 'Mr Stork',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            11 => 
+            array (
+                'cast_id' => 4191,
+                'movie_id' => 529,
+                'person_id' => 1823,
+                'character' => 'Adult Flower',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            12 => 
+            array (
+                'cast_id' => 4192,
+                'movie_id' => 530,
+                'person_id' => 1823,
+                'character' => 'Cheshire Cat',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            13 => 
+            array (
+                'cast_id' => 4193,
+                'movie_id' => 531,
+                'person_id' => 1823,
+                'character' => 'Roquefort',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            14 => 
+            array (
+                'cast_id' => 4194,
+                'movie_id' => 531,
+                'person_id' => 1824,
+                'character' => 'Duchess',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            15 => 
+            array (
+                'cast_id' => 4195,
+                'movie_id' => 542,
+                'person_id' => 148,
+                'character' => 'Pacha',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            16 => 
+            array (
+                'cast_id' => 4196,
+                'movie_id' => 542,
+                'person_id' => 347,
+                'character' => 'Kronk, Yzma\'s Sidekick',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            17 => 
+            array (
+                'cast_id' => 4197,
+                'movie_id' => 542,
+                'person_id' => 1303,
+                'character' => 'Theme Song Guy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            18 => 
+            array (
+                'cast_id' => 4198,
+                'movie_id' => 542,
+                'person_id' => 1825,
+                'character' => 'Emperor Kuzco  Narrator',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            19 => 
+            array (
+                'cast_id' => 4199,
+                'movie_id' => 542,
+                'person_id' => 1826,
+                'character' => 'Yzma',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            20 => 
+            array (
+                'cast_id' => 4200,
+                'movie_id' => 543,
+                'person_id' => 347,
+                'character' => 'Kronk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            21 => 
+            array (
+                'cast_id' => 4201,
+                'movie_id' => 543,
+                'person_id' => 1826,
+                'character' => 'Yzma',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            22 => 
+            array (
+                'cast_id' => 4202,
+                'movie_id' => 543,
+                'person_id' => 1825,
+                'character' => 'Kuzco',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            23 => 
+            array (
+                'cast_id' => 4203,
+                'movie_id' => 543,
+                'person_id' => 148,
+                'character' => 'Pacha',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            24 => 
+            array (
+                'cast_id' => 4204,
+                'movie_id' => 544,
+                'person_id' => 805,
+                'character' => 'Chi Fu',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            25 => 
+            array (
+                'cast_id' => 4205,
+                'movie_id' => 544,
+                'person_id' => 98,
+                'character' => 'Shang',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            26 => 
+            array (
+                'cast_id' => 4206,
+                'movie_id' => 544,
+                'person_id' => 1266,
+                'character' => 'The Emperor',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            27 => 
+            array (
+                'cast_id' => 4207,
+                'movie_id' => 544,
+                'person_id' => 396,
+                'character' => 'Mushu',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            28 => 
+            array (
+                'cast_id' => 4208,
+                'movie_id' => 544,
+                'person_id' => 464,
+                'character' => 'Shan-Yu',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            29 => 
+            array (
+                'cast_id' => 4209,
+                'movie_id' => 544,
+                'person_id' => 273,
+                'character' => 'General Li',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            30 => 
+            array (
+                'cast_id' => 4210,
+                'movie_id' => 544,
+                'person_id' => 1827,
+                'character' => 'Mulan',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            31 => 
+            array (
+                'cast_id' => 4211,
+                'movie_id' => 545,
+                'person_id' => 837,
+                'character' => 'Tod',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            32 => 
+            array (
+                'cast_id' => 4212,
+                'movie_id' => 545,
+                'person_id' => 335,
+                'character' => 'Copper',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            33 => 
+            array (
+                'cast_id' => 4213,
+                'movie_id' => 545,
+                'person_id' => 173,
+                'character' => 'Chief',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            34 => 
+            array (
+                'cast_id' => 4214,
+                'movie_id' => 545,
+                'person_id' => 1205,
+                'character' => 'Young Copper',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            35 => 
+            array (
+                'cast_id' => 4215,
+                'movie_id' => 546,
+                'person_id' => 1381,
+                'character' => 'Hugo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            36 => 
+            array (
+                'cast_id' => 4216,
+                'movie_id' => 546,
+                'person_id' => 1179,
+                'character' => 'Esmeralda',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            37 => 
+            array (
+                'cast_id' => 4217,
+                'movie_id' => 546,
+                'person_id' => 1163,
+                'character' => 'Phoebus',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            38 => 
+            array (
+                'cast_id' => 4218,
+                'movie_id' => 546,
+                'person_id' => 1617,
+                'character' => 'The Old Heretic',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            39 => 
+            array (
+                'cast_id' => 4219,
+                'movie_id' => 547,
+                'person_id' => 712,
+                'character' => 'Hercules',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            40 => 
+            array (
+                'cast_id' => 4220,
+                'movie_id' => 547,
+                'person_id' => 1109,
+                'character' => 'Phil',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            41 => 
+            array (
+                'cast_id' => 4221,
+                'movie_id' => 547,
+                'person_id' => 849,
+                'character' => 'Hades; Lord of the Underworld',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            42 => 
+            array (
+                'cast_id' => 4222,
+                'movie_id' => 547,
+                'person_id' => 821,
+                'character' => 'Pain',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            43 => 
+            array (
+                'cast_id' => 4223,
+                'movie_id' => 547,
+                'person_id' => 493,
+                'character' => 'Zeus',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            44 => 
+            array (
+                'cast_id' => 4224,
+                'movie_id' => 547,
+                'person_id' => 454,
+                'character' => 'Clotho',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            45 => 
+            array (
+                'cast_id' => 4225,
+                'movie_id' => 547,
+                'person_id' => 1546,
+                'character' => 'Narrator',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            46 => 
+            array (
+                'cast_id' => 4226,
+                'movie_id' => 547,
+                'person_id' => 903,
+                'character' => 'Apollo the Sun God',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            47 => 
+            array (
+                'cast_id' => 4227,
+                'movie_id' => 547,
+                'person_id' => 100,
+                'character' => 'Demetrius the Pot Maker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            48 => 
+            array (
+                'cast_id' => 4228,
+                'movie_id' => 547,
+                'person_id' => 966,
+                'character' => 'Additional Voices',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            49 => 
+            array (
+                'cast_id' => 4229,
+                'movie_id' => 548,
+                'person_id' => 1817,
+                'character' => '\'Baloo\' the Bear',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            50 => 
+            array (
+                'cast_id' => 4230,
+                'movie_id' => 548,
+                'person_id' => 1823,
+                'character' => '\'Kaa\' the Snake',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            51 => 
+            array (
+                'cast_id' => 4231,
+                'movie_id' => 548,
+                'person_id' => 1812,
+                'character' => 'Col. Hathi the Elephant / Buzzie',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            52 => 
+            array (
+                'cast_id' => 4232,
+                'movie_id' => 548,
+                'person_id' => 779,
+                'character' => 'Elephant',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            53 => 
+            array (
+                'cast_id' => 4233,
+                'movie_id' => 548,
+                'person_id' => 1096,
+                'character' => 'Elephant',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            54 => 
+            array (
+                'cast_id' => 4234,
+                'movie_id' => 548,
+                'person_id' => 1828,
+                'character' => 'Bagheera the Panther',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            55 => 
+            array (
+                'cast_id' => 4235,
+                'movie_id' => 548,
+                'person_id' => 1829,
+                'character' => 'Shere Khan the Tiger',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            56 => 
+            array (
+                'cast_id' => 4236,
+                'movie_id' => 548,
+                'person_id' => 1830,
+                'character' => 'King Louie of the Apes',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            57 => 
+            array (
+                'cast_id' => 4237,
+                'movie_id' => 549,
+                'person_id' => 148,
+                'character' => 'Baloo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            58 => 
+            array (
+                'cast_id' => 4238,
+                'movie_id' => 549,
+                'person_id' => 1039,
+                'character' => 'Mowgli',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            59 => 
+            array (
+                'cast_id' => 4239,
+                'movie_id' => 549,
+                'person_id' => 481,
+                'character' => 'Ranjan\'s Father',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            60 => 
+            array (
+                'cast_id' => 4240,
+                'movie_id' => 550,
+                'person_id' => 1544,
+                'character' => 'Nani',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            61 => 
+            array (
+                'cast_id' => 4241,
+                'movie_id' => 550,
+                'person_id' => 1344,
+                'character' => 'Cobra Bubbles',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            62 => 
+            array (
+                'cast_id' => 4242,
+                'movie_id' => 550,
+                'person_id' => 713,
+                'character' => 'David Kawena',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            63 => 
+            array (
+                'cast_id' => 4243,
+                'movie_id' => 550,
+                'person_id' => 1831,
+                'character' => 'Lilo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            64 => 
+            array (
+                'cast_id' => 4244,
+                'movie_id' => 551,
+                'person_id' => 982,
+                'character' => 'Lilo Pelekai',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            65 => 
+            array (
+                'cast_id' => 4245,
+                'movie_id' => 551,
+                'person_id' => 1544,
+                'character' => 'Nani',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            66 => 
+            array (
+                'cast_id' => 4246,
+                'movie_id' => 551,
+                'person_id' => 713,
+                'character' => 'David Kawena',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            67 => 
+            array (
+                'cast_id' => 4247,
+                'movie_id' => 552,
+                'person_id' => 1831,
+                'character' => 'Lilo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            68 => 
+            array (
+                'cast_id' => 4248,
+                'movie_id' => 552,
+                'person_id' => 1544,
+                'character' => 'Nani',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            69 => 
+            array (
+                'cast_id' => 4249,
+                'movie_id' => 552,
+                'person_id' => 1344,
+                'character' => 'Cobra Bubbles',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            70 => 
+            array (
+                'cast_id' => 4250,
+                'movie_id' => 553,
+                'person_id' => 698,
+                'character' => 'Simba',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            71 => 
+            array (
+                'cast_id' => 4251,
+                'movie_id' => 553,
+                'person_id' => 1424,
+                'character' => 'Kiara',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            72 => 
+            array (
+                'cast_id' => 4252,
+                'movie_id' => 553,
+                'person_id' => 86,
+                'character' => 'Mufasa',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            73 => 
+            array (
+                'cast_id' => 4253,
+                'movie_id' => 553,
+                'person_id' => 705,
+                'character' => 'Nala',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            74 => 
+            array (
+                'cast_id' => 4254,
+                'movie_id' => 553,
+                'person_id' => 701,
+                'character' => 'Timon',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            75 => 
+            array (
+                'cast_id' => 4255,
+                'movie_id' => 553,
+                'person_id' => 706,
+                'character' => 'Pumbaa',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            76 => 
+            array (
+                'cast_id' => 4256,
+                'movie_id' => 553,
+                'person_id' => 1186,
+                'character' => 'Young Vitani',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            77 => 
+            array (
+                'cast_id' => 4257,
+                'movie_id' => 553,
+                'person_id' => 949,
+                'character' => 'Baby Kiara',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            78 => 
+            array (
+                'cast_id' => 4258,
+                'movie_id' => 555,
+                'person_id' => 1113,
+                'character' => 'Louis',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            79 => 
+            array (
+                'cast_id' => 4259,
+                'movie_id' => 555,
+                'person_id' => 969,
+                'character' => 'Ariel',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            80 => 
+            array (
+                'cast_id' => 4260,
+                'movie_id' => 555,
+                'person_id' => 1153,
+                'character' => 'Carlotta',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            81 => 
+            array (
+                'cast_id' => 4262,
+                'movie_id' => 555,
+                'person_id' => 1832,
+                'character' => 'Ursula',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            82 => 
+            array (
+                'cast_id' => 4263,
+                'movie_id' => 556,
+                'person_id' => 969,
+                'character' => 'Ariel',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            83 => 
+            array (
+                'cast_id' => 4264,
+                'movie_id' => 556,
+                'person_id' => 1832,
+                'character' => 'Morgana',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            84 => 
+            array (
+                'cast_id' => 4265,
+                'movie_id' => 556,
+                'person_id' => 1211,
+                'character' => 'Undertow',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            85 => 
+            array (
+                'cast_id' => 4266,
+                'movie_id' => 556,
+                'person_id' => 1113,
+                'character' => 'Chef Louis',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            86 => 
+            array (
+                'cast_id' => 4267,
+                'movie_id' => 556,
+                'person_id' => 1153,
+                'character' => 'Carlotta',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            87 => 
+            array (
+                'cast_id' => 4268,
+                'movie_id' => 557,
+                'person_id' => 704,
+                'character' => 'Tito',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            88 => 
+            array (
+                'cast_id' => 4269,
+                'movie_id' => 557,
+                'person_id' => 796,
+                'character' => 'Sykes',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            89 => 
+            array (
+                'cast_id' => 4270,
+                'movie_id' => 557,
+                'person_id' => 1178,
+                'character' => 'Georgette',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            90 => 
+            array (
+                'cast_id' => 4271,
+                'movie_id' => 557,
+                'person_id' => 1833,
+                'character' => 'Oliver',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            91 => 
+            array (
+                'cast_id' => 4272,
+                'movie_id' => 557,
+                'person_id' => 1834,
+                'character' => 'Dodger',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            92 => 
+            array (
+                'cast_id' => 4273,
+                'movie_id' => 557,
+                'person_id' => 1835,
+                'character' => 'Fagin',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            93 => 
+            array (
+                'cast_id' => 4274,
+                'movie_id' => 558,
+                'person_id' => 1491,
+                'character' => '',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            94 => 
+            array (
+                'cast_id' => 4275,
+                'movie_id' => 559,
+                'person_id' => 1836,
+                'character' => 'Peter Pan',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            95 => 
+            array (
+                'cast_id' => 4276,
+                'movie_id' => 561,
+                'person_id' => 813,
+                'character' => 'John Smith',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            96 => 
+            array (
+                'cast_id' => 4277,
+                'movie_id' => 561,
+                'person_id' => 196,
+                'character' => 'Thomas',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            97 => 
+            array (
+                'cast_id' => 4278,
+                'movie_id' => 561,
+                'person_id' => 730,
+                'character' => 'Ben',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            98 => 
+            array (
+                'cast_id' => 4279,
+                'movie_id' => 561,
+                'person_id' => 1837,
+                'character' => 'Pocahontas',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            99 => 
+            array (
+                'cast_id' => 4280,
+                'movie_id' => 562,
+                'person_id' => 1824,
+                'character' => 'Miss Bianca',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            100 => 
+            array (
+                'cast_id' => 4281,
+                'movie_id' => 562,
+                'person_id' => 173,
+                'character' => 'Luke',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            101 => 
+            array (
+                'cast_id' => 4282,
+                'movie_id' => 562,
+                'person_id' => 1838,
+                'character' => 'Bernard',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            102 => 
+            array (
+                'cast_id' => 4283,
+                'movie_id' => 563,
+                'person_id' => 1817,
+                'character' => 'Little John',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            103 => 
+            array (
+                'cast_id' => 4284,
+                'movie_id' => 563,
+                'person_id' => 173,
+                'character' => 'Sheriff of Nottingham',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            104 => 
+            array (
+                'cast_id' => 4285,
+                'movie_id' => 563,
+                'person_id' => 1812,
+                'character' => 'Otto',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            105 => 
+            array (
+                'cast_id' => 4286,
+                'movie_id' => 563,
+                'person_id' => 1839,
+                'character' => 'Prince John',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            106 => 
+            array (
+                'cast_id' => 4287,
+                'movie_id' => 563,
+                'person_id' => 1840,
+                'character' => 'Sir Hiss  A Snake',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            107 => 
+            array (
+                'cast_id' => 4288,
+                'movie_id' => 564,
+                'person_id' => 1822,
+                'character' => 'Maleficent',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            108 => 
+            array (
+                'cast_id' => 4289,
+                'movie_id' => 564,
+                'person_id' => 779,
+                'character' => 'Flora',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            109 => 
+            array (
+                'cast_id' => 4290,
+                'movie_id' => 566,
+                'person_id' => 583,
+                'character' => 'Clayton',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            110 => 
+            array (
+                'cast_id' => 4291,
+                'movie_id' => 566,
+                'person_id' => 300,
+                'character' => 'Kala',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            111 => 
+            array (
+                'cast_id' => 4292,
+                'movie_id' => 566,
+                'person_id' => 1199,
+                'character' => 'Jane',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            112 => 
+            array (
+                'cast_id' => 4293,
+                'movie_id' => 566,
+                'person_id' => 1181,
+                'character' => 'Tarzan',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            113 => 
+            array (
+                'cast_id' => 4294,
+                'movie_id' => 566,
+                'person_id' => 1819,
+                'character' => 'Professor Porter',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            114 => 
+            array (
+                'cast_id' => 4295,
+                'movie_id' => 566,
+                'person_id' => 34,
+                'character' => 'Kerchak',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            115 => 
+            array (
+                'cast_id' => 4296,
+                'movie_id' => 566,
+                'person_id' => 100,
+                'character' => 'Tantor',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            116 => 
+            array (
+                'cast_id' => 4299,
+                'movie_id' => 566,
+                'person_id' => 1841,
+                'character' => 'Terk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            117 => 
+            array (
+                'cast_id' => 4300,
+                'movie_id' => 567,
+                'person_id' => 551,
+                'character' => 'Donnie Darko',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            118 => 
+            array (
+                'cast_id' => 4301,
+                'movie_id' => 567,
+                'person_id' => 208,
+                'character' => 'Elizabeth Darko',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            119 => 
+            array (
+                'cast_id' => 4302,
+                'movie_id' => 567,
+                'person_id' => 1831,
+                'character' => 'Samantha Darko',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            120 => 
+            array (
+                'cast_id' => 4303,
+                'movie_id' => 567,
+                'person_id' => 1246,
+                'character' => 'Rose Darko',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            121 => 
+            array (
+                'cast_id' => 4304,
+                'movie_id' => 567,
+                'person_id' => 942,
+                'character' => 'Jim Cunningham',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            122 => 
+            array (
+                'cast_id' => 4305,
+                'movie_id' => 567,
+                'person_id' => 423,
+                'character' => 'Gretchen Ross',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            123 => 
+            array (
+                'cast_id' => 4306,
+                'movie_id' => 567,
+                'person_id' => 516,
+                'character' => 'Ricky Danforth',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            124 => 
+            array (
+                'cast_id' => 4307,
+                'movie_id' => 567,
+                'person_id' => 8,
+                'character' => 'Karen Pomeroy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            125 => 
+            array (
+                'cast_id' => 4308,
+                'movie_id' => 567,
+                'person_id' => 741,
+                'character' => 'Kim, Dorky Girl',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            126 => 
+            array (
+                'cast_id' => 4309,
+                'movie_id' => 567,
+                'person_id' => 248,
+                'character' => 'Passenger',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            127 => 
+            array (
+                'cast_id' => 4310,
+                'movie_id' => 567,
+                'person_id' => 1842,
+                'character' => 'Eddie Darko',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            128 => 
+            array (
+                'cast_id' => 4311,
+                'movie_id' => 568,
+                'person_id' => 856,
+                'character' => 'Silvermist',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            129 => 
+            array (
+                'cast_id' => 4312,
+                'movie_id' => 568,
+                'person_id' => 1866,
+                'character' => 'Tinker Bell',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            130 => 
+            array (
+                'cast_id' => 4313,
+                'movie_id' => 568,
+                'person_id' => 1867,
+                'character' => 'Fairy Mary',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            131 => 
+            array (
+                'cast_id' => 4314,
+                'movie_id' => 568,
+                'person_id' => 1868,
+                'character' => 'Queen Clarion',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            132 => 
+            array (
+                'cast_id' => 4315,
+                'movie_id' => 569,
+                'person_id' => 1866,
+                'character' => 'Tinker Bell',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            133 => 
+            array (
+                'cast_id' => 4316,
+                'movie_id' => 569,
+                'person_id' => 1867,
+                'character' => 'Fairy Mary',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            134 => 
+            array (
+                'cast_id' => 4317,
+                'movie_id' => 569,
+                'person_id' => 856,
+                'character' => 'Silvermist',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            135 => 
+            array (
+                'cast_id' => 4318,
+                'movie_id' => 569,
+                'person_id' => 1868,
+                'character' => 'Queen Clarion',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            136 => 
+            array (
+                'cast_id' => 4319,
+                'movie_id' => 570,
+                'person_id' => 1866,
+                'character' => 'Tinker Bell',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            137 => 
+            array (
+                'cast_id' => 4320,
+                'movie_id' => 570,
+                'person_id' => 21,
+                'character' => 'Dr. Griffiths',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            138 => 
+            array (
+                'cast_id' => 4321,
+                'movie_id' => 570,
+                'person_id' => 856,
+                'character' => 'Silvermist',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            139 => 
+            array (
+                'cast_id' => 4322,
+                'movie_id' => 571,
+                'person_id' => 1866,
+                'character' => 'Tinker Bell',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            140 => 
+            array (
+                'cast_id' => 4323,
+                'movie_id' => 571,
+                'person_id' => 971,
+                'character' => 'Lord Milori',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            141 => 
+            array (
+                'cast_id' => 4324,
+                'movie_id' => 571,
+                'person_id' => 856,
+                'character' => 'Silvermist',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            142 => 
+            array (
+                'cast_id' => 4325,
+                'movie_id' => 571,
+                'person_id' => 1867,
+                'character' => 'Fairy Mary',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            143 => 
+            array (
+                'cast_id' => 4326,
+                'movie_id' => 571,
+                'person_id' => 969,
+                'character' => 'Healing Fairy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            144 => 
+            array (
+                'cast_id' => 4327,
+                'movie_id' => 571,
+                'person_id' => 1868,
+                'character' => 'Queen Clarion',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            145 => 
+            array (
+                'cast_id' => 4328,
+                'movie_id' => 572,
+                'person_id' => 1866,
+                'character' => 'Tinker Bell',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            146 => 
+            array (
+                'cast_id' => 4329,
+                'movie_id' => 572,
+                'person_id' => 326,
+                'character' => 'Zarina',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            147 => 
+            array (
+                'cast_id' => 4330,
+                'movie_id' => 572,
+                'person_id' => 127,
+                'character' => 'James',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            148 => 
+            array (
+                'cast_id' => 4331,
+                'movie_id' => 572,
+                'person_id' => 856,
+                'character' => 'Silvermist',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            149 => 
+            array (
+                'cast_id' => 4332,
+                'movie_id' => 572,
+                'person_id' => 1867,
+                'character' => 'Fairy Mary',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            150 => 
+            array (
+                'cast_id' => 4333,
+                'movie_id' => 572,
+                'person_id' => 1868,
+                'character' => 'Queen Clarion',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            151 => 
+            array (
+                'cast_id' => 4334,
+                'movie_id' => 574,
+                'person_id' => 719,
+                'character' => 'Miss Price',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            152 => 
+            array (
+                'cast_id' => 4335,
+                'movie_id' => 574,
+                'person_id' => 1299,
+                'character' => 'Emelius',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            153 => 
+            array (
+                'cast_id' => 4336,
+                'movie_id' => 574,
+                'person_id' => 740,
+                'character' => 'Mr. Jelk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            154 => 
+            array (
+                'cast_id' => 4337,
+                'movie_id' => 575,
+                'person_id' => 1162,
+                'character' => 'Aunt Viv',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            155 => 
+            array (
+                'cast_id' => 4338,
+                'movie_id' => 575,
+                'person_id' => 8,
+                'character' => 'Chloe',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            156 => 
+            array (
+                'cast_id' => 4339,
+                'movie_id' => 575,
+                'person_id' => 1225,
+                'character' => 'Delgado',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            157 => 
+            array (
+                'cast_id' => 4340,
+                'movie_id' => 575,
+                'person_id' => 704,
+                'character' => 'Manuel',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            158 => 
+            array (
+                'cast_id' => 4341,
+                'movie_id' => 575,
+                'person_id' => 265,
+                'character' => 'Chucho',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            159 => 
+            array (
+                'cast_id' => 4342,
+                'movie_id' => 575,
+                'person_id' => 433,
+                'character' => 'Bimini',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            160 => 
+            array (
+                'cast_id' => 4343,
+                'movie_id' => 575,
+                'person_id' => 1869,
+                'character' => 'Rachel',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            161 => 
+            array (
+                'cast_id' => 4344,
+                'movie_id' => 576,
+                'person_id' => 878,
+                'character' => 'Chloe',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            162 => 
+            array (
+                'cast_id' => 4345,
+                'movie_id' => 576,
+                'person_id' => 464,
+                'character' => 'Delgado',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            163 => 
+            array (
+                'cast_id' => 4346,
+                'movie_id' => 576,
+                'person_id' => 297,
+                'character' => 'Pedro',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            164 => 
+            array (
+                'cast_id' => 4347,
+                'movie_id' => 576,
+                'person_id' => 885,
+                'character' => 'Biminy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            165 => 
+            array (
+                'cast_id' => 4348,
+                'movie_id' => 578,
+                'person_id' => 1870,
+                'character' => 'Mitchie Torres',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            166 => 
+            array (
+                'cast_id' => 4349,
+                'movie_id' => 578,
+                'person_id' => 1871,
+                'character' => 'Caitlyn Geller',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            167 => 
+            array (
+                'cast_id' => 4350,
+                'movie_id' => 579,
+                'person_id' => 1870,
+                'character' => 'Mitchie Torres',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            168 => 
+            array (
+                'cast_id' => 4351,
+                'movie_id' => 579,
+                'person_id' => 1871,
+                'character' => 'Caitlyn Geller',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            169 => 
+            array (
+                'cast_id' => 4352,
+                'movie_id' => 580,
+                'person_id' => 665,
+                'character' => 'Narrator',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            170 => 
+            array (
+                'cast_id' => 4353,
+                'movie_id' => 580,
+                'person_id' => 794,
+                'character' => 'Uncle Scrooge McDuck',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            171 => 
+            array (
+                'cast_id' => 4354,
+                'movie_id' => 580,
+                'person_id' => 1866,
+                'character' => 'Girl',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            172 => 
+            array (
+                'cast_id' => 4355,
+                'movie_id' => 581,
+                'person_id' => 620,
+                'character' => 'Monterey Jack',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            173 => 
+            array (
+                'cast_id' => 4356,
+                'movie_id' => 581,
+                'person_id' => 1491,
+                'character' => ' Spirit of the Lamp',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            174 => 
+            array (
+                'cast_id' => 4357,
+                'movie_id' => 581,
+                'person_id' => 1832,
+                'character' => ' Koo-Koo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            175 => 
+            array (
+                'cast_id' => 4358,
+                'movie_id' => 582,
+                'person_id' => 315,
+                'character' => 'Anastasia',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            176 => 
+            array (
+                'cast_id' => 4359,
+                'movie_id' => 582,
+                'person_id' => 1118,
+                'character' => 'Dimitri',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            177 => 
+            array (
+                'cast_id' => 4360,
+                'movie_id' => 582,
+                'person_id' => 665,
+                'character' => 'Vladimir',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            178 => 
+            array (
+                'cast_id' => 4361,
+                'movie_id' => 582,
+                'person_id' => 159,
+                'character' => 'Rasputin',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            179 => 
+            array (
+                'cast_id' => 4362,
+                'movie_id' => 582,
+                'person_id' => 558,
+                'character' => 'Bartok',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            180 => 
+            array (
+                'cast_id' => 4363,
+                'movie_id' => 582,
+                'person_id' => 1141,
+                'character' => 'Young Anastasia',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            181 => 
+            array (
+                'cast_id' => 4364,
+                'movie_id' => 582,
+                'person_id' => 719,
+                'character' => 'The Dowager Empress Marie',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            182 => 
+            array (
+                'cast_id' => 4365,
+                'movie_id' => 582,
+                'person_id' => 1186,
+                'character' => 'Young Anastasia',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            183 => 
+            array (
+                'cast_id' => 4367,
+                'movie_id' => 583,
+                'person_id' => 837,
+                'character' => 'Lampie',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            184 => 
+            array (
+                'cast_id' => 4368,
+                'movie_id' => 583,
+                'person_id' => 1872,
+                'character' => 'Dr Terminus',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            185 => 
+            array (
+                'cast_id' => 4369,
+                'movie_id' => 584,
+                'person_id' => 772,
+                'character' => 'Underdog',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            186 => 
+            array (
+                'cast_id' => 4370,
+                'movie_id' => 584,
+                'person_id' => 659,
+                'character' => 'Dr. Simon Barsinister',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            187 => 
+            array (
+                'cast_id' => 4371,
+                'movie_id' => 584,
+                'person_id' => 1541,
+                'character' => 'Dan Unger',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            188 => 
+            array (
+                'cast_id' => 4372,
+                'movie_id' => 584,
+                'person_id' => 347,
+                'character' => 'Cad',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            189 => 
+            array (
+                'cast_id' => 4373,
+                'movie_id' => 584,
+                'person_id' => 329,
+                'character' => 'Polly',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            190 => 
+            array (
+                'cast_id' => 4374,
+                'movie_id' => 584,
+                'person_id' => 760,
+                'character' => 'Riff Raff',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            191 => 
+            array (
+                'cast_id' => 4375,
+                'movie_id' => 585,
+                'person_id' => 813,
+                'character' => 'Rocky',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            192 => 
+            array (
+                'cast_id' => 4376,
+                'movie_id' => 585,
+                'person_id' => 1867,
+                'character' => 'Babs',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            193 => 
+            array (
+                'cast_id' => 4377,
+                'movie_id' => 585,
+                'person_id' => 1489,
+                'character' => 'Mrs. Tweedy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            194 => 
+            array (
+                'cast_id' => 4378,
+                'movie_id' => 585,
+                'person_id' => 291,
+                'character' => 'Nick',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            195 => 
+            array (
+                'cast_id' => 4379,
+                'movie_id' => 585,
+                'person_id' => 1292,
+                'character' => 'Bunty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            196 => 
+            array (
+                'cast_id' => 4380,
+                'movie_id' => 586,
+                'person_id' => 1198,
+                'character' => 'Ramon / Lovelace',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            197 => 
+            array (
+                'cast_id' => 4381,
+                'movie_id' => 586,
+                'person_id' => 169,
+                'character' => 'Mumble',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            198 => 
+            array (
+                'cast_id' => 4382,
+                'movie_id' => 586,
+                'person_id' => 637,
+                'character' => 'Memphis',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            199 => 
+            array (
+                'cast_id' => 4383,
+                'movie_id' => 586,
+                'person_id' => 825,
+                'character' => 'Norma Jean',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            200 => 
+            array (
+                'cast_id' => 4384,
+                'movie_id' => 586,
+                'person_id' => 74,
+                'character' => 'Noah the Elder',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            201 => 
+            array (
+                'cast_id' => 4385,
+                'movie_id' => 586,
+                'person_id' => 1133,
+                'character' => 'Boss Skua',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            202 => 
+            array (
+                'cast_id' => 4386,
+                'movie_id' => 586,
+                'person_id' => 1312,
+                'character' => 'Live Action Cast',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            203 => 
+            array (
+                'cast_id' => 4387,
+                'movie_id' => 586,
+                'person_id' => 1873,
+                'character' => 'Gloria',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            204 => 
+            array (
+                'cast_id' => 4388,
+                'movie_id' => 587,
+                'person_id' => 1109,
+                'character' => 'The Lorax',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            205 => 
+            array (
+                'cast_id' => 4389,
+                'movie_id' => 587,
+                'person_id' => 1231,
+                'character' => 'Ted',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            206 => 
+            array (
+                'cast_id' => 4390,
+                'movie_id' => 587,
+                'person_id' => 816,
+                'character' => 'Uncle Ubb',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            207 => 
+            array (
+                'cast_id' => 4391,
+                'movie_id' => 587,
+                'person_id' => 1874,
+                'character' => 'Grammy Norma',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            208 => 
+            array (
+                'cast_id' => 4392,
+                'movie_id' => 587,
+                'person_id' => 1875,
+                'character' => 'Audrey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            209 => 
+            array (
+                'cast_id' => 4393,
+                'movie_id' => 587,
+                'person_id' => 1876,
+                'character' => 'The Onceler',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            210 => 
+            array (
+                'cast_id' => 4394,
+                'movie_id' => 588,
+                'person_id' => 1219,
+                'character' => 'Alex',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            211 => 
+            array (
+                'cast_id' => 4395,
+                'movie_id' => 588,
+                'person_id' => 791,
+                'character' => 'Marty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            212 => 
+            array (
+                'cast_id' => 4396,
+                'movie_id' => 588,
+                'person_id' => 282,
+                'character' => 'Gloria',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            213 => 
+            array (
+                'cast_id' => 4397,
+                'movie_id' => 588,
+                'person_id' => 405,
+                'character' => 'Julien',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            214 => 
+            array (
+                'cast_id' => 4398,
+                'movie_id' => 588,
+                'person_id' => 1877,
+                'character' => 'Melman',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            215 => 
+            array (
+                'cast_id' => 4399,
+                'movie_id' => 589,
+                'person_id' => 1219,
+                'character' => 'Alex',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            216 => 
+            array (
+                'cast_id' => 4400,
+                'movie_id' => 589,
+                'person_id' => 791,
+                'character' => 'Marty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            217 => 
+            array (
+                'cast_id' => 4401,
+                'movie_id' => 589,
+                'person_id' => 1877,
+                'character' => 'Melman',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            218 => 
+            array (
+                'cast_id' => 4402,
+                'movie_id' => 589,
+                'person_id' => 282,
+                'character' => 'Gloria',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            219 => 
+            array (
+                'cast_id' => 4403,
+                'movie_id' => 589,
+                'person_id' => 405,
+                'character' => 'Julien',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            220 => 
+            array (
+                'cast_id' => 4404,
+                'movie_id' => 589,
+                'person_id' => 618,
+                'character' => 'Zuba',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            221 => 
+            array (
+                'cast_id' => 4405,
+                'movie_id' => 589,
+                'person_id' => 935,
+                'character' => 'Makunga',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            222 => 
+            array (
+                'cast_id' => 4406,
+                'movie_id' => 590,
+                'person_id' => 67,
+                'character' => 'RJ',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            223 => 
+            array (
+                'cast_id' => 4407,
+                'movie_id' => 590,
+                'person_id' => 343,
+                'character' => 'Hammy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            224 => 
+            array (
+                'cast_id' => 4408,
+                'movie_id' => 590,
+                'person_id' => 1513,
+                'character' => 'Dwayne',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            225 => 
+            array (
+                'cast_id' => 4409,
+                'movie_id' => 590,
+                'person_id' => 1075,
+                'character' => 'Lou',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            226 => 
+            array (
+                'cast_id' => 4410,
+                'movie_id' => 590,
+                'person_id' => 1192,
+                'character' => 'Tiger',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            227 => 
+            array (
+                'cast_id' => 4411,
+                'movie_id' => 590,
+                'person_id' => 1878,
+                'character' => 'Ozzie',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            228 => 
+            array (
+                'cast_id' => 4412,
+                'movie_id' => 591,
+                'person_id' => 1261,
+                'character' => 'Puss in Boots',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            229 => 
+            array (
+                'cast_id' => 4413,
+                'movie_id' => 591,
+                'person_id' => 1170,
+                'character' => 'Kitty Softpaws',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            230 => 
+            array (
+                'cast_id' => 4414,
+                'movie_id' => 591,
+                'person_id' => 1042,
+                'character' => 'Jack',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            231 => 
+            array (
+                'cast_id' => 4415,
+                'movie_id' => 591,
+                'person_id' => 1821,
+                'character' => 'Jill',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            232 => 
+            array (
+                'cast_id' => 4416,
+                'movie_id' => 591,
+                'person_id' => 1593,
+                'character' => 'Moustache Man',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            233 => 
+            array (
+                'cast_id' => 4417,
+                'movie_id' => 591,
+                'person_id' => 1879,
+                'character' => 'Humpty Alexander Dumpty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            234 => 
+            array (
+                'cast_id' => 4418,
+                'movie_id' => 592,
+                'person_id' => 458,
+                'character' => 'Shrek',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            235 => 
+            array (
+                'cast_id' => 4419,
+                'movie_id' => 592,
+                'person_id' => 396,
+                'character' => 'Donkey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            236 => 
+            array (
+                'cast_id' => 4420,
+                'movie_id' => 592,
+                'person_id' => 855,
+                'character' => 'Princess Fiona',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            237 => 
+            array (
+                'cast_id' => 4421,
+                'movie_id' => 592,
+                'person_id' => 521,
+                'character' => 'Lord Farquaad',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            238 => 
+            array (
+                'cast_id' => 4422,
+                'movie_id' => 592,
+                'person_id' => 223,
+                'character' => 'Monsieur Hood',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            239 => 
+            array (
+                'cast_id' => 4423,
+                'movie_id' => 592,
+                'person_id' => 1745,
+                'character' => 'Duloc Mascot',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            240 => 
+            array (
+                'cast_id' => 4424,
+                'movie_id' => 593,
+                'person_id' => 458,
+                'character' => 'Shrek',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            241 => 
+            array (
+                'cast_id' => 4425,
+                'movie_id' => 593,
+                'person_id' => 396,
+                'character' => 'Donkey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            242 => 
+            array (
+                'cast_id' => 4426,
+                'movie_id' => 593,
+                'person_id' => 855,
+                'character' => 'Princess Fiona',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            243 => 
+            array (
+                'cast_id' => 4427,
+                'movie_id' => 593,
+                'person_id' => 334,
+                'character' => 'Queen',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            244 => 
+            array (
+                'cast_id' => 4428,
+                'movie_id' => 593,
+                'person_id' => 1261,
+                'character' => 'Puss In Boots',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            245 => 
+            array (
+                'cast_id' => 4429,
+                'movie_id' => 593,
+                'person_id' => 450,
+                'character' => 'King',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            246 => 
+            array (
+                'cast_id' => 4430,
+                'movie_id' => 593,
+                'person_id' => 1518,
+                'character' => 'Prince Charming',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            247 => 
+            array (
+                'cast_id' => 4431,
+                'movie_id' => 593,
+                'person_id' => 984,
+                'character' => 'Fairy Godmother',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            248 => 
+            array (
+                'cast_id' => 4432,
+                'movie_id' => 593,
+                'person_id' => 1745,
+                'character' => 'Captain of the Guards',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            249 => 
+            array (
+                'cast_id' => 4433,
+                'movie_id' => 594,
+                'person_id' => 458,
+                'character' => 'Shrek',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            250 => 
+            array (
+                'cast_id' => 4434,
+                'movie_id' => 594,
+                'person_id' => 396,
+                'character' => 'Donkey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            251 => 
+            array (
+                'cast_id' => 4435,
+                'movie_id' => 594,
+                'person_id' => 855,
+                'character' => 'Princess Fiona',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            252 => 
+            array (
+                'cast_id' => 4436,
+                'movie_id' => 594,
+                'person_id' => 1261,
+                'character' => 'Puss in Boots',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            253 => 
+            array (
+                'cast_id' => 4437,
+                'movie_id' => 594,
+                'person_id' => 334,
+                'character' => 'Queen',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            254 => 
+            array (
+                'cast_id' => 4438,
+                'movie_id' => 594,
+                'person_id' => 606,
+                'character' => 'Brogan',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            255 => 
+            array (
+                'cast_id' => 4439,
+                'movie_id' => 594,
+                'person_id' => 450,
+                'character' => 'King',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            256 => 
+            array (
+                'cast_id' => 4440,
+                'movie_id' => 594,
+                'person_id' => 515,
+                'character' => 'Gretched',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            257 => 
+            array (
+                'cast_id' => 4441,
+                'movie_id' => 594,
+                'person_id' => 1360,
+                'character' => 'Cookie',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            258 => 
+            array (
+                'cast_id' => 4442,
+                'movie_id' => 594,
+                'person_id' => 1880,
+                'character' => 'Rumpelstiltskin',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            259 => 
+            array (
+                'cast_id' => 4443,
+                'movie_id' => 595,
+                'person_id' => 388,
+                'character' => 'Victor Quartermaine',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            260 => 
+            array (
+                'cast_id' => 4444,
+                'movie_id' => 595,
+                'person_id' => 17,
+                'character' => 'Lady Campanula Tottington',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            261 => 
+            array (
+                'cast_id' => 4446,
+                'movie_id' => 595,
+                'person_id' => 1881,
+                'character' => 'Wallace',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            262 => 
+            array (
+                'cast_id' => 4447,
+                'movie_id' => 596,
+                'person_id' => 1868,
+                'character' => 'Miss Eva Ernst',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            263 => 
+            array (
+                'cast_id' => 4448,
+                'movie_id' => 596,
+                'person_id' => 702,
+                'character' => 'Mr. Stringer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            264 => 
+            array (
+                'cast_id' => 4449,
+                'movie_id' => 596,
+                'person_id' => 1867,
+                'character' => 'Miss Irvine',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            265 => 
+            array (
+                'cast_id' => 4450,
+                'movie_id' => 597,
+                'person_id' => 1109,
+                'character' => 'Mr. Wormwood',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            266 => 
+            array (
+                'cast_id' => 4451,
+                'movie_id' => 597,
+                'person_id' => 381,
+                'character' => 'Trunchbull',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            267 => 
+            array (
+                'cast_id' => 4452,
+                'movie_id' => 597,
+                'person_id' => 566,
+                'character' => 'FBI Agent',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            268 => 
+            array (
+                'cast_id' => 4453,
+                'movie_id' => 597,
+                'person_id' => 1882,
+                'character' => 'Matilda',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            269 => 
+            array (
+                'cast_id' => 4454,
+                'movie_id' => 597,
+                'person_id' => 1883,
+                'character' => 'Mrs Wormwood',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            270 => 
+            array (
+                'cast_id' => 4455,
+                'movie_id' => 597,
+                'person_id' => 1884,
+                'character' => 'Miss Honey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            271 => 
+            array (
+                'cast_id' => 4456,
+                'movie_id' => 598,
+                'person_id' => 1280,
+                'character' => 'Paul \'Dibbs\' Plutzker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            272 => 
+            array (
+                'cast_id' => 4457,
+                'movie_id' => 598,
+                'person_id' => 1245,
+                'character' => 'Dr. James Harvey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            273 => 
+            array (
+                'cast_id' => 4458,
+                'movie_id' => 598,
+                'person_id' => 1488,
+                'character' => 'Kathleen \'Kat\' Harvey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            274 => 
+            array (
+                'cast_id' => 4459,
+                'movie_id' => 598,
+                'person_id' => 760,
+                'character' => 'Fatso',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            275 => 
+            array (
+                'cast_id' => 4460,
+                'movie_id' => 598,
+                'person_id' => 933,
+                'character' => 'Amelia Harvey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            276 => 
+            array (
+                'cast_id' => 4461,
+                'movie_id' => 598,
+                'person_id' => 1159,
+                'character' => 'Casper on Screen',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            277 => 
+            array (
+                'cast_id' => 4462,
+                'movie_id' => 598,
+                'person_id' => 14,
+                'character' => 'Dr. Raymond Stantz',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            278 => 
+            array (
+                'cast_id' => 4463,
+                'movie_id' => 598,
+                'person_id' => 1227,
+                'character' => 'Clint Eastwood',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            279 => 
+            array (
+                'cast_id' => 4464,
+                'movie_id' => 598,
+                'person_id' => 813,
+                'character' => 'Mel Gibson',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            280 => 
+            array (
+                'cast_id' => 4465,
+                'movie_id' => 599,
+                'person_id' => 521,
+                'character' => 'George Henderson',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            281 => 
+            array (
+                'cast_id' => 4466,
+                'movie_id' => 599,
+                'person_id' => 1379,
+                'character' => 'Harry',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            282 => 
+            array (
+                'cast_id' => 4467,
+                'movie_id' => 599,
+                'person_id' => 882,
+                'character' => 'Dr. Wallace Wrightwood',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            283 => 
+            array (
+                'cast_id' => 4468,
+                'movie_id' => 599,
+                'person_id' => 1885,
+                'character' => 'Jacques Lafleur',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            284 => 
+            array (
+                'cast_id' => 4469,
+                'movie_id' => 600,
+                'person_id' => 1881,
+                'character' => 'Wallace',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            285 => 
+            array (
+                'cast_id' => 4470,
+                'movie_id' => 601,
+                'person_id' => 1881,
+                'character' => 'Wallace',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            286 => 
+            array (
+                'cast_id' => 4471,
+                'movie_id' => 602,
+                'person_id' => 1881,
+                'character' => 'Wallace',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            287 => 
+            array (
+                'cast_id' => 4472,
+                'movie_id' => 603,
+                'person_id' => 1881,
+                'character' => 'Wallace',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            288 => 
+            array (
+                'cast_id' => 4473,
+                'movie_id' => 604,
+                'person_id' => 1878,
+                'character' => 'Captain Kirk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            289 => 
+            array (
+                'cast_id' => 4474,
+                'movie_id' => 604,
+                'person_id' => 570,
+                'character' => 'Spock',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            290 => 
+            array (
+                'cast_id' => 4475,
+                'movie_id' => 604,
+                'person_id' => 839,
+                'character' => 'Decker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            291 => 
+            array (
+                'cast_id' => 4476,
+                'movie_id' => 604,
+                'person_id' => 1886,
+                'character' => 'Dr McCoy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            292 => 
+            array (
+                'cast_id' => 4477,
+                'movie_id' => 604,
+                'person_id' => 1887,
+                'character' => 'Scotty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            293 => 
+            array (
+                'cast_id' => 4478,
+                'movie_id' => 604,
+                'person_id' => 1888,
+                'character' => 'Sulu',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            294 => 
+            array (
+                'cast_id' => 4479,
+                'movie_id' => 604,
+                'person_id' => 1889,
+                'character' => 'Dr Chapel',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            295 => 
+            array (
+                'cast_id' => 4480,
+                'movie_id' => 604,
+                'person_id' => 1890,
+                'character' => 'Chekov',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            296 => 
+            array (
+                'cast_id' => 4481,
+                'movie_id' => 605,
+                'person_id' => 1878,
+                'character' => 'Kirk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            297 => 
+            array (
+                'cast_id' => 4482,
+                'movie_id' => 605,
+                'person_id' => 570,
+                'character' => 'Spock',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            298 => 
+            array (
+                'cast_id' => 4483,
+                'movie_id' => 605,
+                'person_id' => 1886,
+                'character' => 'McCoy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            299 => 
+            array (
+                'cast_id' => 4484,
+                'movie_id' => 605,
+                'person_id' => 1887,
+                'character' => 'Scotty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            300 => 
+            array (
+                'cast_id' => 4485,
+                'movie_id' => 605,
+                'person_id' => 1890,
+                'character' => 'Chekov',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            301 => 
+            array (
+                'cast_id' => 4486,
+                'movie_id' => 605,
+                'person_id' => 1888,
+                'character' => 'Sulu',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            302 => 
+            array (
+                'cast_id' => 4487,
+                'movie_id' => 605,
+                'person_id' => 40,
+                'character' => 'Enterprise Crewman',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            303 => 
+            array (
+                'cast_id' => 4488,
+                'movie_id' => 605,
+                'person_id' => 1891,
+                'character' => 'Uhura',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            304 => 
+            array (
+                'cast_id' => 4489,
+                'movie_id' => 605,
+                'person_id' => 1892,
+                'character' => 'Khan',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            305 => 
+            array (
+                'cast_id' => 4490,
+                'movie_id' => 605,
+                'person_id' => 1893,
+                'character' => 'Saavik',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            306 => 
+            array (
+                'cast_id' => 4491,
+                'movie_id' => 605,
+                'person_id' => 1894,
+                'character' => 'Terrell',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            307 => 
+            array (
+                'cast_id' => 4492,
+                'movie_id' => 351,
+                'person_id' => 1894,
+                'character' => 'General Casey',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            308 => 
+            array (
+                'cast_id' => 4493,
+                'movie_id' => 108,
+                'person_id' => 1894,
+                'character' => 'Lieutenant Ed Traxler',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            309 => 
+            array (
+                'cast_id' => 4494,
+                'movie_id' => 108,
+                'person_id' => 597,
+                'character' => 'Dr. Peter Silberman',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            310 => 
+            array (
+                'cast_id' => 4495,
+                'movie_id' => 604,
+                'person_id' => 1891,
+                'character' => 'Uhura',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            311 => 
+            array (
+                'cast_id' => 4496,
+                'movie_id' => 606,
+                'person_id' => 1878,
+                'character' => 'Kirk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            312 => 
+            array (
+                'cast_id' => 4497,
+                'movie_id' => 606,
+                'person_id' => 570,
+                'character' => 'Capt. Spock',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            313 => 
+            array (
+                'cast_id' => 4498,
+                'movie_id' => 606,
+                'person_id' => 1886,
+                'character' => 'McCoy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            314 => 
+            array (
+                'cast_id' => 4499,
+                'movie_id' => 606,
+                'person_id' => 1887,
+                'character' => 'Scotty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            315 => 
+            array (
+                'cast_id' => 4500,
+                'movie_id' => 606,
+                'person_id' => 1890,
+                'character' => 'Chekov',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            316 => 
+            array (
+                'cast_id' => 4501,
+                'movie_id' => 606,
+                'person_id' => 1888,
+                'character' => 'Sulu',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            317 => 
+            array (
+                'cast_id' => 4502,
+                'movie_id' => 606,
+                'person_id' => 1891,
+                'character' => 'Uhura',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            318 => 
+            array (
+                'cast_id' => 4503,
+                'movie_id' => 606,
+                'person_id' => 159,
+                'character' => 'Commander Kruge',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            319 => 
+            array (
+                'cast_id' => 4504,
+                'movie_id' => 606,
+                'person_id' => 464,
+                'character' => 'First Officer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            320 => 
+            array (
+                'cast_id' => 4505,
+                'movie_id' => 607,
+                'person_id' => 1878,
+                'character' => 'Kirk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            321 => 
+            array (
+                'cast_id' => 4506,
+                'movie_id' => 607,
+                'person_id' => 570,
+                'character' => 'Spock',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            322 => 
+            array (
+                'cast_id' => 4507,
+                'movie_id' => 607,
+                'person_id' => 1886,
+                'character' => 'McCoy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            323 => 
+            array (
+                'cast_id' => 4508,
+                'movie_id' => 607,
+                'person_id' => 1887,
+                'character' => 'Scotty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            324 => 
+            array (
+                'cast_id' => 4509,
+                'movie_id' => 607,
+                'person_id' => 1888,
+                'character' => 'Sulu',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            325 => 
+            array (
+                'cast_id' => 4510,
+                'movie_id' => 607,
+                'person_id' => 1890,
+                'character' => 'Chekov',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            326 => 
+            array (
+                'cast_id' => 4511,
+                'movie_id' => 607,
+                'person_id' => 1891,
+                'character' => 'Uhura',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            327 => 
+            array (
+                'cast_id' => 4512,
+                'movie_id' => 607,
+                'person_id' => 1889,
+                'character' => 'Commander Chapel',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            328 => 
+            array (
+                'cast_id' => 4513,
+                'movie_id' => 607,
+                'person_id' => 703,
+                'character' => 'Saratoga Captain',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            329 => 
+            array (
+                'cast_id' => 4514,
+                'movie_id' => 607,
+                'person_id' => 1895,
+                'character' => 'Admiral Cartwright',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            330 => 
+            array (
+                'cast_id' => 4515,
+                'movie_id' => 608,
+                'person_id' => 1878,
+                'character' => 'Kirk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            331 => 
+            array (
+                'cast_id' => 4516,
+                'movie_id' => 608,
+                'person_id' => 570,
+                'character' => 'Spock',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            332 => 
+            array (
+                'cast_id' => 4517,
+                'movie_id' => 608,
+                'person_id' => 1886,
+                'character' => 'McCoy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            333 => 
+            array (
+                'cast_id' => 4518,
+                'movie_id' => 608,
+                'person_id' => 1887,
+                'character' => 'Scotty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            334 => 
+            array (
+                'cast_id' => 4519,
+                'movie_id' => 608,
+                'person_id' => 1890,
+                'character' => 'Chekov',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            335 => 
+            array (
+                'cast_id' => 4520,
+                'movie_id' => 608,
+                'person_id' => 1891,
+                'character' => 'Uhura',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            336 => 
+            array (
+                'cast_id' => 4521,
+                'movie_id' => 608,
+                'person_id' => 1888,
+                'character' => 'Sulu',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            337 => 
+            array (
+                'cast_id' => 4522,
+                'movie_id' => 608,
+                'person_id' => 140,
+                'character' => 'St. John Talbot',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            338 => 
+            array (
+                'cast_id' => 4523,
+                'movie_id' => 609,
+                'person_id' => 1878,
+                'character' => 'Kirk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            339 => 
+            array (
+                'cast_id' => 4524,
+                'movie_id' => 609,
+                'person_id' => 570,
+                'character' => 'Spock',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            340 => 
+            array (
+                'cast_id' => 4525,
+                'movie_id' => 609,
+                'person_id' => 1886,
+                'character' => 'McCoy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            341 => 
+            array (
+                'cast_id' => 4526,
+                'movie_id' => 609,
+                'person_id' => 1887,
+                'character' => 'Scotty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            342 => 
+            array (
+                'cast_id' => 4527,
+                'movie_id' => 609,
+                'person_id' => 1890,
+                'character' => 'Chekov',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            343 => 
+            array (
+                'cast_id' => 4528,
+                'movie_id' => 609,
+                'person_id' => 1891,
+                'character' => 'Uhuru',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            344 => 
+            array (
+                'cast_id' => 4529,
+                'movie_id' => 609,
+                'person_id' => 1888,
+                'character' => 'Sulu',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            345 => 
+            array (
+                'cast_id' => 4530,
+                'movie_id' => 609,
+                'person_id' => 804,
+                'character' => 'Lt. Valeris',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            346 => 
+            array (
+                'cast_id' => 4531,
+                'movie_id' => 609,
+                'person_id' => 1895,
+                'character' => 'Admiral Cartwright',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            347 => 
+            array (
+                'cast_id' => 4532,
+                'movie_id' => 609,
+                'person_id' => 1412,
+                'character' => 'Federation President',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            348 => 
+            array (
+                'cast_id' => 4533,
+                'movie_id' => 609,
+                'person_id' => 973,
+                'character' => 'Chang',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            349 => 
+            array (
+                'cast_id' => 4534,
+                'movie_id' => 609,
+                'person_id' => 140,
+                'character' => 'Chancellor Gorkon',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            350 => 
+            array (
+                'cast_id' => 4535,
+                'movie_id' => 609,
+                'person_id' => 1259,
+                'character' => 'Communications Officer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            351 => 
+            array (
+                'cast_id' => 4536,
+                'movie_id' => 609,
+                'person_id' => 1113,
+                'character' => 'Colonel West',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            352 => 
+            array (
+                'cast_id' => 4537,
+                'movie_id' => 609,
+                'person_id' => 1896,
+                'character' => 'Klingon Defense Attorney',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            353 => 
+            array (
+                'cast_id' => 4538,
+                'movie_id' => 610,
+                'person_id' => 647,
+                'character' => 'Picard',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            354 => 
+            array (
+                'cast_id' => 4539,
+                'movie_id' => 610,
+                'person_id' => 1248,
+                'character' => 'Data',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            355 => 
+            array (
+                'cast_id' => 4540,
+                'movie_id' => 610,
+                'person_id' => 1896,
+                'character' => 'Worf',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            356 => 
+            array (
+                'cast_id' => 4541,
+                'movie_id' => 610,
+                'person_id' => 910,
+                'character' => 'Troi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            357 => 
+            array (
+                'cast_id' => 4542,
+                'movie_id' => 610,
+                'person_id' => 727,
+                'character' => 'Soran',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            358 => 
+            array (
+                'cast_id' => 4543,
+                'movie_id' => 610,
+                'person_id' => 1887,
+                'character' => 'Scotty',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            359 => 
+            array (
+                'cast_id' => 4544,
+                'movie_id' => 610,
+                'person_id' => 1890,
+                'character' => 'Chekov',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            360 => 
+            array (
+                'cast_id' => 4545,
+                'movie_id' => 610,
+                'person_id' => 1878,
+                'character' => 'Kirk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            361 => 
+            array (
+                'cast_id' => 4546,
+                'movie_id' => 610,
+                'person_id' => 1151,
+                'character' => 'Capt. Harriman',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            362 => 
+            array (
+                'cast_id' => 4547,
+                'movie_id' => 610,
+                'person_id' => 37,
+                'character' => 'Science Officer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            363 => 
+            array (
+                'cast_id' => 4548,
+                'movie_id' => 610,
+                'person_id' => 619,
+                'character' => 'Navigator',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            364 => 
+            array (
+                'cast_id' => 4549,
+                'movie_id' => 610,
+                'person_id' => 1889,
+                'character' => 'Computer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            365 => 
+            array (
+                'cast_id' => 4550,
+                'movie_id' => 610,
+                'person_id' => 707,
+                'character' => 'Guinan',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            366 => 
+            array (
+                'cast_id' => 4551,
+                'movie_id' => 610,
+                'person_id' => 1897,
+                'character' => 'Riker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            367 => 
+            array (
+                'cast_id' => 4552,
+                'movie_id' => 610,
+                'person_id' => 1898,
+                'character' => 'Geordi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            368 => 
+            array (
+                'cast_id' => 4553,
+                'movie_id' => 610,
+                'person_id' => 1899,
+                'character' => 'Beverly',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            369 => 
+            array (
+                'cast_id' => 4554,
+                'movie_id' => 611,
+                'person_id' => 647,
+                'character' => 'Picard',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            370 => 
+            array (
+                'cast_id' => 4555,
+                'movie_id' => 611,
+                'person_id' => 1897,
+                'character' => 'Riker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            371 => 
+            array (
+                'cast_id' => 4556,
+                'movie_id' => 611,
+                'person_id' => 1248,
+                'character' => 'Data',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            372 => 
+            array (
+                'cast_id' => 4557,
+                'movie_id' => 611,
+                'person_id' => 1898,
+                'character' => 'Geordi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            373 => 
+            array (
+                'cast_id' => 4558,
+                'movie_id' => 611,
+                'person_id' => 1896,
+                'character' => 'Worf',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            374 => 
+            array (
+                'cast_id' => 4559,
+                'movie_id' => 611,
+                'person_id' => 1899,
+                'character' => 'Beverly',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            375 => 
+            array (
+                'cast_id' => 4560,
+                'movie_id' => 611,
+                'person_id' => 910,
+                'character' => 'Troi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            376 => 
+            array (
+                'cast_id' => 4561,
+                'movie_id' => 611,
+                'person_id' => 429,
+                'character' => 'Zefram Cochran',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            377 => 
+            array (
+                'cast_id' => 4562,
+                'movie_id' => 611,
+                'person_id' => 1254,
+                'character' => 'Holographic Doctor',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            378 => 
+            array (
+                'cast_id' => 4563,
+                'movie_id' => 611,
+                'person_id' => 1889,
+                'character' => 'Computer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            379 => 
+            array (
+                'cast_id' => 4564,
+                'movie_id' => 611,
+                'person_id' => 1900,
+                'character' => 'Lily',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            380 => 
+            array (
+                'cast_id' => 4565,
+                'movie_id' => 611,
+                'person_id' => 1901,
+                'character' => 'Borg Queen',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            381 => 
+            array (
+                'cast_id' => 4566,
+                'movie_id' => 611,
+                'person_id' => 1902,
+                'character' => 'Lt Hawk',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            382 => 
+            array (
+                'cast_id' => 4567,
+                'movie_id' => 611,
+                'person_id' => 1903,
+                'character' => 'Defiant Conn Officer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            383 => 
+            array (
+                'cast_id' => 4568,
+                'movie_id' => 612,
+                'person_id' => 647,
+                'character' => 'Picard',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            384 => 
+            array (
+                'cast_id' => 4569,
+                'movie_id' => 612,
+                'person_id' => 1897,
+                'character' => 'Riker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            385 => 
+            array (
+                'cast_id' => 4570,
+                'movie_id' => 612,
+                'person_id' => 1248,
+                'character' => 'Data',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            386 => 
+            array (
+                'cast_id' => 4571,
+                'movie_id' => 612,
+                'person_id' => 1898,
+                'character' => 'Geordi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            387 => 
+            array (
+                'cast_id' => 4572,
+                'movie_id' => 612,
+                'person_id' => 1896,
+                'character' => 'Worf',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            388 => 
+            array (
+                'cast_id' => 4573,
+                'movie_id' => 612,
+                'person_id' => 1899,
+                'character' => 'Beverly',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            389 => 
+            array (
+                'cast_id' => 4574,
+                'movie_id' => 612,
+                'person_id' => 910,
+                'character' => 'Troi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            390 => 
+            array (
+                'cast_id' => 4575,
+                'movie_id' => 612,
+                'person_id' => 1421,
+                'character' => 'Ru\'afo',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            391 => 
+            array (
+                'cast_id' => 4576,
+                'movie_id' => 612,
+                'person_id' => 959,
+                'character' => 'Anij',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            392 => 
+            array (
+                'cast_id' => 4577,
+                'movie_id' => 613,
+                'person_id' => 647,
+                'character' => 'Jean-Luc Picard',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            393 => 
+            array (
+                'cast_id' => 4578,
+                'movie_id' => 613,
+                'person_id' => 1897,
+                'character' => 'William Riker',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            394 => 
+            array (
+                'cast_id' => 4579,
+                'movie_id' => 613,
+                'person_id' => 1248,
+                'character' => 'Data',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            395 => 
+            array (
+                'cast_id' => 4580,
+                'movie_id' => 613,
+                'person_id' => 1898,
+                'character' => 'Geordi La Forge',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            396 => 
+            array (
+                'cast_id' => 4581,
+                'movie_id' => 613,
+                'person_id' => 1896,
+                'character' => 'Worf',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            397 => 
+            array (
+                'cast_id' => 4582,
+                'movie_id' => 613,
+                'person_id' => 910,
+                'character' => 'Deanna Troi',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            398 => 
+            array (
+                'cast_id' => 4583,
+                'movie_id' => 613,
+                'person_id' => 1899,
+                'character' => 'Beverly Crusher',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            399 => 
+            array (
+                'cast_id' => 4584,
+                'movie_id' => 613,
+                'person_id' => 217,
+                'character' => 'Shinzon',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            400 => 
+            array (
+                'cast_id' => 4585,
+                'movie_id' => 613,
+                'person_id' => 46,
+                'character' => 'Viceroy',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            401 => 
+            array (
+                'cast_id' => 4586,
+                'movie_id' => 613,
+                'person_id' => 1524,
+                'character' => 'Commander Donatra',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            402 => 
+            array (
+                'cast_id' => 4587,
+                'movie_id' => 613,
+                'person_id' => 1043,
+                'character' => 'Praetor Hiren',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            403 => 
+            array (
+                'cast_id' => 4588,
+                'movie_id' => 613,
+                'person_id' => 1510,
+                'character' => 'Wesley Crusher',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            404 => 
+            array (
+                'cast_id' => 4589,
+                'movie_id' => 613,
+                'person_id' => 1889,
+                'character' => 'Computer',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            405 => 
+            array (
+                'cast_id' => 4590,
+                'movie_id' => 613,
+                'person_id' => 707,
+                'character' => 'Guinan',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            406 => 
+            array (
+                'cast_id' => 4591,
+                'movie_id' => 613,
+                'person_id' => 1613,
+                'character' => 'Kelly',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            407 => 
+            array (
+                'cast_id' => 4592,
+                'movie_id' => 614,
+                'person_id' => 1016,
+                'character' => ' Rick Grimes',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            408 => 
+            array (
+                'cast_id' => 4593,
+                'movie_id' => 614,
+                'person_id' => 1017,
+                'character' => ' Carl Grimes',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            409 => 
+            array (
+                'cast_id' => 4594,
+                'movie_id' => 614,
+                'person_id' => 1018,
+                'character' => ' Daryl Dixon',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            410 => 
+            array (
+                'cast_id' => 4595,
+                'movie_id' => 614,
+                'person_id' => 1019,
+                'character' => ' Carol Peletier',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            411 => 
+            array (
+                'cast_id' => 4596,
+                'movie_id' => 614,
+                'person_id' => 1023,
+                'character' => ' Maggie Greene',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            412 => 
+            array (
+                'cast_id' => 4597,
+                'movie_id' => 614,
+                'person_id' => 1024,
+                'character' => ' Glenn Rhee',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            413 => 
+            array (
+                'cast_id' => 4598,
+                'movie_id' => 614,
+                'person_id' => 1027,
+                'character' => ' Michonne',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            414 => 
+            array (
+                'cast_id' => 4599,
+                'movie_id' => 614,
+                'person_id' => 1025,
+                'character' => ' Beth Greene',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            415 => 
+            array (
+                'cast_id' => 4600,
+                'movie_id' => 614,
+                'person_id' => 1026,
+                'character' => ' Hershel Greene',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            416 => 
+            array (
+                'cast_id' => 4603,
+                'movie_id' => 614,
+                'person_id' => 1021,
+                'character' => ' Morgan Jones',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            417 => 
+            array (
+                'cast_id' => 4605,
+                'movie_id' => 614,
+                'person_id' => 1028,
+                'character' => ' The Governor',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            418 => 
+            array (
+                'cast_id' => 4606,
+                'movie_id' => 614,
+                'person_id' => 358,
+                'character' => ' Merle Dixon',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            419 => 
+            array (
+                'cast_id' => 4608,
+                'movie_id' => 614,
+                'person_id' => 901,
+                'character' => ' Dr. Edwin Jenner',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            420 => 
+            array (
+                'cast_id' => 4610,
+                'movie_id' => 614,
+                'person_id' => 1904,
+                'character' => 'Sasha Williams',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            421 => 
+            array (
+                'cast_id' => 4611,
+                'movie_id' => 614,
+                'person_id' => 1905,
+                'character' => 'Sgt Abraham Ford',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            422 => 
+            array (
+                'cast_id' => 4612,
+                'movie_id' => 614,
+                'person_id' => 1906,
+                'character' => 'Dr Eugene Porter',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            423 => 
+            array (
+                'cast_id' => 4613,
+                'movie_id' => 614,
+                'person_id' => 1907,
+                'character' => 'Rosita Espinosa',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
