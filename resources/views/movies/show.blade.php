@@ -198,7 +198,17 @@
                <div class="col-xs-12"><h4>Cast</h4></div>
             </div>
 
+            {{--*/ $break=false /*--}}
             @foreach( $movie->cast as $actor )
+
+               @if($actor->pivot->star ==1)
+                  {{--*/ $break = true /*--}}
+               @endif
+               @if($actor->pivot->star==0 && $break==true)
+                  <br/>
+                  {{--*/ $break=false /*--}}
+               @endif
+
                <div class="row">
                   <div class="{{$label_class}}">
                      <a href="{{ action('PersonController@show', $actor->person_id) }}">{{$actor->forename}} {{$actor->surname}}</a>
