@@ -105,6 +105,7 @@ function displayCharts() {
 }
 
 function displayMoviesByDecade() {
+   $('#decadeSelectFilter option[value="all"]').prop('selected', true);
    if(runDecade === true) {
       $.ajax({
          beforeSend: function() {
@@ -125,15 +126,6 @@ function displayMoviesByDecade() {
             animationDuration: 1500,
             toolTip: {
                enabled: false
-                  // contentFormatter: function(event) {
-                  //    var str = '';
-                  //    for (var i = 0; i < event.entries.length; i++)
-                  //    {
-                  //       str =  event.entries[i].dataPoint.label + ': ';
-                  //       str += event.entries[i].dataPoint.y == 1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-                  //       return (str);
-                  //    }
-                  // }
             },
             data: [{
                type: 'column',
@@ -143,6 +135,7 @@ function displayMoviesByDecade() {
                indexLabel: "{y}",
                click: function(event) {
                   displayMoviesByYear(event.dataPoint.label, event.dataPoint.label+9);
+                  $('#decadeSelectFilter option[value="'+event.dataPoint.label+'"]').prop('selected', true);
                }
             }]
          });
@@ -171,16 +164,7 @@ function displayMoviesByYear(start, end) {
          animationEnabled: true,
          animationDuration: 1500,
          toolTip: {
-               enabled: false
-            // contentFormatter: function(event) {
-            //    var str = '';
-            //    for (var i = 0; i < event.entries.length; i++)
-            //    {
-            //       str = event.entries[i].dataPoint.label + ': ';
-            //       str += event.entries[i].dataPoint.y == 1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-            //       return (str);
-            //    }
-            // }
+            enabled: false
          },
          data: [{
             type: 'column',
@@ -211,15 +195,7 @@ function displayMoviesByFormat() {
       }).done(function(json) {
          var chart = new CanvasJS.Chart('formatChart', {
             toolTip: {
-               // enabled: false,
-               // contentFormatter: function(event) {
-               //    var str = '';
-               //    for (var i = 0; i < event.entries.length; i++)
-               //    {
-               //       str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-               //       return (str);
-               //    }
-               // }
+               enabled: false,
             },
             animationEnabled: true,
             data: [{
@@ -343,13 +319,6 @@ function displayMoviesByRating() {
             animationDuration: 1500,
             toolTip: {
                enabled: false,
-               // contentFormatter: function(event) {
-               //    var str = '';
-               //    for (var i = 0; i < event.entries.length; i++){
-               //       str = event.entries[i].dataPoint.y ==1 ? '1 movie' : event.entries[i].dataPoint.y + ' movies';
-               //       return (str);
-               //    }
-               // }
             },
             data: [{
                type: 'column',
