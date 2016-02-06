@@ -317,8 +317,9 @@ class MovieController extends Controller {
 	         $movie_id = $data['movie'];
 	         $person_id = $data['person'];
 	         $character_name = $data['character'];
+	         $star = $data['star'];
 	         $movie = Movies::findorfail($movie_id);
-				$movie->cast()->updateExistingPivot($person_id, array('character' => $character_name));
+				$movie->cast()->updateExistingPivot($person_id, array('character' => $character_name, 'star' => $star));
 				return (String) view('movies.cast', compact('movie'));
 	      }
       }

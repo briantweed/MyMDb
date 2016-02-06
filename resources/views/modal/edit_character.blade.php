@@ -7,6 +7,15 @@
                {!! Form::label('edit_character_name', 'Character Name:') !!}
                {!! Form::text('character_name', '', ['class'=>'form-control', 'id'=>'edit_character_name']) !!}
             </div>
+            <div class="row">
+            <div class="col-xs-2 switch round">
+               {!! Form::checkbox('star', '1', '', ['id' => 'main_star']) !!}
+               {!! Form::label('main_star', 'Main Star') !!}
+            </div>
+            <div class="col-xs-10">
+               <b>Main Star</b>
+            </div>
+            </div>
             <div id="new_cast_error" class="row has-error hide">
                <div class="col-xs-12 text-right">
                   <label id="edit_cast_error_message" for="formGroupInputSmall" class="control-label"></label>

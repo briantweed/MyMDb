@@ -7,7 +7,9 @@ class Cast extends Model {
    protected $table = 'cast';
    protected $primaryKey = 'cast_id';
    protected $fillable = array(
-      'movie_id'
+      'movie_id',
+      'character',
+      'star'
    );
 
 }

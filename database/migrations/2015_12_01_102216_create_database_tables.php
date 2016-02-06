@@ -121,6 +121,7 @@ class CreateDatabaseTables extends Migration {
 			$table->integer('person_id')->unsigned();
 			$table->foreign('person_id')->references('person_id')->on('persons')->onDelete('cascade');
 			$table->string('character');
+			$table->boolean('star');
 			$table->timestamps();
 		});
 
