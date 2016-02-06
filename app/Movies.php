@@ -41,6 +41,7 @@ class Movies extends Model {
 	{
 		return $this->belongsToMany('App\Persons', 'cast', 'movie_id', 'person_id')
 						->withPivot('cast_id', 'character', 'star')
+						->orderBy('star', 'desc')
 						->orderBy('forename', 'asc');
 	}
 
