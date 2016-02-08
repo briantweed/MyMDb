@@ -3,18 +3,19 @@
       <div class="modal-content">
          <div class="modal-header"><h4>Edit Character Name</h4></div>
          <div class="modal-body">
-            <div class="form-group">
-               {!! Form::label('edit_character_name', 'Character Name:') !!}
-               {!! Form::text('character_name', '', ['class'=>'form-control', 'id'=>'edit_character_name']) !!}
+            <div class="row">
+               <div class="col-xs-offset-1 col-xs-11" style="padding-left: 0px">
+                  {!! Form::label('edit_character_name', 'Character Name:') !!}
+               </div>
             </div>
             <div class="row">
-            <div class="col-xs-2 switch round">
-               {!! Form::checkbox('star', '1', '', ['id' => 'main_star']) !!}
-               {!! Form::label('main_star', 'Main Star') !!}
-            </div>
-            <div class="col-xs-10">
-               <b>Main Star</b>
-            </div>
+               <div class="col-xs-1 main_actor"  style="padding-right: 5px" data-toggle='tooltip' data-placement='top' title='main actor' >
+                  {!! Form::checkbox('star', '1', '', ['id' => 'main_actor']) !!}
+                  <label for='main_actor' class='main_actor' ></label>
+               </div>
+               <div class="col-xs-11" style="padding-left :0px">
+                  {!! Form::text('character_name', '', ['class'=>'form-control', 'id'=>'edit_character_name']) !!}
+               </div>
             </div>
             <div id="new_cast_error" class="row has-error hide">
                <div class="col-xs-12 text-right">

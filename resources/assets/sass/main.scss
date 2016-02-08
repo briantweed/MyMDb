@@ -24,7 +24,9 @@ $login-link: #000000; // black
 $logout-link: #000000; // black
 
 $star-rating: #F1DE35;
+$main_actor: #3DB5DB;
 $required: #c81d1d;
+
 
 /*
 |----------------------------------------------------------------------
@@ -245,7 +247,7 @@ $required: #c81d1d;
 body {
    font-size: 15px;
    font-family: $main-font;
-   margin-top: 92px;
+   // margin-top: 92px;
 }
 
 h1 {
@@ -291,6 +293,11 @@ p {
 .navbar {
    min-height: auto;
    margin-bottom: 0;
+   position: sticky;
+}
+
+.navbar-fixed-top {
+   border-width: 0px;
 }
 
 .navbar-default {
@@ -404,7 +411,7 @@ div.search-bar-container {
    top: 44px;
    width: 100%;
    z-index: 1031;
-   position: fixed;
+   position: sticky;
    padding: 6px 0 6px;
    background: #e8e8ef;
    border-top: 1px solid #c8c8cf;
@@ -728,6 +735,47 @@ span {
 .pages li.active {
     background: #666 none repeat scroll 0 0;
 }
+
+
+label.main_actor {
+    color: #666666;
+    cursor: pointer;
+    padding-left: 2.2em;
+    position: relative;
+}
+label.main_actor::before, label.main_actor::after {
+    font-family: Fontello;
+    font-size: 2.4rem;
+    left: 0;
+    position: absolute;
+    top: -9px;
+}
+label.main_actor::before {
+    content: "\e831";
+}
+label.main_actor::after {
+    content: "\e832";
+    max-width: 0;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+input#main_actor[type="checkbox"] {
+    display: none;
+}
+
+input#main_actor[type="checkbox"]:checked + label.main_actor::before {
+    color: #fff;
+}
+input#main_actor[type="checkbox"]:checked + label.main_actor::after {
+    color: $main_actor;
+    max-width: 2.4rem;
+}
+
+i.main_actor {
+   color: $main_actor;
+   cursor: pointer;
+}
+
 
 /*
 |----------------------------------------------------------------------

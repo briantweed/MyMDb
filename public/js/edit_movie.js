@@ -107,7 +107,7 @@ $(document).ready(function(){
             person: $('#person_id').val(),
             movie: $('#movie_id').val(),
             character: $('#edit_character_name').val(),
-            star: $('#main_star').is(':checked') ? 1 : 0,
+            star: $('#main_actor').is(':checked') ? 1 : 0,
          }
       }).done(function(html){
          $('#existing-cast-list').html(html);
@@ -223,7 +223,7 @@ function editCastMember(castID) {
          cast_id: castID
       }
    }).done(function(json){
-      $('#main_star').prop('checked', json.star);
+      $('#main_actor').prop('checked', json.star);
       $('#edit_character_name').val($('<textarea/>').html(json.character).text());
       $('#person_id').val(json.person_id);
       $('#edit-cast-modal').modal();

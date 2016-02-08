@@ -6394,8 +6394,7 @@ button.close {
 */
 body {
   font-size: 15px;
-  font-family: "Raleway", Arial, sans-serif;
-  margin-top: 92px; }
+  font-family: "Raleway", Arial, sans-serif; }
 
 h1 {
   margin: 10px 0 15px 0;
@@ -6428,7 +6427,12 @@ p.error-link {
 
 .navbar {
   min-height: auto;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  position: -webkit-sticky;
+  position: sticky; }
+
+.navbar-fixed-top {
+  border-width: 0px; }
 
 .navbar-default a.navbar-brand {
   color: #0a506c;
@@ -6519,7 +6523,8 @@ div.search-bar-container {
   top: 44px;
   width: 100%;
   z-index: 1031;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   padding: 6px 0 6px;
   background: #e8e8ef;
   border-top: 1px solid #c8c8cf;
@@ -6723,6 +6728,42 @@ span.required {
 
 .pages li.active {
   background: #666 none repeat scroll 0 0; }
+
+label.main_actor {
+  color: #666666;
+  cursor: pointer;
+  padding-left: 2.2em;
+  position: relative; }
+
+label.main_actor::before, label.main_actor::after {
+  font-family: Fontello;
+  font-size: 2.4rem;
+  left: 0;
+  position: absolute;
+  top: -9px; }
+
+label.main_actor::before {
+  content: "\e831"; }
+
+label.main_actor::after {
+  content: "\e832";
+  max-width: 0;
+  overflow: hidden;
+  transition: all 0.3s ease 0s; }
+
+input#main_actor[type="checkbox"] {
+  display: none; }
+
+input#main_actor[type="checkbox"]:checked + label.main_actor::before {
+  color: #fff; }
+
+input#main_actor[type="checkbox"]:checked + label.main_actor::after {
+  color: #3DB5DB;
+  max-width: 2.4rem; }
+
+i.main_actor {
+  color: #3DB5DB;
+  cursor: pointer; }
 
 /*
 |----------------------------------------------------------------------
