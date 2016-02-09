@@ -11,6 +11,9 @@ Route::get('/', 'WelcomeController@index');
 // CHARTS PAGE
 Route::get('charts', 'ChartController@index');
 
+// Search PAGE
+Route::get('search', 'SearchController@index');
+
 Route::post('getCastFromIMDb', 'ApiController@getCastFromIMDb');
 Route::post('createImdbActor', 'ApiController@createImdbActor');
 Route::post('searchForMovie', 'ApiController@searchForMovie');

@@ -109,16 +109,17 @@
             </div>
 
             @include('segments.layout.padding')
-            
+
          </div>
 
       </div>
 
       {!! Html::script(elixir('js/mymdb.js')) !!}
-      {!! Html::script('js/slick.js') !!}
       {!! Html::script('js/canvas.js') !!}
       {!! Html::script('js/welcome.js') !!}
 
+      @include('segments.layout.padding')
+      
       <footer>
 
          <div class="container">

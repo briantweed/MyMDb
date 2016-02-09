@@ -44523,6 +44523,16 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            449 => 
+            array (
+                'cast_id' => 4662,
+                'movie_id' => 546,
+                'person_id' => 1945,
+                'character' => 'Quasimodo',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

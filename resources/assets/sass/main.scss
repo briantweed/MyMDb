@@ -504,6 +504,15 @@ footer {
    padding: 20px 0;
    background: #121222;
    border-top: 10px double #fff;
+
+   a {
+      color: #7575c3;
+
+      &:hover {
+         color: #f2f2f2;
+      }
+   }
+
 }
 
 

@@ -6582,6 +6582,10 @@ footer {
   padding: 20px 0;
   background: #121222;
   border-top: 10px double #fff; }
+  footer a {
+    color: #7575c3; }
+    footer a:hover {
+      color: #f2f2f2; }
 
 span.rating-display {
   color: #F1DE35;

@@ -9,7 +9,7 @@
 
 {{-- Subnav --}}
 @section('subnav-left')
-   @include('segments.links.back')   
+   @include('segments.links.back')
    @include('segments.links.add_person')
 @stop
 
@@ -28,6 +28,14 @@
                </li>
             @endforeach
          </ul>
+      </div>
+   </div>
+
+   @include('segments.layout.padding')
+
+   <div class="row">
+      <div class="col-xs-12 text-center">
+         {!! $people->render() !!}
       </div>
    </div>
 

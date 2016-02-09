@@ -54,10 +54,13 @@
          <script>
             @yield('jquery')
          </script>
-         
+
          @yield('extensions')
 
+         @include('segments.layout.padding')
+         
       </div>
+
 
       <footer>
          @include('layout.footer')

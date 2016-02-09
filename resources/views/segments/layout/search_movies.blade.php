@@ -7,7 +7,7 @@
          <span class="sr-only">Toggle Dropdown</span>
       </button>
       <ul class="dropdown-menu dropdown-menu-right">
-         <li><a onclick="">Advanced Search</a></li>
+         <li><a href="{{ action('SearchController@index') }}">Advanced Search</a></li>
          <li class="divider" role="separator"></li>
          <li><a href="javascript:location.reload()">Clear</a></li>
       </ul>
