@@ -100,7 +100,7 @@ function displayCharts() {
    if( $('#ratingChart').onScreen() ) displayMoviesByRating();
    if( $('#yearChart').onScreen() )   displayMoviesByDecade();
    if( $('#formatChart').onScreen() ) displayMoviesByFormat();
-   if( $('#certificateChart').onScreen() ) displayMoviesByCertificate();
+   displayMoviesByCertificate();
    if( $('#genreChart').onScreen() ) displayMoviesByGenre();
 }
 
@@ -269,7 +269,7 @@ function displayMoviesByGenre() {
 			   },
             axisY: {
                interval: 10,
-               maximum: 230,
+               maximum: 250,
                labelFontSize: 12,
                gridColor: '#ddd',
                gridThickness: 1,
