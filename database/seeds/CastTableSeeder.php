@@ -44533,6 +44533,36 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            450 => 
+            array (
+                'cast_id' => 4663,
+                'movie_id' => 2,
+                'person_id' => 1107,
+                'character' => 'Dodo Bird',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            451 => 
+            array (
+                'cast_id' => 4664,
+                'movie_id' => 2,
+                'person_id' => 1292,
+                'character' => 'Tall Flower Faces',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            452 => 
+            array (
+                'cast_id' => 4665,
+                'movie_id' => 2,
+                'person_id' => 409,
+                'character' => 'Jabberwocky',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

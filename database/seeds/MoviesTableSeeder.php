@@ -49,7 +49,7 @@ class MoviesTableSeeder extends Seeder
                 'certificate_id' => 3,
                 'format_id' => 2,
                 'studio_id' => 4,
-                'duplicate' => 0,
+                'duplicate' => 1,
                 'bio' => 'Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen\'s reign of terror.',
                 'purchased' => '2015-01-01 00:00:00',
                 'created_at' => '2015-12-30 15:38:30',

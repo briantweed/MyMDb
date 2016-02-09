@@ -24,7 +24,7 @@ class PersonsTableSeeder extends Seeder
                 'surname' => 'Reeves',
                 'birthday' => '1964-09-02',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000206',
                 'image' => 'keanu_reeves.jpg',
                 'bio' => 'Keanu Reeves, whose first name means "cool breeze over the mountains" in Hawaiian, was born in Beirut, Lebanon in 1964, the son of English-born Patricia Taylor, a showgirl, and American-born Samuel Nowlin Reeves, a geologist. Keanu\'s father was born in Hawaii, of British, Portuguese, Native Hawaiian, and Chinese ancestry.
 
@@ -32,7 +32,7 @@ His first popular success was the role of totally rad dude "Ted Logan" in {{Bill
 
 After all this, Reeves did the unthinkable and passed on the Speed sequel, but he struck box-office gold again a few years later with the Wachowski siblings\' cyberadventure, {{The Matrix (1999)}}.',
                 'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '2016-01-18 20:39:18',
+                'updated_at' => '2016-02-09 14:55:28',
             ),
             1 => 
             array (
@@ -80,11 +80,11 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
                 'surname' => 'Sanada',
                 'birthday' => '1960-10-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0760796',
                 'image' => 'hiroyuki_sanada.jpg',
             'bio' => 'Hiroyuki Sanada was born on the 12th of October, 1960 in Tokyo. He made his film debut when he was 5 in Game of Chance (1965) (Shin\'ichi Chiba played the lead role.) Sanada\'s father died when he was 11. Sanada joined Japan Action Club, organized and run by Sonny Chiba, when he was 12. Sanada first became famous as an action star for his role in The Shogun\'s Samurai (1978).',
                 'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'updated_at' => '2016-02-09 14:55:28',
             ),
             5 => 
             array (
@@ -174,7 +174,7 @@ She is also known for her starring roles in the box-office hits {{Ghostbusters}}
                 'surname' => 'Depp',
                 'birthday' => '1963-06-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000136',
                 'image' => 'johnny_depp_1452606877.jpg',
             'bio' => 'Born John Christopher Depp II in Owensboro, Kentucky, on June 9, 1963, to Betty Sue (Wells), who worked as a waitress, and John Christopher Depp, a civil engineer.
 
@@ -182,7 +182,7 @@ Depp was raised in Florida. He dropped out of school when he was 15, and fronted
 
 Depp has played many characters in his career, including another fact-based one, Insp. Fred Abberline in From Hell. He stole the show from screen greats such as Antonio Banderas in the finale to Robert Rodriguez\'s "mariachi" trilogy, {{Once Upon a Time in Mexico}}. In that same year he starred in the marvelous family blockbuster {{Pirates of the Caribbean: The Curse of the Black Pearl}}, playing a character that only the likes of Depp could pull off: the charming, conniving and roguish Capt. Jack Sparrow. The film\'s enormous success has opened several doors for his career and included an Oscar nomination.',
                 'created_at' => '2016-01-12 13:54:37',
-                'updated_at' => '2016-01-18 20:53:43',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             11 => 
             array (
@@ -247,11 +247,11 @@ In 1999, the American Film Institute ranked him eighth among its list of greates
                 'surname' => 'Wasikowska',
                 'birthday' => '1989-10-14',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1985859',
                 'image' => 'mia_wasikowska_1453214228.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:42:28',
-                'updated_at' => '2016-01-19 14:56:09',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             16 => 
             array (
@@ -260,7 +260,7 @@ In 1999, the American Film Institute ranked him eighth among its list of greates
                 'surname' => 'Bonham Carter',
                 'birthday' => '1966-05-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000307',
                 'image' => 'helena_bonham_carter_1453214456.jpg',
             'bio' => 'Bonham Carter was born May 26, 1966 in Golders Green, London, England, the youngest of three children of Elena (née Propper de Callejón), a psychotherapist, and Raymond Bonham Carter, a merchant banker. 
 
@@ -268,7 +268,7 @@ Often referred to as the "corset queen" or "English rose" because of her early w
 
 Bonham Carter was nominated for a Golden Globe for the fifth time for her role in partner Tim Burton\'s film adaptation of the Stephen Sondheim musical, Sweeney Todd: The Demon Barber of Fleet Street (2007), for which Burton and co-star Johnny Depp were also nominated. For the role, she was awarded Best Actress at the Evening Standard British Film Awards 2008. Other 2000s work includes playing Mrs Bucket in Tim Burton\'s massive hit {{Charlie and the Chocolate Factory (2005)}}, providing the voices for the aristocratic Lady Campanula Tottington in {{The Curse of the Were-Rabbit (2005)}}♦ and for the eponymous dead heroine in Tim Burton\'s spooky Corpse Bride (2005), and co-starring in Conversations with Other Women (2005) opposite Aaron Eckhart.',
                 'created_at' => '2016-01-12 20:42:50',
-                'updated_at' => '2016-01-19 14:40:56',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             17 => 
             array (
@@ -277,7 +277,7 @@ Bonham Carter was nominated for a Golden Globe for the fifth time for her role i
                 'surname' => 'Hathaway',
                 'birthday' => '1982-11-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0004266',
                 'image' => 'anne_hathaway_1453214515.jpg',
             'bio' => 'Anne Jacqueline Hathaway was born in Brooklyn, New York, to Kate McCauley Hathaway, an actress, and Gerald T. Hathaway, a lawyer, both originally from Philadelphia. She is of mostly Irish descent, along with English, German, and French. Her first major role came in the short-lived television series Get Real (1999). She gained widespread recognition for her roles in The Princess Diaries (2001) and its 2004 sequel as a young girl who discovers she is a member of royalty, opposite Julie Andrews and Heather Matarazzo.
 
@@ -285,7 +285,7 @@ She also had a notable role in Nicholas Nickleby (2002) opposite Charlie Hunnam 
 
 Hathaway soon started to move away from family-friendly films. Following The Princess Diaries 2: Royal Engagement (2004), she appeared topless in the films Havoc (2005) opposite Josh Peck and Brokeback Mountain (2005) opposite Heath Ledger and Jake Gyllenhaal.',
                 'created_at' => '2016-01-12 20:43:06',
-                'updated_at' => '2016-01-19 14:43:29',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             18 => 
             array (
@@ -294,11 +294,11 @@ Hathaway soon started to move away from family-friendly films. Following The Pri
                 'surname' => 'Glover',
                 'birthday' => '1964-04-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000417',
                 'image' => 'crispin_glover_1453214646.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:43:35',
-                'updated_at' => '2016-01-19 14:44:06',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             19 => 
             array (
@@ -307,11 +307,11 @@ Hathaway soon started to move away from family-friendly films. Following The Pri
                 'surname' => 'Lucas',
                 'birthday' => '1974-03-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0524240',
                 'image' => 'matt_lucas_1453214878.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:45:13',
-                'updated_at' => '2016-01-19 14:47:58',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             20 => 
             array (
@@ -320,11 +320,11 @@ Hathaway soon started to move away from family-friendly films. Following The Pri
                 'surname' => 'Sheen',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0790688',
                 'image' => 'michael_sheen_1453296328.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:45:37',
-                'updated_at' => '2016-01-20 13:25:28',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             21 => 
             array (
@@ -333,11 +333,11 @@ Hathaway soon started to move away from family-friendly films. Following The Pri
                 'surname' => 'Fry',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000410',
                 'image' => 'stephen_fry_1453296355.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:46:00',
-                'updated_at' => '2016-01-20 13:25:55',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             22 => 
             array (
@@ -346,13 +346,13 @@ Hathaway soon started to move away from family-friendly films. Following The Pri
                 'surname' => 'Rickman',
                 'birthday' => '1946-02-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000614',
                 'image' => 'alan_rickman_1452636759.jpg',
             'bio' => 'Alan Rickman was born on a council estate in Acton, West London, to Margaret Doreen Rose (Bartlett) and Bernard Rickman, who worked at a factory. He has English, Irish, and Welsh ancestry. Alan has an older brother David, a younger brother Michael and a younger sister Sheila. 
 
 Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as the villain Hans Gruber. Though often cited as being a master of playing villains, Rickman has actually played a wide variety of characters, such as the romantic cello-playing ghost Jamie in Anthony Minghella\'s Truly Madly Deeply and the noble Colonel Brandon of Sense and Sensibility. He\'s treated audiences to his comedic abilities with films like Dogma, {{Galaxy Quest}} and The Hitchhiker\'s Guide to the Galaxy.',
                 'created_at' => '2016-01-12 20:46:27',
-                'updated_at' => '2016-01-18 20:55:24',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             23 => 
             array (
@@ -3774,11 +3774,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Shibasaki',
                 'birthday' => '1981-08-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0793069',
                 'image' => 'Ko_Shibasaki_1453894961.jpg',
             'bio' => 'Kou Shibasaki was born on the 5th august 1981 in Tokyo, her real name is Yukie Yamamura (Shibasaki Kou it&#039;s a main character of her favorite manga). She started her career at 14 when her talent was discovered by a star agent. She has worked in many TV shows and commercials. She&#039;s beginning to be more famous thanks to her excellent performance in the movie Battle Royale and its character Souma Mitsuko. She has reaching a star statute not only in Japan but all over East Asia. She has an impressing filmography and since 2002 she&#039;s started to sing with her first single Trust my feelings. But her singing skills I&#039;ve been only recognized with her second single Tsuki no shizuku, a song used for the movie Yomigaeri, which was one of the best jpop hits of 2003. She is considered as one of the glamorous queen of drama, earning millions of yens and going out with bad boys.',
                 'created_at' => '2016-01-27 11:42:41',
-                'updated_at' => '2016-01-27 11:42:41',
+                'updated_at' => '2016-02-09 14:55:28',
             ),
             285 => 
             array (
@@ -3787,11 +3787,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Tagawa',
                 'birthday' => '1950-09-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0846480',
                 'image' => 'Cary_hiroyuki_Tagawa_1453894977.jpg',
             'bio' => 'Cary-Hiroyuki Tagawa got his first big break as an actor when he was cast in Bernardo Bertolucci&#039;s Le dernier empereur (1987). A US Army brat, he was born in Tokyo and lived in various cities while growing up. His father was in the army, stationed at Ft. Bragg (NC), Ft. Polk (LA) and Ft. Hood (TX). His mother was an actress from Tokyo. The family finally settled in Southern California, where Tagawa began acting in high school. He was an exchange student in Japan while studying at the University of Southern California. He has recently been involved off-screen in addressing student groups (at SFSU and Stanford). He has also been coaching the martial artist portraying Shang Tsung in the Mortal Kombat Live Tour, and in his free time developing his new form of martial arts, called &quot;Chun Shin.&quot;',
                 'created_at' => '2016-01-27 11:42:57',
-                'updated_at' => '2016-01-28 11:40:23',
+                'updated_at' => '2016-02-09 14:55:28',
             ),
             286 => 
             array (
@@ -3800,11 +3800,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Kikuchi',
                 'birthday' => '1981-01-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0452860',
                 'image' => 'Rinko_Kikuchi_1453894986.jpg',
             'bio' => 'Rinko Kikuchi was born on January 6, 1981 in Hadano, Japan as Yuriko Kikuchi. She is an actress and director, known for Pacific Rim (2013), Kumiko, the Treasure Hunter (2014) and The Brothers Bloom (2008). She has been married to Sh&ocirc;ta Sometani since December 31, 2014.',
                 'created_at' => '2016-01-27 11:43:06',
-                'updated_at' => '2016-01-27 11:43:06',
+                'updated_at' => '2016-02-09 14:55:28',
             ),
             287 => 
             array (
@@ -3813,11 +3813,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Spall',
                 'birthday' => '1957-02-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001758',
                 'image' => 'Timothy_Spall_1453895038.jpg',
             'bio' => 'Timothy Spall was born in Battersea, London, to Sylvia R. (Leonard), a hairdresser, and Joseph L. Spall, a postal worker. He was raised in London. Spall auditioned and earned a spot with the National Youth Theatre and later showed great promise at RADA where he portrayed the title roles in &quot;Macbeth&quot; and &quot;Othello.&quot; In 1979 he joined the Royal Shakespeare Company and stayed for approximately two years performing in &quot;The Merry Wives of Windsor,&quot; &quot;Cymbeline,&quot; &quot;The Three Sisters&quot; and &quot;Nicholas Nickleby.&quot; In the early 80s he moved into TV roles with Leigh&#039;s &quot;Home Sweet Home&quot; and later had his own drama series &quot;Frank Stubbs Promotes&quot; in 1993. With Leigh, Timothy&#039;s appeared in a number of award-winning features, particularly Life Is Sweet (1990) and Secrets &amp; Lies (1996), for which he earned a BAFTA Award nomination, and the Gilbert &amp; Sullivan biopic Topsy-Turvy (1999). He also worked for noted directors Ken Russell in Gothic (1986), Clint Eastwood in White Hunter Black Heart (1990), Bernardo Bertolucci in The Sheltering Sky (1990), and Kenneth Branagh in Hamlet (1996) as Rosenkrantz. A chronic illness curtailed his momentum in the mid-90s, coming back resourcefully on stage and TV. On a roll recently with more of his odd characterizations he lent his voice to the popular animated feature Chicken Run (2000) and appeared in Harry Potter and the Prisoner of Azkaban (2004) as Peter Pettigrew, and Lemony Snicket&#039;s A Series of Unfortunate Events (2004) as Mr. Poe.',
                 'created_at' => '2016-01-27 11:43:58',
-                'updated_at' => '2016-01-27 11:43:58',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             288 => 
             array (
@@ -5359,11 +5359,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Lee',
                 'birthday' => '1922-05-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000489',
                 'image' => 'Christopher_Lee_1453901461.jpg',
             'bio' => 'Sir Christopher Frank Carandini Lee was perhaps the only actor of his generation to have starred in so many films. Although most notable for personifying bloodsucking vampire, Dracula, on screen, he portrayed other varied characters on screen, most of which were villains, whether it be Francisco Scaramanga in the James Bond film, The Man with the Golden Gun (1974), or Count Dooku in Star Wars: Episode II - Attack of the Clones (2002), or as the title monster in the Hammer Horror film, The Mummy (1959). Lee was born in 1922 in London, England, where he and his older sister Xandra were raised by their parents, Contessa Estelle Marie (Carandini di Sarzano) and Geoffrey Trollope Lee, a professional soldier, until their divorce in 1926. Later, while Lee was still a child, his mother married (and later divorced) Harcourt George St.-Croix (nicknamed Ingle), who was a banker. Lee&#039;s maternal great-grandfather was an Italian political refugee, while Lee&#039;s great-grandmother was English opera singer Marie (Burgess) Carandini. After attending Wellington College from age 14 to 17, Lee worked as an office clerk in a couple of London shipping companies until 1941 when he enlisted in the Royal Air Force during World War II. Following his release from military service, Lee joined the Rank Organisation in 1947, training as an actor in their &quot;Charm School&quot; and playing a number of bit parts in such films as Corridor of Mirrors (1948). He made a brief appearance in Laurence Olivier&#039;s Hamlet (1948), in which his future partner-in-horror Peter Cushing also appeared. Both actors also appeared later in Moulin Rouge (1952) but did not meet until their horror films together. Lee had numerous parts in film and television throughout the 1950s. He struggled initially in his new career because he was discriminated as being taller than the leading male actors of his time and being too foreign-looking. However, playing the monster in the Hammer film The Curse of Frankenstein (1957) proved to be a blessing in disguise, since the was successful, leading to him being signed on for future roles in Hammer Film Productions. Lee&#039;s association with Hammer Film Productions brought him into contact with Peter Cushing, and they became good friends. Lee and Cushing often than not played contrasting roles in Hammer films, where Cushing was the protagonist and Lee the villain, whether it be Van Helsing and Dracula respectively in Horror of Dracula (1958), or John Banning and Kharis the Mummy respectively in The Mummy (1959). Lee continued his role as &quot;Dracula&quot; in a number of Hammer sequels throughout the 1960s and into the early 1970s. During this time, he co-starred in The Hound of the Baskervilles (1959), and made numerous appearances as Fu Manchu, most notably in the first of the series The Face of Fu Manchu (1965), and also appeared in a number of films in Europe. With his own production company, Charlemagne Productions, Ltd., Lee made Nothing But the Night (1973) and To the Devil a Daughter (1976). By the mid-1970s, Lee was tiring of his horror image and tried to widen his appeal by participating in several mainstream films, such as The Private Life of Sherlock Holmes (1970), Les trois mousquetaires (1973), The Four Musketeers: Milady&#039;s Revenge (1974), and the James Bond film The Man with the Golden Gun (1974). The success of these films prompted him in the late 1970s to move to Hollywood, where he remained a busy actor but made mostly unremarkable film and television appearances, and eventually moved back to England. The beginning of the new millennium relaunched his career to some degree, during which he has played Count Dooku in Star Wars: Episode II - Attack of the Clones (2002) and as Saruman the White in the Lord of the Rings trilogy. Lee played Count Dooku again in Star Wars: Episode III - Revenge of the Sith (2005) and as Johnny Depp&#039;s character&#039;s father in the Tim Burton film, Charlie and the Chocolate Factory (2005). On 16 June 2001, he was created a Commander of the Order of the British Empire in recognition of his services to drama. He was created a Knight Bachelor on 13 June 2009 in the Queen&#039;s Birthday Honours List for his services to drama and charity. In addition he was made a Commander of the Order of St John on 16 January 1997. Lee died at the Chelsea and Westminster Hospital on 7 June 2015 at 8:30 am after being admitted for respiratory problems and heart failure, shortly after celebrating his 93rd birthday there. His wife delayed the public announcement until 11 June, in order to break the news to their family',
                 'created_at' => '2016-01-27 13:31:01',
-                'updated_at' => '2016-01-27 13:31:01',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             406 => 
             array (
@@ -14416,11 +14416,11 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Gough',
                 'birthday' => '1916-11-23',
                 'deceased' => '2011-03-17',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001284',
                 'image' => 'Michael_Gough_1454014035.jpg',
             'bio' => 'Tony Award-winning English actor Michael Gough, best known for playing the butler Alfred Pennyworth in all four of Tim Burton&#039;s Batman (1989) (1992)_ (1995)_ qv) (1997)_ movies and for playing the arch-criminal Dr. Clement Armstrong in The Avengers (1961) episode &quot;The Cybernauts&quot;, was an accomplished performer on both stage and screen. He was nominated twice for Tony Awards, in 1979 for Best Featured Actor in a Play for Alan Ayckbourn&#039;s &quot;Bedroom Farce&quot; and in 1988 in the same category for Hugh Whitemore&#039;s &quot;Breaking the Code&quot;, winning in 1979. Though he never achieved on the small screen and silver screen what he did in the theater, Gough&#039;s career in television and movies spanned sixty-plus years over eight decades. Michael Gough died at age 94 on March 17, 2011 in London, England.',
                 'created_at' => '2016-01-28 20:47:15',
-                'updated_at' => '2016-01-28 20:47:15',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             101 => 
             array (
@@ -16821,11 +16821,11 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'surname' => 'Staunton',
                 'birthday' => '1956-01-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001767',
                 'image' => 'Imelda_Staunton_1454325555.jpg',
             'bio' => 'Imelda Staunton was born on January 9, 1956 in Archway, London, England as Imelda Mary Philomena Bernadette Staunton. She is an actress, known for Maleficent (2014), Vera Drake (2004) and Chicken Run (2000). She has been married to Jim Carter since October 1983. They have one child.',
                 'created_at' => '2016-02-01 11:19:15',
-                'updated_at' => '2016-02-01 11:19:15',
+                'updated_at' => '2016-02-09 14:55:59',
             ),
             286 => 
             array (
