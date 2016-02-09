@@ -58,12 +58,12 @@
          @yield('extensions')
 
          @include('segments.layout.padding')
-         
+
       </div>
 
 
       <footer>
-         @include('layout.footer')
+         @include('segments.footer')
       </footer>
 
    </body>

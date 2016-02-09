@@ -245,7 +245,7 @@
       {!! Html::script('js/welcome.js') !!}
 
       <footer>
-         @include('layout.footer')
+         @include('segments.footer')
       </footer>
 
    </body>

@@ -53,7 +53,7 @@
       {!! Html::script(elixir('js/mymdb.js')) !!}
 
       <footer>
-         @include('layout.footer')
+         @include('segments.footer')
       </footer>
 
    </body>
