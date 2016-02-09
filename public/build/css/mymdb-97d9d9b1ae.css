@@ -6413,7 +6413,8 @@ button.close {
 */
 body {
   font-size: 15px;
-  font-family: "Raleway", Arial, sans-serif; }
+  font-family: "Raleway", Arial, sans-serif;
+  margin-top: 92px; }
 
 h1 {
   margin: 10px 0 15px 0;
@@ -6447,8 +6448,7 @@ p.error-link {
 .navbar {
   min-height: auto;
   margin-bottom: 0;
-  position: -webkit-sticky;
-  position: sticky; }
+  position: fixed; }
 
 .navbar-fixed-top {
   border-width: 0px; }
@@ -6542,8 +6542,7 @@ div.search-bar-container {
   top: 44px;
   width: 100%;
   z-index: 1031;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   padding: 6px 0 6px;
   background: #e8e8ef;
   border-top: 1px solid #c8c8cf;
@@ -6600,7 +6599,6 @@ div.feature-content {
 footer {
   color: #f2f2f2;
   padding: 20px 0;
-  text-align: right;
   background: #121222;
   border-top: 10px double #fff; }
 
@@ -6673,7 +6671,7 @@ div.movie p {
 div.movie .side-buttons a {
   text-align: left; }
   div.movie .side-buttons a i {
-    margin-right: 1em;
+    margin-right: 0.7em;
     display: inline-block; }
 
 div.movie img {

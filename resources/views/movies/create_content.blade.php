@@ -63,13 +63,13 @@
             {!! Form::label('title', 'Search IMDb: ') !!}
          </div>
          <div class="col-xs-4" style="padding: 0px 8px 0 0" data-toggle='tooltip' data-placement='top' title='required'>
-            {!! Form::text('title', '', ['class'=>'form-control', 'placeholder'=>'title ...']) !!}
+            {!! Form::text('title', '', ['class'=>'form-control', 'autocomplete'=>'off', 'placeholder'=>'title ...']) !!}
          </div>
          <div class="col-xs-2" style="padding: 0px 8px 0 0" data-toggle='tooltip' data-placement='top' title='optional'>
-            {!! Form::text('year', '', ['class'=>'form-control', 'placeholder'=>'year ...']) !!}
+            {!! Form::text('year', '', ['class'=>'form-control', 'autocomplete'=>'off', 'placeholder'=>'year ...']) !!}
          </div>
          <div class="col-xs-1" style="padding: 0px" data-toggle='tooltip' data-placement='top' title='rating'>
-            {!! Form::text('rating', '', ['class'=>'form-control', 'placeholder'=>'#']) !!}
+            {!! Form::text('rating', '', ['class'=>'form-control', 'autocomplete'=>'off', 'placeholder'=>'#']) !!}
          </div>
          {!! Form::close() !!}
          <div class="col-xs-2">

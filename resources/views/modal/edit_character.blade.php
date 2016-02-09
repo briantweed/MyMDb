@@ -14,7 +14,7 @@
                   <label for='main_actor' class='main_actor' ></label>
                </div>
                <div class="col-xs-11" style="padding-left :0px">
-                  {!! Form::text('character_name', '', ['class'=>'form-control', 'id'=>'edit_character_name']) !!}
+                  {!! Form::text('character_name', '', ['class'=>'form-control', 'id'=>'edit_character_name', 'autocomplete'=>'off']) !!}
                </div>
             </div>
             <div id="new_cast_error" class="row has-error hide">

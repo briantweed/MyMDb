@@ -5,7 +5,7 @@
          <div class="modal-body">
             <div class="form-group">
                {!! Form::label('new_tag', 'New Tag:') !!}
-               {!! Form::text('new_tag', '', ['class'=>'form-control']) !!}
+               {!! Form::text('new_tag', '', ['class'=>'form-control', 'autocomplete'=>'off']) !!}
             </div>
             <div id="new_tag_error" class="row has-error hide">
                <div class="col-xs-12 text-right">

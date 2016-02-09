@@ -40,7 +40,7 @@
       <div class="container">
          <div class="filtered-content"></div>
       </div>
-      
+
       <div class="container">
 
          <div class="main-content">
@@ -51,13 +51,17 @@
 
          {!! Html::script(elixir('js/mymdb.js')) !!}
 
-         @yield('extensions')
-
          <script>
             @yield('jquery')
          </script>
+         
+         @yield('extensions')
 
       </div>
+
+      <footer>
+         @include('layout.footer')
+      </footer>
 
    </body>
 

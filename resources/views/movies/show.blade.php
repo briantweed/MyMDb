@@ -31,7 +31,7 @@
    <div class="row movie">
 
       {{-- left column --}}
-      <div class="col-xs-12 hidden-sm col-sm-4 col-md-3 col-lg-3">
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 
          <div class="row">
             <div class="col-xs-12">
@@ -53,13 +53,7 @@
 
             @include('segments.buttons.view')
 
-            @if($movie->imdb_id)
-               <div class="row">
-                  <div class="col-xs-12">
-                     <a href="http://www.imdb.com/title/{{$movie->imdb_id}}" target="_blank" class="btn btn-warning btn-lg btn-block" href="javascript:void(0);"><i class="ft icon-imdb"></i> IMDb Page</a>
-                  </div>
-               </div>
-            @endif
+            @include('segments.buttons.imdb')
 
             @include('segments.layout.padding')
 
@@ -68,34 +62,13 @@
       </div> {{-- end of left column --}}
 
       {{-- right column --}}
-      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-offset-1 col-lg-8">
+      <div class="col-xs-12 col-sm-9 col-md-9 col-lg-offset-1 col-lg-8">
 
          <h1>{{$movie->name}}<br/></h1>
 
-         <div class="row">
-            <div class="col-sm-4 visible-sm-block" style="padding-top:10px">
-               @if($movie->cover_count == 1)
-                  <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$movie->cover}}"  />
-               @else
-                  <img class="img-responsive img-rounded" src="{{asset($movie->cover)}}" />
-               @endif
-               <ul class="sm-block-grid-4">
-                  <li style="padding:0.2em"><a style="padding:6px 0" class="btn btn-primary btn-block" href="{{ action('WelcomeController@index') }}"><i class="ft icon-home"></i></a></li>
-                  @if($user!=false && $user->level==1)
-                     <li style="padding:0.2em"><a style="padding:6px 0" class="btn btn-info btn-block" href="{{ action('MovieController@edit',[$movie->movie_id]) }}"><i class="ft icon-edit"></i></a></li>
-                     <li style="padding:0.2em"><a style="padding:6px 0" onclick="showModal('viewing')" class="btn btn-info btn-block" href="javascript:void(0);"><i class="ft icon-view"></i></a></li>
-                  @endif
-                  <li style="padding:0.2em"><a style="padding:6px 0" href="http://www.imdb.com/title/{{$movie->imdb_id}}" target="_blank" class="btn btn-warning  btn-block" href="javascript:void(0);"><i class="ft icon-imdb"></i></a></li>
-               </ul>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-md-12">
-               <p>{{$movie->bio}}</p>
-            </div>
-         </div>
+         <p>{{$movie->bio}}</p>
 
-         <div class="row visible-sm-inline">
-            <h4>Details</h4>
-         </div>
+         <h4>Details</h4>
 
          <div class="row">
             <div class="{{$label_class}}"><b>Rating</b></div>

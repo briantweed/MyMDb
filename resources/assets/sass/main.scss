@@ -247,7 +247,7 @@ $required: #c81d1d;
 body {
    font-size: 15px;
    font-family: $main-font;
-   // margin-top: 92px;
+   margin-top: 92px;
 }
 
 h1 {
@@ -293,7 +293,7 @@ p {
 .navbar {
    min-height: auto;
    margin-bottom: 0;
-   position: sticky;
+   position: fixed;
 }
 
 .navbar-fixed-top {
@@ -411,7 +411,7 @@ div.search-bar-container {
    top: 44px;
    width: 100%;
    z-index: 1031;
-   position: sticky;
+   position: fixed;
    padding: 6px 0 6px;
    background: #e8e8ef;
    border-top: 1px solid #c8c8cf;
@@ -502,7 +502,6 @@ div.feature-content {
 footer {
    color: #f2f2f2;
    padding: 20px 0;
-   text-align: right;
    background: #121222;
    border-top: 10px double #fff;
 }
@@ -631,7 +630,7 @@ div.movie {
          text-align: left;
 
          i {
-            margin-right: 1em;
+            margin-right: 0.7em;
             display: inline-block;
          }
 

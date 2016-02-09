@@ -9,7 +9,7 @@
             </div>
             <div class="form-group">
                {!! Form::label('character_name', 'Character Name:') !!}
-               {!! Form::text('character_name', '', ['class'=>'form-control']) !!}
+               {!! Form::text('character_name', '', ['class'=>'form-control', 'autocomplete'=>'off']) !!}
             </div>
             <div id="new_cast_error" class="row has-error hide">
                <div class="col-xs-12 text-right">

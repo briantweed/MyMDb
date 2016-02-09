@@ -18,7 +18,7 @@
 
 {{-- input --}}
 @section('input')
-   {!! Form::text($field, $value, ['class'=>'form-control']) !!}
+   {!! Form::text($field, $value, ['class'=>'form-control', 'autocomplete'=>'off']) !!}
 @overwrite
 
 {{-- input extra classes --}}

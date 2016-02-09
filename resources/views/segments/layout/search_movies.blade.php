@@ -1,5 +1,5 @@
 <div class="input-group">
-   <input type="text" class="form-control" id="filter-movie" placeholder="Search ...">
+   <input class="form-control" id="filter-movie" type="text" autocomplete="off" placeholder="Search ...">
    <span class="input-group-btn">
       <button class="btn btn-info" type="button" id="filter-movie-start" onclick="startFilter('all','')">Go</button>
       <button id="filter-movie-options" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" class="btn btn-info dropdown-toggle" type="button">
@@ -7,11 +7,7 @@
          <span class="sr-only">Toggle Dropdown</span>
       </button>
       <ul class="dropdown-menu dropdown-menu-right">
-         <li><a onclick="startFilter('studio','')">By Studio</a></li>
-         <li><a onclick="startFilter('format','')">By Format</a></li>
-         <li><a onclick="startFilter('year','')">By Year</a></li>
-         <li><a onclick="startFilter('rating','')">By Rating</a></li>
-         <li><a onclick="startFilter('tag','')">By Tag</a></li>
+         <li><a onclick="">Advanced Search</a></li>
          <li class="divider" role="separator"></li>
          <li><a href="javascript:location.reload()">Clear</a></li>
       </ul>

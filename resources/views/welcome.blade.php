@@ -245,17 +245,7 @@
       {!! Html::script('js/welcome.js') !!}
 
       <footer>
-
-         <div class="container">
-
-            <div class="row">
-               <div class="col-sx-12">
-                  &copy;<?php echo date("Y"); ?> brtweed designs
-               </div>
-            </div>
-
-         </div>
-
+         @include('layout.footer')
       </footer>
 
    </body>
