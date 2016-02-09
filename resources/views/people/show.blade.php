@@ -50,14 +50,15 @@
          <hr/>
 
          <div class="side-buttons">
-            {{-- back button --}}
+
             @include('segments.buttons.home')
 
-            {{-- edit button --}}
             @include('segments.buttons.edit_person')
 
-            {{-- padding --}}
+            @include('segments.buttons.imdb_person')
+
             @include('segments.layout.padding')
+
 
          </div>
 

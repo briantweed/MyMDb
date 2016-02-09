@@ -29,16 +29,6 @@ class MovieController extends Controller {
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
-
-
-	/**
-	* ---------------------------------------------------------------
-	* Standard REST methods
-	* ---------------------------------------------------------------
-	*/
-
-
-
 	/**
 	*
 	* Show all movies, 48 per page
@@ -47,7 +37,9 @@ class MovieController extends Controller {
 	*/
 	public function index()
 	{
-		$movies = Movies::orderBy('sort_name')->get();
+		$movies = Movies::orderBy('sort_name')
+					->orderBy('released')
+					->paginate(96);
 		$user = $this->isAdmin;
 		return view('movies.index', compact('movies', 'user'));
 	}
@@ -477,16 +469,6 @@ class MovieController extends Controller {
 		}
 		return " ";
 	}
-
-
-
-	/**
-	* ---------------------------------------------------------------
-	* Private Functions
-	* ---------------------------------------------------------------
-	*/
-
-
 
 	/**
 	*

@@ -47,7 +47,9 @@
 
    <div class="row">
       <div class="col-xs-12 text-center">
+         <ul class="pagination pagination-lg">
          {!! $movies->render() !!}
+      </ul>
       </div>
    </div>
 

@@ -12,7 +12,8 @@ class Persons extends Model {
 		'birthday',
 		'deceased',
 		'bio',
-		'image'
+		'image',
+		'imdb_id'
 	);
 
 	public function roles()

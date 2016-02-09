@@ -411,6 +411,8 @@ $(document).keyup(function(event) {
 
 $(document).ready(function() {
 
+   $('.pagination').addClass('pagination-lg');
+   
    // Lazy load images
    $('img.lazy').lazyload({
       effect : "fadeIn",
