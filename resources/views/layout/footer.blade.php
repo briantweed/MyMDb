@@ -4,8 +4,7 @@
       <div class="col-xs-12 col-sm-8">
          @if(isset($user) && $user!=false && $user->level==1)
             <a href="{{ action('AdminController@index') }}">Admin</a>
-         @endif
-         @if(!isset($user))
+         @else
             <a href="{{ url('auth/login') }}">Login</a>
          @endif
       </div>
