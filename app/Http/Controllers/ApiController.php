@@ -113,7 +113,6 @@ class ApiController extends Controller {
 				$values->bio = trim($imdb->plot);
 				$values->purchased = "01-01-2015";
 				$values->rating = $rating;
-				$values->format_id = 1;
 				$values->released = trim($imdb->year);
 				$values->image = $imdb->urlPoster;
 
