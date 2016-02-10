@@ -1,6 +1,5 @@
 <?php
-Route::group(['domain' => 'mymdb.brtweed.co.uk'], function()
-{
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
@@ -94,5 +93,4 @@ Route::get('/admin/seed', function(){
 		return Redirect::to('/admin')->with('status', 'Seeds created for all tables');
 	}
 	return Redirect::to('/admin')->with('status', 'Not allowed in production');
-});
 });
