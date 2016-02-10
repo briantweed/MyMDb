@@ -1,5 +1,4 @@
 
-
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews
@@ -7,16 +6,12 @@
 
     RewriteEngine On
 
-    # Don't touch anything when coming from test subdomain
-    RewriteCond %{HTTP_HOST} ^mymdb\. [NC]
-    RewriteRule ^ - [L]
-
-    # Redirect Trailing Slashes...
+    # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.+)/$ /$1 [L,R=301]
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
 
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ /index.php [L]
+    RewriteRule ^ index.php [L]
 </IfModule>
