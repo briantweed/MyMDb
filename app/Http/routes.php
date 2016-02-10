@@ -1,5 +1,5 @@
 <?php
-Route::group(['domain' => '{account}.brtweed.co.uk'], function () {
+Route::group(['domain' => 'mymdb.brtweed.co.uk'], function () {
 	Route::controllers([
 		'auth' => 'Auth\AuthController',
 		'password' => 'Auth\PasswordController',
