@@ -1,3 +1,6 @@
 RewriteEngine On
 
 RewriteRule ^(.*)$ public/$1 [L]
+
+RewriteCond %{HTTP_HOST} !mymdb\.com$
+RewriteRule [mymdb]?(.*) http://mymdb.brtweed.co.uk/$1 [R=301,L]
