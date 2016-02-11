@@ -112,7 +112,7 @@ function displayMoviesByDecade() {
             runDecade = false
          },
          type: 'POST',
-         url: '/MyMDb/public/movieDecadeCount',
+         url: 'movieDecadeCount',
          data: {
             _token: $('meta[name="_token"]').attr('content')
          }
@@ -147,7 +147,7 @@ function displayMoviesByDecade() {
 function displayMoviesByYear(start, end) {
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/movieYearCount',
+      url: 'movieYearCount',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          start: start,
@@ -188,7 +188,7 @@ function displayMoviesByFormat() {
             runFormat = false
          },
          type: 'POST',
-         url: '/MyMDb/public/movieFormatCount',
+         url: 'movieFormatCount',
          data: {
             _token: $('meta[name="_token"]').attr('content')
          }
@@ -218,7 +218,7 @@ function displayMoviesByCertificate() {
             runCertif = false
          },
          type: 'POST',
-         url: '/MyMDb/public/movieCertificateCount',
+         url: 'movieCertificateCount',
          data: {
             _token: $('meta[name="_token"]').attr('content')
          }
@@ -256,7 +256,7 @@ function displayMoviesByGenre() {
             runGenre = false
          },
          type: 'POST',
-         url: '/MyMDb/public/movieGenreCount',
+         url: 'movieGenreCount',
          data: {
             _token: $('meta[name="_token"]').attr('content')
          }
@@ -304,7 +304,7 @@ function displayMoviesByRating() {
             runRating = false
          },
          type: 'POST',
-         url: '/MyMDb/public/movieRatingCount',
+         url: 'movieRatingCount',
          data: {
             _token: $('meta[name="_token"]').attr('content')
          }

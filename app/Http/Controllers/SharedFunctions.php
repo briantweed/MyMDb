@@ -49,7 +49,7 @@ trait SharedFunctions
       {
    		list($image, $ext) = explode('.', $src);
    		$protocol = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
-   		$basePath = $protocol.$_SERVER['HTTP_HOST'].'/MyMDb/public';
+   		$basePath = $protocol.$_SERVER['HTTP_HOST'];
          if(@getimagesize($basePath.'/images/'.$dest.'/'.$src))
    		{
    			return 'images/'.$dest.'/'.$src;
@@ -60,7 +60,7 @@ trait SharedFunctions
 
    private function unlinkExistingImage($dest, $filename)
    {
-      $uploadPath = $_SERVER['DOCUMENT_ROOT'].'/MyMDb/public/images/'.$dest.'/';
+      $uploadPath = $_SERVER['DOCUMENT_ROOT'].$dest.'/';
       if(@getimagesize($uploadPath.$filename)) unlink($uploadPath.$filename);
    }
 

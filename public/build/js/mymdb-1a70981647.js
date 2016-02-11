@@ -412,7 +412,7 @@ $(document).keyup(function(event) {
 $(document).ready(function() {
 
    $('.pagination').addClass('pagination-lg');
-   
+
    // Lazy load images
    $('img.lazy').lazyload({
       effect : "fadeIn",
@@ -471,7 +471,7 @@ function startFilter(type, val) {
    $('#filter-movie-start').html('<i class="ft icon-loading spin"></i>');
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/filter',
+      url: 'filter',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          val: val,
