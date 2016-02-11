@@ -1,5 +1,6 @@
 <?php
 
+Route::group(['domain' => 'mymdb.brtweed.co.uk'], function () {
 
 	Route::controllers([
 		'auth' => 'Auth\AuthController',
@@ -95,3 +96,5 @@
 		}
 		return Redirect::to('/admin')->with('status', 'Not allowed in production');
 	});
+
+});
