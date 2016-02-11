@@ -13,7 +13,7 @@ var featherEditor = new Aviary.Feather({
    onSave: function(imageID, newUrl) {
       $.ajax({
          type: "POST",
-         url: '/MyMDb/public/aviary',
+         url: '//mymdb.brtweed.co.uk/aviary',
          dataType : "json",
          data: {
             _token: $('meta[name="_token"]').attr('content'),
@@ -61,7 +61,7 @@ $(document).ready(function(){
    $('#add_new_role').click(function() {
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/addNewRole',
+         url: '//mymdb.brtweed.co.uk/addNewRole',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -79,7 +79,7 @@ $(document).ready(function(){
    $('#edit_new_cast').click(function() {
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/editRole',
+         url: '//mymdb.brtweed.co.uk/editRole',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -95,7 +95,7 @@ $(document).ready(function(){
    $('#remove_role').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/removeRole',
+         url: '//mymdb.brtweed.co.uk/removeRole',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -124,7 +124,7 @@ function addMovieRole() {
 function editMovieRole(castID) {
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/getCastDetails',
+      url: '//mymdb.brtweed.co.uk/getCastDetails',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          cast_id: castID
@@ -168,7 +168,7 @@ function showModal(type, id) {
    }
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/' + route,
+      url: '//mymdb.brtweed.co.uk/' + route,
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          id: id

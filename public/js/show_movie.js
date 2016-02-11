@@ -2,7 +2,7 @@
 function storeMovieViewing() {
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/storeMovieViewing',
+      url: '//mymdb.brtweed.co.uk/storeMovieViewing',
       data: {
          _token: $('meta[name="_token"]').attr('content')
       }
@@ -22,7 +22,7 @@ function showModal(type) {
    }
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/' + route,
+      url: '//mymdb.brtweed.co.uk/' + route,
       data: {
          _token: $('meta[name="_token"]').attr('content')
       }

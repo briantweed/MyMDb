@@ -15,7 +15,7 @@ var featherEditor = new Aviary.Feather({
    onSave: function(imageID, newUrl) {
       $.ajax({
          type: "POST",
-         url: '/MyMDb/public/aviary',
+         url: '/aviary',
          dataType : "json",
          data: {
             _token: $('meta[name="_token"]').attr('content'),
@@ -83,7 +83,7 @@ $(document).ready(function(){
    $('#add_new_cast').click(function() {
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/addNewCast',
+         url: '/addNewCast',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -101,7 +101,7 @@ $(document).ready(function(){
    $('#edit_new_cast').click(function() {
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/editCastMember',
+         url: '/editCastMember',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -118,7 +118,7 @@ $(document).ready(function(){
    $('#add_new_crew').click(function() {
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/addNewCrew',
+         url: '/addNewCrew',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             person: $('#person_id').val(),
@@ -135,7 +135,7 @@ $(document).ready(function(){
    $('#remove_cast').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/removeCast',
+         url: '/removeCast',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             row: $('#row_id').val(),
@@ -150,7 +150,7 @@ $(document).ready(function(){
    $('#remove_crew').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/removeCrew',
+         url: '/removeCrew',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             row: $('#row_id').val(),
@@ -165,7 +165,7 @@ $(document).ready(function(){
    $('#add_new_tag').click(function(){
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/addtag',
+         url: '/addtag',
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             word: $('#new_tag').val(),
@@ -217,7 +217,7 @@ function addCrewMember() {
 function editCastMember(castID) {
    $.ajax({
       type: 'POST',
-      url: '//mymdb.brtweed.co.uk/getCastDetails',
+      url: '/getCastDetails',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          cast_id: castID
@@ -275,7 +275,7 @@ function getNewPersonForm(val, type) {
    setPersonType(type);
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/addNewPerson',
+      url: '/addNewPerson',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          value: val,
@@ -290,7 +290,7 @@ function getNewPersonForm(val, type) {
 function storeNewGenre() {
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/storeNewGenre',
+      url: '/storeNewGenre',
       data: $('#create_new_genre_form').serialize(),
    }).done(function(json){
       $('#genre-list').html(html);
@@ -301,7 +301,7 @@ function storeNewGenre() {
 function createNewPerson() {
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/createNewPerson',
+      url: '/createNewPerson',
       data: $('#create_new_person_form').serialize(),
    }).done(function(json){
       switch(json)
@@ -355,7 +355,7 @@ function getCastFromIMDb(el) {
    $(el).html('<i class="ft icon-loading spin"></i>');
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/getCastFromIMDb',
+      url: '/getCastFromIMDb',
       data: {
          _token: $('meta[name="_token"]').attr('content')
       }
@@ -369,7 +369,7 @@ function getCastFromIMDb(el) {
 function duplicateCast(val) {
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/duplicateCast',
+      url: '/duplicateCast',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          id: val
@@ -398,7 +398,7 @@ function showModal(type, id) {
       }
       $.ajax({
          type: 'POST',
-         url: '/MyMDb/public/' + route,
+         url: '/' + route,
          data: {
             _token: $('meta[name="_token"]').attr('content'),
             id: id
