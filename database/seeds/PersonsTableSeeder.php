@@ -22804,10 +22804,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'graham_baker_1455203716.jpg',
                     'bio' => '',
                     'created_at' => '2016-02-03 09:30:02',
-                    'updated_at' => '2016-02-03 19:36:35',
+                    'updated_at' => '2016-02-11 15:15:16',
                 ),
                 246 => 
                 array (
