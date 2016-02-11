@@ -217,7 +217,7 @@ function addCrewMember() {
 function editCastMember(castID) {
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/getCastDetails',
+      url: '//mymdb.brtweed.co.uk/getCastDetails',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          cast_id: castID
