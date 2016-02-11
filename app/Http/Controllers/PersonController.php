@@ -311,7 +311,7 @@ class PersonController extends Controller {
 				if(is_integer($query_year)) $query->where('released', $query_year);
 			}
 			$movie = $query->first();
-			if($movie) return "<a href='/MyMDb/public/movies/".$movie->movie_id."'><b>".$movie->name." (".$movie->released.")</b></a>";
+			if($movie) return "<a href='movies/".$movie->movie_id."'><b>".$movie->name." (".$movie->released.")</b></a>";
 			else return $m[1];
 		}, $text);
 		return nl2br($output);

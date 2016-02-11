@@ -10,7 +10,7 @@ function searchForMovie(el) {
    $(el).html('<i class="ft icon-loading spin"></i>');
    $.ajax({
       type: 'POST',
-      url: '/MyMDb/public/searchForMovie',
+      url: 'searchForMovie',
       data: $('#imdb_movie_search_form').serialize(),
    }).done(function(html){
       $(el).html('search');
