@@ -6764,10 +6764,10 @@ label.main_actor::before, label.main_actor::after {
   top: -9px; }
 
 label.main_actor::before {
-  content: "\e831"; }
+  content: "\e838"; }
 
 label.main_actor::after {
-  content: "\e832";
+  content: "\e839";
   max-width: 0;
   overflow: hidden;
   transition: all 0.3s ease 0s; }
