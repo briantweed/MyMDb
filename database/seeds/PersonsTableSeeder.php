@@ -22791,10 +22791,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1920-12-13',
                     'deceased' => '1998-12-29',
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'don_taylor_1455277567.jpg',
                 'bio' => 'Born in Freeport, Pennsylvania, Don Taylor studied law, then speech and drama at Penn State University, where as a freshman he began taking part in college stage productions. Hitchhiking to Hollywood in 1942, the youthful Taylor screen-tested at Warner Brothers but was rejected because of his draft status. MGM, not as fussy, signed him to a contract and immediately put him to work, assigning him the minuscule role of a soldier in director Clarence Brown&#039;s sentimental slice of Americana, The Human Comedy (1943). More minor roles followed before Taylor enlisted in the army, but even there he continued to act: Playwright/screenwriter Moss Hart chose him to play one of the leads in the Army-Air Force production of Hart&#039;s play, &quot;Winged Victory.&quot; Returning to civilian life, Taylor resumed his work in pictures with a top role in the trend-setting crime drama The Naked City (1948). In later years Taylor became a film and TV director, being nominated for an Emmy for his direction of an episode  ....',
                     'created_at' => '2016-02-03 09:29:58',
-                    'updated_at' => '2016-02-03 19:35:17',
+                    'updated_at' => '2016-02-12 11:46:07',
                 ),
                 245 => 
                 array (
@@ -22830,10 +22830,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => '',
-                    'bio' => 'It looks like we don&#039;t have any Biography for Howard McCain yet.',
+                    'image' => 'howard_mccain_1455278556.jpg',
+                    'bio' => '',
                     'created_at' => '2016-02-03 09:30:19',
-                    'updated_at' => '2016-02-03 19:38:08',
+                    'updated_at' => '2016-02-12 12:02:36',
                 ),
                 248 => 
                 array (
@@ -23129,10 +23129,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1922-09-16',
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'guy_hamilton_1455278346.jpg',
                 'bio' => 'Guy Hamilton was born on September 16, 1922 in Paris, France. He is a director and assistant director, known for Goldfinger (1964), Diamonds Are Forever (1971) and Live and Let Die (1973).',
                     'created_at' => '2016-02-03 09:33:10',
-                    'updated_at' => '2016-02-03 19:37:02',
+                    'updated_at' => '2016-02-12 11:59:06',
                 ),
                 271 => 
                 array (
@@ -23428,10 +23428,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => '',
-                    'bio' => 'It looks like we don&#039;t have any Biography for Hideki Takayama yet.',
+                    'image' => 'hideki_takayama_1455278460.jpg',
+                    'bio' => '',
                     'created_at' => '2016-02-03 09:40:30',
-                    'updated_at' => '2016-02-03 19:37:34',
+                    'updated_at' => '2016-02-12 12:01:00',
                 ),
                 294 => 
                 array (
@@ -23975,7 +23975,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'deceased' => NULL,
                     'imdb_id' => NULL,
                     'image' => 'Toby_Shelton_1454755989.jpg',
-                    'bio' => 'It looks like we don\'t have any Biography for Toby Shelton yet.',
+                    'bio' => '',
                     'created_at' => '2016-02-06 10:53:09',
                     'updated_at' => '2016-02-06 10:53:09',
                 ),
@@ -24013,10 +24013,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1961-02-06',
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'andrew_knight_1455277211.jpg',
                     'bio' => '',
                     'created_at' => '2016-02-06 10:53:31',
-                    'updated_at' => '2016-02-09 10:46:01',
+                    'updated_at' => '2016-02-12 11:40:11',
                 ),
                 339 => 
                 array (
@@ -24052,10 +24052,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1976-05-25',
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Ben_Gluck_1454756024.jpg',
+                    'image' => 'ben_gluck_1455277292.jpg',
                     'bio' => 'Ben James Gluck was born in St. Louis Missouri. He is a screenwriter, story artist, and Director best know for his work in Live Action, Animation Feature Film and Television Productions. Ben received a Bachelor of Fine Arts Degree from California Institute of the Arts. He lives and works in Los Angeles California.',
                     'created_at' => '2016-02-06 10:53:44',
-                    'updated_at' => '2016-02-06 10:53:44',
+                    'updated_at' => '2016-02-12 11:41:32',
                 ),
                 342 => 
                 array (
@@ -24091,10 +24091,12 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Frank_Nissen_1454756041.jpg',
-                    'bio' => 'It looks like we don\'t have any Biography for Frank Nissen yet.',
+                    'image' => 'frank_nissen_1455277761.jpg',
+                    'bio' => 'Frank Nissen grew up in Auburn, California and attended the Art Center College of Design in Pasadena, graduating with honors with a Bachelor of Arts degree. 
+
+Nissen relocated to Los Angeles to work for Disney, where he immediately began doing story work on features such as Tarzan (1999) and Dinosaur (2000) and worked as a storyboard artist and production designer on Treasure Planet (2002). He later branched out into animated videos, working on Mickey&#039;s Twice Upon a Christmas (2004) and {{Mickey, Donald, Goofy: The Three Musketeers (2004)}}. ',
                     'created_at' => '2016-02-06 10:54:01',
-                    'updated_at' => '2016-02-06 10:54:01',
+                    'updated_at' => '2016-02-12 11:49:21',
                 ),
                 345 => 
                 array (
@@ -24157,7 +24159,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'deceased' => NULL,
                     'imdb_id' => NULL,
                     'image' => 'Michael_Labash_1454756078.jpg',
-                    'bio' => 'It looks like we don\'t have any Biography for Michael LaBash yet.',
+                    'bio' => '',
                     'created_at' => '2016-02-06 10:54:38',
                     'updated_at' => '2016-02-06 10:54:38',
                 ),
@@ -24183,7 +24185,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'deceased' => NULL,
                     'imdb_id' => NULL,
                     'image' => 'Bradley_Raymond_1454756090.jpg',
-                    'bio' => 'It looks like we don\'t have any Biography for Bradley Raymond yet.',
+                    'bio' => '',
                     'created_at' => '2016-02-06 10:54:50',
                     'updated_at' => '2016-02-06 10:54:50',
                 ),
@@ -24195,10 +24197,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'George_Scribner_1454756100.jpg',
-                'bio' => 'George Scribner is known for his work on Métal hurlant (1981), Challenge of the GoBots (1984) and The Black Cauldron (1985).',
+                    'image' => 'george_scribner_1455278235.jpg',
+                'bio' => 'George Scribner is known for his work on M&eacute;tal hurlant (1981), Challenge of the GoBots (1984) and The Black Cauldron (1985).',
                     'created_at' => '2016-02-06 10:55:00',
-                    'updated_at' => '2016-02-06 10:55:00',
+                    'updated_at' => '2016-02-12 11:57:15',
                 ),
                 353 => 
                 array (
@@ -24963,7 +24965,7 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                         'deceased' => NULL,
                         'imdb_id' => NULL,
                         'image' => 'Donovan_Cook_1455018108.jpg',
-                        'bio' => 'It looks like we don\'t have any Biography for Donovan Cook yet.',
+                        'bio' => '',
                         'created_at' => '2016-02-09 11:41:48',
                         'updated_at' => '2016-02-09 11:41:48',
                     ),
@@ -25052,12 +25054,12 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                         'forename' => 'Don',
                         'surname' => 'Chaffey',
                         'birthday' => '1917-08-05',
-                        'deceased' => NULL,
+                        'deceased' => '1990-11-13',
                         'imdb_id' => NULL,
-                        'image' => '',
-                    'bio' => 'November 13, 1990 (age 73) in Kawau Island, New Zealand&lt;br/&gt;&lt;br/&gt;British director Don Chaffey began his career in the film industry in the art department at Gainsborough Pictures. He began directing in 1951, often working on films aimed at children. He branched out into television in the mid-&#039;50s, turning out many of the best episodes of such classic series as Danger Man (1960), The Prisoner (1967) and The Avengers (1961). Although he worked in many film genres, his best work is generally acknowledged to be the crackerjack fantasy Jason and the Argonauts (1963). On the other hand, he was also responsible for the lugubrious, box-office disaster The Viking Queen (1967), one of the few productions from Hammer Films that lost money. In the late 1970s Chaffey traveled to the US and worked primarily there, often in made-for-TV movies.',
+                        'image' => 'don_chaffey_1455277519.jpg',
+                    'bio' => 'British director Don Chaffey began his career in the film industry in the art department at Gainsborough Pictures. He began directing in 1951, often working on films aimed at children. He branched out into television in the mid-&#039;50s, turning out many of the best episodes of such classic series as Danger Man (1960), The Prisoner (1967) and The Avengers (1961). Although he worked in many film genres, his best work is generally acknowledged to be the crackerjack fantasy Jason and the Argonauts (1963). On the other hand, he was also responsible for the lugubrious, box-office disaster The Viking Queen (1967), one of the few productions from Hammer Films that lost money. In the late 1970s Chaffey traveled to the US and worked primarily there, often in made-for-TV movies.',
                         'created_at' => '2016-02-09 11:42:30',
-                        'updated_at' => '2016-02-09 11:51:00',
+                        'updated_at' => '2016-02-12 11:45:19',
                     ),
                     419 => 
                     array (
@@ -25249,10 +25251,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                         'birthday' => NULL,
                         'deceased' => NULL,
                         'imdb_id' => NULL,
-                        'image' => '',
+                        'image' => 'david_carson_1455277421.jpg',
                     'bio' => 'David Carson was born in England. He is a director and producer, known for Star Trek: Generations (1994), Carrie (2002) and Incontr&ocirc;lable (2004). He is married to Kim Braden. They have two children.',
                         'created_at' => '2016-02-09 11:44:13',
-                        'updated_at' => '2016-02-09 11:52:58',
+                        'updated_at' => '2016-02-12 11:43:41',
                     ),
                     434 => 
                     array (

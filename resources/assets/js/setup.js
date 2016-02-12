@@ -90,7 +90,7 @@ function startFilter(type, val) {
    $('#filter-movie-start').html('<i class="ft icon-loading spin"></i>');
    $.ajax({
       type: 'POST',
-      url: 'filter',
+      url: '/filter',
       data: {
          _token: $('meta[name="_token"]').attr('content'),
          val: val,
