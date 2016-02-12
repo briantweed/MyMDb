@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['domain' => 'mymdb.brtweed.co.uk'], function () {
+Route::group(['domain' => env('DOMAIN_NAME')], function () {
 
 	Route::controllers([
 		'auth' => 'Auth\AuthController',
