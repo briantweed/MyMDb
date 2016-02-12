@@ -66,9 +66,17 @@
 
          <h1>{{$movie->name}}<br/></h1>
 
-         <p>{{$movie->bio}}</p>
+         <div class="row">
+            <div class="col-xs-12">
+               <p>{{$movie->bio}}</p>
+            </div>
+         </div>
 
-         <h4>Details</h4>
+         <div class="row">
+            <div class="col-xs-12">
+               <h4>Details</h4>
+            </div>
+         </div>
 
          <div class="row">
             <div class="{{$label_class}}"><b>Rating</b></div>
