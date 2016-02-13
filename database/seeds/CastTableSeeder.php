@@ -44563,6 +44563,998 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            453 => 
+            array (
+                'cast_id' => 4666,
+                'movie_id' => 618,
+                'person_id' => 1946,
+                'character' => 'Leonard Hofstadter',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            454 => 
+            array (
+                'cast_id' => 4667,
+                'movie_id' => 618,
+                'person_id' => 1947,
+                'character' => 'Sheldon Cooper',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            455 => 
+            array (
+                'cast_id' => 4668,
+                'movie_id' => 618,
+                'person_id' => 1948,
+                'character' => 'Penny',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            456 => 
+            array (
+                'cast_id' => 4669,
+                'movie_id' => 618,
+                'person_id' => 1949,
+                'character' => 'Howard Wolowitz',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            457 => 
+            array (
+                'cast_id' => 4670,
+                'movie_id' => 618,
+                'person_id' => 1950,
+                'character' => 'Raj Koothrappali',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            458 => 
+            array (
+                'cast_id' => 4673,
+                'movie_id' => 619,
+                'person_id' => 1947,
+                'character' => 'Sheldon Cooper',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            459 => 
+            array (
+                'cast_id' => 4674,
+                'movie_id' => 619,
+                'person_id' => 1946,
+                'character' => 'Leonard Hofstadter',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            460 => 
+            array (
+                'cast_id' => 4675,
+                'movie_id' => 619,
+                'person_id' => 1948,
+                'character' => 'Penny',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            461 => 
+            array (
+                'cast_id' => 4676,
+                'movie_id' => 619,
+                'person_id' => 1950,
+                'character' => 'Raj Koothrappali',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            462 => 
+            array (
+                'cast_id' => 4677,
+                'movie_id' => 619,
+                'person_id' => 1949,
+                'character' => 'Howard Wolowitz',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            463 => 
+            array (
+                'cast_id' => 4678,
+                'movie_id' => 620,
+                'person_id' => 1947,
+                'character' => 'Sheldon Cooper',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            464 => 
+            array (
+                'cast_id' => 4679,
+                'movie_id' => 620,
+                'person_id' => 1946,
+                'character' => 'Leonard Hofstadter',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            465 => 
+            array (
+                'cast_id' => 4680,
+                'movie_id' => 620,
+                'person_id' => 1948,
+                'character' => 'Penny',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            466 => 
+            array (
+                'cast_id' => 4681,
+                'movie_id' => 620,
+                'person_id' => 1950,
+                'character' => 'Raj Koothrappali',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            467 => 
+            array (
+                'cast_id' => 4682,
+                'movie_id' => 620,
+                'person_id' => 1949,
+                'character' => 'Howard Wolowitz',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            468 => 
+            array (
+                'cast_id' => 4683,
+                'movie_id' => 620,
+                'person_id' => 1952,
+                'character' => 'Bernadette Rostenkowski',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            469 => 
+            array (
+                'cast_id' => 4684,
+                'movie_id' => 620,
+                'person_id' => 1953,
+                'character' => 'Amy Farrah Fowler',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            470 => 
+            array (
+                'cast_id' => 4685,
+                'movie_id' => 621,
+                'person_id' => 1947,
+                'character' => 'Sheldon Cooper',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            471 => 
+            array (
+                'cast_id' => 4686,
+                'movie_id' => 621,
+                'person_id' => 1946,
+                'character' => 'Leonard Hofstadter',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            472 => 
+            array (
+                'cast_id' => 4687,
+                'movie_id' => 621,
+                'person_id' => 1948,
+                'character' => 'Penny',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            473 => 
+            array (
+                'cast_id' => 4688,
+                'movie_id' => 621,
+                'person_id' => 1950,
+                'character' => 'Raj Koothrappali',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            474 => 
+            array (
+                'cast_id' => 4689,
+                'movie_id' => 621,
+                'person_id' => 1953,
+                'character' => 'Amy Farrah Fowler',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            475 => 
+            array (
+                'cast_id' => 4690,
+                'movie_id' => 621,
+                'person_id' => 1952,
+                'character' => 'Bernadette Rostenkowski',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            476 => 
+            array (
+                'cast_id' => 4691,
+                'movie_id' => 621,
+                'person_id' => 1949,
+                'character' => 'Howard Wolowitz',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            477 => 
+            array (
+                'cast_id' => 4692,
+                'movie_id' => 622,
+                'person_id' => 1947,
+                'character' => 'Sheldon Cooper',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            478 => 
+            array (
+                'cast_id' => 4693,
+                'movie_id' => 622,
+                'person_id' => 1946,
+                'character' => 'Leonard Hofstadter',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            479 => 
+            array (
+                'cast_id' => 4694,
+                'movie_id' => 622,
+                'person_id' => 1948,
+                'character' => 'Penny',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            480 => 
+            array (
+                'cast_id' => 4695,
+                'movie_id' => 622,
+                'person_id' => 1950,
+                'character' => 'Raj Koothrappali',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            481 => 
+            array (
+                'cast_id' => 4696,
+                'movie_id' => 622,
+                'person_id' => 1953,
+                'character' => 'Amy Farrah Fowler',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            482 => 
+            array (
+                'cast_id' => 4697,
+                'movie_id' => 622,
+                'person_id' => 1952,
+                'character' => 'Bernadette Rostenkowski',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            483 => 
+            array (
+                'cast_id' => 4698,
+                'movie_id' => 622,
+                'person_id' => 1949,
+                'character' => 'Howard Wolowitz',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            484 => 
+            array (
+                'cast_id' => 4699,
+                'movie_id' => 623,
+                'person_id' => 1947,
+                'character' => 'Sheldon Cooper',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            485 => 
+            array (
+                'cast_id' => 4700,
+                'movie_id' => 623,
+                'person_id' => 1946,
+                'character' => 'Leonard Hofstadter',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            486 => 
+            array (
+                'cast_id' => 4701,
+                'movie_id' => 623,
+                'person_id' => 1948,
+                'character' => 'Penny',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            487 => 
+            array (
+                'cast_id' => 4702,
+                'movie_id' => 623,
+                'person_id' => 1950,
+                'character' => 'Raj Koothrappali',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            488 => 
+            array (
+                'cast_id' => 4703,
+                'movie_id' => 623,
+                'person_id' => 1953,
+                'character' => 'Amy Farrah Fowler',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            489 => 
+            array (
+                'cast_id' => 4704,
+                'movie_id' => 623,
+                'person_id' => 1952,
+                'character' => 'Bernadette Rostenkowski',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            490 => 
+            array (
+                'cast_id' => 4705,
+                'movie_id' => 623,
+                'person_id' => 1949,
+                'character' => 'Howard Wolowitz',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            491 => 
+            array (
+                'cast_id' => 4706,
+                'movie_id' => 624,
+                'person_id' => 1947,
+                'character' => 'Sheldon Cooper',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            492 => 
+            array (
+                'cast_id' => 4707,
+                'movie_id' => 624,
+                'person_id' => 1946,
+                'character' => 'Leonard Hofstadter',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            493 => 
+            array (
+                'cast_id' => 4708,
+                'movie_id' => 624,
+                'person_id' => 1948,
+                'character' => 'Penny',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            494 => 
+            array (
+                'cast_id' => 4709,
+                'movie_id' => 624,
+                'person_id' => 1950,
+                'character' => 'Raj Koothrappali',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            495 => 
+            array (
+                'cast_id' => 4710,
+                'movie_id' => 624,
+                'person_id' => 1953,
+                'character' => 'Amy Farrah Fowler',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            496 => 
+            array (
+                'cast_id' => 4711,
+                'movie_id' => 624,
+                'person_id' => 1952,
+                'character' => 'Bernadette Rostenkowski',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            497 => 
+            array (
+                'cast_id' => 4712,
+                'movie_id' => 624,
+                'person_id' => 1949,
+                'character' => 'Howard Wolowitz',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            498 => 
+            array (
+                'cast_id' => 4713,
+                'movie_id' => 625,
+                'person_id' => 1947,
+                'character' => 'Sheldon Cooper',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            499 => 
+            array (
+                'cast_id' => 4714,
+                'movie_id' => 625,
+                'person_id' => 1946,
+                'character' => 'Leonard Hofstadter',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+        ));
+        \DB::table('cast')->insert(array (
+            0 => 
+            array (
+                'cast_id' => 4715,
+                'movie_id' => 625,
+                'person_id' => 1948,
+                'character' => 'Penny',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            1 => 
+            array (
+                'cast_id' => 4716,
+                'movie_id' => 625,
+                'person_id' => 1950,
+                'character' => 'Raj Koothrappali',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            2 => 
+            array (
+                'cast_id' => 4717,
+                'movie_id' => 625,
+                'person_id' => 1953,
+                'character' => 'Amy Farrah Fowler',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            3 => 
+            array (
+                'cast_id' => 4718,
+                'movie_id' => 625,
+                'person_id' => 1952,
+                'character' => 'Bernadette Rostenkowski',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            4 => 
+            array (
+                'cast_id' => 4719,
+                'movie_id' => 625,
+                'person_id' => 1949,
+                'character' => 'Howard Wolowitz',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            5 => 
+            array (
+                'cast_id' => 4720,
+                'movie_id' => 626,
+                'person_id' => 146,
+                'character' => ' Walter White',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            6 => 
+            array (
+                'cast_id' => 4721,
+                'movie_id' => 626,
+                'person_id' => 599,
+                'character' => ' Hank Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            7 => 
+            array (
+                'cast_id' => 4727,
+                'movie_id' => 626,
+                'person_id' => 1954,
+                'character' => 'Skyler White',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            8 => 
+            array (
+                'cast_id' => 4728,
+                'movie_id' => 626,
+                'person_id' => 1955,
+                'character' => 'Jesse Pinkman',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            9 => 
+            array (
+                'cast_id' => 4729,
+                'movie_id' => 626,
+                'person_id' => 1956,
+                'character' => 'Marie Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            10 => 
+            array (
+                'cast_id' => 4730,
+                'movie_id' => 626,
+                'person_id' => 1957,
+                'character' => 'Walter White Jr',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            11 => 
+            array (
+                'cast_id' => 4731,
+                'movie_id' => 627,
+                'person_id' => 1955,
+                'character' => 'Jesse Pinkman',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            12 => 
+            array (
+                'cast_id' => 4732,
+                'movie_id' => 627,
+                'person_id' => 146,
+                'character' => ' Walter White',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            13 => 
+            array (
+                'cast_id' => 4733,
+                'movie_id' => 627,
+                'person_id' => 1954,
+                'character' => 'Skyler White',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            14 => 
+            array (
+                'cast_id' => 4734,
+                'movie_id' => 627,
+                'person_id' => 1956,
+                'character' => 'Marie Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            15 => 
+            array (
+                'cast_id' => 4735,
+                'movie_id' => 627,
+                'person_id' => 599,
+                'character' => ' Hank Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            16 => 
+            array (
+                'cast_id' => 4736,
+                'movie_id' => 627,
+                'person_id' => 1957,
+                'character' => 'Walter White Jr',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            17 => 
+            array (
+                'cast_id' => 4742,
+                'movie_id' => 627,
+                'person_id' => 1958,
+                'character' => 'Saul Goodman',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            18 => 
+            array (
+                'cast_id' => 4743,
+                'movie_id' => 628,
+                'person_id' => 1955,
+                'character' => 'Jesse Pinkman',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            19 => 
+            array (
+                'cast_id' => 4744,
+                'movie_id' => 628,
+                'person_id' => 146,
+                'character' => ' Walter White',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            20 => 
+            array (
+                'cast_id' => 4745,
+                'movie_id' => 628,
+                'person_id' => 1954,
+                'character' => 'Skyler White',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            21 => 
+            array (
+                'cast_id' => 4746,
+                'movie_id' => 628,
+                'person_id' => 1956,
+                'character' => 'Marie Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            22 => 
+            array (
+                'cast_id' => 4747,
+                'movie_id' => 628,
+                'person_id' => 1958,
+                'character' => 'Saul Goodman',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            23 => 
+            array (
+                'cast_id' => 4748,
+                'movie_id' => 628,
+                'person_id' => 599,
+                'character' => ' Hank Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            24 => 
+            array (
+                'cast_id' => 4749,
+                'movie_id' => 628,
+                'person_id' => 1957,
+                'character' => 'Walter White Jr',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            25 => 
+            array (
+                'cast_id' => 4750,
+                'movie_id' => 628,
+                'person_id' => 786,
+                'character' => ' Mike Ehrmantraut',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            26 => 
+            array (
+                'cast_id' => 4751,
+                'movie_id' => 628,
+                'person_id' => 1270,
+                'character' => ' Gustavo \'Gus\' Fring',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            27 => 
+            array (
+                'cast_id' => 4755,
+                'movie_id' => 629,
+                'person_id' => 1955,
+                'character' => 'Jesse Pinkman',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            28 => 
+            array (
+                'cast_id' => 4756,
+                'movie_id' => 629,
+                'person_id' => 146,
+                'character' => ' Walter White',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            29 => 
+            array (
+                'cast_id' => 4757,
+                'movie_id' => 629,
+                'person_id' => 1954,
+                'character' => 'Skyler White',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            30 => 
+            array (
+                'cast_id' => 4758,
+                'movie_id' => 629,
+                'person_id' => 1956,
+                'character' => 'Marie Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            31 => 
+            array (
+                'cast_id' => 4759,
+                'movie_id' => 629,
+                'person_id' => 1958,
+                'character' => 'Saul Goodman',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            32 => 
+            array (
+                'cast_id' => 4760,
+                'movie_id' => 629,
+                'person_id' => 599,
+                'character' => ' Hank Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            33 => 
+            array (
+                'cast_id' => 4761,
+                'movie_id' => 629,
+                'person_id' => 1270,
+                'character' => ' Gustavo \'Gus\' Fring',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            34 => 
+            array (
+                'cast_id' => 4762,
+                'movie_id' => 629,
+                'person_id' => 786,
+                'character' => ' Mike Ehrmantraut',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            35 => 
+            array (
+                'cast_id' => 4763,
+                'movie_id' => 629,
+                'person_id' => 1957,
+                'character' => 'Walter White Jr',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            36 => 
+            array (
+                'cast_id' => 4764,
+                'movie_id' => 630,
+                'person_id' => 1955,
+                'character' => 'Jesse Pinkman',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            37 => 
+            array (
+                'cast_id' => 4765,
+                'movie_id' => 630,
+                'person_id' => 146,
+                'character' => ' Walter White',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            38 => 
+            array (
+                'cast_id' => 4766,
+                'movie_id' => 630,
+                'person_id' => 1954,
+                'character' => 'Skyler White',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            39 => 
+            array (
+                'cast_id' => 4767,
+                'movie_id' => 630,
+                'person_id' => 1956,
+                'character' => 'Marie Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            40 => 
+            array (
+                'cast_id' => 4768,
+                'movie_id' => 630,
+                'person_id' => 1958,
+                'character' => 'Saul Goodman',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            41 => 
+            array (
+                'cast_id' => 4769,
+                'movie_id' => 630,
+                'person_id' => 599,
+                'character' => ' Hank Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            42 => 
+            array (
+                'cast_id' => 4771,
+                'movie_id' => 630,
+                'person_id' => 786,
+                'character' => ' Mike Ehrmantraut',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            43 => 
+            array (
+                'cast_id' => 4772,
+                'movie_id' => 630,
+                'person_id' => 1957,
+                'character' => 'Walter White Jr',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            44 => 
+            array (
+                'cast_id' => 4773,
+                'movie_id' => 631,
+                'person_id' => 1955,
+                'character' => 'Jesse Pinkman',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            45 => 
+            array (
+                'cast_id' => 4774,
+                'movie_id' => 631,
+                'person_id' => 146,
+                'character' => ' Walter White',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            46 => 
+            array (
+                'cast_id' => 4775,
+                'movie_id' => 631,
+                'person_id' => 1954,
+                'character' => 'Skyler White',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            47 => 
+            array (
+                'cast_id' => 4776,
+                'movie_id' => 631,
+                'person_id' => 1956,
+                'character' => 'Marie Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            48 => 
+            array (
+                'cast_id' => 4777,
+                'movie_id' => 631,
+                'person_id' => 1958,
+                'character' => 'Saul Goodman',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            49 => 
+            array (
+                'cast_id' => 4778,
+                'movie_id' => 631,
+                'person_id' => 599,
+                'character' => ' Hank Schrader',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            50 => 
+            array (
+                'cast_id' => 4779,
+                'movie_id' => 631,
+                'person_id' => 786,
+                'character' => ' Mike Ehrmantraut',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            51 => 
+            array (
+                'cast_id' => 4780,
+                'movie_id' => 631,
+                'person_id' => 1957,
+                'character' => 'Walter White Jr',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

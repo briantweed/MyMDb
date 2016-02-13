@@ -109,6 +109,9 @@
                         <a onclick="getCastFromIMDb(this)" class="btn btn-warning btn-block" href="javascript:void(0)">check IMDb</a>
                      @endif
                   </div>
+                  <div class="col-xs-6">
+                     {!! Form::select('copy_from', array('' => 'copy cast from ...') + $options->movies, '', ['class'=>'form-control','id'=>'copy_from', 'onchange'=>'showModal("duplicateCast", this.value)']) !!}
+                  </div>
                </div>
                <div class="row">
                   @if(count($movie->cast))

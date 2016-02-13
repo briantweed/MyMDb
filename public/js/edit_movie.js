@@ -396,6 +396,9 @@ function showModal(type, id) {
          case "genre":
             route = "createNewGenre";
          break;
+         case "duplicateCast":
+            route = "confirmDuplicateCast";
+         break;
          case "createImdbActor":
             route = "createImdbActor";
          break;
