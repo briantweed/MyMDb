@@ -27,7 +27,7 @@
       <div class="row movie">
 
       {{-- left column --}}
-      <div class="{{env('LEFT_COLUMN')}}">
+      <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
 
          {{-- cover image --}}
          <div class="row">
@@ -45,7 +45,6 @@
                   <img class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
                @endif
             </div>
-
          </div>
 
          <div class="side-buttons">
@@ -63,7 +62,7 @@
       {{-- end of left column --}}
 
       {{-- right column --}}
-      <div class="{{env('RIGHT_COLUMN')}}">
+      <div class="col-xs-12 col-sm-8 col-md-9 col-lg-offset-1 col-lg-8">
 
          {{-- errors column --}}
          @if($errors->any())
