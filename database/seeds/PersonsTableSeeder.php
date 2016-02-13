@@ -4013,10 +4013,12 @@ With the phenomenal global interest in the HK action genre, Chow was enticed to 
                 'birthday' => '1945-02-16',
                 'deceased' => NULL,
                 'imdb_id' => NULL,
-                'image' => 'Jeremy_Bulloch_1453897415.jpg',
-            'bio' => 'Jeremy Bulloch was born on February 16, 1945 in Market Harborough, Leicestershire, England. He is one of six children and even at the young age of five was on stage in his school show enjoying acting and singing. After failing a school exam at the age of eleven, Jeremy seemed destined for the acting profession and was soon attending Corona Academy Drama School, making his first professional appearance at the age of twelve when he appeared in a commercial for a breakfast cereal. Following many appearances on children&#039;s television, Jeremy&#039;s big break came at the age of 17 when he landed a major role in the musical film Summer Holiday (1963) which starred the pop idol Cliff Richard (now Sir Cliff). Shortly after, he went into a BBC soap opera called The Newcomers (1965) which ran for three years and made him a household name in the United Kingdom. In 1969, Jeremy was off to Madrid in Spain to play the leading role in a musical film called Las leandras (1969). This was followed by two major films: The Virgin and the Gypsy (1970) and Mary, Queen of Scots (1971). During the 1970s, he made many other screen appearances, including the James Bond films, in which he portrayed the character &#039;Smithers&#039; (Q&#039;s assistant). In 1977, Jeremy spent six months in the Far East, where he was based in Singapore and travelled to the Philippines, Hong Kong, Malaysia, Thailand and Indonesia filming a BBC drama documentary called &#039;The Sadrina Project&#039;. This documentary was designed to teach the English language to people in the Far East, mainly the Chinese. On a trip to China some 15 years later, where Jeremy was performing in a stage play, he was instantly recognised by hundreds of people who said they had learnt their English from the Sadrina Project. In 1978, he was starring in the television comedy series Agony (1979), which was co-written by an American called Len Richmond. It was during this series that Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strikes Back (1980). The part, of course, was Boba Fett - proving the old theatrical saying that &quot;there is no such thing as a small part&quot;! Star Wars: Episode VI - Return of the Jedi (1983) soon followed and Jeremy was invited to reprise the role of Boba. Since the early 1980s, Jeremy has played many roles on television and on the stage in London&#039;s West End. He has also done two worldwide theatre tours covering the Middle and Far East. Jeremy appeared regularly in the favourite television series Robin Hood (1984), in which he played the part of Edward of Wickham. Jeremy&#039;s son Robbie was asked to play Matthew in the series. &#039;Robin of Sherwood&#039; has a great following all around the world, and Jeremy attends the convention &#039;Spirit of Sherwood&#039; in Novi, Michigan every year, work permitting. Another popular series he has appeared in is Doctor Who (1963) where he played Hal the Archer in &#039;The Time Warrior&#039; with Jon Pertwee, and also Tor in the &#039;Space Museum&#039; with William Hartnell as the Doctor. Since the re-release of Star Wars in 1997, the interest in the character of Boba Fett has meant that Jeremy has been invited to many sci-fi conventions and events all around the world. His fan mail has increased five-fold, and he manages somehow to reply to everyone that writes to him. In the little leisure time he has left, he loves nothing more than a game of cricket with his friends. Jeremy also enjoys travelling; in the past few years he has spent more time abroad than at home. He has collected an awesome amount of Boba Fett memorabilia, some given to him by dedicated fans, and some he cannot resist buying at toy fairs. His office at home resembles a Boba Fett museum. Jeremy has three grown-up sons, and lives in London with his wife Maureen, and lucky black cat &#039;Percy&#039;.',
+                'image' => 'jeremy_bulloch_1455359210.jpg',
+            'bio' => 'Jeremy Bulloch was born on February 16, 1945 in Market Harborough, Leicestershire, England. He is one of six children and even at the young age of five was on stage in his school show enjoying acting and singing. After failing a school exam at the age of eleven, Jeremy seemed destined for the acting profession and was soon attending Corona Academy Drama School, making his first professional appearance at the age of twelve when he appeared in a commercial for a breakfast cereal. Following many appearances on children&#039;s television, Jeremy&#039;s big break came at the age of 17 when he landed a major role in the musical film Summer Holiday (1963).
+
+Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strikes Back (1980). The part, of course, was Boba Fett - proving the old theatrical saying that there is no such thing as a small part. ',
                 'created_at' => '2016-01-27 12:23:35',
-                'updated_at' => '2016-01-27 12:23:35',
+                'updated_at' => '2016-02-13 10:26:50',
             ),
             303 => 
             array (
@@ -5979,10 +5981,10 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'birthday' => '1959-07-08',
                 'deceased' => NULL,
                 'imdb_id' => NULL,
-                'image' => 'Robert_Knepper_1453903242.jpg',
+                'image' => 'robert_knepper_1455359001.jpg',
             'bio' => 'Robert Knepper, the son of a veterinarian, was born in Fremont, Ohio, and raised in Maumee (near Toledo). When he was growing up, his mother worked in the props department for the community theater, and because of her involvement, he became interested in acting. Knepper spent many years working in community theater and high school productions. Later, he studied drama at Northwestern University. He is a resident of Southern California.',
                 'created_at' => '2016-01-27 14:00:42',
-                'updated_at' => '2016-01-27 14:00:42',
+                'updated_at' => '2016-02-13 10:23:21',
             ),
             453 => 
             array (
@@ -23090,10 +23092,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1939-11-21',
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'jeannot_szwarc_1455356023.jpg',
                 'bio' => 'Jeannot Szwarc was born on November 21, 1939 in Paris, France. He is a director and producer, known for Jaws 2 (1978), Somewhere in Time (1980) and Boston Public (2000).',
                     'created_at' => '2016-02-03 09:32:49',
-                    'updated_at' => '2016-02-03 19:38:48',
+                    'updated_at' => '2016-02-13 09:33:43',
                 ),
                 268 => 
                 array (
@@ -23116,10 +23118,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1915-06-20',
                     'deceased' => '1994-09-07',
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'terence_young_1455358165.jpg',
                 'bio' => 'Born in Shanghai and Cambridge-educated, Terence Young began in the industry as a scriptwriter. In the 1940s he worked on a variety of subjects, including the hugely popular wartime romance Suicide Squadron (1941), set to Richard Addinsell&#039;s rousing &quot;Warsaw Concerto&quot;. His original story was devised while listening to a concert in an army training camp. As it turned out, Young was soon after involved in the war himself, as a member of the Guards. By the end of the decade Young had graduated to directing. He made his debut with the psychological melodrama Corridor of Mirrors (1948), starring Eric Portman as a reclusive art collector obsessed with reincarnation and murder. During the following decade Young helmed a number of international co-productions, which featured imported stars from Hollywood (Alan Ladd in Paratrooper (1953); Olivia de Havilland in La princesse d&#039;Eboli (1955); Victor Mature in Safari (1956), Zarak (1956) and Tank Force (1958)). These films were made by Warwick, an i ....',
                     'created_at' => '2016-02-03 09:33:05',
-                    'updated_at' => '2016-02-03 19:53:16',
+                    'updated_at' => '2016-02-13 10:09:25',
                 ),
                 270 => 
                 array (
@@ -23142,10 +23144,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1920-03-06',
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'lewis_gilbert_1455356747.jpg',
                 'bio' => 'Lewis Gilbert was born on March 6, 1920 in London, England. He is a director and writer, known for The Spy Who Loved Me (1977), You Only Live Twice (1967) and Moonraker (1979). He was previously married to Hylda Tafler.',
                     'created_at' => '2016-02-03 09:33:16',
-                    'updated_at' => '2016-02-03 19:44:07',
+                    'updated_at' => '2016-02-13 09:45:47',
                 ),
                 272 => 
                 array (
@@ -23155,10 +23157,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1925-03-11',
                     'deceased' => '2002-08-14',
                     'imdb_id' => NULL,
-                    'image' => '',
-                'bio' => 'Peter R. Hunt was born on March 11, 1925 in London, England as Peter Roger Hunt. He was an editor and director, known for On Her Majesty&#039;s Secret Service (1969), Goldfinger (1964) and Dr. No (1962). He died on August 14, 2002 in Santa Monica, California, USA.',
+                    'image' => 'peter_r__hunt_1455357200.jpg',
+                'bio' => 'Peter R. Hunt was born on March 11, 1925 in London, England as Peter Roger Hunt. He was an editor and director, known for {{On Her Majesty&#039;s Secret Service (1969)}}, {{Goldfinger (1964)}} and {{Dr. No (1962)}}. He died on August 14, 2002 in Santa Monica, California, USA.',
                     'created_at' => '2016-02-03 09:33:21',
-                    'updated_at' => '2016-02-03 19:47:27',
+                    'updated_at' => '2016-02-13 09:53:45',
                 ),
                 273 => 
                 array (
@@ -23363,10 +23365,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1932-01-19',
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'richard_lester_1455357291.jpg',
                 'bio' => 'Richard Lester was one of the most influential directors of the 1960s, and continued his career into the 1970s and early &#039;80s. He is best remembered for the two films he helmed starring The Beatles: A Hard Day&#039;s Night (1964) (1964) and Help! (1965) (1965), the frenetic cutting style of which was seen by many as the predecessor of the music video a generation later. Lester had made his name with the Oscar-nominated short subject The Running Jumping &amp; Standing Still Film (1959) that he made with &quot;The Goon Show&quot; veterans Peter Sellers and Spike Milligan. He then directed Sellers in The Mouse on the Moon (1963), which was produced by Walter Shenson. The Goons were a favorite of The Beatles, and when Shenson got the rights to make a movie with The Beatles, Lester seemed to be the ideal director for the project. That project, &quot;A Hard Day&#039;s Night&quot;, was not only a huge box-office hit but a major critical success as well. &quot;Village Voice&quot; movie critic Andrew Sarris, the American promoter of the  ....',
                     'created_at' => '2016-02-03 09:37:16',
-                    'updated_at' => '2016-02-03 19:49:18',
+                    'updated_at' => '2016-02-13 09:54:51',
                 ),
                 289 => 
                 array (
@@ -23454,10 +23456,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1889-02-23',
                     'deceased' => '1949-01-06',
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'victor_fleming_1455358574.jpg',
                 'bio' => 'Victor Fleming entered the film business as a stuntman in 1910, mainly doing stunt driving - which came easy to him, as he had been a mechanic and professional race-car driver. He became interested in working on the other side of the camera, and eventually got a job as a cameraman on many of the films of Douglas Fairbanks. He soon began directing, and his first big hit was The Virginian (1929). It was the movie that turned Gary Cooper into a star (a fact Cooper never forgot; he and Fleming remained friends for life). Fleming&#039;s star continued to rise during the &#039;30s, and he was responsible for many of the films that would eventually be considered classics, such as Red Dust (1932), Bombshell (1933), Treasure Island (1934), and the two films that were the high marks of his career: Gone with the Wind (1939) and The Wizard of Oz (1939). Ironically Fleming was brought in on both pictures to replace other directors and smooth out the troubled productions, a feat he accomplished masterfully. H ....',
                     'created_at' => '2016-02-03 09:40:52',
-                    'updated_at' => '2016-02-03 19:53:54',
+                    'updated_at' => '2016-02-13 10:16:14',
                 ),
                 296 => 
                 array (
@@ -23467,10 +23469,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1943-07-12',
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => '',
+                    'image' => 'walter_murch_1455358779.jpg',
                 'bio' => 'Walter Murch has been editing sound in Hollywood since starting on Francis Ford Coppola&#039;s film The Rain People (1969). He edited sound on American Graffiti (1973) and The Godfather: Part II (1974), won his first Academy Award nomination for The Conversation (1974), won his first Oscar for Apocalypse Now (1979), and won an unprecedented double Oscar for Best Sound and Best Film Editing for his work on The English Patient (1996). Most recently he helped reconstruct Touch of Evil (1958) to Orson Welles&#039; original notes, and edited The Talented Mr. Ripley (1999). Mr. Murch was, along with George Lucas and Francis Ford Coppola, a founding member of northern California cinema. Mr. Murch has directed --Return to Oz (1985) -- and longs to do so again, but as an editor and sound man he is one of the few universally acknowledged masters in his field. For his work on the film &quot;Apocalypse Now (1979)&quot;, Walter coined the term &quot;sound designer&quot;, and along with colleagues such as Ben Burtt, helped to el ....',
                     'created_at' => '2016-02-03 09:40:59',
-                    'updated_at' => '2016-02-03 19:54:40',
+                    'updated_at' => '2016-02-13 10:19:39',
                 ),
                 297 => 
                 array (
@@ -23961,10 +23963,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Jim_Kammerud_1454755983.jpg',
-                'bio' => 'Jim Kammerud is known for his work on 101 Dalmatians II: Patch\'s London Adventure (2003), Ice Age: Continental Drift (2012) and Space Jam (1996).',
+                    'image' => 'jim_kammerud_1455356280.jpg',
+                'bio' => 'Jim Kammerud is known for his work on 101 Dalmatians II: Patch&#039;s London Adventure (2003), Ice Age: Continental Drift (2012) and Space Jam (1996).',
                     'created_at' => '2016-02-06 10:53:03',
-                    'updated_at' => '2016-02-06 10:53:03',
+                    'updated_at' => '2016-02-13 09:38:00',
                 ),
                 335 => 
                 array (
@@ -23974,10 +23976,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Toby_Shelton_1454755989.jpg',
+                    'image' => 'toby_shelton_1455358232.jpg',
                     'bio' => '',
                     'created_at' => '2016-02-06 10:53:09',
-                    'updated_at' => '2016-02-06 10:53:09',
+                    'updated_at' => '2016-02-13 10:10:32',
                 ),
                 336 => 
                 array (
@@ -23987,10 +23989,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Tad_Stones_1454755995.jpg',
+                    'image' => 'tad_stones_1455358037.jpg',
                 'bio' => 'Tad Stones is known for his work on Darkwing Duck (1991), The Return of Jafar (1994) and Aladdin (1994).',
                     'created_at' => '2016-02-06 10:53:15',
-                    'updated_at' => '2016-02-06 10:53:15',
+                    'updated_at' => '2016-02-13 10:07:17',
                 ),
                 337 => 
                 array (
@@ -24000,10 +24002,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => '1909-06-26',
                     'deceased' => '1985-05-22',
                     'imdb_id' => NULL,
-                    'image' => 'Wolfgang_Reitherman_1454756004.jpg',
+                    'image' => 'wolfgang_reitherman_1455358872.jpg',
                 'bio' => 'Wolfgang Reitherman was born on June 26, 1909 in Munich, Bavaria, Germany. He is known for his work on The Jungle Book (1967), Robin Hood (1973) and 101 Dalmatians (1961). He was married to Janie McMillan. He died on May 22, 1985 in Burbank, California, USA.',
                     'created_at' => '2016-02-06 10:53:24',
-                    'updated_at' => '2016-02-06 10:53:24',
+                    'updated_at' => '2016-02-13 10:21:12',
                 ),
                 338 => 
                 array (
@@ -24024,12 +24026,12 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'forename' => 'Ted',
                     'surname' => 'Berman',
                     'birthday' => '1919-12-17',
-                    'deceased' => NULL,
+                    'deceased' => '2001-07-15',
                     'imdb_id' => NULL,
-                    'image' => 'Ted_Berman_1454756016.jpg',
+                    'image' => 'ted_berman_1455358084.jpg',
                     'bio' => '',
                     'created_at' => '2016-02-06 10:53:36',
-                    'updated_at' => '2016-02-06 10:53:36',
+                    'updated_at' => '2016-02-13 10:08:27',
                 ),
                 340 => 
                 array (
@@ -24078,10 +24080,10 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'John_Kafka_1454756036.jpg',
+                    'image' => 'john_kafka_1455356368.jpg',
                     'bio' => '',
                     'created_at' => '2016-02-06 10:53:56',
-                    'updated_at' => '2016-02-06 10:53:56',
+                    'updated_at' => '2016-02-13 09:39:28',
                 ),
                 344 => 
                 array (
@@ -24106,10 +24108,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                     'birthday' => '1893-02-05',
                     'deceased' => '1976-09-29',
                     'imdb_id' => NULL,
-                    'image' => 'Samuel_Armstrong_1454756045.jpg',
+                    'image' => 'samuel_armstrong_1455357601.jpg',
                 'bio' => 'Samuel Armstrong was born on February 5, 1893 in Minneapolis, Minnesota, USA. He is known for his work on Dumbo (1941), Bambi (1942) and Blanche Neige et les sept nains (1937). He died on September 29, 1976 in Minneapolis.',
                     'created_at' => '2016-02-06 10:54:06',
-                    'updated_at' => '2016-02-06 10:54:06',
+                    'updated_at' => '2016-02-13 10:00:02',
                 ),
                 346 => 
                 array (
@@ -24132,10 +24134,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Tony_Bancroft_1454756058.jpg',
-                'bio' => 'Tony Bancroft has spent the past 16 years developing his skills as an Animator/Director with Walt Disney Feature Animation, Sony Imageworks, and currently with Toonacious Family Entertainment, his own animation studio. Tony was accepted into the exclusive, Disney-sponsored California Institute of the Arts (Cal-Arts) after graduating from high school in 1987. While there, his work caught the attention of Walt Disney Studios. He was offered a position in the prestigious Feature Animation division in 1989. Following his work on such feature length productions as "Rescuers Down Under", "Beauty and the Beast", and "Aladdin", Tony was appointed Supervising Animator on the 1992 Academy Award winning feature "The Lion King", and was responsible for creating, designing and overseeing the animation of Pumbaa, the wart hog. His exemplary work led, at the age of 30, to the opportunity to Co-direct Disney\'s 36th animation masterpiece, "Mulan". "Mulan\'s" 1998 release grossed over $300 million worldw ....',
+                    'image' => 'tony_bancroft_1455358400.jpg',
+                'bio' => 'Tony Bancroft has spent the past 16 years developing his skills as an Animator/Director with Walt Disney Feature Animation, Sony Imageworks, and currently with Toonacious Family Entertainment, his own animation studio. Tony was accepted into the exclusive, Disney-sponsored California Institute of the Arts (Cal-Arts) after graduating from high school in 1987. While there, his work caught the attention of Walt Disney Studios. He was offered a position in the prestigious Feature Animation division in 1989. Following his work on such feature length productions as &quot;Rescuers Down Under&quot;, &quot;Beauty and the Beast&quot;, and &quot;Aladdin&quot;, Tony was appointed Supervising Animator on the 1992 Academy Award winning feature &quot;The Lion King&quot;, and was responsible for creating, designing and overseeing the animation of Pumbaa, the wart hog. His exemplary work led, at the age of 30, to the opportunity to Co-direct Disney&#039;s 36th animation masterpiece, &quot;Mulan&quot;. &quot;Mulan&#039;s&quot; 1998 release grossed over $300 million worldw ....',
                     'created_at' => '2016-02-06 10:54:19',
-                    'updated_at' => '2016-02-06 10:54:19',
+                    'updated_at' => '2016-02-13 10:13:20',
                 ),
                 348 => 
                 array (
@@ -24158,10 +24160,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Michael_Labash_1454756078.jpg',
+                    'image' => 'michael_labash_1455356962.jpg',
                     'bio' => '',
                     'created_at' => '2016-02-06 10:54:38',
-                    'updated_at' => '2016-02-06 10:54:38',
+                    'updated_at' => '2016-02-13 09:49:22',
                 ),
                 350 => 
                 array (
@@ -24171,10 +24173,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Tony_Craig_1454756084.jpg',
-                'bio' => 'Tony Craig studied art at Winthrop University in Rock Hill, SC and the California Institute of the Arts. He has worked as an artist in the animation industry for 23 years on shows ranging from "Tiny Toon Adventures" and "Animaniacs" at Warner Brothers, to serving as executive producer/director on "The Lion King\'s Timon and Pumbaa", "101 Dalmatians" (TV series), "Mickey MouseWorks", "House of Mouse", "Lilo and Stitch" (TV series), two video sequels to "Lilo and Stitch", and "Mickey Mouse Clubhouse", before moving to NC and devoting more time to his own artwork. He still freelances on many current animation projects including "The Looney Tunes Show" and "Curious George". His latest animation assignments are on "Exchange Student Zero" and the upcoming" Be Cool Scooby Doo". Along the way, Tony worked with such greats as Chuck Jones, Gene Kelly, Bill Hanna and Joe Barbera, and Roy E. Disney.',
+                    'image' => 'tony_craig_1455358525.jpg',
+                'bio' => 'Tony Craig studied art at Winthrop University in Rock Hill, SC and the California Institute of the Arts. He has worked as an artist in the animation industry for 23 years on shows ranging from &quot;Tiny Toon Adventures&quot; and &quot;Animaniacs&quot; at Warner Brothers, to serving as executive producer/director on &quot;The Lion King&#039;s Timon and Pumbaa&quot;, &quot;101 Dalmatians&quot; (TV series), &quot;Mickey MouseWorks&quot;, &quot;House of Mouse&quot;, &quot;Lilo and Stitch&quot; (TV series), two video sequels to &quot;Lilo and Stitch&quot;, and &quot;Mickey Mouse Clubhouse&quot;, before moving to NC and devoting more time to his own artwork. He still freelances on many current animation projects including &quot;The Looney Tunes Show&quot; and &quot;Curious George&quot;. His latest animation assignments are on &quot;Exchange Student Zero&quot; and the upcoming&quot; Be Cool Scooby Doo&quot;. Along the way, Tony worked with such greats as Chuck Jones, Gene Kelly, Bill Hanna and Joe Barbera, and Roy E. Disney.',
                     'created_at' => '2016-02-06 10:54:44',
-                    'updated_at' => '2016-02-06 10:54:44',
+                    'updated_at' => '2016-02-13 10:15:25',
                 ),
                 351 => 
                 array (
@@ -24210,10 +24212,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Robin_Budd_1454756105.jpg',
+                    'image' => 'robin_budd_1455357424.jpg',
                 'bio' => 'Robin Budd is known for his work on Ruby Gloom (2006), Return to Never Land (2002) and Beetlejuice (1989).',
                     'created_at' => '2016-02-06 10:55:05',
-                    'updated_at' => '2016-02-06 10:55:05',
+                    'updated_at' => '2016-02-13 09:57:04',
                 ),
                 354 => 
                 array (
@@ -24223,10 +24225,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                     'birthday' => NULL,
                     'deceased' => NULL,
                     'imdb_id' => NULL,
-                    'image' => 'Mike_Gabriel_1454756114.jpg',
-                'bio' => 'Mike Gabriel is known for his work on Pocahontas (1995), Oliver & Company (1988) and Bolt (2008).',
+                    'image' => 'mike_gabriel_1455357029.jpg',
+                'bio' => 'Mike Gabriel is known for his work on Pocahontas (1995), Oliver &amp; Company (1988) and Bolt (2008).',
                     'created_at' => '2016-02-06 10:55:14',
-                    'updated_at' => '2016-02-06 10:55:14',
+                    'updated_at' => '2016-02-13 09:50:29',
                 ),
                 355 => 
                 array (
@@ -24236,10 +24238,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                     'birthday' => '1911-03-09',
                     'deceased' => '1976-02-13',
                     'imdb_id' => NULL,
-                    'image' => 'John_Lounsbery_1454756118.jpg',
+                    'image' => 'john_lounsbery_1455356497.jpg',
                 'bio' => 'John Lounsbery was born on March 9, 1911 in Cincinnati, Ohio, USA as John Mitchell Lounsbery. He is known for his work on The Many Adventures of Winnie the Pooh (1977), Mary Poppins (1964) and The Jungle Book (1967). He was married to Florence Louise Hurd. He died on February 13, 1976 in Los Angeles, California, USA.',
                     'created_at' => '2016-02-06 10:55:18',
-                    'updated_at' => '2016-02-06 10:55:18',
+                    'updated_at' => '2016-02-13 09:41:37',
                 ),
                 356 => 
                 array (
@@ -24938,10 +24940,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                         'birthday' => NULL,
                         'deceased' => NULL,
                         'imdb_id' => NULL,
-                        'image' => '',
+                        'image' => 'roberts_gannaway_1455357375.jpg',
                     'bio' => 'Roberts Gannaway is known for his work on House of Mouse (2001), Stitch! The Movie (2003) and Planes: Fire &amp; Rescue (2014).',
                         'created_at' => '2016-02-09 11:41:38',
-                        'updated_at' => '2016-02-09 11:49:02',
+                        'updated_at' => '2016-02-13 09:56:15',
                     ),
                     410 => 
                     array (
@@ -24951,10 +24953,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                         'birthday' => NULL,
                         'deceased' => NULL,
                         'imdb_id' => NULL,
-                        'image' => '',
+                        'image' => 'peggy_holmes_1455357120.jpg',
                     'bio' => 'Peggy Holmes is known for her work on Wayne&#039;s World (1992), The Pirate Fairy (2014) and Secret of the Wings (2012).',
                         'created_at' => '2016-02-09 11:41:43',
-                        'updated_at' => '2016-02-09 11:49:11',
+                        'updated_at' => '2016-02-13 09:52:00',
                     ),
                     411 => 
                     array (
@@ -24990,10 +24992,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                         'birthday' => NULL,
                         'deceased' => NULL,
                         'imdb_id' => NULL,
-                        'image' => '',
+                        'image' => 'lev_l__spiro_1455356691.jpg',
                     'bio' => 'After earning dual Bachelor&#039;s Degrees in Political Science and Communication Arts from the University of Wisconsin-Madison, and a Master&#039;s Degree in Film Production from The University of Texas at Austin, Spiro broke in to directing with his award-winning feature short The Convict, based on a short story by James Lee Burke. After writing and directing several feature films for Roger Corman&#039;s Concorde/New Horizons, he began directing episodes, pilots and features for television. In the past decade, Mr. Spiro has directed many one hour drama and half hour single-camera comedy pilots and episodes for both network and cable. Episodic television work includes multiple episodes of the acclaimed series Weeds (2005), Arrested Development (2003), Ugly Betty (2006), Everybody Hates Chris (2005), The O.C. (2003), Gilmore Girls (2000) and many more. Original television pilots include the single camera comedy Do Over (2002) and the drama Summerland (2004) for the WB network, The Jersey (1999) for t ....',
                         'created_at' => '2016-02-09 11:42:03',
-                        'updated_at' => '2016-02-09 11:49:26',
+                        'updated_at' => '2016-02-13 09:44:51',
                     ),
                     414 => 
                     array (
@@ -25003,10 +25005,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                         'birthday' => NULL,
                         'deceased' => NULL,
                         'imdb_id' => NULL,
-                        'image' => '',
+                        'image' => 'matthew_diamond_1455356836.jpg',
                     'bio' => 'Matthew Diamond is a director and producer, known for Two Guys, a Girl and a Pizza Place (1998), Camp Rock (2008) and The Oogieloves in the Big Balloon Adventure (2012).',
                         'created_at' => '2016-02-09 11:42:08',
-                        'updated_at' => '2016-02-09 11:49:36',
+                        'updated_at' => '2016-02-13 09:47:16',
                     ),
                     415 => 
                     array (
@@ -25030,10 +25032,10 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                         'birthday' => '1969-05-07',
                         'deceased' => NULL,
                         'imdb_id' => NULL,
-                        'image' => '',
+                        'image' => 'jun_falkenstein_1455356628.jpg',
                         'bio' => 'Jun Falkenstein has been an animation director, writer, and story artist for the past 15 years. She grew up in Laguna Beach, California, and received a B.A. from USC&#039;s School of Cinema-Television in 1991. Since then, she has worked at many major studios in both television and theatrical animation, including the Walt Disney Studios, Warner Brothers, Universal Pictures, Hanna-Barbera, and Dreamworks. She made her television directorial debut in 1994 with the Hanna Barbera TV movie, &quot;Scooby Doo in Arabian Nights,&quot; and her theatrical directorial debut with Walt Disney&#039;s &quot;The Tigger Movie&quot; in 2000. Jun is also an accomplished bass player and machinima filmmaker.',
                         'created_at' => '2016-02-09 11:42:19',
-                        'updated_at' => '2016-02-09 11:50:01',
+                        'updated_at' => '2016-02-13 09:43:48',
                     ),
                     417 => 
                     array (

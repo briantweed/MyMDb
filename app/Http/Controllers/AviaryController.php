@@ -19,7 +19,7 @@ class AviaryController extends Controller
          $dest = $data['dest'];
          $protocol     = isset( $_SERVER["HTTPS"] ) ? 'https://' : 'http://';
       	$absolutePath = $protocol. $_SERVER['HTTP_HOST'].'/images/'.$dest.'/';
-      	$uploadPath   = $_SERVER['DOCUMENT_ROOT'].'/images/'.$dest.'/';
+      	$uploadPath   = $_SERVER['DOCUMENT_ROOT'].'/public/images/'.$dest.'/';
 
       	// FILENAME
       	$filename = str_replace($absolutePath, '', $src);
