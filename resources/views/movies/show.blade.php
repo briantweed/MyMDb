@@ -31,7 +31,7 @@
    <div class="row movie">
 
       {{-- left column --}}
-      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+      <div id="left-hand-column" class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 
          <div class="row">
             <div class="col-xs-12">
@@ -47,8 +47,6 @@
 
          <div class="side-buttons">
 
-            @include('segments.buttons.home')
-
             @include('segments.buttons.edit')
 
             @include('segments.buttons.view')
@@ -62,7 +60,7 @@
       </div> {{-- end of left column --}}
 
       {{-- right column --}}
-      <div class="col-xs-12 col-sm-9 col-md-9 col-lg-offset-1 col-lg-8">
+      <div class="col-xs-12 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-1 col-lg-8">
 
          <h1>{{$movie->name}}<br/></h1>
 

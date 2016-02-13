@@ -6766,6 +6766,11 @@ i.main_actor {
   color: #3DB5DB;
   cursor: pointer; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  #left-hand-column {
+    position: fixed;
+    width: 242px; } }
+
 /*
 |----------------------------------------------------------------------
 |  Fontello

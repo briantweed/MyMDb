@@ -61,11 +61,6 @@
 
       </div>
 
-
-      <footer>
-         @include('segments.footer')
-      </footer>
-
    </body>
 
 </html>

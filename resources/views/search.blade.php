@@ -52,10 +52,6 @@
 
       {!! Html::script(elixir('js/mymdb.js')) !!}
 
-      <footer>
-         @include('segments.footer')
-      </footer>
-
    </body>
 
 </html>

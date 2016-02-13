@@ -34,7 +34,7 @@
    <div class="row movie">
 
       {{-- left column --}}
-      <div class="{{env('LEFT_COLUMN')}}">
+      <div id="left-hand-column" class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 
          {{-- cover image --}}
          <div class="row">
@@ -51,8 +51,6 @@
 
          <div class="side-buttons">
 
-            @include('segments.buttons.home')
-
             @include('segments.buttons.edit_person')
 
             @include('segments.buttons.imdb_person')
@@ -65,7 +63,7 @@
       </div> {{-- end of left column --}}
 
       {{-- right column --}}
-      <div class="{{env('RIGHT_COLUMN')}}">
+      <div class="col-xs-12 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-1 col-lg-8">
 
          <div class="row">
             <div class="col-xs-12"><h1>{{$person->forename}} {{$person->surname}}</h1></div>

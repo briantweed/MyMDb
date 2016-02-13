@@ -783,6 +783,12 @@ i.main_actor {
    cursor: pointer;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+   #left-hand-column {
+      position: fixed;
+      width: 242px;
+   }
+}
 
 /*
 |----------------------------------------------------------------------
