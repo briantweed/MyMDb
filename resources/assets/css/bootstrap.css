@@ -5885,7 +5885,6 @@ button.close {
     position: relative;
     color: transparent;
     background: #dddddd;
-    text-indent: 100%;
     width: 4em;
     height: 2em;
     cursor: pointer;
