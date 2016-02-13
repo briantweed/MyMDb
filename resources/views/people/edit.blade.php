@@ -98,7 +98,7 @@
             <div role="tabpanel" class="tab-pane fade in" id="roles">
                <div class="row">
                   <div class="col-xs-12">
-                     <a onclick="addMovieRole()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-movie"></i> <span class="hidden-sm">new role</span></a>
+                     <a onclick="addMovieRole()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-movie"></i> new role</a>
                   </div>
                </div>
                <div class="row cast">
@@ -113,7 +113,7 @@
             <div role="tabpanel" class="tab-pane fade in" id="positions">
                <div class="row">
                   <div class="col-xs-12">
-                     <a onclick="showModal('createPosition', '')" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-director"></i> <span class="hidden-sm">new position</span></a>
+                     <a onclick="showModal('createPosition', '')" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-director"></i> new position</a>
                   </div>
                </div>
                <div class="row cast">

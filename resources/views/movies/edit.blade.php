@@ -125,7 +125,7 @@
             <div role="tabpanel" class="tab-pane fade" id="crew">
                <div class="row">
                   <div class="col-xs-12">
-                     <a onclick="addCrewMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-director"></i> <span class="hidden-sm">new crew</span></a>
+                     <a onclick="addCrewMember()" class="btn btn-primary" href="javascript:void(0)"><i class="ft icon-director"></i> new crew</a>
                   </div>
                </div>
                <div class="row">
@@ -140,7 +140,7 @@
             <div role="tabpanel" class="tab-pane fade" id="genres">
                <div class="row">
                   <div class="col-xs-12">
-                     <a class="btn btn-primary" onclick="showModal('genre', 'new')" href="javascript:void(0)"><i class="ft icon-genre"></i> <span class="hidden-sm">new genre</span></a>
+                     <a class="btn btn-primary" onclick="showModal('genre', 'new')" href="javascript:void(0)"><i class="ft icon-genre"></i> new genre</a>
                   </div>
                </div>
                <div class="row genres">
