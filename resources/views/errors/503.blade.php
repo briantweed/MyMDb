@@ -31,7 +31,7 @@
 
          <div class="main-content">
             <div class="row">
-               <div class="col-xs-8 col-xs-offset-2">
+               <div class="col-xs-10 col-xs-offset-1 text-center">
                   <p class="error-quote">"It's a scream, baby. Hold a second, we'll be right back."</p>
                   <p class="error-link"><a href="javascript:void(0)">Scream (1996)</a></p>
                </div>

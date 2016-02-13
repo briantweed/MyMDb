@@ -62,7 +62,7 @@
       @endif
 
    @else
-      <div class="col-xs-8 col-xs-offset-2">
+      <div class="col-xs-10 col-xs-offset-1 text-center">
          <br/><br/>
          <p class="error-quote">"{{$quote->text}}"</p>
          <p class="error-link"><a href="{{ action('MovieController@show', $quote->movie_id) }}">{{$quote->name}} ({{$quote->released}})</a></p>

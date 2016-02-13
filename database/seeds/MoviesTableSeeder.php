@@ -5095,8 +5095,8 @@ Yippee Kayaye Maggot Farmer!',
             267 => 
             array (
                 'movie_id' => 272,
-                'name' => 'Chute libre',
-                'sort_name' => 'Chute libre',
+                'name' => 'Falling Down',
+                'sort_name' => 'Falling Down',
                 'imdb_id' => 'tt0106856',
                 'released' => 1993,
                 'rating' => 7,
@@ -5106,10 +5106,10 @@ Yippee Kayaye Maggot Farmer!',
                 'format_id' => 1,
                 'studio_id' => 19,
                 'duplicate' => 0,
-                'bio' => 'On the day of his daughter&#039;s birthday, William &quot;D-Fens&quot; Foster is trying to get home of his estranged ex-wife to see her daughter. He has a breakdown and leaves his car in a traffic jam in Los Angeles and decides to walk. Then he goes to a convenience store and tries to get some changes for a phone call but the Korean owner does not change his money. The unstable William breaks apart the shop with a baseball bat and goes to an isolated place to drink a coke. Two gangsters threaten him and he reacts hitting them with the bat. William continues walking and stops at a phone booth. The gangsters hunt him down with their gang and shoot him but crash their car. William goes nuts and takes their gym bag with weapons proceeding in his journey of rage against injustice. Meanwhile Sergeant Martin Prendergast that is working on his last day before retirement is following the wave of crimes and believes that the responsible is the same man but the other detectives do not pay attention to him.',
+                'bio' => 'A middle-aged man dealing with both unemployment and divorce, William Foster is having a bad day. When his car breaks down on a Los Angeles highway, he leaves his vehicle and begins a trek across the city to attend his daughter\'s birthday party. As he makes his way through the urban landscape, William\'s frustration and bitterness become more evident, resulting in violent encounters with various people, including a vengeful gang and a dutiful veteran cop.',
                 'purchased' => '2015-01-01 00:00:00',
                 'created_at' => '2016-01-28 21:22:23',
-                'updated_at' => '2016-01-28 21:22:23',
+                'updated_at' => '2016-02-13 15:19:35',
             ),
             268 => 
             array (

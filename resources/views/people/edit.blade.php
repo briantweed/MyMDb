@@ -21,15 +21,6 @@
 {{-- Main Body --}}
 @section('content')
 
-   @if(session('status'))
-      <div class="col-xs-12 alert alert-dismissible alert-success">
-         <button type="button" class="close" >
-            <span aria-hidden="true">&times;</span>
-         </button>
-         {{session('status')}}
-      </div>
-   @endif
-
    <div class="row movie">
 
       {{-- left column --}}
@@ -71,6 +62,14 @@
       {{-- right column --}}
       <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-1 col-lg-8">
 
+         @if(session('status'))
+            <div class="col-xs-12 alert alert-dismissible alert-success">
+               <button type="button" class="close" >
+                  <span aria-hidden="true">&times;</span>
+               </button>
+               {{session('status')}}
+            </div>
+         @endif
 
          {{-- errors column --}}
          @if($errors->any())
