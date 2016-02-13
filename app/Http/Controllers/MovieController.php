@@ -29,6 +29,7 @@ class MovieController extends Controller {
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
+
 	/**
 	*
 	* Show all movies, 48 per page
@@ -43,6 +44,7 @@ class MovieController extends Controller {
 		$user = $this->isAdmin;
 		return view('movies.index', compact('movies', 'user'));
 	}
+
 
 	/**
 	*
@@ -65,6 +67,7 @@ class MovieController extends Controller {
 		return view('movies.show', compact('movie','user'));
 	}
 
+
 	/**
 	*
 	* Show form to create new movie
@@ -86,6 +89,7 @@ class MovieController extends Controller {
 
 		return view('movies.create', compact('fields', 'options', 'user'));
 	}
+
 
 	/**
 	*
@@ -134,6 +138,7 @@ class MovieController extends Controller {
 
 		return redirect()->action('MovieController@edit', [$created->movie_id])->with('status', 'Movie Added Successfully');
 	}
+
 
 	/**
 	*
@@ -194,6 +199,7 @@ class MovieController extends Controller {
 		return view('movies.edit', compact('movie', 'fields', 'values', 'options', 'user'));
 	}
 
+
 	/**
 	*
 	* Update movie with any changes made
@@ -246,6 +252,7 @@ class MovieController extends Controller {
 		return redirect()->action('MovieController@edit', [$movie_id])->with('status', 'Movie Updated Successfully');
 	}
 
+
 	/**
 	*
 	* Delete selected movie from the database
@@ -258,15 +265,6 @@ class MovieController extends Controller {
 		Movies::where('movie_id', '=', $movie_id)->delete();
 		return redirect()->action('MovieController@index')->with('status', 'Movie Deleted');
 	}
-
-
-
-	/**
-	* ---------------------------------------------------------------
-	* Private Functions
-	* ---------------------------------------------------------------
-	*/
-
 
 
 	/**
@@ -293,6 +291,7 @@ class MovieController extends Controller {
       return "error";
    }
 
+
 	/**
 	*
 	* Update character name for exising cast member
@@ -318,6 +317,7 @@ class MovieController extends Controller {
       return "error";
    }
 
+
 	/**
 	*
 	* Add crew member and position to crew pivot table
@@ -342,6 +342,7 @@ class MovieController extends Controller {
       return "error";
    }
 
+
 	/**
 	*
 	* Remove cast member from movie
@@ -365,6 +366,7 @@ class MovieController extends Controller {
       return "error";
    }
 
+
 	/**
 	*
 	* Remove crew member from movie
@@ -387,6 +389,7 @@ class MovieController extends Controller {
       }
 	   return "error";
    }
+
 
 	/**
 	*
@@ -429,46 +432,6 @@ class MovieController extends Controller {
 		return "error";
 	}
 
-	/**
-	*
-	* Return confirmation modal to copy cast from one movie to another
-	* @return Response
-	*
-	*/
-	public function confirmDuplicateCast()
-	{
-		if(Request::ajax())
-		{
-			$data = $data = Request::all();
-			return (String) view('modal.duplicate_cast', compact('data'));
-		}
-		return false;
-	}
-
-	/**
-	*
-	* Copy existing cast from one movie to another
-	* @return View
-	*
-	*/
-	public function duplicateCast()
-	{
-		if(!$this->isAdmin) return view('auth.login');
-		$data = $data = Request::all();
-		if(isset($data['id']))
-		{
-			$existing_movie = Movies::find($data['id']);
-			$new_movie_id = Session::get('movie_id');
-			$new_cast = [];
-			$movie = Movies::findorfail($new_movie_id);
-			foreach($existing_movie->cast as $cast) {
-				$new_cast[] = ['movie_id'=>$new_movie_id, 'person_id'=>$cast->pivot->person_id, 'character'=>$cast->pivot->character];
-			}
-			$movie->cast()->sync($new_cast);
-			return (String) view('movies.cast', compact('movie'));
-		}
-		return " ";
-	}
 
 	/**
 	*

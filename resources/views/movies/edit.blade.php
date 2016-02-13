@@ -49,10 +49,9 @@
 
          <div class="side-buttons">
 
-            @if( Request::is('movies/*/edit'))
-               <hr/>
-               @include('segments.buttons.delete_movie')
-            @endif
+            <hr/>
+
+            @include('segments.buttons.delete_movie')
 
             @include('segments.layout.padding')
 

@@ -40,7 +40,6 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 	Route::post('addNewCrew', 'MovieController@addCrewMember');
 	Route::post('removeCast', 'MovieController@removeCastMember');
 	Route::post('removeCrew', 'MovieController@removeCrewMember');
-	Route::post('confirmDuplicateCast', 'MovieController@confirmDuplicateCast');
 	Route::post('duplicateCast', 'MovieController@duplicateCast');
 	Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 
