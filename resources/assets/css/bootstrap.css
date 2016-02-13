@@ -6766,7 +6766,12 @@ i.main_actor {
   color: #3DB5DB;
   cursor: pointer; }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  #left-hand-column {
+    position: fixed;
+    width: 188px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
   #left-hand-column {
     position: fixed;
     width: 242px; } }
