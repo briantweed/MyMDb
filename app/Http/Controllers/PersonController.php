@@ -233,8 +233,9 @@ class PersonController extends Controller {
 				$movie_id = $data['movie'];
 				$person_id = $data['person'];
 				$character_name = $data['character'];
+				$star = $data['star'];
 				$person = Persons::findorfail($person_id);
-				$person->roles()->attach($movie_id, array('character' => $character_name));
+				$person->roles()->attach($movie_id, array('character' => $character_name, 'star' => $star));
 				return (String) view('people.roles', compact('person'));
 			}
 		}
@@ -251,8 +252,9 @@ class PersonController extends Controller {
 	         $movie_id = $data['movie'];
 	         $person_id = $data['person'];
 	         $character_name = $data['character'];
+	         $star = $data['star'];
 	         $person = Persons::findorfail($person_id);
-				$person->roles()->updateExistingPivot($movie_id, array('character' => $character_name));
+				$person->roles()->updateExistingPivot($movie_id, array('character' => $character_name, 'star' => $star));
 				return (String) view('people.roles', compact('person'));
 	      }
       }

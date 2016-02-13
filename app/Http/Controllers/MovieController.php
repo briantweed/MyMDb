@@ -283,8 +283,9 @@ class MovieController extends Controller {
 	         $movie_id = $data['movie'];
 	         $person_id = $data['person'];
 				$character_name = $data['character'];
+				$star = $data['star'];
 	         $movie = Movies::findorfail($movie_id);
-	         $movie->cast()->attach($person_id, array('character' => $character_name));
+	         $movie->cast()->attach($person_id, array('character' => $character_name, 'star' => $star));
 				return (String) view('movies.existing_cast', compact('movie'));
 	      }
       }

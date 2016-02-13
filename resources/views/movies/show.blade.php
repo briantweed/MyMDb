@@ -48,11 +48,8 @@
          <div class="side-buttons">
 
             @include('segments.buttons.edit')
-
             @include('segments.buttons.view')
-
             @include('segments.buttons.imdb')
-
             @include('segments.layout.padding')
 
          </div>

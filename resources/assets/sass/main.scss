@@ -728,6 +728,7 @@ span {
     padding: 0;
     text-align: center;
 }
+
 .pages li {
     background: #fff none repeat scroll 0 0;
     border-radius: 10px;
@@ -740,52 +741,62 @@ span {
     text-indent: -999px;
     width: 14px;
 }
+
 .pages li:hover {
     background: #aaa none repeat scroll 0 0;
 }
+
 .pages li.active {
     background: #666 none repeat scroll 0 0;
 }
 
 
-label.main_actor {
+label.main_actor,label.main_star {
     color: #666666;
     cursor: pointer;
     padding-left: 2.2em;
     position: relative;
 }
-label.main_actor::before, label.main_actor::after {
+
+label.main_actor::before, label.main_actor::after,
+label.main_star::before, label.main_star::after {
     font-family: Fontello;
     font-size: 2.4rem;
     left: 0;
     position: absolute;
     top: -9px;
 }
-label.main_actor::before {
+label.main_actor::before,label.main_star::before {
     content: "\e835";
 }
-label.main_actor::after {
+
+label.main_actor::after,label.main_star::after {
     content: "\e836";
     max-width: 0;
     overflow: hidden;
     transition: all 0.3s ease 0s;
 }
-input#main_actor[type="checkbox"] {
+
+input#main_actor[type="checkbox"],input#main_star[type="checkbox"] {
     display: none;
 }
 
-input#main_actor[type="checkbox"]:checked + label.main_actor::before {
+input#main_actor[type="checkbox"]:checked + label.main_actor::before,
+input#main_star[type="checkbox"]:checked + label.main_star::before {
     color: #fff;
 }
-input#main_actor[type="checkbox"]:checked + label.main_actor::after {
+
+input#main_actor[type="checkbox"]:checked + label.main_actor::after,
+input#main_star[type="checkbox"]:checked + label.main_star::after {
     color: $main_actor;
     max-width: 2.4rem;
 }
 
-i.main_actor {
+i.main_actor,i.main_star {
    color: $main_actor;
    cursor: pointer;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
    #left-hand-column {
       position: fixed;

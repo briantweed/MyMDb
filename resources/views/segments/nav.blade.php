@@ -37,7 +37,7 @@
                @if(isset($user) && $user!=false && $user->level==1)
                   <a href="{{ action('AdminController@index') }}"><i style="font-size:1.5em" class="ft icon-admin"></i> Admin</a>
                @else
-                  <a href="{{ url('auth/login') }}"><i style="font-size:1.5em" class="ft icon-login"></i> Login</a>
+                  <a href="{{ url('auth/login') }}"><i style="font-size:1.5em" class="ft icon-rebel"></i> Login</a>
                @endif
             </li>
          </ul>

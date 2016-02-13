@@ -76,6 +76,7 @@ $(document).ready(function(){
       $('.modal .form-control').val('');
       setPersonId('');
       setRowId('');
+      clearCheckboxes();
       clearErrorMessages();
       clearModalSelectize();
    });
@@ -89,6 +90,7 @@ $(document).ready(function(){
             person: $('#person_id').val(),
             movie: $('#movie_id').val(),
             character: $('#character_name').val(),
+            star: $('#main_star').is(':checked') ? 1 : 0,
          }
       }).done(function(html){
          var selectize = $("#cast_list")[0].selectize;
@@ -107,7 +109,7 @@ $(document).ready(function(){
             person: $('#person_id').val(),
             movie: $('#movie_id').val(),
             character: $('#edit_character_name').val(),
-            star: $('#main_actor').is(':checked') ? 1 : 0,
+            star: $('#main_actor').is(':checked') ? 1 : 0
          }
       }).done(function(html){
          $('#existing-cast-list').html(html);
@@ -255,6 +257,11 @@ function setPersonType(type) {
 function setCharacterName(name, el) {
    $('#imdb-character-name').val(name);
    $(el).parent().parent().attr('data-hide', 'true');
+}
+
+function clearCheckboxes() {
+   $('#main_star').prop('checked', false);
+   $('#main_actor').prop('checked', false);
 }
 
 function clearModalSelectize() {

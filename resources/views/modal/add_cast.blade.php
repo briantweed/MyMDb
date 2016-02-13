@@ -7,9 +7,19 @@
                {!! Form::label('cast_list', 'Actor Name:') !!}
                {!! Form::select('cast_list', array('' => 'select ...') + $options->actors, '', ['class'=>'form-control','id'=>'cast_list', 'onchange'=>'setPersonId(this.value)']) !!}
             </div>
-            <div class="form-group">
-               {!! Form::label('character_name', 'Character Name:') !!}
-               {!! Form::text('character_name', '', ['class'=>'form-control', 'autocomplete'=>'off']) !!}
+            <div class="row">
+               <div class="col-xs-12">
+                  {!! Form::label('character_name', 'Character Name:') !!}
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-1 main_actor" data-toggle='tooltip' data-placement='top' title='main actor' >
+                  {!! Form::checkbox('main_star', '1', '', ['id' => 'main_star']) !!}
+                  <label for='main_star' class='main_star' ></label>
+               </div>
+               <div class="col-xs-11">
+                  {!! Form::text('character_name', '', ['class'=>'form-control', 'autocomplete'=>'off']) !!}
+               </div>
             </div>
             <div id="new_cast_error" class="row has-error hide">
                <div class="col-xs-12 text-right">

@@ -7,7 +7,7 @@ var featherEditor = new Aviary.Feather({
    ],
    displayImageSize: true,
    noCloseButton: false,
-   onReady: function(){
+   onReady: function() {
       $('#person-poster').addClass('img-responsive');
    },
    onSave: function(imageID, newUrl) {
@@ -29,20 +29,18 @@ var featherEditor = new Aviary.Feather({
    }
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
 
    $('#movieTabs a').click(function (e) {
      e.preventDefault();
      $(this).tab('show');
   });
 
-   // datepicker
    $('.input-group.date').datepicker({
       format: "dd-mm-yyyy",
       orientation: "bottom auto",
       autoclose: true,
       todayHighlight: true
-      // defaultViewDate: { year: 2000, month: 01, day: 01 }
    });
 
    $('#movie_list').selectize();
@@ -54,6 +52,7 @@ $(document).ready(function(){
    $('.modal').on('hide.bs.modal', function(e) {
       $('.modal .form-control').val('');
       setMovieId('');
+      clearCheckboxes();
       clearErrorMessages();
       clearModalSelectize();
    });
@@ -67,8 +66,9 @@ $(document).ready(function(){
             person: $('#person_id').val(),
             movie: $('#movie_id').val(),
             character: $('#character_name').val(),
+            star: $('#main_star').is(':checked') ? 1 : 0
          }
-      }).done(function(html){
+      }).done(function(html) {
          var selectize = $("#movie_list")[0].selectize;
          selectize.removeOption($('#person_id').val());
          $('#role-list').html(html);
@@ -85,14 +85,15 @@ $(document).ready(function(){
             person: $('#person_id').val(),
             movie: $('#movie_id').val(),
             character: $('#edit_character_name').val(),
+            star: $('#main_actor').is(':checked') ? 1 : 0
          }
-      }).done(function(html){
+      }).done(function(html) {
          $('#role-list').html(html);
          $('.modal').modal('hide');
       });
    });
 
-   $('#remove_role').click(function(){
+   $('#remove_role').click(function() {
       $.ajax({
          type: 'POST',
          url: '/removeRole',
@@ -101,7 +102,7 @@ $(document).ready(function(){
             person: $('#person_id').val(),
             movie: $('#movie_id').val(),
          }
-      }).done(function(html){
+      }).done(function(html) {
          $('#role-list').html(html);
          $('.modal').modal('hide');
       });
@@ -129,7 +130,8 @@ function editMovieRole(castID) {
          _token: $('meta[name="_token"]').attr('content'),
          cast_id: castID
       }
-   }).done(function(json){
+   }).done(function(json) {
+      $('#main_actor').prop('checked', json.star);
       $('#edit_character_name').val($('<textarea/>').html(json.character).text());
       $('#movie_id').val(json.movie_id);
       $('#edit-cast-modal').modal();
@@ -153,6 +155,11 @@ function clearModalSelectize() {
    });
 }
 
+function clearCheckboxes() {
+   $('#main_star').prop('checked', false);
+   $('#main_actor').prop('checked', false);
+}
+
 function clearErrorMessages() {
    $('div.form-group').removeClass('has-error');
    $('[id$=_error]').addClass('hide');
@@ -162,9 +169,9 @@ function clearErrorMessages() {
 function showModal(type, id) {
    var route = "";
    switch(type) {
-      case "createPosition":  route = "createPersonPosition"; break;
-      case "editPosition":    route = "editPersonPosition"; break;
-      case "removePosition":  route = "destroyPersonPosition"; break;
+      case "createPosition" : route = "createPersonPosition";  break;
+      case "editPosition"   : route = "editPersonPosition";    break;
+      case "removePosition" : route = "destroyPersonPosition"; break;
    }
    $.ajax({
       type: 'POST',
@@ -173,7 +180,7 @@ function showModal(type, id) {
          _token: $('meta[name="_token"]').attr('content'),
          id: id
       }
-   }).done(function(html){
+   }).done(function(html) {
       $('#empty-modal').html(html).modal();
       $('#alert-message').remove();
    });
