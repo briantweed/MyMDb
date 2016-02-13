@@ -27,11 +27,18 @@
                   <span> People</span>
                </a>
             </li>
-            <li class="{{Request::is('charts*') ? 'admin-active' : 'admin-normal'}}">
+            <li class="{{Request::is('charts*') ? 'people-active' : 'people-normal'}}">
                <a href="{{ action('ChartController@index') }}">
                   <i style="font-size:1.5em" class="ft icon-comm"></i>
                   <span> Stats</span>
                </a>
+            </li>
+            <li class="{{Request::is('admin*') ? 'admin-active' : 'admin-normal'}}">
+               @if(isset($user) && $user!=false && $user->level==1)
+                  <a href="{{ action('AdminController@index') }}"><i style="font-size:1.5em" class="ft icon-admin"></i> Admin</a>
+               @else
+                  <a href="{{ url('auth/login') }}"><i style="font-size:1.5em" class="ft icon-login"></i> Login</a>
+               @endif
             </li>
          </ul>
 

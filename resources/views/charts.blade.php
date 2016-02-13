@@ -119,20 +119,6 @@
       {!! Html::script('js/welcome.js') !!}
 
       @include('segments.layout.padding')
-      
-      <footer>
-
-         <div class="container">
-
-            <div class="row">
-               <div class="col-sx-12">
-                  &copy;<?php echo date("Y"); ?> brtweed designs
-               </div>
-            </div>
-
-         </div>
-
-      </footer>
 
    </body>
 

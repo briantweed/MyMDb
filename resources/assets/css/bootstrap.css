@@ -5841,6 +5841,9 @@ button.close {
 .ft-4x {
   font-size: 4em; }
 
+.ft {
+  cursor: pointer; }
+
 .spin {
   display: block;
   -webkit-animation: fa-spin 2s infinite linear;
