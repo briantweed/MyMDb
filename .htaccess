@@ -5,6 +5,18 @@ RewriteRule ^(.*)$ public/$1 [L]
 RewriteCond %{HTTP_HOST} !mymdb\.com$
 RewriteRule [mymdb]?(.*) http://mymdb.brtweed.co.uk/$1 [R=301,L]
 
+AddType x-mapp-php6 .html .htm .php
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteBase /
+   RewriteOptions Inherit
+   ReWriteCond %{HTTP:accept-encoding} (gzip.*)
+   ReWriteCond %{REQUEST_FILENAME} !.+\.gz$
+   RewriteCond %{REQUEST_FILENAME}.gz -f
+   RewriteRule (.+) $1.gz [QSA,L]
+</IfModule>
+
 <IfModule mod_expires.c>
 ExpiresActive On
    ExpiresByType image/jpg "access 1 year"
