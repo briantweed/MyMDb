@@ -243,7 +243,7 @@
       {!! Html::script(elixir('js/mymdb.js')) !!}
       {!! Html::script('js/slick.js') !!}
       {!! Html::script('js/canvas.js') !!}
-      {!! Html::script('js/welcome.js') !!}
+      {!! Html::script('js/min/welcome.js') !!}
 
       <footer>
          @include('segments.footer')
