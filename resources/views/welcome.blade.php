@@ -5,8 +5,8 @@
    <head>
 
       <meta charset="UTF-8">
-      <title>MyMDb</title>
-      <meta name="description" content="MyMDb">
+      <title>MyMDb - My Personal Movie Database</title>
+      <meta name="description" content="MyMDb - My Personal Movie Database. This is a record of every movie that I own. Built using the Laravel 5 framework">
       <meta name="author" content="Brian Tweed">
       <meta name="format-detection" content="telephone=no"/>
 
@@ -17,7 +17,7 @@
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="_token" content="{!! csrf_token() !!}" />
       <meta name="google-site-verification" content="WCLKfJlaVne25OtZxYZM0FUjedkJ7kQGpYAev9e9Wog" />
-      
+
       <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ URL::asset('images/app-icon.png') }}">
 
       <link rel="shortcut icon" href="{{ URL::asset('favicon.ico') }}">
@@ -58,7 +58,7 @@
                      @foreach($details->most_recent as $movie)
                         <div>
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">
-                              <img class="img-rounded" src="{{asset('images/covers/'.$movie->image)}}" alt="MyMDb" />
+                              <img class="img-rounded" src="{{asset('images/covers/'.$movie->image)}}" alt="Movie Poster for {{$movie->name}}" />
                            </a>
                         </div>
                      @endforeach
@@ -103,7 +103,7 @@
             <div class="row">
                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2  col-lg-offset-1">
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
-                     <img class="img-rounded img-responsive" src="{{asset('images/covers/'.$details->highlight->image)}}"  alt="MyMDb" />
+                     <img class="img-rounded img-responsive" src="{{asset('images/covers/'.$details->highlight->image)}}"  alt="Movie poster for {{$details->highlight->name}}" />
                   </a>
                </div>
                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-8">
@@ -157,7 +157,7 @@
                         @foreach($details->actors as $actor)
                            <li>
                               <a href="{{ action('PersonController@show', $actor->person_id) }}">
-                                 <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" alt="MyMdb" />
+                                 <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" alt="Image of {{$actor->name}}" />
                                  <span class="title-wrapper hidden-xs text-center">
                                     {{$actor->name}}<br/>
                                     @if($actor->count == 1) 1 movie
@@ -188,7 +188,7 @@
                         @foreach($details->directors as $director)
                            <li>
                               <a href="{{action('PersonController@show', $director->person_id) }}">
-                                    <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" alt="MyMDb" />
+                                    <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" alt="Image of {{$director->name}}" />
                                  <span class="title-wrapper hidden-xs text-center">
                                     {{$director->name}}<br/>
                                     @if($director->count == 1) 1 movie
