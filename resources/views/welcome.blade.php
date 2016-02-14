@@ -241,8 +241,8 @@
       </div> {{-- CHART CONTENT --}}
 
       {!! Html::script(elixir('js/mymdb.js')) !!}
-      {!! Html::script('js/slick.js') !!}
-      {!! Html::script('js/canvas.js') !!}
+      {!! Html::script('js/min/slick.js') !!}
+      {!! Html::script('js/min/canvas.js') !!}
       {!! Html::script('js/min/welcome.js') !!}
 
       <footer>
