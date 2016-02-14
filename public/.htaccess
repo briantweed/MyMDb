@@ -1,3 +1,4 @@
+
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews
@@ -13,4 +14,15 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ /index.php [L]
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteBase /
+   RewriteOptions Inherit
+   ReWriteCond %{HTTP:accept-encoding} (gzip.*)
+   ReWriteCond %{REQUEST_FILENAME} !.+\.gz$
+   RewriteCond %{REQUEST_FILENAME}.gz -f
+   RewriteRule (.+) $1.gz [QSA,L]
 </IfModule>
