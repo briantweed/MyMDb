@@ -57,7 +57,7 @@
                      @foreach($details->most_recent as $movie)
                         <div>
                            <a href="{{ action('MovieController@show', $movie->movie_id) }}">
-                              <img class="img-rounded" src="{{asset('images/covers/'.$movie->image)}}" alt="" />
+                              <img class="img-rounded" src="{{asset('images/covers/'.$movie->image)}}" alt="MyMDb" />
                            </a>
                         </div>
                      @endforeach
@@ -102,7 +102,7 @@
             <div class="row">
                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2  col-lg-offset-1">
                   <a href="{{ action('MovieController@show', $details->highlight->movie_id) }}">
-                     <img class="img-rounded img-responsive" src="{{asset('images/covers/'.$details->highlight->image)}}"  alt="" />
+                     <img class="img-rounded img-responsive" src="{{asset('images/covers/'.$details->highlight->image)}}"  alt="MyMDb" />
                   </a>
                </div>
                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-8">
@@ -156,7 +156,7 @@
                         @foreach($details->actors as $actor)
                            <li>
                               <a href="{{ action('PersonController@show', $actor->person_id) }}">
-                                 <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" alt="" />
+                                 <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" alt="MyMdb" />
                                  <span class="title-wrapper hidden-xs text-center">
                                     {{$actor->name}}<br/>
                                     @if($actor->count == 1) 1 movie
@@ -187,7 +187,7 @@
                         @foreach($details->directors as $director)
                            <li>
                               <a href="{{action('PersonController@show', $director->person_id) }}">
-                                    <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" alt="" />
+                                    <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" alt="MyMDb" />
                                  <span class="title-wrapper hidden-xs text-center">
                                     {{$director->name}}<br/>
                                     @if($director->count == 1) 1 movie
