@@ -21,10 +21,12 @@ class ApiController extends Controller {
 	use SharedFunctions, AdminChecks;
 
 	private $isAdmin;
+	private $counter;
 
 	public function __construct()
    {
   	  $this->isAdmin = $this->checkUserDetails();
+	  $this->counter = 630;
    }
 
 	/**
@@ -229,7 +231,7 @@ class ApiController extends Controller {
 		flush();
 		ob_flush();
 
-		for($x=560;$x<7000;$x+=10)
+		for($x=$this->counter;$x<1000;$x+=10)
 		{
 			$movies = Movies::take(10)->offset($x)->get();
 			foreach($movies as $movie)
@@ -326,7 +328,7 @@ class ApiController extends Controller {
 		flush();
 		ob_flush();
 
-		for($x=560;$x<7000;$x+=10)
+		for($x=$this->counter;$x<1000;$x+=10)
 		{
 			$movies = Movies::take(10)->offset($x)->get();
 			foreach($movies as $movie)
