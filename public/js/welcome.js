@@ -1,3 +1,8 @@
+/*
+* ----------------------------------------------
+*        !!!! REMEBER TO MINIFY !!!!
+* ----------------------------------------------
+*/
 
 $.fn.onScreen = function()
 {
@@ -22,7 +27,6 @@ $(document).scroll(function(){
 });
 
 $(document).ready(function() {
-
 
    $('#decadeSelectFilter').change(function() {
       var selected = $(this).val();
@@ -328,7 +332,7 @@ function displayMoviesByRating() {
                indexLabelOrientation: "horizontal",
                indexLabel: "{y}",
                click: function(event){
-                  // startFilter('rating', event.dataPoint.id);
+                  startFilter('rating', event.dataPoint.id);
                },
             }]
          });

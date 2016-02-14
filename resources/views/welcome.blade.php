@@ -5,8 +5,8 @@
    <head>
 
       <meta charset="UTF-8">
-      <title>MyMDb - My Personal Movie Database</title>
-      <meta name="description" content="MyMDb - My Personal Movie Database. This is a record of every movie that I own. Built using the Laravel 5 framework">
+      <title>MyMDb - My Movie Database</title>
+      <meta name="description" content="MyMDb - My Movie Database. This is a record of every movie that I own. Built using the Laravel 5 framework.">
       <meta name="author" content="Brian Tweed">
       <meta name="format-detection" content="telephone=no"/>
 
@@ -15,6 +15,7 @@
       <meta name="apple-mobile-web-app-status-bar-style" content="black">
       <meta name="apple-mobile-web-app-title" content="MyMDb">
       <meta name="mobile-web-app-capable" content="yes">
+      
       <meta name="_token" content="{!! csrf_token() !!}" />
       <meta name="google-site-verification" content="WCLKfJlaVne25OtZxYZM0FUjedkJ7kQGpYAev9e9Wog" />
 
@@ -241,8 +242,8 @@
       </div> {{-- CHART CONTENT --}}
 
       {!! Html::script(elixir('js/mymdb.js')) !!}
-      {!! Html::script('js/min/slick.js') !!}
-      {!! Html::script('js/min/canvas.js') !!}
+      {!! Html::script('js/slick.js') !!}
+      {!! Html::script('js/canvas.js') !!}
       {!! Html::script('js/min/welcome.js') !!}
 
       <footer>
