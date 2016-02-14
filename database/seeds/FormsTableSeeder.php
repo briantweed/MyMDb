@@ -291,7 +291,7 @@ class FormsTableSeeder extends Seeder
             array (
                 'id' => 19,
                 'name' => 'create_person',
-                'field' => 'imdb_db',
+                'field' => 'imdb_id',
                 'label' => 'IMDb',
                 'required' => 0,
                 'type' => 'text',

@@ -26,7 +26,7 @@ class ApiController extends Controller {
 	public function __construct()
    {
   	  $this->isAdmin = $this->checkUserDetails();
-	  $this->counter = 630;
+	  $this->counter = 638;
    }
 
 	/**
@@ -71,6 +71,7 @@ class ApiController extends Controller {
 					$infos = $app->make('stdClass');
 					$infos->deceased = $imdb->died;
 				}
+				$values->imdb_id = $actor_id;
 				$values->image = $imdb->urlPhoto;
 				$fields = Forms::getFormFields('create_person', false);
 

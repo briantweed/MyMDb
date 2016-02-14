@@ -45555,6 +45555,1256 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            52 => 
+            array (
+                'cast_id' => 4781,
+                'movie_id' => 632,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            53 => 
+            array (
+                'cast_id' => 4782,
+                'movie_id' => 632,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            54 => 
+            array (
+                'cast_id' => 4783,
+                'movie_id' => 632,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            55 => 
+            array (
+                'cast_id' => 4784,
+                'movie_id' => 632,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            56 => 
+            array (
+                'cast_id' => 4785,
+                'movie_id' => 632,
+                'person_id' => 1533,
+                'character' => 'Dr. Alexx Woods',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            57 => 
+            array (
+                'cast_id' => 4786,
+                'movie_id' => 632,
+                'person_id' => 149,
+                'character' => 'Tim Speedle',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            58 => 
+            array (
+                'cast_id' => 4787,
+                'movie_id' => 632,
+                'person_id' => 1962,
+                'character' => 'Yelina Salas',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            59 => 
+            array (
+                'cast_id' => 4788,
+                'movie_id' => 633,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            60 => 
+            array (
+                'cast_id' => 4789,
+                'movie_id' => 633,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            61 => 
+            array (
+                'cast_id' => 4790,
+                'movie_id' => 633,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            62 => 
+            array (
+                'cast_id' => 4791,
+                'movie_id' => 633,
+                'person_id' => 149,
+                'character' => 'Tim Speedle',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            63 => 
+            array (
+                'cast_id' => 4792,
+                'movie_id' => 633,
+                'person_id' => 1533,
+                'character' => 'Dr. Alexx Woods',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            64 => 
+            array (
+                'cast_id' => 4793,
+                'movie_id' => 633,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            65 => 
+            array (
+                'cast_id' => 4794,
+                'movie_id' => 633,
+                'person_id' => 1962,
+                'character' => 'Yelina Salas',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            66 => 
+            array (
+                'cast_id' => 4795,
+                'movie_id' => 634,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            67 => 
+            array (
+                'cast_id' => 4796,
+                'movie_id' => 634,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            68 => 
+            array (
+                'cast_id' => 4797,
+                'movie_id' => 634,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            69 => 
+            array (
+                'cast_id' => 4798,
+                'movie_id' => 634,
+                'person_id' => 149,
+                'character' => 'Tim Speedle',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            70 => 
+            array (
+                'cast_id' => 4799,
+                'movie_id' => 634,
+                'person_id' => 1533,
+                'character' => 'Dr. Alexx Woods',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            71 => 
+            array (
+                'cast_id' => 4800,
+                'movie_id' => 634,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            72 => 
+            array (
+                'cast_id' => 4801,
+                'movie_id' => 634,
+                'person_id' => 1962,
+                'character' => 'Yelina Salas',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            73 => 
+            array (
+                'cast_id' => 4802,
+                'movie_id' => 634,
+                'person_id' => 1963,
+                'character' => 'Ryan Wolfe',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            74 => 
+            array (
+                'cast_id' => 4803,
+                'movie_id' => 635,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            75 => 
+            array (
+                'cast_id' => 4804,
+                'movie_id' => 635,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            76 => 
+            array (
+                'cast_id' => 4805,
+                'movie_id' => 635,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            77 => 
+            array (
+                'cast_id' => 4806,
+                'movie_id' => 635,
+                'person_id' => 1963,
+                'character' => 'Ryan Wolfe',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            78 => 
+            array (
+                'cast_id' => 4808,
+                'movie_id' => 635,
+                'person_id' => 1533,
+                'character' => 'Dr. Alexx Woods',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            79 => 
+            array (
+                'cast_id' => 4809,
+                'movie_id' => 635,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            80 => 
+            array (
+                'cast_id' => 4810,
+                'movie_id' => 635,
+                'person_id' => 1962,
+                'character' => 'Yelina Salas',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            81 => 
+            array (
+                'cast_id' => 4811,
+                'movie_id' => 635,
+                'person_id' => 1964,
+                'character' => 'Natalia Boa Vista',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            82 => 
+            array (
+                'cast_id' => 4812,
+                'movie_id' => 636,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            83 => 
+            array (
+                'cast_id' => 4813,
+                'movie_id' => 636,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            84 => 
+            array (
+                'cast_id' => 4814,
+                'movie_id' => 636,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            85 => 
+            array (
+                'cast_id' => 4815,
+                'movie_id' => 636,
+                'person_id' => 1964,
+                'character' => 'Natalia Boa Vista',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            86 => 
+            array (
+                'cast_id' => 4816,
+                'movie_id' => 636,
+                'person_id' => 1963,
+                'character' => 'Ryan Wolfe',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            87 => 
+            array (
+                'cast_id' => 4817,
+                'movie_id' => 636,
+                'person_id' => 1533,
+                'character' => 'Dr. Alexx Woods',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            88 => 
+            array (
+                'cast_id' => 4818,
+                'movie_id' => 636,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            89 => 
+            array (
+                'cast_id' => 4819,
+                'movie_id' => 636,
+                'person_id' => 1962,
+                'character' => 'Yelina Salas',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            90 => 
+            array (
+                'cast_id' => 4820,
+                'movie_id' => 637,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            91 => 
+            array (
+                'cast_id' => 4821,
+                'movie_id' => 637,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            92 => 
+            array (
+                'cast_id' => 4822,
+                'movie_id' => 637,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            93 => 
+            array (
+                'cast_id' => 4823,
+                'movie_id' => 637,
+                'person_id' => 1964,
+                'character' => 'Natalia Boa Vista',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            94 => 
+            array (
+                'cast_id' => 4824,
+                'movie_id' => 637,
+                'person_id' => 1963,
+                'character' => 'Ryan Wolfe',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            95 => 
+            array (
+                'cast_id' => 4825,
+                'movie_id' => 637,
+                'person_id' => 1533,
+                'character' => 'Dr. Alexx Woods',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            96 => 
+            array (
+                'cast_id' => 4826,
+                'movie_id' => 637,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            97 => 
+            array (
+                'cast_id' => 4828,
+                'movie_id' => 638,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            98 => 
+            array (
+                'cast_id' => 4829,
+                'movie_id' => 638,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            99 => 
+            array (
+                'cast_id' => 4830,
+                'movie_id' => 638,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            100 => 
+            array (
+                'cast_id' => 4831,
+                'movie_id' => 638,
+                'person_id' => 1964,
+                'character' => 'Natalia Boa Vista',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            101 => 
+            array (
+                'cast_id' => 4832,
+                'movie_id' => 638,
+                'person_id' => 1963,
+                'character' => 'Ryan Wolfe',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            102 => 
+            array (
+                'cast_id' => 4833,
+                'movie_id' => 638,
+                'person_id' => 1533,
+                'character' => 'Dr. Alexx Woods',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            103 => 
+            array (
+                'cast_id' => 4834,
+                'movie_id' => 638,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            104 => 
+            array (
+                'cast_id' => 4836,
+                'movie_id' => 639,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            105 => 
+            array (
+                'cast_id' => 4837,
+                'movie_id' => 639,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            106 => 
+            array (
+                'cast_id' => 4838,
+                'movie_id' => 639,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            107 => 
+            array (
+                'cast_id' => 4839,
+                'movie_id' => 639,
+                'person_id' => 1964,
+                'character' => 'Natalia Boa Vista',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            108 => 
+            array (
+                'cast_id' => 4840,
+                'movie_id' => 639,
+                'person_id' => 1963,
+                'character' => 'Ryan Wolfe',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            109 => 
+            array (
+                'cast_id' => 4842,
+                'movie_id' => 639,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            110 => 
+            array (
+                'cast_id' => 4844,
+                'movie_id' => 639,
+                'person_id' => 1965,
+                'character' => 'Walter Simmons',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            111 => 
+            array (
+                'cast_id' => 4845,
+                'movie_id' => 639,
+                'person_id' => 1966,
+                'character' => 'Jesse Cardoza',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            112 => 
+            array (
+                'cast_id' => 4846,
+                'movie_id' => 640,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            113 => 
+            array (
+                'cast_id' => 4847,
+                'movie_id' => 640,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            114 => 
+            array (
+                'cast_id' => 4849,
+                'movie_id' => 640,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            115 => 
+            array (
+                'cast_id' => 4850,
+                'movie_id' => 640,
+                'person_id' => 1964,
+                'character' => 'Natalia Boa Vista',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            116 => 
+            array (
+                'cast_id' => 4851,
+                'movie_id' => 640,
+                'person_id' => 1963,
+                'character' => 'Ryan Wolfe',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            117 => 
+            array (
+                'cast_id' => 4852,
+                'movie_id' => 640,
+                'person_id' => 1965,
+                'character' => 'Walter Simmons',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            118 => 
+            array (
+                'cast_id' => 4853,
+                'movie_id' => 640,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            119 => 
+            array (
+                'cast_id' => 4855,
+                'movie_id' => 641,
+                'person_id' => 1961,
+                'character' => 'Eric Delko',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            120 => 
+            array (
+                'cast_id' => 4856,
+                'movie_id' => 641,
+                'person_id' => 1268,
+                'character' => 'Horatio Caine',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            121 => 
+            array (
+                'cast_id' => 4857,
+                'movie_id' => 641,
+                'person_id' => 1959,
+                'character' => 'Calleigh Duquesne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            122 => 
+            array (
+                'cast_id' => 4858,
+                'movie_id' => 641,
+                'person_id' => 1964,
+                'character' => 'Natalia Boa Vista',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            123 => 
+            array (
+                'cast_id' => 4859,
+                'movie_id' => 641,
+                'person_id' => 1963,
+                'character' => 'Ryan Wolfe',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            124 => 
+            array (
+                'cast_id' => 4860,
+                'movie_id' => 641,
+                'person_id' => 1965,
+                'character' => 'Walter Simmons',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            125 => 
+            array (
+                'cast_id' => 4861,
+                'movie_id' => 641,
+                'person_id' => 1960,
+                'character' => 'Frank Tripp',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            126 => 
+            array (
+                'cast_id' => 4862,
+                'movie_id' => 642,
+                'person_id' => 316,
+                'character' => 'Special Agent Dale Cooper',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            127 => 
+            array (
+                'cast_id' => 4863,
+                'movie_id' => 642,
+                'person_id' => 497,
+                'character' => 'Donna Hayward',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            128 => 
+            array (
+                'cast_id' => 4864,
+                'movie_id' => 642,
+                'person_id' => 402,
+                'character' => 'Catherine Martell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            129 => 
+            array (
+                'cast_id' => 4865,
+                'movie_id' => 642,
+                'person_id' => 656,
+                'character' => 'Leland Palmer',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            130 => 
+            array (
+                'cast_id' => 4866,
+                'movie_id' => 642,
+                'person_id' => 464,
+                'character' => 'FBI Agent Albert Rosenfield',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            131 => 
+            array (
+                'cast_id' => 4872,
+                'movie_id' => 642,
+                'person_id' => 1967,
+                'character' => 'Sheriff Harry S Truman',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            132 => 
+            array (
+                'cast_id' => 4873,
+                'movie_id' => 642,
+                'person_id' => 1968,
+                'character' => 'Shelly Johnson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            133 => 
+            array (
+                'cast_id' => 4874,
+                'movie_id' => 642,
+                'person_id' => 1969,
+                'character' => 'Bobby Briggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            134 => 
+            array (
+                'cast_id' => 4875,
+                'movie_id' => 642,
+                'person_id' => 1970,
+                'character' => 'Benjamin Horne',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            135 => 
+            array (
+                'cast_id' => 4876,
+                'movie_id' => 642,
+                'person_id' => 1971,
+                'character' => 'Audrey Horne',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            136 => 
+            array (
+                'cast_id' => 4877,
+                'movie_id' => 642,
+                'person_id' => 1972,
+                'character' => 'James Hurley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            137 => 
+            array (
+                'cast_id' => 4878,
+                'movie_id' => 642,
+                'person_id' => 1973,
+                'character' => 'Big Ed Hurley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            138 => 
+            array (
+                'cast_id' => 4879,
+                'movie_id' => 642,
+                'person_id' => 1974,
+                'character' => 'Lucy Moran',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            139 => 
+            array (
+                'cast_id' => 4880,
+                'movie_id' => 642,
+                'person_id' => 1975,
+                'character' => 'Deputy Andy Brennan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            140 => 
+            array (
+                'cast_id' => 4881,
+                'movie_id' => 642,
+                'person_id' => 1976,
+                'character' => 'Leo Johnson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            141 => 
+            array (
+                'cast_id' => 4882,
+                'movie_id' => 642,
+                'person_id' => 1977,
+                'character' => 'Maddy Ferguson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            142 => 
+            array (
+                'cast_id' => 4883,
+                'movie_id' => 642,
+                'person_id' => 1978,
+                'character' => 'Deputy Tommy Hawk Hill',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            143 => 
+            array (
+                'cast_id' => 4884,
+                'movie_id' => 642,
+                'person_id' => 1979,
+                'character' => 'Norma Jennings',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            144 => 
+            array (
+                'cast_id' => 4885,
+                'movie_id' => 642,
+                'person_id' => 1980,
+                'character' => 'Pete Martell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            145 => 
+            array (
+                'cast_id' => 4886,
+                'movie_id' => 642,
+                'person_id' => 1981,
+                'character' => 'Nadine Hurley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            146 => 
+            array (
+                'cast_id' => 4887,
+                'movie_id' => 642,
+                'person_id' => 1982,
+                'character' => 'Jocelyn Packard',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            147 => 
+            array (
+                'cast_id' => 4888,
+                'movie_id' => 642,
+                'person_id' => 1983,
+                'character' => 'Maj Garland Briggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            148 => 
+            array (
+                'cast_id' => 4889,
+                'movie_id' => 642,
+                'person_id' => 1984,
+                'character' => 'Bob',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            149 => 
+            array (
+                'cast_id' => 4890,
+                'movie_id' => 643,
+                'person_id' => 316,
+                'character' => 'Special Agent Dale Cooper',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            150 => 
+            array (
+                'cast_id' => 4891,
+                'movie_id' => 643,
+                'person_id' => 1967,
+                'character' => 'Sheriff Harry S Truman',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            151 => 
+            array (
+                'cast_id' => 4892,
+                'movie_id' => 643,
+                'person_id' => 1969,
+                'character' => 'Bobby Briggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            152 => 
+            array (
+                'cast_id' => 4893,
+                'movie_id' => 643,
+                'person_id' => 1983,
+                'character' => 'Maj Garland Briggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            153 => 
+            array (
+                'cast_id' => 4894,
+                'movie_id' => 643,
+                'person_id' => 1976,
+                'character' => 'Leo Johnson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            154 => 
+            array (
+                'cast_id' => 4895,
+                'movie_id' => 643,
+                'person_id' => 1973,
+                'character' => 'Big Ed Hurley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            155 => 
+            array (
+                'cast_id' => 4896,
+                'movie_id' => 643,
+                'person_id' => 1984,
+                'character' => 'Bob',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            156 => 
+            array (
+                'cast_id' => 4897,
+                'movie_id' => 643,
+                'person_id' => 1975,
+                'character' => 'Deputy Andy Brennan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            157 => 
+            array (
+                'cast_id' => 4898,
+                'movie_id' => 643,
+                'person_id' => 1980,
+                'character' => 'Pete Martell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            158 => 
+            array (
+                'cast_id' => 4899,
+                'movie_id' => 643,
+                'person_id' => 1972,
+                'character' => 'James Hurley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            159 => 
+            array (
+                'cast_id' => 4900,
+                'movie_id' => 643,
+                'person_id' => 1982,
+                'character' => 'Jocelyn Packard',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            160 => 
+            array (
+                'cast_id' => 4901,
+                'movie_id' => 643,
+                'person_id' => 1974,
+                'character' => 'Lucy Moran',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            161 => 
+            array (
+                'cast_id' => 4902,
+                'movie_id' => 643,
+                'person_id' => 497,
+                'character' => 'Donna Hayward',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            162 => 
+            array (
+                'cast_id' => 4903,
+                'movie_id' => 643,
+                'person_id' => 1968,
+                'character' => 'Shelly Johnson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            163 => 
+            array (
+                'cast_id' => 4904,
+                'movie_id' => 643,
+                'person_id' => 1978,
+                'character' => 'Deputy Tommy Hawk Hill',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            164 => 
+            array (
+                'cast_id' => 4905,
+                'movie_id' => 643,
+                'person_id' => 464,
+                'character' => 'FBI Agent Albert Rosenfield',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            165 => 
+            array (
+                'cast_id' => 4906,
+                'movie_id' => 643,
+                'person_id' => 1979,
+                'character' => 'Norma Jennings',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            166 => 
+            array (
+                'cast_id' => 4907,
+                'movie_id' => 643,
+                'person_id' => 402,
+                'character' => 'Catherine Martell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            167 => 
+            array (
+                'cast_id' => 4908,
+                'movie_id' => 643,
+                'person_id' => 656,
+                'character' => 'Leland Palmer',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            168 => 
+            array (
+                'cast_id' => 4909,
+                'movie_id' => 643,
+                'person_id' => 1970,
+                'character' => 'Benjamin Horne',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            169 => 
+            array (
+                'cast_id' => 4910,
+                'movie_id' => 643,
+                'person_id' => 1971,
+                'character' => 'Audrey Horne',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            170 => 
+            array (
+                'cast_id' => 4911,
+                'movie_id' => 643,
+                'person_id' => 1977,
+                'character' => 'Maddy Ferguson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            171 => 
+            array (
+                'cast_id' => 4912,
+                'movie_id' => 643,
+                'person_id' => 1981,
+                'character' => 'Nadine Hurley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            172 => 
+            array (
+                'cast_id' => 4913,
+                'movie_id' => 643,
+                'person_id' => 1423,
+                'character' => 'Annie Blackburn',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            173 => 
+            array (
+                'cast_id' => 4914,
+                'movie_id' => 643,
+                'person_id' => 136,
+                'character' => 'John Justice Wheeler',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            174 => 
+            array (
+                'cast_id' => 4920,
+                'movie_id' => 643,
+                'person_id' => 1985,
+                'character' => 'Windom Earle',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            175 => 
+            array (
+                'cast_id' => 4921,
+                'movie_id' => 643,
+                'person_id' => 1986,
+                'character' => 'DEA Agent Dennis',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            176 => 
+            array (
+                'cast_id' => 4922,
+                'movie_id' => 245,
+                'person_id' => 1985,
+                'character' => 'Vice President Becker',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
