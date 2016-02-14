@@ -15,7 +15,7 @@
       <meta name="apple-mobile-web-app-status-bar-style" content="black">
       <meta name="apple-mobile-web-app-title" content="MyMDb">
       <meta name="mobile-web-app-capable" content="yes">
-      
+
       <meta name="_token" content="{!! csrf_token() !!}" />
       <meta name="google-site-verification" content="WCLKfJlaVne25OtZxYZM0FUjedkJ7kQGpYAev9e9Wog" />
 
@@ -244,7 +244,7 @@
       {!! Html::script(elixir('js/mymdb.js')) !!}
       {!! Html::script('js/slick.js') !!}
       {!! Html::script('js/canvas.js') !!}
-      {!! Html::script('js/min/welcome.js') !!}
+      {!! Html::script('js/welcome.js') !!}
 
       <footer>
          @include('segments.footer')
