@@ -16,7 +16,8 @@
       <meta name="apple-mobile-web-app-title" content="MyMDb">
       <meta name="mobile-web-app-capable" content="yes">
       <meta name="_token" content="{!! csrf_token() !!}" />
-
+      <meta name="google-site-verification" content="WCLKfJlaVne25OtZxYZM0FUjedkJ7kQGpYAev9e9Wog" />
+      
       <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ URL::asset('images/app-icon.png') }}">
 
       <link rel="shortcut icon" href="{{ URL::asset('favicon.ico') }}">
