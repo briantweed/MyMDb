@@ -1,7 +1,8 @@
 <?php namespace App\Http\Controllers;
 
 use Auth;
-
+use DateTime;
+   
 trait SharedFunctions
 {
 
@@ -64,4 +65,11 @@ trait SharedFunctions
       if(@getimagesize($uploadPath.$filename)) unlink($uploadPath.$filename);
    }
 
+   private function calculateAge($dob, $dop)
+	{
+		$date = new DateTime($dob);
+		$now = $dop ? new DateTime($dop) : new DateTime();
+		$interval = $now->diff($date);
+		return $interval->y;
+	}
 }

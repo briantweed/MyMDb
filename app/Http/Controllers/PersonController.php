@@ -283,14 +283,7 @@ class PersonController extends Controller {
 	|		Private Functions
 	| --------------------------------------------------
 	*/
-
-	private function calculateAge($dob, $dop)
-	{
-		$date = new DateTime($dob);
-		$now = $dop ? new DateTime($dop) : new DateTime();
-		$interval = $now->diff($date);
-		return $interval->y;
-	}
+	
 
 	private function checkExistingPeople($forename, $surname)
 	{

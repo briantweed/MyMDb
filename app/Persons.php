@@ -89,4 +89,12 @@ class Persons extends Model {
 			->get();
 	}
 
+	public static function getTodaysBirthdays()
+	{
+		return Persons::select('persons.person_id', 'birthday', 'deceased', DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
+			->where(DB::raw('DATE_FORMAT(birthday,"%m-%d")'),DB::raw('DATE_FORMAT(NOW(),"%m-%d")'))
+			->orderBy('forename', 'asc')
+			->get();
+	}
+
 }

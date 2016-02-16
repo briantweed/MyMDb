@@ -40,6 +40,12 @@ class WelcomeController extends Controller {
 		// get most popular directors
 		$details->directors = Persons::getDirectorCount(24);
 
+		$details->birthdays = Persons::getTodaysBirthdays();
+		foreach($details->birthdays as $birthday)
+		{
+			$birthday->age = $this->calculateAge($birthday->birthday, $birthday->deceased);
+		}
+
 		// highlight randomly selected movie
 		$random_id = Movies::selectRandomFilm();
 		$details->highlight = Movies::findorfail($random_id);

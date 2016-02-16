@@ -32,7 +32,7 @@
 
       @include('segments.nav')
 
-      @include('segments.subnav_main')
+      @include('segments.subnav')
 
       <div class="container">
          <div class="filtered-content"></div>
@@ -202,6 +202,35 @@
                      </ul>
                   </div>
                   <ul id="director-pages" class="pages"></ul>
+               </div>
+            </div>
+
+            @include('segments.layout.padding')
+
+            <div class="row">
+               <div class="col-xs-12">
+                  <h4>Today's Birthdays</h4>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-xs-12 image-thumbnail">
+                  <div id="birthday-slidee" class="frame">
+                     <ul class="slidee">
+                        @foreach($details->birthdays as $actor)
+                           <li>
+                              <a href="{{action('PersonController@show', $actor->person_id) }}">
+                                    <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" alt="Image of {{$actor->name}}" />
+                                 <span class="title-wrapper hidden-xs text-center">
+                                    {{$actor->name}}<br/>
+                                    @if($actor->deceased) ( @endif {{$actor->age}} @if($actor->deceased) ) @endif
+                                 </span>
+                              </a>
+                           </li>
+                        @endforeach
+                     </ul>
+                  </div>
+                  <ul id="birthday-pages" class="pages"></ul>
                </div>
             </div>
 

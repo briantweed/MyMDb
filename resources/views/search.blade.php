@@ -30,7 +30,7 @@
 
       @include('segments.nav')
 
-      @include('segments.subnav_main')
+      @include('segments.subnav')
 
       <div class="container">
 

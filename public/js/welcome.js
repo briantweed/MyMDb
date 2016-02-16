@@ -63,7 +63,7 @@ $(document).ready(function() {
    }).hide().removeClass('hide').fadeIn();
 
    $('#actor-slidee').sly({
-      speed : 560,
+      speed : 600,
       dragHandle : 1,
       horizontal : 1,
       releaseSwing : 1,
@@ -91,6 +91,23 @@ $(document).ready(function() {
       activatePageOn : 'click',
       pagesBar : '#director-pages',
       dragSource : '#director-slidee',
+      pageBuilder : function (index) {
+         return '<li>' + (index + 1) + '</li>';
+      }
+   });
+
+   $('#birthday-slidee').sly({
+      speed : 600,
+      dragHandle : 1,
+      horizontal : 1,
+      releaseSwing : 1,
+      mouseDragging : 1,
+      touchDragging : 1,
+      itemNav : 'basic',
+      activateOn : 'click',
+      activatePageOn : 'click',
+      pagesBar : '#birthday-pages',
+      dragSource : '#birthday-slidee',
       pageBuilder : function (index) {
          return '<li>' + (index + 1) + '</li>';
       }
