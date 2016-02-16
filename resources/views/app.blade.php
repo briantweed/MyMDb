@@ -31,11 +31,7 @@
 
       @include('segments.nav')
 
-      @if(Request::is('admin*'))
-          @include('segments.subnav_admin')
-      @else
-          @include('segments.subnav_main')
-      @endif
+      @include('segments.subnav')
 
       <div class="container">
          <div class="filtered-content"></div>

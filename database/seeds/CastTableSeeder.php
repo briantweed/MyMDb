@@ -46805,6 +46805,376 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            177 => 
+            array (
+                'cast_id' => 4923,
+                'movie_id' => 646,
+                'person_id' => 1977,
+                'character' => 'Laura Palmer',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            178 => 
+            array (
+                'cast_id' => 4924,
+                'movie_id' => 646,
+                'person_id' => 656,
+                'character' => 'Leland Palmer',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            179 => 
+            array (
+                'cast_id' => 4925,
+                'movie_id' => 646,
+                'person_id' => 1968,
+                'character' => 'Shelly Johnson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            180 => 
+            array (
+                'cast_id' => 4926,
+                'movie_id' => 646,
+                'person_id' => 1969,
+                'character' => 'Bobby Briggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            181 => 
+            array (
+                'cast_id' => 4927,
+                'movie_id' => 646,
+                'person_id' => 1272,
+                'character' => 'Phillip Jeffries',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            182 => 
+            array (
+                'cast_id' => 4928,
+                'movie_id' => 646,
+                'person_id' => 1976,
+                'character' => 'Leo Johnson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            183 => 
+            array (
+                'cast_id' => 4929,
+                'movie_id' => 646,
+                'person_id' => 464,
+                'character' => 'Albert Rosenfeld',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            184 => 
+            array (
+                'cast_id' => 4930,
+                'movie_id' => 646,
+                'person_id' => 1423,
+                'character' => 'Annie Blackburn',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            185 => 
+            array (
+                'cast_id' => 4931,
+                'movie_id' => 646,
+                'person_id' => 705,
+                'character' => 'Donna Hayward',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            186 => 
+            array (
+                'cast_id' => 4932,
+                'movie_id' => 646,
+                'person_id' => 1979,
+                'character' => 'Norma Jennings',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            187 => 
+            array (
+                'cast_id' => 4933,
+                'movie_id' => 646,
+                'person_id' => 1972,
+                'character' => 'James Hurley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            188 => 
+            array (
+                'cast_id' => 4934,
+                'movie_id' => 646,
+                'person_id' => 789,
+                'character' => 'Woodsman',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            189 => 
+            array (
+                'cast_id' => 4935,
+                'movie_id' => 646,
+                'person_id' => 26,
+                'character' => 'Carl Rodd',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            190 => 
+            array (
+                'cast_id' => 4936,
+                'movie_id' => 646,
+                'person_id' => 677,
+                'character' => 'Sam Stanley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            191 => 
+            array (
+                'cast_id' => 4937,
+                'movie_id' => 646,
+                'person_id' => 316,
+                'character' => 'Special Agent Dale Cooper',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            192 => 
+            array (
+                'cast_id' => 4938,
+                'movie_id' => 646,
+                'person_id' => 1217,
+                'character' => 'Mrs. Tremond',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            193 => 
+            array (
+                'cast_id' => 4939,
+                'movie_id' => 646,
+                'person_id' => 1984,
+                'character' => 'Bob',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            194 => 
+            array (
+                'cast_id' => 4940,
+                'movie_id' => 646,
+                'person_id' => 1982,
+                'character' => 'Jocelyn Packard',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            195 => 
+            array (
+                'cast_id' => 4941,
+                'movie_id' => 646,
+                'person_id' => 1983,
+                'character' => 'Maj. Garland Briggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            196 => 
+            array (
+                'cast_id' => 4942,
+                'movie_id' => 646,
+                'person_id' => 1975,
+                'character' => 'Deputy Andy Brennan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            197 => 
+            array (
+                'cast_id' => 4943,
+                'movie_id' => 646,
+                'person_id' => 1978,
+                'character' => 'Deputy Hawk',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            198 => 
+            array (
+                'cast_id' => 4944,
+                'movie_id' => 646,
+                'person_id' => 1973,
+                'character' => 'Big Ed Hurley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            199 => 
+            array (
+                'cast_id' => 4945,
+                'movie_id' => 646,
+                'person_id' => 1980,
+                'character' => 'Pete Martell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            200 => 
+            array (
+                'cast_id' => 4946,
+                'movie_id' => 646,
+                'person_id' => 1967,
+                'character' => 'Sheriff Harry S. Truman',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            201 => 
+            array (
+                'cast_id' => 4947,
+                'movie_id' => 646,
+                'person_id' => 1974,
+                'character' => 'Lucy Moran',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            202 => 
+            array (
+                'cast_id' => 4948,
+                'movie_id' => 646,
+                'person_id' => 1981,
+                'character' => 'Nadine Hurley',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            203 => 
+            array (
+                'cast_id' => 4949,
+                'movie_id' => 646,
+                'person_id' => 1988,
+                'character' => 'Ronette Pulaski',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            204 => 
+            array (
+                'cast_id' => 4950,
+                'movie_id' => 646,
+                'person_id' => 1989,
+                'character' => 'Teresa Banks',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            205 => 
+            array (
+                'cast_id' => 4951,
+                'movie_id' => 646,
+                'person_id' => 1990,
+                'character' => 'Special Agent Chester Desmond',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            206 => 
+            array (
+                'cast_id' => 4952,
+                'movie_id' => 646,
+                'person_id' => 1991,
+                'character' => 'Gordon Cole',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            207 => 
+            array (
+                'cast_id' => 4953,
+                'movie_id' => 647,
+                'person_id' => 121,
+                'character' => 'Sherlock Holmes',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            208 => 
+            array (
+                'cast_id' => 4954,
+                'movie_id' => 647,
+                'person_id' => 410,
+                'character' => 'Dr. John Watson',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            209 => 
+            array (
+                'cast_id' => 4955,
+                'movie_id' => 647,
+                'person_id' => 467,
+                'character' => 'Lord Blackwood',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            210 => 
+            array (
+                'cast_id' => 4956,
+                'movie_id' => 647,
+                'person_id' => 36,
+                'character' => 'Ambassador Standish',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            211 => 
+            array (
+                'cast_id' => 4957,
+                'movie_id' => 647,
+                'person_id' => 1992,
+                'character' => 'Irene Adler',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            212 => 
+            array (
+                'cast_id' => 4958,
+                'movie_id' => 647,
+                'person_id' => 1993,
+                'character' => 'Inspector Lestrade',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            213 => 
+            array (
+                'cast_id' => 4959,
+                'movie_id' => 647,
+                'person_id' => 1994,
+                'character' => 'Sir Thomas Rotheram',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

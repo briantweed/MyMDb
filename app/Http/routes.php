@@ -64,15 +64,9 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 	Route::post('createMovieViewing', 'ViewingController@createMovieViewing');
 	Route::post('storeMovieViewing', 'ViewingController@storeMovieViewing');
 
-
 	// ADMIN
 	Route::get('/admin', 'AdminController@index');
-	Route::group(['prefix'=>'admin'], function() {
-		Route::resource('keywords', 'KeywordController', ['only'=>['index','show']]);
-		Route::resource('genres', 'GenreController', ['only'=>['index','show']]);
-		Route::resource('studios', 'StudioController', ['only'=>['index','show']]);
-		Route::resource('viewings', 'ViewingController', ['only'=>['index','show']]);
-	});
+
 
 	Route::get('/admin/seed', function(){
 		if(env('APP_ENV')=="local")
