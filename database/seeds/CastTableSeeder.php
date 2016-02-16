@@ -47175,6 +47175,376 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            214 => 
+            array (
+                'cast_id' => 4960,
+                'movie_id' => 648,
+                'person_id' => 885,
+                'character' => 'Phoebe Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            215 => 
+            array (
+                'cast_id' => 4961,
+                'movie_id' => 648,
+                'person_id' => 1995,
+                'character' => 'Piper Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            216 => 
+            array (
+                'cast_id' => 4962,
+                'movie_id' => 648,
+                'person_id' => 1996,
+                'character' => 'Leo Wyatt',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            217 => 
+            array (
+                'cast_id' => 4963,
+                'movie_id' => 648,
+                'person_id' => 1997,
+                'character' => 'Prue Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            218 => 
+            array (
+                'cast_id' => 4964,
+                'movie_id' => 649,
+                'person_id' => 885,
+                'character' => 'Phoebe Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            219 => 
+            array (
+                'cast_id' => 4965,
+                'movie_id' => 649,
+                'person_id' => 1995,
+                'character' => 'Piper Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            220 => 
+            array (
+                'cast_id' => 4966,
+                'movie_id' => 649,
+                'person_id' => 1997,
+                'character' => 'Prue Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            221 => 
+            array (
+                'cast_id' => 4967,
+                'movie_id' => 649,
+                'person_id' => 1996,
+                'character' => 'Leo Wyatt',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            222 => 
+            array (
+                'cast_id' => 4968,
+                'movie_id' => 649,
+                'person_id' => 1158,
+                'character' => 'Cole Turner',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            223 => 
+            array (
+                'cast_id' => 4969,
+                'movie_id' => 650,
+                'person_id' => 885,
+                'character' => 'Phoebe Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            224 => 
+            array (
+                'cast_id' => 4970,
+                'movie_id' => 650,
+                'person_id' => 1995,
+                'character' => 'Piper Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            225 => 
+            array (
+                'cast_id' => 4971,
+                'movie_id' => 650,
+                'person_id' => 1997,
+                'character' => 'Prue Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            226 => 
+            array (
+                'cast_id' => 4972,
+                'movie_id' => 650,
+                'person_id' => 1996,
+                'character' => 'Leo Wyatt',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            227 => 
+            array (
+                'cast_id' => 4973,
+                'movie_id' => 650,
+                'person_id' => 1158,
+                'character' => 'Cole Turner',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            228 => 
+            array (
+                'cast_id' => 4974,
+                'movie_id' => 651,
+                'person_id' => 885,
+                'character' => 'Phoebe Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            229 => 
+            array (
+                'cast_id' => 4975,
+                'movie_id' => 651,
+                'person_id' => 1995,
+                'character' => 'Piper Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            230 => 
+            array (
+                'cast_id' => 4977,
+                'movie_id' => 651,
+                'person_id' => 1996,
+                'character' => 'Leo Wyatt',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            231 => 
+            array (
+                'cast_id' => 4978,
+                'movie_id' => 651,
+                'person_id' => 1158,
+                'character' => 'Cole Turner',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            232 => 
+            array (
+                'cast_id' => 4979,
+                'movie_id' => 651,
+                'person_id' => 1429,
+                'character' => 'Paige Matthews',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            233 => 
+            array (
+                'cast_id' => 4980,
+                'movie_id' => 652,
+                'person_id' => 885,
+                'character' => 'Phoebe Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            234 => 
+            array (
+                'cast_id' => 4981,
+                'movie_id' => 652,
+                'person_id' => 1995,
+                'character' => 'Piper Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            235 => 
+            array (
+                'cast_id' => 4982,
+                'movie_id' => 652,
+                'person_id' => 1429,
+                'character' => 'Paige Matthews',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            236 => 
+            array (
+                'cast_id' => 4983,
+                'movie_id' => 652,
+                'person_id' => 1996,
+                'character' => 'Leo Wyatt',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            237 => 
+            array (
+                'cast_id' => 4984,
+                'movie_id' => 652,
+                'person_id' => 1158,
+                'character' => 'Cole Turner',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            238 => 
+            array (
+                'cast_id' => 4985,
+                'movie_id' => 653,
+                'person_id' => 885,
+                'character' => 'Phoebe Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            239 => 
+            array (
+                'cast_id' => 4986,
+                'movie_id' => 653,
+                'person_id' => 1995,
+                'character' => 'Piper Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            240 => 
+            array (
+                'cast_id' => 4987,
+                'movie_id' => 653,
+                'person_id' => 1429,
+                'character' => 'Paige Matthews',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            241 => 
+            array (
+                'cast_id' => 4988,
+                'movie_id' => 653,
+                'person_id' => 1996,
+                'character' => 'Leo Wyatt',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            242 => 
+            array (
+                'cast_id' => 4990,
+                'movie_id' => 654,
+                'person_id' => 885,
+                'character' => 'Phoebe Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            243 => 
+            array (
+                'cast_id' => 4991,
+                'movie_id' => 654,
+                'person_id' => 1995,
+                'character' => 'Piper Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            244 => 
+            array (
+                'cast_id' => 4992,
+                'movie_id' => 654,
+                'person_id' => 1429,
+                'character' => 'Paige Matthews',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            245 => 
+            array (
+                'cast_id' => 4993,
+                'movie_id' => 654,
+                'person_id' => 1996,
+                'character' => 'Leo Wyatt',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            246 => 
+            array (
+                'cast_id' => 4994,
+                'movie_id' => 655,
+                'person_id' => 885,
+                'character' => 'Phoebe Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            247 => 
+            array (
+                'cast_id' => 4995,
+                'movie_id' => 655,
+                'person_id' => 1995,
+                'character' => 'Piper Halliwell',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            248 => 
+            array (
+                'cast_id' => 4996,
+                'movie_id' => 655,
+                'person_id' => 1429,
+                'character' => 'Paige Matthews',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            249 => 
+            array (
+                'cast_id' => 4997,
+                'movie_id' => 655,
+                'person_id' => 1996,
+                'character' => 'Leo Wyatt',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            250 => 
+            array (
+                'cast_id' => 4998,
+                'movie_id' => 655,
+                'person_id' => 1948,
+                'character' => 'Billie Jenkins',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

@@ -25934,6 +25934,45 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                         'created_at' => '2016-02-16 12:40:10',
                         'updated_at' => '2016-02-16 12:40:10',
                     ),
+                    486 => 
+                    array (
+                        'person_id' => 1995,
+                        'forename' => 'Holly Marie',
+                        'surname' => 'Combs',
+                        'birthday' => '1973-12-03',
+                        'deceased' => NULL,
+                        'imdb_id' => 'nm0001061',
+                        'image' => 'Holly_Marie_Combs_1455657496.jpg',
+                    'bio' => 'Holly moved to New York at the tender age of 7. Already her stunning looks had turned heads, resulting in jobs in print ads and commercials. Soon these experiences lead to a desire to act, a dream shared by Holly&#039;s mother, who herself was only 24. After a few bit parts, Holly landed a leading role as Kimberly in TV drama Picket Fences (1992). This show ran for 4 years, winning Holly critical acclaim and a Young Actors award. After the show ended, Holly starred in more roles in TV movies, enjoying her marriage and career success. This wasn&#039;t to last; in 1997, she divorced husband Bryan Travis Smith and yearned for more challenging roles. Then in 1998, Holly&#039;s good friend Shannen Doherty told her about a new television show based around three sisters who happen to be witches, who save the world from evil. Holly auditioned for the middle sister, won the role and is now known world wide for her portrayal of Piper Halliwell in the WB smash hit show Charmed (1998). Holly now lives in Burbank ....',
+                        'created_at' => '2016-02-16 21:18:17',
+                        'updated_at' => '2016-02-16 21:18:17',
+                    ),
+                    487 => 
+                    array (
+                        'person_id' => 1996,
+                        'forename' => 'Brian',
+                        'surname' => 'Krause',
+                        'birthday' => '1969-02-01',
+                        'deceased' => NULL,
+                        'imdb_id' => 'nm0470182',
+                        'image' => 'Brian_Krause_1455657519.jpg',
+                    'bio' => 'A native of Orange County, California, Brian Krause is best known for his portrayal of Whitelighter Leo Wyatt on Aaron Spelling&#039;s popular program Charmed (1998) [1998-2006/The WB] opposite Alyssa Milano, Rose McGowan, Holly Marie Combs and Shannen Doherty. He starred on the popular program for eight seasons and appeared in 154 episodes. Since wrapping Charmed (1998), Krause has starred in numerous TV programs, including The Closer (2005) (TNT), Ties That Bind (2006) (Lifetime), Devil&#039;s Diary (2007) (Lifetime), La terreur du Loch Ness (2008) (Sci Fi Channel), Warbirds (2008) (Sci Fi Channel) and CSI: Miami (2002) (CBS). Among the actor&#039;s previous television credits are: Highway to Heaven (1984), Tales from the Crypt (1989), The Bandit Series (e.g., Bandit: Bandit&#039;s Silver Angel (1994)), Family Album (1994), Walker, Texas Ranger (1993), High Tide (1994) and Return to Cabin by the Lake (2001). Krause&#039;s film credits include: Desertion (2008), Jack Rio (2008), Return to the Blue Lagoon (199 ....',
+                        'created_at' => '2016-02-16 21:18:39',
+                        'updated_at' => '2016-02-16 21:18:39',
+                    ),
+                    488 => 
+                    array (
+                        'person_id' => 1997,
+                        'forename' => 'Shannen',
+                        'surname' => 'Doherty',
+                        'birthday' => '1971-04-12',
+                        'deceased' => NULL,
+                        'imdb_id' => 'nm0001147',
+                        'image' => 'Shannen_Doherty_1455657536.jpg',
+                    'bio' => 'Shannen Doherty was born in Memphis, Tennessee, USA, on April 12, 1971, to Rosa (Wright) and John Doherty. Her father worked in a bank, while her mother owned a beauty parlor. She has an older brother, Sean. Her ancestry includes Irish, English, Scottish, and remote French. In 1978, at the tender age of seven, she and her family moved to Los Angeles, where her father started a West Coast branch of the family transportation business. Shannen has always been close to her family, who disciplined her from a young age. She knew she wanted to pursue an acting career when she made her acting debut at age ten, with a role on the series Father Murphy (1981). Shannen was a confident student, involving herself in school performances and working hard in school, by making sure she always had exceptional grades. Despite her confidence, she isolated herself from large crowds and preferred to have a few close friends. She made a name for herself as a child actress at just 11-years-old, starring in Lit ....',
+                        'created_at' => '2016-02-16 21:18:56',
+                        'updated_at' => '2016-02-16 21:18:56',
+                    ),
                 ));
         
         

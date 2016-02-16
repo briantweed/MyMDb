@@ -10,13 +10,13 @@
 
    <div class="row">
       <div class="col-xs-2">
-         @include('segments.links.add_movie')<br/><br/>
-         @include('segments.links.add_person')<br/><br/><hr/>
-         @include('segments.links.genres')<br/><br/>
-         @include('segments.links.studios')<br/><br/>
-         @include('segments.links.keywords')<br/><br/>
-         @include('segments.links.viewings')<br/><br/>
-         @include('segments.links.seed')<br/><br/><hr/>
+         @include('segments.links.add_movie')<br/>
+         @include('segments.links.add_person')<br/><hr/>
+         @include('segments.links.genres')<br/>
+         @include('segments.links.studios')<br/>
+         @include('segments.links.keywords')<br/>
+         @include('segments.links.viewings')<br/><hr/>
+         @include('segments.links.seed')<br/><hr/>
          @include('segments.links.logout')
       </div>
       <div class="col-xs-offset-1 col-xs-9">
@@ -44,7 +44,7 @@
             </div>
             @include('segments.layout.padding')
             <div class="row">
-               <div class="col-xs-5"><b>Total actors/directors in collection :</b></div>
+               <div class="col-xs-5"><b>Total actors in collection :</b></div>
                <div class="col-xs-7">{{$data->person_total}}</div>
             </div>
          </div>
