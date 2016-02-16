@@ -16,6 +16,7 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 	// Search PAGE
 	Route::get('search', 'SearchController@index');
 
+	// API CALLS
 	Route::post('getCastFromIMDb', 'ApiController@getCastFromIMDb');
 	Route::post('createImdbActor', 'ApiController@createImdbActor');
 	Route::post('searchForMovie', 'ApiController@searchForMovie');
@@ -50,7 +51,6 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 	Route::post('addNewRole', 'PersonController@addNewRole');
 	Route::post('editRole', 'PersonController@editRole');
 	Route::post('removeRole', 'PersonController@removeMovieRole');
-
 	Route::post('createPosition', 'PersonController@createPersonPosition');
 	Route::post('editPosition', 'PersonController@editPersonPosition');
 	Route::post('removePosition', 'PersonController@destroyPersonPosition');
@@ -73,7 +73,7 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 		Route::post('/keywords', 'KeywordController@index');
 	});
 
-
+	// SEED CREATOR
 	Route::get('/admin/seed', function(){
 		if(env('APP_ENV')=="local")
 		{
