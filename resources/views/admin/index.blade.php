@@ -42,10 +42,15 @@
                <div class="col-xs-5"><b>Time required to watch :</b></div>
                <div class="col-xs-7">{{$data->watching_time}}</div>
             </div>
+            @include('segments.layout.padding')
+            <div class="row">
+               <div class="col-xs-5"><b>Total actors/directors in collection :</b></div>
+               <div class="col-xs-7">{{$data->person_total}}</div>
+            </div>
          </div>
       </div>
    </div>
-   
+
 @stop
 
 @section('extensions')
