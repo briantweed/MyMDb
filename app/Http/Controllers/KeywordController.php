@@ -19,7 +19,7 @@ class KeywordController extends Controller {
 	{
 		$keywords = Keywords::all();
 		$user = $this->checkUserDetails();
-		return view( 'admin.keywords.index', compact('keywords','user'));
+		return view( 'admin.keywords', compact('keywords','user'));
 	}
 
 }

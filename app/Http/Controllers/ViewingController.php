@@ -22,7 +22,7 @@ class ViewingController extends Controller {
 			$viewing->viewed = date("jS F Y @ H:i",strtotime($viewing->created_at));
 		}
 		$user = $this->checkUserDetails();
-		return view( 'admin.viewings.index', compact('viewings','user'));
+		return view( 'admin.viewings', compact('viewings','user'));
 	}
 
 	/**

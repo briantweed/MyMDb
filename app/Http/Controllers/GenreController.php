@@ -26,7 +26,7 @@ class GenreController extends Controller {
 	{
 		$genres = Genres::all();
 		$user = $this->checkUserDetails();
-		return view( 'admin.genres.index', compact('genres','user'));
+		return view( 'admin.genres', compact('genres','user'));
 	}
 
 	/**

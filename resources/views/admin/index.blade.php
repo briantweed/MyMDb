@@ -7,28 +7,29 @@
 
 {{-- Main Body --}}
 @section('content')
-   @if(session('status'))
-      <div class="col-xs-12 alert alert-dismissible alert-success">
-         <button type="button" class="close" >
-            <span aria-hidden="true">&times;</span>
-         </button>
-         {{ session('status') }}
-      </div>
-   @endif
 
    <div class="row">
-      <div class="col-xs-3">
+      <div class="col-xs-2">
          @include('segments.links.add_movie')<br/><br/>
-         @include('segments.links.add_person')<br/><br/>
+         @include('segments.links.add_person')<br/><br/><hr/>
          @include('segments.links.genres')<br/><br/>
          @include('segments.links.studios')<br/><br/>
          @include('segments.links.keywords')<br/><br/>
          @include('segments.links.viewings')<br/><br/>
-         @include('segments.links.seed')<br/><br/><br/>
+         @include('segments.links.seed')<br/><br/><hr/>
          @include('segments.links.logout')
       </div>
-      <div class="col-xs-9">
+      <div class="col-xs-offset-1 col-xs-9">
+         @if(session('status'))
+            <div class="col-xs-12 alert alert-dismissible alert-success">
+               <button type="button" class="close" >
+                  <span aria-hidden="true">&times;</span>
+               </button>
+               {{ session('status') }}
+            </div>
+         @endif
          <div id="admin-details">
+            @include('segments.layout.padding')
             <div class="row">
                <div class="col-xs-5"><b>Total movies in collection :</b></div>
                <div class="col-xs-7">{{$data->movie_total}}</div>
@@ -44,5 +45,9 @@
          </div>
       </div>
    </div>
+   
+@stop
 
+@section('extensions')
+   {!! Html::script('js/admin.js') !!}
 @stop

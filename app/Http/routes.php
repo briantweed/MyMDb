@@ -65,7 +65,13 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 	Route::post('storeMovieViewing', 'ViewingController@storeMovieViewing');
 
 	// ADMIN
-	Route::get('/admin', 'AdminController@index');
+	Route::group(['prefix' => 'admin'], function () {
+		Route::get('/', 'AdminController@index');
+		Route::post('/viewings', 'ViewingController@index');
+		Route::post('/genres', 'GenreController@index');
+		Route::post('/studios', 'StudioController@index');
+		Route::post('/keywords', 'KeywordController@index');
+	});
 
 
 	Route::get('/admin/seed', function(){

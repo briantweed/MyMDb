@@ -19,7 +19,7 @@ class StudioController extends Controller {
 	{
 		$studios = Studios::all();
 		$user = $this->checkUserDetails();
-		return view( 'admin.studios.index', compact('studios','user'));
+		return view( 'admin.studios', compact('studios','user'));
 	}
 
 }
