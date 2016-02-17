@@ -91,10 +91,10 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 			Iseed::generateSeed('studios');
 			Iseed::generateSeed('tags');
 			Iseed::generateSeed('users');
-			Iseed::generateSeed('viewings');
 			return Redirect::to('/admin')->with('status', 'Seeds created for all tables');
 		}
-		return Redirect::to('/admin')->with('status', 'Not allowed in production');
+		Iseed::generateSeed('viewings');
+		return Redirect::to('/admin')->with('status', 'Viewings backed up');
 	});
 
 });
