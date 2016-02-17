@@ -26,7 +26,7 @@ class ApiController extends Controller {
 	public function __construct()
    {
   	  $this->isAdmin = $this->checkUserDetails();
-	  $this->counter = 638;
+	  $this->counter = 660;
    }
 
 	/**
@@ -216,7 +216,8 @@ class ApiController extends Controller {
 							$movie->cast()->attach($person->person_id, array('character' => $actor->character));
 						}
 					}
-					else $additional[] = $actor;
+					else
+					$additional[] = $actor;
 				}
 				$movie = Movies::findorfail($movie_id);
 			}

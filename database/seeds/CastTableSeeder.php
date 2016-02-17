@@ -47545,6 +47545,776 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            251 => 
+            array (
+                'cast_id' => 5067,
+                'movie_id' => 656,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            252 => 
+            array (
+                'cast_id' => 5070,
+                'movie_id' => 656,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            253 => 
+            array (
+                'cast_id' => 5071,
+                'movie_id' => 656,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            254 => 
+            array (
+                'cast_id' => 5072,
+                'movie_id' => 656,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            255 => 
+            array (
+                'cast_id' => 5073,
+                'movie_id' => 656,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            256 => 
+            array (
+                'cast_id' => 5074,
+                'movie_id' => 656,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            257 => 
+            array (
+                'cast_id' => 5075,
+                'movie_id' => 657,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            258 => 
+            array (
+                'cast_id' => 5076,
+                'movie_id' => 657,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            259 => 
+            array (
+                'cast_id' => 5077,
+                'movie_id' => 657,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            260 => 
+            array (
+                'cast_id' => 5078,
+                'movie_id' => 657,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            261 => 
+            array (
+                'cast_id' => 5079,
+                'movie_id' => 657,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            262 => 
+            array (
+                'cast_id' => 5080,
+                'movie_id' => 657,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            263 => 
+            array (
+                'cast_id' => 5081,
+                'movie_id' => 658,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            264 => 
+            array (
+                'cast_id' => 5082,
+                'movie_id' => 658,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            265 => 
+            array (
+                'cast_id' => 5083,
+                'movie_id' => 658,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            266 => 
+            array (
+                'cast_id' => 5084,
+                'movie_id' => 658,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            267 => 
+            array (
+                'cast_id' => 5085,
+                'movie_id' => 658,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            268 => 
+            array (
+                'cast_id' => 5086,
+                'movie_id' => 658,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            269 => 
+            array (
+                'cast_id' => 5087,
+                'movie_id' => 659,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            270 => 
+            array (
+                'cast_id' => 5088,
+                'movie_id' => 659,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            271 => 
+            array (
+                'cast_id' => 5089,
+                'movie_id' => 659,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            272 => 
+            array (
+                'cast_id' => 5090,
+                'movie_id' => 659,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            273 => 
+            array (
+                'cast_id' => 5091,
+                'movie_id' => 659,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            274 => 
+            array (
+                'cast_id' => 5092,
+                'movie_id' => 659,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            275 => 
+            array (
+                'cast_id' => 5093,
+                'movie_id' => 660,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            276 => 
+            array (
+                'cast_id' => 5094,
+                'movie_id' => 660,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            277 => 
+            array (
+                'cast_id' => 5095,
+                'movie_id' => 660,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            278 => 
+            array (
+                'cast_id' => 5096,
+                'movie_id' => 660,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            279 => 
+            array (
+                'cast_id' => 5097,
+                'movie_id' => 660,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            280 => 
+            array (
+                'cast_id' => 5098,
+                'movie_id' => 660,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            281 => 
+            array (
+                'cast_id' => 5099,
+                'movie_id' => 661,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            282 => 
+            array (
+                'cast_id' => 5100,
+                'movie_id' => 661,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            283 => 
+            array (
+                'cast_id' => 5101,
+                'movie_id' => 661,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            284 => 
+            array (
+                'cast_id' => 5102,
+                'movie_id' => 661,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            285 => 
+            array (
+                'cast_id' => 5103,
+                'movie_id' => 661,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            286 => 
+            array (
+                'cast_id' => 5104,
+                'movie_id' => 661,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            287 => 
+            array (
+                'cast_id' => 5105,
+                'movie_id' => 662,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            288 => 
+            array (
+                'cast_id' => 5106,
+                'movie_id' => 662,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            289 => 
+            array (
+                'cast_id' => 5107,
+                'movie_id' => 662,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            290 => 
+            array (
+                'cast_id' => 5108,
+                'movie_id' => 662,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            291 => 
+            array (
+                'cast_id' => 5109,
+                'movie_id' => 662,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            292 => 
+            array (
+                'cast_id' => 5110,
+                'movie_id' => 662,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            293 => 
+            array (
+                'cast_id' => 5111,
+                'movie_id' => 663,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            294 => 
+            array (
+                'cast_id' => 5112,
+                'movie_id' => 663,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            295 => 
+            array (
+                'cast_id' => 5113,
+                'movie_id' => 663,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            296 => 
+            array (
+                'cast_id' => 5114,
+                'movie_id' => 663,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            297 => 
+            array (
+                'cast_id' => 5115,
+                'movie_id' => 663,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            298 => 
+            array (
+                'cast_id' => 5116,
+                'movie_id' => 663,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            299 => 
+            array (
+                'cast_id' => 5117,
+                'movie_id' => 664,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            300 => 
+            array (
+                'cast_id' => 5118,
+                'movie_id' => 664,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            301 => 
+            array (
+                'cast_id' => 5119,
+                'movie_id' => 664,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            302 => 
+            array (
+                'cast_id' => 5120,
+                'movie_id' => 664,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            303 => 
+            array (
+                'cast_id' => 5121,
+                'movie_id' => 664,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            304 => 
+            array (
+                'cast_id' => 5122,
+                'movie_id' => 664,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            305 => 
+            array (
+                'cast_id' => 5123,
+                'movie_id' => 665,
+                'person_id' => 1064,
+                'character' => 'Monica Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            306 => 
+            array (
+                'cast_id' => 5124,
+                'movie_id' => 665,
+                'person_id' => 1877,
+                'character' => 'Ross Geller',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            307 => 
+            array (
+                'cast_id' => 5125,
+                'movie_id' => 665,
+                'person_id' => 1998,
+                'character' => 'Rachel Green',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            308 => 
+            array (
+                'cast_id' => 5126,
+                'movie_id' => 665,
+                'person_id' => 1999,
+                'character' => 'Phoebe Buffay',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            309 => 
+            array (
+                'cast_id' => 5127,
+                'movie_id' => 665,
+                'person_id' => 2000,
+                'character' => 'Joey Tribbiani',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            310 => 
+            array (
+                'cast_id' => 5128,
+                'movie_id' => 665,
+                'person_id' => 2001,
+                'character' => 'Chandler Bing',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            311 => 
+            array (
+                'cast_id' => 5129,
+                'movie_id' => 666,
+                'person_id' => 2002,
+                'character' => 'Father Ted Crilly',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            312 => 
+            array (
+                'cast_id' => 5130,
+                'movie_id' => 666,
+                'person_id' => 2003,
+                'character' => 'Father Dougal McGuire',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            313 => 
+            array (
+                'cast_id' => 5131,
+                'movie_id' => 666,
+                'person_id' => 2004,
+                'character' => 'Father Jack Hackett',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            314 => 
+            array (
+                'cast_id' => 5133,
+                'movie_id' => 667,
+                'person_id' => 2003,
+                'character' => 'Father Dougal McGuire',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            315 => 
+            array (
+                'cast_id' => 5134,
+                'movie_id' => 667,
+                'person_id' => 2002,
+                'character' => 'Father Ted Crilly',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            316 => 
+            array (
+                'cast_id' => 5135,
+                'movie_id' => 667,
+                'person_id' => 2004,
+                'character' => 'Father Jack Hackett',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            317 => 
+            array (
+                'cast_id' => 5136,
+                'movie_id' => 669,
+                'person_id' => 542,
+                'character' => ' Captain Malcolm \'Mal\' Reynolds',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            318 => 
+            array (
+                'cast_id' => 5137,
+                'movie_id' => 669,
+                'person_id' => 543,
+                'character' => ' Zoë Washburne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            319 => 
+            array (
+                'cast_id' => 5138,
+                'movie_id' => 669,
+                'person_id' => 428,
+                'character' => ' Hoban \'Wash\' Washburne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            320 => 
+            array (
+                'cast_id' => 5139,
+                'movie_id' => 669,
+                'person_id' => 544,
+                'character' => ' Inara Serra',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            321 => 
+            array (
+                'cast_id' => 5140,
+                'movie_id' => 669,
+                'person_id' => 545,
+                'character' => ' Jayne Cobb',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            322 => 
+            array (
+                'cast_id' => 5141,
+                'movie_id' => 669,
+                'person_id' => 546,
+                'character' => ' Kaylee Frye',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            323 => 
+            array (
+                'cast_id' => 5142,
+                'movie_id' => 669,
+                'person_id' => 547,
+                'character' => ' Dr. Simon Tam',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            324 => 
+            array (
+                'cast_id' => 5143,
+                'movie_id' => 669,
+                'person_id' => 548,
+                'character' => ' River Tam',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            325 => 
+            array (
+                'cast_id' => 5144,
+                'movie_id' => 669,
+                'person_id' => 549,
+                'character' => ' Shepherd Book',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            326 => 
+            array (
+                'cast_id' => 5146,
+                'movie_id' => 669,
+                'person_id' => 1231,
+                'character' => ' Young Simon',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            327 => 
+            array (
+                'cast_id' => 5148,
+                'movie_id' => 669,
+                'person_id' => 2006,
+                'character' => 'Magistrate Higgins',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

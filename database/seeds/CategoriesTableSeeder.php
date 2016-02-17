@@ -16849,6 +16849,470 @@ class CategoriesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            103 => 
+            array (
+                'category_id' => 2105,
+                'movie_id' => 646,
+                'genre_id' => 16,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            104 => 
+            array (
+                'category_id' => 2106,
+                'movie_id' => 646,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            105 => 
+            array (
+                'category_id' => 2107,
+                'movie_id' => 646,
+                'genre_id' => 25,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            106 => 
+            array (
+                'category_id' => 2108,
+                'movie_id' => 647,
+                'genre_id' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            107 => 
+            array (
+                'category_id' => 2109,
+                'movie_id' => 647,
+                'genre_id' => 2,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            108 => 
+            array (
+                'category_id' => 2110,
+                'movie_id' => 647,
+                'genre_id' => 7,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            109 => 
+            array (
+                'category_id' => 2111,
+                'movie_id' => 647,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            110 => 
+            array (
+                'category_id' => 2112,
+                'movie_id' => 647,
+                'genre_id' => 25,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            111 => 
+            array (
+                'category_id' => 2113,
+                'movie_id' => 648,
+                'genre_id' => 10,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            112 => 
+            array (
+                'category_id' => 2114,
+                'movie_id' => 648,
+                'genre_id' => 13,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            113 => 
+            array (
+                'category_id' => 2115,
+                'movie_id' => 648,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            114 => 
+            array (
+                'category_id' => 2116,
+                'movie_id' => 649,
+                'genre_id' => 10,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            115 => 
+            array (
+                'category_id' => 2117,
+                'movie_id' => 649,
+                'genre_id' => 13,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            116 => 
+            array (
+                'category_id' => 2118,
+                'movie_id' => 649,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            117 => 
+            array (
+                'category_id' => 2119,
+                'movie_id' => 650,
+                'genre_id' => 10,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            118 => 
+            array (
+                'category_id' => 2120,
+                'movie_id' => 650,
+                'genre_id' => 13,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            119 => 
+            array (
+                'category_id' => 2121,
+                'movie_id' => 650,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            120 => 
+            array (
+                'category_id' => 2122,
+                'movie_id' => 651,
+                'genre_id' => 10,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            121 => 
+            array (
+                'category_id' => 2123,
+                'movie_id' => 651,
+                'genre_id' => 13,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            122 => 
+            array (
+                'category_id' => 2124,
+                'movie_id' => 651,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            123 => 
+            array (
+                'category_id' => 2125,
+                'movie_id' => 652,
+                'genre_id' => 10,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            124 => 
+            array (
+                'category_id' => 2126,
+                'movie_id' => 652,
+                'genre_id' => 13,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            125 => 
+            array (
+                'category_id' => 2127,
+                'movie_id' => 652,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            126 => 
+            array (
+                'category_id' => 2128,
+                'movie_id' => 653,
+                'genre_id' => 10,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            127 => 
+            array (
+                'category_id' => 2129,
+                'movie_id' => 653,
+                'genre_id' => 13,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            128 => 
+            array (
+                'category_id' => 2130,
+                'movie_id' => 653,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            129 => 
+            array (
+                'category_id' => 2131,
+                'movie_id' => 654,
+                'genre_id' => 10,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            130 => 
+            array (
+                'category_id' => 2132,
+                'movie_id' => 654,
+                'genre_id' => 13,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            131 => 
+            array (
+                'category_id' => 2133,
+                'movie_id' => 654,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            132 => 
+            array (
+                'category_id' => 2134,
+                'movie_id' => 655,
+                'genre_id' => 10,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            133 => 
+            array (
+                'category_id' => 2135,
+                'movie_id' => 655,
+                'genre_id' => 13,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            134 => 
+            array (
+                'category_id' => 2136,
+                'movie_id' => 655,
+                'genre_id' => 20,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            135 => 
+            array (
+                'category_id' => 2137,
+                'movie_id' => 656,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            136 => 
+            array (
+                'category_id' => 2138,
+                'movie_id' => 656,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            137 => 
+            array (
+                'category_id' => 2139,
+                'movie_id' => 657,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            138 => 
+            array (
+                'category_id' => 2140,
+                'movie_id' => 657,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            139 => 
+            array (
+                'category_id' => 2141,
+                'movie_id' => 658,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            140 => 
+            array (
+                'category_id' => 2142,
+                'movie_id' => 658,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            141 => 
+            array (
+                'category_id' => 2143,
+                'movie_id' => 659,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            142 => 
+            array (
+                'category_id' => 2144,
+                'movie_id' => 659,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            143 => 
+            array (
+                'category_id' => 2145,
+                'movie_id' => 660,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            144 => 
+            array (
+                'category_id' => 2146,
+                'movie_id' => 660,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            145 => 
+            array (
+                'category_id' => 2147,
+                'movie_id' => 661,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            146 => 
+            array (
+                'category_id' => 2148,
+                'movie_id' => 661,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            147 => 
+            array (
+                'category_id' => 2149,
+                'movie_id' => 662,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            148 => 
+            array (
+                'category_id' => 2150,
+                'movie_id' => 662,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            149 => 
+            array (
+                'category_id' => 2151,
+                'movie_id' => 663,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            150 => 
+            array (
+                'category_id' => 2152,
+                'movie_id' => 663,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            151 => 
+            array (
+                'category_id' => 2153,
+                'movie_id' => 664,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            152 => 
+            array (
+                'category_id' => 2154,
+                'movie_id' => 664,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            153 => 
+            array (
+                'category_id' => 2155,
+                'movie_id' => 665,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            154 => 
+            array (
+                'category_id' => 2156,
+                'movie_id' => 665,
+                'genre_id' => 21,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            155 => 
+            array (
+                'category_id' => 2157,
+                'movie_id' => 666,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            156 => 
+            array (
+                'category_id' => 2158,
+                'movie_id' => 667,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            157 => 
+            array (
+                'category_id' => 2159,
+                'movie_id' => 668,
+                'genre_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            158 => 
+            array (
+                'category_id' => 2160,
+                'movie_id' => 669,
+                'genre_id' => 2,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            159 => 
+            array (
+                'category_id' => 2161,
+                'movie_id' => 669,
+                'genre_id' => 10,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            160 => 
+            array (
+                'category_id' => 2162,
+                'movie_id' => 669,
+                'genre_id' => 22,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
