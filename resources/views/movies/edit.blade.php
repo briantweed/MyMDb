@@ -182,6 +182,7 @@
    @include('modal.add_tag')
    @include('modal.remove_cast')
    @include('modal.remove_crew')
+   @include('modal.delete_movie')
 
 @stop
 

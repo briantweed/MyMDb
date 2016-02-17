@@ -46,11 +46,14 @@ $(document).ready(function() {
       delay: { 'show': 500, 'hide': 100 }
    });
 
-
    // Show array formatted movie details
    $('#showDetails').click(function(){
       $('html, body').animate({scrollTop: 0});
       $('#movie-details').slideToggle();
+   });
+
+   $('.add-commas').each(function(){
+      $(this).html(addCommas($(this).html()));
    });
 
    // Standalone mode
@@ -132,4 +135,11 @@ function previewImage(input, output) {
       };
       reader.readAsDataURL(input.files[0]);
    }
+}
+
+function addCommas(nStr) {
+   nStr += '';
+   var rgx = /(\d)(?=(\d{3})+(?!\d))/g;
+   if ( rgx.test(nStr)==true) nStr = nStr.replace(rgx, '$1,');
+   return nStr;
 }

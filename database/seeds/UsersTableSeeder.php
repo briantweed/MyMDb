@@ -24,9 +24,9 @@ class UsersTableSeeder extends Seeder
                 'email' => 'brtweed@outlook.com',
                 'password' => '$2y$10$9AKzOHxWzlL3qWWVGibbG.OKeM3oLajo3RLMiFBys2THABAxJfQQK',
                 'level' => 1,
-                'remember_token' => '54DoOSvy8JfY0bnOivG5EIHrmQvhVj3bkDdhVXGGp1rSv5PhMMd1jJVbQgYj',
+                'remember_token' => 'nlMsB5d9SFz07GAFpHoZ9G8Cm4PU6esoZImvWu1TRo2NABt75O5qNjOLzwUL',
                 'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '2016-02-13 11:27:44',
+                'updated_at' => '2016-02-17 14:31:04',
             ),
         ));
         

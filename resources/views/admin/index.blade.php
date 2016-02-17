@@ -32,11 +32,11 @@
             @include('segments.layout.padding')
             <div class="row">
                <div class="col-xs-5"><b>Total movies in collection :</b></div>
-               <div class="col-xs-7">{{$data->movie_total}}</div>
+               <div class="col-xs-7"><span class="add-commas">{{$data->movie_total}}</span></div>
             </div>
             <div class="row">
                <div class="col-xs-5"><b>Total running time :</b></div>
-               <div class="col-xs-7">{{$data->running_total}} minutes</div>
+               <div class="col-xs-7"><span class="add-commas">{{$data->running_total}}</span> minutes</div>
             </div>
             <div class="row">
                <div class="col-xs-5"><b>Time required to watch :</b></div>
@@ -45,7 +45,7 @@
             @include('segments.layout.padding')
             <div class="row">
                <div class="col-xs-5"><b>Total actors in collection :</b></div>
-               <div class="col-xs-7">{{$data->person_total}}</div>
+               <div class="col-xs-7"><span class="add-commas">{{$data->person_total}}</span></div>
             </div>
          </div>
       </div>
