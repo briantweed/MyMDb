@@ -75,7 +75,7 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 
 	// SEED CREATOR
 	Route::get('/admin/seed', function(){
-		if(env('APP_ENV')=="local")
+		if(env('BACKUP_STATUS')=="all")
 		{
 			Iseed::generateSeed('cast');
 			Iseed::generateSeed('categories');
