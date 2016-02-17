@@ -48315,6 +48315,96 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            328 => 
+            array (
+                'cast_id' => 5149,
+                'movie_id' => 670,
+                'person_id' => 512,
+                'character' => 'Tim Bisley',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            329 => 
+            array (
+                'cast_id' => 5150,
+                'movie_id' => 670,
+                'person_id' => 513,
+                'character' => 'Mike Watt',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            330 => 
+            array (
+                'cast_id' => 5151,
+                'movie_id' => 670,
+                'person_id' => 1522,
+                'character' => 'Brian Topp',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            331 => 
+            array (
+                'cast_id' => 5152,
+                'movie_id' => 670,
+                'person_id' => 363,
+                'character' => ' Duane Benzie',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            332 => 
+            array (
+                'cast_id' => 5154,
+                'movie_id' => 670,
+                'person_id' => 1523,
+                'character' => ' Vulva',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            333 => 
+            array (
+                'cast_id' => 5156,
+                'movie_id' => 670,
+                'person_id' => 675,
+                'character' => ' Irate Cyclist',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            334 => 
+            array (
+                'cast_id' => 5158,
+                'movie_id' => 670,
+                'person_id' => 1013,
+                'character' => 'Skateboard Kid',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            335 => 
+            array (
+                'cast_id' => 5159,
+                'movie_id' => 670,
+                'person_id' => 2007,
+                'character' => 'Daisy Steiner',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            336 => 
+            array (
+                'cast_id' => 5160,
+                'movie_id' => 670,
+                'person_id' => 2008,
+                'character' => 'Bilbo Bagshot',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

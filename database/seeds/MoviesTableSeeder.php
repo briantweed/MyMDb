@@ -12599,6 +12599,25 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-17 21:43:26',
                 'updated_at' => '2016-02-17 21:43:26',
             ),
+            162 => 
+            array (
+                'movie_id' => 670,
+                'name' => 'Spaced: Season 1',
+                'sort_name' => 'spaced 1',
+                'imdb_id' => 'tt0187664',
+                'released' => 1999,
+                'rating' => 8,
+                'running_time' => 170,
+                'image' => 'spaced_1_1455747004.jpg',
+                'certificate_id' => 6,
+                'format_id' => 1,
+                'studio_id' => 21,
+                'duplicate' => 0,
+                'bio' => 'The adventures of Tim and Daisy who rent a room in Marsha Klein&#039;s house under the pretense that they are a couple. Also in the house is frustrated painter Brian. Together with TA fanatic Mike and Daisy&#039;s girlfriend Twist the duo get into a series of situations with hilarious results.',
+                'purchased' => '0000-00-00 00:00:00',
+                'created_at' => '2016-02-17 22:10:04',
+                'updated_at' => '2016-02-17 22:10:04',
+            ),
         ));
         
         

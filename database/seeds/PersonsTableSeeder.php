@@ -26090,6 +26090,32 @@ Nissen relocated to Los Angeles to work for Disney, where he immediately began d
                         'created_at' => '2016-02-17 21:45:37',
                         'updated_at' => '2016-02-17 21:45:37',
                     ),
+                    498 => 
+                    array (
+                        'person_id' => 2007,
+                        'forename' => 'Jessica',
+                        'surname' => 'Hynes',
+                        'birthday' => '1972-10-30',
+                        'deceased' => NULL,
+                        'imdb_id' => 'nm0828961',
+                        'image' => 'Jessica_Hynes_1455747066.jpg',
+                    'bio' => 'As both a writer and performer, Jessica Hynes has worked prolifically in television, film and theatre. Born in Lewisham, South London in 1972, she was brought up in Brighton, Sussex. At school, she would write bizarre sci-fi stories. At age 15, she joined the National Youth Theatre and left home at age 18. She then moved to London and took bit parts as an actress and comedienne. She worked on stage with Katy Carmichael, who would later appear as &quot;Twist&quot; on Spaced (1999), they both joined Simon Pegg on the sketch show, Six Pairs of Pants (1995). Simon Pegg recommended Jessica for a part on another sketch show, Asylum (1996), which was directed by Edgar Wright. Simon and Jessica became friends, immediately, and decided that they wanted to write comedy together. They came up with Spaced (1999), a sitcom about dysfunction among a group of strange twenty-somethings. Edgar Wright was brought in to direct and the show was filmed in 1998 in North London, during Jessica&#039;s first pregnancy. An in ....',
+                        'created_at' => '2016-02-17 22:11:06',
+                        'updated_at' => '2016-02-17 22:11:06',
+                    ),
+                    499 => 
+                    array (
+                        'person_id' => 2008,
+                        'forename' => 'Bill',
+                        'surname' => 'Bailey',
+                        'birthday' => '1965-01-13',
+                        'deceased' => NULL,
+                        'imdb_id' => 'nm0047155',
+                        'image' => 'Bill_Bailey_1455747122.jpg',
+                        'bio' => 'Bill Bailey is known for his sharp wit and classic sense of humor. he is most famous for being in Never Mind The Buzzcocks, celebrity game-show in which he is a team captain. Bill is a stand up comedian, and has also starred in cult comedies such as Spaced and of course Black Books. He was given the award for the &quot;best stand-up&quot; at the British comedy awards.',
+                        'created_at' => '2016-02-17 22:12:02',
+                        'updated_at' => '2016-02-17 22:12:02',
+                    ),
                 ));
         
         
