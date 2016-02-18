@@ -10,7 +10,7 @@ $.fn.onScreen = function()
    else return $(window).scrollTop() + $(window).height() >= $(this).offset().top + 100;
 }
 
-// CanvasJS.addColorSet('cert', ['#6bc954', '#158b1a', '#e6dd19', '#d9a125', '#c1277e', '#d43030', '#460000']);
+CanvasJS.addColorSet('cert', ['#6bc954', '#158b1a', '#e6dd19', '#d9a125', '#c1277e', '#d43030', '#460000']);
 
 var runRating = true,
     runDecade = true,
@@ -113,7 +113,7 @@ $(document).ready(function() {
       }
    });
 
-   //displayCharts();
+   displayCharts();
 
 });
 
