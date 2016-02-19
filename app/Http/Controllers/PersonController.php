@@ -283,7 +283,7 @@ class PersonController extends Controller {
 	|		Private Functions
 	| --------------------------------------------------
 	*/
-	
+
 
 	private function checkExistingPeople($forename, $surname)
 	{
@@ -312,20 +312,6 @@ class PersonController extends Controller {
 		return nl2br($output);
 	}
 
-	private function formatDate($date, $type)
-	{
-		if($date)
-		{
-			$output = new DateTime($date);
-			switch($type)
-			{
-				case 'input': $format = 'Y-m-d'; break;
-				case 'output': $format = 'd-m-Y'; break;
-				case 'display': $format = 'jS F Y'; break;
-			}
-			return $output->format($format);
-		}
-		return null;
-	}
+
 
 }

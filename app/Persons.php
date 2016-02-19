@@ -84,7 +84,8 @@ class Persons extends Model {
 			->join('crew', 'crew.person_id', '=', 'persons.person_id')
 			->where('crew.position','director')
 			->groupBy('crew.person_id')
-			->orderBy('count', 'desc')->orderBy('forename', 'asc')
+			->orderBy('count', 'desc')
+			->orderBy('forename', 'asc')
 			->take($limit)
 			->get();
 	}

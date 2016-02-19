@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 
 class ViewingController extends Controller {
 
-	use AdminChecks;
+	use SharedFunctions, AdminChecks;
 
 	public function __construct()
 	{
@@ -16,10 +16,14 @@ class ViewingController extends Controller {
 
 	public function index()
 	{
-		$viewings = Viewings::all();
+		$viewings = Viewings::select('viewings.created_at', 'movies.name')
+						->join('movies', 'movies.movie_id', '=', 'viewings.movie_id')
+						->orderBy('viewings.created_at', 'desc')
+						->orderBy('movies.sort_name', 'asc')
+						->get();
 		foreach($viewings as $viewing)
 		{
-			$viewing->viewed = date("jS F Y @ H:i",strtotime($viewing->created_at));
+			$viewing->viewed = $this->formatDate($viewing->created_at, 'display');
 		}
 		$user = $this->checkUserDetails();
 		return view( 'admin.viewings', compact('viewings','user'));

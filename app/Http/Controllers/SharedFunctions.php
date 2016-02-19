@@ -2,7 +2,7 @@
 
 use Auth;
 use DateTime;
-   
+
 trait SharedFunctions
 {
 
@@ -31,7 +31,22 @@ trait SharedFunctions
       $name = htmlentities(str_replace($replacements, $characters, $name), ENT_QUOTES);
       return $name;
    }
-
+   
+   private function formatDate($date, $type)
+	{
+		if($date)
+		{
+			$output = new DateTime($date);
+			switch($type)
+			{
+				case 'input': $format = 'Y-m-d'; break;
+				case 'output': $format = 'd-m-Y'; break;
+				case 'display': $format = 'jS F Y'; break;
+			}
+			return $output->format($format);
+		}
+		return null;
+	}
    /**
    *
    * Remove non alphanumerical characters from string for image name
