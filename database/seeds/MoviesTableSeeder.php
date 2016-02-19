@@ -12618,6 +12618,25 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-17 22:10:04',
                 'updated_at' => '2016-02-17 22:10:04',
             ),
+            163 => 
+            array (
+                'movie_id' => 671,
+                'name' => 'Spaced: Season 2',
+                'sort_name' => 'spaced 2',
+                'imdb_id' => 'tt0187664',
+                'released' => 2001,
+                'rating' => 9,
+                'running_time' => 173,
+                'image' => 'spaced_2_1455890791.jpg',
+                'certificate_id' => 6,
+                'format_id' => 1,
+                'studio_id' => 21,
+                'duplicate' => 0,
+                'bio' => 'The adventures of Tim and Daisy who rent a room in Marsha Klein&#039;s house under the pretense that they are a couple. Also in the house is frustrated painter Brian. Together with TA fanatic Mike and Daisy&#039;s girlfriend Twist the duo get into a series of situations with hilarious results.',
+                'purchased' => '2015-01-01 00:00:00',
+                'created_at' => '2016-02-19 14:06:31',
+                'updated_at' => '2016-02-19 14:06:31',
+            ),
         ));
         
         
