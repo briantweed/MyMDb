@@ -52,6 +52,13 @@ class KeywordsTableSeeder extends Seeder
                 'created_at' => '2016-02-01 16:49:40',
                 'updated_at' => '2016-02-01 16:49:40',
             ),
+            5 => 
+            array (
+                'keyword_id' => 6,
+                'word' => 'TV',
+                'created_at' => '2016-02-20 14:02:00',
+                'updated_at' => '2016-02-20 14:02:00',
+            ),
         ));
         
         

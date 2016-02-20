@@ -281,6 +281,726 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            33 => 
+            array (
+                'tag_id' => 37,
+                'movie_id' => 705,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            34 => 
+            array (
+                'tag_id' => 38,
+                'movie_id' => 618,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            35 => 
+            array (
+                'tag_id' => 39,
+                'movie_id' => 619,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            36 => 
+            array (
+                'tag_id' => 40,
+                'movie_id' => 620,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            37 => 
+            array (
+                'tag_id' => 41,
+                'movie_id' => 621,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            38 => 
+            array (
+                'tag_id' => 42,
+                'movie_id' => 622,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            39 => 
+            array (
+                'tag_id' => 43,
+                'movie_id' => 623,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            40 => 
+            array (
+                'tag_id' => 44,
+                'movie_id' => 624,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            41 => 
+            array (
+                'tag_id' => 45,
+                'movie_id' => 625,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            42 => 
+            array (
+                'tag_id' => 46,
+                'movie_id' => 626,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            43 => 
+            array (
+                'tag_id' => 47,
+                'movie_id' => 627,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            44 => 
+            array (
+                'tag_id' => 48,
+                'movie_id' => 628,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            45 => 
+            array (
+                'tag_id' => 49,
+                'movie_id' => 629,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            46 => 
+            array (
+                'tag_id' => 50,
+                'movie_id' => 630,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            47 => 
+            array (
+                'tag_id' => 51,
+                'movie_id' => 631,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            48 => 
+            array (
+                'tag_id' => 52,
+                'movie_id' => 632,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            49 => 
+            array (
+                'tag_id' => 53,
+                'movie_id' => 633,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            50 => 
+            array (
+                'tag_id' => 54,
+                'movie_id' => 634,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            51 => 
+            array (
+                'tag_id' => 55,
+                'movie_id' => 635,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            52 => 
+            array (
+                'tag_id' => 56,
+                'movie_id' => 636,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            53 => 
+            array (
+                'tag_id' => 57,
+                'movie_id' => 637,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            54 => 
+            array (
+                'tag_id' => 58,
+                'movie_id' => 638,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            55 => 
+            array (
+                'tag_id' => 59,
+                'movie_id' => 639,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            56 => 
+            array (
+                'tag_id' => 60,
+                'movie_id' => 640,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            57 => 
+            array (
+                'tag_id' => 61,
+                'movie_id' => 641,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            58 => 
+            array (
+                'tag_id' => 62,
+                'movie_id' => 642,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            59 => 
+            array (
+                'tag_id' => 63,
+                'movie_id' => 643,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            60 => 
+            array (
+                'tag_id' => 64,
+                'movie_id' => 648,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            61 => 
+            array (
+                'tag_id' => 65,
+                'movie_id' => 649,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            62 => 
+            array (
+                'tag_id' => 66,
+                'movie_id' => 650,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            63 => 
+            array (
+                'tag_id' => 67,
+                'movie_id' => 651,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            64 => 
+            array (
+                'tag_id' => 68,
+                'movie_id' => 652,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            65 => 
+            array (
+                'tag_id' => 69,
+                'movie_id' => 653,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            66 => 
+            array (
+                'tag_id' => 70,
+                'movie_id' => 654,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            67 => 
+            array (
+                'tag_id' => 71,
+                'movie_id' => 655,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            68 => 
+            array (
+                'tag_id' => 72,
+                'movie_id' => 656,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            69 => 
+            array (
+                'tag_id' => 73,
+                'movie_id' => 657,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            70 => 
+            array (
+                'tag_id' => 74,
+                'movie_id' => 658,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            71 => 
+            array (
+                'tag_id' => 75,
+                'movie_id' => 659,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            72 => 
+            array (
+                'tag_id' => 76,
+                'movie_id' => 660,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            73 => 
+            array (
+                'tag_id' => 77,
+                'movie_id' => 661,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            74 => 
+            array (
+                'tag_id' => 78,
+                'movie_id' => 662,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            75 => 
+            array (
+                'tag_id' => 79,
+                'movie_id' => 663,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            76 => 
+            array (
+                'tag_id' => 80,
+                'movie_id' => 664,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            77 => 
+            array (
+                'tag_id' => 81,
+                'movie_id' => 665,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            78 => 
+            array (
+                'tag_id' => 82,
+                'movie_id' => 666,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            79 => 
+            array (
+                'tag_id' => 83,
+                'movie_id' => 667,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            80 => 
+            array (
+                'tag_id' => 84,
+                'movie_id' => 668,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            81 => 
+            array (
+                'tag_id' => 85,
+                'movie_id' => 669,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            82 => 
+            array (
+                'tag_id' => 86,
+                'movie_id' => 670,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            83 => 
+            array (
+                'tag_id' => 87,
+                'movie_id' => 671,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            84 => 
+            array (
+                'tag_id' => 88,
+                'movie_id' => 672,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            85 => 
+            array (
+                'tag_id' => 89,
+                'movie_id' => 673,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            86 => 
+            array (
+                'tag_id' => 90,
+                'movie_id' => 674,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            87 => 
+            array (
+                'tag_id' => 91,
+                'movie_id' => 675,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            88 => 
+            array (
+                'tag_id' => 92,
+                'movie_id' => 676,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            89 => 
+            array (
+                'tag_id' => 93,
+                'movie_id' => 677,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            90 => 
+            array (
+                'tag_id' => 94,
+                'movie_id' => 678,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            91 => 
+            array (
+                'tag_id' => 95,
+                'movie_id' => 679,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            92 => 
+            array (
+                'tag_id' => 96,
+                'movie_id' => 680,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            93 => 
+            array (
+                'tag_id' => 97,
+                'movie_id' => 681,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            94 => 
+            array (
+                'tag_id' => 98,
+                'movie_id' => 682,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            95 => 
+            array (
+                'tag_id' => 99,
+                'movie_id' => 683,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            96 => 
+            array (
+                'tag_id' => 100,
+                'movie_id' => 684,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            97 => 
+            array (
+                'tag_id' => 101,
+                'movie_id' => 685,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            98 => 
+            array (
+                'tag_id' => 102,
+                'movie_id' => 686,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            99 => 
+            array (
+                'tag_id' => 103,
+                'movie_id' => 687,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            100 => 
+            array (
+                'tag_id' => 104,
+                'movie_id' => 688,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            101 => 
+            array (
+                'tag_id' => 105,
+                'movie_id' => 689,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            102 => 
+            array (
+                'tag_id' => 106,
+                'movie_id' => 690,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            103 => 
+            array (
+                'tag_id' => 107,
+                'movie_id' => 691,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            104 => 
+            array (
+                'tag_id' => 108,
+                'movie_id' => 692,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            105 => 
+            array (
+                'tag_id' => 109,
+                'movie_id' => 693,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            106 => 
+            array (
+                'tag_id' => 110,
+                'movie_id' => 694,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            107 => 
+            array (
+                'tag_id' => 111,
+                'movie_id' => 695,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            108 => 
+            array (
+                'tag_id' => 112,
+                'movie_id' => 696,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            109 => 
+            array (
+                'tag_id' => 113,
+                'movie_id' => 697,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            110 => 
+            array (
+                'tag_id' => 114,
+                'movie_id' => 698,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            111 => 
+            array (
+                'tag_id' => 115,
+                'movie_id' => 699,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            112 => 
+            array (
+                'tag_id' => 116,
+                'movie_id' => 700,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            113 => 
+            array (
+                'tag_id' => 117,
+                'movie_id' => 701,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            114 => 
+            array (
+                'tag_id' => 118,
+                'movie_id' => 702,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            115 => 
+            array (
+                'tag_id' => 119,
+                'movie_id' => 703,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            116 => 
+            array (
+                'tag_id' => 120,
+                'movie_id' => 704,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            117 => 
+            array (
+                'tag_id' => 121,
+                'movie_id' => 167,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            118 => 
+            array (
+                'tag_id' => 122,
+                'movie_id' => 168,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            119 => 
+            array (
+                'tag_id' => 123,
+                'movie_id' => 169,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            120 => 
+            array (
+                'tag_id' => 124,
+                'movie_id' => 170,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            121 => 
+            array (
+                'tag_id' => 125,
+                'movie_id' => 614,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            122 => 
+            array (
+                'tag_id' => 126,
+                'movie_id' => 166,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

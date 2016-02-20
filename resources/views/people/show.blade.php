@@ -1,28 +1,16 @@
-<?php
-
-   $label_class  = "col-xs-12 col-sm-4 col-md-4 col-lg-3";
-   $input_class  = "col-xs-12 col-sm-8 col-md-8 col-lg-9";
-   $role_film    = "col-xs-12 col-sm-6 col-md-6 col-lg-6";
-   $role_char    = "col-xs-12 col-sm-4 col-md-4 col-lg-4";
-   $role_date    = "col-xs-12 col-sm-2 col-md-2 col-lg-2";
-
-?>
 
 @extends('app')
 
-{{-- Page Title --}}
 @section('title')
    {{$person->forename}} {{$person->surname}}
 @stop
 
-{{-- Subnav --}}
 @section('subnav-left')
    @include('segments.links.back')
    @include('segments.links.add_person')
    @include('segments.links.edit_person')
 @stop
 
-{{-- Main Body --}}
 @section('content')
 
    @if (session('status'))
@@ -33,10 +21,8 @@
 
    <div class="row movie">
 
-      {{-- left column --}}
       <div id="left-hand-column" class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 
-         {{-- cover image --}}
          <div class="row">
             <div class="col-xs-12">
                @if($person->cover_count == 1)
@@ -50,47 +36,42 @@
          <hr/>
 
          <div class="side-buttons">
-
             @include('segments.buttons.edit_person')
-
             @include('segments.buttons.imdb_person')
-
             @include('segments.layout.padding')
-
-
          </div>
 
-      </div> {{-- end of left column --}}
+      </div>
 
-      {{-- right column --}}
       <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-1 col-lg-8">
 
          <div class="row">
             <div class="col-xs-12"><h1>{{$person->forename}} {{$person->surname}}</h1></div>
          </div>
+
          <br/>
+
          <div class="row">
-            <div class="{{$label_class}}"><b>Born</b></div>
-            <div class="{{$input_class}}">{{$person->birthday}}</div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3"><b>Born</b></div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">{{$person->birthday}}</div>
          </div>
 
          @if($person->deceased)
             <div class="row">
-               <div class="{{$label_class}}"><b>Died</b></div>
-               <div class="{{$input_class}}">{{$person->deceased}}</div>
+               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3"><b>Died</b></div>
+               <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">{{$person->deceased}}</div>
             </div>
          @endif
 
          <div class="row">
-            <div class="{{$label_class}}"><b>Age</b></div>
-            <div class="{{$input_class}}">{{$person->age}}</div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3"><b>Age</b></div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">{{$person->age}}</div>
          </div>
 
          <div class="row">
             <div class="col-xs-12"><p>{!! $person->bio !!}</p></div>
          </div>
 
-         {{-- acting roles --}}
          @if(count($person->roles)!==0)
             <div class="row">
                <div class="col-xs-12"><h4>Roles</h4></div>
@@ -98,18 +79,16 @@
 
             @foreach($person->roles as $role)
                <div class="row">
-                  <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $role->movie_id) }}"><b>{{$role->name}}</b></a><br/></div>
-                  <div class="{{$role_char}}"><i>{{$role->pivot->character}}</i><br/></div>
-                  <div class="{{$role_date}}">{{$role->released}}</div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><a href="{{ action('MovieController@show', $role->movie_id) }}"><b>{{$role->name}}</b></a><br/></div>
+                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><i>{{$role->pivot->character}}</i><br/></div>
+                  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">{{$role->released}}</div>
                </div>
             @endforeach
 
-            {{-- padding --}}
             @include('segments.layout.padding')
 
          @endif
 
-         {{-- roles --}}
          @if(count($person->directed)!==0)
             <div class="row">
                <div class="col-xs-12"><h4>Directed</h4></div>
@@ -117,13 +96,13 @@
 
             @foreach($person->directed as $job)
                <div class="row">
-                  <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $job->movie_id) }}"><b>{{$job->name}}</b></a><br/></div>
-                  <div class="{{$role_char}}"><i>{{$job->pivot->position}}</i><br/></div>
-                  <div class="{{$role_date}}">{{$job->released}}</div>
+                  <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10"><a href="{{ action('MovieController@show', $job->movie_id) }}"><b>{{$job->name}}</b></a><br/></div>
+                  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">{{$job->released}}</div>
                </div>
             @endforeach
-            {{-- padding --}}
+
             @include('segments.layout.padding')
+
          @endif
 
          @if(count($person->produced)!==0)
@@ -133,13 +112,13 @@
 
             @foreach($person->produced as $job)
                <div class="row">
-                  <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $job->movie_id) }}"><b>{{$job->name}}</b></a><br/></div>
-                  <div class="{{$role_char}}"><i>{{$job->pivot->position}}</i><br/></div>
-                  <div class="{{$role_date}}">{{$job->released}}</div>
+                  <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10"><a href="{{ action('MovieController@show', $job->movie_id) }}"><b>{{$job->name}}</b></a><br/></div>
+                  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">{{$job->released}}</div>
                </div>
             @endforeach
-            {{-- padding --}}
+
             @include('segments.layout.padding')
+
          @endif
 
          @if(count($person->scripted)!==0)
@@ -149,13 +128,13 @@
 
             @foreach($person->scripted as $job)
                <div class="row">
-                  <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $job->movie_id) }}"><b>{{$job->name}}</b></a><br/></div>
-                  <div class="{{$role_char}}"><i>{{$job->pivot->position}}</i><br/></div>
-                  <div class="{{$role_date}}">{{$job->released}}</div>
+                  <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10"><a href="{{ action('MovieController@show', $job->movie_id) }}"><b>{{$job->name}}</b></a><br/></div>
+                  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">{{$job->released}}</div>
                </div>
             @endforeach
-            {{-- padding --}}
+
             @include('segments.layout.padding')
+
          @endif
 
          @if(count($person->scored)!==0)
@@ -165,17 +144,17 @@
 
             @foreach($person->scored as $job)
                <div class="row">
-                  <div class="{{$role_film}}"><a href="{{ action('MovieController@show', $job->movie_id) }}"><b>{{$job->name}}</b></a><br/></div>
-                  <div class="{{$role_char}}"><i>{{$job->pivot->position}}</i><br/></div>
-                  <div class="{{$role_date}}">{{$job->released}}</div>
+                  <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10"><a href="{{ action('MovieController@show', $job->movie_id) }}"><b>{{$job->name}}</b></a><br/></div>
+                  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">{{$job->released}}</div>
                </div>
             @endforeach
-            {{-- padding --}}
+
             @include('segments.layout.padding')
+
          @endif
 
-      </div> {{-- end of right column --}}
+      </div>
 
-   </div> {{-- end of person row --}}
+   </div>
 
 @stop

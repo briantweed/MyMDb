@@ -23,6 +23,12 @@ class PersonController extends Controller {
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
+	/**
+	*
+	* Show all persons
+	* @return Response
+	*
+	*/
 	public function index()
 	{
 		$people = Persons::orderBy('forename')
@@ -32,9 +38,16 @@ class PersonController extends Controller {
 		return view('people.index', compact('people','user'));
 	}
 
-	public function show($id)
+	/**
+	*
+	* Show selected person record
+	* @param integer $person_id
+	* @return Response
+	*
+	*/
+	public function show($person_id)
 	{
-		$person = Persons::findorfail($id);
+		$person = Persons::findorfail($person_id);
 		$person->image = $this->checkImageExists($person->image, $person->forename, 'people');
 		$person->cover_count = strlen($person->image);
 		if($person->birthday !== NULL)
@@ -50,18 +63,16 @@ class PersonController extends Controller {
 		$person->deceased = $this->formatDate($person->deceased, 'display');
 		$person->bio = $this->checkForMovies($person->bio);
 
-		$talents = [];
-		if(count($person->roles)) $talents[] = "Actor";
-		if(count($person->directed)) $talents[] = "Director";
-		if(count($person->produced)) $talents[] = "Producer";
-		if(count($person->scripted)) $talents[] = "Writer";
-		if(count($person->composer)) $talents[] = "Composer";
-		$person->synops = implode(", ", $talents);
-
 		$user = $this->isAdmin;
 		return view('people.show', compact('person', 'user'));
 	}
 
+	/**
+	*
+	* Create form to add a new person record to the database
+	* @return Response
+	*
+	*/
 	public function create()
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -70,6 +81,13 @@ class PersonController extends Controller {
 		return view('people.create', compact('fields', 'user'));
 	}
 
+	/**
+	*
+	* Store a new person record to the database
+	* @param array $request
+	* @return Response
+	*
+	*/
 	public function store(ValidateCreatePerson $request)
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -112,6 +130,13 @@ class PersonController extends Controller {
 		return redirect()->action('PersonController@create')->with('status', 'Person Already Exists');
 	}
 
+	/**
+	*
+	* Show form to edit an existing person record
+	* @param integer $person_id
+	* @return Response
+	*
+	*/
 	public function edit($person_id)
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -137,6 +162,13 @@ class PersonController extends Controller {
 		return view('people.edit', compact('person', 'fields', 'values', 'options', 'user'));
 	}
 
+	/**
+	*
+	* Update an exising person record
+	* @param array $request
+	* @return Response
+	*
+	*/
 	public function update($id, ValidateCreatePerson $request)
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -161,12 +193,26 @@ class PersonController extends Controller {
 		return redirect()->action('PersonController@edit', [$id])->with('status', 'Details Updated Successfully');
 	}
 
+	/**
+	*
+	* Delete a person record from the database
+	* @param integer $id
+	* @return Response
+	*
+	*/
 	public function destroy($id)
 	{
 		Persons::where('person_id', '=', $id)->delete();
 		return redirect()->action('PersonController@edit', [$id-1])->with('status', 'Person Deleted');
 	}
 
+	/**
+	*
+	* Modal window, show form to create a new person record
+	* @param array $request
+	* @return Response
+	*
+	*/
 	public function addNewPerson()
 	{
 		$data = Request::all();
@@ -184,6 +230,14 @@ class PersonController extends Controller {
 		return (String) view('modal.create_person', compact('fields', 'values'));
 	}
 
+	/**
+	*
+	* Modal window, create a new person record
+	* only if that person doesn't already exist in the database
+	* @param array $request
+	* @return Response
+	*
+	*/
 	public function createNewPerson()
 	{
 		if(!$this->isAdmin) return view('auth.login');
@@ -223,6 +277,13 @@ class PersonController extends Controller {
 		return "error";
 	}
 
+	/**
+	*
+	* Modal window, add new acting role
+	* @param array $request
+	* @return Response
+	*
+	*/
 	public function addNewRole()
 	{
 		if($this->isAdmin)
@@ -242,6 +303,13 @@ class PersonController extends Controller {
 		return "error";
 	}
 
+	/**
+	*
+	* Modal window, edit existing role
+	* @param array $request
+	* @return Response
+	*
+	*/
 	public function editRole()
    {
 		if($this->isAdmin)
@@ -261,6 +329,13 @@ class PersonController extends Controller {
       return "error";
    }
 
+	/**
+	*
+	* Modal window, delete role
+	* @param array $request
+	* @return Response
+	*
+	*/
 	public function removeMovieRole()
    {
 		if($this->isAdmin)
@@ -278,13 +353,14 @@ class PersonController extends Controller {
       return "error";
    }
 
-	/*
-	| --------------------------------------------------
-	|		Private Functions
-	| --------------------------------------------------
+	/**
+	*
+	* Check the person does not already exist in the database
+	* @param string $forename
+	* @param string $surname
+	* @return Response
+	*
 	*/
-
-
 	private function checkExistingPeople($forename, $surname)
 	{
 		$query = Persons::where('forename', $forename);
@@ -294,6 +370,15 @@ class PersonController extends Controller {
 		else return $existing->person_id;
 	}
 
+	/**
+	*
+	* Check for existing movies with the same title
+	* Usually to detech if a movie is a remake
+	* If true, release year displayed
+	* @param string $text
+	* @return Response
+	*
+	*/
 	private function checkForMovies($text)
 	{
 		$output = preg_replace_callback('/\{{(.*?)}}/', function($m) {
@@ -312,6 +397,4 @@ class PersonController extends Controller {
 		return nl2br($output);
 	}
 
-
-
-}
+} // end of class

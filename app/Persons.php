@@ -5,7 +5,18 @@ use Illuminate\Database\Eloquent\Model;
 
 class Persons extends Model {
 
+	/**
+	*
+	* Person table primary key
+	*
+	*/
 	protected $primaryKey = 'person_id';
+
+	/**
+	*
+	* Table columns that can be updated
+	*
+	*/
 	protected $fillable = array(
 		'forename',
 		'surname',
@@ -16,6 +27,13 @@ class Persons extends Model {
 		'imdb_id'
 	);
 
+
+	/**
+	*
+	* Pivot table relationship between Persons
+	* and their acting roles
+	*
+	*/
 	public function roles()
 	{
 		return $this->belongsToMany('App\Movies', 'cast', 'person_id', 'movie_id')
@@ -23,6 +41,12 @@ class Persons extends Model {
 						->orderBy('released', 'desc');
 	}
 
+	/**
+	*
+	* Pivot table relationship between Persons
+	* and their directing/producing/writing/scoring roles
+	*
+	*/
 	public function positions()
 	{
 		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
@@ -32,6 +56,12 @@ class Persons extends Model {
 						->orderBy('name', 'asc');
 	}
 
+	/**
+	*
+	* Pivot table relationship between Persons
+	* and the films they have directed
+	*
+	*/
 	public function directed()
 	{
 		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
@@ -41,6 +71,12 @@ class Persons extends Model {
 						->orderBy('name', 'asc');
 	}
 
+	/**
+	*
+	* Pivot table relationship between Persons
+	* and the films they have produced
+	*
+	*/
 	public function produced()
 	{
 		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
@@ -50,6 +86,12 @@ class Persons extends Model {
 						->orderBy('name', 'asc');
 	}
 
+	/**
+	*
+	* Pivot table relationship between Persons
+	* and the films they have writted
+	*
+	*/
 	public function scripted()
 	{
 		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
@@ -59,6 +101,12 @@ class Persons extends Model {
 						->orderBy('name', 'asc');
 	}
 
+	/**
+	*
+	* Pivot table relationship between Persons
+	* and the films they have composed for
+	*
+	*/
 	public function scored()
 	{
 		return $this->belongsToMany('App\Movies', 'crew', 'person_id', 'movie_id')
@@ -68,16 +116,35 @@ class Persons extends Model {
 						->orderBy('name', 'asc');
 	}
 
+	/**
+	*
+	* Show the most popular actors that have not appeared in
+	* entries tagged as TV shows.
+	* @param integer $limit
+	* @return Response
+	*
+	*/
 	public static function getActorCount($limit)
 	{
 		return Persons::select('persons.person_id', DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
 			->join('cast', 'cast.person_id', '=', 'persons.person_id')
+			->leftJoin('tags', 'tags.movie_id', '=', 'cast.movie_id')
+			->leftJoin('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id')
+			->whereNull('keywords.word')
+			->orWhere('keywords.word', '!=', 'TV')
 			->groupBy('cast.person_id')
 			->orderBy('count', 'desc')->orderBy('forename', 'asc')
 			->take($limit)
 			->get();
 	}
 
+	/**
+	*
+	* Show the most popular directors
+	* @param integer $limit
+	* @return Response
+	*
+	*/
 	public static function getDirectorCount($limit)
 	{
 		return Persons::select('persons.person_id', DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
@@ -90,6 +157,12 @@ class Persons extends Model {
 			->get();
 	}
 
+	/**
+	*
+	* Show all persons whose birthday is today
+	* @return Response
+	*
+	*/
 	public static function getTodaysBirthdays()
 	{
 		return Persons::select('persons.person_id', 'birthday', 'deceased', DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
@@ -98,4 +171,4 @@ class Persons extends Model {
 			->get();
 	}
 
-}
+} // end of class
