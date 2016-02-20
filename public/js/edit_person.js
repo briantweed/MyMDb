@@ -3,6 +3,7 @@ var featherEditor = new Aviary.Feather({
    apiKey: $('input[name="_aviary"]').val(),
    tools: 'crop,resize,orientation,enhance,effects,brightness,contrast',
    cropPresets: [
+      ['Custom','Custom'],
       ['Portrait','2:3'],
    ],
    displayImageSize: true,

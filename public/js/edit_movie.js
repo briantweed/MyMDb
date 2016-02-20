@@ -6,6 +6,7 @@ var featherEditor = new Aviary.Feather({
    tools: 'crop,resize,orientation,enhance,effects,brightness,contrast',
    cropPresets: [
       ['Portrait','2:3'],
+      ['Custom', 'Custom'],
    ],
    displayImageSize: true,
    noCloseButton: false,
