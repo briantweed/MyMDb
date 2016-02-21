@@ -53107,6 +53107,346 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            307 => 
+            array (
+                'cast_id' => 5942,
+                'movie_id' => 737,
+                'person_id' => 141,
+                'character' => 'Dr. Martin Stein',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            308 => 
+            array (
+                'cast_id' => 5943,
+                'movie_id' => 737,
+                'person_id' => 1408,
+                'character' => 'Captain Cold',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            309 => 
+            array (
+                'cast_id' => 5944,
+                'movie_id' => 737,
+                'person_id' => 1211,
+                'character' => 'General Wade Eiling',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            310 => 
+            array (
+                'cast_id' => 5945,
+                'movie_id' => 737,
+                'person_id' => 1302,
+                'character' => 'Eobard Thawne',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            311 => 
+            array (
+                'cast_id' => 5947,
+                'movie_id' => 737,
+                'person_id' => 78,
+                'character' => 'James Jesse',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            312 => 
+            array (
+                'cast_id' => 5956,
+                'movie_id' => 737,
+                'person_id' => 2021,
+                'character' => 'Sherry',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            313 => 
+            array (
+                'cast_id' => 5957,
+                'movie_id' => 737,
+                'person_id' => 544,
+                'character' => 'Gideon',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            314 => 
+            array (
+                'cast_id' => 5959,
+                'movie_id' => 737,
+                'person_id' => 2096,
+                'character' => 'Barry Allen',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            315 => 
+            array (
+                'cast_id' => 5960,
+                'movie_id' => 737,
+                'person_id' => 2097,
+                'character' => 'Iris West',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            316 => 
+            array (
+                'cast_id' => 5961,
+                'movie_id' => 737,
+                'person_id' => 2098,
+                'character' => 'Caitlin Snow',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            317 => 
+            array (
+                'cast_id' => 5962,
+                'movie_id' => 737,
+                'person_id' => 2099,
+                'character' => 'Cisco Ramon',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            318 => 
+            array (
+                'cast_id' => 5963,
+                'movie_id' => 737,
+                'person_id' => 2100,
+                'character' => 'Dr Harrison Wells',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            319 => 
+            array (
+                'cast_id' => 5964,
+                'movie_id' => 737,
+                'person_id' => 2101,
+                'character' => 'Joe West',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            320 => 
+            array (
+                'cast_id' => 5965,
+                'movie_id' => 737,
+                'person_id' => 2102,
+                'character' => 'Eddie Thawne',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            321 => 
+            array (
+                'cast_id' => 5966,
+                'movie_id' => 738,
+                'person_id' => 2096,
+                'character' => 'Barry Allen',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            322 => 
+            array (
+                'cast_id' => 5967,
+                'movie_id' => 738,
+                'person_id' => 2097,
+                'character' => 'Iris West',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            323 => 
+            array (
+                'cast_id' => 5968,
+                'movie_id' => 738,
+                'person_id' => 2098,
+                'character' => 'Caitlin Snow',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            324 => 
+            array (
+                'cast_id' => 5969,
+                'movie_id' => 738,
+                'person_id' => 2099,
+                'character' => 'Cisco Ramon',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            325 => 
+            array (
+                'cast_id' => 5970,
+                'movie_id' => 738,
+                'person_id' => 2100,
+                'character' => 'Dr. Harrison Wells',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            326 => 
+            array (
+                'cast_id' => 5971,
+                'movie_id' => 738,
+                'person_id' => 2101,
+                'character' => 'Joe West',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            327 => 
+            array (
+                'cast_id' => 5973,
+                'movie_id' => 738,
+                'person_id' => 141,
+                'character' => 'Dr. Martin Stein',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            328 => 
+            array (
+                'cast_id' => 5974,
+                'movie_id' => 738,
+                'person_id' => 1408,
+                'character' => 'Captain Cold',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            329 => 
+            array (
+                'cast_id' => 5976,
+                'movie_id' => 738,
+                'person_id' => 1302,
+                'character' => 'Eobard Thawne',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            330 => 
+            array (
+                'cast_id' => 5978,
+                'movie_id' => 738,
+                'person_id' => 78,
+                'character' => 'James Jesse',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            331 => 
+            array (
+                'cast_id' => 5980,
+                'movie_id' => 738,
+                'person_id' => 456,
+                'character' => 'Clock King',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            332 => 
+            array (
+                'cast_id' => 5981,
+                'movie_id' => 738,
+                'person_id' => 463,
+                'character' => 'Simon Stagg',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            333 => 
+            array (
+                'cast_id' => 5982,
+                'movie_id' => 738,
+                'person_id' => 605,
+                'character' => 'Lewis Snart',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            334 => 
+            array (
+                'cast_id' => 5983,
+                'movie_id' => 738,
+                'person_id' => 1025,
+                'character' => 'Brie Larvan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            335 => 
+            array (
+                'cast_id' => 5986,
+                'movie_id' => 738,
+                'person_id' => 511,
+                'character' => 'Deathbolt',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            336 => 
+            array (
+                'cast_id' => 5989,
+                'movie_id' => 738,
+                'person_id' => 254,
+            'character' => 'Zoom (voice)',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            337 => 
+            array (
+                'cast_id' => 5990,
+                'movie_id' => 738,
+                'person_id' => 2103,
+                'character' => 'Wally West',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            338 => 
+            array (
+                'cast_id' => 5991,
+                'movie_id' => 738,
+                'person_id' => 2104,
+                'character' => 'Patty Spivot',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            339 => 
+            array (
+                'cast_id' => 5992,
+                'movie_id' => 738,
+                'person_id' => 2105,
+                'character' => 'Jay Garrick',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            340 => 
+            array (
+                'cast_id' => 5993,
+                'movie_id' => 738,
+                'person_id' => 2106,
+                'character' => 'Henry Allen',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
