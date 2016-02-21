@@ -26,7 +26,7 @@ class ApiController extends Controller {
 	public function __construct()
    {
   	  $this->isAdmin = $this->checkUserDetails();
-	  $this->counter = 660;
+	  $this->counter = 700;
    }
 
 	/**

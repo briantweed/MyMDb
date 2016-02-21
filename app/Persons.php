@@ -120,22 +120,24 @@ class Persons extends Model {
 	*
 	* Show the most popular actors that have not appeared in
 	* entries tagged as TV shows.
+	* Written as raw mysql query as Laravel cannot handle the subquery need in the WHERE statement
 	* @param integer $limit
 	* @return Response
 	*
 	*/
 	public static function getActorCount($limit)
 	{
-		return Persons::select('persons.person_id', DB::raw('count(*) as count'), DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
-			->join('cast', 'cast.person_id', '=', 'persons.person_id')
-			->leftJoin('tags', 'tags.movie_id', '=', 'cast.movie_id')
-			->leftJoin('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id')
-			->whereNull('keywords.word')
-			->orWhere('keywords.word', '!=', 'TV')
-			->groupBy('cast.person_id')
-			->orderBy('count', 'desc')->orderBy('forename', 'asc')
-			->take($limit)
-			->get();
+		return DB::select(
+			DB::raw('SELECT `cast`.`movie_id` , `persons`.`person_id`, count(*) as count, CONCAT(`forename`, " ", `surname`) as name, `image` from `persons`
+			INNER JOIN `cast` on `cast`.`person_id` = `persons`.`person_id`
+			WHERE(
+				SELECT count(*) FROM tags
+				WHERE `tags`.`movie_id` = `cast`.`movie_id` and `tags`.`keyword_id` = 6
+			) = 0
+			GROUP BY `cast`.`person_id`
+			ORDER BY `count` desc, `forename` asc
+			LIMIT 24')
+		);
 	}
 
 	/**

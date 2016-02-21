@@ -52677,6 +52677,436 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            264 => 
+            array (
+                'cast_id' => 5899,
+                'movie_id' => 719,
+                'person_id' => 80,
+                'character' => 'The D\'Ascoyne Family',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            265 => 
+            array (
+                'cast_id' => 5900,
+                'movie_id' => 719,
+                'person_id' => 2075,
+                'character' => 'Louis',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            266 => 
+            array (
+                'cast_id' => 5901,
+                'movie_id' => 719,
+                'person_id' => 2076,
+                'character' => 'Edith',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            267 => 
+            array (
+                'cast_id' => 5902,
+                'movie_id' => 720,
+                'person_id' => 197,
+                'character' => 'Harry Palmer',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            268 => 
+            array (
+                'cast_id' => 5903,
+                'movie_id' => 720,
+                'person_id' => 2077,
+                'character' => 'Dalby',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            269 => 
+            array (
+                'cast_id' => 5904,
+                'movie_id' => 720,
+                'person_id' => 2078,
+                'character' => 'Ross',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            270 => 
+            array (
+                'cast_id' => 5905,
+                'movie_id' => 721,
+                'person_id' => 2079,
+                'character' => 'Dr Alec Harvey',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            271 => 
+            array (
+                'cast_id' => 5906,
+                'movie_id' => 721,
+                'person_id' => 2080,
+                'character' => 'Albert Godby',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            272 => 
+            array (
+                'cast_id' => 5907,
+                'movie_id' => 721,
+                'person_id' => 2081,
+                'character' => 'Laura Jesson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            273 => 
+            array (
+                'cast_id' => 5908,
+                'movie_id' => 722,
+                'person_id' => 82,
+                'character' => 'Student',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            274 => 
+            array (
+                'cast_id' => 5909,
+                'movie_id' => 722,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            275 => 
+            array (
+                'cast_id' => 5910,
+                'movie_id' => 722,
+                'person_id' => 2083,
+                'character' => 'Ollie',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            276 => 
+            array (
+                'cast_id' => 5911,
+                'movie_id' => 723,
+                'person_id' => 2082,
+                'character' => 'Stanley',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            277 => 
+            array (
+                'cast_id' => 5912,
+                'movie_id' => 723,
+                'person_id' => 2083,
+                'character' => 'Ollie',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            278 => 
+            array (
+                'cast_id' => 5913,
+                'movie_id' => 723,
+                'person_id' => 1930,
+                'character' => 'Waiter',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            279 => 
+            array (
+                'cast_id' => 5914,
+                'movie_id' => 723,
+                'person_id' => 2084,
+                'character' => 'Lola Marcel',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            280 => 
+            array (
+                'cast_id' => 5915,
+                'movie_id' => 724,
+                'person_id' => 2082,
+                'character' => 'Stan Laurel / Alf Laurel',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            281 => 
+            array (
+                'cast_id' => 5916,
+                'movie_id' => 724,
+                'person_id' => 2083,
+                'character' => 'Oliver \'Ollie\' Hardy / Bert Hardy',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            282 => 
+            array (
+                'cast_id' => 5917,
+                'movie_id' => 725,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            283 => 
+            array (
+                'cast_id' => 5918,
+                'movie_id' => 725,
+                'person_id' => 2083,
+                'character' => 'Ollie',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            284 => 
+            array (
+                'cast_id' => 5919,
+                'movie_id' => 726,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            285 => 
+            array (
+                'cast_id' => 5920,
+                'movie_id' => 726,
+                'person_id' => 2083,
+                'character' => 'Ollie',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            286 => 
+            array (
+                'cast_id' => 5921,
+                'movie_id' => 727,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            287 => 
+            array (
+                'cast_id' => 5922,
+                'movie_id' => 727,
+                'person_id' => 2083,
+                'character' => 'Ollie',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            288 => 
+            array (
+                'cast_id' => 5923,
+                'movie_id' => 728,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            289 => 
+            array (
+                'cast_id' => 5924,
+                'movie_id' => 728,
+                'person_id' => 2083,
+                'character' => 'Ollie',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            290 => 
+            array (
+                'cast_id' => 5925,
+                'movie_id' => 729,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            291 => 
+            array (
+                'cast_id' => 5926,
+                'movie_id' => 729,
+                'person_id' => 2083,
+                'character' => 'Ollie',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            292 => 
+            array (
+                'cast_id' => 5927,
+                'movie_id' => 730,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            293 => 
+            array (
+                'cast_id' => 5928,
+                'movie_id' => 730,
+                'person_id' => 2083,
+                'character' => 'Oliver',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            294 => 
+            array (
+                'cast_id' => 5929,
+                'movie_id' => 731,
+                'person_id' => 2082,
+                'character' => 'Stan Laurel',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            295 => 
+            array (
+                'cast_id' => 5930,
+                'movie_id' => 731,
+                'person_id' => 2083,
+                'character' => 'Oliver Hardy',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            296 => 
+            array (
+                'cast_id' => 5931,
+                'movie_id' => 731,
+                'person_id' => 1930,
+                'character' => 'Prison Guard',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            297 => 
+            array (
+                'cast_id' => 5932,
+                'movie_id' => 732,
+                'person_id' => 2082,
+                'character' => 'Stan Sr. / Stanley Jr.',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            298 => 
+            array (
+                'cast_id' => 5933,
+                'movie_id' => 732,
+                'person_id' => 2083,
+                'character' => 'Ollie Sr. / Oliver Jr.',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            299 => 
+            array (
+                'cast_id' => 5934,
+                'movie_id' => 733,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            300 => 
+            array (
+                'cast_id' => 5935,
+                'movie_id' => 733,
+                'person_id' => 2083,
+                'character' => 'Ollie',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            301 => 
+            array (
+                'cast_id' => 5936,
+                'movie_id' => 734,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            302 => 
+            array (
+                'cast_id' => 5937,
+                'movie_id' => 734,
+                'person_id' => 2083,
+                'character' => 'Ollie',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            303 => 
+            array (
+                'cast_id' => 5938,
+                'movie_id' => 735,
+                'person_id' => 2083,
+                'character' => 'Officer',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            304 => 
+            array (
+                'cast_id' => 5939,
+                'movie_id' => 735,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            305 => 
+            array (
+                'cast_id' => 5940,
+                'movie_id' => 736,
+                'person_id' => 2083,
+                'character' => 'Big Bill',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            306 => 
+            array (
+                'cast_id' => 5941,
+                'movie_id' => 736,
+                'person_id' => 2082,
+                'character' => 'Stan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

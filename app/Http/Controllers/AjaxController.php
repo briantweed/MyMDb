@@ -156,10 +156,11 @@ class AjaxController extends Controller
 
 	public function movieFormatCount()
 	{
-		return Movies::select('formats.type as label', DB::raw('count(*) as y'))
+		$movies =  Movies::select('formats.type as label', DB::raw('count(*) as y'))
 			->join('formats', 'movies.format_id', '=', 'formats.format_id')
 			->groupBy('movies.format_id')
 			->get();
+      return $movies;
 	}
 
 	public function movieCertificateCount()

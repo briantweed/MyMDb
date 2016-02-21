@@ -101,7 +101,7 @@ class FormsTableSeeder extends Seeder
                 'required' => 1,
                 'type' => 'range',
                 'order' => 60,
-                'range_from' => 1930,
+                'range_from' => 1920,
                 'range_to' => 9999,
                 'options' => '',
                 'default' => '',

@@ -216,7 +216,7 @@ function displayMoviesByFormat() {
       }).done(function(json) {
          var chart = new CanvasJS.Chart('formatChart', {
             toolTip: {
-               enabled: false,
+               enabled: true,
             },
             animationEnabled: true,
             data: [{
@@ -289,8 +289,8 @@ function displayMoviesByGenre() {
                labelFontSize: 12
 			   },
             axisY: {
-               interval: 10,
-               maximum: 250,
+               interval: 50,
+               maximum: 300,
                labelFontSize: 12,
                gridColor: '#ddd',
                gridThickness: 1,

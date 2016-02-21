@@ -59,6 +59,20 @@ class KeywordsTableSeeder extends Seeder
                 'created_at' => '2016-02-20 14:02:00',
                 'updated_at' => '2016-02-20 14:02:00',
             ),
+            6 => 
+            array (
+                'keyword_id' => 7,
+                'word' => 'Laurel',
+                'created_at' => '2016-02-21 15:37:30',
+                'updated_at' => '2016-02-21 15:37:30',
+            ),
+            7 => 
+            array (
+                'keyword_id' => 8,
+                'word' => 'Hardy',
+                'created_at' => '2016-02-21 15:37:36',
+                'updated_at' => '2016-02-21 15:37:36',
+            ),
         ));
         
         

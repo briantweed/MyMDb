@@ -182,7 +182,7 @@ class MovieController extends Controller {
 								->orderBy('forename')
 								->lists('full_name', 'person_id')->all();
 
-		$options->keywords = Keywords::all();
+		$options->keywords = Keywords::orderBy('word')->get();
 		foreach($options->keywords as $keyword)
 		{
 			$keyword->selected = in_array($keyword->keyword_id, $movie->tags) ? true : false;
