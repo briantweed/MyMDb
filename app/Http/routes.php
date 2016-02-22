@@ -22,6 +22,7 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 	Route::post('searchForMovie', 'ApiController@searchForMovie');
 	Route::get('getDirectors', 'ApiController@getDirectors');
 	Route::get('getGenres', 'ApiController@getGenres');
+	Route::get('actorID', 'ApiController@actorID');
 
 	// AJAX QUERIES
 	Route::post('aviary', 'AviaryController@replaceImage');

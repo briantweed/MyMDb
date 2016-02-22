@@ -53537,6 +53537,56 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            350 => 
+            array (
+                'cast_id' => 6006,
+                'movie_id' => 56,
+                'person_id' => 243,
+                'character' => 'The Broker',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            351 => 
+            array (
+                'cast_id' => 6007,
+                'movie_id' => 56,
+                'person_id' => 459,
+                'character' => 'Xandarian Ladies\' Man',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            352 => 
+            array (
+                'cast_id' => 6008,
+                'movie_id' => 56,
+                'person_id' => 2063,
+                'character' => 'Head Riot Guard',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            353 => 
+            array (
+                'cast_id' => 6010,
+                'movie_id' => 56,
+                'person_id' => 1577,
+                'character' => 'Maskless Sakaaran',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            354 => 
+            array (
+                'cast_id' => 6011,
+                'movie_id' => 56,
+                'person_id' => 500,
+                'character' => 'Thanos',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

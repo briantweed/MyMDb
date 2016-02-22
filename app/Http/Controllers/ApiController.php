@@ -369,6 +369,35 @@ class ApiController extends Controller {
 		echo "<br/><br/>Finished ".date("H:i:s");
 	}
 
-
+	public function actorID()
+	{
+		echo "Started ".date("H:i:s")."...... <br/><br/>";
+		flush();
+		ob_flush();
+		for($x=500;$x<600;$x++)
+		{
+			$person = Persons::where('person_id', $x)->first();
+			if($person)
+			{
+				$my_token = env('IMDB_KEY');
+				$client = new \GuzzleHttp\Client();
+				$forename = preg_replace("/[^A-Za-z]/", '', $person->forename);
+				$surname = preg_replace("/[^A-Za-z]/", '', $person->surname);
+				$url = 'http://api.myapifilms.com/imdb/idIMDB?name='.$forename.'+'.$surname.'&token='.$my_token.'&format=json&language=en-us';
+				$imdb_response = $client->get($url);
+				$imdb_body = $imdb_response->getBody();
+				$imdb_api = json_decode($imdb_body);
+				if(count($imdb_api->data->names))
+				{
+					$imdb = $imdb_api->data->names[0];
+					$person->update(['imdb_id'=>$imdb->idIMDB]);
+					echo $person->person_id.": ".$person->forename." ".$person->surname."<BR>";
+					flush();
+					ob_flush();
+				}
+			}
+		}
+		echo "<br/><br/>Finished ".date("H:i:s");
+	}
 
 } // end of class

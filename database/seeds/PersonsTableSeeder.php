@@ -41,11 +41,11 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
                 'surname' => 'Rinsch',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0727754',
                 'image' => 'carl_rinsch.jpg',
                 'bio' => NULL,
                 'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'updated_at' => '2016-02-22 15:55:24',
             ),
             2 => 
             array (
@@ -54,11 +54,11 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
                 'surname' => 'Morgan',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0604558',
                 'image' => 'chris_morgan_1453491591.jpg',
                 'bio' => '',
                 'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '2016-01-22 19:39:51',
+                'updated_at' => '2016-02-22 16:01:49',
             ),
             3 => 
             array (
@@ -67,11 +67,11 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
                 'surname' => 'Amini',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0024925',
                 'image' => 'hossein_amini_1453491687.jpg',
                 'bio' => '',
                 'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '2016-01-22 19:41:27',
+                'updated_at' => '2016-02-22 16:01:52',
             ),
             4 => 
             array (
@@ -93,13 +93,13 @@ After all this, Reeves did the unthinkable and passed on the Speed sequel, but h
                 'surname' => 'Pitt',
                 'birthday' => '1963-12-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000093',
                 'image' => 'brad_pitt_1451494768.jpg',
             'bio' => 'Actor and producer Brad Pitt was born on December 18, 1963, in Shawnee, Oklahoma. Pitt\'s first jobs came in television in the late 1980s. Pitt made his big-screen debut in 1989\'s horror film Cutting Class and his role in 1994\'s Legends of the Fall helped secured his place as a Hollywood staple. More recent film credits include {{Fight Club (1999)}}, Babel (2006), The Curious Case of Benjamin Button (2008), {{Inglourious Basterds (2009)}}, Moneyball (2011) and {{World War Z (2013)}}.
 
 He was nominated for an Academy Award for the fifth time in 2014, winning his first Oscar in the best picture category as a producer for 12 Years a Slave (2013). He is married to fellow actor Angelina Jolie.',
                 'created_at' => '2015-12-30 16:59:28',
-                'updated_at' => '2016-01-18 20:46:49',
+                'updated_at' => '2016-02-22 16:01:57',
             ),
             6 => 
             array (
@@ -108,7 +108,7 @@ He was nominated for an Academy Award for the fifth time in 2014, winning his fi
                 'surname' => 'Norton',
                 'birthday' => '1969-08-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001570',
                 'image' => 'edward_norton_1451692788.jpg',
             'bio' => 'Edward Harrison Norton was born on August 18, 1969, in Boston, Massachusetts, and was raised in Columbia, Maryland. From the age of five onward, the Yale graduate (majoring in history) was interested in acting. At the age of eight, he would ask his drama teacher what his motivation in a scene was.
 
@@ -116,7 +116,7 @@ He attended theater schools throughout his life, and eventually managed to find 
 
 Edward won the Golden Globe for Best Actor in a Supporting Role and received an Oscar nomination for Best Supporting Actor for his performance in {{Primal Fear (1996). In 1998, Norton gained 30 pounds of muscle and transformed his look into that of a monstrous skinhead for his role as a violent white supremacist in {{American History X (1998)}}. This performance would earn him his second Oscar nomination, this time for Best Actor. In 1999 came the critically acclaimed {{Fight Club (1999)}}.',
                 'created_at' => '2016-01-01 23:43:03',
-                'updated_at' => '2016-01-18 20:49:10',
+                'updated_at' => '2016-02-22 16:02:00',
             ),
             7 => 
             array (
@@ -125,13 +125,13 @@ Edward won the Golden Globe for Best Actor in a Supporting Role and received an 
                 'surname' => 'Barrymore',
                 'birthday' => '1975-02-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000106',
                 'image' => 'drew_barrymore_1452604247.jpg',
                 'bio' => 'Since melting audiences\' hearts - at the age of six - in Steven Spielberg\'s beloved sci-fi blockbuster, E.T. the Extra-Terrestrial, Drew Barrymore has emerged as one of the most endearing and talented actresses of her generation.
 
 Drew Blyth Barrymore was born in Culver City, California, to actors John Drew Barrymore and Jaid Barrymore (née Ildiko Jaid Mako). Her father came from a long showbusiness legacy, as the son of actors John Barrymore and Dolores Costello, while her mother was the daughter of Hungarian immigrants. Despite a troubled and much-publicized adolescence, and a string of bad girl parts in lurid crime dramas such as Poison Ivy (1992), Barrymore\'s star was officially on the rise during the mid-1990s, with notable appearances in Boys on the Side (1995), Woody Allen\'s Everyone Says I Love You (1996), and the game-changing horror hit {{Scream (1996)}}.',
                 'created_at' => '2016-01-12 13:06:17',
-                'updated_at' => '2016-01-18 20:49:48',
+                'updated_at' => '2016-02-22 16:02:03',
             ),
             8 => 
             array (
@@ -140,7 +140,7 @@ Drew Blyth Barrymore was born in Culver City, California, to actors John Drew Ba
                 'surname' => 'Sandler',
                 'birthday' => '1966-09-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001191',
                 'image' => 'adam_sandler_1452604835.jpg',
             'bio' => 'Adam Richard Sandler was born September 9, 1966 in Brooklyn, New York, to Judith (Levine), a teacher at a nursery school, and Stanley Alan Sandler, an electrical engineer. He is of Russian Jewish descent. 
 
@@ -150,7 +150,7 @@ While working at a comedy club in L.A., he was "discovered" by Dennis Miller, wh
 
 After Saturday Night Live, Sandler went on to the movies, starring in such hit comedies as Airheads, {{Happy Gilmore}}, Billy Madison  and Big Daddy.',
                 'created_at' => '2016-01-12 13:10:13',
-                'updated_at' => '2016-01-18 20:50:10',
+                'updated_at' => '2016-02-22 16:02:07',
             ),
             9 => 
             array (
@@ -159,13 +159,13 @@ After Saturday Night Live, Sandler went on to the movies, starring in such hit c
                 'surname' => 'Weaver',
                 'birthday' => '1949-10-08',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000244',
                 'image' => 'sigourney_weaver_1452606281.jpg',
             'bio' => 'Sigourney Weaver (born Susan Alexandra Weaver; October 8, 1949) is an American actress and film producer. Following her film debut as a minor character in Annie Hall, she quickly came to prominence in 1979 with her first lead role as Ellen Ripley in {{Alien}}. She reprised the role in three sequels.
 
 She is also known for her starring roles in the box-office hits {{Ghostbusters}}, {{Ghostbusters 2}} and {{Avatar}}.',
                 'created_at' => '2016-01-12 13:44:41',
-                'updated_at' => '2016-01-18 20:51:12',
+                'updated_at' => '2016-02-22 16:05:02',
             ),
             10 => 
             array (
@@ -191,7 +191,7 @@ Depp has played many characters in his career, including another fact-based one,
                 'surname' => 'Cagney',
                 'birthday' => '1899-07-21',
                 'deceased' => '1986-03-30',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000010',
                 'image' => 'james_cagney_1452607234.jpg',
                 'bio' => 'James Francis Cagney, Jr. was an American actor and dancer, both on stage and in film, though he had his greatest impact in film. 
 
@@ -199,7 +199,7 @@ Known for his consistently energetic performances, distinctive vocal style, and 
 
 In 1999, the American Film Institute ranked him eighth among its list of greatest male stars of Classic Hollywood Cinema. Orson Welles said of Cagney, "he was maybe the greatest actor who ever appeared in front of a camera"  and Stanley Kubrick considered him to be one of the best actors of all time.',
                 'created_at' => '2016-01-12 14:00:34',
-                'updated_at' => '2016-01-18 20:52:58',
+                'updated_at' => '2016-02-22 16:05:08',
             ),
             12 => 
             array (
@@ -208,11 +208,11 @@ In 1999, the American Film Institute ranked him eighth among its list of greates
                 'surname' => 'Astin',
                 'birthday' => '1971-02-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000276',
                 'image' => 'sean_astin_1453214109.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:37:24',
-                'updated_at' => '2016-01-19 14:55:00',
+                'updated_at' => '2016-02-22 16:05:11',
             ),
             13 => 
             array (
@@ -221,11 +221,11 @@ In 1999, the American Film Institute ranked him eighth among its list of greates
                 'surname' => 'Aykroyd',
                 'birthday' => '1952-07-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000101',
                 'image' => 'dan_aykroyd_1452631198.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:37:46',
-                'updated_at' => '2016-01-19 14:55:24',
+                'updated_at' => '2016-02-22 16:05:14',
             ),
             14 => 
             array (
@@ -234,11 +234,11 @@ In 1999, the American Film Institute ranked him eighth among its list of greates
                 'surname' => 'Schneider',
                 'birthday' => '1963-10-31',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001705',
                 'image' => 'rob_schneider_1453214186.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:38:45',
-                'updated_at' => '2016-01-19 14:55:47',
+                'updated_at' => '2016-02-22 16:05:18',
             ),
             15 => 
             array (
@@ -361,11 +361,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Skerritt',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000643',
                 'image' => 'tom_skerritt_1453296388.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:48:35',
-                'updated_at' => '2016-01-20 13:26:28',
+                'updated_at' => '2016-02-22 16:05:46',
             ),
             24 => 
             array (
@@ -374,11 +374,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Cartwright',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001021',
                 'image' => 'veronica_cartwright_1453296410.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:48:49',
-                'updated_at' => '2016-01-20 13:26:50',
+                'updated_at' => '2016-02-22 16:05:49',
             ),
             25 => 
             array (
@@ -387,11 +387,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Dean Stanton',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001765',
                 'image' => 'harry_dean_stanton_1453296446.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:49:02',
-                'updated_at' => '2016-01-20 13:27:26',
+                'updated_at' => '2016-02-22 16:05:52',
             ),
             26 => 
             array (
@@ -400,11 +400,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Hurt',
                 'birthday' => '1944-01-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000457',
                 'image' => 'john_hurt_1453296468.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:49:15',
-                'updated_at' => '2016-01-22 14:21:45',
+                'updated_at' => '2016-02-22 16:05:55',
             ),
             27 => 
             array (
@@ -413,11 +413,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Holm',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000453',
                 'image' => 'ian_holm_1453213551.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:49:28',
-                'updated_at' => '2016-01-19 14:25:51',
+                'updated_at' => '2016-02-22 16:05:59',
             ),
             28 => 
             array (
@@ -426,11 +426,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Kotto',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001433',
                 'image' => 'yaphet_kotto_1453296491.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:49:47',
-                'updated_at' => '2016-01-20 13:28:11',
+                'updated_at' => '2016-02-22 16:06:03',
             ),
             29 => 
             array (
@@ -439,11 +439,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Scott',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000631',
                 'image' => 'ridley_scott_1453296533.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:49:59',
-                'updated_at' => '2016-01-20 13:28:54',
+                'updated_at' => '2016-02-22 16:06:06',
             ),
             30 => 
             array (
@@ -452,11 +452,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Henn',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001343',
                 'image' => 'carrie_henn_1453296810.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:52:14',
-                'updated_at' => '2016-01-20 13:33:30',
+                'updated_at' => '2016-02-22 16:06:09',
             ),
             31 => 
             array (
@@ -465,11 +465,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Biehn',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000299',
                 'image' => 'michael_biehn_1453296864.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:52:27',
-                'updated_at' => '2016-01-20 13:34:24',
+                'updated_at' => '2016-02-22 16:06:12',
             ),
             32 => 
             array (
@@ -478,11 +478,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Reiser',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001663',
                 'image' => 'paul_reiser_1453296894.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:52:41',
-                'updated_at' => '2016-01-20 13:34:54',
+                'updated_at' => '2016-02-22 16:06:15',
             ),
             33 => 
             array (
@@ -491,11 +491,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Henriksen',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000448',
                 'image' => 'lance_henriksen_1453296920.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:52:56',
-                'updated_at' => '2016-01-20 13:35:20',
+                'updated_at' => '2016-02-22 16:06:18',
             ),
             34 => 
             array (
@@ -504,11 +504,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Paxton',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000200',
                 'image' => 'bill_paxton_1453296947.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:53:14',
-                'updated_at' => '2016-01-20 13:35:47',
+                'updated_at' => '2016-02-22 16:06:21',
             ),
             35 => 
             array (
@@ -517,11 +517,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Hope',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0394054',
                 'image' => 'william_hope_1453296969.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:53:31',
-                'updated_at' => '2016-01-20 13:36:09',
+                'updated_at' => '2016-02-22 16:06:24',
             ),
             36 => 
             array (
@@ -530,11 +530,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Goldstein',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001280',
                 'image' => 'jenette_goldstein_1453297038.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:53:44',
-                'updated_at' => '2016-01-20 13:37:18',
+                'updated_at' => '2016-02-22 16:06:27',
             ),
             37 => 
             array (
@@ -543,11 +543,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Rolston',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001679',
                 'image' => 'mark_rolston_1453297076.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:54:08',
-                'updated_at' => '2016-01-20 13:37:56',
+                'updated_at' => '2016-02-22 16:06:29',
             ),
             38 => 
             array (
@@ -556,11 +556,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Cameron',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000116',
                 'image' => 'james_cameron_1452817417.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:54:22',
-                'updated_at' => '2016-01-12 20:54:22',
+                'updated_at' => '2016-02-22 16:06:32',
             ),
             39 => 
             array (
@@ -569,11 +569,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Horner',
                 'birthday' => '1953-08-14',
                 'deceased' => '2015-06-22',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000035',
                 'image' => 'james_horner_1453297149.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 20:55:48',
-                'updated_at' => '2016-01-20 13:39:09',
+                'updated_at' => '2016-02-22 16:06:36',
             ),
             40 => 
             array (
@@ -582,11 +582,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Dutton',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001165',
                 'image' => 'charles_s._dutton_1453297245.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:02:41',
-                'updated_at' => '2016-01-20 13:40:45',
+                'updated_at' => '2016-02-22 16:06:39',
             ),
             41 => 
             array (
@@ -595,11 +595,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Dance',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001097',
                 'image' => 'charles_dance_1453297270.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:03:03',
-                'updated_at' => '2016-01-20 13:41:10',
+                'updated_at' => '2016-02-22 16:06:42',
             ),
             42 => 
             array (
@@ -608,11 +608,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Postlethwaite',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000592',
                 'image' => 'pete_postlethwaite_1453297309.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:03:27',
-                'updated_at' => '2016-01-20 13:41:49',
+                'updated_at' => '2016-02-22 16:06:45',
             ),
             43 => 
             array (
@@ -621,11 +621,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Fincher',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000399',
                 'image' => 'david_fincher_1453033520.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:04:31',
-                'updated_at' => '2016-01-17 12:25:20',
+                'updated_at' => '2016-02-22 16:06:48',
             ),
             44 => 
             array (
@@ -634,11 +634,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Ryder',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000213',
                 'image' => 'winona_ryder_1453297427.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:05:49',
-                'updated_at' => '2016-01-20 13:43:47',
+                'updated_at' => '2016-02-22 16:06:51',
             ),
             45 => 
             array (
@@ -647,11 +647,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Perlman',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000579',
                 'image' => 'ron_perlman_1453297463.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:06:06',
-                'updated_at' => '2016-01-20 13:44:23',
+                'updated_at' => '2016-02-22 16:06:54',
             ),
             46 => 
             array (
@@ -660,11 +660,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Dourdan',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0235427',
                 'image' => 'gary_dourdan_1453297494.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:06:26',
-                'updated_at' => '2016-01-20 13:44:54',
+                'updated_at' => '2016-02-22 16:06:57',
             ),
             47 => 
             array (
@@ -673,11 +673,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Wincott',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000699',
                 'image' => 'michael_wincott_1453297516.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:06:49',
-                'updated_at' => '2016-01-20 13:45:16',
+                'updated_at' => '2016-02-22 16:07:00',
             ),
             48 => 
             array (
@@ -686,11 +686,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Hedaya',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000445',
                 'image' => 'dan_hedaya_1453297565.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:07:14',
-                'updated_at' => '2016-01-20 13:46:05',
+                'updated_at' => '2016-02-22 16:07:04',
             ),
             49 => 
             array (
@@ -699,11 +699,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Dourif',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000374',
                 'image' => 'brad_dourif_1453297615.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:07:33',
-                'updated_at' => '2016-01-20 13:46:55',
+                'updated_at' => '2016-02-22 16:07:07',
             ),
             50 => 
             array (
@@ -712,11 +712,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Pinon',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0684500',
                 'image' => 'dominique_pinon_1453297645.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:08:38',
-                'updated_at' => '2016-01-20 13:47:25',
+                'updated_at' => '2016-02-22 16:07:10',
             ),
             51 => 
             array (
@@ -725,11 +725,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Jeunet',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000466',
                 'image' => 'jean-pierre_jeunet_1453297712.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:09:09',
-                'updated_at' => '2016-01-20 13:48:32',
+                'updated_at' => '2016-02-22 16:07:13',
             ),
             52 => 
             array (
@@ -738,11 +738,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Whedon',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0923736',
                 'image' => 'joss_whedon_1453213510.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:09:43',
-                'updated_at' => '2016-01-19 14:25:10',
+                'updated_at' => '2016-02-22 16:07:16',
             ),
             53 => 
             array (
@@ -751,11 +751,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Garfield',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1940449',
                 'image' => 'andrew_garfield_1453297878.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:20:34',
-                'updated_at' => '2016-01-20 13:51:18',
+                'updated_at' => '2016-02-22 16:07:19',
             ),
             54 => 
             array (
@@ -764,11 +764,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Stone',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1297015',
                 'image' => 'emma_stone_1453297908.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:21:04',
-                'updated_at' => '2016-01-20 13:51:48',
+                'updated_at' => '2016-02-22 16:07:22',
             ),
             55 => 
             array (
@@ -777,11 +777,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Ifans',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0406975',
                 'image' => 'rhys_ifans_1453297933.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:21:22',
-                'updated_at' => '2016-01-20 13:52:13',
+                'updated_at' => '2016-02-22 16:07:25',
             ),
             56 => 
             array (
@@ -790,11 +790,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Leary',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001459',
                 'image' => 'denis_leary_1453297960.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:21:53',
-                'updated_at' => '2016-01-20 13:52:40',
+                'updated_at' => '2016-02-22 16:07:28',
             ),
             57 => 
             array (
@@ -803,11 +803,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Sheen',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000640',
                 'image' => 'martin_sheen_1453297988.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:22:16',
-                'updated_at' => '2016-01-20 13:53:08',
+                'updated_at' => '2016-02-22 16:07:31',
             ),
             58 => 
             array (
@@ -816,11 +816,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Field',
                 'birthday' => '1946-11-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000398',
                 'image' => 'sally_fields_1453298016.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:22:31',
-                'updated_at' => '2016-01-28 11:14:19',
+                'updated_at' => '2016-02-22 16:07:34',
             ),
             59 => 
             array (
@@ -829,11 +829,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Webb',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1989536',
                 'image' => 'marc_webb_1453298080.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:23:36',
-                'updated_at' => '2016-01-20 13:54:40',
+                'updated_at' => '2016-02-22 16:07:37',
             ),
             60 => 
             array (
@@ -842,11 +842,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'O&#039;Brien',
                 'birthday' => '1899-11-11',
                 'deceased' => '1983-10-15',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0002285',
                 'image' => 'pat_o\'brien_1453299250.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:24:49',
-                'updated_at' => '2016-02-01 19:43:37',
+                'updated_at' => '2016-02-22 16:09:48',
             ),
             61 => 
             array (
@@ -855,11 +855,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Bogart',
                 'birthday' => '1899-12-25',
                 'deceased' => '1957-01-14',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000007',
                 'image' => 'humphrey_bogart_1453299410.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:25:40',
-                'updated_at' => '2016-01-20 14:16:50',
+                'updated_at' => '2016-02-22 16:08:26',
             ),
             62 => 
             array (
@@ -868,11 +868,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Sheridan',
                 'birthday' => '1915-02-21',
                 'deceased' => '1957-01-21',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0792130',
                 'image' => 'ann_sheridan_1453299504.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:25:53',
-                'updated_at' => '2016-01-20 14:19:23',
+                'updated_at' => '2016-02-22 16:08:30',
             ),
             63 => 
             array (
@@ -881,11 +881,11 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Bancroft',
                 'birthday' => '1882-08-30',
                 'deceased' => '1956-10-02',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0051628',
                 'image' => 'george_bancroft_1453367879.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:26:10',
-                'updated_at' => '2016-01-21 09:17:59',
+                'updated_at' => '2016-02-22 16:08:33',
             ),
             64 => 
             array (
@@ -894,7 +894,7 @@ Rickman made his first movie appearance opposite Bruce Willis in {{Die Hard}} as
                 'surname' => 'Burton',
                 'birthday' => '1958-08-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000318',
                 'image' => 'tim_burton_1453380913.jpg',
             'bio' => 'Timothy Walter Burton was born in Burbank, California, to Jean Rae (Erickson), cat-themed gift shop owner, and William Reed Burton, who worked for the Burbank Park and Recreation Department. 
 
@@ -904,7 +904,7 @@ After graduating from high school, he attended California Institute of the Arts.
 
 ',
                 'created_at' => '2016-01-12 21:37:07',
-                'updated_at' => '2016-01-21 12:55:13',
+                'updated_at' => '2016-02-22 16:08:36',
             ),
             65 => 
             array (
@@ -913,11 +913,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Elfman',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000384',
                 'image' => 'danny_elfman_1453380932.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:38:02',
-                'updated_at' => '2016-01-21 12:55:32',
+                'updated_at' => '2016-02-22 16:08:39',
             ),
             66 => 
             array (
@@ -926,11 +926,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Willis',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000246',
                 'image' => 'bruce_willis_1453212439.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:39:22',
-                'updated_at' => '2016-01-19 14:07:19',
+                'updated_at' => '2016-02-22 16:08:42',
             ),
             67 => 
             array (
@@ -939,11 +939,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Atherton',
                 'birthday' => '1947-07-30',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0040472',
                 'image' => 'william_atherton_1453380985.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:40:34',
-                'updated_at' => '2016-01-21 12:56:25',
+                'updated_at' => '2016-02-22 16:08:45',
             ),
             68 => 
             array (
@@ -952,11 +952,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Davi',
                 'birthday' => '1951-06-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001108',
                 'image' => 'robert_davi_1453381041.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:41:50',
-                'updated_at' => '2016-01-21 12:57:21',
+                'updated_at' => '2016-02-22 16:08:49',
             ),
             69 => 
             array (
@@ -965,11 +965,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'McTiernan',
                 'birthday' => '1951-01-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001532',
                 'image' => 'john_mctiernan_1453381100.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:42:42',
-                'updated_at' => '2016-01-21 12:58:20',
+                'updated_at' => '2016-02-22 16:08:52',
             ),
             70 => 
             array (
@@ -978,11 +978,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Fishburne',
                 'birthday' => '1961-07-30',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000401',
                 'image' => 'laurence_fishburne_1453382432.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:44:28',
-                'updated_at' => '2016-01-21 13:20:32',
+                'updated_at' => '2016-02-22 16:08:55',
             ),
             71 => 
             array (
@@ -991,11 +991,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Moss',
                 'birthday' => '1967-08-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005251',
                 'image' => 'carrie-anne_moss_1453382489.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:44:48',
-                'updated_at' => '2016-01-21 13:21:29',
+                'updated_at' => '2016-02-22 16:08:56',
             ),
             72 => 
             array (
@@ -1004,11 +1004,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Pantoliano',
                 'birthday' => '1951-09-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001592',
                 'image' => 'joe_pantoliano_1453382530.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:45:23',
-                'updated_at' => '2016-01-21 13:22:10',
+                'updated_at' => '2016-02-22 16:09:00',
             ),
             73 => 
             array (
@@ -1017,11 +1017,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Weaving',
                 'birthday' => '1960-04-04',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0915989',
                 'image' => 'hugo_weaving_1453382595.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:45:37',
-                'updated_at' => '2016-01-21 13:23:15',
+                'updated_at' => '2016-02-22 16:09:02',
             ),
             74 => 
             array (
@@ -1030,11 +1030,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Wachowski',
                 'birthday' => '1965-06-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0905154',
                 'image' => 'lana_wachowski_1453382644.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:46:11',
-                'updated_at' => '2016-01-21 13:24:04',
+                'updated_at' => '2016-02-22 16:09:05',
             ),
             75 => 
             array (
@@ -1043,11 +1043,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Wachowski',
                 'birthday' => '1967-12-29',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0905152',
                 'image' => 'andy_wachowski_1453033594.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:46:21',
-                'updated_at' => '2016-01-21 13:24:40',
+                'updated_at' => '2016-02-22 16:09:08',
             ),
             76 => 
             array (
@@ -1056,11 +1056,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Silver',
                 'birthday' => '1952-07-14',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005428',
                 'image' => 'joel_silver_1453382716.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 21:49:03',
-                'updated_at' => '2016-01-21 13:25:16',
+                'updated_at' => '2016-02-22 16:09:13',
             ),
             77 => 
             array (
@@ -1069,11 +1069,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Hamill',
                 'birthday' => '1951-09-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000434',
                 'image' => 'mark_hamill_1453382798.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:02:22',
-                'updated_at' => '2016-01-21 13:26:38',
+                'updated_at' => '2016-02-22 16:09:16',
             ),
             78 => 
             array (
@@ -1082,11 +1082,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Ford',
                 'birthday' => '1942-07-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000148',
                 'image' => 'harrison_ford_1453382858.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:02:38',
-                'updated_at' => '2016-01-21 13:27:39',
+                'updated_at' => '2016-02-22 16:09:20',
             ),
             79 => 
             array (
@@ -1095,11 +1095,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Guinness',
                 'birthday' => '1914-04-02',
                 'deceased' => '2000-08-05',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000027',
                 'image' => 'alec_guinness_1453382913.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:03:08',
-                'updated_at' => '2016-01-21 13:28:33',
+                'updated_at' => '2016-02-22 16:09:23',
             ),
             80 => 
             array (
@@ -1108,11 +1108,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Fisher',
                 'birthday' => '1956-10-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000402',
                 'image' => 'carrie_fisher_1453382962.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:03:29',
-                'updated_at' => '2016-01-21 13:29:22',
+                'updated_at' => '2016-02-22 16:09:26',
             ),
             81 => 
             array (
@@ -1121,11 +1121,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Cushing',
                 'birthday' => '1913-05-26',
                 'deceased' => '1994-08-11',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001088',
                 'image' => 'peter_cushing_1453383067.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:03:45',
-                'updated_at' => '2016-01-21 13:31:07',
+                'updated_at' => '2016-02-22 16:09:29',
             ),
             82 => 
             array (
@@ -1134,11 +1134,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Daniels',
                 'birthday' => '1946-02-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000355',
                 'image' => 'anthony_daniels_1453383139.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:04:17',
-                'updated_at' => '2016-01-21 13:32:19',
+                'updated_at' => '2016-02-22 16:09:32',
             ),
             83 => 
             array (
@@ -1147,11 +1147,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Baker',
                 'birthday' => '1934-08-24',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0048652',
                 'image' => 'kenny_baker_1453383203.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:04:39',
-                'updated_at' => '2016-01-21 13:33:23',
+                'updated_at' => '2016-02-22 16:09:35',
             ),
             84 => 
             array (
@@ -1160,11 +1160,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Prowse',
                 'birthday' => '1935-07-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001190',
                 'image' => 'david_prowse_1453383239.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:04:56',
-                'updated_at' => '2016-01-21 13:33:59',
+                'updated_at' => '2016-02-22 16:09:38',
             ),
             85 => 
             array (
@@ -1173,11 +1173,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Jones',
                 'birthday' => '1931-01-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000469',
                 'image' => 'james_earl_jones_1453383290.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:05:18',
-                'updated_at' => '2016-01-21 13:34:50',
+                'updated_at' => '2016-02-22 16:09:42',
             ),
             86 => 
             array (
@@ -1186,11 +1186,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Mayhew',
                 'birthday' => '1944-05-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0562679',
                 'image' => 'peter_mayhew_1453383322.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:05:37',
-                'updated_at' => '2016-01-21 13:35:22',
+                'updated_at' => '2016-02-22 16:09:45',
             ),
             87 => 
             array (
@@ -1199,11 +1199,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Lucas',
                 'birthday' => '1944-05-14',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000184',
                 'image' => 'george_lucas_1453383370.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:06:03',
-                'updated_at' => '2016-01-21 13:36:10',
+                'updated_at' => '2016-02-22 16:09:48',
             ),
             88 => 
             array (
@@ -1212,11 +1212,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Williams',
                 'birthday' => '1932-02-08',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0002354',
                 'image' => 'john_williams_1453383422.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:06:21',
-                'updated_at' => '2016-01-21 13:37:02',
+                'updated_at' => '2016-02-22 16:09:51',
             ),
             89 => 
             array (
@@ -1225,11 +1225,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Iwata',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0412628',
                 'image' => 'mitsuo_iwata_1453383471.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:07:30',
-                'updated_at' => '2016-01-21 13:37:51',
+                'updated_at' => '2016-02-22 16:09:55',
             ),
             90 => 
             array (
@@ -1238,11 +1238,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Sasaki',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0765815',
                 'image' => 'nozomu_sasaki_1453383534.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:07:46',
-                'updated_at' => '2016-01-21 13:38:54',
+                'updated_at' => '2016-02-22 16:09:58',
             ),
             91 => 
             array (
@@ -1251,11 +1251,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Otomo',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0960028',
                 'image' => 'katsuhiro_otomo_1453383590.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-12 22:08:13',
-                'updated_at' => '2016-01-21 13:39:50',
+                'updated_at' => '2016-02-22 16:10:01',
             ),
             92 => 
             array (
@@ -1264,11 +1264,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Neill',
                 'birthday' => '1947-09-14',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000554',
                 'image' => 'sam_neill_1453383660.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:44:12',
-                'updated_at' => '2016-01-21 13:41:00',
+                'updated_at' => '2016-02-22 16:10:04',
             ),
             93 => 
             array (
@@ -1277,11 +1277,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Dern',
                 'birthday' => '1967-02-10',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000368',
                 'image' => 'laura_dern_1453383696.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:45:16',
-                'updated_at' => '2016-01-21 13:41:36',
+                'updated_at' => '2016-02-22 16:10:08',
             ),
             94 => 
             array (
@@ -1290,11 +1290,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Goldblum',
                 'birthday' => '1952-10-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000156',
                 'image' => 'jeff_goldblum_1453383801.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:45:45',
-                'updated_at' => '2016-01-21 13:43:21',
+                'updated_at' => '2016-02-22 16:10:10',
             ),
             95 => 
             array (
@@ -1303,11 +1303,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Attenborough',
                 'birthday' => '1923-08-29',
                 'deceased' => '2014-08-24',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000277',
                 'image' => 'richard_attenborough_1453383854.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:46:22',
-                'updated_at' => '2016-01-21 13:44:14',
+                'updated_at' => '2016-02-22 16:10:13',
             ),
             96 => 
             array (
@@ -1316,11 +1316,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Jackson',
                 'birthday' => '1948-12-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000168',
                 'image' => 'samuel_l__jackson_1453906888.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:48:00',
-                'updated_at' => '2016-01-27 15:01:28',
+                'updated_at' => '2016-02-22 16:10:16',
             ),
             97 => 
             array (
@@ -1329,11 +1329,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Wong',
                 'birthday' => '1960-10-24',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000703',
                 'image' => 'bd_wong_1453383922.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:48:24',
-                'updated_at' => '2016-01-21 13:45:22',
+                'updated_at' => '2016-02-22 16:10:19',
             ),
             98 => 
             array (
@@ -1342,11 +1342,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Peck',
                 'birthday' => '1945-08-23',
                 'deceased' => '1999-04-01',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0669629',
                 'image' => 'bob_peck_1453383973.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:48:50',
-                'updated_at' => '2016-01-21 13:46:13',
+                'updated_at' => '2016-02-22 16:10:22',
             ),
             99 => 
             array (
@@ -1355,11 +1355,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Knight',
                 'birthday' => '1955-08-07',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001431',
                 'image' => 'wayne_knight_1453384026.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:49:38',
-                'updated_at' => '2016-01-21 13:47:06',
+                'updated_at' => '2016-02-22 16:11:56',
             ),
             100 => 
             array (
@@ -1368,11 +1368,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Moore',
                 'birthday' => '1960-12-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000194',
                 'image' => 'julianne_moore_1453384085.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:50:49',
-                'updated_at' => '2016-01-21 13:48:05',
+                'updated_at' => '2016-02-22 16:11:59',
             ),
             101 => 
             array (
@@ -1381,11 +1381,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Vaughn',
                 'birthday' => '1970-03-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000681',
                 'image' => 'vince_vaughn_1453384120.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 21:59:09',
-                'updated_at' => '2016-01-21 13:48:40',
+                'updated_at' => '2016-02-22 16:12:02',
             ),
             102 => 
             array (
@@ -1394,11 +1394,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Stormare',
                 'birthday' => '1953-08-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001780',
                 'image' => 'peter_stormare_1453384161.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:02:25',
-                'updated_at' => '2016-01-21 13:49:21',
+                'updated_at' => '2016-02-22 16:12:06',
             ),
             103 => 
             array (
@@ -1407,11 +1407,11 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Schiff',
                 'birthday' => '1955-05-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0771493',
                 'image' => 'richard_schiff_1453384199.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:03:56',
-                'updated_at' => '2016-01-21 13:49:59',
+                'updated_at' => '2016-02-22 16:12:09',
             ),
             104 => 
             array (
@@ -1420,13 +1420,13 @@ After graduating from high school, he attended California Institute of the Arts.
                 'surname' => 'Spielberg',
                 'birthday' => '1946-12-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000229',
                 'image' => 'steven_spielberg_1453033567.jpg',
                 'bio' => 'Undoubtedly one of the most influential film personalities in the history of film, Steven Spielberg is perhaps Hollywood\'s best known director and one of the wealthiest filmmakers in the world. Spielberg has countless big-grossing, critically acclaimed credits to his name, as producer, director and writer.
 
 Spielberg\'s first major directorial effort was The Sugarland Express (1974), with Goldie Hawn, a film that marked him as a rising star. It was his next effort, however, that made him an international superstar among directors: {{Jaws (1975)}}. He hit gold yet one more time with {{Raiders of the Lost Ark (1981)}}, with Harrison Ford taking the part of Indiana Jones. Spielberg produced and directed two films in 1982. The first was {{Poltergeist (1982)}}, but the highest-grossing movie of all time up to that point was the alien story E.T. the Extra-Terrestrial (1982).',
                 'created_at' => '2016-01-14 22:05:17',
-                'updated_at' => '2016-01-21 13:53:00',
+                'updated_at' => '2016-02-22 16:12:13',
             ),
             105 => 
             array (
@@ -1435,11 +1435,11 @@ Spielberg\'s first major directorial effort was The Sugarland Express (1974), wi
                 'surname' => 'Johnston',
                 'birthday' => '1950-05-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0002653',
                 'image' => 'joe_johnston_1453384449.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:07:27',
-                'updated_at' => '2016-01-21 13:54:09',
+                'updated_at' => '2016-02-22 16:12:15',
             ),
             106 => 
             array (
@@ -1448,11 +1448,11 @@ Spielberg\'s first major directorial effort was The Sugarland Express (1974), wi
                 'surname' => 'Macy',
                 'birthday' => '1950-03-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000513',
                 'image' => 'william_h_macey_1453384482.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:11:58',
-                'updated_at' => '2016-01-28 11:27:49',
+                'updated_at' => '2016-02-22 16:12:19',
             ),
             107 => 
             array (
@@ -1461,11 +1461,11 @@ Spielberg\'s first major directorial effort was The Sugarland Express (1974), wi
                 'surname' => 'Leoni',
                 'birthday' => '1966-02-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001760',
                 'image' => 'tea_leoni_1453384524.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:12:20',
-                'updated_at' => '2016-01-28 11:29:26',
+                'updated_at' => '2016-02-22 16:12:22',
             ),
             108 => 
             array (
@@ -1474,11 +1474,11 @@ Spielberg\'s first major directorial effort was The Sugarland Express (1974), wi
                 'surname' => 'Nivola',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005273',
                 'image' => 'alessandro_nivola_1453384550.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:12:41',
-                'updated_at' => '2016-01-21 13:55:50',
+                'updated_at' => '2016-02-22 16:12:25',
             ),
             109 => 
             array (
@@ -1487,11 +1487,11 @@ Spielberg\'s first major directorial effort was The Sugarland Express (1974), wi
                 'surname' => 'Morgan',
                 'birthday' => '1986-11-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0605080',
                 'image' => 'trevor_morgan_1453384593.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:13:03',
-                'updated_at' => '2016-01-21 13:56:33',
+                'updated_at' => '2016-02-22 16:12:28',
             ),
             110 => 
             array (
@@ -1500,11 +1500,11 @@ Spielberg\'s first major directorial effort was The Sugarland Express (1974), wi
                 'surname' => 'Jeter',
                 'birthday' => '1952-08-26',
                 'deceased' => '2003-03-30',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005052',
                 'image' => 'michael_jeter_1453384637.jpg',
             'bio' => 'Michael Jeter was born on August 26, 1952 in Lawrenceburg, Tennessee, USA. He was an actor, known for The Green Mile (1999), {{Jurassic Park III (2001)}} and {{Fear and Loathing in Las Vegas (1998)}}. He died on March 30, 2003 in Los Angeles, California, USA.',
                 'created_at' => '2016-01-14 22:13:27',
-                'updated_at' => '2016-01-21 13:58:00',
+                'updated_at' => '2016-02-22 16:12:31',
             ),
             111 => 
             array (
@@ -1513,11 +1513,11 @@ Spielberg\'s first major directorial effort was The Sugarland Express (1974), wi
                 'surname' => 'Trevorrow',
                 'birthday' => '1976-09-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1119880',
                 'image' => 'colin_trevorrow_1453384731.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:15:15',
-                'updated_at' => '2016-01-21 13:58:51',
+                'updated_at' => '2016-02-22 16:12:34',
             ),
             112 => 
             array (
@@ -1526,13 +1526,13 @@ Spielberg\'s first major directorial effort was The Sugarland Express (1974), wi
                 'surname' => 'Pratt',
                 'birthday' => '1979-06-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0695435',
                 'image' => 'chris_pratt_1453384807.jpg',
             'bio' => 'Christopher Michael Pratt is an American film and television actor. He was born in Virginia, Minnesota, to Kathleen Louise (Indahl), who worked at a supermarket, and Daniel Clifton Pratt, who remodeled houses. His mother is of Norwegian descent and his father had English, German, Swiss, and French-Canadian ancestry. Chris grew up in Lake Stevens, Washington state. He is married to fellow Washington State native, Anna Faris, whom he met on the film set of Take Me Home Tonight (2011), and with whom he has one child, Jack Pratt. Chris\'s hobbies include fishing, hunting and working on cars. He has two older siblings, Cully and Angie, and four nephews: Josh, Trevor, Tristan and Logan.
 
 Pratt played major supporting roles in several television series, including Everwood (2002), The O.C. (2003), and Parks and Recreation (2009), and notable film roles in Moneyball (2011), The Five-Year Engagement (2012), Zero Dark Thirty (2012), and Delivery Man (2013). In 2014, he broke out after headlining two of the year\'s biggest films: he voiced the lead, Emmet Brickowoski, in The Lego Movie (2014), and starred as Peter Quill in {{Guardians of the Galaxy (2014)}}. In 2015, he headlined the sci-fi thriller {{Jurassic World (2015)}}, and began filming on the western remake The Magnificent Seven (2016), with Denzel Washington and Ethan Hawke.',
                 'created_at' => '2016-01-14 22:15:42',
-                'updated_at' => '2016-01-21 14:00:07',
+                'updated_at' => '2016-02-22 16:12:37',
             ),
             113 => 
             array (
@@ -1541,11 +1541,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'D&#039;Onofrio',
                 'birthday' => '1959-06-30',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000352',
                 'image' => 'vincent_d\'onofrio_1453384903.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:16:36',
-                'updated_at' => '2016-01-28 11:31:11',
+                'updated_at' => '2016-02-22 16:17:31',
             ),
             114 => 
             array (
@@ -1554,11 +1554,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Simpkins',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1339223',
                 'image' => 'ty_simpkins_1453384948.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:19:58',
-                'updated_at' => '2016-01-21 14:02:28',
+                'updated_at' => '2016-02-22 16:16:41',
             ),
             115 => 
             array (
@@ -1567,11 +1567,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Robinson',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm3538718',
                 'image' => 'nick_robinson_1453384987.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:20:13',
-                'updated_at' => '2016-01-21 14:03:07',
+                'updated_at' => '2016-02-22 16:16:43',
             ),
             116 => 
             array (
@@ -1580,11 +1580,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Johnson',
                 'birthday' => '1978-05-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2159926',
                 'image' => 'jake_johnson_1453385029.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:20:30',
-                'updated_at' => '2016-01-21 14:03:49',
+                'updated_at' => '2016-02-22 16:16:46',
             ),
             117 => 
             array (
@@ -1593,11 +1593,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Greer',
                 'birthday' => '1975-07-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0339460',
                 'image' => 'judy_greer_1453385076.jpg',
             'bio' => 'Judy Greer was born and raised outside of Detroit, Michigan, as Judith Therese Evans. She is the daughter of Mollie Ann (née Greer), a hospital administrator and former nun, and Richard Evans, a mechanical engineer. She has German, Irish, English, Welsh, and Scottish ancestry. After training for nearly ten years in classical Russian ballet, Greer shifted her interest to acting and was accepted into Chicago\'s prestigious Theater School at DePaul University.',
                 'created_at' => '2016-01-14 22:20:49',
-                'updated_at' => '2016-01-21 14:04:36',
+                'updated_at' => '2016-02-22 16:16:48',
             ),
             118 => 
             array (
@@ -1606,11 +1606,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Sy',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1082477',
                 'image' => 'omar_sy_1453385104.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:21:12',
-                'updated_at' => '2016-01-21 14:05:04',
+                'updated_at' => '2016-02-22 16:16:54',
             ),
             119 => 
             array (
@@ -1619,11 +1619,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Downey Jr.',
                 'birthday' => '1965-04-04',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000375',
                 'image' => 'robert_downey_jr._1453392486.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:32:12',
-                'updated_at' => '2016-01-21 16:08:06',
+                'updated_at' => '2016-02-22 16:16:57',
             ),
             120 => 
             array (
@@ -1632,11 +1632,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Evans',
                 'birthday' => '1981-06-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0262635',
                 'image' => 'chris_evans_1453392515.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:32:32',
-                'updated_at' => '2016-01-21 16:08:35',
+                'updated_at' => '2016-02-22 16:16:59',
             ),
             121 => 
             array (
@@ -1645,11 +1645,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Ruffalo',
                 'birthday' => '1967-11-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0749263',
                 'image' => 'mark_ruffalo_1453392543.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:32:53',
-                'updated_at' => '2016-01-21 16:09:03',
+                'updated_at' => '2016-02-22 16:17:02',
             ),
             122 => 
             array (
@@ -1658,11 +1658,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Hemsworth',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1165110',
                 'image' => 'chris_hemsworth_1453213599.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:33:39',
-                'updated_at' => '2016-01-19 14:26:39',
+                'updated_at' => '2016-02-22 16:17:05',
             ),
             123 => 
             array (
@@ -1671,11 +1671,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Johansson',
                 'birthday' => '1984-11-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0424060',
                 'image' => 'scarlett_johansson_1453392574.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:33:53',
-                'updated_at' => '2016-01-21 16:09:34',
+                'updated_at' => '2016-02-22 16:17:08',
             ),
             124 => 
             array (
@@ -1684,11 +1684,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Renner',
                 'birthday' => '1971-01-07',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0719637',
                 'image' => 'jeremy_renner_1453392602.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:34:11',
-                'updated_at' => '2016-01-21 16:10:02',
+                'updated_at' => '2016-02-22 16:17:12',
             ),
             125 => 
             array (
@@ -1697,11 +1697,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Hiddleston',
                 'birthday' => '1981-02-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1089991',
                 'image' => 'tom_hiddleston_1453392630.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:35:32',
-                'updated_at' => '2016-01-21 16:10:30',
+                'updated_at' => '2016-02-22 16:17:15',
             ),
             126 => 
             array (
@@ -1710,11 +1710,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Gregg',
                 'birthday' => '1962-04-02',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0163988',
                 'image' => 'clark_gregg_1453392656.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:35:50',
-                'updated_at' => '2016-01-21 16:10:56',
+                'updated_at' => '2016-02-22 16:17:17',
             ),
             127 => 
             array (
@@ -1723,11 +1723,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Smulders',
                 'birthday' => '1982-04-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1130627',
                 'image' => 'cobie_smulders_1453392699.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:36:08',
-                'updated_at' => '2016-01-21 16:11:39',
+                'updated_at' => '2016-02-22 16:17:20',
             ),
             128 => 
             array (
@@ -1736,11 +1736,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Skarsg&aring;rd',
                 'birthday' => '1951-06-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001745',
                 'image' => 'stellan_skarsgard_1453392734.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:36:26',
-                'updated_at' => '2016-01-28 11:12:20',
+                'updated_at' => '2016-02-22 16:17:23',
             ),
             129 => 
             array (
@@ -1749,11 +1749,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Paltrow',
                 'birthday' => '1972-09-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000569',
                 'image' => 'gwyneth_paltrow_1453392766.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:37:12',
-                'updated_at' => '2016-01-21 16:12:46',
+                'updated_at' => '2016-02-22 16:17:25',
             ),
             130 => 
             array (
@@ -1762,11 +1762,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Bettany',
                 'birthday' => '1971-05-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0079273',
                 'image' => 'paul_bettany_1453392796.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:37:27',
-                'updated_at' => '2016-01-21 16:13:16',
+                'updated_at' => '2016-02-22 16:17:28',
             ),
             131 => 
             array (
@@ -1775,11 +1775,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Silvestri',
                 'birthday' => '1950-03-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0006293',
                 'image' => 'alan_silvestri_1453392894.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:38:50',
-                'updated_at' => '2016-01-21 16:14:54',
+                'updated_at' => '2016-02-22 16:17:32',
             ),
             132 => 
             array (
@@ -1788,11 +1788,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Dicaprio',
                 'birthday' => '1974-11-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000138',
                 'image' => 'leonardo_dicaprio_1453392824.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:41:13',
-                'updated_at' => '2016-01-21 16:13:44',
+                'updated_at' => '2016-02-22 16:17:35',
             ),
             133 => 
             array (
@@ -1801,11 +1801,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Winslet',
                 'birthday' => '1975-10-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000701',
                 'image' => 'kate_winslet_1453454153.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:41:34',
-                'updated_at' => '2016-01-22 14:20:53',
+                'updated_at' => '2016-02-22 16:17:38',
             ),
             134 => 
             array (
@@ -1814,11 +1814,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Zane',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000708',
                 'image' => 'billy_zane_1452816926.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:41:52',
-                'updated_at' => '2016-01-14 22:41:52',
+                'updated_at' => '2016-02-22 16:17:41',
             ),
             135 => 
             array (
@@ -1827,11 +1827,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Bates',
                 'birthday' => '1948-06-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000870',
                 'image' => 'kathy_bates_1453454200.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:42:09',
-                'updated_at' => '2016-01-22 09:16:40',
+                'updated_at' => '2016-02-22 16:17:44',
             ),
             136 => 
             array (
@@ -1840,11 +1840,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Fisher',
                 'birthday' => '1952-05-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0004920',
                 'image' => 'frances_fisher_1453454238.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:42:26',
-                'updated_at' => '2016-01-22 09:17:18',
+                'updated_at' => '2016-02-22 16:17:48',
             ),
             137 => 
             array (
@@ -1853,11 +1853,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Hill',
                 'birthday' => '1944-12-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0384060',
                 'image' => 'bernard_hill_1453454261.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:43:31',
-                'updated_at' => '2016-01-22 09:17:41',
+                'updated_at' => '2016-02-22 16:17:51',
             ),
             138 => 
             array (
@@ -1866,11 +1866,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Warner',
                 'birthday' => '1941-07-29',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001831',
                 'image' => 'david_warner_1453454314.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:43:58',
-                'updated_at' => '2016-01-22 09:18:34',
+                'updated_at' => '2016-02-22 16:17:55',
             ),
             139 => 
             array (
@@ -1879,11 +1879,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Garber',
                 'birthday' => '1949-03-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001255',
                 'image' => 'victor_garber_1453454349.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:44:17',
-                'updated_at' => '2016-01-22 09:19:09',
+                'updated_at' => '2016-02-22 16:17:57',
             ),
             140 => 
             array (
@@ -1892,11 +1892,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Hyde',
                 'birthday' => '1948-05-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0404993',
                 'image' => 'jonathan_hyde_1453454473.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:44:35',
-                'updated_at' => '2016-01-22 09:21:13',
+                'updated_at' => '2016-02-22 16:18:00',
             ),
             141 => 
             array (
@@ -1905,11 +1905,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Nucci',
                 'birthday' => '1968-09-15',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001572',
                 'image' => 'danny_nucci_1453454527.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:45:29',
-                'updated_at' => '2016-01-22 09:22:07',
+                'updated_at' => '2016-02-22 16:18:03',
             ),
             142 => 
             array (
@@ -1918,11 +1918,11 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Gruffudd',
                 'birthday' => '1973-10-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0344435',
                 'image' => 'ioan_gruffudd_1453454545.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:46:33',
-                'updated_at' => '2016-01-22 09:22:25',
+                'updated_at' => '2016-02-22 16:18:05',
             ),
             143 => 
             array (
@@ -1931,7 +1931,7 @@ Pratt played major supporting roles in several television series, including Ever
                 'surname' => 'Affleck',
                 'birthday' => '1972-08-15',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000255',
                 'image' => 'ben_affleck_1452818537.jpg',
             'bio' => 'Benjamin Géza Affleck-Boldt was born on August 15, 1972 in Berkeley, California, USA, and was raised in Cambridge, Massachusetts, USA. His mother, Chris Anne (née Boldt), is a school teacher, and his father, Timothy Byers Affleck, is a social worker; the two are now divorced. Ben has a younger brother, actor Casey Affleck, who was born in 1975.
 
@@ -1939,7 +1939,7 @@ He co-wrote {{Good Will Hunting}} with Matt Damon. The film was nominated for 9 
 
 As well as acting, Ben has directed several films including {{Gone Baby Gone}}, and {{Argo}} which won the Oscar for Best Picture.',
                 'created_at' => '2016-01-14 22:49:25',
-                'updated_at' => '2016-01-19 15:04:58',
+                'updated_at' => '2016-02-22 16:18:09',
             ),
             144 => 
             array (
@@ -1948,11 +1948,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Cranston',
                 'birthday' => '1956-03-07',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0186505',
                 'image' => 'bryan_cranston_1453454564.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:49:42',
-                'updated_at' => '2016-01-22 09:22:44',
+                'updated_at' => '2016-02-22 16:18:12',
             ),
             145 => 
             array (
@@ -1961,11 +1961,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Arkin',
                 'birthday' => '1934-03-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000273',
                 'image' => 'alan_arkin_1453454589.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:50:00',
-                'updated_at' => '2016-01-22 09:23:09',
+                'updated_at' => '2016-02-22 16:18:15',
             ),
             146 => 
             array (
@@ -1974,11 +1974,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Goodman',
                 'birthday' => '1952-06-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000422',
                 'image' => 'john_goodman_1453454611.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:50:16',
-                'updated_at' => '2016-01-22 09:23:31',
+                'updated_at' => '2016-02-22 16:18:20',
             ),
             147 => 
             array (
@@ -1987,11 +1987,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Cochrane',
                 'birthday' => '1972-02-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0168262',
                 'image' => 'rory_cochrane_1453454651.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:51:50',
-                'updated_at' => '2016-01-22 09:24:11',
+                'updated_at' => '2016-02-22 16:18:23',
             ),
             148 => 
             array (
@@ -2000,11 +2000,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Desplat',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0006035',
                 'image' => 'alexandre_desplat_1453454901.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:54:07',
-                'updated_at' => '2016-01-22 09:28:21',
+                'updated_at' => '2016-02-22 16:18:26',
             ),
             149 => 
             array (
@@ -2013,11 +2013,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Worthington',
                 'birthday' => '1976-08-02',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0941777',
                 'image' => 'sam_worthington_1453455103.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:59:32',
-                'updated_at' => '2016-01-22 09:31:43',
+                'updated_at' => '2016-02-22 16:18:29',
             ),
             150 => 
             array (
@@ -2026,11 +2026,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Saldana',
                 'birthday' => '1978-06-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0757855',
                 'image' => 'zoe_saldana_1453455159.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 22:59:56',
-                'updated_at' => '2016-01-22 09:32:39',
+                'updated_at' => '2016-02-22 16:18:32',
             ),
             151 => 
             array (
@@ -2039,11 +2039,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Lang',
                 'birthday' => '1952-07-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0002332',
                 'image' => 'stephen_lang_1453455183.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:00:15',
-                'updated_at' => '2016-01-22 09:33:03',
+                'updated_at' => '2016-02-22 16:18:35',
             ),
             152 => 
             array (
@@ -2052,11 +2052,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Rodriguez',
                 'birthday' => '1978-07-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0735442',
                 'image' => 'michelle_rodriguez_1453455208.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:00:44',
-                'updated_at' => '2016-01-22 09:33:28',
+                'updated_at' => '2016-02-22 16:18:38',
             ),
             153 => 
             array (
@@ -2065,11 +2065,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Ribisi',
                 'birthday' => '1974-12-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000610',
                 'image' => 'giovanni_ribisi_1453455237.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:01:03',
-                'updated_at' => '2016-01-22 09:33:57',
+                'updated_at' => '2016-02-22 16:18:42',
             ),
             154 => 
             array (
@@ -2078,11 +2078,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'David Moore',
                 'birthday' => '1977-09-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0601376',
                 'image' => 'joel_david_moore_1453455312.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:01:23',
-                'updated_at' => '2016-01-22 09:35:12',
+                'updated_at' => '2016-02-22 16:18:45',
             ),
             155 => 
             array (
@@ -2091,11 +2091,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Pounder',
                 'birthday' => '1952-12-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001634',
                 'image' => 'cch_pounder_1453455374.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:01:48',
-                'updated_at' => '2016-01-22 09:36:14',
+                'updated_at' => '2016-02-22 16:18:48',
             ),
             156 => 
             array (
@@ -2104,11 +2104,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Fox',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000150',
                 'image' => 'michael_j_fox_1453033457.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:04:09',
-                'updated_at' => '2016-01-28 11:35:53',
+                'updated_at' => '2016-02-22 16:18:50',
             ),
             157 => 
             array (
@@ -2117,11 +2117,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Lloyd',
                 'birthday' => '1938-10-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000502',
                 'image' => 'christopher_lloyd_1453455416.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:04:54',
-                'updated_at' => '2016-01-22 09:36:56',
+                'updated_at' => '2016-02-22 16:18:53',
             ),
             158 => 
             array (
@@ -2130,11 +2130,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Thompson',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000670',
                 'image' => 'lea_thompson_1453033420.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:05:33',
-                'updated_at' => '2016-01-17 12:23:40',
+                'updated_at' => '2016-02-22 16:18:57',
             ),
             159 => 
             array (
@@ -2143,11 +2143,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'F. Wilson',
                 'birthday' => '1959-04-15',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001855',
                 'image' => 'thomas_f._wilson_1453455445.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:06:07',
-                'updated_at' => '2016-01-22 09:37:25',
+                'updated_at' => '2016-02-22 16:19:01',
             ),
             160 => 
             array (
@@ -2156,11 +2156,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Wells',
                 'birthday' => '1966-07-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0920148',
                 'image' => 'claudia_wells_1453455473.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:06:20',
-                'updated_at' => '2016-01-22 09:37:53',
+                'updated_at' => '2016-02-22 16:19:03',
             ),
             161 => 
             array (
@@ -2169,11 +2169,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Tolkan',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0866055',
                 'image' => 'james_tolkan_1452817192.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:07:09',
-                'updated_at' => '2016-01-14 23:07:09',
+                'updated_at' => '2016-02-22 16:19:07',
             ),
             162 => 
             array (
@@ -2182,11 +2182,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Siemaszko',
                 'birthday' => '1961-03-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0797150',
                 'image' => 'casey_siemaszko_1453455534.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:07:29',
-                'updated_at' => '2016-01-22 09:38:54',
+                'updated_at' => '2016-02-22 16:19:10',
             ),
             163 => 
             array (
@@ -2195,11 +2195,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Zemeckis',
                 'birthday' => '1951-05-14',
                 'deceased' => NULL,
-                'imdb_id' => '',
+                'imdb_id' => 'nm0000709',
                 'image' => 'robert_zemeckis_1453033492.jpg',
             'bio' => 'A whiz-kid with special effects, Robert is from the Spielberg camp of film-making. Usually working with writing partner Bob Gale, Robert&#039;s earlier films show he has a talent for zany comedy -  {{Romancing the Stone (1984)}}, 1941 (1979) and special effect vehicles - {{Who Framed Roger Rabbit (1988)}} and {{Back to the Future (1985)}}. His later films have become more serious, with the hugely successful {{Forrest Gump (1994)}} and  {{Contact (1997)}}.',
                 'created_at' => '2016-01-14 23:08:36',
-                'updated_at' => '2016-02-20 15:54:04',
+                'updated_at' => '2016-02-22 16:19:14',
             ),
             164 => 
             array (
@@ -2208,11 +2208,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Gale',
                 'birthday' => '1951-05-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0301826',
                 'image' => 'bob_gale_1453455552.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:08:52',
-                'updated_at' => '2016-01-22 09:39:12',
+                'updated_at' => '2016-02-22 16:19:17',
             ),
             165 => 
             array (
@@ -2221,11 +2221,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Shue',
                 'birthday' => '1963-10-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000223',
                 'image' => 'elisabeth_shue_1453455577.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:16:04',
-                'updated_at' => '2016-01-22 09:39:37',
+                'updated_at' => '2016-02-22 16:19:20',
             ),
             166 => 
             array (
@@ -2234,11 +2234,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Weissman',
                 'birthday' => '1958-10-02',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0919297',
                 'image' => 'jeffrey_weissman_1453455601.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:17:11',
-                'updated_at' => '2016-01-22 09:40:01',
+                'updated_at' => '2016-02-22 16:19:24',
             ),
             167 => 
             array (
@@ -2247,11 +2247,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Wood',
                 'birthday' => '1981-01-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000704',
                 'image' => 'elijah_wood_1453455632.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:18:17',
-                'updated_at' => '2016-01-22 09:40:32',
+                'updated_at' => '2016-02-22 16:19:27',
             ),
             168 => 
             array (
@@ -2260,11 +2260,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => '',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0281359',
                 'image' => 'flea__1453456416.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:18:43',
-                'updated_at' => '2016-01-22 09:53:36',
+                'updated_at' => '2016-02-22 16:19:30',
             ),
             169 => 
             array (
@@ -2273,11 +2273,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Steenburgen',
                 'birthday' => '1953-02-08',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005460',
                 'image' => 'mary_steenburgen_1453455679.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:22:51',
-                'updated_at' => '2016-01-22 09:41:19',
+                'updated_at' => '2016-02-22 16:19:33',
             ),
             170 => 
             array (
@@ -2286,11 +2286,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Clark',
                 'birthday' => '1936-11-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0164273',
                 'image' => 'matt_clark_1453455700.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:24:59',
-                'updated_at' => '2016-01-22 09:41:40',
+                'updated_at' => '2016-02-22 16:19:37',
             ),
             171 => 
             array (
@@ -2299,11 +2299,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Buttram',
                 'birthday' => '1915-06-19',
                 'deceased' => '1994-01-08',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0125426',
                 'image' => 'pat_buttram_1453455731.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:26:06',
-                'updated_at' => '2016-01-22 09:42:11',
+                'updated_at' => '2016-02-22 16:19:40',
             ),
             172 => 
             array (
@@ -2312,11 +2312,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Hicks',
                 'birthday' => '1961-12-16',
                 'deceased' => '1994-02-26',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0382805',
                 'image' => 'bill_hicks_1453455781.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:27:23',
-                'updated_at' => '2016-01-22 09:43:01',
+                'updated_at' => '2016-02-22 16:19:44',
             ),
             173 => 
             array (
@@ -2325,11 +2325,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Harlock',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2907093',
                 'image' => 'matt_harlock_1453491910.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:28:36',
-                'updated_at' => '2016-01-22 19:45:10',
+                'updated_at' => '2016-02-22 16:19:47',
             ),
             174 => 
             array (
@@ -2351,11 +2351,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Damon',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000354',
                 'image' => 'matt_damon_1452817289.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:30:10',
-                'updated_at' => '2016-01-14 23:30:10',
+                'updated_at' => '2016-02-22 16:19:52',
             ),
             176 => 
             array (
@@ -2364,11 +2364,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Potente',
                 'birthday' => '1974-07-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0004376',
                 'image' => 'franka_potente_1453387803.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:30:33',
-                'updated_at' => '2016-01-21 14:50:03',
+                'updated_at' => '2016-02-22 16:19:54',
             ),
             177 => 
             array (
@@ -2377,11 +2377,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Cooper',
                 'birthday' => '1951-07-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0177933',
                 'image' => 'chris_cooper_1453455814.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:30:51',
-                'updated_at' => '2016-01-22 09:43:34',
+                'updated_at' => '2016-02-22 16:19:57',
             ),
             178 => 
             array (
@@ -2390,11 +2390,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Owen',
                 'birthday' => '1964-10-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0654110',
                 'image' => 'clive_owen_1453455836.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:31:07',
-                'updated_at' => '2016-01-22 09:43:56',
+                'updated_at' => '2016-02-22 16:20:00',
             ),
             179 => 
             array (
@@ -2403,11 +2403,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Cox',
                 'birthday' => '1946-06-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0004051',
                 'image' => 'brian_cox_1453455863.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:31:25',
-                'updated_at' => '2016-01-22 09:44:23',
+                'updated_at' => '2016-02-22 16:20:03',
             ),
             180 => 
             array (
@@ -2416,11 +2416,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Akinnuoye-Agbaje',
                 'birthday' => '1967-08-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0015382',
                 'image' => 'adewale_akinnuoye-agbaje_1453455892.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:31:40',
-                'updated_at' => '2016-01-28 11:40:07',
+                'updated_at' => '2016-02-22 16:20:06',
             ),
             181 => 
             array (
@@ -2429,11 +2429,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Stiles',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005466',
                 'image' => 'julia_stiles_1453033375.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:31:59',
-                'updated_at' => '2016-01-17 12:22:55',
+                'updated_at' => '2016-02-22 16:20:09',
             ),
             182 => 
             array (
@@ -2442,11 +2442,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Gilroy',
                 'birthday' => '1956-09-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0006904',
                 'image' => 'tony_gilroy_1453455931.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:32:42',
-                'updated_at' => '2016-01-22 09:45:31',
+                'updated_at' => '2016-02-22 16:20:12',
             ),
             183 => 
             array (
@@ -2455,11 +2455,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Liman',
                 'birthday' => '1965-07-24',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0510731',
                 'image' => 'doug_liman_1453455948.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:32:56',
-                'updated_at' => '2016-01-22 09:45:48',
+                'updated_at' => '2016-02-22 16:20:15',
             ),
             184 => 
             array (
@@ -2468,11 +2468,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Powell',
                 'birthday' => '1963-09-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0694173',
                 'image' => 'john_powell_1453455975.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:33:12',
-                'updated_at' => '2016-01-22 09:46:15',
+                'updated_at' => '2016-02-22 16:20:18',
             ),
             185 => 
             array (
@@ -2481,11 +2481,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Greengrass',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0339030',
                 'image' => 'paul_greengrass_1453033544.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:34:50',
-                'updated_at' => '2016-01-17 12:25:44',
+                'updated_at' => '2016-02-22 16:20:21',
             ),
             186 => 
             array (
@@ -2494,11 +2494,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Urban',
                 'birthday' => '1972-07-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0881631',
                 'image' => 'karl_urban_1453455995.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:35:59',
-                'updated_at' => '2016-01-22 09:46:35',
+                'updated_at' => '2016-02-22 16:20:23',
             ),
             187 => 
             array (
@@ -2507,11 +2507,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Mann',
                 'birthday' => '1972-05-14',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0542759',
                 'image' => 'gabriel_mann_1453456015.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:36:19',
-                'updated_at' => '2016-01-22 09:46:55',
+                'updated_at' => '2016-02-22 16:20:26',
             ),
             188 => 
             array (
@@ -2520,11 +2520,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Allen',
                 'birthday' => '1956-08-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000260',
                 'image' => 'joan_allen_1453456035.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:36:35',
-                'updated_at' => '2016-01-22 09:47:15',
+                'updated_at' => '2016-02-22 16:20:30',
             ),
             189 => 
             array (
@@ -2533,11 +2533,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Strathairn',
                 'birthday' => '1949-01-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000657',
                 'image' => 'david_strathairn_1453456051.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:39:52',
-                'updated_at' => '2016-01-22 09:47:31',
+                'updated_at' => '2016-02-22 16:20:33',
             ),
             190 => 
             array (
@@ -2546,11 +2546,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Glenn',
                 'birthday' => '1941-01-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001277',
                 'image' => 'scott_glenn_1453456072.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:40:23',
-                'updated_at' => '2016-01-22 09:47:52',
+                'updated_at' => '2016-02-22 16:20:35',
             ),
             191 => 
             array (
@@ -2559,11 +2559,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Considine',
                 'birthday' => '1974-09-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0175916',
                 'image' => 'paddy_considine_1453456092.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:40:42',
-                'updated_at' => '2016-01-22 09:48:12',
+                'updated_at' => '2016-02-22 16:20:37',
             ),
             192 => 
             array (
@@ -2572,11 +2572,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Finney',
                 'birthday' => '1936-05-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001215',
                 'image' => 'albert_finney_1453456110.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:41:04',
-                'updated_at' => '2016-01-22 09:48:30',
+                'updated_at' => '2016-02-22 16:20:41',
             ),
             193 => 
             array (
@@ -2585,11 +2585,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Br&uuml;hl',
                 'birthday' => '1978-06-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0117709',
                 'image' => 'daniel_br__hl_1453903769.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-14 23:41:21',
-                'updated_at' => '2016-01-27 14:09:29',
+                'updated_at' => '2016-02-22 16:20:44',
             ),
             194 => 
             array (
@@ -2598,11 +2598,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Bale',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000288',
                 'image' => 'christian_bale_1453125863.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:17:21',
-                'updated_at' => '2016-01-18 14:04:23',
+                'updated_at' => '2016-02-22 16:20:47',
             ),
             195 => 
             array (
@@ -2611,11 +2611,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Caine',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000323',
                 'image' => 'michael_caine_1453125825.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:17:43',
-                'updated_at' => '2016-01-18 14:03:45',
+                'updated_at' => '2016-02-22 16:20:50',
             ),
             196 => 
             array (
@@ -2624,11 +2624,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Neeson',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000553',
                 'image' => 'liam_neeson_1453125780.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:18:02',
-                'updated_at' => '2016-01-18 14:03:00',
+                'updated_at' => '2016-02-22 16:20:53',
             ),
             197 => 
             array (
@@ -2637,11 +2637,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Holmes',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005017',
                 'image' => 'katie_holmes_1453125749.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:18:36',
-                'updated_at' => '2016-01-18 14:02:29',
+                'updated_at' => '2016-02-22 16:20:56',
             ),
             198 => 
             array (
@@ -2650,11 +2650,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Oldman',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000198',
                 'image' => 'gary_oldman_1453125723.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:18:52',
-                'updated_at' => '2016-01-18 14:02:03',
+                'updated_at' => '2016-02-22 16:24:08',
             ),
             199 => 
             array (
@@ -2663,11 +2663,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Murphy',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0614165',
                 'image' => 'cillian_murphy_1453125690.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:19:14',
-                'updated_at' => '2016-01-18 14:01:30',
+                'updated_at' => '2016-02-22 16:24:11',
             ),
             200 => 
             array (
@@ -2676,11 +2676,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Wilkinson',
                 'birthday' => '1948-02-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0929489',
                 'image' => 'tom_wilkinson_1453456170.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:19:38',
-                'updated_at' => '2016-01-22 09:49:30',
+                'updated_at' => '2016-02-22 16:24:14',
             ),
             201 => 
             array (
@@ -2689,11 +2689,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Freeman',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000151',
                 'image' => 'morgan_freeman_1453125636.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:19:57',
-                'updated_at' => '2016-01-18 14:00:36',
+                'updated_at' => '2016-02-22 16:24:17',
             ),
             202 => 
             array (
@@ -2702,11 +2702,11 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Nolan',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0634240',
                 'image' => 'christopher_nolan_1453127454.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:20:24',
-                'updated_at' => '2016-01-18 14:30:54',
+                'updated_at' => '2016-02-22 16:24:20',
             ),
             203 => 
             array (
@@ -2715,13 +2715,13 @@ As well as acting, Ben has directed several films including {{Gone Baby Gone}}, 
                 'surname' => 'Ledger',
                 'birthday' => '1979-04-04',
                 'deceased' => '2008-01-22',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005132',
                 'image' => 'heath_ledger_1453125492.jpg',
             'bio' => 'Heath Ledger was born on the fourth of April 1979, in Perth, Western Australia, to Sally (Ramshaw), a teacher of French, and Kim Ledger, a mining engineer who also raced cars. As the story goes, in junior high school it was compulsory to take one of two electives, either cooking or drama. As Heath could not see himself in a cooking class he tried his hand at drama. Heath was talented, however the rest of the class did not acknowledge his talent. When he was seventeen he and a friend decided to pack up, leave school, take a car and rough it to Sydney. Heath believed Sydney to be the place where dreams were made or, at least, where actors could possibly get their big break. Upon arriving in Sydney with a purported sixty-nine cents to his name, Heath tried everything to get a break.
 
 Heath finally had deserved success with his role in Brokeback Mountain (2005), for which he was nominated for an Oscar and a B.A.F.T.A. Ledger was found dead on January 22, 2008 in his apartment in the Manhattan neighborhood of SoHo, with a bottle of prescription sleeping pills near-by. It was concluded weeks later that he died of an accidental overdose of prescription drugs that included pain-killers, sleeping pills and anti-anxiety medication. After his death he received more than thirty posthumous awards for his portrayal as the psychopathic clown prince of crime in The Dark Knight (2008) (including the Oscar, S.A.G., B.A.F.T.A., and Golden Globe)',
                 'created_at' => '2016-01-18 13:23:14',
-                'updated_at' => '2016-01-18 13:59:43',
+                'updated_at' => '2016-02-22 16:24:23',
             ),
             204 => 
             array (
@@ -2730,11 +2730,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Eckhart',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001173',
                 'image' => 'aaron_eckhart_1453125449.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:23:29',
-                'updated_at' => '2016-01-18 13:57:29',
+                'updated_at' => '2016-02-22 16:24:26',
             ),
             205 => 
             array (
@@ -2743,11 +2743,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Gyllenhaal',
                 'birthday' => '1977-11-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0350454',
                 'image' => 'maggie_gyllenhaal_1453456213.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:24:05',
-                'updated_at' => '2016-01-22 09:50:13',
+                'updated_at' => '2016-02-22 16:24:29',
             ),
             206 => 
             array (
@@ -2756,11 +2756,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Carbonell',
                 'birthday' => '1967-12-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0004801',
                 'image' => 'nestor_carbonell_1453456225.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:26:09',
-                'updated_at' => '2016-01-22 09:50:25',
+                'updated_at' => '2016-02-22 16:24:32',
             ),
             207 => 
             array (
@@ -2769,11 +2769,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Roberts',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000616',
                 'image' => 'eric_roberts_1453125906.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:26:38',
-                'updated_at' => '2016-01-18 14:05:06',
+                'updated_at' => '2016-02-22 16:24:35',
             ),
             208 => 
             array (
@@ -2782,11 +2782,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Hall',
                 'birthday' => '1968-04-14',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001309',
                 'image' => 'anthony_michael_hall_1453456246.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:27:50',
-                'updated_at' => '2016-01-22 09:50:46',
+                'updated_at' => '2016-02-22 16:24:38',
             ),
             209 => 
             array (
@@ -2795,11 +2795,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Nolan',
                 'birthday' => '1976-06-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0634300',
                 'image' => 'johnathan_nolan_1453491807.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:28:25',
-                'updated_at' => '2016-01-22 19:43:27',
+                'updated_at' => '2016-02-22 16:24:40',
             ),
             210 => 
             array (
@@ -2808,11 +2808,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Zimmer',
                 'birthday' => '1957-09-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001877',
                 'image' => 'hans_zimmer_1453456266.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:29:04',
-                'updated_at' => '2016-01-22 09:51:06',
+                'updated_at' => '2016-02-22 16:24:44',
             ),
             211 => 
             array (
@@ -2821,11 +2821,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Hauer',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000442',
                 'image' => 'rutger_hauer_1453125961.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:30:32',
-                'updated_at' => '2016-01-18 14:06:01',
+                'updated_at' => '2016-02-22 16:24:47',
             ),
             212 => 
             array (
@@ -2834,11 +2834,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Watanabe',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0913822',
                 'image' => 'ken_watanabe_1453125985.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:30:46',
-                'updated_at' => '2016-01-18 14:06:25',
+                'updated_at' => '2016-02-22 16:24:50',
             ),
             213 => 
             array (
@@ -2847,11 +2847,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Howard',
                 'birthday' => '1951-06-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0006133',
                 'image' => 'james_newton_howard_1453491763.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:31:34',
-                'updated_at' => '2016-01-22 19:42:43',
+                'updated_at' => '2016-02-22 16:24:54',
             ),
             214 => 
             array (
@@ -2860,11 +2860,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Hardy',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0362766',
                 'image' => 'tom_hardy_1453126020.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:36:25',
-                'updated_at' => '2016-01-18 14:07:00',
+                'updated_at' => '2016-02-22 16:24:57',
             ),
             215 => 
             array (
@@ -2873,11 +2873,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Gordon-Levitt',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0330687',
                 'image' => 'joseph_gordon-levitt_1453126047.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:36:56',
-                'updated_at' => '2016-01-28 09:50:28',
+                'updated_at' => '2016-02-22 16:25:00',
             ),
             216 => 
             array (
@@ -2886,11 +2886,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Cotillard',
                 'birthday' => '1975-09-30',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0182839',
                 'image' => 'marion_cotillard_1453491870.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:37:55',
-                'updated_at' => '2016-01-22 19:44:30',
+                'updated_at' => '2016-02-22 16:25:03',
             ),
             217 => 
             array (
@@ -2899,11 +2899,11 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Modine',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000546',
                 'image' => 'matthew_modine_1453126084.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:38:49',
-                'updated_at' => '2016-01-18 14:08:04',
+                'updated_at' => '2016-02-22 16:25:06',
             ),
             218 => 
             array (
@@ -2912,7 +2912,7 @@ Heath finally had deserved success with his role in Brokeback Mountain (2005), f
                 'surname' => 'Portman',
                 'birthday' => '1981-06-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000204',
                 'image' => 'natalie_portman_1453126159.jpg',
             'bio' => 'Natalie Portman was born Natalie Hershlag on June 9, 1981, in Jerusalem, Israel, to a Jewish family. She is the only child of Avner Hershlag, an Israeli-born doctor, and Shelley Stevens, an American-born artist (from Cincinnati, Ohio), who also acts as Natalie\'s agent. She left Israel for Washington, D.C., when she was still very young. After a few more moves, her family finally settled in New York, where she still lives to this day. 
 
@@ -2920,7 +2920,7 @@ She graduated with honors, and her academic achievements allowed her to attend H
 
 Following this role Natalie won roles in such films as Heat, Beautiful Girls, and Mars Attacks!. She received an Academy Award and a Golden Globe Award for Best Actress in Black Swan.',
                 'created_at' => '2016-01-18 13:42:08',
-                'updated_at' => '2016-01-18 14:09:19',
+                'updated_at' => '2016-02-22 16:25:09',
             ),
             219 => 
             array (
@@ -2929,11 +2929,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Kunis',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005109',
                 'image' => 'mila_kunis_1453126185.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:43:07',
-                'updated_at' => '2016-01-18 14:09:45',
+                'updated_at' => '2016-02-22 16:25:12',
             ),
             220 => 
             array (
@@ -2942,11 +2942,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Cassel',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001993',
                 'image' => 'vincent_cassel_1453126214.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:43:25',
-                'updated_at' => '2016-01-18 14:10:14',
+                'updated_at' => '2016-02-22 16:25:15',
             ),
             221 => 
             array (
@@ -2955,11 +2955,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Hershey',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001347',
                 'image' => 'barbara_hershey_1453456556.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:45:12',
-                'updated_at' => '2016-01-22 09:55:56',
+                'updated_at' => '2016-02-22 16:25:18',
             ),
             222 => 
             array (
@@ -2968,11 +2968,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Aronofsky',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0004716',
                 'image' => 'darren_aronofsky_1453456817.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:46:35',
-                'updated_at' => '2016-01-22 10:00:17',
+                'updated_at' => '2016-02-22 16:25:21',
             ),
             223 => 
             array (
@@ -2981,11 +2981,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Cage',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000115',
                 'image' => 'nicolas_cage_1453126264.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:52:14',
-                'updated_at' => '2016-01-18 14:11:04',
+                'updated_at' => '2016-02-22 16:25:24',
             ),
             224 => 
             array (
@@ -2994,11 +2994,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Mendes',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0578949',
                 'image' => 'eva_mendes_1453126298.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:53:02',
-                'updated_at' => '2016-01-18 14:11:38',
+                'updated_at' => '2016-02-22 16:25:28',
             ),
             225 => 
             array (
@@ -3007,11 +3007,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Kilmer',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000174',
                 'image' => 'val_kilmer_1453126377.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:53:13',
-                'updated_at' => '2016-01-18 14:12:57',
+                'updated_at' => '2016-02-22 16:25:31',
             ),
             226 => 
             array (
@@ -3020,11 +3020,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => '',
                 'birthday' => '1974-09-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0944702',
                 'image' => 'xzibit__1453906933.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:53:57',
-                'updated_at' => '2016-01-27 15:02:13',
+                'updated_at' => '2016-02-22 16:25:35',
             ),
             227 => 
             array (
@@ -3033,11 +3033,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Balk',
                 'birthday' => '1974-05-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000103',
                 'image' => 'fairuza_balk_1453491663.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:54:13',
-                'updated_at' => '2016-01-22 19:41:03',
+                'updated_at' => '2016-02-22 16:25:38',
             ),
             228 => 
             array (
@@ -3046,11 +3046,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Shannon',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0788335',
                 'image' => 'michael_shannon_1453126415.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:55:24',
-                'updated_at' => '2016-01-18 14:13:35',
+                'updated_at' => '2016-02-22 16:25:41',
             ),
             229 => 
             array (
@@ -3059,11 +3059,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Herzog',
                 'birthday' => '1942-09-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001348',
                 'image' => 'werner_herzog_1453491974.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-18 13:56:42',
-                'updated_at' => '2016-01-22 19:46:14',
+                'updated_at' => '2016-02-22 16:25:44',
             ),
             230 => 
             array (
@@ -3072,11 +3072,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Jovovich',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000170',
                 'image' => 'milla_jovovich_1453211931.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:25:23',
-                'updated_at' => '2016-01-19 13:58:51',
+                'updated_at' => '2016-02-22 16:25:47',
             ),
             231 => 
             array (
@@ -3085,11 +3085,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Tucker',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000676',
                 'image' => 'chris_tucker_1453211992.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:26:41',
-                'updated_at' => '2016-01-19 13:59:52',
+                'updated_at' => '2016-02-22 16:25:50',
             ),
             232 => 
             array (
@@ -3098,11 +3098,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Perry',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000580',
                 'image' => 'luke_perry_1453212025.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:27:02',
-                'updated_at' => '2016-01-19 14:00:25',
+                'updated_at' => '2016-02-22 16:25:53',
             ),
             233 => 
             array (
@@ -3111,11 +3111,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'James',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001397',
                 'image' => 'brion_james_1453212056.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:27:19',
-                'updated_at' => '2016-01-19 14:00:56',
+                'updated_at' => '2016-02-22 16:25:57',
             ),
             234 => 
             array (
@@ -3124,11 +3124,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Evans',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0262968',
                 'image' => 'lee_evans_1453212162.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:27:58',
-                'updated_at' => '2016-01-19 14:02:42',
+                'updated_at' => '2016-02-22 16:26:01',
             ),
             235 => 
             array (
@@ -3137,11 +3137,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Miles',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0187224',
                 'image' => 'charlie_creed_miles_1453212196.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:28:30',
-                'updated_at' => '2016-01-19 14:03:16',
+                'updated_at' => '2016-02-22 16:26:04',
             ),
             236 => 
             array (
@@ -3150,11 +3150,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => '',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0872635',
                 'image' => 'tricky__1453906918.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:28:51',
-                'updated_at' => '2016-01-27 15:01:58',
+                'updated_at' => '2016-02-22 16:26:07',
             ),
             237 => 
             array (
@@ -3163,11 +3163,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Kassovitz',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0440913',
                 'image' => 'mathieu_kassovitz_1453212266.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:29:31',
-                'updated_at' => '2016-01-19 14:04:26',
+                'updated_at' => '2016-02-22 16:26:10',
             ),
             238 => 
             array (
@@ -3176,11 +3176,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Chan',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0150976',
                 'image' => 'kim_chan_1453491832.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:29:48',
-                'updated_at' => '2016-01-22 19:43:52',
+                'updated_at' => '2016-02-22 16:26:13',
             ),
             239 => 
             array (
@@ -3189,11 +3189,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Fairbank',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0265457',
                 'image' => 'christopher_fairbank_1453212308.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:30:49',
-                'updated_at' => '2016-01-19 14:05:08',
+                'updated_at' => '2016-02-22 16:26:16',
             ),
             240 => 
             array (
@@ -3202,11 +3202,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Besson',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000108',
                 'image' => 'luc_besson_1453212345.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:31:33',
-                'updated_at' => '2016-01-19 14:05:45',
+                'updated_at' => '2016-02-22 16:26:19',
             ),
             241 => 
             array (
@@ -3215,11 +3215,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Serra',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0785385',
                 'image' => 'eric_serra_1453213035.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:32:07',
-                'updated_at' => '2016-01-19 14:17:15',
+                'updated_at' => '2016-02-22 16:26:22',
             ),
             242 => 
             array (
@@ -3228,11 +3228,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Connolly',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1393354',
                 'image' => 'kristen_connolly_1453212494.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:37:52',
-                'updated_at' => '2016-01-19 14:08:14',
+                'updated_at' => '2016-02-22 16:26:25',
             ),
             243 => 
             array (
@@ -3241,11 +3241,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Hutchison',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0404307',
                 'image' => 'anna_hutchison_1453212520.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:38:41',
-                'updated_at' => '2016-01-19 14:08:40',
+                'updated_at' => '2016-02-22 16:26:28',
             ),
             244 => 
             array (
@@ -3254,11 +3254,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Kranz',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0469823',
                 'image' => 'fran_kranz_1453212547.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:38:56',
-                'updated_at' => '2016-01-19 14:09:07',
+                'updated_at' => '2016-02-22 16:26:32',
             ),
             245 => 
             array (
@@ -3267,11 +3267,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Williams',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0930898',
                 'image' => 'jesse_williams_1453212577.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:39:26',
-                'updated_at' => '2016-01-19 14:09:37',
+                'updated_at' => '2016-02-22 16:26:35',
             ),
             246 => 
             array (
@@ -3280,11 +3280,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Jenkins',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0420955',
                 'image' => 'richard_jenkins_1453212679.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:39:40',
-                'updated_at' => '2016-01-19 14:11:19',
+                'updated_at' => '2016-02-22 16:26:38',
             ),
             247 => 
             array (
@@ -3293,11 +3293,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Whitford',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0925966',
                 'image' => 'bradley_whitford_1453212706.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:39:55',
-                'updated_at' => '2016-01-19 14:11:46',
+                'updated_at' => '2016-02-22 16:26:41',
             ),
             248 => 
             array (
@@ -3306,11 +3306,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Goddard',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1206844',
                 'image' => 'drew_goddard_1453212742.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:41:55',
-                'updated_at' => '2016-01-19 14:12:22',
+                'updated_at' => '2016-02-22 16:26:44',
             ),
             249 => 
             array (
@@ -3319,11 +3319,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Madsen',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000515',
                 'image' => 'virginia_madsen_1453212771.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:46:00',
-                'updated_at' => '2016-01-19 14:12:51',
+                'updated_at' => '2016-02-22 16:26:47',
             ),
             250 => 
             array (
@@ -3332,11 +3332,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Todd',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0865302',
                 'image' => 'tony_todd_1453212795.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:46:11',
-                'updated_at' => '2016-01-19 14:13:15',
+                'updated_at' => '2016-02-22 16:26:50',
             ),
             251 => 
             array (
@@ -3345,11 +3345,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Berkeley',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0075359',
                 'image' => 'xander_berkeley_1453212905.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:46:31',
-                'updated_at' => '2016-01-19 14:15:05',
+                'updated_at' => '2016-02-22 16:26:54',
             ),
             252 => 
             array (
@@ -3358,11 +3358,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Lemmons',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0501435',
                 'image' => 'kasi_lemmons_1453212938.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:46:51',
-                'updated_at' => '2016-01-19 14:15:38',
+                'updated_at' => '2016-02-22 16:26:57',
             ),
             253 => 
             array (
@@ -3371,11 +3371,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Williams',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001853',
                 'image' => 'vanessa_williams_1453212969.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:47:08',
-                'updated_at' => '2016-01-19 14:16:09',
+                'updated_at' => '2016-02-22 16:27:00',
             ),
             254 => 
             array (
@@ -3384,11 +3384,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Raimi',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001646',
                 'image' => 'ted_raimi_1453212998.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:47:20',
-                'updated_at' => '2016-01-19 14:16:38',
+                'updated_at' => '2016-02-22 16:27:03',
             ),
             255 => 
             array (
@@ -3397,11 +3397,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Rose',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0741262',
                 'image' => 'bernard_rose_1453456727.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:49:31',
-                'updated_at' => '2016-01-22 09:58:47',
+                'updated_at' => '2016-02-22 16:27:06',
             ),
             256 => 
             array (
@@ -3410,11 +3410,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Glass',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001275',
                 'image' => 'philip_glass_1453213116.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:50:19',
-                'updated_at' => '2016-01-19 14:18:36',
+                'updated_at' => '2016-02-22 16:27:10',
             ),
             257 => 
             array (
@@ -3423,11 +3423,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Pacino',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000199',
                 'image' => 'al_pacino_1453213136.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:50:58',
-                'updated_at' => '2016-01-19 14:18:56',
+                'updated_at' => '2016-02-22 16:27:13',
             ),
             258 => 
             array (
@@ -3436,11 +3436,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Penn',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000576',
                 'image' => 'sean_penn_1453213167.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:51:29',
-                'updated_at' => '2016-01-19 14:19:27',
+                'updated_at' => '2016-02-22 16:27:16',
             ),
             259 => 
             array (
@@ -3449,11 +3449,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Miller',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000542',
                 'image' => 'penelope_ann_miller_1453213195.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:51:40',
-                'updated_at' => '2016-01-19 14:19:56',
+                'updated_at' => '2016-02-22 16:27:19',
             ),
             260 => 
             array (
@@ -3462,11 +3462,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Leguizamo',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000491',
                 'image' => 'john_leguizamo_1453213227.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:51:53',
-                'updated_at' => '2016-01-19 14:20:27',
+                'updated_at' => '2016-02-22 16:27:23',
             ),
             261 => 
             array (
@@ -3475,11 +3475,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Guzm&aacute;n',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0350079',
                 'image' => 'luis_guzman_1453213257.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:52:08',
-                'updated_at' => '2016-02-01 13:19:34',
+                'updated_at' => '2016-02-22 16:27:26',
             ),
             262 => 
             array (
@@ -3488,11 +3488,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Rebhorn',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0714310',
                 'image' => 'james_rebhorn_1453213292.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:52:30',
-                'updated_at' => '2016-01-19 14:21:32',
+                'updated_at' => '2016-02-22 16:27:29',
             ),
             263 => 
             array (
@@ -3501,11 +3501,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Mortensen',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001557',
                 'image' => 'viggo_mortensen_1453213340.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:52:44',
-                'updated_at' => '2016-01-19 14:22:20',
+                'updated_at' => '2016-02-22 16:27:32',
             ),
             264 => 
             array (
@@ -3514,11 +3514,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Pasdar',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0664499',
                 'image' => 'adrian_pasdar_1453213375.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:53:10',
-                'updated_at' => '2016-01-19 14:22:55',
+                'updated_at' => '2016-02-22 16:27:35',
             ),
             265 => 
             array (
@@ -3527,11 +3527,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'De Palma',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000361',
                 'image' => 'brian_de_palma_1453213452.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:53:37',
-                'updated_at' => '2016-01-19 14:24:12',
+                'updated_at' => '2016-02-22 16:27:38',
             ),
             266 => 
             array (
@@ -3540,11 +3540,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Koepp',
                 'birthday' => '1963-06-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0462895',
                 'image' => 'david_koepp_1453491630.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-19 13:53:57',
-                'updated_at' => '2016-01-22 19:40:30',
+                'updated_at' => '2016-02-22 16:27:41',
             ),
             267 => 
             array (
@@ -3553,11 +3553,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Khan',
                 'birthday' => '1967-01-07',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0451234',
                 'image' => 'irrfan_khan_1453491719.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-20 13:56:56',
-                'updated_at' => '2016-01-22 19:41:59',
+                'updated_at' => '2016-02-22 16:27:44',
             ),
             268 => 
             array (
@@ -3566,11 +3566,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Bedelia',
                 'birthday' => '1948-03-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000889',
                 'image' => 'bonnie_bedelia_1453380770.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-21 12:48:40',
-                'updated_at' => '2016-01-21 12:53:41',
+                'updated_at' => '2016-02-22 16:27:46',
             ),
             269 => 
             array (
@@ -3579,11 +3579,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Shigeta',
                 'birthday' => '1929-06-17',
                 'deceased' => '2014-07-28',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0793363',
                 'image' => 'james_shigeta_1453380834.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-21 12:50:05',
-                'updated_at' => '2016-01-21 12:53:54',
+                'updated_at' => '2016-02-22 16:27:49',
             ),
             270 => 
             array (
@@ -3592,11 +3592,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Vel Johnson',
                 'birthday' => '1952-08-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001817',
                 'image' => 'reginald_vel_johnson_1453380857.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-21 12:50:43',
-                'updated_at' => '2016-01-21 12:54:17',
+                'updated_at' => '2016-02-22 16:27:52',
             ),
             271 => 
             array (
@@ -3605,11 +3605,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Dehaan',
                 'birthday' => '1986-02-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2851530',
                 'image' => 'dane_dehaan_1453492680.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 19:56:07',
-                'updated_at' => '2016-01-22 19:58:00',
+                'updated_at' => '2016-02-22 16:27:55',
             ),
             272 => 
             array (
@@ -3618,11 +3618,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Russell',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm3887625',
                 'image' => 'alex_russell_1453492697.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 19:56:25',
-                'updated_at' => '2016-01-22 19:58:17',
+                'updated_at' => '2016-02-22 16:27:59',
             ),
             273 => 
             array (
@@ -3631,11 +3631,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Jordan',
                 'birthday' => '1987-02-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0430107',
                 'image' => 'michael_b._jordan_1453492719.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 19:56:40',
-                'updated_at' => '2016-01-22 19:58:39',
+                'updated_at' => '2016-02-22 16:28:01',
             ),
             274 => 
             array (
@@ -3644,11 +3644,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Kelly',
                 'birthday' => '1969-05-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0446672',
                 'image' => 'michael_kelly_1453492742.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 19:56:57',
-                'updated_at' => '2016-01-22 19:59:02',
+                'updated_at' => '2016-02-22 16:28:04',
             ),
             275 => 
             array (
@@ -3657,11 +3657,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Hinshaw',
                 'birthday' => '1988-12-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm3358233',
                 'image' => 'ashley_hinshaw_1453492774.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 19:57:14',
-                'updated_at' => '2016-01-22 19:59:34',
+                'updated_at' => '2016-02-22 16:28:07',
             ),
             276 => 
             array (
@@ -3670,11 +3670,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Cruise',
                 'birthday' => '1962-07-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000129',
                 'image' => 'tom_cruise_1453493170.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 20:02:41',
-                'updated_at' => '2016-01-22 20:06:10',
+                'updated_at' => '2016-02-22 16:28:10',
             ),
             277 => 
             array (
@@ -3683,11 +3683,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Foxx',
                 'birthday' => '1967-12-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0004937',
                 'image' => 'jamie_foxx_1453493192.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 20:02:59',
-                'updated_at' => '2016-01-22 20:06:32',
+                'updated_at' => '2016-02-22 16:28:13',
             ),
             278 => 
             array (
@@ -3696,11 +3696,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Smith',
                 'birthday' => '1971-09-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000586',
                 'image' => 'jada_pinkett_smith_1453493226.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 20:03:09',
-                'updated_at' => '2016-01-22 20:07:06',
+                'updated_at' => '2016-02-22 16:28:16',
             ),
             279 => 
             array (
@@ -3709,11 +3709,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Berg',
                 'birthday' => '1964-03-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000916',
                 'image' => 'peter_berg_1453493254.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 20:03:39',
-                'updated_at' => '2016-01-22 20:07:34',
+                'updated_at' => '2016-02-22 16:28:19',
             ),
             280 => 
             array (
@@ -3722,11 +3722,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'McGill',
                 'birthday' => '1950-07-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0569226',
                 'image' => 'bruce_mcgill_1453493278.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 20:03:51',
-                'updated_at' => '2016-01-28 12:22:26',
+                'updated_at' => '2016-02-22 16:28:23',
             ),
             281 => 
             array (
@@ -3735,11 +3735,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Mazar',
                 'birthday' => '1964-08-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000529',
                 'image' => 'debi_mazar_1453493310.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 20:04:08',
-                'updated_at' => '2016-01-22 20:08:30',
+                'updated_at' => '2016-02-22 16:28:26',
             ),
             282 => 
             array (
@@ -3748,11 +3748,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Bardem',
                 'birthday' => '1969-03-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000849',
                 'image' => 'javier_bardem_1453493339.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 20:04:21',
-                'updated_at' => '2016-01-22 20:08:59',
+                'updated_at' => '2016-02-22 16:28:29',
             ),
             283 => 
             array (
@@ -3761,11 +3761,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Mann',
                 'birthday' => '1943-02-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000520',
                 'image' => 'michael_mann_1453493360.jpg',
                 'bio' => '',
                 'created_at' => '2016-01-22 20:04:41',
-                'updated_at' => '2016-01-22 20:09:20',
+                'updated_at' => '2016-02-22 16:28:33',
             ),
             284 => 
             array (
@@ -3826,11 +3826,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'McGann',
                 'birthday' => '1959-11-14',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001524',
                 'image' => 'Paul_Mcgann_1453895099.jpg',
             'bio' => 'Paul McGann was born on November 14, 1959 in Liverpool, England. He is an actor, known for Alien&sup3; (1992), Withnail &amp; I (1987) and Queen of the Damned (2002). He has been married to Annie Milner since 1992. They have two children.',
                 'created_at' => '2016-01-27 11:44:59',
-                'updated_at' => '2016-01-28 12:24:01',
+                'updated_at' => '2016-02-22 16:28:49',
             ),
             289 => 
             array (
@@ -3839,11 +3839,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Glover',
                 'birthday' => '1934-04-02',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0323093',
                 'image' => 'Brian_Glover_1453895110.jpg',
                 'bio' => 'Brian Glover was born in Sheffield, Yorkshire and used to be a professional wrestler going by the name of &quot;Leon Arras the Man From Paris&quot;. He also provides one of the voices for the animated &quot;Tetley Tea&quot; TV adverts. His stage work included seasons with the Royal Shakespeare Company and Royal National Theatre.',
                 'created_at' => '2016-01-27 11:45:10',
-                'updated_at' => '2016-01-27 11:45:10',
+                'updated_at' => '2016-02-22 16:28:53',
             ),
             290 => 
             array (
@@ -3852,11 +3852,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Singer',
                 'birthday' => NULL,
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0802019',
                 'image' => 'Rachel_Singer_1453895207.jpg',
             'bio' => 'Rachel Singer is an actress, known for Fight Club (1999), The Green Mile (1999) and What Lies Beneath (2000). She has been married to Tom Lamb since November 18, 2000. They have two children.',
                 'created_at' => '2016-01-27 11:46:47',
-                'updated_at' => '2016-01-27 11:46:47',
+                'updated_at' => '2016-02-22 16:28:56',
             ),
             291 => 
             array (
@@ -3865,11 +3865,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Foster',
                 'birthday' => '1933-11-15',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0287825',
                 'image' => 'Gloria_Foster_1453895270.jpg',
             'bio' => 'Gloria Foster will always be best known for her performance as The Oracle in The Matrix (1999) and The Matrix Reloaded (2003), but the actress&#039;s career spanned four decades on the stage and screen. Born on November 15, 1933 in Chicago, Illinois, Foster was put in the custody of her grandparents and raised on a farm. She returned to Chicago to attend the University of Illinois. Acting was not a focus until she was accepted at the city&#039;s distinguished Goodman Theatre. She performed on stages around the city before heading to New York City in the early 1960s. In New York, her first stage role was in &quot;A Raisin in the Sun&quot;. She won an Obie Award for her next performance in the play &quot;In White America&quot;, where she portrayed 27 different characters. Life Magazine dedicated a two-page article on Foster. More roles followed as her fans grew in number; quite often, roles were being written expressly for her. By the end of her career, she would win 2 more Obies, for a later performance of &quot;A Raisin in the Sun&quot; and the Broadway production of &quot;Having Our Say&quot; in 1995. Foster&#039;s first film role was in The Cool World (1963); during production set met actor-director Clarence Williams III, and the couple soon married. (They later divorced, and Foster never remarried.) Her film work was limited, with roles in Nothing But a Man (1964), The Comedians (1967), The Angel Levine (1970), Man and Boy (1971), Leonard Part 6 (1987), City of Hope (1991), and the aforementioned Matrix appearances. She worked a bit more on television, with appearances throughout the years on I Spy (1965), Mod Squad (1968), The Bill Cosby Show (1969), The White Shadow (1978), The Cosby Show (1984), Law &amp; Order (1990) (her character here was based on Betty Shabazz, Malcolm X&#039;s widow), and Soul Food (2000). She appeared in the TV movies House of Dies Drear (1984) and the Golden Globe-nominated Separate But Equal (1991). She returned to the stage in 1995 in &quot;Having Our Say&quot;, co-starring with Mary Alice, who would take her place as The Oracle in Matrix Revolutions (2003). On September 29, 2001, she died of complications from diabetes. She was 67.',
                 'created_at' => '2016-01-27 11:47:51',
-                'updated_at' => '2016-01-27 11:47:51',
+                'updated_at' => '2016-02-22 16:28:59',
             ),
             292 => 
             array (
@@ -3878,11 +3878,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Lee',
                 'birthday' => '1965-02-01',
                 'deceased' => '1993-03-31',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000488',
                 'image' => 'Brandon_Lee_1453895330.jpg',
             'bio' => 'Born on February 1, 1965 to Bruce Lee (Martial Arts idol) and Linda Lee Cadwell. Brother to Shannon Lee. In 1970-71, they moved to Hong Kong where Brandon became fluent in Cantonese by the age of 8. He attended Boston&#039;s Art-Oriented Emerson College in Massachusetts. He studied Martial Arts and drama, like his father. In 1983, he was expelled from school because of misbehavior, but received his diploma at Miraleste High School. He was in Rapid Fire (1992), Showdown in Little Tokyo (1991) and a few more films, including The Crow (1994). He turned down offers to be in Dragon: The Bruce Lee Story (1993). Bruce died (while filming) at the age of 32, of what is to be believed, a brain hemorrhage. Brandon died at the age of 28 on the set of The Crow (1994). The film crew shot a scene in which it was decided to use a gun without consent from the weapons coordinator, who had been sent home early that night. They handed Michael Massee the gun loaded with full power blanks and shot the scene, unaware that a bullet had become dislodged from a previous shot and had lodged itself in the barrel. Upon shooting of the scene the blank round forced the bullet out the barrel striking Brandon Lee. The crew only noticed when Lee was slow getting up. The doctors worked desperately for five hours, but it was no use. The bullet had lodged itself in Mr Lee&#039;s lower spine. He was pronounced dead at 1:04 P.M. the next day. He was supposed to marry Eliza Hutton on April 17, 1993. His body was flown to Seattle to be buried beside his father in Lake View Cemetery.',
                 'created_at' => '2016-01-27 11:48:50',
-                'updated_at' => '2016-01-27 11:48:50',
+                'updated_at' => '2016-02-22 16:29:02',
             ),
             293 => 
             array (
@@ -3891,11 +3891,11 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Hudson',
                 'birthday' => '1945-12-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001368',
                 'image' => 'Ernie_Hudson_1453895341.jpg',
             'bio' => 'As a child growing up in Benton Harbor, Michigan, Ernie Hudson wrote short stories, poems and songs, always thinking that his words might one day come to life on stage. After a short stint in the Marine Corps, he moved to Detroit where he became the resident playwright at Concept East, the oldest black theatre in the country. In addition, he enrolled at Wayne State University to further develop his writing and acting skills and found time to establish the Actors&#039; Emsemble Theatre, where he and other talented young black writers directed and appeared in their own works. After graduating with a B.A. from Wayne State, he was rewarded a full scholarship to the M.F.A. program at the prestigious Yale School of Drama. While performing with the school&#039;s repertory company, he was asked to appear in the Los Angeles production of Lonne Elder III&#039;s musical &quot;Daddy Goodness,&quot; which led to his meeting Gordon Parks, who gave Hudson the costarring role in his first feature film, Leadbelly (1976). Unfortunately, all that followed &quot;Leadbelly&quot; was a year of &quot;bit parts and some harsh lessons about Hollywood,&quot; which led Hudson to enroll in another academic doctorate program at the University of Minnesota. He did not complete the program. Through his experience, he learned another vital lesson: &quot;There are those who spend their lives studying it and those who spend their lives doing it.&quot; Hudson definitely wanted to be in the second group. Keeping in mind this self-revelation, Hudson accepted the starring role of Jack Jefferson in the Minneapolis Theatre In The Round&#039;s production of &quot;The Great White Hope,&quot; a role that he put &quot;everything he had into,&quot; including shaving his head. A series of starring and guest roles followed on such television shows as Fantasy Island (1977), The Incredible Hulk (1978), Little House on the Prairie (1974), Diff&#039;rent Strokes (1978), Taxi (1978), One Day at a Time (1975), Gimme a Break! (1981), The A-Team (1983) and Webster (1983), as well as costarring roles in the TV movies White Mama (1980) with Bette Davis, Roots: The Next Generations (1979), Women of San Quentin (1983), California Girls (1985), Mad Bull (1977) and Love on the Run (1985). Other feature film credits include The Jazz Singer (1980), The Main Event (1979), Le guerrier de l&#039;espace (1983), Penitentiary II (1982), Going Berserk (1983), Joy of Sex (1984) and, of course, the mega-hit Ghostbusters (1984).',
                 'created_at' => '2016-01-27 11:49:01',
-                'updated_at' => '2016-01-27 11:49:01',
+                'updated_at' => '2016-02-22 16:29:06',
             ),
             294 => 
             array (
@@ -3904,7 +3904,7 @@ Following this role Natalie won roles in such films as Heat, Beautiful Girls, an
                 'surname' => 'Chow',
                 'birthday' => '1955-05-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000334',
                 'image' => 'Yun_fat_Chow_1453895430.jpg',
                 'bio' => 'Chow Yun Fat is a charismatic, athletically built and energetic Asian-born film star who first came to the attention of western audiences via his roles in the high-octane/blazing guns action films of maverick HK director John Woo. Chow as born in 1955 on the quiet island of Lamma, part of the then-British colony of Hong Kong, near its famous Victoria Harbour. His mother was a vegetable farmer and cleaning lady, and his father worked on a Shell Oil Company tanker. Chow&#039;s family moved to urban Hong Kong in 1965 and in early 1973.
 
@@ -3912,7 +3912,7 @@ Chow came to the attention of Woo, who cast Chow in the fast-paced gangster film
 
 With the phenomenal global interest in the HK action genre, Chow was enticed to the United States and appeared in The Replacement Killers (1998) with Mira Sorvino, The Corruptor (1999) with Mark Wahlberg, and, for a change of pace, in the often-filmed romantic tale of Anna and the King (1999). Chow then returned to the Asian cinema circuit and starred in the critically lauded kung fu epic {{Crouching Tiger, Hidden Dragon (2000)}}',
                 'created_at' => '2016-01-27 11:50:30',
-                'updated_at' => '2016-01-28 11:43:29',
+                'updated_at' => '2016-02-22 16:29:09',
             ),
             295 => 
             array (
@@ -3921,11 +3921,11 @@ With the phenomenal global interest in the HK action genre, Chow was enticed to 
                 'surname' => 'Loaf',
                 'birthday' => '1947-09-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001533',
                 'image' => 'Meat_Loaf_1453895616.jpg',
             'bio' => 'Meat Loaf was born in Texas, and moved to Los Angeles in 1967 to play in local bands and appear in musicals such as &quot;Hair&quot; and &quot;As You Like It&quot;. He made his film debut with a memorable role in cult film The Rocky Horror Picture Show (1975). In 1977, he and lyricist Jim Steinman released an operatic rock album called &quot;Bat Out Of Hell&quot;, the record was huge and has sold 35,000,000 copies worldwide. However, the tour promoting the album took a toll on Meat&#039;s voice and left him unable to sing on the follow-up record &quot;Bad For Good&quot;. Meat Loaf stayed in the dark through the eighties doing 4 records which never got any airplay or chart position in the US. Meat Loaf appeared in films Out of Bounds (1986) as a Pilot, and The Squeeze (1987) with Michael Keaton. But after getting back together with Steinman, they delivered a powerful sequel &quot;Bat Out Of Hell II&quot; which went to #1 in the US and UK. Bat II has now sold an excess of 20,000,000 copies. His TV credits include the Soldier being held prisoner in Vietnam in Lightning Force (1991), a mad Doctor who invents a serum to keep zombies from deteriorating in Monsters (1988) and a slick Landlord of a restaurant who ends up on the menu in HBO series Tales from the Crypt (1989). Meat Loaf has also appeared in Crazy in Alabama (1999) and Fight Club (1999).',
                 'created_at' => '2016-01-27 11:53:36',
-                'updated_at' => '2016-01-27 11:53:36',
+                'updated_at' => '2016-02-22 16:29:12',
             ),
             296 => 
             array (
@@ -3934,11 +3934,11 @@ With the phenomenal global interest in the HK action genre, Chow was enticed to 
                 'surname' => 'Close',
                 'birthday' => '1947-03-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000335',
                 'image' => 'Glenn_Close_1453897142.jpg',
             'bio' => 'Six time Academy Award-nominated actress Glenn Close was born and raised in Greenwich, Connecticut. She is the daughter of Elizabeth Mary Hester &quot;Bettine&quot; (Moore) and William Taliaferro Close (William Close), a prominent doctor. Both of her parents were from upper-class northeastern families. Glenn was often seen on Broadway until 1982 when she was cast in her award winning role as Jenny Fields in The World According to Garp (1982) alongside Robin Williams. For this role, a breakthrough in film for Close, she later went on to receive an Academy Award Nomination for Best Supporting Actress. The following year she was cast in the hit comedy The Big Chill (1983) for which she received a second Oscar Nomination, once again for Supporting Actress in the role of Sarah Cooper. In her third film, Close portrayed Iris Gaines a former lover of baseball player Roy Hobbs portrayed by Robert Redford, in one of the greatest sports films of all time, The Natural (1984). For a third and final time, Close was nominated for the Academy Award for Best Actress in a Supporting Role. Close went on to star in films like The Stone Boy (1984), Maxie (1985) and Jagged Edge (1985). In 1987 Close was cast in the box office hit Fatal Attraction (1987) for which she portrayed deranged stalker Alex Forrest alongside costars Michael Douglas and Anne Archer. For this role she was nominated for the Academy Award and Golden Globe for Best Actress. The following year Close starred in the Oscar Winning Drama Dangerous Liaisons (1988) for which she portrayed one of the most classic roles of all time as Marquise Isabelle de Merteuil, starring alongside John Malkovich and Michelle Pfeiffer. For this role she was nominated once again for the Academy Award and BAFTA Film Award for Best Actress. Close was favorite to win the coveted statue but lost to Jodie Foster for Les accus&eacute;s (1988). Close had her claim to fame in the 1980s. Close starred on the hit Drama series Damages (2007) for which she has won a Golden Globe Award and two Emmy Awards. In her career Close has been Oscar nominated six times, won three Tonys, an Obie, three Emmys, two Golden Globes and a Screen Actors Guild Award.',
                 'created_at' => '2016-01-27 12:19:02',
-                'updated_at' => '2016-01-27 12:19:02',
+                'updated_at' => '2016-02-22 16:30:23',
             ),
             297 => 
             array (
@@ -3947,11 +3947,11 @@ With the phenomenal global interest in the HK action genre, Chow was enticed to 
                 'surname' => 'Stockwell',
                 'birthday' => '1936-03-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001777',
                 'image' => 'Dean_Stockwell_1453897159.jpg',
                 'bio' => 'Photogenic American child actor of the 1940s, popular due in no small measure to his air of innocence and his beautiful, cherubic face with its dimples and his sparkling eyes, topped with a crown of curls. Still an actor in demand while well into his middle years, he is one of the few juvenile performers to succeed lifelong in films. Considering child actors who matured gracefully, his career can be likened perhaps only to that of Natalie Wood, excepting her degree of stardom.',
                 'created_at' => '2016-01-27 12:19:19',
-                'updated_at' => '2016-01-27 12:19:19',
+                'updated_at' => '2016-02-22 16:30:26',
             ),
             298 => 
             array (
@@ -3960,11 +3960,11 @@ With the phenomenal global interest in the HK action genre, Chow was enticed to 
                 'surname' => 'Guilfoyle',
                 'birthday' => '1949-04-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0002117',
                 'image' => 'Paul_Guilfoyle_1453897202.jpg',
             'bio' => 'Paul Guilfoyle, the actor best known for playing Capt. Jim Brass on CSI: Crime Scene Investigation (2000), was born in Boston Massachusetts on April 28, 1949. After graduating from Boston College High School in 1968, he attended Lehigh University. He studied acting as a member of the Actor&#039;s Studio in New York, and then for 12 years was a member of the Theatre Company of Boston, where Al Pacino also honed his craft. Guilfoyle made his Broadway debut in 1977, appearing in David Rabe&#039;s &quot;The Basic Training of Pavlo Hummel&quot; in support of Pacino; the two would later star in the 1990 film adaptation of Heathcote Williams&#039;s The Local Stigmatic (1990), with Guilfoyle appearing in a part originated by John Cazale. He made his feature film debut in the Howard the Duck (1986) and his series TV debut in Crime Story (1986), both in 1986. Since then, Guilfoyle has fashioned a career as a leading character actor in TV and in films. He has been a member of the &quot;CSI: Crime Scene Investigation&quot; since the pilot that aired in the year 2000.',
                 'created_at' => '2016-01-27 12:20:03',
-                'updated_at' => '2016-01-27 12:20:03',
+                'updated_at' => '2016-02-22 16:30:29',
             ),
             299 => 
             array (
@@ -3973,11 +3973,11 @@ With the phenomenal global interest in the HK action genre, Chow was enticed to 
                 'surname' => 'Crewson',
                 'birthday' => '1956-05-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0187724',
                 'image' => 'Wendy_Crewson_1453897231.jpg',
                 'bio' => 'Wendy Crewson was raised in Winnipeg, Manitoba, Canada. She attended Westwood Collegiate and was first exposed to acting when she performed in The Boy Friend in grade 10.',
                 'created_at' => '2016-01-27 12:20:31',
-                'updated_at' => '2016-01-27 12:20:31',
+                'updated_at' => '2016-02-22 16:30:32',
             ),
             300 => 
             array (
@@ -3986,11 +3986,11 @@ With the phenomenal global interest in the HK action genre, Chow was enticed to 
                 'surname' => 'Williams',
                 'birthday' => '1937-04-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001850',
                 'image' => 'Billy_Dee_Williams_1453897382.jpg',
             'bio' => 'Billy Dee Williams was born William December Williams on April 6, 1937 in New York City. Billy Dee has notched up an impressive array of film and television appearances over the past 50+ years. He is easily best known to international film audiences as the roguish Lando Calrissian in the last two episodes of the original Star Wars-trilogy: Star Wars: Episode V - The Empire Strikes Back (1980) and Star Wars: Episode VI - Return of the Jedi (1983). Williams can also be seen on screen in Lady Sings the Blues (1972), Nighthawks (1981), Batman (1989), Moving Target (1996) and Undercover Brother (2002). A regular performer also in many fine quality television movies and television series.',
                 'created_at' => '2016-01-27 12:23:02',
-                'updated_at' => '2016-01-27 12:23:02',
+                'updated_at' => '2016-02-22 16:30:36',
             ),
             301 => 
             array (
@@ -3999,11 +3999,11 @@ With the phenomenal global interest in the HK action genre, Chow was enticed to 
                 'surname' => 'Oz',
                 'birthday' => '1944-05-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000568',
                 'image' => 'Frank_Oz_1453897396.jpg',
             'bio' => 'Frank Oz was born on May 25, 1944 in Hereford, England as Frank Richard Oznowicz. He is known for his work on Star Wars: Episode V - The Empire Strikes Back (1980), Star Wars: Episode VI - Return of the Jedi (1983) and Star Wars: Episode III - Revenge of the Sith (2005). He has been married to Victoria Labalme since July 17, 2011. He was previously married to Robin Oz.',
                 'created_at' => '2016-01-27 12:23:16',
-                'updated_at' => '2016-01-27 12:23:16',
+                'updated_at' => '2016-02-22 16:30:39',
             ),
             302 => 
             array (
@@ -4012,13 +4012,13 @@ With the phenomenal global interest in the HK action genre, Chow was enticed to 
                 'surname' => 'Bulloch',
                 'birthday' => '1945-02-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0120116',
                 'image' => 'jeremy_bulloch_1455359210.jpg',
             'bio' => 'Jeremy Bulloch was born on February 16, 1945 in Market Harborough, Leicestershire, England. He is one of six children and even at the young age of five was on stage in his school show enjoying acting and singing. After failing a school exam at the age of eleven, Jeremy seemed destined for the acting profession and was soon attending Corona Academy Drama School, making his first professional appearance at the age of twelve when he appeared in a commercial for a breakfast cereal. Following many appearances on children&#039;s television, Jeremy&#039;s big break came at the age of 17 when he landed a major role in the musical film Summer Holiday (1963).
 
 Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strikes Back (1980). The part, of course, was Boba Fett - proving the old theatrical saying that there is no such thing as a small part. ',
                 'created_at' => '2016-01-27 12:23:35',
-                'updated_at' => '2016-02-13 10:26:50',
+                'updated_at' => '2016-02-22 16:30:43',
             ),
             303 => 
             array (
@@ -4027,24 +4027,24 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Shaw',
                 'birthday' => '1905-05-29',
                 'deceased' => '1994-12-23',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0789970',
                 'image' => 'Sebastian_Shaw_1453897462.jpg',
             'bio' => 'Though primarily a stage actor, Sebastian Shaw appeared in some forty film and television productions from 1930 to 1991. Born on May 29, 1905 in Holt, Norfolk, England, he first appeared on stage as a child in 1913, graduating to lead roles by the late 1920s. It was in 1930 that he made his first film appearance in Caste (1930). His most notable film roles of this period were as an aspiring actor opposite Miriam Hopkins and Rex Harrison in the Alexander Korda produced Men Are Not Gods (1936); as a crime suspect in another Korda production, Murder on Diamond Row (1937) and a role opposite Conrad Veidt and Valerie Hobson in Michael Powell&#039;s The Spy in Black (1939). His later films included a role in Roy Boulting&#039;s documentary-style Journey Together (1945); La montagne de verre (1949) and as a Scottish MP in Scotch on the Rocks (1953). In the 1960s, he appeared in Kevin Brownlow and Andrew Mollo&#039;s imaginative It Happened Here (1965), made in semi-documentary style showing Britons coping during a Nazi persecution. Mostly stage and television work followed (including an appearance as a judge in Rumpole of the Bailey (1978)). In 1982, Shaw was approached by George Lucas to make an appearance in the final episode of his Star Wars films - Star Wars: Episode VI - Return of the Jedi (1983). The role was the small but crucial one at the film&#039;s climax of the unmasked Darth Vader and later as the disembodied spirit of Anakin Skywalker. The role has since made him a cult figure all over the world. The rest of Shaw&#039;s career was largely spent playing distinguished elderly gent roles such as the art critic Mr. Sharpe in High Season (1987). Shaw continued to act on stage, film and television well into his eighties. Sebastian Shaw died at age 89 of natural causes on December 23, 1994.',
                 'created_at' => '2016-01-27 12:24:22',
-                'updated_at' => '2016-01-27 12:24:22',
+                'updated_at' => '2016-02-22 16:30:45',
             ),
             304 => 
             array (
                 'person_id' => 308,
                 'forename' => 'Brian',
-                'surname' => 'O&#039;halloran',
+                'surname' => 'O&#039;Halloran',
                 'birthday' => '1969-12-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0641168',
                 'image' => 'Brian_O__039_halloran_1453899097.jpg',
             'bio' => 'Brian O&#039;Halloran was born on December 20, 1969 in New York City, New York, USA as Brian Christopher O&#039;Halloran. He is an actor, known for Clerks (1994), Clerks II (2006) and Dogma (1999).',
                 'created_at' => '2016-01-27 12:51:37',
-                'updated_at' => '2016-01-27 12:51:37',
+                'updated_at' => '2016-02-22 16:32:13',
             ),
             305 => 
             array (
@@ -4053,11 +4053,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Anderson',
                 'birthday' => '1970-04-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0026879',
                 'image' => 'Jeff_Anderson_1453899114.jpg',
             'bio' => 'Jeff Anderson was born on April 21, 1970 in Monmouth County, New Jersey, USA as Jeffrey Allan Anderson. He is an actor and director, known for Clerks (1994), Clerks II (2006) and Jay and Silent Bob Strike Back (2001). He has been married to Barbara Jacques since 2009. He was previously married to Lisa Spoonauer.',
                 'created_at' => '2016-01-27 12:51:54',
-                'updated_at' => '2016-01-27 12:51:54',
+                'updated_at' => '2016-02-22 16:31:24',
             ),
             306 => 
             array (
@@ -4066,11 +4066,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Mewes',
                 'birthday' => '1974-06-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0582939',
                 'image' => 'Jason_Mewes_1453899129.jpg',
             'bio' => 'New Jersey born and bred actor, who burst onto cinema screens in 1994, playing the grass smoking, fast talking, foul mouthed and over sexed,...but very likable &quot;Jay&quot; in Kevin Smith&#039;s hilarious low budget hit Clerks (1994). The off beat &amp; philosophical drug dealing characters of &quot;Jay and Silent Bob&quot; (Mewes and Smith) cropped up again in four more films directed by the talented Smith.....the tepidly received Mallrats (1995), was followed by more street wisdom in the scintillating romantic comedy Chasing Amy (1997), they tackled theological issues in the quirky religious comedy Dogma (1999) and then took on Hollywood, in the road trip epic Jay and Silent Bob Strike Back (2001). There was also a short-lived animated series Clerks (2000). Their characters also made a cameo appearance in Scream 3 (2000). Mewes has since kicked on to appearing in other non-Smith projects including Hot Rush (2002), R.S.V.P. (2002), High Times Potluck (2002), Pauly Shore Is Dead (2003), My Big Fat Independent Movie (2005) and Feast (2005). His last Kevin Smith&#039;s films are Clerks II (2006) and Zack and Miri Make a Porno (2008). Mewes has appeared in every film directed by Smith except Jersey Girl (2004), Cop Out (2010), and Red State (2011).',
                 'created_at' => '2016-01-27 12:52:09',
-                'updated_at' => '2016-01-27 12:52:09',
+                'updated_at' => '2016-02-22 16:31:27',
             ),
             307 => 
             array (
@@ -4079,11 +4079,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Smith',
                 'birthday' => '1970-08-02',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0003620',
                 'image' => 'Kevin_Smith_1453899151.jpg',
             'bio' => 'Kevin Patrick Smith was born in Red Bank, New Jersey, to Grace (Schultz) and Donald E. Smith, a postal worker. He is very proud of his native state; this fact can be seen in all of his movies. Kevin is of mostly German, with some Irish and English, ancestry. His first movie, Clerks (1994), was filmed in the convenience store in which Smith worked. He was only allowed to shoot at night after the store closed. This movie won the highest award at the Sundance film festival and was brought to theaters by Miramax. The movie went over so well that Smith was able to make another movie, Mallrats (1995). This movie, as Kevin has said, was meant to be a &quot;smart Porkys&quot;. Although it didn&#039;t do well at all in the box office, it has done more than well on video store shelves and is usually the favorite among many Smith fans. During filming for the movie, Smith met his new close friends and stars of his next movie, Ben Affleck, Jason Lee, and his new girlfriend, Joey Lauren Adams. Smith has said that his relationship with Adams has been much of an inspiration for his next movie, Chasing Amy (1997), Smith&#039;s comedy drama which won two independent Spirit awards: Best Screenplay and Best Supporting Role (for Jason Lee). Around the time that Chasing Amy (1997) was wrapping, Smith broke up with Adams and, then when the Spirit awards were approaching, he met his soon-to-be wife, Jennifer Schwalbach Smith. After Chasing Amy (1997), Smith started on Dogma (1999), a controversial film about Christianity. Around this time, Smith&#039;s wife gave birth to their first baby girl, Harley Quinn Smith. Harley Quinn and Jennifer both have roles in Smith&#039;s next film,Jay and Silent Bob Strike Back (2001). In this road trip comedy, the cult heroes, Jay and Silent Bob, go on an adventure to stop the production of a movie being made about them, find true love, and save an orangutan. In 2004, he wrote and directed Jersey Girl (2004), starring Ben Affleck and Liv Tyler. Although there were some disappointing reviews and the movie was a disappointment at the box office, Smith says it did alright going up against the &quot;Bennifer Massacre&quot; known as Gigli (2003). In 2005, Smith wrote the screenplay for Clerks II (2006), which he planned to start shooting in January of 2005. But then he got a call from Susannah Grant, who wanted Smith to audition for her new film. Smith went into the audition and, five minutes after finishing, he got a call saying he got the part. Filming began in January 2005 so Smith had to delay the filming of Clerks II (2006). After Catch and Release (2006) finished filming, Smith shot &quot;Clerks II&quot; in September 2005. After cutting &quot;Clerks II&quot;, they submitted it to the Cannes film festival. It got accepted and, at Cannes, it got an 8 minute standing ovation. In 2006, Smith also got offered a part in the fourth &quot;Die Hard&quot; film, Live Free or Die Hard (2007). Smith got to film a scene with one of his idols, Bruce Willis, the scene was supposed to take one day of filming, it ended up taking a week. In 2007, Smith was also hired to direct the pilot for the show Reaper (2007), which garnered favorable reviews. In 2007 and 2008, Smith wrote two scripts: a comedy, Zack and Miri Make a Porno (2008), and a horror film called Red State (2011). Harvey Weinstein green-lighted &quot;Zack and Miri&quot;, based just off the title, although they passed on &quot;Red State&quot;, Smith plans to get &quot;Red State&quot; independently funded. Smith filmed &quot;Zack and Miri&quot; with comedy star Seth Rogen. The film did not meet expectations at the box office but got good reviews. It is Smith&#039;s highest grossing movie, although he says he was crushed by the disappointing box office of the film. Smith was offered the chance to direct a film which was written by Robb Cullen and Mark Cullen called Cop Out (2010). Smith accepted, it would be two firsts; the first feature Smith has directed but not written and the first feature of Smith&#039;s that Scott Mosier has not produced (Mosier is trying to find a film to direct). Smith hired Bruce Willis for the film.',
                 'created_at' => '2016-01-27 12:52:31',
-                'updated_at' => '2016-01-27 12:52:31',
+                'updated_at' => '2016-02-22 16:31:31',
             ),
             308 => 
             array (
@@ -4092,11 +4092,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Ling',
                 'birthday' => '1966-10-10',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000499',
                 'image' => 'Bai_Ling_1453899208.jpg',
             'bio' => 'Born in the southern city Cheng Du of China, Bai Ling began her career at the age of 14. She enlisted In the Chinese People&#039;s Liberation Army where she spent three years in a performance troop entertaining soldiers stationed in Tibet. Bai Ling first gained the attention of audiences and critics alike when she won the coveted lead role opposite Richard Gere in Jon Avnet&#039;s Red Corner (1997). She received numerous accolades including the prestigious Breakthrough Performance Award from the National Board of Review. She also garnered the Discovery Star awarded by the Hollywood Women&#039;s Press Club for their Golden Apple Awards. While developing her remarkable facility with the English language, Bai Ling has worked with prestigious filmmakers such as &#039;Oliver Stone&#039; in Nixon (1995), &#039;George Lucas&#039; in Star Wars: Episode III - Revenge of the Sith (2005), &#039;Will Smith&#039; in Wild Wild West (1999), Spike Lee in She Hate Me (2004), &#039;Jodie Foster&#039; in _Anna the King (1999)_, Ang Lee in The Wedding Banquet (1993), Alex Proyas in The Crow (1994), Angelina Jolie in Sky Captain and the World of Tomorrow (2004), and Luc Besson&#039;s French movie Taxi 3 (2003), in which she spoke French. Also Bai starred in Terrence Malick&#039;s Broadway show Sansho the Bailiff. Bai Ling dazzled audiences with her portrayal of the sexy, mysterious Achara in the hit TV series Lost (2004), and intrigued audiences with her seductive exhilarating role in HBO&#039;s Entourage (2004). Bai Ling was awarded the Asian Oscar for her daring, brilliant performance in her first Hong Kong film Dumplings. Her performance also earned her an additional 3 major awards in the Far East. She received the Spirit Diversity Award by The Hollywood Motion Picture Association. Her film Southland Tales (2006), directed by Richard Kelly was in competition at the Cannes Film Festival. Bai just starred in and executive produced the movie Shanghai Baby. She has also recently completed 8 movies and most proudly worked with Taylor Hackford in Love Ranch (2010), co-starring with Helen Mirren and Joe Pesci, which just premiered in US. Bai also starred in a crazy role in worldwide release Lionsgate comedy action Crank: High Voltage (2009) with costar with Jason Statham. And just finished her first 3D film Back 2 Hell.',
                 'created_at' => '2016-01-27 12:53:28',
-                'updated_at' => '2016-01-27 12:53:28',
+                'updated_at' => '2016-02-22 16:31:34',
             ),
             309 => 
             array (
@@ -4105,11 +4105,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Yeoh',
                 'birthday' => '1962-08-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000706',
                 'image' => 'Michelle_Yeoh_1453899287.jpg',
             'bio' => 'Born as Yang Zi Chong in the mining town of Ipoh, in West Malaysia, in the lunar year of the Tiger, Michelle is the daughter of Janet Yeoh and Yeoh Kian Geik, a lawyer and MCA politician. She spoke English and Malay before Chinese. A ballet dancer since age 4, she moved to London, England to study at the Royal Academy as a teenager. After a brief dance career, she won the Miss Malaysia beauty pageant title in her native country and the Miss Moomba beauty pageant title in Melbourne, Australia in the early 1980s. Her first on camera work was a 1984 commercial with martial arts star Jackie Chan. In 1985, she began making action movies with D&amp;B Films of Hong Kong. She was first billed as Michelle Khan, then later, Michelle Yeoh. Never a trained martial artist, she relied on her dance discipline and her on-set trainers to prepare for her martial arts action scenes. She uses many dance moves in her films. She still does most of her own stunts and has been injured many times. Ironically, she still cannot read Chinese and she has to have Chinese script read to her. In 1988, she married wealthy D&amp;B Films executive Dickson Poon and retired from acting. Even though they divorced in 1992, she is close to Poon&#039;s second wife and a godmother to Poon&#039;s daughter. When she returned to acting, she became very popular to Chinese audiences and she became known to western audiences through her co-starring roles in the James Bond film Tomorrow Never Dies (1997) and in the phenomenally successful Crouching Tiger, Hidden Dragon (2000) aka Crouching Tiger, Hidden Dragon&#039; directed by Ang Lee. She turned down a role in a sequel to The Matrix (1999). She has her own production company, Mythical Films and has trained with the Shen Yang Acrobatic team for her role in Le talisman (2002), an English language film she is both starring in and producing. She hopes to use her company to discover and nurture new filmmaking talent. She also wants to act in roles that combine both action and deeper spiritual themes.',
                 'created_at' => '2016-01-27 12:54:47',
-                'updated_at' => '2016-01-27 12:54:47',
+                'updated_at' => '2016-02-22 16:31:38',
             ),
             310 => 
             array (
@@ -4118,11 +4118,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Zhang',
                 'birthday' => '1979-02-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0955471',
                 'image' => 'Ziyi_Zhang_1453899314.jpg',
             'bio' => 'Ziyi Zhang was born on February 9, 1979 in Beijing, China as Zhang Zi-Yi. She is an actress, known for Crouching Tiger, Hidden Dragon (2000), Hero (2002) and House of Flying Daggers (2004).',
                 'created_at' => '2016-01-27 12:55:14',
-                'updated_at' => '2016-01-27 12:55:14',
+                'updated_at' => '2016-02-22 16:31:41',
             ),
             311 => 
             array (
@@ -4131,11 +4131,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Ryan',
                 'birthday' => '1961-11-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000212',
                 'image' => 'Meg_Ryan_1453899344.jpg',
             'bio' => 'Blond-haired, blue-eyed with an effervescent personality, Meg Ryan was born Margaret Mary Emily Hyra in Fairfield, Connecticut, to Susan (Duggan), an English teacher and one-time actress, and Harry Hyra, a math teacher. She has Polish, Irish, and German ancestry (&quot;Hyra&quot; is a Polish surname, and &quot;Ryan&quot; is her maternal grandmother&#039;s maiden name). Meg graduated from Bethel high school, Bethel in June 1979. Moving to New York, she attended New York University where she majored in journalism. To earn extra money while working on her degree, Meg went into acting using her new name Meg Ryan. In 1981, she had her big screen debut with a brief appearance as Candice Bergen&#039;s daughter in George Cukor&#039;s last film Rich and Famous (1981). She tried out and was cast as Betsy in the day time television soap As the World Turns (1956). She was part of the cast from 1982 to 1984. Meg also had a part in the television series One of the Boys (1982), but this show was soon canceled. In 1984, she moved to tinsel town and landed a job in the western Television Series Wildside (1985). Meg&#039;s small part in the blockbuster movie Top Gun (1986) led to her being cast in Steven Spielberg&#039;s Innerspace (1987) where she co-starred with Dennis Quaid. She again co-starred with Quaid in the remake of D.O.A. (1988) and they married on Valentine&#039;s Day in 1991. In 1989, Meg appeared in When Harry Met Sally... (1989) and the scene at the restaurant became famous. Meg was nominated for both the Golden Globe and the BAFTA. In 1990, she co-starred with Tom Hanks in Joe Versus the Volcano (1990) and this time she played three roles as DeDe/Angelica/Patricia. She appeared again with Tom in the very successful Sleepless in Seattle (1993) for which she was again nominated for the Golden Globe. In 1994, Meg decided to act against type when she appeared as the alcoholic wife and mother in When a Man Loves a Woman (1994). After that, she went back to &quot;cute&quot; with both I.Q. (1994) and French Kiss (1995). In 1994, Meg won the Harvard Hasty Pudding Award as &quot;Woman of the Year&quot; and was voted as being one of &quot;The 50 most beautiful people in the world 1994&quot; by People Magazine.',
                 'created_at' => '2016-01-27 12:55:44',
-                'updated_at' => '2016-01-27 12:55:44',
+                'updated_at' => '2016-02-22 16:31:45',
             ),
             312 => 
             array (
@@ -4144,11 +4144,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'MacLachlan',
                 'birthday' => '1959-02-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001492',
                 'image' => 'Kyle_Maclachlan_1453899353.jpg',
             'bio' => 'The &quot;boy next door, if that boy spent lots of time alone in the basement&quot;, is how Rich Cohen described Kyle MacLachlan in a 1994 article for &quot;Rolling Stone&quot; magazine. That distinctly askew wholesomeness made MacLachlan a natural to become famous as the alter ego of twisted director David Lynch. MacLachlan was born and raised in Yakima, Washington, to Catherine Louise (Stone), a public relations director, and Kent Alan McLachlan, a lawyer and stockbroker. He has Scottish, English, Cornish, and German ancestry. MacLachlan graduated from the University of Washington in 1982. The darkly handsome actor made his feature film debut when he starred in the big-budget David Lynch adaptation of Frank Herbert&#039;s Dune (1984), but only enjoyed real success after appearing in a second Lynch project, the moody and perverse classic, Blue Velvet (1986). The following year saw MacLachlan appearing as an otherworldly FBI agent in the cult classic sci-fi film, The Hidden (1987). This turned out to be a sign of things to come, as MacLachlan soon took on another oddball G-man, &quot;Special Agent Dale Cooper&quot;, on Lynch&#039;s cryptic ABC-TV series, Twin Peaks (1990), perhaps, along with Blue Velvet (1986), his most famous role. MacLachlan&#039;s remarkable work as Agent Cooper earned him a Golden Globe award and a pair of Emmy nominations, as well as steady work in television and films, including a part as Ray Manzarek in the Oliver Stone film, The Doors (1991), and villain &quot;Cliff Vandercave&quot; in the live action version of The Flintstones (1994). His career took a hit after he appeared in the infamous flop, Showgirls (1995). However, MacLachlan returned to prominence in the early 2000s with a re-occurring role on HBO&#039;s Sex and the City (1998), as well as a starring role in the TV movie, The Spring (2000), and a turn as &quot;Claudius&quot; in director Michael Almereyda&#039;s version of Hamlet (2000). MacLachlan later took advantage of his resemblance to Cary Grant, when he played the classic actor&#039;s spirit in Un soup&ccedil;on de rose (2004). MacLachlan has remained a popular actor with independent filmmakers, and he has also been a familiar face on television, appearing on the ABC-TV shows, In Justice (2006) and Desperate Housewives (2004).',
                 'created_at' => '2016-01-27 12:55:53',
-                'updated_at' => '2016-01-28 12:27:31',
+                'updated_at' => '2016-02-22 16:31:48',
             ),
             313 => 
             array (
@@ -4157,11 +4157,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Whaley',
                 'birthday' => '1963-07-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001844',
                 'image' => 'Frank_Whaley_1453899364.jpg',
                 'bio' => 'Frank Whaley is a critically acclaimed actor/ writer/ director. He is best known for the films Pulp Fiction and Swimming With Sharks, and has worked with Oliver Stone multiple times. His feature directorial debut earned him the Waldo Salt Screenwriting prize at the 1999 Sundance Film Festival. He was born in Syracuse, New York and resides in New York City. He is also an accomplished stage actor, working frequently with the New Group theater. Frank is married to the writer Heather Bucha Whaley. They have two children.',
                 'created_at' => '2016-01-27 12:56:04',
-                'updated_at' => '2016-01-27 12:56:04',
+                'updated_at' => '2016-02-22 16:31:52',
             ),
             314 => 
             array (
@@ -4170,11 +4170,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Dillon',
                 'birthday' => '1965-08-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001143',
                 'image' => 'Kevin_Dillon_1453899374.jpg',
             'bio' => 'Kevin Dillon, born in Mamaroneck, New York was known for playing tough guys and bad boys during his early career. His first major role was Rooney, the bully in the brilliant (though much understated) film Heaven Help Us. Kevin has since made many memorable film and television appearances, most notably in Oliver Stone&#039;s Platoon and The Doors, in the World War II film A Midnight Clear and in the cult classic The Blob. He was nominated for a Young Artist Award for his poignant performance opposite James Woods, Glenn Close and Mary Stuart Masterson in Immediate Family. Dillon starred opposite Kurt Russell and Richard Dreyfuss in Wolfgang Petersen&#039;s Poseidon for Warner Brothers and opposite Lisa Kudrow, Emma Roberts and Don Cheadle in Hotel for Dogs for Dreamworks. Dillon is probably best known for his hilarious, yet heartfelt portrayal of the beloved character Johnny Drama on the hit series Entourage for HBO. His performance garnered him nominations for three Emmy Awards, a Golden Globe Award and three SAG Awards. He also recurred on both the critically acclaimed series NYPD Blue and 24. He will next be seen this Summer as Johnny Drama in the feature film Entourage for Warner Brothers, directed by Doug Ellin.',
                 'created_at' => '2016-01-27 12:56:14',
-                'updated_at' => '2016-01-27 12:56:14',
+                'updated_at' => '2016-02-22 16:31:56',
             ),
             315 => 
             array (
@@ -4183,11 +4183,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Madsen',
                 'birthday' => '1958-09-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000514',
                 'image' => 'Michael_Madsen_1453899388.jpg',
             'bio' => 'Michael Madsen&#039;s long career spans 25 years and more than 170 films in which he has played memorable characters in myriad box office hits, including: Kill Bill: Vol. 1 (2003), Kill Bill: Vol. 2 (2004) Sin City (2005), Hell Ride (2008), Die Another Day (2002), Donnie Brasco (1997), Species (1995), The Getaway (1994), Thelma &amp; Louise (1991), and Free Willy (1993). Michael is notably recognized for his role as Mr. Blonde, in Quentin Tarantino&#039;s Reservoir Dogs (1992). Michael was born in Chicago, Illinois, to Elaine Madsen (n&eacute;e Melson), an Emmy-winning writer, producer, and poet, and Calvin Madsen, a firefighter. He is the brother of actress Virginia Madsen. His paternal grandparents were Danish. In recent years, Madsen has received Best Actor awards for his role in the Irish boxing film Strength and Honour, from the New York International Film Festival, the Boston Film Festival and the Downtown Los Angeles Film Festival. Madsen received the Golden Dolphin Award at the 25th Festroia Festival in Portugal, an award also given to veterans Kirk Douglas and Robert Mitchum. In 2012, Madsen was named President of the first annual Champs Elysees Film Festival in France which honored producer Harvey Weinstein. Recent television appearances include guest starring roles on The Mob Doctor (2012), Golden Boy (2013)and Blue Bloods (2010). Madsen is well recognized as an accomplished poet. His first book &quot;Burning In Paradise&quot; with a Foreword by Dennis Hopper, won the Independent Firecracker Award and was later translated into Norwegian. He has a world-wide following with his work, honored at International Poetry Festivals in Genoa, Italy and Mexico . He was recently the Guest of Honor at the Crossing Border Festival in Netherlands. His &quot;The Complete Poetic Works&quot; is an international bestseller. This was followed by his &quot;Signs of Life&quot; dedicated to Chris Penn. This unique work combined his new poetry with his own original photography. His next book of poetry &quot;American Badass&quot;was dedicated to the memory of the late David Carradine, his friend and Kill Bill co-star. His newest book &quot;Expecting Rain&quot; has a Foreword by Jerry Hopkins.',
                 'created_at' => '2016-01-27 12:56:28',
-                'updated_at' => '2016-01-27 12:56:28',
+                'updated_at' => '2016-02-22 16:31:59',
             ),
             316 => 
             array (
@@ -4196,11 +4196,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Thirlby',
                 'birthday' => '1986-10-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1880888',
                 'image' => 'Olivia_Thirlby_1453899430.jpg',
                 'bio' => 'Olivia resides in New York City where she was born and raised. She has trained extensively in classical Shakespearian acting in New York at the American Globe Theatre, and in London at the Royal Academy of Dramatic Art. She began acting professionally in 2003, and plans to pursue a career in both theater and film.',
                 'created_at' => '2016-01-27 12:57:10',
-                'updated_at' => '2016-01-27 12:57:10',
+                'updated_at' => '2016-02-22 16:32:02',
             ),
             317 => 
             array (
@@ -4209,11 +4209,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Headey',
                 'birthday' => '1973-10-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0372176',
                 'image' => 'Lena_Headey_1453899440.jpg',
             'bio' => 'Lena Headey is a British actress, she was born in Bermuda, to parents from Yorkshire, England, where she was also raised. She is the daughter of Sue and John Headey, a police officer. Headey is best-known for her role as &quot;Cersei Lannister&quot; in Game of Thrones (2011) (2011-present) and The Brothers Grimm (2005), Possession (2002), and The Remains of the Day (1993). Headey stars as &quot;Queen Gorgo&quot;, a heroic Spartan woman in the period film, 300 (2006), by director Zack Snyder. She was born in Bermuda, where her father, a Yorkshire police cadet, was sent shortly before her birth. She was raised in Bermuda, living on the ocean until she was 5. Back in England, she was brought up in Yorkshire before moving to London in her teens. Headey had not gone to drama school before she became an actress. At the age of 17, Headey&#039;s performance in a one-off show in the company of six school friends caught the attention of a casting agent, who took a photo and asked her to audition. Eventually, Headey was cast in Waterland (1992), which became her big-screen debut. She honed her natural acting talent while filming and also took archery classes and horse training. She also took boxing classes in clubs in south London, where a former boxer had been teaching her to spar. During her film career, spanning over 15 years, Headey has shown her range in a variety of roles, playing characters from Amazon-type warriors and action-minded women in The Cave (2005) and The Brothers Grimm (2005), to a lesbian florist in Imagine Me &amp; You (2005). Headey&#039;s film career has taken her all over the world. She was in India for the filming of Le livre de la jungle (1994), then in St. Petersburg, Russia, for filming Onegin (1999), and in Norway for filming of Aberdeen (2000). In 2005 Headey was filming in Romania and in Mexico, then spent four months in Prague, Czech Republic, where a forest was designed and built for filming The Brothers Grimm (2005), with Matt Damon and Heath Ledger. During 2006 Headey was in Canada for the filming of 300 (2006), then went to locations in Bulgaria for shooting The Contractor (2007), and Germany and in Czech Republic for the filming of Baron rouge (2008). She also played Gina McVey in the horror thriller The Broken (2008), and Elizabeth in Tell Tale (2009). In addition to her film-work, Heady appeared as Sarah Connor in a TV spin-off of the popular &quot;Terminator&quot; film franchise, the FOX&#039;s television series Terminator: The Sarah Connor Chronicles (2008). Outside of her acting profession, Headey continued taking boxing lessons in London. She is a vegetarian and also remains loyal to yoga, which she discovered during her work in India. She has never been back to her birthplace in Bermuda; she shares her time between her homes in London, England, and Los Angeles, California.',
                 'created_at' => '2016-01-27 12:57:20',
-                'updated_at' => '2016-01-27 12:57:20',
+                'updated_at' => '2016-02-22 16:32:05',
             ),
             318 => 
             array (
@@ -4222,11 +4222,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Gosling',
                 'birthday' => '1980-11-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0331516',
                 'image' => 'Ryan_Gosling_1453899461.jpg',
             'bio' => 'Ryan Gosling was born on November 12, 1980, in London, Ontario. He is the son of Donna, a secretary, and Thomas Ray Gosling, a traveling salesman. Ryan was the second of their two children. His ancestry includes English, French-Canadian, Scottish, and German. The Gosling family moved to Cornwall, Ontario, where Ryan grew up and was home-schooled by his mother. Ryan attended Cornwall Collegiate and Vocational High School in Cornwall, where he excelled in Drama and Fine Arts. The family then relocated to Burlington, Ontario, where Ryan attended Lester B. Pearson High School in Burlington, Ontario. Ryan first performed as a singer at talent contests with his older sister Mandi. He attended an open audition in Montreal for the TV series &quot;The Mickey Mouse Club&quot; (The All New Mickey Mouse Club (1989)) in January 1993 and beat out 17,000 other aspiring actors for a a spot on the show. While appearing on &quot;MMC&quot; for two years, he lived with co-star Justin Timberlake&#039;s family. Though he received no formal acting training, after &quot;MMC,&quot; Gosling segued into an acting career, appearing on the TV series Young Hercules (1998) and Breaker High (1997), as well as the films The Slaughter Rule (2002), Murder by Numbers (2002), and Remember the Titans (2000). He first attracted serious critical attention with his performance as the Jewish neo-Nazi in the controversial film The Believer (2001), which won the Grand Jury Prize at the 2001 Sundance Film Festival. He was cast in the part by writer-director Henry Bean, who believed that Gosling&#039;s strict upbringing gave him the insight to understand the character Danny, whose obsessiveness with the Judaism he was born into turns to hatred. He was nominated for an Independent Spirit Award as Best Male Lead in 2002 for the role and won the Golden Aries award from the Russian Guild of Film Critics. After appearing in the sleeper The Notebook (2004) in 2004, Gosling won the dubious honor of being named one of the 50 Hottest Bachelors by People Magazine. More significantly, he was named the Male Star of Tomorrow at the 2004 Show West convention of movie exhibitors. Gosling reached the summit of his profession with his performance in Half Nelson (2006), which garnered him an Academy Award nomination as Best Actor. In a short time, he has established himself as one of the finest actors of his generation.',
                 'created_at' => '2016-01-27 12:57:42',
-                'updated_at' => '2016-01-27 12:57:42',
+                'updated_at' => '2016-02-22 16:32:08',
             ),
             319 => 
             array (
@@ -4235,11 +4235,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Mulligan',
                 'birthday' => '1985-05-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1659547',
                 'image' => 'Carey_Mulligan_1453899475.jpg',
             'bio' => 'Carey Mulligan is a British actress, born May 28, 1985, in Westminster, London, England, to Nano (Booth), a university lecturer, and Stephen Mulligan, a hotel manager. Her father is of Irish descent and her mother is Welsh, originally from Llandeilo. Her first major appearance was playing Kitty Bennet in Pride &amp; Prejudice (2005) alongside Keira Knightley, Judi Dench and Donald Sutherland. Carey also played orphan &quot;Ada Clare&quot; in the B.B.C. television series, Bleak House (2005). Carey has said that her passion and love for acting was first kindled at her old school Woldingham School, where she took part in a school production of &quot;Sweet Charity&quot; in her final year, and where she was also a student head of drama.',
                 'created_at' => '2016-01-27 12:57:55',
-                'updated_at' => '2016-01-27 12:57:55',
+                'updated_at' => '2016-02-22 16:32:12',
             ),
             320 => 
             array (
@@ -4248,11 +4248,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Brooks',
                 'birthday' => '1947-07-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000983',
                 'image' => 'Albert_Brooks_1453899490.jpg',
             'bio' => 'Albert Brooks was born on July 22, 1947 in Beverly Hills, California, USA as Albert Lawrence Einstein. He is an actor and writer, known for Finding Nemo (2003), Drive (2011) and Taxi Driver (1976). He has been married to Kimberly Shlain since March 15, 1997. They have two children.',
                 'created_at' => '2016-01-27 12:58:11',
-                'updated_at' => '2016-01-27 12:58:11',
+                'updated_at' => '2016-02-22 16:32:15',
             ),
             321 => 
             array (
@@ -4261,11 +4261,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Isaac',
                 'birthday' => '1979-03-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1209966',
                 'image' => 'Oscar_Isaac_1453899501.jpg',
             'bio' => 'Oscar Isaac was born Oscar Isaac Hern&aacute;ndez in Guatemala, to a Guatemalan mother, Maria, and a Cuban father, Oscar Gonzalo Hern&aacute;ndez-Cano, a pulmonologist. His maternal grandfather was of French origin. Oscar was raised in Miami, Florida. Before he became an actor, he played lead guitar and sang vocals in his band the Blinking Underdogs. He graduated from the Juilliard School in 2005. Isaac&#039;s first major film role was Joseph in the film The Nativity Story (2006). He also had a small role in All About the Benjamins (2002) and the Ch&eacute; Guevara biopic Guerrilla (2011). In addition to movie appearances, he made an appearance in the television series Law &amp; Order: Criminal Intent (2001). He also had a part in the movies The Life Before Her Eyes (2007); Body of Lies (2008), alongside Leonardo DiCaprio and Russell Crowe; Agora (2009), alongside Rachel Weisz; and Balibo (2009), set amid the Indonesian invasion of East Timor in 1975. In 2013, Oscar starred in the Coen Brothers&#039; folk music-themed drama, Inside Llewyn Davis (2013).',
                 'created_at' => '2016-01-27 12:58:21',
-                'updated_at' => '2016-01-27 12:58:21',
+                'updated_at' => '2016-02-22 16:32:18',
             ),
             322 => 
             array (
@@ -4274,11 +4274,11 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Hendricks',
                 'birthday' => '1975-05-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0376716',
                 'image' => 'Christina_Hendricks_1453899511.jpg',
             'bio' => 'Christina Rene Hendricks was born in Knoxville, Tennessee, and grew up in Twin Falls, Idaho. Her father, Robert, originally from England, worked for the U.S. Forest Service, while her mother, Jackie Sue (Raymond), was a psychologist. At the age of 13 her father transferred to the Forest Service Washington, D.C. headquarters and the family moved to nearby Fairfax, Virginia. She began acting at school and went into modeling from the ages of 18 to 27. In her early 20s, she also began appearing on television, landing a recurring role in Beggars and Choosers (1999) in 2000 and another on Kevin Hill (2004) before rising to international fame in Mad Men (2007). As well as her more famously conventional awards nominations (Emmys) and wins (SAG Awards) she also won a SyFy Genre Award in for &quot;Best Special Guest/Television&quot; for her role as Saffron in Joss Whedon&#039;s short-lived Firefly (2002).',
                 'created_at' => '2016-01-27 12:58:31',
-                'updated_at' => '2016-01-27 12:58:31',
+                'updated_at' => '2016-02-22 16:32:20',
             ),
             323 => 
             array (
@@ -4287,13 +4287,13 @@ Jeremy was asked to play a small part in Star Wars: Episode V - The Empire Strik
                 'surname' => 'Chan',
                 'birthday' => '1954-04-07',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000329',
                 'image' => 'Jackie_Chan_1453899543.jpg',
                 'bio' => 'Jackie was born Kong-sang Chan on Hong Kong&#039;s famous Victoria Peak on April 7, 1954, to Charles and Lee-Lee Chan, and the family emigrated to Canberra, Australia, in early 1960. 
 
 The young Jackie was less than successful scholastically, so his father sent him back to Hong Kong to attend the rigorous China Drama Academy, one of the Peking Opera schools. Chan excelled at acrobatics, singing and martial arts and eventually became a member of the &quot;Seven Little Fortunes&quot; performing troupe and began lifelong friendships with fellow martial artists / actors Sammo Hung Kam-Bo and Biao Yuen. ',
                 'created_at' => '2016-01-27 12:59:03',
-                'updated_at' => '2016-01-28 09:37:15',
+                'updated_at' => '2016-02-22 16:32:23',
             ),
             324 => 
             array (
@@ -4302,11 +4302,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Lau',
                 'birthday' => '1961-09-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0490489',
                 'image' => 'Andy_Lau_1453899556.jpg',
             'bio' => 'Andy Lau Tak-wah, (born 27 September 1961) is a Hong Kong actor, singer-songwriter, presenter, and film producer. Lau has been one of Hong Kong&#039;s most commercially successful film actors since the mid-1980s, performing in more than 160 films while maintaining a successful singing career at the same time. In the 1990s, Lau was branded by the media as one of the Four Heavenly Kings of Cantopop. Lau was entered into the Guinness World Records for the &quot;Most Awards Won by a Cantopop Male Artist&quot;. By April 2000, he had already won a total unprecedented 292 awards. In 2005, Lau was awarded &quot;No.1 Box office Actor 1985-2005&quot; of Hong Kong, yielding a total box office of HKD 1,733,275,816 for shooting 108 films in the past 20 years. In 2007, Lau was also awarded the &quot;Nielsen Box Office Star of Asia&quot; by the Nielsen Company.',
                 'created_at' => '2016-01-27 12:59:16',
-                'updated_at' => '2016-01-27 12:59:16',
+                'updated_at' => '2016-02-22 16:32:27',
             ),
             325 => 
             array (
@@ -4315,11 +4315,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Adams',
                 'birthday' => '1974-08-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0010736',
                 'image' => 'Amy_Adams_1453899578.jpg',
             'bio' => 'Amy Lou Adams was born in Italy, to American parents Kathryn (Hicken) and Richard Kent Adams, while her father was a U.S. serviceman. She was raised in a Mormon family of seven children in Castle Rock, Colorado, and has English, as well as smaller amounts of Danish, Swiss-German, and Norwegian, ancestry. Adams sang in the school choir at Douglas County High School and was an apprentice dancer at a local dance company, with the ambition of becoming a ballerina. However, she worked as a greeter at The Gap and as a Hooters hostess to support herself before finding work as a dancer at Boulder&#039;s Dinner Theatre and Country Dinner Playhouse in such productions as &quot;Brigadoon&quot; and &quot;A Chorus Line&quot;. It was there that she was spotted by a Minneapolis dinner-theater director who asked her to move to Chanhassen, Minnesota for more regional dinner theater work. Nursing a pulled muscle that kept her from dancing, she was free to audition for a part in Belles &agrave; mourir (1999), which was filming nearby in Minnesota. During the filming, Kirstie Alley encouraged her to move to Los Angeles, where she soon won a part in the Fox television version of the film, Cruel Intentions (1999), in the part played in the film by Sarah Michelle Gellar, &quot;Kathryn Merteuil&quot;. Although three episodes were filmed, the troubled series never aired. Instead, parts of the episodes were cobbled together and released as the direct-to-video Cruel Intentions 2 (2000). After more failed television spots, she landed a major role in Catch Me If You Can (2002), playing opposite Leonardo DiCaprio. But this did not provide the break-through she might have hoped for, with no work being offered for about a year. She eventually returned to television, and joined the short-lived series, Dr. Vegas (2004). Her role in the low-budget independent film Junebug (2005) (which was shot in 21 days) got her real attention, including an Academy Award nomination for Best Supporting Actress as well as other awards. The following year, her ability to look like a wide-eyed Disney animated heroine helped her to be chosen from about 300 actresses auditioning for the role of &quot;Giselle&quot; in the animated/live-action feature film, Enchanted (2007), which would prove to be her major break-through role. Her vivacious yet innocent portrayal allowed her to use her singing and dancing talents. Her performance garnered a Golden Globe Award nomination for Best Actress in a Motion Picture Musical or Comedy. Adams next appeared in the major production, Charlie Wilson&#039;s War (2007), and went on to act in the independent film, Sunshine Cleaning (2008), which premiered at the 2008 Sundance Film Festival. Her role as &quot;Sister James&quot; in Doubt (2008) brought her a second Academy Award nomination for Best Supporting Actress, as well as nominations for a Golden Globe, a Screen Actors Guild award, and a British Academy Film award. She appeared as Amelia Earhart in Night at the Museum: Battle of the Smithsonian (2009) and as a post-9/11 hot line counselor, aspiring writer, amateur cook and blogger in Julie &amp; Julia (2009). More recently, she starred with Jason Segel in The Muppets (2011) and alongside Clint Eastwood in Trouble with the Curve (2012).',
                 'created_at' => '2016-01-27 12:59:38',
-                'updated_at' => '2016-01-27 12:59:38',
+                'updated_at' => '2016-02-22 16:32:30',
             ),
             326 => 
             array (
@@ -4328,11 +4328,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Dempsey',
                 'birthday' => '1966-01-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001131',
                 'image' => 'Patrick_Dempsey_1453899587.jpg',
             'bio' => 'Patrick Dempsey has lived two charming but separate lives on film and television. From an exuberant, somewhat awkward charmer in college comedy films of the late 1980s and early 1990s, he has morphed spectacularly into a dreamy, wavy-haired television hunk of the new-age millennium and this seductive new image has since spilled off into romantic lead roles back on the large screen as a slightly offbeat, self-effacing Prince Charming type. Patrick Galen Dempsey was born on January 13, 1966 in Lewiston, Maine, to M. Amanda (Casson) and William Allen Dempsey. He is the youngest of three. His father, an insurance agent, and his mother, a school secretary, raised the children in Buckfield (Maine). His parents were both originally from Pennsylvania, and he has German and English ancestry (&quot;Dempsey&quot; was the surname of his stepgrandfather). Patrick, who was diagnosed as dyslexic (he has to fully memorize his scripts), attended St. Dominic Regional High School but dropped out before graduating. Always interested in entertainment, Patrick studied juggling and entered several competitions. Acting was also a natural for him and, at age 15, he earned the role of the rebellious son in a Maine production of &quot;On Golden Pond&quot;. Two years later, he won a prime role as David, the gay teen, in the Harvey Fierstein play &quot;Torch Song Trilogy&quot;, spending several months touring the San Francisco area with the show. In between he, found supplementary gigs dancing and juggling. More opportunities came his way after winning the protagonist role of Neil Simon&#039;s &quot;Brighton Beach Memoirs&quot; that toured in 1984. Directed by the renowned comedy favorite Gene Saks, Dempsey started looking at the possibility of film work. He made his movie debut in the secondary part of a Catholic student in the 1960s-era school-age comedy Heaven Help Us (1985) starring &quot;Brat Pack&quot; actor Andrew McCarthy. More silliness followed with Sale boulot (1986) and a ripe turn in the socially aware television-movie Walt Disney&#039;s Wonderful World of Color: A Fighting Choice (1986) in which he played an epileptic teen who sues his parents (Beau Bridges and Karen Valentine) in order to have risky brain surgery. Around the same time, he found himself in a television series entitled Fast Times (1986), based on the ultimate school-age film Fast Times at Ridgemont High (1982), which made a star out of Sean Penn. Inheriting the Robert Romanus cool guy role of con artist Mike Damone, expectations were far too big and the television series died a quick death. However, his movie career got on a faster track and he scored well co-starring with the worldly Beverly D&#039;Angelo in the movie In the Mood (1987), as a young man who makes headlines pursuing older women. Life resembled art that same year when Patrick married actress and drama coach Rocky Parker, who played a bit part in the film. He was 21 and she was 48. By this time, his trademark cuteness and appeal started taking shape. The youthful 21-year old Patrick played a nerd role next in the very funny high school comedy Can&#039;t Buy Me Love (1987) with Amanda Peterson. A movie favorite for many, Patrick had reached the peak of his early career popularity. He showed a more serious side in the World War II-era drama In a Shallow Grave (1988), which presented a Cyrano de Bergerac-like storyline with Patrick as the Christian de Neuvillette counterpart, but then he went straight back to familiar territory with the college-themed comedies Some Girls (1988) with Jennifer Connelly, Loverboy (1989), and Happy Together (1989). Stretching more in the 1990s, Patrick co-starred on stage in a 1991 production of &quot;The Subject Was Roses&quot; (playing the Martin Sheen film role) as the World War II soldier readjusting to civilian life with his parents (Dana Ivey and &quot;Frasier&quot; co-star John Mahoney). Films included the cross-country comedy-drama Coupe de Ville (1990), the action thriller Run (1991), Mobsters (1991), in which he made a stab at playing major Mafioso Meyer Lansky, Face the Music (1993) opposite &quot;Brat Pack&quot; femme Molly Ringwald, the title role in Bank Robber (1993), and the Mark Twain family-geared Ava&#039;s Magical Adventure (1998), co-directed by Patrick and wife Rocky. However, the couple divorced that same year. On television, Patrick played a young John Fitzgerald Kennedy in the miniseries J.F.K.: Reckless Youth (1993), Pierre Arronax in the television remake of 20,000 Leagues Under the Sea (1997), and Raskolnikov in a small screen version of Crime and Punishment (1998). The rest of the decade on film was less newsworthy with co-starring or featured movie roles in Hugo Pool (1997), Denial (1998), Life in the Fast Lane (1998) and Me and Will (1999). It was television that gave Patrick a shot in the arm as he progressed into the new millennium. A recurring role as Will&#039;s closeted sportscaster amour in the sitcom Will &amp; Grace (1998) presented Patrick in a more mature, wry and sexier fashion. Another recurring role in Once and Again (1999) earned him a dramatic Emmy nomination in 2001 as Outstanding Guest Actor, and a third on The Practice (1997) was also extremely well-received. While the romantic comedy film Sweet Home Alabama (2002) opposite Reese Witherspoon really nailed the direction Dempsey was headed, the medical series Grey&#039;s Anatomy (2005), as neurosurgeon Dr. Derek Shepherd (aka &quot;Dr. McDreamy&quot;), gave distaff audiences the whole heartthrob package. The perfect vehicle to showcase his undeniable charisma and sharp talent for offbeat comedy, he is a two-time Golden Globe nominee and his popularity has absolutely skyrocketed. This reawakening has also swung the door open again on high-profile film offers, registering with the ladies once again in a number of light leading man parts, notably Enchanted (2007) and Made of Honor (2008). Off-camera, Dempsey married a second time in 1999, to make-up artist and Delux Beauty founder Jillian Dempsey. The couple have three children: daughter, Tallulah Fyfe (born 2002), and twin sons Darby Galen and Sullivan Patrick (born 2007). An avid sports car racer (he has participated in the Indianapolis and Daytona Beach events), he showed off a more humanitarian side when he started the Patrick Dempsey Center for Cancer Hope and Healing in his hometown of Lewiston after his mother developed ovarian cancer. Befittingly, he has produced a sexy men&#039;s fragrance line by Avon called &quot;Unscripted&quot;.',
                 'created_at' => '2016-01-27 12:59:48',
-                'updated_at' => '2016-01-27 12:59:48',
+                'updated_at' => '2016-02-22 16:32:33',
             ),
             327 => 
             array (
@@ -4341,11 +4341,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Marsden',
                 'birthday' => '1973-09-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005188',
                 'image' => 'James_Marsden_1453899599.jpg',
             'bio' => 'James Paul Marsden, or better known as just James Marsden, was born on September 18, 1973, in Stillwater, Oklahoma, to Kathleen (Scholz) and James Luther Marsden. His father, a distinguished Professor of Animal Sciences &amp; Industry at Kansas State University, and his mother, a nutritionist, divorced when he was nine years old. James grew up with his four other siblings, sisters, Jennifer and Elizabeth, and brothers, Jeff and Robert. He has English, German, and Scottish ancestry. During his teen years, he attended Putnam City North High School which was located in Oklahoma City. After graduating in 1991, he attended Oklahoma State University and studied Broadcast Journalism. While in university, he became a member of the Delta Tau Delta fraternity. While vacationing with his family in Hawaii, he met actor Kirk Cameron, and his actress sister, Candace Cameron Bure. They eventually invited James to visit them in Los Angeles. After studying in Oklahoma State for over a year and appearing in his college production, &quot;Bye Bye Birdie&quot;, he left school and moved to Los Angeles to pursue his interest in acting. James got his first job on the pilot episode of The Nanny (1993) as Eddie, who was Margaret Sheffield&#039;s boyfriend. He then became part of the Canadian television series, Boogies Diner (1994), which aired for one season. After that series ended, he got a brief role as the original Griffin on Fox&#039;s Party of Five (1994). His first big break came when he became the lead on the short-lived ABC series, Second Noah (1996). Although the show didn&#039;t last long, the young actor received enough exposure from the public and even managed to win the hearts of fellow teenage girls. In 1996, he attended an audition for a movie titled Primal Fear (1996) but unfortunately lost that role to Edward Norton. Two years later, he was offered a lead role in 54 (1998), which he turned down. The role later went to another actor, Ryan Phillippe. James&#039; star power increased when he starred in David Nutter&#039;s Comportements troublants (1998), alongside Katie Holmes and Nick Stahl, which had mixed reviews, but mostly positive ones. His role in the television series as Glenn Foy in Ally McBeal (1997), is probably one of his biggest achievement to date. He became one of the main cast members during the first half of season 5, where he showcased his singing abilities. It was in that show where he was able to grab the attention of audiences from different backgrounds. The 5&#039; 10&quot; star later played Lon Hammon Jr. in the romantic movie, The Notebook (2004), which was based on a novel by Nicholas Sparks of the same name. His movies, Lies &amp; Alibis (2006) and 10th &amp; Wolf (2006) was also released around the world to audiences in the year 2006. One of his most memorable roles to fans is his role as Cyclops in the X-Men (2000) movie franchise. The movie was well accepted by audiences and critics, which eventually made James one of the hottest stars since it was released. He was among the actors who starred in all three of the X-Men movies. James had the honor of working alongside Patrick Stewart, Famke Janssen and Hugh Jackman in the film. However, not many people know that he actually had to wear lifts for most of his scenes in the X-men movies, because his character Cyclops is supposed to be 6&quot; 3&quot; compared to a 5&#039; 3&quot; Wolverine. In reality, he is actually under 6&#039; 0&quot;, shorter than Famke Janssen who plays his love interest, Jean Grey, and even shorter than Hugh Jackman who played Wolverine. In the year 2006, he played Richard White in the highly anticipated movie, Superman Returns (2006), which coincidentally was directed by Bryan Singer, who also directed previous X-Men installments. Although he appeared in X-Men - L&#039;affrontement final (2006), the third installment of the X-Men franchise, many would notice that he in fact had more screen time in &#039;Superman Returns&#039;, as Lois Lane&#039;s long awaiting fianc&eacute; who had to accept the fact that his fianc&eacute;e is in love with the man of steel. James earned great reviews from that movie, which led to him getting more movie roles. In 2007, James played Corny Collins in the film Hairspray (2007), an adaption of the Broadway musical based on John Waters movie, Hairspray (1988). He joined a star-studded cast, starring alongside top names such as John Travolta, Queen Latifah and Michelle Pfeiffer. James not only acted in that movie, but also sang two of the film&#039;s songs, &quot;The Nicest Kids In Town&quot;, and &quot;Hairspray&quot;. Being part of Hairspray catapulted James to a different level of stardom as audiences got to see another side of him. His next role was in the Disney movie, Enchanted (2007), playing Prince Edward, where he acted alongside Amy Adams, Susan Sarandon and Patrick Dempsey. Once again, James had the opportunity to sing in two songs from the movie, &quot;True Love&#039;s Kiss&quot; and &quot;That&#039;s Amore&quot;. Enchanted (2007) appealed to not only older audiences but also to those who were fans of Disney&#039;s network productions. Following his huge success in the years 2006 and 2007, James played the male lead role in the romantic comedy, 27 Dresses (2008), opposite actress Katherine Heigl in 2008. The movie did well at the box office, earning a gross revenue of over $159 million, which exceeded the expectations of crew members especially since it was under a $30 million budget. Marsden played the male lead in the horror film, The Box (2009), based on the 1970 short story &quot;Button, Button&quot; by author Richard Matheson. He starred opposite Cameron Diaz in the movie. He co-starred in Accidental Love (2015) (previously Accidental Love (2015), a politically-themed romantic comedy, directed by David O. Russell and filmed in Columbia, South Carolina. Marsden&#039;s recent film roles include the sequel comedy Anchorman 2: The Legend Continues (2013), the romantic drama The Best of Me (2014), and the comedy Unfinished Business (2015). James was married to Lisa Linde, an actress known from her role in Days of Our Lives (1965). Lisa is the daughter of legendary country music songwriter Dennis Linde. The couple wed on July 22, 2000 and have a son, Jack Holden who was born on February 1, 2001, and a daughter, Mary James, who was born on August 10, 2005. They divorced in 2011. James has another son, born in 2012, with model Rose Costa. Many would assume that with all this success achieved by James at this age, he would be somewhat high-headed but James mentioned that despite all the attention he&#039;s getting from the public eye, he tries to keep himself as grounded as possible. He even admits that he flies coach instead of first class while traveling with his family. In an interview he mentioned that he believes he has a certain responsibility to let his children know that he isn&#039;t special because of what he does, but who he is as a person. With a great humble attitude and a bright future ahead of him, there&#039;s definitely more to expect from this Oklahoma native.',
                 'created_at' => '2016-01-27 12:59:59',
-                'updated_at' => '2016-01-27 12:59:59',
+                'updated_at' => '2016-02-22 16:32:35',
             ),
             328 => 
             array (
@@ -4354,11 +4354,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Menzel',
                 'birthday' => '1971-05-30',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0579953',
                 'image' => 'Idina_Menzel_1453899614.jpg',
             'bio' => 'Idina Menzel was born on May 30, 1971 in Syosset, New York, USA as Idina Kim Mentzel. She is an actress, known for Frozen (2013), Enchanted (2007) and Rent (2005). She was previously married to Taye Diggs.',
                 'created_at' => '2016-01-27 13:00:14',
-                'updated_at' => '2016-01-27 13:00:14',
+                'updated_at' => '2016-02-22 16:32:38',
             ),
             329 => 
             array (
@@ -4367,11 +4367,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Sarandon',
                 'birthday' => '1946-10-04',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000215',
                 'image' => 'Susan_Sarandon_1453899660.jpg',
             'bio' => 'Susan Sarandon was born in New York City, New York, to Lenora Marie (Criscione) and Phillip Leslie Tomalin, a television producer and advertising executive. She is of Italian (mother) and English, Irish, Welsh, and German (father) descent. Soon after the 1968 Democratic convention, there was a casting call for a film with several roles for the kind of young people who had disrupted the convention. Two recent graduates of Catholic University in Washington DC, went to the audition in New York for Joe (1970). Chris Sarandon, who had studied to be an actor, was passed over. His wife Susan got a major role. That role was as Susan Compton, the daughter of ad executive Bill Compton (Dennis Patrick). In the movie Dad Bill kills Susan&#039;s drug dealer boyfriend and next befriends Joe (Peter Boyle)-- a bigot who works on an assembly line and who collects guns. Five years later, Sarandon made the film where fans of cult classics have come to know her as &quot;Janet&quot;, who gets entangled with transvestite &quot;Dr. Frank &#039;n&#039; Furter&quot; in The Rocky Horror Picture Show (1975). More than 15 years after beginning her career Sarandon at last actively campaigned for a great role, Annie in Bull Durham (1988), flying at her own expense from Rome to Los Angeles. &quot;It was such a wonderful script ... and did away with a lot of myths and challenged the American definition of success&quot;, she said. &quot;When I got there, I spent some time with Kevin Costner, kissed some ass at the studio and got back on a plane&quot;. Her romance with the Bull Durham (1988) supporting actor, Tim Robbins, had produced two sons by 1992 and put Sarandon in the position of leaving her domestic paradise only to accept roles that really challenged her. The result was four Academy Award nominations in the 1990s and best actress for Dead Man Walking (1995). Her first Academy Award nomination was for Louis Malle&#039;s Atlantic City (1980).',
                 'created_at' => '2016-01-27 13:01:00',
-                'updated_at' => '2016-01-27 13:01:00',
+                'updated_at' => '2016-02-22 16:32:42',
             ),
             330 => 
             array (
@@ -4380,11 +4380,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Andrews',
                 'birthday' => '1935-10-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000267',
                 'image' => 'Julie_Andrews_1453899689.jpg',
             'bio' => 'Julia Elizabeth Wells was born on October 1, 1935, in England. Her mother, Barbara Ward (Morris), and stepfather, both vaudeville performers, discovered her freakish but undeniably lovely four-octave singing voice and immediately got her a singing career. She performed in music halls throughout her childhood and teens, and at age 20, she launched her stage career in a London Palladium production of &quot;Cinderella&quot;. Andrew came to Broadway in 1954 with &quot;The Boy Friend&quot;, and became a bona fide star two years later in 1956, in the role of Eliza Doolittle in the unprecedented hit &quot;My Fair Lady&quot;. Her star status continued in 1957, when she starred in the TV-production of Cinderella (1957) and through 1960, when she played &quot;Guenevere&quot; in &quot;Camelot&quot;. In 1963, Walt Disney asked Andrews if she would like to star in his upcoming production, a lavish musical fantasy that combined live-action and animation. She agreed on the condition if she didn&#039;t get the role of Doolittle in the pending film production of My Fair Lady (1964). After Audrey Hepburn was cast in My Fair Lady, Andrews made an auspicious film debut in Walt Disney&#039;s Mary Poppins (1964), which earned her an Academy Award for Best Actress. Andrews continued to work on Broadway, until the release of The Sound of Music (1965), the highest-grossing movie of its day and one of the highest-grossing of all time. She soon found that audiences identified her only with singing, sugary-sweet nannies and governesses, and were reluctant to accept her in dramatic roles in The Americanization of Emily (1964) and Alfred Hitchcock&#039;s thriller Torn Curtain (1966). In addition, the box-office showings of the musicals Julie subsequently made increasingly reflected the negative effects of the musical-film boom that she helped to create. Thoroughly Modern Millie (1967) was for a time the most successful film Universal had released, but it still couldn&#039;t compete with Mary Poppins or The Sound of Music for worldwide acclaim and recognition. Star! (1968) and Darling Lili (1970) also bombed at the box office. Fortunately, Andrews did not let this keep her down. She worked in nightclubs and hosted a TV variety series in the 1970s. In 1979, Andrews returned to the big screen, appearing in films directed by her husband Blake Edwards, with roles that were entirely different from anything she had been seen in before. Andrews starred in 10 (1979), S.O.B. (1981) and Victor Victoria (1982), which earned her an Oscar nomination for Best Actress in a Leading Role. She continued acting throughout the 1980s and 1990s in movies and TV, hosting several specials and starring in a short-lived sitcom. In 2001, she starred in The Princess Diaries (2001), alongside then-newcomer Anne Hathaway. The family film was one of the most successful G-Rated films of that year, and Andrews reprised her role as Queen Clarisse Renaldi in The Princess Diaries 2: Royal Engagement (2004). In recent years, Andrews appeared in Tooth Fairy (2010), as well as a number of voice roles in Shrek 2 (2004), Shrek the Third (2007), Enchanted (2007), Shrek Forever After (2010), and Despicable Me (2010).',
                 'created_at' => '2016-01-27 13:01:29',
-                'updated_at' => '2016-01-27 13:01:29',
+                'updated_at' => '2016-02-22 16:32:45',
             ),
             331 => 
             array (
@@ -4393,11 +4393,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Russell',
                 'birthday' => '1951-03-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000621',
                 'image' => 'Kurt_Russell_1453899713.jpg',
             'bio' => 'Kurt Russell was born Kurt Vogel Russell in Springfield, Massachusetts, to Louise Julia (Crone), a dancer, and actor Bing Russell (Neil Oliver Russell). He is of English, German, Scottish, and Irish descent. Russell landed a part in the Elvis Presley movie, It Happened at the World&#039;s Fair (1963), when he was 10 years old. In 1960, Walt Disney himself signed Russell to a 10-year contract. Once his stint as a child actor ended, he spent the early 1970s playing minor league baseball. In 1979, he gave a classic performance as Elvis Presley in John Carpenter&#039;s A.B.C. TV movie. He followed with roles in a string of well-received films: Used Cars (1980), Escape from New York (1981), The Thing (1982) and Silkwood (1983). In 1983, he became reacquainted with Goldie Hawn (who appeared with him in The One and Only, Genuine, Original Family Band (1968)) when they worked together on Swing Shift (1984). The two have lived together ever since. The movie was a failure - as was their next one together, Overboard (1987). During the 1980s, Russell starred in a rash of disappointments: The Best of Times (1986), Big Trouble in Little China (1986) and Winter People (1989). Finally, his career seemed to be seriously stalled. He only landed Tango &amp; Cash (1989) after Patrick Swayze dropped out; Dennis Quaid was the first choice for the part in Backdraft (1991). In the end, these two roles were the key in reestablishing him as a box-office draw. Russell and Goldie Hawn live on a 72-acre retreat, Home Run Ranch, outside of Aspen. He has two sons, Boston Russell (from a brief marriage to actress Season Hubley) and Wyatt Russell (with Goldie Hawn).',
                 'created_at' => '2016-01-27 13:01:53',
-                'updated_at' => '2016-01-27 13:01:53',
+                'updated_at' => '2016-02-22 16:32:48',
             ),
             332 => 
             array (
@@ -4406,11 +4406,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Cleef',
                 'birthday' => '1925-01-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001812',
                 'image' => 'Lee_Van_Cleef_1453899723.jpg',
             'bio' => 'One of the great movie villains, Clarence Leroy Van Cleef, Jr. was born in Somerville, New Jersey, to Marion Lavinia (Van Fleet) and Clarence LeRoy Van Cleef, Sr. His parents were both of Dutch ancestry. Van Cleef started out as an accountant. He served in the U.S. Navy aboard minesweepers and subchasers during World War II. After the war he worked as an office administrator, becoming involved in amateur theatrics in his spare time. An audition for a professional role led to a touring company job in &quot;Mr. Roberts&quot;. His performance was seen by Stanley Kramer, who cast him as henchman Jack Colby in High Noon (1952), a role that brought him great recognition despite the fact that he had no dialogue. For the next decade he played a string of memorably villainous characters, primarily in westerns but also in crime dramas such as The Big Combo (1955). His hawk nose and steely, slit eyes seemed destined to keep him always in the realm of heavies, but in the mid-Sergio Leone cast him as the tough but decent Col. Mortimer opposite Clint Eastwood in For a Few Dollars More (1965). A new career as a western hero (or at least anti-hero) opened up, and Van Cleef became an international star, though in films of decreasing quality. In the 1980s he moved easily into action and martial-arts movies, and starred in The Master (1984), a TV series featuring almost non-stop martial arts action. He died of a heart attack in December 1989, and was buried at Forest Lawn in the Hollywood Hills.',
                 'created_at' => '2016-01-27 13:02:03',
-                'updated_at' => '2016-01-27 13:02:03',
+                'updated_at' => '2016-02-22 16:32:52',
             ),
             333 => 
             array (
@@ -4419,11 +4419,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Borgnine',
                 'birthday' => '1917-01-24',
                 'deceased' => '2012-07-08',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000308',
                 'image' => 'Ernest_Borgnine_1453899733.jpg',
             'bio' => 'Ernest Borgnine was born Ermes Effron Borgnino on January 24, 1917 in Hamden, Connecticut. His parents were Anna (Boselli), who had emigrated from Carpi (MO), Italy, and Camillo Borgnino, who had emigrated from Ottiglio (AL), Italy. As an only child, Ernest enjoyed most sports, especially boxing, but took no real interest in acting. At age 18, after graduating from high school in New Haven, and undecided about his future career, he joined the United States Navy, where he stayed for ten years until leaving in 1945. After a few factory jobs, his mother suggested that his forceful personality could make him suitable for a career in acting, and Borgnine promptly enrolled at the Randall School of Drama in Hartford. After completing the course, he joined Robert Porterfield&#039;s famous Barter Theatre in Abingdon, Virginia, staying there for four years, undertaking odd jobs and playing every type of role imaginable. His big break came in 1949, when he made his acting debut on Broadway playing a male nurse in &quot;Harvey&quot;. In 1951, Borgnine moved to Los Angeles to pursue a movie career, and made his film debut as Bill Street in The Whistle at Eaton Falls (1951). His career took off in 1953 when he was cast in the role of Sergeant &quot;Fatso&quot; Judson in From Here to Eternity (1953). This memorable performance led to numerous supporting roles as &quot;heavies&quot; in a steady string of dramas and westerns. He played against type in 1955 by securing the lead role of Marty Piletti, a shy and sensitive butcher, in Marty (1955). He won an Academy Award for Best Actor for his performance, despite strong competition from Spencer Tracy, Frank Sinatra, James Dean and James Cagney. Throughout the 1950s, 1960s and 1970s, Borgnine performed memorably in such films as The Catered Affair (1956), Ice Station Zebra (1968) and Emperor of the North (1973). Between 1962 and 1966, he played Lt. Commander Quinton McHale in the popular television series McHale&#039;s Navy (1962). In early 1984, he returned to television as Dominic Santini in the action series Supercopter (1984) co-starring Jan-Michael Vincent, and in 1995, he was cast in the comedy series The Single Guy (1995) as doorman Manny Cordoba. He also appeared in several made-for-TV movies. Ernest Borgnine has often stated that acting is his greatest passion, and he is still working today. His amazing 61-year career (1951 - 2012 and continuing) includes appearances in well over 100 feature films and as a regular in three television series, as well as voiceovers in animated films such as All Dogs Go to Heaven 2 (1996), Small Soldiers (1998), and a continued role in the series SpongeBob SquarePants (1999). Between 1973 until his death, Ernest was married to Tova Traesnaes, who heads her own cosmetics company. They lived in Beverly Hills, California, where Ernest assisted his wife between film projects. When not acting, Ernest actively supported numerous charities and spoke tirelessly at benefits throughout the country. He has been awarded several honorary doctorates from colleges across the United States as well as numerous Lifetime Achievement Awards. In 1996, Ernest purchased a bus and traveled across the United States to see the country and meet his many fans. On December 17, 1999, he presented the University of North Alabama with a collection of scripts from his film and television career, due to his long friendship with North Alabama alumnus and actor George Lindsey (died May 6, 2012), who was an artist in residence at North Alabama. Ernest Borgnine passed away aged 95 on July 8, 2012, at Cedars-Sinai Medical Center in Los Angeles, California, of renal failure. He is survived by his wife Tova, their children and his younger sister Evelyn (1926-2013)',
                 'created_at' => '2016-01-27 13:02:13',
-                'updated_at' => '2016-01-27 13:02:13',
+                'updated_at' => '2016-02-22 16:32:55',
             ),
             334 => 
             array (
@@ -4432,11 +4432,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Pleasence',
                 'birthday' => '1919-10-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000587',
                 'image' => 'Donald_Pleasence_1453899743.jpg',
             'bio' => 'Balding, quietly-spoken, of slight build and possessed of piercing blue eyes -- often peering out from behind round, steel-rimmed glasses -- Donald Pleasence had the necessary physical attributes which make a great screen villain. In the course of his lengthy career, he relished playing the obsessed, the paranoid and the purely evil. Even the Van Helsing-like psychiatrist Sam Loomis in the Halloween (1978) franchise seems only marginally more balanced than his prey. An actor of great intensity, Pleasence excelled on stage as Shakespearean villains. He was an unrelenting prosecutor in Jean Anouilh&#039;s &quot;Poor Bitos&quot; and made his theatrical reputation in the title role of the seedy, scheming tramp in Harold Pinter&#039;s &quot;The Caretaker&quot; (1960). On screen, he gave a perfectly plausible interpretation of the head of the SS, Heinrich Himmler, in The Eagle Has Landed (1976). He was a convincingly devious Thomas Cromwell in Henry VIII and His Six Wives (1972), disturbing in his portrayal of the crazed, bloodthirsty preacher Quint in Will Penny (1967); and as sexually depraved, alcohol-sodden &#039;Doc&#039; Tydon in the brilliant Aussie outback drama Wake in Fright (1971). And, of course, he was Ernst Stavro Blofeld in You Only Live Twice (1967). These are some of the films, for which we may remember Pleasence, but there was a great deal more to this fabulous, multi-faceted actor. Donald Henry Pleasence was born on October 5, 1919 in Worksop, Nottinghamshire, England, to Alice (Armitage) and Thomas Stanley Pleasence. His family worked on the railway; his grandfather had been a signal man and both his brother and father were station masters. When Donald failed to get a scholarship at RADA, he joined the family occupation working as a clerk at his father&#039;s station before becoming station master at Swinton, Yorkshire. While there he wrote letters to theatre companies eventually being accepted by one on the island of Jersey in Spring 1939 as an assistant stage manager. On the eve of World War II, he made his theatrical debut in &quot;Wuthering Heights&quot;. In 1942, he played Curio in &quot;Twelfth Night&quot;, but his career was then interrupted by military service in the RAF. He was shot down over France, incarcerated and tortured in a German POW camp. Once repatriated, Donald returned to the stage in Peter Brook&#039;s 1946 London production of &quot;The Brothers Karamazov&quot; with Alec Guinness although he missed the opening due to measles, followed by a stint on Broadway with Laurence Olivier&#039;s touring company in &quot;Caesar and Cleopatra&quot; and &quot;Anthony and Cleopatra&quot;. Upon his return to England, he won critical plaudits for his performance in &quot;Hobson&#039;s Choice&quot;. In 1952, Donald began his screen career, rather unobtrusively, in small parts. He was only really noticed once having found his m&eacute;tier as dastardly, sneaky Prince John in The Adventures of Robin Hood (1955). It took several more years, until international recognition came his way: first, through the filmed adaptation of The Guest (1963); and, secondly, with his blind forger in The Great Escape (1963), a role imbued with added conviction due to his own wartime experience. Some of his best acting Donald reserved for the small screen. In 1962, the producer of The Twilight Zone (1959), Buck Houghton, brought Donald to the United States (&#039;damn the expense&#039;!) to guest star in the third season episode &quot;The Changing of the Guard&quot;. He was given a mere five days to immerse himself in the part of a gentle school teacher, Professor Ellis Fowler, who, on the eve of Christmas is forcibly retired after fifty-one years of teaching. Devastated, and believing himself a failure who has made no mark on the world, he is about to commit suicide when the school&#039;s bell summons him to his classroom. There, he is confronted by the spirits of deceased students who exhort him to consider that his lessons have had fundamental effects on their lives, even leading to acts of great heroism. Upon hearing this, Fowler is now content to graciously accept his retirement. Managing to avoid maudlin sentimentality, Donald&#039;s performance was intuitive and, arguably, one of the most poignant ever accomplished in a thirty-minute television episode. Once again, against type, he was equally delightful as the mild-mannered Reverend Septimus Harding in Anthony Trollope&#039;s The Barchester Chronicles (1982). Whether eccentric, sinister or given to pathos, Donald Pleasence was always great value-for-money and his performances have rarely failed to engage.',
                 'created_at' => '2016-01-27 13:02:23',
-                'updated_at' => '2016-01-27 13:02:23',
+                'updated_at' => '2016-02-22 16:32:58',
             ),
             335 => 
             array (
@@ -4445,11 +4445,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Hayes',
                 'birthday' => '1942-08-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005002',
                 'image' => 'Isaac_Hayes_1453899756.jpg',
             'bio' => 'Isaac Hayes was the second-born child of Isaac Sr. and Eula Hayes, but was raised by his grandparents, Mr. and Mrs. Willie Wade Sr. The child of a poor family, he grew up picking cotton in Covington, Tennessee. He dropped out of high school, only to be encouraged later by his former high school teachers to get his diploma. He earned his diploma at the age of 21. Otis Redding, Johnnie Taylor, The Bar-Kays and Booker T. Jones (later of Booker T. &amp; the M.G.s fame) were some of the &quot;Memphis Sound&quot; musical luminaries Hayes worked with during his early years as a budding musician and vocalist. He is a multi-talented composer, singer and arranger who plays the piano, vibraphone and saxophone equally well. In 1971 he won an Academy Award for Best Original Song for a Motion Picture for the &quot;Theme from Shaft&quot; (1970) and was nominated for Best Original Dramatic Score for Shaft (1971).',
                 'created_at' => '2016-01-27 13:02:36',
-                'updated_at' => '2016-01-27 13:02:36',
+                'updated_at' => '2016-02-22 16:33:01',
             ),
             336 => 
             array (
@@ -4458,11 +4458,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Waltz',
                 'birthday' => '1956-10-04',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0910607',
                 'image' => 'Christoph_Waltz_1453899783.jpg',
             'bio' => 'Christoph Waltz was born in Vienna, Austria, to Elisabeth Urbancic, an Austrian-born costume designer, and Johannes Waltz, a German-born stage builder. He has 3 siblings. He was born into a theater family, as his maternal grandmother was Viennese Burgtheater actress Maria Mayen, and his step-grandfather was fellow Burgtheater actor Emmerich Reimers. His maternal grandfather, Rudolf von Urban, was a psychologist and psychiatrist who wrote the 1949 book &quot;Sex Perfection and Marital Happiness&quot;. Waltz attended the Theresianium and Billrothstrasse in Vienna. Upon graduation, he attended the Max-Reinhardt-Seminar before going to New York to the Lee Strasberg Institute. While in New York, Christoph met his first wife, and moved back to Vienna, then to London. During the 80s, Christoph worked primarily in theater, commuting from his home in London to Germany. Slowly he began to work in TV, taking one-off roles on series, and TV movies. Film roles soon followed, however, attempts to break into English-speaking film and TV were unsuccessful. Christoph has stated he is grateful to have made a living and supported his family through acting. For thirty years he worked steadily, tirelessly, in this manner. It was not until he met Quentin Tarantino that his career in Hollywood took off. The role of Colonel Hans Landa in Inglourious Basterds (2009) catapulted Christoph from a lifetime working in German TV/film to the new life of an international superstar and Academy Award-winning actor. He won 27 awards for his performance as Hans Landa, including the Cannes prix d&#039;interpretation Masculin for 2009, the Golden Globe for Best Supporting Actor, the BAFTA Best Supporting Actor award, and the Academy Award for Best Supporting Actor (which he won again for 2012&#039;s Django Unchained (2012)). Christoph resides in Berlin and Los Angeles. His wife is costume builder Judith Holste.',
                 'created_at' => '2016-01-27 13:03:03',
-                'updated_at' => '2016-01-27 13:03:03',
+                'updated_at' => '2016-02-22 16:33:04',
             ),
             337 => 
             array (
@@ -4471,11 +4471,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Washington',
                 'birthday' => '1977-01-31',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0913488',
                 'image' => 'Kerry_Washington_1453899794.jpg',
             'bio' => 'Kerry Washington was born on January 31, 1977 in The Bronx, New York City, New York, USA as Kerry Marisa Washington. She is an actress, known for Django Unchained (2012), Scandal (2012) and Ray (2004). She has been married to Nnamdi Asomugha since June 24, 2013. They have one child.',
                 'created_at' => '2016-01-27 13:03:14',
-                'updated_at' => '2016-01-27 13:03:14',
+                'updated_at' => '2016-02-22 16:33:07',
             ),
             338 => 
             array (
@@ -4484,11 +4484,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Copley',
                 'birthday' => '1973-11-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1663205',
                 'image' => 'Sharlto_Copley_1453899819.jpg',
             'bio' => 'Sharlto Copley was born in Johannesburg, South Africa, to Linda Stocks and Bruce Copley, a former university professor. His childhood dreams of acting were put on hold for many years when his television production company was one of few in his native South Africa granted licensing to create content for broadcast. Rather than acting in front of the camera, Copley found himself the businessman running the production behind the scenes, becoming South Africa&#039;s youngest television producer at age 25. It was during this time that he met a then-teen-aged Neill Blomkamp, who worked at Copley&#039;s company in exchange for use of the computers to pursue his talent for design. Blomkamp would many years later go on to direct Copley in his star-making debut as nervous bureaucrat Wikus van de Merwe in the Oscar nominated science fiction hit District 9 (2009). Copley followed this by fulfilling another childhood dream, landing the role of H.M. &quot;Howling Mad&quot; Murdock in the big screen adaption of the 1980&#039;s TV hit The A-Team (2010) and was also directed by Blomkamp once again in the movie Elysium (2013). He now continues to split his time between his native South Africa and Hollywood, pursuing more opportunities in front of and behind the camera.',
                 'created_at' => '2016-01-27 13:03:39',
-                'updated_at' => '2016-01-27 13:03:39',
+                'updated_at' => '2016-02-22 16:33:10',
             ),
             339 => 
             array (
@@ -4497,11 +4497,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Carell',
                 'birthday' => '1962-08-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0136797',
                 'image' => 'Steve_Carell_1453899835.jpg',
             'bio' => 'Steve Carell, one of America&#039;s most versatile comics, was born Steven John Carell on August 16, 1962, in Concord, Massachusetts. He is the son of Harriet T. (Koch), a psychiatric nurse, and Edwin A. Carell, an electrical engineer. His mother is of Polish descent and his father is of Italian and German ancestry (Steve&#039;s grandfather had changed the surname from &quot;Caroselli&quot; to &quot;Carrell&quot;). He was educated at The Fenn School, an all-boys private school in Concord, Massachusetts, then at Middlesex School in Concord. After graduating from Denison University in Granville, Ohio, he moved to Chicago where he taught an improvisational comedy class and performed with The Second City troupe, alongside Stephen Colbert. Carell made his film debut as &quot;Tesio&quot; in Curly Sue (1991). In 1996, he became a cast member of The Dana Carvey Show (1996), and provided the voice for Gary, opposite Colbert in &quot;The Ambiguously Gay Duo&quot;. This animated short series produced by Robert Smigel continued on Saturday Night Live (1975), but Carell has joked that he auditioned for SNL and lost the job to Will Ferrell. Carell made a number of guest appearances on such shows as Come to Papa (2004), Just Shoot Me! (1997), and Watching Ellie (2002), before landing a regular stint as a correspondent on The Daily Show (1996) from 1999 until 2005. Carell played Evan Baxter opposite Jim Carrey in Bruce Almighty (2003), and Uncle Arthur opposite Nicole Kidman and Will Ferrell in Bewitched (2005). He broke out as a leading man after starring in the summer box-office hit The 40-Year-Old Virgin (2005), which he also co-wrote; the film was chosen as one of the Top Ten movies of 2006 by the American Film Institute. He next starred in the critically acclaimed Little Miss Sunshine (2006), an indie dark comedy which became a surprise hit and earned four Oscar nominations, and won two (Best Supporting Actor for Alan Arkin and Best Screenplay for Michael Arndt). In 2007, Carell reprised his role as Evan Baxter, filling Jim Carrey&#039;s leading-man shoes as a politician asked by God to build a giant ark in Evan Almighty (2007), the second installment of the &quot;Almighty&quot; franchise, co-starring Lauren Graham and Morgan Freeman. In 2008, he re-united with Jim Carrey in the highly successful animation hit Horton Hears a Who! (2008), then appeared as Agent Maxwell Smart in the popular comedy Get Smart (2008). Throughout this time, Carell maintained a successful career in television, starring as Michael Scott in the American remake of the Britain&#039;s existential comedy, The Office (2005). He received the Golden Globe Award for Best Actor in Television Comedy for this leading role in 2006, and earned both Emmy and Golden Globe nominations each consecutive show until he departed in 2011. In 2010, Carell announced he was leaving &quot;The Office&quot; to concentrate on his film career, and has made steady appearance in such films as Date Night (2010), Despicable Me (2010), Crazy, Stupid, Love. (2011), and Seeking a Friend for the End of the World (2012). Carell&#039;s most recent roles are the comedies Despicable Me 2 (2013), Anchorman 2: The Legend Continues (2013), and Alexander and the Terrible, Horrible, No Good, Very Bad Day (2014), and the drama Foxcatcher (2014). Steve Carell has been enjoying a happy family life with his wife, actress Nancy Carell, whom he met when she was a student in an improv class he was teaching at The Second City comedy troupe in Chicago. The couple have two children, daughter Elisabeth (born in May 2001), and son John (born in June 2004). Steve Carell lives with his family in Los Angeles, California.',
                 'created_at' => '2016-01-27 13:03:56',
-                'updated_at' => '2016-01-27 13:03:56',
+                'updated_at' => '2016-02-22 16:33:13',
             ),
             340 => 
             array (
@@ -4510,11 +4510,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Johnson',
                 'birthday' => '1972-05-02',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0425005',
                 'image' => 'Dwayne_Johnson_1453899857.jpg',
             'bio' => 'Dwayne Douglas Johnson, also known as The Rock, was born on May 2, 1972 in Hayward, California, to Ata Johnson (n&eacute;e Maivia) and Canadian-born professional wrestler Rocky Johnson. His father is black (of Black Nova Scotian descent), and his mother is of Samoan background (her own father was Peter Fanene Maivia, also a professional wrestler). While growing up, Dwayne traveled around a lot with his parents and watched his father perform in the ring. During his high school years, Dwayne began playing football and he soon received a full scholarship from the University of Miami where he had tremendous success as a football player. In 1995, Dwayne suffered a back injury which cost him a place in the NFL. He then signed a 3 year deal with the Canadian League but left after a year to pursue a career in wrestling. He made his wrestling debut in the USWA under the name Flex Kavanah where he won the tag team championship with Brett Sawyer. In 1996, Dwayne joined the WWE and became Rocky Maivia where he joined a group known as &quot;The Nation of Domination&quot; and turned heel. Rocky eventually took over leadership of the &quot;Nation&quot; and began taking the persona of The Rock. After the &quot;Nation&quot; split, The Rock joined another elite group of wrestlers known as the &quot;Corporation&quot; and began a memorable feud with Steve Austin. Soon the Rock was kicked out of the &quot;Corporation&quot;. He turned face and became known as &quot;The Peoples Champion&quot;. In 2000, the Rock took time off from WWE to film his appearance in The Mummy Returns (2001). He returned in 2001 during the WCW/ECW invasion where he joined a team of WWE wrestlers at The Scorpion King (2002), a prequel to The Mummy Returns (2001). Dwayne has a daughter, Simone Alexandra, born in 2001, with his ex-wife Dany Garcia.',
                 'created_at' => '2016-01-27 13:04:17',
-                'updated_at' => '2016-01-27 13:04:17',
+                'updated_at' => '2016-02-22 16:33:16',
             ),
             341 => 
             array (
@@ -4523,11 +4523,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Stamp',
                 'birthday' => '1938-07-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000654',
                 'image' => 'Terence_Stamp_1453899867.jpg',
             'bio' => 'Terence Henry Stamp was born and lived in Canal Road, Bow, until German bombers forced his family to move to Plaistow. An icon of the 1960s, he dated the likes of Julie Christie, Brigitte Bardot and Jean Shrimpton. After an extremely successful early career, starring in Modesty Blaise (1966), Poor Cow (1967) and Far from the Madding Crowd (1967), Stamp withdrew from mainstream films after his girlfriend, supermodel Jean Shrimpton, left him, and he and went on a 10-year sabbatical in India. He returned home in the late 1970s to star as the evil General Zod in Superman II (1980), and in 1984, delivered what many consider his finest performance as the supergrass in Stephen Frears&#039; The Hit (1984). A few minor but colourful roles, topped by his performance as the transsexual Bernadette in Priscilla, folle du d&eacute;sert (1994), have put Stamp back in the British consciousness. His role of a vengeful gangster in The Limey (1999) was created especially for him by its director.',
                 'created_at' => '2016-01-27 13:04:27',
-                'updated_at' => '2016-01-27 13:04:27',
+                'updated_at' => '2016-02-22 16:33:20',
             ),
             342 => 
             array (
@@ -4536,11 +4536,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Oka',
                 'birthday' => '1974-12-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1199811',
                 'image' => 'Masi_Oka_1453899892.jpg',
             'bio' => 'Masi Oka was born on December 27, 1974 in Tokyo, Japan as Masayori Oka. He is known for his work on Hawaii Five-0 (2010), Heroes (2006) and Friends with Benefits (2011).',
                 'created_at' => '2016-01-27 13:04:52',
-                'updated_at' => '2016-01-27 13:04:52',
+                'updated_at' => '2016-02-22 16:33:23',
             ),
             343 => 
             array (
@@ -4549,11 +4549,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Warburton',
                 'birthday' => '1964-11-14',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0911320',
                 'image' => 'Patrick_Warburton_1453899903.jpg',
             'bio' => 'Squared-jawed beefcake Patrick Warburton leapt into pop culture consciousness as David Puddy, Elaine&#039;s on-again, off-again boyfriend on the hit sitcom Seinfeld in 1995, and has since then steadily found his deadpan talents in ever-greater demand. With his squinty eyes and hard-boiled detective&#039;s voice, Warburton has become a humorous personality who can generate giggles with almost no effort, whether onscreen or in voice-overs. Warburton was born on November 14, 1964, in Paterson, NJ, and raised in Southern California, a son of little-known television actress Barbara Lord. The future Bugle Boy model studied marine biology at Orange Coast College, where he met his wife, Cathi, before dropping out to pursue modeling and acting at age 19. In his first screen appearance, the 17th century slave film Dragonard (1987), Warburton was subject to what is thought to be the longest onscreen flogging on film, a 100-lash scene that consumes nearly four minutes of screen time. He also appeared in the sequel, Master of Dragonard Hill (1989), before turning his attention to television. Warburton had guest spots on such shows as Murphy Brown, Designing Women, and Quantum Leap before scoring a recurring role on the short-lived Dave Barry sitcom Dave&#039;s World in 1993. But it was not until he appeared in the 1995 episode of Seinfeld entitled &quot;The Fusilli Jerry&quot; that Warburton really started to attract attention. As Puddy, Jerry&#039;s lunkhead mechanic who spits out dialogue in macho spurts, notably the catchphrase affirmation &quot;Yeah that&#039;s right,&quot; Warburton quickly became a popular semi-regular, involved in a running joke about his frequent breakups and reconciliations with Elaine (Julia Louis-Dreyfus). He stayed with the show until it finished in 1998, and provided the voice for Superman in a series of commercials starring Seinfeld. Warburton had another recurring role as unscrupulous businessman Johnny Johnson on News Radio in 1999, then contributed his memorable voice to characters on the animated shows Family Guy, Hercules, and Buzz Lightyear of Star Command. By this time the big screen was really beckoning, as Warburton flexed his comic talents as a bodyguard in Scream 3 (2000), then toned them down as an American astronomer in Australia in The Dish (2000). His voice was again called upon, this time by Disney, for the role of a sorceress&#039; thug assistant in The Emperor&#039;s New Groove (2000). Going zanier than on Seinfeld, Warburton signed on as the star of the Fox sitcom The Tick, about a muscle-bound but dimwitted superhero in a blue costume, which premiered in the fall of 2001. High-profile projects in 2002 would include a role in the delayed ensemble farce Big Trouble and as Agent T alongside Tommy Lee Jones and Will Smith in Men in Black 2. Warburton became an in demand voice actor working on a variety of projects including TV series like The Venture Brothers and Family Guy, as well as movies such as Home on the Range, Chicken Little, The Wild, and Bee Movie. In 2007 he started on a successful run with the sitcom Rules of Engagement, and in 2012 he appeared in Seth McFarland&#039;s directorial debut, Ted.',
                 'created_at' => '2016-01-27 13:05:04',
-                'updated_at' => '2016-01-27 13:05:04',
+                'updated_at' => '2016-02-22 16:33:26',
             ),
             344 => 
             array (
@@ -4562,11 +4562,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Murray',
                 'birthday' => '1950-09-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000195',
                 'image' => 'Bill_Murray_1453899914.jpg',
             'bio' => 'Bill, the fifth of nine children, was born in Wilmette, Illinois, to Lucille (Collins), a mailroom clerk, and Edward Joseph Murray II, who sold lumber. He is of Irish descent. Among his siblings are actors Brian Doyle-Murray, Joel Murray, and John Murray. He and most of his siblings worked as caddies, which paid his tuition to Loyola Academy, a Jesuit school. He played sports and did some acting while in that school, but in his words, mostly &quot;screwed off.&quot; He enrolled at Regis College in Denver to study pre-med but dropped out after being arrested for marijuana possession. He then joined the National Lampoon Radio Hour with fellow members Dan Aykroyd, Gilda Radner, and John Belushi. However, while those three became the original members of Saturday Night Live (1975), he joined Saturday Night Live with Howard Cosell (1975), which premiered that same year. After that show failed, he later got the opportunity to join Saturday Night Live (1975).',
                 'created_at' => '2016-01-27 13:05:14',
-                'updated_at' => '2016-01-27 13:05:14',
+                'updated_at' => '2016-02-22 16:33:30',
             ),
             345 => 
             array (
@@ -4575,11 +4575,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Caan',
                 'birthday' => '1940-03-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001001',
                 'image' => 'James_Caan_1453899924.jpg',
             'bio' => 'A masculine and enigmatic actor whose life and movie career have had more ups and downs than the average rollercoaster and whose selection of roles has arguably derailed him from achieving true superstar status, James Caan is New York-born and bred. He was born in the Bronx, to Sophie (Falkenstein) and Arthur Caan, Jewish immigrants from Germany. His father was a meat dealer and butcher. The athletically gifted Caan played football at Michigan State University while studying economics, holds a black belt in karate and for several years was even a regular on the rodeo circuit, where he was nicknamed &quot;The Jewish Cowboy&quot;. However, while studying at Hofstra University, he became intrigued by acting and was interviewed and accepted at Sanford Meisner&#039;s Neighborhood Playhouse. He then won a scholarship to study under acting coach Wynn Handman and began to appear in several off-Broadway productions, including &quot;I Roam&quot; and &quot;Mandingo&quot;. He made his screen debut as a sailor in Irma la Douce (1963) and began to impress audiences with his work in Red Line 7000 (1965) and the western El Dorado (1966) alongside John Wayne and Robert Mitchum. Further work followed in Journey to Shiloh (1968) and in the sensitive The Rain People (1969). However, audiences were moved to tears as he put in a heart-rending performance as cancer-stricken Chicago Bears running back Brian Piccolo in the highly rated made-for-TV film Brian&#039;s Song (1971). With these strong performances under his belt, Francis Ford Coppola then cast him as hot-tempered gangster Santino &quot;Sonny&quot; Corleone in the Mafia epic The Godfather (1972). The film was an enormous success, Caan scored a Best Supporting Actor nomination and, in the years since, the role has proven to be the one most fondly remembered by his legion of fans. He reprised the role for several flashback scenes in the sequel The Godfather: Part II (1974) and then moved on to several very diverse projects. These included a cop-buddy crime partnership with Alan Arkin in the uneven Freebie and the Bean (1974), a superb performance as a man playing for his life in The Gambler (1974) alongside Lauren Hutton, and pairing with Barbra Streisand in Funny Lady (1975). Two further strong lead roles came up for him in 1975, first as futuristic sports star &quot;Jonathon E&quot; questioning the moral fiber of a sterile society in Rollerball (1975) and teaming up with Robert Duvall in the Sam Peckinpah spy thriller The Killer Elite (1975). Unfortunately, Caan&#039;s rising star sputtered badly at this stage of his career, and several film projects failed to find fire with either critics or audiences. These included such failures as the hokey Harry and Walter Go to New York (1976), the quasi-western Comes a Horseman (1978) and the saccharine Chapter Two (1979). However, he did score again with the stylish Michael Mann-directed heist movie Thief (1981). He followed this with a supernatural romantic comedy titled Kiss Me Goodbye (1982) and then, due to personal conflicts, dropped out of the spotlight for several years before returning with a stellar performance under old friend Francis Ford Coppola in the moving Gardens of Stone (1987). Caan appeared back in favor with fans and critics alike and raised his visibility with the sci-fi hit Alien Nation (1988) and Dick Tracy (1990), then surprised everyone by playing a meek romance novelist held captive after a car accident by a deranged fan in the dynamic Misery (1990). The 1990s were kind to him and he notched up roles as a band leader in For the Boys (1991), another gangster in Honeymoon in Vegas (1992), appeared in the indie hit Bottle Rocket (1996) and pursued Arnold Schwarzenegger in Eraser (1996). The demand on Caan&#039;s talents seems to have increased steadily over the past few years as he is making himself known to a new generation of fans. Recent hot onscreen roles have included The Yards (2000), City of Ghosts (2002) and Dogville (2003). In addition, he finds himself at the helm of the hit TV series Las Vegas (2003) as casino security chief &quot;Big Ed&quot; Deline. An actor of undeniably manly appeal, James Caan continues to surprise and delight audiences with his invigorating performances.',
                 'created_at' => '2016-01-27 13:05:24',
-                'updated_at' => '2016-01-27 13:05:24',
+                'updated_at' => '2016-02-22 16:33:33',
             ),
             346 => 
             array (
@@ -4588,11 +4588,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Crews',
                 'birthday' => '1968-07-30',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0187719',
                 'image' => 'Terry_Crews_1453899935.jpg',
             'bio' => 'Terry Crews was born in Flint, Michigan, to Patricia and Terry Crews, Sr. He earned an Art Excellence Scholarship to attend Western Michigan University and also earned a full-ride athletic scholarship to play football. Crews was an All-Conference defensive end, and was a major contributor on the 1988 MAC champion WMU Broncos. His college success was rewarded in 1991, when he was drafted by the NFL&#039;s Los Angeles Rams. Crews played six years in the NFL, with stints at the L.A. Rams, San Diego Chargers , Rhein Fire (NFL Europe-Germany), Washington Redskins and Philadelphia Eagles. While in the NFL, used his art talent by painting a line of NFL licensed lithographs for Sierra Sun Editions. In 1996, Crews co-wrote and co-produced the independent feature film, &quot;Young Boys Incorporated&quot; (1996). Crews retired from the NFL in 1997 and moved to Los Angeles to pursue an acting career. Crews&#039; first break came in 1999, when he auditioned for the extreme sports show called Battle Dome (1999), with other actor-athletes from around the country. Crews was chosen to be a series regular, known as the urban warrior, &quot;T-Money&quot;. In 2000, Crews made his big screen debut in The 6th Day (2000). Since then, he has landed roles in Au service de Sara (2002), Friday After Next (2002), Deliver Us from Eva (2003), Malibu&#039;s Most Wanted (2003), Starsky &amp; Hutch (2004), Soul Plane (2004), White Chicks (2004), and the Mike Judge film, Idiocracy (2006).',
                 'created_at' => '2016-01-27 13:05:35',
-                'updated_at' => '2016-01-27 13:05:35',
+                'updated_at' => '2016-02-22 16:33:39',
             ),
             347 => 
             array (
@@ -4601,11 +4601,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Ramis',
                 'birthday' => '1944-11-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000601',
                 'image' => 'Harold_Ramis_1453899958.jpg',
             'bio' => 'Born on November 21, 1944 in Chicago, Illinois, Harold Allen Ramis got his start in comedy as Playboy magazine&#039;s joke editor and reviewer. In 1969, he joined Chicago&#039;s Second City&#039;s Improvisational Theatre Troupe before moving to New York to help write and perform in &quot;The National Lampoon Show&quot; with other Second City graduates including John Belushi, Gilda Radner and Bill Murray. By 1976, he was head writer and a regular performer on the top Canadian comedy series SCTV (1976). His Hollywood debut came when he collaborated on the script for National Lampoon&#039;s Animal House (1978) which was produced by Ivan Reitman. After that, he worked as writer with Ivan as producer on Arr&ecirc;te de ramer, t&#039;es sur le sable (1979), Stripes (1981), Ghostbusters (1984) and Ghostbusters II (1989) and acted in the latter three. Harold Ramis died on February 24, 2014 at age 69 from complications of autoimmune inflammatory vasculitis.',
                 'created_at' => '2016-01-27 13:05:58',
-                'updated_at' => '2016-01-27 13:05:58',
+                'updated_at' => '2016-02-22 16:33:42',
             ),
             348 => 
             array (
@@ -4614,11 +4614,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Moranis',
                 'birthday' => '1953-04-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001548',
                 'image' => 'Rick_Moranis_1453899967.jpg',
             'bio' => 'Rick began his career as a radio DJ while he was still at high school which led to him writing, producing and being on air in his own show. He joined the Canadian TV series SCTV (1976) winning an Emmy for writing and portraying the character Bob McKenzie which became the basis for the film _Strange Brew_ which he co-wrote, co-directed and made his film acing debut. The character he played in Ghostbusters (1984) was based on a similar character he played on SCTV (1976)_.',
                 'created_at' => '2016-01-27 13:06:07',
-                'updated_at' => '2016-01-27 13:06:07',
+                'updated_at' => '2016-02-22 16:33:46',
             ),
             349 => 
             array (
@@ -4627,11 +4627,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Potts',
                 'birthday' => '1952-10-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001633',
                 'image' => 'Annie_Potts_1453899979.jpg',
             'bio' => 'Interested in stage and film at an early age, Annie Potts attended Stephens College in Missouri, enrolling in the theater studies course, followed by graduate work in California. At the age of 20, she married her college sweetheart, Steven Hartley. Only a short time later, she and her husband were in a serious automobile accident in New Mexico -- their Volkswagen bus was demolished by two drivers who were drag racing. Steve lost a leg, and Annie had multiple fractures (resulting in a traumatic arthritis that still persists). Early roles were primarily in television, such as Black Market Baby (1977), but her presence moved up with an appearance in the mega-hit Ghostbusters (1984), and then she hit the big time with a seven-year stint as one of the stars of Designing Women (1986). A brief period in Love &amp; War (1992) ended with the cancellation of the show, about which she remains resentful.',
                 'created_at' => '2016-01-27 13:06:19',
-                'updated_at' => '2016-01-27 13:06:19',
+                'updated_at' => '2016-02-22 16:33:49',
             ),
             350 => 
             array (
@@ -4640,11 +4640,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Bautista',
                 'birthday' => '1969-01-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1176985',
                 'image' => 'Dave_Bautista_1453900001.jpg',
             'bio' => 'David Michael Bautista, Jr. was born on January 18, 1969 in Washington, D.C., to Donna Raye (Mullins) and David Michael Bautista. His father is Filipino, and his mother has Greek ancestry. When WCW officials told him he&#039;d never make it in sports entertainment, Bautista pushed himself to achieve his dream of being a Superstar. In May 2002, he made his debut on SmackDown using the ring name Batista, but it wasn&#039;t until a move to Raw and two victories over Kane that &quot;The Animal&quot; began to make noise in the WWE Universe. The wins impressed Ric Flair and Triple H, who were looking to align themselves with the industry&#039;s brightest new stars. After a lengthy search, they identified Randy Orton and Batista. Collectively the four Superstars became known as Evolution. Batista earned his first championship alongside &quot;The Nature Boy&quot; when the duo captured the WWE Tag Team Championships in December 2003. As Evolution dominated WWE, Batista started to emerge from the shadows of Triple H and Ric Flair. By the time Batista won the 2005 Royal Rumble Match, World Heavyweight Champion Triple H viewed him as a serious threat to his title. After a triceps injury at the hands of Mark Henry forced Batista to relinquish the title in January 2006, he vowed to return. Batista successfully regained the World Heavyweight Championship at Survivor Series in 2006. Four months into his second reign, Batista faced the Undertaker at WrestleMania 23. &quot;The Animal&quot; took Undertaker to the limit, but was unable to stop the streak of &quot;The Deadman&quot; at WrestleMania. Though disappointed, Batista stayed hungry and always managed to keep himself in the championship hunt for the rest of his career. At Bragging Rights in 2009, Batista shocked the world when he blamed Rey Mysterio for a loss to Undertaker, then attacked his former tag team partner. &quot;The Animal&quot; then became locked in a tense rivalry with another former friend, John Cena, over the WWE Championship. The grueling match at Over the Limit led to a wheelchair-bound Batista declaring &quot;I quit!&quot; the following night on Raw before fading from the WWE Universe in May 2010. Following his departure from WWE, Bautista appeared opposite Vin Diesel in the Universal film Riddick (2013) and RZA&#039;s feature directorial debut The Man with the Iron Fists (2012), in which he played the villainous Brass Body and starred opposite Russell Crowe and Lucy Liu. His other film credits include The Scorpion King 3: Battle for Redemption (2012), where he played Argomael; the action film House of the Rising Sun (2011); and Wrong Side of Town (2010) opposite rapper Ja Rule. Two years later, he joined MMA and won his first professional MMA fight. In January 2014, he made his long awaited return to the WWE, before quitting a second time in June of that same year. He did this in order to promote Guardians of the Galaxy (2014), which was released on August 1, 2014, and starred Chris Pratt, Benicio Del Toro, Zoe Saldana, and Djimon Hounsou, alongside Bautista. He will shoot Kickboxer: Vengeance (2016), directed by John Stockwell, and co-starring martial artist Alain Moussi and UFC fighter Georges St-Pierre. The remake of the 1989 Jean-Claude Van Damme film, Kickboxer (1989) is about two brothers David and Kurt Sloan; When David wins the Karate World Championship, a promoter lures him to Hong Kong, despite his brother&#039;s protestations that the man is a crook. When Kurt travels to Thailand to meet his brother, he discovers he has died and seeks his revenge.',
                 'created_at' => '2016-01-27 13:06:41',
-                'updated_at' => '2016-01-27 13:06:41',
+                'updated_at' => '2016-02-22 16:33:53',
             ),
             351 => 
             array (
@@ -4653,11 +4653,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Diesel',
                 'birthday' => '1967-07-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0004874',
                 'image' => 'Vin_Diesel_1453900011.jpg',
             'bio' => 'Vin Diesel was born Mark Sinclair in Alameda County, California, along with his fraternal twin brother, Paul Vincent. He was raised by his astrologer/psychologist mother, Delora Sherleen (Sinclair), and adoptive father, Irving H. Vincent, an acting instructor and theater manager, in an artist&#039;s housing project in New York City&#039;s Greenwich Village. He never knew his biological father. His mother is white (with English, German, Scottish, and Irish ancestry), and his adoptive father is African-American; referring to his biological father&#039;s background, Diesel has said that he himself is &quot;definitely a person of colour&quot;. His first break in acting happened by chance, when at the age of seven he and his friends broke into a theatre to vandalize it. A woman stopped them and offered them each a script and $20, on the condition that they would attend everyday after school. From there, Vin&#039;s fledgling career progressed from the New York repertory company run by his father, to the Off-Off-Broadway circuit. At age seventeen and already sporting a well-honed physique, he became a bouncer at some of New York&#039;s hippest clubs to earn himself some extra cash. It was at this time that he changed his name to Vin Diesel. Following high school, Vin enrolled as an English major at Hunter College, but dropped out after three years to go to Hollywood to further his acting career. Being an experienced theatre actor did not make any impression in Hollywood and after a year of struggling to make his mark, he returned to New York. His mother then gave him a book called &quot;Feature Films at used Car Prices&quot; by Rick Schmidt. The book showed him that he could take control of his career and make his own movies. He wrote a short film based on his own experiences as an actor, called Multi-Facial (1995), which was shot in less than three days at a cost of $3,000. Multi-Facial (1995) was eventually accepted for the 1995 Cannes Film Festival where it got a tumultuous reception. Afterwards, Vin returned to Los Angeles and raised almost $50,000 through telemarketing to fund the making of his first feature, Strays (1997). Six months after shooting, the film was accepted for the 1997 Sundance Film Festival, and although it received a good reception, it did not sell as well as hoped. Yet again Vin returned disappointed to New York only to receive a dream phone call. Steven Spielberg was impressed by Multi-Facial (1995) and wanted to meet Vin, leading him to be cast in Saving Private Ryan (1998). Multi-Facial (1995) earned Vin more work, when the director of The Iron Giant (1999) saw it and decided to cast Vin in the title role. From there, Vin&#039;s career has steadily grown, with him securing his first lead role as Richard B. Riddick in the sci-fi film Pitch Black (2000). The role has earned him a legion of devoted fans and the public recognition he deserves. Since then, he has headlined a series of blockbusters, often but not only centered on fast-driving motor vehicles: The Fast and the Furious (2001), xXx (2002), Baby-sittor (2005), Fast &amp; Furious (2009), Fast Five (2011), Fast &amp; Furious 6 (2013), and Furious 7 (2015). He also voiced Groot in Guardians of the Galaxy (2014) and starred in the lower-budgeted courtroom drama Jugez-moi coupable (2006), the latter directed by Sidney Lumet.',
                 'created_at' => '2016-01-27 13:06:51',
-                'updated_at' => '2016-01-27 13:06:51',
+                'updated_at' => '2016-02-22 16:33:56',
             ),
             352 => 
             array (
@@ -4666,11 +4666,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Cooper',
                 'birthday' => '1975-01-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0177896',
                 'image' => 'Bradley_Cooper_1453900020.jpg',
             'bio' => 'Bradley Charles Cooper was born in Philadelphia, Pennsylvania. His mother, Gloria (Campano), is of Italian descent, and worked for a local NBC station. His father, Charles John &quot;Charlie&quot; Cooper, who was of Irish descent, was a stockbroker. He has a sister, Holly. Immediately after Bradley graduated from the Honors English program at Georgetown University in 1997, he moved to New York City to enroll in the Masters of Fine Arts program at the Actors Studio Drama School at New School University. There, he developed his stage work, culminating with his thesis performance as &quot;John Merrick&quot; in Bernard Pomerance&#039;s &quot;The Elephant Man&quot;, performed in New York&#039;s Circle in the Square. While still in school, Bradley began his professional career, appearing opposite Sarah Jessica Parker in Sex and the City (1998) and in the series, The Beat (2000). His weekends were spent with LEAP (Learning through the Expanded Arts Program), a non-profit organization that teaches acting and movement to inner city school children. The summers took him all across the globe, from kayaking in British Columbia with Orca Whales to ice-climbing in the Peruvian Andes, while hosting Lonely Planet&#039;s Treks in a Wild World (2000) for the Discovery Channel. Bradley had to skip his graduation ceremony from the Actor&#039;s Studio in order to star in his first feature film, Wet Hot American Summer (2001). After finishing his second feature, Bending All the Rules (2002), his plans to relocate to Los Angeles were delayed when Darren Star hired him to star in the series The $treet (2000). Bradley went on to win the role of young law student Gordon Pinella in the film Changing Lanes (2002), starring Ben Affleck and Samuel L. Jackson, and also played Travis Paterson in My Little Eye (2002). He finally decided that it was time to forgo his other New York projects and move to Los Angeles when he was cast in Alias (2001). After supporting roles in Wedding Crashers (2005), Failure to Launch (2006), The Comebacks (2007), The Rocker (2008), and Yes Man (2008), Cooper broke out with major roles in He&#039;s Just Not That Into You (2009), The Hangover (2009), and Valentine&#039;s Day (2010). He co-starred in the action film The A-Team (2010) and headlined the thriller Limitless (2011). Cooper received an Academy Award nomination for Best Actor after starring opposite &#039;Jennifer Lawrence&#039; in David O. Russell&#039;s Silver Linings Playbook (2012), as Pat Solatano. He then received two more consecutive Oscar nominations, Best Supporting Actor for playing Richie DiMaso in Russell&#039;s American Hustle (2013) (again opposite Lawrence, though their characters shared no significant screen time), and Best Actor for playing Chris Kyle in Clint Eastwood&#039;s American Sniper (2014), the highest grossing film of 2014. During this time period, Cooper also reprised his role in The Hangover Part II (2011) and The Hangover III (2013)_, turned in another strong dramatic turn in The Place Beyond the Pines (2012), and voiced Rocket Raccoon in the third highest grossing film of 2014, Guardians of the Galaxy (2014). In 2015, Bradley headlined two comedies, Cameron Crowe&#039;s Aloha (2015), set in Hawaii, and John Wells&#039; Burnt (2015), set in London, and will star opposite Jennifer Lawrence again in David O. Russell&#039;s Joy (2015).',
                 'created_at' => '2016-01-27 13:07:00',
-                'updated_at' => '2016-01-27 13:07:00',
+                'updated_at' => '2016-02-22 16:33:58',
             ),
             353 => 
             array (
@@ -4679,11 +4679,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Pace',
                 'birthday' => '1979-03-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1195855',
                 'image' => 'Lee_Pace_1453900031.jpg',
             'bio' => 'In 2003, Lee Grinner Pace starred in the Sundance hit, Soldier&#039;s Girl (2003), an extraordinary telefilm created for Showtime. The film was based on the true story of a transgender nightclub performer in love with a soldier who is brutally murdered for their relationship. His breakthrough performance garnered him nominations for both the Golden Globes and the Independent Spirit Award, and he won a Gotham Award for Outstanding Breakthrough Performance. Lee was born in Chickasha, Oklahoma, to Charlotte (Kloeckler), a schoolteacher, and James Roy Pace, an engineer. He is of German, as well as English, Scottish, and Welsh, descent. Lee spent his early years living in the Middle East. His family eventually moved back to the States, first to New Orleans and later, Houston, Texas. Lee attended high school in Houston, where he first began acting. He got so involved with his craft that he actually dropped out of high school to perform at the local Alley Theatre. Once he completed his final high school courses, Lee was accepted to The Juilliard School&#039;s Drama Division in 1997. During his time at Juilliard, Lee honed his acting skills in such classic roles as Romeo in &quot;Romeo and Juliet&quot;, the title role in &quot;King Richard II&quot; and Cassius in &quot;Julius Caesar&quot;, among others. After graduating with a BFA from Juilliard, Lee starred in the critically-acclaimed Off-Broadway play, &quot;The Credeaux Canvas&quot;, as well as being part of the Vineyard production of &quot;The Fourth Sister&quot;. In the spring of 2004, Lee starred a limited engagement of the Off-Broadway production &quot;Small Tragedy&quot;, and was nominated for a Lucille Lortel Awards in the category of Outstanding Actor. On the small screen, he was recently seen displaying a delightful comedic side on the brilliant, though sadly short-lived, FOX series Wonderfalls (2004).',
                 'created_at' => '2016-01-27 13:07:11',
-                'updated_at' => '2016-01-27 13:07:11',
+                'updated_at' => '2016-02-22 16:34:02',
             ),
             354 => 
             array (
@@ -4692,11 +4692,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Rooker',
                 'birthday' => '1955-04-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0740264',
                 'image' => 'Michael_Rooker_1453900051.jpg',
             'bio' => 'Michael Rooker was born in 1955 in Jasper, Alabama. When he was 13 his parents divorced and he went with his mother to live in Chicago. He caught the acting bug while attending college, and began appearing in local stage productions. On first breaking into film, his intensity and &quot;don&#039;t-mess-with-me&quot; good looks were highlighted to chilling effect as the title character in Henry: Portrait of a Serial Killer (1986), filmed in 1986 but, due to its controversial nature, not released until 1990. Since that widely noticed and highly praised performance, much of his career has been spent playing brutes, villains and psychopaths. His occasional turns as a &quot;good guy&quot;, however, are always well-acted and a welcome change for a talented actor too often typecast.',
                 'created_at' => '2016-01-27 13:07:31',
-                'updated_at' => '2016-01-27 13:07:31',
+                'updated_at' => '2016-02-22 16:34:05',
             ),
             355 => 
             array (
@@ -4705,11 +4705,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Gillan',
                 'birthday' => '1987-11-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2394794',
                 'image' => 'Karen_Gillan_1453900059.jpg',
             'bio' => 'Karen was born and raised in Inverness, Scotland, the daughter of Marie (Paterson) and John Gillan, who is a singer and recording artist. She developed a love for acting very early on, attending several youth theatre groups and taking part in a wide range of productions at her school, Charleston Academy. At age 16, Karen decided she wanted to pursue her acting career further and, studied under the renowned theatre director Scott Johnston at the Performing Arts Studio Scotlond. She later attended the prestigious Italia Conti academy in London. During her first year, she landed a role in Rebus (2000) and soon appeared in a variety of programs including Channel 4&#039;s Stacked (2008) and The Kevin Bishop Show (2008), as well as a two-year stint in the long-running series Doctor Who (2005). Karen also stars in the film Outcast (2010), starring James Nesbitt. Her most recent starring role is as Eliza Dooley in &quot;Selfie&quot; (2014), When she&#039;s not acting, Karen likes to play the piano and loves rummaging through vintage clothes shops.',
                 'created_at' => '2016-01-27 13:07:39',
-                'updated_at' => '2016-01-27 13:07:39',
+                'updated_at' => '2016-02-22 16:34:08',
             ),
             356 => 
             array (
@@ -4718,11 +4718,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Hounsou',
                 'birthday' => '1964-04-24',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005023',
                 'image' => 'Djimon_Hounsou_1453900072.jpg',
             'bio' => 'Djimon Hounsou was born in Cotonou, Benin, West Africa, to Albertine and Pierre Hounsou, a cook. He moved to Lyon, France, when he was 13. Hounsou has graced the catwalks of Paris and London as a popular male model. He has since left his modeling career and has worked on _Gladiator_ by Ridley Scott and Amistad (1997) by Steven Spielberg.',
                 'created_at' => '2016-01-27 13:07:52',
-                'updated_at' => '2016-01-27 13:07:52',
+                'updated_at' => '2016-02-22 16:34:11',
             ),
             357 => 
             array (
@@ -4731,11 +4731,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Reilly',
                 'birthday' => '1965-05-24',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000604',
                 'image' => 'John_C__Reilly_1453900090.jpg',
             'bio' => 'Character actor, dramatic leading man, or hilarious comic foil? With an astonishing range of roles already under his belt, John C. Reilly has played a eclectic host of rich characters to great effect over the years, from seedy ne&#039;er-do-wells, to lovable, good-natured schlepps. The fifth of six children, Reilly was born in Chicago, to a father of Irish and Scottish descent, and a Lithuanian-American mother, and was brought up on Chicago&#039;s tough Southwest territory. His father, also named John, ran an industrial linen supply company business. On the amateur stage from age eight, Reilly trained at the Goodman School of Drama and eventually became a member of Chicago&#039;s renowned Steppenwolf Theatre. His film break came with a small role in the Vietnam War drama Casualties of War (1989), wherein Brian De Palma liked his work so much during the early stages that he recast him in a major role by the start of shooting as a soldier bent on rape. Reilly gained momentum throughout the 1990s and showed his dazzling stretch of talent in such films as Days of Thunder (1990), Shadows and Fog (1991), What&#039;s Eating Gilbert Grape (1993) and The River Wild (1994). He became a major stock player in director Paul Thomas Anderson&#039;s films, while finding some of his best roles in Hard Eight (1996) as a compulsive gambler, Boogie Nights (1997) in which he played a narcissistic porn star, and in Magnolia (1999) as a compassionate policeman. He went on to earn further critical points for his role of the soldier sent to the front lines in Terrence Malick&#039;s war epic The Thin Red Line (1998). On stage, Reilly has wowed audiences in &quot;The Grapes of Wrath&quot; on Broadway, &quot;A Streetcar Named Desire&quot; and &quot;Othello&quot; at Steppenwolf, and earned an Outer Critics Circle Award and Tony nomination for &quot;True West&quot; alongside another impeccable character player Philip Seymour Hoffman. Reilly finally received the film recognition he deserved in 2002 with a slew of choice, high-profile parts in The Hours (2002), The Good Girl (2002), Gangs of New York (2002), and especially Chicago (2002) as the put-upon husband, Amos Hart, who is played for a patsy by murderous wife Roxie (Ren&eacute;e Zellweger). For this last part, he received both Golden Globe and Academy Award nominations for best supporting actor. Since then his stock has risen considerably, and he has further widened his cinematic repertoire, appearing in everything from dramatic roles - We Need to Talk About Kevin (2011), The Aviator (2004) and Carnage (2011) - to broader comic turns - Walk Hard: The Dewey Cox Story (2007), Talladega Nights: The Ballad of Ricky Bobby (2006), Step Brothers (2008), Cyrus (2010) and Cedar Rapids (2011). Most recently, he has voiced the lead in Disney&#039;s animated smash Wreck-It Ralph (2012). Reilly is married to producer Alison Dickey.',
                 'created_at' => '2016-01-27 13:08:10',
-                'updated_at' => '2016-01-27 13:08:10',
+                'updated_at' => '2016-02-22 16:34:15',
             ),
             358 => 
             array (
@@ -4744,11 +4744,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Toro',
                 'birthday' => '1967-02-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001125',
                 'image' => 'Benicio_Del_Toro_1453900101.jpg',
             'bio' => 'Benicio Del Toro emerged in the mid-&#039;90s as one of the most watchable and charismatic character actors to come along in years. A favorite of film buffs, Del Toro gained mainstream public attention as the conflicted but basically honest Mexican cop in Steven Soderbergh&#039;s Traffic (2000). Born on February 19, 1967 in San Germ&aacute;n, Puerto Rico, Benicio is the son of lawyer parents Fausta Genoveva Sanchez Rivera and Gustavo Adolfo Del Toro Bermudez. His mother died when he was young, and his father moved the family to a farm in Pennsylvania. A basketball player with an interest in acting, he decided to follow the family way and study business at the University of California in San Diego. A class in acting resulted in his being bitten by the acting bug, and he subsequently dropped out and began studying with legendary acting teacher Stella Adler in Los Angeles and at the Circle in the Square Acting School in New York City. Telling his parents that he was taking courses in business, Del Toro hid his new studies from his family for a little while. During the late 1980s he made a few TV appearances, most notably in an episode of Miami Vice (1984) and in the NBC miniseries Drug Wars: The Camarena Story (1990). Del Toro&#039;s big-screen career got off to a slower start, however--his first role was Duke the Dog-Faced Boy in Big Top Pee-wee (1988). Things looked better, however, when he landed the role of Dario, the vicious henchman in the James Bond film Licence to Kill (1989). Surprising his co-stars, Del Toro was, at 21, the youngest actor ever to portray a Bond villain. The potential break, however, was spoiled as the picture turned out to be one of the most disappointing Bond films ever; it was lost amid bigger summer competition. Benicio gave creditable performances in many overlooked films for the next few years, such as The Indian Runner (1991), Christopher Columbus: The Discovery (1992) and Money for Nothing (1993). His roles in Fearless (1993) and China Moon (1994) gained him more critical notices, and 1995 proved to be the first &quot;Year of Benicio&quot; as he gave a memorable performance in Swimming with Sharks (1994) before taking critics and film buffs by storm as the mumbling, mysterious gangster in The Usual Suspects (1995), directed by Bryan Singer. Del Toro won an Independent Spirit Award for Best Supporting actor for the role in the Oscar-winning film. Staying true to his independent roots, he next gave a charismatic turn as cold-blooded gangster Gaspare in The Funeral (1996) directed by Abel Ferrara. He also appeared as Benny Dalmau in Basquiat (1996), directed by artist friend Julian Schnabel. That year also marked his first truly commercial film, as he played cocky Spanish baseball star Juan Primo in The Fan (1996), which starred Robert De Niro. Del Toro took his first leading man role in Excess Baggage (1997), starring and produced by Alicia Silverstone. Hand-picked by Silverstone, Del Toro&#039;s performance was pretty much the only thing critics praised about the film, and showed the level of consciousness he was beginning to have in the minds of film fans. In 1998 he took a leading role with Johnny Depp in Fear and Loathing in Las Vegas (1998), directed by the legendary Terry Gilliam. Gaining 40 pounds for the role of Dr. Gonzo, the drug-addicted lawyer to sports writer Raoul Duke, Benicio immersed himself totally in the role. Using his method acting training so far as to burn himself with cigarettes for a scene, it was a trying time for Del Toro. The harsh critical reviews proved tough on him, as he felt he had given his all for the role and been dismissed. Many saw the crazed, psychotic performance as a confirmation of the rumors and overall weirdness that people seemed to place on Del Toro. Taking a short break after the ordeal, 2000 proved to be the second &quot;Year of Benicio&quot;. He first appeared in The Way of the Gun (2000), directed by friend and &quot;The Usual Suspects&quot; writer Christopher McQuarrie. Then he went to work for actor&#039;s director Steven Soderbergh in Traffic (2000). A complex and graphic film, it nonetheless became a widespread hit and Oscar winner. Del Toro&#039;s Javier Rodriguez, a conflicted Mexican cop, functions as the movie&#039;s real heart amid an all-star ensemble cast, and many praised it as the year&#039;s best performance, a sentiment validated by a Screen Actor&#039;s Guild Award for &quot;Best Actor&quot;. He also gave a notable performance in Snatch. (2000) directed by Guy Ritchie, which was released several weeks later, and The Pledge (2001) directed by Sean Penn. Possessing sleepy good looks reminiscent of James Dean or Marlon Brando, Del Toro has often jokingly been referred to as the &quot;Spanish Brad Pitt&quot;. With his newfound celebrity, Del Toro has become a sort of heartthrob, being voted one of People&#039;s &quot;50 Most Beautiful People&quot; as well as &quot;Most Eligible Bachelors&quot;. A favorite of film fans for years for his diverse and &quot;cool guy&quot; gangster roles, he is now becoming a mainstream favorite respected for his acting skills and choices. So far very careful in his choices and who he works with, Del Toro can boast an impressive resume of films with some of the most influential and respected people in the film business.',
                 'created_at' => '2016-01-27 13:08:21',
-                'updated_at' => '2016-01-27 13:08:21',
+                'updated_at' => '2016-02-22 16:34:18',
             ),
             359 => 
             array (
@@ -4757,11 +4757,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Serafinowicz',
                 'birthday' => '1972-07-10',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0784818',
                 'image' => 'Peter_Serafinowicz_1453900127.jpg',
             'bio' => 'Peter Serafinowicz was born on July 10, 1972 in Liverpool, England as Peter Szymon Serafinowicz. He is an actor and writer, known for Guardians of the Galaxy (2014), Shaun of the Dead (2004) and Star Wars: Episode I - The Phantom Menace (1999). He is married to Sarah Alexander. They have two children.',
                 'created_at' => '2016-01-27 13:08:47',
-                'updated_at' => '2016-01-27 13:08:47',
+                'updated_at' => '2016-02-22 16:34:22',
             ),
             360 => 
             array (
@@ -4770,11 +4770,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Harris',
                 'birthday' => '1930-10-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001321',
                 'image' => 'Richard_Harris_1453900144.jpg',
             'bio' => 'A genuine star of cinema on screen and a fiery hell raiser off screen, Richard St John Harris was born on October 1, 1930 in Limerick, Ireland, to a farming family. He was the son of Mildred Josephine (Harty) and Ivan John Harris, and was an excellent rugby player, with a strong passion for literature. Unfortunately, a bout of tuberculosis as a teenager ended his aspirations to a rugby career, but he became fascinated with the theater and skipped a local dance one night to attend a performance of &quot;Henry IV&quot;. He was hooked and went on to learn his craft at The London Academy of Music and Dramatic Art, then spent several years in stage productions. He debuted on screen in L&#039;&eacute;pop&eacute;e dans l&#039;ombre (1959) and quickly scored regular work in films, including The Wreck of the Mary Deare (1959), The Night Fighters (1960) and a good role as a frustrated Australian bomber pilot in The Guns of Navarone (1961). However, his breakthrough performance was as the quintessential &quot;angry young man&quot; in the sensational drama This Sporting Life (1963), which scored him an Oscar nomination. He then appeared in the WW II commando tale The Heroes of Telemark (1965) and in the Sam Peckinpah-directed western Major Dundee (1965). He next showed up in Hawaii (1966) and played King Arthur in Camelot (1967), a lackluster adaptation of the famous Broadway play. Better performances followed, among them a role as a reluctant police informer in The Molly Maguires (1970) alongside Sir Sean Connery. Harris took the lead role in the violent western A Man Called Horse (1970), which became something of a cult film and spawned two sequels. As the 1970s progressed, Harris continued to appear regularly on screen; however, the quality of the scripts varied from above average to woeful. His credits during this period included directing himself as an aging soccer player in the delightful The Hero (1971); the western The Deadly Trackers (1973); the big-budget &quot;disaster&quot; film Juggernaut (1974); the strangely-titled crime film 99 and 44/100% Dead (1974); with Connery again in Robin and Marian (1976); Gulliver&#039;s Travels (1977); a part in the Jaws (1975) ripoff Orca (1977) and a nice turn as an ill-fated mercenary with Richard Burton and Roger Moore in the popular action film The Wild Geese (1978). The 1980s kicked off with Harris appearing in the silly Bo Derek vanity production Tarzan, the Ape Man (1981) and the remainder of the decade had him appearing in some very forgettable productions. However, the luck of the Irish was once again to shine on Harris&#039; career and he scored rave reviews (and another Oscar nomination) for The Field (1990). He then locked horns with Harrison Ford as an IRA sympathizer in Patriot Games (1992) and got one of his best roles as gunfighter English Bob in the Clint Eastwood western Unforgiven (1992). Harris was firmly back in vogue and rewarded his fans with more wonderful performances in Wrestling Ernest Hemingway (1993); Pleure &ocirc; pays bien-aim&eacute; (1995); The Great Kandinsky (1995) and This Is the Sea (1997). Further fortune came his way with a strong performance in the blockbuster Gladiator (2000) and he became known to an entirely new generation of film fans as Albus Dumbledore in the mega-successful Harry Potter and the Sorcerer&#039;s Stone (2001) and Harry Potter and the Chamber of Secrets (2002). His final screen role was as &quot;Lucius Sulla&quot; in Caesar (2002). A diverse, vigorous and captivating actor, Richard Harris passed away from Hodgkin&#039;s Disease on October 25, 2002.',
                 'created_at' => '2016-01-27 13:09:04',
-                'updated_at' => '2016-01-27 13:09:04',
+                'updated_at' => '2016-02-22 16:34:25',
             ),
             361 => 
             array (
@@ -4783,11 +4783,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Smith',
                 'birthday' => '1934-12-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001749',
                 'image' => 'Maggie_Smith_1453900158.jpg',
             'bio' => 'One of the world&#039;s most famous and distinguished actresses, Dame Maggie Smith was born Margaret Natalie Smith in Essex. Her Scottish mother, Margaret (Hutton), worked as a secretary, and her English father, Nathaniel Smith, was a teacher at Oxford University. Smith has been married twice: to actor Robert Stephens and to playwright Beverley Cross. Her marriage to Stephens ended in divorce in 1974. She was married to Cross until his death in 1999. She had two sons with Stephens, Chris Larkin and Toby Stephens who are also actors. Maggie Smith&#039;s career began at the Oxford Playhouse in the 1950s. She made her film debut in 1956 as one of the party guests in Child in the House (1956). She has since performed in over sixty films and television series with some of the most prominent actors and actresses in the world. These include: Othello (1965) with Laurence Olivier, The Prime of Miss Jean Brodie (1969), California Suite (1978) with Michael Caine and Jane Fonda, A Room with a View (1985), Richard III (1995) with Ian McKellen and Jim Broadbent, Franco Zeffirelli&#039;s Un th&eacute; avec Mussolini (1999) with Judi Dench, Joan Plowright and Cher and Gosford Park (2001) with Kristin Scott Thomas and Clive Owen, directed by Robert Altman. Maggie Smith has also been nominated for an Oscar six times and won twice, for The Prime of Miss Jean Brodie (1969) and California Suite (1978). Most recently, Smith has appeared in the very successful &#039;Harry Potter&#039; franchise as the formidable Professor McGonagall. Smith is a breast cancer survivor. Her most recent role has been in Julian Fellowes&#039; ITV drama series, Downton Abbey (2010) (2010-2011) as the Dowager Countess of Grantham.',
                 'created_at' => '2016-01-27 13:09:18',
-                'updated_at' => '2016-01-27 13:09:18',
+                'updated_at' => '2016-02-22 16:34:29',
             ),
             362 => 
             array (
@@ -4796,11 +4796,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Coltrane',
                 'birthday' => '1950-03-30',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001059',
                 'image' => 'Robbie_Coltrane_1453900167.jpg',
             'bio' => 'Robbie Coltrane, one of Britain&#039;s most popular comedians who was head of debating society at school and won prizes for his art, is now a film star who played in two James Bond films and in the &quot;Harry Potter&quot; franchise. Coltrane was born Anthony Robert McMillan on March 30, 1950, in Rutherglen, a suburb of Glasgow, Scotland, UK. His mother, Jean Ross (Howie), was a teacher and pianist. His father, Ian Baxter McMillan, was a general surgeon who also worked for police pathology. Young Robbie was fond of art, music, films and cars. He was a voracious reader of his dad&#039;s books on medicine and crime. At age 12 he made his acting debut on stage at Glenalmond College, delivering rants from &quot;Henry V&quot;. At that time he was fascinated with Marlon Brando and Orson Welles. He attended Glasgow Art School, majoring in drawing, painting and film, then studied art at Edinburgh&#039;s Moray House College of Education for a year. In 1973 he made a documentary titled &quot;Young Mental Health&quot;, which was voted Film Of The Year by the Scottish Education Council. At that time Robbie took the name Coltrane, due to his love of jazz, and began a career of a stand-up comedian at night clubs, at the Edinburgh Festival, as well as an actor with Edinburgh&#039;s renowned Traverse Theatre. In 1980 Coltrane made his debut on television as &quot;Border Guard&quot; in BBC&#039;s mini-series The Lost Tribe (1980), then made his big screen debut as a limousine driver in Death Watch (1980). In 1981 he appeared in his first leading role as Detective Fritz Langley in Subway Riders (1981), by famed underground director Amos Poe. He became a well-known face through appearances in The Comic Strip series, then in Alfresco (1983) and Comic Strip movies The Supergrass (1985) and The Pope Must Diet (1991), among other films. At that time Coltrane had a drinking problem, downing as much as a bottle of whiskey a day. In 1986 he flew to a clinic in Mexico and was treated for obesity. In 1987 his partner for 15 years, Robin Paine, left him for good, leaving her portrait in Coltrane&#039;s barn. In 1988 Coltrane met then 18-year-old Rhona Gemmell in a pub. They married and had a son, Spencer, and a daughter, Alice. His career took off during the early 1990s with the leading role as Dr. Eddie &quot;Fitz&quot; Fitzgerald, a forensic psychologist, in the popular TV series Cracker (1993). He made such a good performance as Valentin Zukovsky, a KGB man turned St. Petersburg mafia lord, in GoldenEye (1995) the producers called him back for the same character in The World Is Not Enough (1999). Then Coltrane hit another lucrative franchise; he was personally selected by J.K. Rowling as her choice to play half-giant Rubeus Hagrid in the &#039;Harry Potter&#039; films. In early 1990s Coltrane wrote an autobiography, &quot;Coltrane in a Cadillac&quot;, and also starred in the eponymous TV series, Coltrane in a Cadillac (1993), in which he indulges his passion for vintage cars and tells with great humor about his 4000-mile journey across America from Los Angeles to New York. In 2003 he separated from his wife. His interests outside of his acting profession has been reading books, and rebuilding and collecting vintage cars. Robbie Coltrane resides in a converted farmhouse in Stirlingshire, Scotland, UK.',
                 'created_at' => '2016-01-27 13:09:27',
-                'updated_at' => '2016-01-27 13:09:27',
+                'updated_at' => '2016-02-22 16:34:33',
             ),
             363 => 
             array (
@@ -4809,11 +4809,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Radcliffe',
                 'birthday' => '1989-07-23',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0705356',
                 'image' => 'Daniel_Radcliffe_1453900181.jpg',
             'bio' => 'Daniel Jacob Radcliffe was born on July 23, 1989 in Fulham, London, England, to literary agent Alan Radcliffe and casting agent Marcia Gresham. His father is from a Northern Irish Protestant background, while his mother was born in South Africa, to a Jewish family (from Lithuania, Poland, Russia, and Germany). Daniel began performing in small school productions as a young boy. Soon enough, he landed a role in David Copperfield (1999), as the young David Copperfield. A couple of years later, he landed a role as Mark Pendel in The Tailor of Panama (2001), the son of Harry and Louisa Pendel (Geoffrey Rush and Jamie Lee Curtis). Curtis had indeed pointed out to Daniel&#039;s mother that he could be Harry Potter himself. Soon afterwards, Daniel was cast as Harry Potter by director, Chris Columbus in the film that hit theaters in November 16, 2001, Harry Potter and the Sorcerer&#039;s Stone (2001). He was recognized worldwide after this film was released. Pleasing audiences and critics everywhere, filming on its sequel, Harry Potter and the Chamber of Secrets (2002), commenced shortly afterwards. He appeared again as Harry in Harry Potter and the Prisoner of Azkaban (2004) directed by Alfonso Cuar&oacute;n, and then appeared in Harry Potter and the Goblet of Fire (2005) directed by Mike Newell. Shortly afterwards, he finished filming December Boys (2007) in Adelaide, Australia, Kangaroo Island, and Geelong, Australia which began on the 14 November 2005 and ended sometime in December. On January 27, 2006, he attended the South Bank Awards Show to present the award for &quot;Breakthrough Artist of the Year&quot; to Billie Piper. Daniel reprised his famous character once again for the next installment of the Harry Potter series, Harry Potter and the Order of the Phoenix (2007). In February 2007, he took on his first stage role in the West End play Equus, to worldwide praise from fans and critics alike. Also that year, he starred in the television movie My Boy Jack (2007), which aired on 11 November 2007 in the UK. Now being one of the world&#039;s most recognizable people, Daniel leads a somewhat normal life. He has made friends working on the Harry Potter films, which include his co-stars Rupert Grint and Emma Watson.',
                 'created_at' => '2016-01-27 13:09:41',
-                'updated_at' => '2016-01-27 13:09:41',
+                'updated_at' => '2016-02-22 16:34:37',
             ),
             364 => 
             array (
@@ -4822,11 +4822,11 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Shaw',
                 'birthday' => '1958-07-10',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0789716',
                 'image' => 'Fiona_Shaw_1453900190.jpg',
             'bio' => 'Fiona Shaw was Born July 10, 1958 in County Cork, Ireland. She attended secondary school at Scoil Mhuire in Cork City, and later received a degree in University College Cork. She was trained at the Royal Academy of Dramatic Art (RADA) in London and was part of a contingent of actors to emerge from the college who were considered &#039;new wave&#039;. While Fiona is first and foremost a product of the stage, she has worked prolifically before-the-camera with performances in My Left Foot (1989), Harry Potter and the Sorcerer&#039;s Stone (2001), Harry Potter and the Chamber of Secrets (2002), Harry Potter and the Prisoner of Azkaban (2004), Harry Potter and the Order of the Phoenix (2007), Harry Potter and the Deathly Hallows: Part 1 (2010), Le dahlia noir (2006), and HBO&#039;s True Blood (2008).',
                 'created_at' => '2016-01-27 13:09:51',
-                'updated_at' => '2016-01-27 13:09:51',
+                'updated_at' => '2016-02-22 16:34:40',
             ),
             365 => 
             array (
@@ -4835,7 +4835,7 @@ The young Jackie was less than successful scholastically, so his father sent him
                 'surname' => 'Davis',
                 'birthday' => '1970-02-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001116',
                 'image' => 'Warwick_Davis_1453900209.jpg',
             'bio' => 'English actor Warwick Davis was born in Epsom, Surrey, England, the son of an insurance broker and his wife. Davis was born with the condition spondyloepiphyseal dysplasia congenital (SED), which caused his dwarfism. 
 
@@ -4843,7 +4843,7 @@ He was educated at City of London Freemen&#039;s School. When he was 11 years ol
 
 Davis next big role came with a part specifically written for him, as the titular hero in Willow (1988). Other successes followed with roles in such projects as Prince Caspian and the Voyage of the Dawn Treader (1989) and two distinctly different film series - the &#039;Harry Potter&#039; and &#039;Leprechaun&#039; film series.',
                 'created_at' => '2016-01-27 13:10:09',
-                'updated_at' => '2016-01-29 13:36:00',
+                'updated_at' => '2016-02-22 16:34:43',
             ),
             366 => 
             array (
@@ -4852,11 +4852,11 @@ Davis next big role came with a part specifically written for him, as the titula
                 'surname' => 'Troyer',
                 'birthday' => '1969-01-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0873942',
                 'image' => 'Verne_Troyer_1453900219.jpg',
             'bio' => 'Verne Troyer is best known for his role as &quot;Mini-Me,&quot; Dr. Evil&#039;s smaller and more concentrated pure evil prot&eacute;g&eacute;, in the hit comedy Austin Powers: The Spy Who Shagged Me (1999) and Austin Powers in Goldmember (2002). Even though Verne has become recognized as a &quot;Big Man in the business,&quot; he has been working in show business as an actor and stuntman for several years. Troyer, born in Sturgis, Michigan, had always dreamed growing up of getting into showbiz. Shortly after his high school graduation in 1987, Verne moved with some friends to Arlington, Texas, where, in 1993, he got his first break into showbiz as a stunt double for a 9-month-old baby on a film called Baby&#039;s Day Out (1994). Over the next few years, Verne made several film and television appearances, often portraying animals or small children.',
                 'created_at' => '2016-01-27 13:10:19',
-                'updated_at' => '2016-01-27 13:10:19',
+                'updated_at' => '2016-02-22 16:34:46',
             ),
             367 => 
             array (
@@ -4865,11 +4865,11 @@ Davis next big role came with a part specifically written for him, as the titula
                 'surname' => 'Griffiths',
                 'birthday' => '1947-07-31',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0341743',
                 'image' => 'Richard_Griffiths_1453900234.jpg',
             'bio' => 'British character actor Richard Griffiths came from radio and the classical stage where he built up an early reputation as a Shakespearean clown, with larger-than-life portrayals of Henry VIII, Falstaff in &quot;The Merry Wives of Windsor&quot; and Bottom in &quot;A Midsummer Night&#039;s Dream&quot; with the Royal Shakespeare Company just a few of his standout credits. The son of deaf parents, he learned sign language at an early age and, interestingly enough, developed a talent for dialects which allowed him to show off in a number of ethnic portrayals. In films from 1975 both here and abroad, his better roles have been in both contemporary and period pieces, such as Gorky Park (1983), Withnail &amp; I (1987), King Ralph (1991), Guarding Tess (1994), Sleepy Hollow (1999) and recently the &#039;Harry Potter&#039; series as Uncle Vernon Dursley. Typically cast as comic relief in serious fare, he is well known in England for a number of comedy series including Pie in the Sky (1994).',
                 'created_at' => '2016-01-27 13:10:34',
-                'updated_at' => '2016-01-27 13:10:34',
+                'updated_at' => '2016-02-22 16:34:49',
             ),
             368 => 
             array (
@@ -4878,11 +4878,11 @@ Davis next big role came with a part specifically written for him, as the titula
                 'surname' => 'Melling',
                 'birthday' => '1989-03-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0577982',
                 'image' => 'Harry_Melling_1453900243.jpg',
             'bio' => 'Harry Melling was born on March 13, 1989 in London, England as Harry Edward Melling. He is an actor, known for Harry Potter and the Order of the Phoenix (2007), Harry Potter and the Prisoner of Azkaban (2004) and Harry Potter and the Sorcerer&#039;s Stone (2001).',
                 'created_at' => '2016-01-27 13:10:43',
-                'updated_at' => '2016-01-27 13:10:43',
+                'updated_at' => '2016-02-22 16:34:52',
             ),
             369 => 
             array (
@@ -4891,11 +4891,11 @@ Davis next big role came with a part specifically written for him, as the titula
                 'surname' => 'Grint',
                 'birthday' => '1988-08-24',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0342488',
                 'image' => 'Rupert_Grint_1453900310.jpg',
             'bio' => 'Rupert Alexander Lloyd Grint was born in Harlow, Essex, England, the elder son of Joanne (Parsons) and Nigel Grint, who dealt in memorabilia. The first of 5 children, Rupert has one brother and 3 sisters. His brother James was born when Rupert was a year old, Georgina and Samantha were born in 1993 and 1996 respectively, and last, but not least, Charlotte, who was born in 1999. Rupert grew up in Hertfordshire, the English county directly to the north of London, conveniently placed for commuting to Leavesden Film Studios. Before successfully auditioning for the Harry Potter films, Rupert attended Richard Hale Secondary School in Hertford: here he took an active interest in school plays, being cast as Rumplestilskin in the Brothers Grimm fairy tales. He was also a regular attendee at weekend drama classes at Top Hat Stage School, also in Hertford. Time at school was limited, as Rupert was needed on set for the Harry Potter films, where all of the child actors were tutored for four hours a day on set, to keep up with legal requirements. During the summer of 2004, he took his GCSE (General Certificate of Secondary Education) exams and completed his formal education.',
                 'created_at' => '2016-01-27 13:11:50',
-                'updated_at' => '2016-01-27 13:11:50',
+                'updated_at' => '2016-02-22 16:34:56',
             ),
             370 => 
             array (
@@ -4904,13 +4904,13 @@ Davis next big role came with a part specifically written for him, as the titula
                 'surname' => 'Watson',
                 'birthday' => '1990-04-15',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0914612',
                 'image' => 'emma_watson_1453906756.jpg',
                 'bio' => 'Emma Charlotte Duerre Watson was born in Paris, France, to English parents, Jacqueline Luesby and Chris Watson, both lawyers. She moved to Oxfordshire when she was five, where she attended the Dragon School. From the age of six, Emma knew that she wanted to be an actress and, for a number of years, she trained at the Oxford branch of Stagecoach Theatre Arts, a part-time theatre school where she studied singing, dancing and acting. 
 
 By the age of ten, she had performed and taken the lead in various Stagecoach productions and school plays. In 1999, casting began for Harry Potter and the Philosopher&#039;s Stone (2001), the film adaptation of British author J.K. Rowling&#039;s bestselling novel. ',
                 'created_at' => '2016-01-27 13:12:02',
-                'updated_at' => '2016-01-27 14:59:16',
+                'updated_at' => '2016-02-22 16:34:59',
             ),
             371 => 
             array (
@@ -4919,11 +4919,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Jones',
                 'birthday' => '1967-09-07',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0429363',
                 'image' => 'Toby_Jones_1453900749.jpg',
             'bio' => 'Distinguished stage, television, and film actor Toby Edward Heslewood Jones was born on September 7, 1966 in Hammersmith, London. His parents, Freddie Jones and Jennie Heslewood, are actors as well. Toby has two brothers: Rupert, a director, and Casper, a fellow actor. He studied Drama at the University of Manchester from 1986 to 1989, and at L&#039;&Eacute;cole Internationale de Th&eacute;&acirc;tre in Paris under Jacques Lecoq in Paris from 1989 to 1991. Naturally, his career began on the stage (and continues there), but film and television roles came soon after his studies. Toby made his film debut with a small role in Sally Potter&#039;s experimental take on Virginia Woolf&#039;s novel, Orlando (1992), starring Tilda Swinton. Other small film roles included the doorkeeper in Les Mis&eacute;rables (1998) and a memorable turn as the Royal Page in Ever After: A Cinderella Story (1998) with Drew Barrymore. Roles in the acclaimed Victoria &amp; Albert (2001) and the Helen Mirren-starring Elizabeth I (2005) were balanced with film work, from his voice role as Dobby the House Elf in Harry Potter and the Chamber of Secrets (2002) to supporting appearances in Ladies in Lavender (2004) (co-starring his father, Freddie), Finding Neverland (2004), and Mrs Henderson Presents (2005). He continued stage work during this period, appearing on Broadway in The Play What I Wrote in 2003, a year after winning the Laurence Olivier Theatre Award for Best Actor in a Supporting Role for his performance in the London production. Infamous (2006), directed by Douglas McGrath and released in 2006, was Toby&#039;s first starring role. His acclaimed portrayal of Truman Capote remained mostly in the shadow of Philip Seymour Hoffman&#039;s Oscar-winning performance of the author in 2005&#039;s Truman Capote (2005). A steady stream of film roles followed with appearances in Amazing Grace (2006), Le voile des illusions (2006), Nightwatching (2007), The Mist (2007), and St. Trinian&#039;s (2007). Toby then appeared in three successive films that could have been commercial breakthroughs: kid-lit flop City of Ember (2008), the Oscar-nominated Frost/Nixon (2008), and Oliver Stone&#039;s W. (2008). He reprised the voice-role of Dobby in Harry Potter and the Deathly Hallows: Part 1 (2010), appeared in the St. Trinian&#039;s sequel, as well as the Charles Darwin biopic Creation (2009) and Dustin Lance Black&#039;s post-Milk (2008) directorial outing, Virginia (2010). More Hollywood roles followed with appearances in The Rite (2011), Your Highness (2011), and his first big live-action breakthrough as Red Skull&#039;s biochemist Dr. Arnim Zola in Captain America: The First Avenger (2011). Even before Toby was announced as Cladius Templesmith in the adaptation of the novel The Hunger Games (2012), his star was on the rise after Captain America, with roles in three Oscar-nominated films: La taupe (2011), My Week with Marilyn (2011), and The Adventures of Tintin (2011). Though chances are he will forever be known by many as Cladius, the announcer for The Hunger Games with the booming voice and penchant for ending his statements with the phrase, &quot;And may the odds be ever in your favor!&quot; Toby followed up this massive success with roles in Red Lights (2012) for Buried director Rodrigo Cort&eacute;s and a memorable turn as one of the dwarves in worldwide hit Snow White and the Huntsman (2012). He will next be seen in The Girl (2012), a BBC/HBO co-production in which he stars as Alfred Hitchcock, in the miniseries Titanic (2012), Peter Strickland&#039;s Berberian Sound Studio (2012), Susanne Bier&#039;s Serena (2014), and he will reprise his role as Cladius Templesmith in The Hunger Games: Catching Fire (2013). Toby lives in London with his family.',
                 'created_at' => '2016-01-27 13:19:09',
-                'updated_at' => '2016-01-27 13:19:09',
+                'updated_at' => '2016-02-22 16:35:02',
             ),
             372 => 
             array (
@@ -4932,11 +4932,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Phelps',
                 'birthday' => '1986-02-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0962359',
                 'image' => 'James_Phelps_1453900762.jpg',
             'bio' => 'James Phelps was born on February 25, 1986 in Birmingham, England as James Andrew Eric Phelps. He is known for his work on Harry Potter and the Goblet of Fire (2005), Harry Potter and the Chamber of Secrets (2002) and Harry Potter and the Sorcerer&#039;s Stone (2001).',
                 'created_at' => '2016-01-27 13:19:22',
-                'updated_at' => '2016-01-27 13:19:22',
+                'updated_at' => '2016-02-22 16:35:05',
             ),
             373 => 
             array (
@@ -4945,11 +4945,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Phelps',
                 'birthday' => '1986-02-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0962360',
                 'image' => 'Oliver_Phelps_1453900772.jpg',
             'bio' => 'Oliver Phelps was born about 13 minutes before his twin brother, James Phelps. He has always loved acting and appeared in many high school drama productions. In 2000 he and his brother were picked to play Fred (James) and George (Oliver) Weasley in the film adaptations of the Harry Potter book series by J.K. Rowling.',
                 'created_at' => '2016-01-27 13:19:32',
-                'updated_at' => '2016-01-27 13:19:32',
+                'updated_at' => '2016-02-22 16:35:08',
             ),
             374 => 
             array (
@@ -4958,11 +4958,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Walters',
                 'birthday' => '1950-02-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0910278',
                 'image' => 'Julie_Walters_1453900782.jpg',
             'bio' => 'For decades, Brit actress and comedienne Julie Walters has served as a sturdy representation of the working class with her passionate, earthy portrayals on England&#039;s stage, screen and TV. A bona fide talent, her infectious spirit and self-deprecating sense of humor eventually captured the hearts of international audiences. The small and slender actress with the prominent cheekbones has yet to give an uninteresting performance. She was born Julia Mary Walters on February 22, 1950 in Smethwick, West Midlands, England, the youngest of three children and only daughter of Mary Bridget (O&#039;Brien), an Irish-born postal clerk from County Mayo, and Thomas Walters, an English-born builder, from Birmingham. Convent schooled in Birmingham, she expressed an early desire to act. Her iron-willed mother had other ideas, however, and geared her towards a nursing career. Dutifully applying at Queen Elizabeth Hospital in Birmingham, Julie eventually gave up nursing when the pull to be an actress proved too strong. Studying English and Drama at Manchester Polytechnic, she subsequently joined a theatre company in Liverpool and apprenticed as a stand-up comic. A one-time company member of the Vanload improv troupe, she made her London stage debut in the aptly-titled comedy &quot;Funny Peculiar&quot; in 1975, and went on to develop a successfully bawdy act on the cabaret circuit. While at Manchester, Julie befriended aspiring writer/comedienne Victoria Wood and the twosome appeared together in sketch comedy. A couple of their works, &quot;Talent&quot; and &quot;Nearly a Happy Ending,&quot; transferred to TV and were accompanied by rave reviews. Eventually they were handed their own TV series, Wood and Walters (1981). In 1980, Julie scored a huge solo success under the theatre lights when she made her London debut in Willy Russell&#039;s &quot;Educating Rita.&quot; For her superlative performance she won both the Variety Critic&#039;s and London Critic&#039;s Circle Awards as the young hairdresser who vows to up her station in life by enrolling in a university. She conquered film as well when Educating Rita (1983) transferred to the big screen opposite Michael Caine as her Henry Higgins-like college professor, collecting a Golden Globe Award and Oscar nomination. Reuniting with Victoria Wood in 1984, the pair continue to appear together frequently on TV, most recently with the award-winning series Dinnerladies (1998). On stage Julie has impressed in a variety of roles ranging from the contemporary (&quot;Fool for Love,&quot; &quot;Frankie and Johnny at the Clair de Lune&quot;) to the classics (&quot;Macbeth,&quot; &quot;The Rose Tattoo&quot; and &quot;All My Sons&quot;), winning the Olivier Award for the last-mentioned play. Following her success as Rita, she immediately rolled out a sterling succession of film femmes including her seedy waitress-turned-successful brothel-owner in Personal Services (1987); the unsophisticated, small-town wife of Phil Collins in Buster (1988); a boozy, man-chasing mum in Killing Dad or How to Love Your Mother (1990); and Liza Minnelli&#039;s abrasive tap student in Stepping Out (1991). Playing a wide variety of ages, she also mustered up a very convincing role as the mother of Joe Orton in the critically-acclaimed Prick Up Your Ears (1987). She capped her career in films as the abrasively stern but encouraging dance teacher in Billy Elliot (2000) which earned her a second Oscar nod and a healthy helping of quirky character parts, including her charming, charity-driven widow who poses &agrave; la natural in Calendar Girls (2003), and the maternal witch-wife Molly Weasley in the J.K. Rowling &quot;Harry Potter&quot; series. For her work on film and TV, the British Academy of Film and Television Arts has honored Julie five times, including four awards in a row (2001-2004). Married to Grant Roffey since 1997 after a 12-year relationship, the couple tend to a 70-acre organic farm they bought in Sussex. They have one child. Julie was honored with an OBE for her services to drama in 1999. A biography was published in 2003 entitled &quot;Julie Walters: Seriously Funny.&quot;',
                 'created_at' => '2016-01-27 13:19:42',
-                'updated_at' => '2016-01-27 13:19:42',
+                'updated_at' => '2016-02-22 16:35:11',
             ),
             375 => 
             array (
@@ -4971,11 +4971,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Wright',
                 'birthday' => '1991-02-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0942247',
                 'image' => 'Bonnie_Wright_1453900792.jpg',
             'bio' => 'Bonnie Francesca Wright was born on February 17, 1991 to jewelers Gary Wright and Sheila Teague. Her debut performance was in Harry Potter and the Sorcerer&#039;s Stone (2001) as Ron Weasley&#039;s little sister Ginny Weasley. Bonnie tried out for the film due to her older brother Lewis mentioning she reminded him of Ginny. Her role in the first film was a small cameo like role as Ginny, having bigger part in the second film Harry Potter and the Chamber of Secrets (2002). After shooting the first Potter film, in 2002 Bonnie did the Hallmark television film Stranded (2002) playing Young Sarah Robinson. Then in 2004 after doing the Harry Potter and the Prisoner of Azkaban (2004) Bonnie was cast in Agatha Christie: A Life in Pictures (2004) , a BBC TV film as Young Agatha. Then Bonnie was back as Ginny Weasley for Harry Potter and the Goblet of Fire (2005), Harry Potter and the Order of the Phoenix (2007) and for Harry Potter and the Half-Blood Prince (2009) where her role turned supporting as Harry&#039;s love interest. In 2007 she guest-voiced for Disney&#039;s The Replacements (2006) as Vanessa. Also that time she voiced Ginny for Harry Potter and the Order of the Phoenix (2007) as well for Harry Potter and the Half-Blood Prince (2009) in 2009. While shooting for Harry Potter and the Deathly Hallows: Part 1 (2010), Bonnie was cast as Mia for Geography of the Heart (2014) a feature-length film shot in five international locations about the complexity of love. Bonnie&#039;s segment was shot in December 2009 in London. Also during that time and shooting for Harry Potter and the Deathly Hallows: Part 2 (2011) Bonnie was attending London College of Communication to study film. In 2011 Bonnie starred in After the Dark (2013), with James D&#039;Arcy, Daryl Sabara and with Harry Potter co-star Freddie Stroma. Bonnie also wrote and directed a short film for school called Separate We Come, Separate We Go (2012) starring Potter co-star David Thewlis.',
                 'created_at' => '2016-01-27 13:19:52',
-                'updated_at' => '2016-01-27 13:19:52',
+                'updated_at' => '2016-02-22 16:35:14',
             ),
             376 => 
             array (
@@ -4984,11 +4984,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Williams',
                 'birthday' => '1959-08-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0931247',
                 'image' => 'Mark_Williams_1453900804.jpg',
             'bio' => 'Mark Williams was born on August 22, 1959 in Bromsgrove, Worcestershire, England. He is an actor and writer, known for Harry Potter and the Goblet of Fire (2005), Harry Potter and the Chamber of Secrets (2002) and Harry Potter and the Prisoner of Azkaban (2004). He is married to Dianne Williams. They have one child.',
                 'created_at' => '2016-01-27 13:20:04',
-                'updated_at' => '2016-01-27 13:20:04',
+                'updated_at' => '2016-02-22 16:35:18',
             ),
             377 => 
             array (
@@ -4997,11 +4997,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Ferris',
                 'birthday' => '1948-05-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0274913',
                 'image' => 'Pam_Ferris_1453900939.jpg',
             'bio' => 'Pam Ferris was born on May 11, 1948 in Hannover, Lower Saxony, Germany as Pamela E. Ferris. She is an actress, known for Harry Potter and the Prisoner of Azkaban (2004), Matilda (1996) and Children of Men (2006). She has been married to Roger Frost since 1986.',
                 'created_at' => '2016-01-27 13:22:19',
-                'updated_at' => '2016-01-27 13:22:19',
+                'updated_at' => '2016-02-22 16:35:21',
             ),
             378 => 
             array (
@@ -5010,11 +5010,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Hardy',
                 'birthday' => '1925-10-29',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0362735',
                 'image' => 'Robert_Hardy_1453900958.jpg',
             'bio' => 'One of England&#039;s most enduringly successful character actors, Robert Hardy is noted for his versatility and depth. Born in Cheltenham in 1925, he studied at Oxford University and, in 1949, he joined the Shakespeare Memorial Theatre at Stratford-upon-Avon. Television viewers most fondly remember him as the overbearing Siegfried Farnon in All Creatures Great and Small (1978) but his most critically acclaimed performance was as the title character of Winston Churchill: The Wilderness Years (1981). His portrayal of Britain&#039;s wartime leader was so accurately observed that, in the following years, he was called on to reprise the role in such productions as The Woman He Loved (1988) and War and Remembrance (1988). Unlike some British character actors, Hardy has never been recognized by Hollywood and his work in films has therefore been restricted to appearances in predominantly British-based productions such as The Spy Who Came in from the Cold (1965), Mary Shelley&#039;s Frankenstein (1994) and Sense and Sensibility (1995). He has been awarded the CBE for services to acting.',
                 'created_at' => '2016-01-27 13:22:38',
-                'updated_at' => '2016-01-27 13:22:38',
+                'updated_at' => '2016-02-22 16:35:24',
             ),
             379 => 
             array (
@@ -5023,11 +5023,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Sykes',
                 'birthday' => '1923-05-04',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0843059',
                 'image' => 'Eric_Sykes_1453901045.jpg',
                 'bio' => '&#039;Eric Sykes&#039; started as a radio scriptwriter but he soon found he could perform as well as write. The slight handicap of being very hard of hearing doesn&#039;t interfere with his wonderful comic timing. The spectacles he wears have no lenses but contain a bone conducting hearing aid.',
                 'created_at' => '2016-01-27 13:24:06',
-                'updated_at' => '2016-01-27 13:24:06',
+                'updated_at' => '2016-02-22 16:35:28',
             ),
             380 => 
             array (
@@ -5036,11 +5036,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Tennant',
                 'birthday' => '1971-04-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0855039',
                 'image' => 'David_Tennant_1453901065.jpg',
             'bio' => 'David Tennant was born David John McDonald in West Lothian, Scotland, to Essdale Helen (McLeod) and Sandy McDonald, who was a Presbyterian minister. He is of Scottish and Ulster-Scots descent. When he was about 3 or 4 years old, he decided to become an actor, inspired by his love of Doctor Who (1963). He was brought up in Bathgate, West Lothian and Paisley, Renfrewshire, Scotland and was a huge fan of the band The Proclaimers. He attended Paisley Grammar school and while there he wrote about how he wanted to become a professional actor and play the role of the Doctor in Doctor Who (1963). He made his first television appearance (which was also his first professional acting job) when he was 16, after his father sent some photos of him to a casting director at Scottish television. He also attended a youth theatre group at weekends run by the Royal Scottish Academy of Music and Drama (RSAMD - now renamed the Royal Conservatoire of Scotland [RCS]). When he was 16 he auditioned for and won a place at the RSAMD; the youngest student to ever do so, and started as a full time drama student when he was 17. He worked regularly in theatre and TV after leaving drama school, and his first big break came in 1994 when he was cast in a lead role in the Scottish drama Takin&#039; Over the Asylum (1994). He then moved to London where his career thrived. Amongst other things, he spent several years as a member of the Royal Shakespeare Company, and became famous from his lead roles in TV dramas Blackpool (2004) and Casanova (2005). In 2005, his childhood wish came true. David was cast to play the role of the Doctor in Doctor Who (2005) alongside Billie Piper, after Christopher Eccleston decided to leave. Playing the Doctor made him a household name. Since leaving the series in 2010 his career has continued to rise, with lead roles in films, TV series and theatre.',
                 'created_at' => '2016-01-27 13:24:25',
-                'updated_at' => '2016-01-27 13:24:25',
+                'updated_at' => '2016-02-22 16:35:31',
             ),
             381 => 
             array (
@@ -5049,11 +5049,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Pattinson',
                 'birthday' => '1986-05-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1500155',
                 'image' => 'Robert_Pattinson_1453901079.jpg',
             'bio' => 'Robert Douglas Thomas Pattinson was born May 13, 1986 in London, England, to Clare (Charlton), who worked at a modeling agency, and Richard Pattinson, a vintage car importer. He enjoys music and plays both the guitar and piano. When Robert was fifteen, he started acting in amateur plays with the Barnes Theatre Company. Afterward, he took screen role like L&#039;anneau sacr&eacute; (2004) (Kingdom of Twilight) as Giselher. In 2003, Robert took on the role of Cedric Diggory in Harry Potter and the Goblet of Fire (2005). He got his role a week later after meeting Mike Newell in late 2003. He has since been cast as Edward Cullen in the highly-anticipated film, Twilight (2008). His music will also be heard in the film. Additionally, Robert has completed upcoming roles as Salvador Dal&iacute; in Little Ashes (2008) and Art in How to Be (2008).',
                 'created_at' => '2016-01-27 13:24:39',
-                'updated_at' => '2016-01-27 13:24:39',
+                'updated_at' => '2016-02-22 16:35:34',
             ),
             382 => 
             array (
@@ -5062,11 +5062,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Isaacs',
                 'birthday' => '1963-06-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005042',
                 'image' => 'Jason_Isaacs_1453901089.jpg',
             'bio' => 'Jason Isaacs was born in Liverpool, the third of four children of Sheila (n&eacute;e Nathan) and Eric Isaacs. His parents were both from Jewish families (from Eastern Europe). He studied law at Bristol University and graduated in 1985 with a degree in law but decided to study acting. While at Bristol University, he directed and/or appeared in over 20 productions. He then attended the Central School of Speech and Drama and graduated in 1989. Jason&#039;s notable roles include Col. William Tavington in The Patriot (2000), Lucius Malfoy in the Harry Potter films, Mr. Darling/Captain Hook in Peter Pan (2003), and Maurice in Good (2008). In 2014, he will appear with Brad Pitt, Shia LaBeouf, Logan Lerman, and Jon Bernthal in the World War II-set film Fury (2014).',
                 'created_at' => '2016-01-27 13:24:49',
-                'updated_at' => '2016-01-27 13:24:49',
+                'updated_at' => '2016-02-22 16:35:37',
             ),
             383 => 
             array (
@@ -5075,11 +5075,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Felton',
                 'birthday' => '1987-09-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0271657',
                 'image' => 'Tom_Felton_1453901098.jpg',
             'bio' => 'Tom Felton was born in Epsom, Surrey, to Sharon and Peter Felton. He has been acting since he was 8 years old at the suggestion of an actress friend of his family who recognized Felton&#039;s theatrical qualities. Felton met with an agent, and two weeks later, after auditioning with over 400 other children, he landed an international commercial campaign and went abroad to work. A talented singer, he started singing in a church choir at the age of 7 and has been a member of four choirs at school. He declined an offer to join the Guildford Cathedral Choir. He is a keen sportsman enjoying football (soccer), ice skating, roller blading, basketball, cricket, swimming, and tennis. After working on Anna and the King (1999) with Jodie Foster, Tom received his big break in Harry Potter and the Sorcerer&#039;s Stone (2001) as Draco Malfoy, school boy rival to the titular character as played by Daniel Radcliffe. Tom managed to film the part of Draco in all eight &quot;Harry Potter&quot; movies while also having an active life outside the magical world it created. In between shoots he filmed independent horror movies The Disappeared (2008), Night Wolf (2010), and The Apparition (2012) with Twilight&#039;s Ashley Greene. It was directly after completing his filming on &quot;Harry Potter&quot; that he landed his roles in Rise of the Planet of the Apes (2011) and From the Rough (2013). His newest projects are In Secret (2013), Fangs of War (????) and Attachment. In between acting gigs, Tom still manages times with his music. He is one of the founding owners and talent of Six String Productions, a recording company devoted to signing young musical artists overlooked by the major recording industry.',
                 'created_at' => '2016-01-27 13:24:58',
-                'updated_at' => '2016-01-27 13:24:58',
+                'updated_at' => '2016-02-22 16:35:40',
             ),
             384 => 
             array (
@@ -5088,11 +5088,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Fiennes',
                 'birthday' => '1962-12-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000146',
                 'image' => 'Ralph_Fiennes_1453901121.jpg',
             'bio' => 'Ralph Nathaniel Twisleton-Wykeham-Fiennes was born on December 22, 1962 in Suffolk, England, to Jennifer Anne Mary Alleyne (Lash), a novelist, and Mark Fiennes, a photographer. He is the eldest of six children. Four of his siblings are also in the arts: Martha Fiennes, a director; Magnus Fiennes, a musician; Sophie, a producer; and Joseph Fiennes, an actor. He is of English, Irish, and Scottish origin. Fiennes has been honored with two Academy Award nominations, the first in 1994 for his performance in Steven Spielberg&#039;s Oscar-winning Best Picture, Schindler&#039;s List (1993). Fiennes&#039; chilling portrayal of Nazi Commandant Amon Goeth also brought him a Golden Globe nomination and a BAFTA Award, as well as Best Supporting Actor honors from numerous critics groups, including the National Society of Film Critics, and the New York, Chicago, Boston and London Film Critics associations. Four years later, Fiennes earned his second Oscar nomination, for Best Actor, in another Best Picture winner, Anthony Minghella&#039;s The English Patient (1996). He also garnered Golden Globe and BAFTA Award nominations, as well as two Screen Actors Guild (SAG) Award nominations, one for Best Actor and another shared with the film&#039;s ensemble cast. His long list of film credits also includes the award-winning drama The Reader (2008), co-starring Kate Winslet; Kathryn Bigelow&#039;s Oscar&reg;-winning The Hurt Locker (2008); the Neil Jordan-directed films The End of the Affair (1999) and L&#039;homme de la Riviera (2002); Istv&aacute;n Szab&oacute;&#039;s Sunshine (1999); Maid in Manhattan (2002); the animated The Prince of Egypt (1998); Oscar and Lucinda (1997); Robert Redford&#039;s Quiz Show (1994); and Wuthering Heights (1992), which marked his film debut. Fiennes notably portrayed of the evil Lord Voldemort in the Harry Potter blockbuster film franchise. His nephew, Hero Fiennes-Tiffin played Tom Riddle, the young Lord Voldemort, in Harry Potter and the Half-Blood Prince (2009). Fiennes made his feature film directorial debut with a contemporary version of Shakespeare&#039;s political thriller Coriolanus (2011), in which he also starred with Gerard Butler and Vanessa Redgrave. He will star next in Mike Newell&#039;s screen adaptation of Charles Dickens&#039; Great Expectations (2012), with Helena Bonham Carter and Jeremy Irvine, and in the highly anticipated Skyfall (2012), the next film in the Bond series, from director Sam Mendes.',
                 'created_at' => '2016-01-27 13:25:21',
-                'updated_at' => '2016-01-27 13:25:21',
+                'updated_at' => '2016-02-22 16:35:43',
             ),
             385 => 
             array (
@@ -5101,11 +5101,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Tena',
                 'birthday' => '1984-11-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1164730',
                 'image' => 'Natalia_Tena_1453901129.jpg',
             'bio' => 'Natalia Tena was born on November 1, 1984 in London, England as Natalia Gastiain Tena. She is an actress and writer, known for Harry Potter and the Order of the Phoenix (2007), About a Boy (2002) and Harry Potter and the Deathly Hallows: Part 2 (2011).',
                 'created_at' => '2016-01-27 13:25:29',
-                'updated_at' => '2016-01-27 13:25:29',
+                'updated_at' => '2016-02-22 16:35:46',
             ),
             386 => 
             array (
@@ -5114,11 +5114,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Gleeson',
                 'birthday' => '1955-03-29',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0322407',
                 'image' => 'Brendan_Gleeson_1453901138.jpg',
             'bio' => 'Brendan Gleeson was born in Dublin, Ireland, to Pat and Frank Gleeson. From a very young age, he loved to learn, especially reading classical text in and outside the classroom. He took great attention to Irish play writers such as Samuel Beckett, which eventually led to him performing in his high school play production of &quot;Waiting for Godot&quot;, and paying great attention to detail in his high school drama classes. Upon finishing 12th grade, he spent a couple of years with the Dublin Shakespeare Festival, and under the advice of a director there, headed across to London and auditioned for drama schools. Soon to follow, he was invited to audition for the Royal Shakespeare Company in Stratford upon Avon, and spent a couple of seasons back in England on the stage. He then, at the age of thirty five, decided to audition for films in the UK and began to build a very respectable resume playing many different diverse characters. He made his debut as a quarryman in The Field (1990). He had several small roles in major Hollywood movies based in Ireland, such as Far and Away (1992) and Le cheval venu de la mer (1992). Memorably played historical Irish figure &quot;Michael Collins&quot; in The Treaty (1991). Made his breakthrough in Scottish themed Braveheart (1995), which was largely filmed in Ireland, opposite Mel Gibson. He played Gibson&#039;s right-hand man &quot;Hamish&quot;. Since then, he has appeared in numerous major films such as Mission: Impossible II (2000), Lake Placid (1999), Turbulence (1997). He has made a name for himself taking the titular role in The General (1998), based on the life of Irish criminal &quot;Martin Cahill&quot;, for which he won the Boston Society of Film Critics Award. He appears in director John Boorman&#039;s film The Tailor of Panama (2001) as well as Martin Scorsese&#039;s Gangs of New York (2002) and Steven Spielberg&#039;s A.I. Artificial Intelligence (2001). Ever since, he has continued to bring his huge stage presence to the screen, always delivering the character in full development to his audience. He is married to his lovely wife, Mary, since 1982. They have four sons.',
                 'created_at' => '2016-01-27 13:25:38',
-                'updated_at' => '2016-01-27 13:25:38',
+                'updated_at' => '2016-02-22 16:35:49',
             ),
             387 => 
             array (
@@ -5127,11 +5127,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Gambon',
                 'birthday' => '1940-10-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0002091',
                 'image' => 'Michael_Gambon_1453901165.jpg',
             'bio' => 'Sir Michael Gambon was born in Cabra, Dublin, Ireland, to Mary (Hoare), a seamstress, and Edward Gambon, an engineer. After joining the National Theatre, under the Artistic Directorship of Sir Laurence Olivier, Gambon went on to appear in a number of leading roles in plays written by Alan Ayckbourn. His career was catapulted in 1980 when he took the lead role in John Dexter&#039;s production of &quot;Galileo&quot;. Since then, Gambon has regularly appeared at the Royal National Theatre and the RSC. Roles include, King Lear, Othello, Mark Anthony and Volpone. He was described by the late Sir Ralph Richardson as being &quot;The Great Gambon&quot; and he is now considered to be one of the British theatre&#039;s leading lights. He was made a CBE in 1992.',
                 'created_at' => '2016-01-27 13:26:05',
-                'updated_at' => '2016-01-27 13:26:05',
+                'updated_at' => '2016-02-22 16:35:52',
             ),
             388 => 
             array (
@@ -5140,11 +5140,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Broadbent',
                 'birthday' => '1949-05-24',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000980',
                 'image' => 'Jim_Broadbent_1453901177.jpg',
             'bio' => 'One of England&#039;s most versatile character actors, Jim Broadbent was born on May 24, 1949, in Lincolnshire, the youngest son of furniture maker Roy Laverick Broadbent and sculptress Doreen &quot;Dee&quot; (Findlay) Broadbent. Jim attended a Quaker boarding school in Reading before successfully applying for a place at an art school. His heart was in acting, though, and he would later transfer to the London Academy of Music and Dramatic Art (LAMDA). Following his 1972 graduation, he began his professional career on the stage, performing with the Royal National Theatre, the Royal Shakespeare Company, and as part of the National Theatre of Brent, a two-man troupe which he co-founded. In addition to his theatrical work, Broadbent did steady work on television, working for such directors as Mike Newell and Stephen Frears. Broadbent made his film debut in 1978 with a small part in Jerzy Skolimowski&#039;s The Shout (1978). He went on to work with Frears again in The Hit (1984) and with Terry Gilliam in Time Bandits (1981) and Brazil (1985), but it was through his collaboration with Mike Leigh that Broadbent first became known to an international film audience. In 1990 he starred in Leigh&#039;s Life Is Sweet (1990), a domestic comedy that cast him as a good-natured cook who dreams of running his own business. Broadbent gained further visibility the following year with substantial roles in Neil Jordan&#039;s The Crying Game (1992) and Mike Newell&#039;s Screen Two: Enchanted April (1991), and he could subsequently be seen in such diverse fare as Woody Allen&#039;s Bullets Over Broadway (1994), Widows&#039; Peak (1994), Richard Loncraine&#039;s highly acclaimed adaptation of Shakespeare&#039;s Richard III (1995) and Little Voice (1998), the last of which cast him as a seedy nightclub owner. Appearing primarily as a character actor in these films, Broadbent took center stage for Leigh&#039;s Topsy-Turvy (1999), imbuing the mercurial W.S. Gilbert with emotional complexity and comic poignancy. Jim&#039;s breakthrough year was 2001, as he starred in three critically and commercially successful films. Many would consider him the definitive supporting actor of that year. First he starred as Bridget&#039;s dad (Colin Jones) in Bridget Jones&#039;s Diary (2001), which propelled Ren&eacute;e Zellweger to an Oscar nomination for Best Actress. Next came the multiple Oscar-nominated film (including Best Picture) Moulin Rouge! (2001), for which he won a Best Supporting Actor BAFTA award for his scene-stealing performance as Harold Zidler. Lastly, came the small biopic Iris (2001), for which he won the Oscar for Best Supporting Actor as devoted husband John Bayley to Judi Dench&#039;s Iris Murdoch, the British novelist who suffered from Alzheimer&#039;s disease. The film hit home with Jim, since his own mother had passed away from Alzheimer&#039;s in 1995.',
                 'created_at' => '2016-01-27 13:26:17',
-                'updated_at' => '2016-01-27 13:26:17',
+                'updated_at' => '2016-02-22 16:35:55',
             ),
             389 => 
             array (
@@ -5153,11 +5153,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Nighy',
                 'birthday' => '1949-12-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0631490',
                 'image' => 'Bill_Nighy_1453901213.jpg',
             'bio' => 'Bill Nighy is an award-winning British character actor. He was born on December 12, 1949 in Caterham, Surrey, England, to Catherine Josephine (Whittaker), a psychiatric nurse from Glasgow, and Alfred Martin Nighy, who was English-born and managed a garage in Croydon. At school, he gained &#039;O&#039;-levels in English Language and English Literature and enjoyed reading, particularly Ernest Hemingway. On leaving school he wanted to become a journalist but didn&#039;t have the required qualifications. He eventually went on to work as a messenger boy for the Field magazine. He stayed in Paris for a while because he wanted to write &quot;the great novel&quot;, but he only managed to write the title. When he ran out of money, the British consul shipped him home. Nighy wound up training at Guildford School of Dance and Drama in London, and has since then worked consistently in film, television, and on stage. Nighy is perhaps best-known to international audiences for his memorable performance as washed-up pop singer Billy Mack in Love Actually (2003), which won him a BAFTA for best supporting actor. He has also made appearances in major franchises: he played vampire leader Viktor in Underworld (2003), Underworld: Evolution (2006) and Underworld: Rise of the Lycans (2009), did the performance capture and voice for Davy Jones in Pirates of the Caribbean: Dead Man&#039;s Chest (2006) and Pirates of the Caribbean: At World&#039;s End (2007), and made a brief appearance as Minister of Magic Rufus Scrimgeour in Harry Potter and the Deathly Hallows: Part 1 (2010). Nighy&#039;s recent film credits include roles in I Capture the Castle (2003), Shaun of the Dead (2004), The Hitchhiker&#039;s Guide to the Galaxy (2005), The Constant Gardener (2005), Notes on a Scandal (2006), Hot Fuzz (2007), Valkyrie (2008) and Pirate Radio (2009). He has also provided voice work for many animated movies in the past few years including Flushed Away (2006), Astro Boy (2009), Rango (2011) and Arthur Christmas (2011). With supporting turns in The Best Exotic Marigold Hotel (2011), Wrath of the Titans (2012) and Total Recall (2012), 2012 was a busy year for Nighy. There are no signs of slowing down either, as he will next been seen in I, Frankenstein (2014), Jack the Giant Slayer (2013) and About Time (2013). Nighy has also had an active career on the small screen, beginning with Agony (1979), and his first widely-recognized role was in 1991 mini-series The Men&#039;s Room (1991). He has also made a habit of working on television with Harry Potter director David Yates: projects together include State of Play (2003), The Young Visiters (2003), The Girl in the Caf&eacute; (2005) and Page Eight (2011). Nighy won a Golden Globe for his performance in Gideon&#039;s Daughter (2005). Nighy actually began his career on the stage, and has earned acclaim for his work in numerous plays including &quot;The Vertical Hour,&quot; &quot;Pravda&quot; &quot;A Map of the World&quot;, Tom Stoppard&#039;s Arcadia in 1993, and David Hare&#039;s Skylight. He received an Olivier Award nomination for Best Actor for his performance in 2001 play &quot;Blue/Orange.&quot; Bill&#039;s partner was actress Diana Quick (he asked her to marry him but she said: &quot;don&#039;t ask me again&quot;; he called her his wife because anything else would have been too difficult). They have a daughter, Mary Nighy, who is studying at university and contemplating an acting career. She has already begun to appear on TV dramas and radio programs.',
                 'created_at' => '2016-01-27 13:26:53',
-                'updated_at' => '2016-01-27 13:26:53',
+                'updated_at' => '2016-02-22 16:35:58',
             ),
             390 => 
             array (
@@ -5166,11 +5166,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Lynch',
                 'birthday' => '1991-08-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2121541',
                 'image' => 'Evanna_Lynch_1453901237.jpg',
                 'bio' => 'Evanna Patricia Lynch is an Irish actress. Born in the town of Termonfeckin in Ireland, she is one of four children to Donal and Marguerite Lynch. Her acting career began in 2007 when she competed in an open audition against nearly 15,000 girls, and won the coveted role of Luna Lovegood in the &quot;Harry Potter&quot; movie franchise. She appeared in four Harry Potter films and became a main character in the final two films in 2010 and 2011. She also voiced her character in their tie-in video games. She continues to pursue acting and does charity work for organizations such as the Multiple Sclerosis Society of Ireland and The Harry Potter Alliance, of which she is a member of the Board of Advisors.',
                 'created_at' => '2016-01-27 13:27:17',
-                'updated_at' => '2016-01-27 13:27:17',
+                'updated_at' => '2016-02-22 16:36:01',
             ),
             391 => 
             array (
@@ -5179,11 +5179,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Gleeson',
                 'birthday' => '1983-05-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1727304',
                 'image' => 'Domhnall_Gleeson_1453901244.jpg',
             'bio' => 'Domhnall Gleeson was born on May 12, 1983 in Dublin, Ireland. He is an actor and writer, known for Ex Machina (2015), About Time (2013) and The Revenant (2015).',
                 'created_at' => '2016-01-27 13:27:25',
-                'updated_at' => '2016-01-27 13:27:25',
+                'updated_at' => '2016-02-22 16:36:04',
             ),
             392 => 
             array (
@@ -5192,11 +5192,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Murphy',
                 'birthday' => '1961-04-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000552',
                 'image' => 'Eddie_Murphy_1453901265.jpg',
             'bio' => 'Edward Regan Murphy was born April 3, 1961 in Brooklyn, New York, to Lillian, a telephone operator, and Charles Edward Murphy, a transit police officer who was also an amateur comedian and actor. After his father died, his mother married Vernon Lynch, a foreman at a Breyer&#039;s Ice Cream plant. His siblings are Charlie Murphy and Vernon Lynch, Jr. Eddie had aspirations of being in show business since he was a child. A bright kid growing up in the streets of New York, Murphy spent a great deal of time on impressions and comedy stand-up routines rather than academics. His sense of humor and wit made him a stand out amongst his classmates at Roosevelt Junior-Senior High School. By the time he was fifteen, Murphy worked as a stand-up comic on the lower part of New York, wooing audiences with his dead-on impressions of celebrities and outlooks on life. In the early 1980s, at the age of 19, Murphy was offered a contract for the Not-Ready-For-Prime-Time Players of Saturday Night Live (1975), where Murphy exercised his comedic abilities in impersonating African American figures and originating some of the shows most memorable characters: Velvet Jones, Mr. Robinson, and a disgruntled and angry Gumby. Murphy made his feature film debut in 48 Hrs. (1982), alongside Nick Nolte. The two&#039;s comedic and antagonistic chemistry, alongside Murphy&#039;s believable performance as a streetwise convict aiding a bitter, aging cop, won over critics and audiences. The next year, Murphy went two for two, with another hit, pairing him with John Landis, who later became a frequent collaborator with Murphy in Coming to America (1988) and Beverly Hills Cop III (1994). Beverly Hills Cop (1984) was the film that made Murphy a box-office superstar and most notably made him a celebrity worldwide, and it remains one of the all-time biggest domestic blockbusters in motion-picture history. Murphy&#039;s performance as a young Detroit cop in pursuit of his friend&#039;s murderers earned him a third consecutive Golden Globe nomination. Axel Foley became one of Murphy&#039;s signature characters. On top of his game, Murphy was unfazed by his success, that is until his box office appeal and choices in scripts resulted into a spotty mix of hits and misses into the late 1980s and early 1990s. Films like The Golden Child (1986) and Beverly Hills Cop II (1987) were critically panned but were still massive draws at the box office. In 1989, Murphy, coming off another hit, Coming to America (1988), found failure with his directorial debut, Harlem Nights (1989). Another 48 Hrs. (1990) and his turn as a hopeless romantic in Boomerang (1992) did little to resuscitate his career. However, his remake of Jerry Lewis&#039;s The Nutty Professor (1996) brought Murphy&#039;s drawing power back into fruition. From there, Murphy rebounded with occasional hits and misses but has long proven himself as a skilled comedic actor with applaudable range pertaining to characterizations and mannerisms. Though he has grown up a lot since his fast-lane rise as a superstar in the 1980s, Murphy has lived the Hollywood lifestyle with controversy, criticism, scandal, and the admiration of millions worldwide for his talents. As Murphy had matured throughout the years, learning many lessons about the Hollywood game in the process, he settled down with more family-oriented humor with Doctor Dolittle (1998), Mulan (1998), Bowfinger (1999), and the animated smash Shrek (2001), in a supporting role that showcased Murphy&#039;s comedic personality and charm. Throughout the 2000s, he further starred in the hits The Haunted Mansion (2003), Shrek 2 (2004), Dreamgirls (2006) (for which he was nominated for a Best Supporting Actor Oscar), Norbit (2007), Shrek the Third (2007), and Shrek Forever After (2010). Murphy was married to Nicole Mitchell Murphy from 1993 to 2006. Murphy has eight children.',
                 'created_at' => '2016-01-27 13:27:45',
-                'updated_at' => '2016-01-27 13:27:45',
+                'updated_at' => '2016-02-22 16:36:08',
             ),
             393 => 
             array (
@@ -5205,11 +5205,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Parker',
                 'birthday' => '1962-05-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0662511',
                 'image' => 'Nathaniel_Parker_1453901284.jpg',
             'bio' => 'Nathaniel Parker was born in England in 1962. The son of Sir Peter Parker and Dr. Jill Parker, he decided at the age of nine that acting would be his career of choice. His first public performances were with the National Youth Theatre, a breeding ground for many British actors. After attending The London Academy of Music and Dramatic Arts (LAMDA), Nathaniel became a member of the Royal Shakespeare Company (RSC). Before exiting the stage for the screen, Nathaniel portrayed &quot;Bassanio&quot; in The Merchant Of Venice, participating in both the London and Broadway productions. The production was directed by the critically acclaimed Sir Peter Hall and starred Dustin Hoffman. His first feature film, War Requiem (1989), was directed by the highly acclaimed British maverick Derek Jarman, and starred Tilda Swinton and Lord Laurence Olivier. Nathaniel is perhaps best known for his participation in period dramas such as the part of &quot;Laertes&quot; in Franco Zeffirelli&#039;s Hamlet (1990), &quot;Rochester&quot; in Wide Sargasso Sea (1993) and &quot;Cassio&quot; in his brother Oliver Parker&#039;s version of Othello (1995), starring Laurence Fishburne. He also appeared in the Chris Farley comedy Beverly Hills Ninja (1997) and the Kevin Costner/Whitney Houston box office hit, The Bodyguard (1992). Parts in projects such as Into Thin Air: Death on Everest (1997) and David (1997) helped Nathaniel gain momentum in the world of television, but it was roles like &quot;Rawdon Crawley&quot; in Vanity Fair (1998) and &quot;Gabriel Oak&quot; in Far from the Madding Crowd (1998) that thrust him into the spotlight and solidified his career on the small screen. Currently, Nathaniel portrays &quot;Detective Thomas Lynley&quot; in the BBC series The Inspector Lynley Mysteries (2001). Now in its third season, the show has become an international success, earning rave reviews the world over. Returning to Hollywood in 2003, Nathaniel can be seen in cinemas soon, portraying &quot;Master Edward Gracey&quot; in Walt Disney Pictures The Haunted Mansion (2003), starring Eddie Murphy.',
                 'created_at' => '2016-01-27 13:28:04',
-                'updated_at' => '2016-01-27 13:28:04',
+                'updated_at' => '2016-02-22 16:36:11',
             ),
             394 => 
             array (
@@ -5218,11 +5218,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Tilly',
                 'birthday' => '1958-09-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000236',
                 'image' => 'Jennifer_Tilly_1453901296.jpg',
             'bio' => 'An actress who always attracts audiences&#039; attention, Jennifer Tilly is by turns funny, sexy, compassionate, compelling and often all at once. Her breakthrough movie role tapped into all of those qualities failing singer Blanche &quot;Monica&quot; Moran in Steve Kloves&#039; The Fabulous Baker Boys (1989) opposite brothers Jeff Bridges and Beau Bridges. A few years later, Jennifer earned an Academy Award nomination for her portrayal of the aspiring but hopelessly untalented actress Olive Neal in Woody Allen&#039;s Bullets Over Broadway (1994). She has become well-known to filmgoers for both major studio and independent films. In Tom Shadyac&#039;s blockbuster Liar Liar (1997), she kept pace with Jim Carrey. Her steamy performance opposite Gina Gershon helped make Lana Wachowski&#039;s and Andy Wachowski&#039;s Bound (1996) a breakout indie success at the Sundance Film Festival and then in theatrical release. It also expanded Jennifer&#039;s already significant gay and lesbian following. She successfully cultivated another fan base with the revitalization of the &quot;Child&#039;s Play&quot; horror comedy franchise. For Ronny Yu&#039;s La fianc&eacute;e de Chucky (1998), the filmmakers turned to Jennifer to create the character who would spark the series in a new direction. She met the challenge and established a new horror icon in Tiffany. This Halloween, in Rogue Pictures&#039; all-new Le fils de Chucky (2004), written and directed by series creator Don Mancini, Jennifer again takes the popular series to the next level; she stars as Tiffany and as herself, the deadly doll&#039;s favorite actress, who soon becomes an unwitting hostess in more ways than one. Jennifer&#039;s pitch-perfect voiceover work as Tiffany is not the only instance of her being able to incarnate a character from the vocal chords out. Families know her distinctive cadences from the recent Disney hits Home on the Range (2004) (in which Jennifer voiced a new-age bovine), directed by Will Finn and John Sanford; The Haunted Mansion (2003) (in which Jennifer acted from the neck up only), directed by Rob Minkoff; and the Pixar blockbuster Monsters, Inc. (2001) (voicing Mike&#039;s love interest Celia), directed by Pete Docter, David Silverman and Lee Unkrich. She began her acting career as a teenager, putting herself through the theater program at Stephens College in Missouri by winning writing competitions. She then headed to Los Angeles, California. While she continued to act on the stage (earning a Dramalogue Award for her performance in &quot;Vanities&quot;), movies and television immediately came calling for the actress with the unique voice and visage. Over the years, Jennifer has made memorable appearances on some of television&#039;s best series, including Hill Street Blues (1981) (in a recurring dramatic role), Cheers (1982), Moonlighting (1985), It&#039;s Garry Shandling&#039;s Show. (1986) and Frasier (1993). In addition, she has been a favored guest on a number of talk shows, from The Tonight Show Starring Johnny Carson (1962) to The Arsenio Hall Show (1989) to (currently) The Tonight Show with Jay Leno (1992). Those interview segments have encouraged viewers to expect the unexpected from her interplay with the host and the studio audience. Her many films over a two-decade span include Neil Jordan&#039;s High Spirits (1988), Oliver Stone&#039;s The Doors (1991), Richard Benjamin&#039;s Made in America (1993), Roger Donaldson&#039;s The Getaway (1994), Joe Pytka&#039;s Let It Ride (1989), P.J. Castellaneta&#039;s Relax... It&#039;s Just Sex (1998), Michael Radford&#039;s Dancing at the Blue Iguana (2000), Peter Bogdanovich&#039;s The Cat&#039;s Meow (2001) (in which she played Louella Parsons). Jennifer Tilly has also continued to act on the stage. She won a Theater World Award for her performance in off-Broadway&#039;s &quot;One Shoe Off&quot; and starred on Broadway in the 2001 revival of &quot;The Women&quot; (which was later taped for, and broadcast on, PBS).',
                 'created_at' => '2016-01-27 13:28:16',
-                'updated_at' => '2016-01-27 13:28:16',
+                'updated_at' => '2016-02-22 16:36:14',
             ),
             395 => 
             array (
@@ -5231,11 +5231,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Shawn',
                 'birthday' => '1943-11-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001728',
                 'image' => 'Wallace_Shawn_1453901306.jpg',
             'bio' => 'American character actor and writer Wallace Shawn has one of those fun, mischievously homely faces just made to entertain. Though he got out of the starting gate rather slowly, he has since excelled on stage, television and film while managing to turn himself into a winner with his loser-type looks. Woody Allen&#039;s character in the movie Manhattan (1979) amusingly describes Wallace&#039;s character as &quot;a homunculus&quot;, which is a pretty fair description of this predominantly bald, wan, pucker-mouthed, butterball-framed, slightly lisping gent. Wallace made his movie debut in Allen&#039;s heralded classic playing Diane Keaton&#039;s ex-husband. Born to privilege on November 12, 1943 in New York City, Wallace was the son of renowned editor William Shawn of &quot;The New Yorker&quot; fame and educated at both Harvard University, where he studied history, and Magdalen College, Oxford. Wallace initially taught English in India on a Fulbright scholarship, and then English, Latin and drama back in New York. However, a keen interest in writing and acting soon compelled him to leave his cushy position and pursue a stage career as both playwright and actor. During his distinguished career, Wallace turned out several plays. &quot;Our Late Night&quot;, the first of his works to be performed, was awarded an off-Broadway Obie in 1975. &quot;A Thought in Three Parts&quot; (1976); &quot;The Mandrake&quot; (1977), which he translated from the original Italian and in which he made his acting debut; &quot;Marie and Bruce&quot; (1979); &quot;Aunt Dan and Lemon&quot; (1985) and &quot;The Fever&quot;, for which he received his second Obie Award for &quot;Best New Play&quot; during the 1990-91 season, then followed. A popular support player in both comedy and occasional drama, his assorted kooks, creeps, eggheads and schmucks possessed both endearing and unappetizing qualities. He earned some of his best early notices partnered with theatre director/actor Andre Gregory in the unique Louis Malle-directed film My Dinner with Andre (1981). Shawn co-wrote the improvisatory, humanistic piece and his brother, Allen Shawn, was the composer. Shawn and Gregory would collaborate again for Malle in another superb, original-concept film Vanya on 42nd Street (1994). Among the quality offbeat filming involving has been Bruce Paltrow&#039;s A Little Sex (1982); James Ivory&#039;s The Bostonians (1984); Stephen Frears&#039; Prick Up Your Ears (1987); Rob Reiner&#039;s The Princess Bride (1987); Alan Rudolph&#039;s The Moderns (1988) and Mrs. Parker and the Vicious Circle (1994); Paul Bartel&#039;s Scenes from the Class Struggle in Beverly Hills (1989); and several others for Woody Allen: Radio Days (1987), Shadows and Fog (1991), The Curse of the Jade Scorpion (2001) and Melinda and Melinda (2004). Of late, he has lent his vocal talents to a considerable number of animated pictures including A Goofy Movie (1995), Toy Story (1995) (and its sequel), The Jungle Book: Mowgli&#039;s Story (1998), The Incredibles (2004), Chicken Little (2005) and Happily N&#039;Ever After (2006). Over the decades, Shawn has scurried about effortlessly in a number of television guest appearances including Taxi (1978), Homicide: Life on the Street (1993), Ally McBeal (1997), Law &amp; Order: Criminal Intent (2001) and Desperate Housewives (2004), and has drummed up a few recurring roles for himself in the process, including The Cosby Show (1984), Murphy Brown (1988), Star Trek: Deep Space Nine (1993) and Crossing Jordan (2001). In the series Clueless (1996), based on the highly successful of the same name Clueless (1995), Shawn revisited his role as the owlish high school teacher.',
                 'created_at' => '2016-01-27 13:28:26',
-                'updated_at' => '2016-01-27 13:28:26',
+                'updated_at' => '2016-02-22 16:36:18',
             ),
             396 => 
             array (
@@ -5244,11 +5244,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Newman',
                 'birthday' => '1925-01-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000056',
                 'image' => 'Paul_Newman_1453901330.jpg',
             'bio' => 'Screen legend, superstar, and the man with the most famous blue eyes in movie history, Paul Leonard Newman was born in January 1925, in Cleveland, Ohio, the second son of Theresa (Fetsko) and Arthur Sigmund Newman. Paul&#039;s father was Jewish, the son of immigrants from Poland and Hungary; he owned a successful sporting goods store. Paul&#039;s mother, a practicing Christian Scientist of Slovak decent, and his uncle Joe, had an interest in creative arts, and it rubbed off on him. He acted in grade school and high school plays. The Newmans were a well-to-do family, and Paul grew up in a nice home in Shaker Heights. By 1950, the 25 year-old Newman had been kicked out of Ohio University for unruly behavior, served three years in the Navy during World War II as a radio operator, graduated from Ohio&#039;s Kenyon College, married his first wife, Jackie, and had his first child, Scott. 1950 was also the year that Paul&#039;s father died. When he became successful in later years, Newman said if he had any regrets it would be that his father wasn&#039;t around to see it. He brought Jackie back to Shaker Heights and he ran his father&#039;s store for a short period. Then, knowing that wasn&#039;t the career path he wanted to take, he moved Jackie and Scott to New Haven, Connecticut, where he attended Yale University&#039;s School of Drama. While doing a play there, Paul was spotted by two agents, who invited him to come to New York City to pursue a career as a professional actor. After moving to New York, Paul acted in guest spots for various television shows and in 1953 came a big break. He got the part of understudy of the lead role in the successful Broadway play Picnic. Through this play, he met actress Joanne Woodward, who was also an understudy in the play. While they got on very well and there was a strong attraction, Paul was married and his second child, Susan, was born that year. During this time, Newman was also accepted into the much admired and popular New York Actors Studio, although he wasn&#039;t technically auditioning. In 1954, a film Paul was very reluctant to do was released, The Silver Chalice (1954). He considered his performance in this costume epic to be so bad that he took out a full-page ad in a trade paper apologizing for it to anyone who might have seen it. He had always been embarrassed about the film and reveled in making fun of it. He immediately wanted to return to the stage, and performed in The Desperate Hours. In 1956, Newman got the chance to redeem himself in the film world by portraying boxer Rocky Graziano in Somebody Up There Likes Me (1956), and critics praised his performance. In 1957, with a handful of films to his credit, he was cast in The Long, Hot Summer (1958), co-starring none other than Joanne Woodward. During the shooting of this film, they realized they were meant to be together and by now, so did Paul&#039;s wife Jackie. After Jackie gave Paul a divorce, he and Joanne married in Las Vegas in January of 1958. They went on to have three daughters together and raised them in Westport, Connecticut. In 1959, Paul received his first Academy Award nomination for Best Actor, in Cat on a Hot Tin Roof (1958). The 1960s would bring Paul Newman into superstar status, as he became one of the most popular actors of the decade, and garnered three more Best Actor Oscar nominations, for The Hustler (1961), Hud (1963) and Cool Hand Luke (1967). In 1968, his debut directorial effort Rachel, Rachel (1968) was given good marks, and although the film and Joanne Woodward were nominated for Oscars, Newman was not nominated for Best Director. He did, however, win a Golden Globe for his direction. 1969 brought the popular screen duo Paul Newman and Robert Redford together for the first time when Butch Cassidy and the Sundance Kid (1969) was released. It was a box office smash. Throughout the 1970s, Newman had hits and misses from such popular films as The Sting (1973) and The Towering Inferno (1974) to lesser known films as The Life and Times of Judge Roy Bean (1972) to a now cult classic Slap Shot (1977). After the death of his only son, Scott, in 1978, Newman&#039;s personal life and film choices moved in a different direction. His acting work in the 1980s and on is what is often most praised by critics today. He became more at ease with himself and it was evident in The Verdict (1982) for which he received his 6th Best Actor Oscar nomination and in 1987 finally received his first Oscar for The Color of Money (1986). Friend and director of Somebody Up There Likes Me (1956), Robert Wise accepted the award on Newman&#039;s behalf as he did not attend the ceremony. Films were not the only thing on his mind during this period. A passionate race car driver since the early 1970s, Newman became co-owner of Newman-Haas racing in 1982, and also founded &quot;Newman&#039;s Own&quot;, a successful line of food products that has earned in excess of $100 million, every penny of which Newman donated to charity. He also started The Hole in the Wall Gang Camps, an organization for terminally ill children. He was as well known for his philanthropic ways and highly successful business ventures as he was for his legendary actor status. Newman enjoyed a 50-year marriage to Joanne in Connecticut, their main residence since moving away from the bright lights of Hollywood in 1960. Renowned for his sense of humor, in 1998 he quipped that he was a little embarrassed to see his salad dressing grossing more than his movies. During his later years, he still attended races, was much involved in his charitable organizations, and in 2006, he opened a restaurant called Dressing Room, which helps out the Westport Country Playhouse, a place that Paul took great pride in. In 2007, he made some headlines when he said that he was losing his invention and confidence in his acting abilities and that acting is &quot;pretty much a closed book for me.&quot; He died the next year. Whether he was on the screen or not, Paul Newman remained synonymous with the anti-heroism of the 1960s and 1970s cinema, and with the rebellious nature his characters so often embodied.',
                 'created_at' => '2016-01-27 13:28:51',
-                'updated_at' => '2016-01-27 13:28:51',
+                'updated_at' => '2016-02-22 16:36:44',
             ),
             397 => 
             array (
@@ -5257,11 +5257,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Gleason',
                 'birthday' => '1916-02-26',
                 'deceased' => '1984-06-24',
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001276',
                 'image' => 'Jackie_Gleason_1453901342.jpg',
                 'bio' => 'Comedian, actor, composer and conductor, educated in New York public schools. He was a master of ceremonies in amateur shows, a carnival barker, daredevil driver and a disc jockey., and later a comedian in night clubs. By the mid-1950s he had turned to writing original music and recording a series of popular and best-selling albums with his orchestra for Capitol Records. Joining ASCAP in 1953, his instrumental compositions include &quot;Melancholy Serenade&quot;, &quot;Glamour&quot;, &quot;Lover&#039;s Rhapsody&quot;, &quot;On the Beach&quot; and &quot;To a Sleeping Beauty&quot;, among numerous others.',
                 'created_at' => '2016-01-27 13:29:02',
-                'updated_at' => '2016-01-27 13:29:02',
+                'updated_at' => '2016-02-22 16:36:47',
             ),
             398 => 
             array (
@@ -5270,11 +5270,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Laurie',
                 'birthday' => '1932-01-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001453',
                 'image' => 'Piper_Laurie_1453901360.jpg',
             'bio' => 'Piper Laurie was born Rosetta Jacobs in Detroit, Michigan, on January 22, 1932, to Charlotte Sadie (Alperin) and Alfred Jacobs, a furniture dealer. Her father was a Polish Jewish immigrant and her mother was of Russian Jewish descent. Her father moved the family to Los Angeles, California, when she was 6-years-old. Rosetta was a pretty red-haired little girl, but very shy, so her parents sent her to weekly elocution lessons. In addition to her lessons in Hebrew school, she studied acting at a local acting school, and this eventually led to work at Universal Studios. Universal had signed her as a contract player when she was only 17-years-old, and changed her screen name to Piper Laurie. She was cast in the movie, Louisa (1950), and became very close friends with her costar, Ronald Reagan. She was then cast in Francis Goes to the Races (1951) with Donald O&#039;Connor, Son of Ali Baba (1952) with Tony Curtis, and Ain&#039;t Misbehavin&#039; (1955) with Rory Calhoun. The studio tried to enhance her image as an ing&eacute;nue with press releases stating that she took milk baths and ate gardenia petals for lunch. Although she was making $2,000 per week, her lack of any substantial roles discouraged her so much that by 1955 when she received another script for a Western and &quot;another silly part in a silly movie&quot;, she dropped the script in the fireplace, called her agent and told him she didn&#039;t care if they fired her, jailed her or sued her. From there, she went to New York City to study acting, and worked on live television, starring in The Hallmark Hall of Fame version of &quot;Twelfth Night&quot; (1957), &quot;The Days of Wine and Roses&quot; (1958) with Cliff Robertson, which debuted on Playhouse 90 on October 2, and as &quot;Kirsten&quot; in the Playhouse 90 version of &quot;Winterset&quot; (1959). In 1961, she got the part of Paul Newman&#039;s crippled girlfriend in the classic film, The Hustler (1961). She was nominated for an Academy Award for Best Actress for that role of &quot;Sarah Packard&quot;. That same year, she was interviewed by a writer/reporter for the New York Herald Tribune, Joe Morgenstern. She liked his casual dress and lifestyle and, 9 months later, they were married. When she did not receive any substantial acting offers after The Hustler (1961), she retreated with her husband to Woodstock, New York, where she pursued domestic activities such as baking (her grandfather&#039;s trade) and raising her only daughter, Anne, born in 1971. In 1976, she accepted the role of &quot;Margaret White&quot;, the eccentric religious zealot mother of a shy young psychic girl named Carrie (1976), played by Sissy Spacek. Piper received her second supporting Oscar nomination for this role. She and her husband divorced in 1981, she moved to Southern California and obtained many film and television roles. She got a third Oscar nomination for her role as &quot;Mrs. Norman&quot; in Children of a Lesser God (1986), and won an Emmy that same year for her acting in Promise (1986), a television movie with James Garner and James Woods. She has appeared in more than 60 films, from 1950 to the present. Ms. Laurie has appeared in many outstanding television shows from &quot;The Best of Broadway&quot; in 1954, to roles on &quot;Playhouse 90&quot; in 1956, roles on St. Elsewhere (1982), Murder, She Wrote (1984), Matlock (1986), Beauty and the Beast (1987), ER (1994), Diagnosis Murder (1993) and Frasier (1993). Her daughter, Anne Grace, has made her a grandmother, and though she lives in Southern California, she frequently visits her daughter in New York.',
                 'created_at' => '2016-01-27 13:29:20',
-                'updated_at' => '2016-01-27 13:29:20',
+                'updated_at' => '2016-02-22 16:36:51',
             ),
             399 => 
             array (
@@ -5283,11 +5283,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Scott',
                 'birthday' => '1927-10-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001715',
                 'image' => 'George_C__Scott_1453901370.jpg',
             'bio' => 'George C. Scott was an immensely talented actor, a star of screen, stage and television. He was born in 1927 in Wise, Virginia, to Helena Agnes (Slemp) and George Dewey Scott. At the age of eight, his mother died, and his father, an executive at Buick, raised him. In 1945 he joined the US Marines and spent four years with them, no doubt an inspiration for portraying Gen. George S. Patton years later. When Scott left the Marines he enrolled in journalism classes at the University of Missouri, but it was while performing in a play there that the acting bug bit him. He has said it &quot;clicked, just like tumblers in a safe.&quot; It was in 1957 that he landed a role in &quot;Richard III&quot; in New York City. The play was a hit and brought the young actor to the attention of critics. Soon he began to get work on television, mostly in live broadcasts of plays, and in 1959 he landed the part of the crafty prosecutor in Anatomy of a Murder (1959). It was this role that got him his first Oscar nomination, for Best Supporting Actor. However, George and Oscar wouldn&#039;t actually become the best of friends. In fact, he felt the whole process forced actors to become stars and that the ceremony was little more than a &quot;meat market.&quot; In 1962 he was nominated again for Best Supporting Actor, this time opposite Paul Newman in The Hustler (1961), but sent a message saying &quot;No, thanks&quot; and refused the nomination. However, whether he was being temperamental or simply stubborn in his opinion of awards, it didn&#039;t seem to stop him from being nominated in the future. &quot;Anatomy&quot; and &quot;The Hustler&quot; were followed by 1963&#039;s clever mystery The List of Adrian Messenger (1963), in which he starred alongside Kirk Douglas, Robert Mitchum and cameos by major stars of the time, including Burt Lancaster and Frank Sinatra. It&#039;s a must-see, directed by John Huston with tongue deeply in cheek. The following year Scott starred as Gen. &quot;Buck&quot; Turgidson in Stanley Kubrick&#039;s comical anti-war film Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964). It became one of his favorites and he often said that he felt guilty getting paid for it, as he had so much fun making it. Another comedy, The Flim-Flam Man (1967), followed in 1967, with Scott playing a smooth-talking con artist who takes on an apprentice whom he soon discovers has too many morals. Three years followed, with some smaller TV movies, before he got the role for which he will always be identified: the aforementioned Gen. Patton in Patton (1970). It was a war movie that came at the end of a decade where anti-war protests had rocked a nation and become a symbol of youth dissatisfied with what was expected of them. Still, the actor&#039;s portrayal of this aggressive military icon actually drew sympathy for the controversial hero. He won the Oscar this time, but stayed at home watching hockey instead. A pair of films that he made in the early 1980s were outstanding. The first of these was L&#039;enfant du diable (1980), a film often packaged as a horror movie but one that&#039;s really more of a supernatural thriller. He plays John Russell, a composer and music professor who loses his wife and daughter in a tragic accident. Seeking solace, he moves into an old mansion that had been unoccupied for 12 years. A child-like presence seems to be sharing the house with him, however, and trying to share its secrets with him. By researching the house&#039;s past he discovers its horrific secret of long ago, a secret that the presence will no longer allow to be kept. Then in 1981 he starred--along with a young cast of then largely unknowns, including Timothy Hutton, Sean Penn and Tom Cruise--in the intense drama Taps (1981). He played the head of a military academy that&#039;s suddenly slated for destruction when the property is sold to local developers who plan to build condos. The students take over the academy when they feel that the regular channels are closed to them. Scott kept up in films, TV and on stage in the later years of his life (Broadway dimmed its lights for one minute on the night of his death). Among his projects were playing Ebenezer Scrooge in a worthy TV update of A Christmas Carol (1984), an acclaimed performance on Broadway of &quot;Death of a Salesman&quot;, the voice of McLeach in Disney&#039;s The Rescuers Down Under (1990) and co-starring roles in TV remakes of two classic films, 12 Angry Men (1997) and Inherit the Wind (1999), to name just a few. After his death the accolades poured in, with Jack Lemmon saying, &quot;George was truly one of the greatest and most generous actors I have ever known,&quot; while Tony Randall called him &quot;the greatest actor in American history.&quot;',
                 'created_at' => '2016-01-27 13:29:30',
-                'updated_at' => '2016-01-27 13:29:30',
+                'updated_at' => '2016-02-22 16:36:55',
             ),
             400 => 
             array (
@@ -5296,11 +5296,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Kingsley',
                 'birthday' => '1943-12-31',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001426',
                 'image' => 'Ben_Kingsley_1453901397.jpg',
             'bio' => 'Ben Kingsley was born in Scarborough, Yorkshire, England. His father, Rahimtulla Harji Bhanji, is of Gujarati Indian descent, and his mother Anna Lyna Mary, was English. Ben began to act in stage plays during the 1960s. He soon became a successful stage actor, and also began to have roles in films and TV. His birth name was Krishna Bhanji, but he changed his name to &quot;Ben Kingsley&quot; soon after gaining fame as a stage actor, fearing that a foreign name could hamper his acting career. Ben Kingsley first earned international fame for his performance in the 1982 movie, Gandhi (1982). His performance as &quot;Mahatma Gandhi&quot; earned him international fame. He won many awards - including an Oscar for Best Actor. He also won Golden Globe, BAFTA and London Film Critics&#039; Circle Awards. After acting in Gandhi (1982), Ben was recognized as one of the finest British actors. After his international fame for appearing in Gandhi (1982), Kingsley appeared in many other famous movies. His success as an actor continued. In 1993, his performance as &quot;Itzhak Stern&quot; in the movie, Schindler&#039;s List (1993) earned him a BAFTA nomination. Schindler&#039;s List (1993) won seven Oscars, including Best Picture. During the late 1990s, Kingsley acted in many successful movies. He played &quot;Sweeney Todd&quot; in the 1998 TV movie, The Tale of Sweeney Todd (1997). For his performance in this movie, he was nominated for the Screen Actors&#039; Guild Award. His other notable role was as &quot;Otto Frank&quot; in the TV movie Anne Frank: The Whole Story (2001), for which he won a Screen Actors&#039; Guild Award. Ben Kingsley lives in Spelsbury, Oxfordshire, in England.',
                 'created_at' => '2016-01-27 13:29:57',
-                'updated_at' => '2016-01-27 13:29:57',
+                'updated_at' => '2016-02-22 16:36:58',
             ),
             401 => 
             array (
@@ -5309,11 +5309,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Cohen',
                 'birthday' => '1971-10-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0056187',
                 'image' => 'Sacha_Baron_Cohen_1453901409.jpg',
             'bio' => 'British actor and comedian Sacha Baron Cohen was born in Hammersmith, London. He is the son of Daniella (Weiser), a movement instructor, and Gerald Baron Cohen, a clothing store owner. His father, born in Wales and raised in England, is of Eastern European Jewish descent, while his mother was born in Israel, to German Jewish parents. He was educated at a private school, Haberdashers&#039; Aske&#039;s Boys&#039; School in Hertfordshire, and went on to read History at Christ&#039;s College, Cambridge. Baron Cohen had an interest in performing from an early age, forming a breakdancing group as a teenager and acting in amateur plays with a Jewish youth group. While at university he joined the Cambridge University Amateur Dramatic Club, and took part in such plays as &quot;Cyrano de Bergerac&quot; and &quot;Fiddler on the Roof&quot;. Upon leaving University, Baron Cohen briefly worked as a model, before moving on to work as a host on a satellite TV station. In 1995, Channel 4 put out an open call for new presenters, and Baron Cohen sent in a tape featuring himself in character as an Albania TV reporter (an early prototype for Borat). He was hired and worked on various &#039;youth TV&#039; projects before, in 1998, appearing in The 11 O&#039;Clock Show (1998) which became a cult hit thanks to his character, Ali G. Ali G proved so popular that a spin-off show Da Ali G Show (2000) and film Ali G (2002) where produced. America soon beckoned with a stateside version of Da Ali G Show. Feature film work followed with Baron Cohen providing the voice of Julien in Madagascar (2005) and appearing as Jean Girard alongside Will Ferrell in Talladega Nights: The Ballad of Ricky Bobby (2006). He followed this with the smash-hit Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006), for which he won a Golden Globe and was nominated for a writing Oscar. His other film work includes supporting roles in Sweeney Todd: The Demon Barber of Fleet Street (2007) and Hugo (2011), and starring in the title roles of Br&uuml;no (2009), The Dictator (2012), and The Brothers Grimsby (2016).',
                 'created_at' => '2016-01-27 13:30:09',
-                'updated_at' => '2016-01-27 13:30:09',
+                'updated_at' => '2016-02-22 16:37:01',
             ),
             402 => 
             array (
@@ -5322,11 +5322,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Butterfield',
                 'birthday' => '1997-04-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2633535',
                 'image' => 'Asa_Butterfield_1453901432.jpg',
             'bio' => 'Asa Butterfield was born in Islington, London, England, to Jacqueline Farr and Sam Butterfield. He began acting at the age of 8, after a talent spotting casting director saw him at his local after school drama club, The Young Actors Theatre in Islington. Following on from a couple of small roles in films, he was cast, at 10 as Bruno in The Boy in the Striped Pajamas (2008). Since then, he has been acclaimed for his titular roles Hugo (2011) and Ender&#039;s Game (2013) as well as other major roles as Nathan in A Brilliant Young Mind (2014), Jude in 10,000 Saints (2015), Mordred in the BBC&#039;s Merlin (2008) and Norman in Nanny McPhee Returns (2010). Asa attends college in London, hangs out with his friends playing football on the park, reads a great deal, loves music festivals, and plays and writes music at home and with friends at school. Asa was born Asa Maxwell Thornton Farr Butterfield, but now uses the middle name &quot;Bopp&quot; on his passport instead (after Comet Hale-Bopp), and is known as Asa Bopp Farr Butterfield.',
                 'created_at' => '2016-01-27 13:30:32',
-                'updated_at' => '2016-01-27 13:30:32',
+                'updated_at' => '2016-02-22 16:37:05',
             ),
             403 => 
             array (
@@ -5335,11 +5335,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Moretz',
                 'birthday' => '1997-02-10',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm7394194',
                 'image' => 'Chlo_euml__Grace_Moretz_1453901442.jpg',
             'bio' => 'Chlo&euml; Grace Moretz was born in Atlanta, Georgia, to Teri (Duke), a nurse, and McCoy Lee Moretz, a plastic surgeon. She has four brothers, all older. Her ancestry is mostly German and English. Chlo&euml;&#039;s first two appearances were as Violet in two episodes of the series The Guardian (2001). Her first movie role was as Molly in Heart of the Beholder (2005), a story about a family that opened the first video rental store in 1980. This was followed by a small role in Family Plan (2005) as Young Charlie. After that, however, came Chloe&#039;s biggest role, and the one that made her famous: The Amityville Horror (2005), the remake of the famous The Amityville Horror (1979). Next she landed a small role in Today You Die (2005) as the Little Girl, and has since appeared in Room 6 (2006) and Big Momma&#039;s House 2 (2006). She filmed Wicked Little Things (2006) in Bulgaria, in which she plays Emma Tunney. In 2007 she completed The Third Nail (2007), in which she appeared as Hailey Deonte. In 2010 she appeared as Hit-Girl in director Matthew Vaughn&#039;s action film Kick-Ass (2010), based on the comic book series of the same name by Mark Millar and John Romita Jr. Although her role in the violent action film engendered some controversy, she received widespread critical acclaim for her portrayal. Moretz trained with Jackie Chan&#039;s stunt crew for three months prior to filming &quot;Kick-Ass&quot; and did most of her own stunts in the film. Also that year she played Abby, a 12-year-old vampire, in Let Me In (2010), the UK/US remake of the Swedish film Let the Right One In (2008), which was released on October 1, 2010. She played Ann Sliger in the crime thriller Texas Killing Fields (2011), released on October 14, 2011. Chloe next played Isabelle in Martin Scorsese&#039;s Hugo (2011), a film adaptation of &quot;The Invention of Hugo Cabret&quot;. &quot;Hugo&quot;, which was nominated for 11 Oscars, co-starred Asa Butterfield, Ben Kingsley, Sacha Baron Cohen and Helen McCrory. Moretz then starred in Hick (2011), an adaptation of the novel by Andrea Portes. She was in Tim Burton&#039;s Dark Shadows (2012), based on the iconic TV series Dark Shadows (1966), playing the role of Carolyn Stoddard, a rebellious teenage daughter. In 2013 she reprised her role as Hit-Girl in the sequel Kick-Ass 2 (2013), which received mixed reviews, but once again her performance was highly praised. The same year she also appeared in a short segment in Movie 43 (2013) and played the title character in Carrie (2013), a remake of Carrie (1976), based on a Stephen King story and directed by Kimberly Peirce. In January 2013 Moretz was chosen to play Mia in the film adaptation of Gayle Forman&#039;s If I Stay (2014), which was released in August 2014. On January 16, 2014, it was announced Moretz would appear in an off-Broadway show directed by Steven Soderbergh entitled &quot;The Library&quot;. In 2014 Chlo&euml; was in six films: a cameo as a newspaper girl in Muppets Most Wanted (2014), the female lead of prostitute Teri alongside Denzel Washington in The Equalizer (2014) and teenage party girl Annika with Keira Knightley and Sam Rockwell in Laggies (2014). In December she played the role of very young Hollywood actress with a scandalous reputation Jo-Ann Ellis alongside Kristen Stewart and Juliette Binoche in Sils Maria (2014). In April it was announced that Chlo&euml; would be playing the lead role of Cassie Sullivan in The 5th Wave (2016), another adaptation similar to The Hunger Games (2012), alongside Nick Robinson and Alex Roe. It was later announced that Chlo&euml; would play the lead female role of Digger in the movie adaptation of Sam Munson&#039;s novel &quot;November Criminals&quot;. Moretz&#039;s character is the best friend of Addison Schacht, played by Ansel Elgort,',
                 'created_at' => '2016-01-27 13:30:42',
-                'updated_at' => '2016-01-27 13:30:42',
+                'updated_at' => '2016-02-22 16:37:08',
             ),
             404 => 
             array (
@@ -5348,11 +5348,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Winstone',
                 'birthday' => '1957-02-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0935653',
                 'image' => 'Ray_Winstone_1453901451.jpg',
             'bio' => 'Ray Winstone was born on February 19, 1957, in Hackney Hospital in London, England, to Margaret (Richardson) and Raymond J. Winstone. He moved to Enfield, at age seven, where his parents had a fruit and vegetable business. He started boxing at the age of twelve at the famous Repton Amateur Boxing Club, was three times London Schoolboy Champion and fought twice for England, UK. In ten years of boxing, he won over 80 medals and trophies. Ray studied acting at the Corona School before being cast by director Alan Clarke as Carlin in the BBC Play production of Scum (1979). He has appeared in numerous TV series over the past 20 years including Robin Hood (1984), Palmer (1991), Birds of a Feather (1989), Between the Lines (1992), Ghostbusters of East Finchley (1995), Births, Marriages and Deaths (1999), and Vincent (2005). His film career has burgeoned since his award-winning role in Gary Oldman&#039;s Nil by Mouth (1997), and he has appeared in multiple films including Fanny and Elvis (1999), Tim Roth&#039;s The War Zone (1999), The Departed (2006), Hugo (2011), and Snow White and the Huntsman (2012). Known for his signature gritty voice, Winstone has also done a number of voiceover roles including Rango (2011), The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005), as well as the Beowulf (2007) film and video games. He married Elaine Winstone in 1979, and the couple have three children: Lois Winstone (born 1982), a singer with the London-based hip-hop group &quot;Crack Village&quot; who also played his on-screen daughter in Last Orders (2001) and got a part in four episodes of The Bill (1984), Jaime Winstone (born 1985) also an actress with ambitions to be a director, and Ellie Rae Winstone (born 2001).',
                 'created_at' => '2016-01-27 13:30:51',
-                'updated_at' => '2016-01-27 13:30:51',
+                'updated_at' => '2016-02-22 16:37:11',
             ),
             405 => 
             array (
@@ -5374,11 +5374,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Law',
                 'birthday' => '1972-12-29',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000179',
                 'image' => 'Jude_Law_1453901471.jpg',
             'bio' => 'Jude Law is a talented and versatile actor. Law has been nominated for two Academy Awards and continues to build a prolific body of work that spans from early successes such as Gattaca (1997) and The Talented Mr. Ripley (1999) to more recent turns as Dr. John Watson in Sherlock Holmes (2009) and Sherlock Holmes: A Game of Shadows (2011), as Hugo&#039;s father in Hugo (2011) and in the titular role in Dom Hemingway (2013). David Jude Law was born on December 29, 1972 in Lewisham, London, England, to Margaret Anne (Heyworth) and Peter Robert Law, both of whom taught at comprehensive schools; his father later became a headmaster. Law has said that he was named after both the book Jude the Obscure and the song Hey Jude. In 1992, Jude began his stage career. He starred in many plays throughout London, and was nominated for the Laurence Olivier Award of &quot;Outstanding Newcomer&quot; After doing the play &quot;Indiscretions&quot; in London, he moved and did it again on Broadway. This time, he was alongside Kathleen Turner. He then received a Tony Nomination for &quot;Outstanding Supporting Actor&quot;. He was then rewarded the Theatre World Award. After Broadway, Jude started on the big screen, in many independent films. His first big-named movie was Gattaca (1997), with Uma Thurman and Ethan Hawke. He also had a good role in Midnight in the Garden of Good and Evil (1997). Jude&#039;s latest rise to fame has been because of The Talented Mr. Ripley (1999), in which he plays Matt Damon&#039;s obsession. The film did very well at the box office, and critics loved Jude&#039;s acting. Following the success of Gattaca (1997) and The Talented Mr. Ripley (1999), Law&#039;s feature film career continued to gain momentum throughout the late 1990s and early 2000s with roles in such films as Enemy at the Gates (2001), Road to Perdition (2002), I Heart Huckabees (2004), The Aviator (2004) and many others. Law is one of three actors, along with Colin Farrell and Johnny Depp, to take over acting responsibilities in the Terry Gilliam project The Imaginarium of Doctor Parnassus (2009) following Heath Ledger&#039;s death. Law is a partner in the production company &quot;Natural Nylon&quot;. His partners include Jonny Lee Miller, Ewan McGregor and his ex-wife Sadie Frost. Law has been active in many charitable activities and supports several different foundations and causes, doing work for organizations including the Make-A-Wish Foundation, Make Poverty History, Breast Cancer Care and others. Law is also a peace advocate, and in 2011, participated in street protests against the rule of Alexander Lukashenko in Belarus. Law married Sadie Frost in 1997 and the couple had two sons (Rafferty and Rudy) and a daughter (Iris) before divorcing in 2003. Law and Alfie (2004) co-star Sienna Miller were engaged to be married in 2005 and separated in 2006 (they would later rekindle their relationship in 2009, splitting once again in 2011). Law and American model Samantha Burke had a brief relationship in 2008 that resulted in the birth of Law&#039;s fourth child, daughter Sophia. Law&#039;s fifth child, with an ex-girlfriend, Catherine Harding, was born in 2015.',
                 'created_at' => '2016-01-27 13:31:11',
-                'updated_at' => '2016-01-27 13:31:11',
+                'updated_at' => '2016-02-22 16:37:19',
             ),
             407 => 
             array (
@@ -5387,11 +5387,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Lawrence',
                 'birthday' => '1990-08-15',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2225369',
                 'image' => 'Jennifer_Lawrence_1453901499.jpg',
             'bio' => 'Academy Award-winning actress Jennifer Lawrence is best known for playing Katniss Everdeen in The Hunger Games (2012), Tiffany Maxwell in Silver Linings Playbook (2012), and Rosalyn Rosenfeld in American Hustle (2013). Jennifer Shrader Lawrence was born on August 15, 1990 in Louisville, Kentucky, to Karen (Koch), who manages a children&#039;s camp, and Gary Lawrence, who works in construction. She has two older brothers, Ben and Blaine, and has English, German, Irish, and Scottish ancestry. Before Jennifer became an actress, she was involved in cheer-leading, field hockey, softball, and modeling, none of which she held a passion for. Her career began when she traveled to Manhattan at the age of 14. After conducting her first cold read, agents told her mother that &quot;it was the best cold read by a 14- year-old they had ever heard&quot;, and tried to convince her mother that she needed to spend the summer in Manhattan. After leaving the agency, Jen was spotted by an agent in the midst of shooting an H&amp;M ad and asked to take her picture. The next day, that agent followed up with her and invited her to the studio for a cold read audition. Again, the agents were highly impressed and strongly urged her mother to allow her to spend the summer in New York City. As fate would have it, she did, and subsequently appeared in commercials such as MTV&#039;s &quot;My Super Sweet 16&quot; and played a role in the movie, The Devil You Know (2013). Shortly thereafter, her career forced her and her family to move to Los Angeles, where she was cast in the TBS sitcom The Bill Engvall Show (2007), and in smaller movies like The Poker House (2008) and The Burning Plain (2008). Her big break came when she played Ree in Winter&#039;s Bone (2010), which landed her Academy Award and Golden Globe nominations. Shortly thereafter, she secured the role of Mystique in franchise reboot X-Men: First Class (2011), which went on to be a hit in Summer 2011. Around this time, Lawrence scored the role of a lifetime when she was cast as Katniss Everdeen in the big-screen adaptation of literary sensation The Hunger Games (2012). That went on to become one of the highest-grossing movies ever with over $407 million at the domestic box office, and instantly propelled Lawrence to the A-list among young actors/actresses. Three Hunger Games sequels are scheduled for release in November 2013, 2014, and 2015, with Lawrence reprising her role at least for the first one (The Hunger Games: Catching Fire (2013)). In 2012 the romantic comedy Silver Linings Playbook earned her the Academy Award, Golden Globe Award, Screen Actors Guild Award, Satellite Award and the Independent Spirit Award for Best Actress, amongst other accolades, making her the youngest person ever to be nominated for two Academy Awards for Best Actress and the second-youngest Best Actress winner Lawrence can also be seen in The Beaver (2011), Like Crazy (2011), House at the End of the Street (2012), and American Hustle (2013). She played the title role, Joy Mangano, in the 2015 David O. Russell film Joy (2015).',
                 'created_at' => '2016-01-27 13:31:39',
-                'updated_at' => '2016-01-27 13:31:39',
+                'updated_at' => '2016-02-22 16:37:22',
             ),
             408 => 
             array (
@@ -5400,11 +5400,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Hemsworth',
                 'birthday' => '1990-01-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2955013',
                 'image' => 'Liam_Hemsworth_1453901509.jpg',
             'bio' => 'Liam Hemsworth was born on January 13, 1990, in Melbourne, Australia, and is the younger brother of actors Chris Hemsworth and Luke Hemsworth. He is the son of Leonie (van Os), a teacher of English, and Craig Hemsworth, a social-services counselor. He is of Dutch (from his immigrant maternal grandfather), Irish, English, Scottish, and German ancestry. His uncle, by marriage, was Rod Ansell, the bushman who inspired the film Crocodile Dundee (1986). The Hemsworth family lived primarily on Phillip Island, a small island located south of Melbourne. Following in the footsteps of his older brothers, who went into acting in their teens, Liam scored his first audition at age 16 and appeared on the Australian TV series Summer Bay (1988) and McLeod&#039;s Daughters (2001) before taking on a recurring character role on the soap opera Les voisins (1985), in which his brother Luke had also appeared. Roles on TV shows Son Altesse Alex (2008) and Satisfaction (2007) followed before Liam moved to the United States to pursue a big-screen career. After suffering two setbacks - his character was written out of the script for The Expendables (2010) days before filming and he lost the title role of Thor (2011) to his brother Chris - Liam was cast opposite Miley Cyrus in the Nicholas Sparks drama The Last Song (2010). The two, who played love interests in the film, soon started dating, and Liam appeared in Cyrus&#039; music video &quot;When I Look at You.&quot; Following that film&#039;s modest commercial success, and the attendant press coverage of his rising career and high-profile romance, he was almost immediately thrust into leading man status, and was cast as Gale Hawthorne in the big-screen adaptation of the best-selling novel The Hunger Games (2012). Following the blockbuster success of that film, Liam nabbed a number of roles, including a supporting part in The Expendables 2 (2012) and leading roles in the war drama Love and Honor (2013), the crime drama Empire State (2013), and the thriller Paranoia (2013). He will also star as Ali Baba in a 3D production of Arabian Nights and will reprise the role of Gale Hawthorne in The Hunger Games: Catching Fire (2013). Hemsworth was engaged to Miley Cyrus from June 2012 to September 2013.',
                 'created_at' => '2016-01-27 13:31:49',
-                'updated_at' => '2016-01-27 13:31:49',
+                'updated_at' => '2016-02-22 16:37:28',
             ),
             409 => 
             array (
@@ -5413,11 +5413,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Harrelson',
                 'birthday' => '1961-07-23',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000437',
                 'image' => 'Woody_Harrelson_1453901788.jpg',
             'bio' => 'Academy Award-nominee Woody Harrelson was born on July 23, 1961 in Midland, Texas, to Diane Lou (Oswald) and Charles Harrelson. He grew up in Lebanon, Ohio, and, after receiving degrees in theater arts and English from Hanover College, had a brief stint in New York theater. He was soon cast as Woody on TV series Cheers (1982), which wound up being one of the most-popular TV shows ever and also earned Harrelson an Emmy for his performance in 1989. While he dabbled in film during his time on Cheers (1982), that area of his career didn&#039;t fully take off until towards the end of the show&#039;s run. In 1991, Doc Hollywood (1991) gave him his first widely-seen movie role, and he followed that up with White Men Can&#039;t Jump (1992), Indecent Proposal (1993) and Natural Born Killers (1994). Recently, Harrelson has been seen in No Country for Old Men (2007), Zombieland (2009), 2012 (2009), and Friends with Benefits (2011), along with the acclaimed HBO movie Game Change (2012). In 2011, Harrelson snagged the coveted role of fan-favorite drunk Haymitch Abernathy in the big-screen adaptation of The Hunger Games (2012), which ended up being one of the highest-grossing movies ever at the domestic box office. Harrelson is set to reprise that role for the sequels, which are scheduled for release in November 2013, 2014 and 2015. Harrelson has received two Academy Award nominations, first for his role as controversial Hustler founder Larry Flynt in The People vs. Larry Flynt (1996) and then for a role in The Messenger (2009). He also received Golden Globe nominations for both of these parts. Harrelson was briefly married to Nancy Simon in the 80s, and later married his former assistant, Laura Louie, with whom he has three daughters.',
                 'created_at' => '2016-01-27 13:36:28',
-                'updated_at' => '2016-01-27 13:36:28',
+                'updated_at' => '2016-02-22 16:37:31',
             ),
             410 => 
             array (
@@ -5426,11 +5426,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Hutcherson',
                 'birthday' => '1992-10-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1242688',
                 'image' => 'Josh_Hutcherson_1453901816.jpg',
             'bio' => 'Joshua Ryan Hutcherson was born on October 12, 1992 in Union, Kentucky to Michelle Fightmaster Hutcherson, who worked for Delta Air Lines, and Chris Hutcherson, an EPA analyst. He has one younger brother, Connor Hutcherson. From the age of four, Josh knew that he wanted to be an actor. In order to pursue his goal, Josh and his family moved to Los Angeles when he was nine-years-old. In 2002, Josh landed his first acting role in the TV film, House Blend (2002), with Amy Yasbeck, Dan Cortese and Sean Faris. The same year, Josh was cast in the pilot, Becoming Glen (2002), but Fox did not order it to series (though, several years later, it was reconfigured as the short-lived series, The Winner (2007), starring Rob Corddry, and co-written/produced by Seth MacFarlane). Toward the end of 2002, Josh appeared on an episode of ER (1994). Josh made his big-screen debut, in 2003, with a bit part in the Oscar-nominated American Splendor (2003). His career began its measured ascent in 2005 with a supporting slot as one of Will Ferrell&#039;s kids in Kicking &amp; Screaming (2005), a co-starring role in the indie hit Little Manhattan (2005), and another co-starring role in Zathura: A Space Adventure (2005), which was originally conceived as a sequel to Jumanji (1995). Despite underperforming at the box office, &quot;Zathura&quot; helped earned for Josh his first Young Artist Award for &quot;Leading Young Actor&quot;. 2006 saw bigger returns for Josh&#039;s burgeoning film career with a role as one of Robin Williams&#039; sons in the modest hit, RV (2006). The following year, he landed his first breakthrough role in Bridge to Terabithia (2007), the kid-approved adaptation of Katherine Paterson&#039;s novel that co-starred AnnaSophia Robb, whose career was also taking off at this time. Josh starred as Brendan Fraser&#039;s nephew in another family-film hit, Journey to the Center of the Earth (2008), and he had a smaller role in the Crash-like drama, Fragments (2008), though by now his face and name were being used in movie-marketing materials. Though it wasn&#039;t a hit, Josh&#039;s character in Cirque du Freak: The Vampire&#039;s Assistant (2009) served as a major plot device early in the story. In 2010, Josh co-starred in the critically-acclaimed film, The Kids Are All Right (2010), alongside Annette Bening, Julianne Moore, Mark Ruffalo, and Mia Wasikowska. The film received several awards and four Academy Award nominations, including Best Picture. Josh&#039;s performance as the youngest child in a family, led by two mothers, earned him acclaim from audiences and the industry, alike. Josh followed up with an expanded role in Journey 2: The Mysterious Island (2012), which saw Dwayne Johnson take over as the main character from Brendan Fraser. Between the star power and the allure of 3D, the sequel was a worldwide hit and a third installment is in development. With the announcement that he would portray the beloved &quot;Peeta Mellark&quot; in The Hunger Games (2012), the film adaptation of the best-selling novel written by Suzanne Collins, Josh became an instant celebrity. In the wake of the movie&#039;s massive worldwide success, Detention (2011), a horror/comedy that Josh made before &quot;The Hunger Games&quot;, was released. Josh was also an executive producer on that feature. Before Josh reprises his role as &quot;Peeta&quot; in The Hunger Games: Catching Fire (2013), we will see him in the long-delayed remake of Red Dawn (2012); the omnibus 7 jours &agrave; la Havane (2012) (aka &quot;7 Days in Havana&quot;) (Josh&#039;s segment was directed by Benicio Del Toro); The Forger (2012) opposite Lauren Bacall, Alfred Molina, and Hayden Panettiere; and the animated Epic (2013) from Ice Age (2002) co-director (and voice of &quot;Scrat&quot;), Chris Wedge.',
                 'created_at' => '2016-01-27 13:36:56',
-                'updated_at' => '2016-01-27 13:36:56',
+                'updated_at' => '2016-02-22 16:37:34',
             ),
             411 => 
             array (
@@ -5439,11 +5439,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Malcomson',
                 'birthday' => '1970-01-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0539155',
                 'image' => 'Paula_Malcomson_1453901833.jpg',
             'bio' => 'Born in 1970 in Belfast, Northern Ireland, Paula Malcomson is an extremely prolific film and television actress with numerous credits to her name. Malcomson began her career in the early 1990s with small parts primarily in film before scoring higher-profiles roles in the Oscar-nominated film The Green Mile (1999) and A.I. Artificial Intelligence (2001). In 2006, she joined the cast of HBO&#039;s Deadwood (2004) in the role of Trixie, and would also go on to appear in creator David Milch&#039;s next series, John from Cincinnati (2007). From then on, Malcomson made appearances in a number of high-profile series, including ER (1994), Lost (2004), Law &amp; Order: Special Victims Unit (1999), CSI: Crime Scene Investigation (2000), and had regular roles on both Sons of Anarchy (2008) and Caprica (2009) in 2010. As her list of television appearances steadily grew, she also was cast in the role of Katniss&#039; unnamed Mother in the blockbuster adaptation of The Hunger Games (2012). After the release of that film, she also filmed the pilot for Liev Schreiber&#039;s Showtime series Ray Donovan (2013).',
                 'created_at' => '2016-01-27 13:37:13',
-                'updated_at' => '2016-01-27 13:37:13',
+                'updated_at' => '2016-02-22 16:37:37',
             ),
             412 => 
             array (
@@ -5452,11 +5452,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Shields',
                 'birthday' => '2000-06-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm3094377',
                 'image' => 'Willow_Shields_1453901845.jpg',
             'bio' => 'Willow Shields was born on June 1, 2000 in Albuquerque, New Mexico. She has a twin sister, actress Autumn Shields, and an older brother, actor River Shields. Willow got her first job in 2008, narrating the short film Las Vegas New Mexico 1875 (2008), the story of a dying gunfighter who returns home after 10 years to make peace with his wife and daughter. Her first television role was a guest appearance in the USA series In Plain Sight (2008), which was filmed in her hometown of Albuquerque, followed by an episode in the teen-oriented horror anthology series R.L. Stine&#039;s The Haunting Hour (2010) and a supporting role in the Hallmark Hall of Fame television movie Beyond the Blackboard (2011) opposite Emily VanCamp. On the strength of those appearances alone, Willow was cast as Primrose Everdeen, the younger sister of heroine Katniss Everdeen, in The Hunger Games (2012), and will appear in the same role in all the upcoming films adapted from the bestselling novels by Suzanne Collins. Wilow has several pets including dogs and chickens; she is home schooled and loves history and reading. She spends her free time making art, and especially loves making artist trading cards.',
                 'created_at' => '2016-01-27 13:37:25',
-                'updated_at' => '2016-01-27 13:37:25',
+                'updated_at' => '2016-02-22 16:37:40',
             ),
             413 => 
             array (
@@ -5465,11 +5465,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Sutherland',
                 'birthday' => '1935-07-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000661',
                 'image' => 'Donald_Sutherland_1453901894.jpg',
             'bio' => 'The towering presence of Canadian actor Donald Sutherland is often noticed, as are his legendary contributions to cinema. He has appeared in almost 200 different shows and films. He is also the father of renowned actor Kiefer Sutherland, among others. Donald McNichol Sutherland was born in Saint John, New Brunswick, to Dorothy Isobel (McNichol) and Frederick McLea Sutherland, who worked in sales and electricity. He has Scottish, as well as German and English, ancestry. Sutherland worked several different jobs - he was a radio DJ in his youth - and was almost set on becoming an engineer after graduating from the University of Toronto with a degree in engineering. However, he also graduated with a degree in drama, and he chose to abandon becoming an engineer in favour of an actor. Sutherland&#039;s first roles were bit parts and consisted of such films as the horror film Dr. Terror&#039;s House of Horrors (1965) which starred Christopher Lee. He was also appearing in episodes of TV shows such as &quot;The Saint&quot; and &quot;Court Martial&quot;. Sutherland&#039;s break would come soon, though, and it would come in the form of a war film in which he was barely cast. The reason he was barely cast was because he had been a last-minute replacement for an actor that had dropped out of the film. The role he played was that of the dopey but loyal Vernon Pinkley in the war film The Dirty Dozen (1967). The film also starred Lee Marvin, Charles Bronson, and Telly Savalas. The picture was an instant success as an action/war film, and Sutherland played upon this success by taking another role in a war film: this was, however, a comedy called MASH (1970) which landed Sutherland the starring role alongside Elliott Gould and Tom Skerritt. This is now considered a classic among film goers, and the 35-year old actor was only getting warmed up. Sutherland took a number of other roles in between these two films, such as the theatrical adaptation Oedipus the King (1968), the musical Joanna (1968) and the Clint Eastwood-helmed war comedy De l&#039;or pour les braves (1970). It was De l&#039;or pour les braves (1970) that became more well-known, and it reunited Sutherland with Telly Savalas. 1970 and 1971 offered Sutherland a number of other films, the best of them would have to be Klute (1971). The film, which made Jane Fonda a star, is about a prostitute whose friend is mysteriously murdered. Sutherland received no critical acclaim like his co-star Fonda (she won an Oscar) but his career did not fade. Moving on from Klute (1971), Sutherland landed roles such as the lead in the thriller Lady Ice (1973), and another lead in the western Alien Thunder (1974). These films did not match up to &quot;Klute&quot;&#039;s success, though Sutherland took a supporting role that would become one of his most infamous and most critically acclaimed. He played the role of the murderous fascist leader in the Bernardo Bertolucci Italian epic 1900 (1976). Sutherland also gained another memorable role as a marijuana-smoking university professor in Animal House (1978) among other work that he did in this time. Another classic role came in the form of the Robert Redford film, Ordinary People (1980). Sutherland portrays an older father figure who must deal with his children in an emotional drama of a film. It won Best Picture, and while both the supporting stars were nominated for Oscars, Sutherland once again did not receive any Academy Award nomination. He moved on to play a Nazi spy in a film based on Ken Follett&#039;s book &quot;Eye of the Needle&quot; and he would star alongside Al Pacino in the commercial and critical disaster that was Revolution (1985). While it drove Al Pacino out of films for four years, Sutherland continued to find work. This work led to the dramatic, well-told story of apartheid A Dry White Season (1989) alongside the legendary actor Marlon Brando. Sutherland&#039;s next big success came in the Oliver Stone film JFK (1991) where Sutherland plays the chilling role of Mister X, an anonymous source who gives crucial information about the politics surrounding President Kennedy. Once again, he was passed over at the Oscars, though Tommy Lee Jones was nominated for his performance as Clay Shaw. Sutherland went on to appear in Buffy the Vampire Slayer (1992), Agaguk (1992), and Disclosure (1994). The new millennium provided an interesting turn in Sutherland&#039;s career: reuniting with such former collaborators as Clint Eastwood and Tommy Lee Jones, Sutherland starred in Space Cowboys (2000). He also appeared as the father figure to Nicole Kidman&#039;s character in Cold Mountain (2003) and Charlize Theron&#039;s character in The Italian Job (2003). He has also made a fascinating, Oscar-worthy performance as the revolutionist Mr. Thorne in Land of the Blind (2006) and also as a judge in Reign Over Me (2007). Recently, he has joined forces with his son Rossif Sutherland and Canadian comic [error] with the new comedy The Con Artist (2010), as well as acting alongside Jamie Bell and Channing Tatum in the sword-and-sandal film The Eagle (2011). Sutherland has also taken a role in the remake of Charles Bronson&#039;s film The Mechanic (1972). Donald Sutherland has made a lasting legacy on Hollywood, whether portraying a chilling and horrifying villain, or playing the older respectable character in his films. A true character actor, Sutherland is one of Canada&#039;s most well-known names and will hopefully continue on being so long after his time.',
                 'created_at' => '2016-01-27 13:38:15',
-                'updated_at' => '2016-01-27 13:38:15',
+                'updated_at' => '2016-02-22 16:37:43',
             ),
             414 => 
             array (
@@ -5478,11 +5478,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Banks',
                 'birthday' => '1974-02-10',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0006969',
                 'image' => 'Elizabeth_Banks_1453901903.jpg',
             'bio' => 'Elizabeth Banks was born Elizabeth Mitchell in Pittsfield, a small city in the Berkshires in western Massachusetts near the New York border, on February 10, 1974. She is the daughter of Ann (Wallace), who worked in a bank, and Mark P. Mitchell, a factory worker. Elizabeth describes herself as having been seen as a &quot;goody two-shoes&quot; in her youth who was nominated for the local Harvest Queen. Banks left home to attend college at the University of Pennsylvania--from which she graduated Magna cum Laude--and went on to attend the Advanced Training Program at the prestigious American Conservatory Theater in San Francisco, graduating in 1996. She then moved to New York and worked in the theater, and began getting small roles in films and on television. Seeking more screen work, she moved to Los Angeles and was soon cast in supporting roles. She also had to change her last name, to Banks, in order to avoid confusion with actress Elizabeth Mitchell. Her breakthrough role was as Betty Brant, the secretary of the cantankerous newspaper tycoon in Sam Raimi&#039;s Spider-Man (2002). She followed up this performance with small roles in other movies: Swept Away (2002), Steven Spielberg&#039;s Catch Me If You Can (2002), Seabiscuit (2003) and The 40-Year-Old Virgin (2005). In 2003 she won the Exciting New Face Award at the Young Hollywood Awards. The winsome, beautiful Banks projected an exceptionally charming screen presence that drew comparisons to Audrey Hepburn, and Hollywood eventually began to take notice, Banks being cast in the lead in such films as Kevin Smith&#039;s Zack and Miri Make a Porno (2008) and in Oliver Stone&#039;s biopic of George W. Bush, W. (2008), as Laura Bush. In television Banks was a recurring guest star on Scrubs (2001) as Dr. Kim Briggs, the love interest of Zach Braff&#039;s J.D. In 2010 she was cast as Alec Baldwin&#039;s love interest in season four of 30 Rock (2006). Originally scheduled to appear in only four episodes, she was brought back as a recurring character for two more seasons, and earned Emmy nominations for Outstanding Guest Actress in a Comedy Series for two consecutive years. Banks has more recently appeared in such films as Our Idiot Brother (2011), Man on a Ledge (2012), What to Expect When You&#039;re Expecting (2012), People Like Us (2012), and Pitch Perfect (2012). She also won the coveted role as Effie Trinket in The Hunger Games (2012) and The Hunger Games: Catching Fire (2013). Banks married Max Handelman, a sports writer and producer, in 2003. They have two sons, Felix, who was born in March 2011, and Magnus, born in Nov. 2012, both by gestational surrogacy.',
                 'created_at' => '2016-01-27 13:38:23',
-                'updated_at' => '2016-01-27 13:38:23',
+                'updated_at' => '2016-02-22 16:37:45',
             ),
             415 => 
             array (
@@ -5491,11 +5491,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Kravitz',
                 'birthday' => '1964-05-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005107',
                 'image' => 'Lenny_Kravitz_1453901960.jpg',
             'bio' => 'Four time Grammy Award Winner Leonard &quot;Lenny&quot; Albert Kravitz was born on 26 May 1964 in New York, USA, the only child of actress Roxie Roker and Hollywood Producer Sy Kravitz. The family moved to California when Lenny was 10. His father was of Ashkenazi Jewish descent and his mother was of African-American and Afro-Bahamian ancestry. He started playing the drums and guitar at the age of five, influenced by his parents&#039; love of R&amp;B, jazz, classical, opera and blues. In Los Angeles, his mother encouraged him to join the California Boys Choir and Metropolitan Choir. He attended Beverly Hills High School, where he was a contemporary of Slash from Guns N&#039; Roses, graduating in 1982. In the late 1980s he returned to New York to pursue his musical career. Here he met and married Lisa Bonet, who played Denise Huxtable on The Cosby Show (1984). They had one child together, a daughter Zoe, but would divorce in 1993. Kravitz signed to Virgin in 1989, releasing his debut album &quot;Let Love Rule&quot; that same year. Just like one of his major early influences, Prince, Kravitz played nearly all the instruments on the album. &quot;Let Love Rule&quot; met mixed critical reviews; his second album, &quot;Mama Said&quot;, released two years later, provided him with his major breakthrough. It reached the top 40 of the Billboard album chart, while the single &quot;It Ain&#039;t Over Til It&#039;s Over&quot; (influenced by his break up with Bonet) reached #2 in the singles charts. His third album &quot;Are You Gonna Go My Way&quot;, released in 1994, earned a BRIT award for best international male artist. Following the release of &quot;5&quot; in 1998 and the single &quot;Fly Away&quot;, Kravitz won the first of four Grammys for Best Male Vocal Rock Performance. He has also co-written and produced material for various artists such as Madonna, Vanessa Paradis, and Steven Tyler as well as performing on tracks for Michael Jackson, Mick Jagger, David Bowie and Jay Z. While probably best known for his musical career, Kravitz has appeared in a number of movies, most notably his screen debut Precious (2009) and most recently The Hunger Games (2012), in which he played the role of Cinna, the soft-spoken designer who turns Katniss Everdeen Jennifer Lawrence into a star. Kravitz had a supporting role in Precious (2009) director Lee Daniels&#039; film, Lee Daniels&#039; The Butler (2013), and reprised his role as Cinna in The Hunger Games: Catching Fire (2013).',
                 'created_at' => '2016-01-27 13:39:20',
-                'updated_at' => '2016-01-27 13:39:20',
+                'updated_at' => '2016-02-22 16:37:49',
             ),
             416 => 
             array (
@@ -5504,11 +5504,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Tucci',
                 'birthday' => '1960-11-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001804',
                 'image' => 'Stanley_Tucci_1453901972.jpg',
             'bio' => 'Actor Stanley Tucci was born on November 11, 1960, in Peekskill, New York. He is the son of Joan (Tropiano), a writer, and Stanley Tucci, an art teacher. His family is Italian-American, with origins in Calabria. Tucci took an interest in acting while in high school, and went on to attend the State University of New York&#039;s Conservatory of Theater Arts in Purchase. He began his professional career on the stage, making his Broadway debut in 1982, and then made his film debut in Prizzi&#039;s Honor (1985). In 2009, Tucci received his first Academy Award nomination for his turn as a child murderer in The Lovely Bones (2009). He also received a BAFTA nomination and a Golden Globe nomination for the same role. Other than The Lovely Bones, Tucci has recently had noteworthy supporting turns in a broad range of movies including Lucky Number Slevin (2006), The Devil Wears Prada (2006) and Captain America: The First Avenger (2011). Tucci reached his widest audience yet when he played Caesar Flickerman in box office sensation The Hunger Games (2012). While maintaining an active career in movies, Tucci received major accolades for some work in television. He won an Emmy and a Golden Globe for his role in TV movie Winchell (1998), an Emmy for a guest turn on Monk (2002), and a Golden Globe for his role in HBO movie Conspiracy (2001). Tucci has also had an extensive career behind the camera. His directorial efforts include Big Night (1996), The Impostors (1998), Joe Gould&#039;s Secret (2000) and Blind Date (2007), and he did credited work on all of those screenplays with the exception of Joe Gould&#039;s Secret (2000). Tucci has three children with Kate Tucci, who passed away in 2009. Tucci married Felicity Blunt in August 2012.',
                 'created_at' => '2016-01-27 13:39:32',
-                'updated_at' => '2016-01-27 13:39:32',
+                'updated_at' => '2016-02-22 16:37:52',
             ),
             417 => 
             array (
@@ -5517,11 +5517,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Hoffman',
                 'birthday' => '1967-07-23',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000450',
                 'image' => 'Philip_Seymour_Hoffman_1453901995.jpg',
             'bio' => 'Film and stage actor and theater director Philip Seymour Hoffman was born in the Rochester, New York, suburb of Fairport on July 23, 1967. He was the son of Marilyn (Loucks), a lawyer and judge, and Gordon Stowell Hoffman, a Xerox employee, and was mostly of German, Irish, English and Dutch ancestry. After becoming involved in high school theatrics, he attended New York University&#039;s Tisch School of the Arts, graduating with a B.F.A. degree in Drama in 1989. He made his feature film debut in the indie production Triple Bogey on a Par Five Hole (1991) as Phil Hoffman, and his first role in a major release came the next year in My New Gun (1992). While he had supporting roles in some other major productions like Scent of a Woman (1992) and Twister (1996), his breakthrough role came in Paul Thomas Anderson&#039;s Boogie Nights (1997). He quickly became an icon of indie cinema, establishing a reputation as one of the screen&#039;s finest actors, in a variety of supporting and second leads in indie and major features, including Todd Solondz&#039;s Happiness (1998), Flawless (1999), The Talented Mr. Ripley (1999), Paul Thomas Anderson&#039;s Magnolia (1999), Almost Famous (2000) and S&eacute;quences et cons&eacute;quences (2000). He also appeared in supporting roles in such mainstream, big-budget features as Dragon rouge (2002), Cold Mountain (2003) and Mission: Impossible III (2006). Hoffman was also quite active on the stage. On Broadway, he has earned two Tony nominations, as Best Actor (Play) in 2000 for a revival of Sam Shepard&#039;s &quot;True West&quot; and as Best Actor (Featured Role - Play) in 2003 for a revival of Eugene O&#039;Neill (I)&#039;s &quot;Long Day&#039;s Journey into Night&quot;. His other acting credits in the New York theater include &quot;The Seagull&quot; (directed by Mike Nichols for The New York Shakespeare Festival), &quot;Defying Gravity&quot;, &quot;The Merchant of Venice&quot; (directed by Peter Sellars), &quot;Shopping and F*@%ing&quot; and &quot;The Author&#039;s Voice&quot; (Drama Desk nomination). He is the Co-Artistic Director of the LAByrinth Theater Company in New York, for which he directed &quot;Our Lady of 121st Street&quot; by Stephen Adly Guirgis. He also has directed &quot;In Arabia, We&#039;d All Be Kings&quot; and &quot;Jesus Hopped the A Train&quot; by Guirgis for LAByrinth, and &quot;The Glory of Living&quot; by Rebecca Gilman at the Manhattan Class Company. Hoffman consolidated his reputation as one of the finest actors under the age of 40 with his turn in the title role of Truman Capote (2005), for which he won the Los Angeles Film Critics Award as Best Actor. In 2006, he was awarded the Best Actor Oscar for the same role. On February 2, 2014, Philip Seymour Hoffman was found dead in an apartment in Greenwich village, New York. Investigators found Hoffman with a syringe in his arm and two open envelopes of heroin next to him. Mr. Hoffman was long known to struggle with addiction. In 2006, he said in an interview with &quot;60 Minutes&quot; that he had given up drugs and alcohol many years earlier, when he was age 22. In 2013, he checked into a rehabilitation program for about 10 days after a reliance on prescription pills resulted in his briefly turning again to heroin.',
                 'created_at' => '2016-01-27 13:39:55',
-                'updated_at' => '2016-01-27 13:39:55',
+                'updated_at' => '2016-02-22 16:37:55',
             ),
             418 => 
             array (
@@ -5530,11 +5530,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Claflin',
                 'birthday' => '1986-06-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm3510471',
                 'image' => 'Sam_Claflin_1453902005.jpg',
             'bio' => 'English actor Sam Claflin was born in Ipswich, England, to Susan A. (Clarke), a classroom assistant, and Mark J. Claflin, a finance officer. As a child, he was football-mad, often going to see his favorite team, Norwich City. He was a talented footballer, playing for Norwich schools at city level and Norfolk county level. However, he suffered two broken ankles and at 16 gave up thinking about a footballing career. He took up performing arts and a teacher from Costessey High School was impressed with his performance in a school play, and encouraged him to take up drama. He joined the local youth group at Norwich&#039;s Theatre Royal and went on to gain entry to LAMDA drama school in 2006 graduating with a 3 year acting degree in 2009. He is the 3rd eldest of 4 boys, his older brothers Dan and Ben are not involved in drama but his younger brother Joe Claflin commenced at the same drama school in 2009 also doing a 3 year acting degree. In 2010, Clafin made his debut screen performances in two award-winning series, Les piliers de la terre (2010) and Any Human Heart (2010). His film debut came playing footballer Duncan Edwards, one of the &#039;Busby Babes&#039;, in United (2011). Clafin then came to the attention of cinemagoers across the world when he was cast as Philip in Pirates of the Caribbean: On Stranger Tides (2011). Various roles followed, including Jack in White Heat (2012) and Prince William in Snow White and the Huntsman (2012). He played Finnick Odair in the sequels The Hunger Games: Catching Fire (2013), The Hunger Games: Mockingjay - Part 1 (2014), and The Hunger Games: Mockingjay - Part 2 (2015).',
                 'created_at' => '2016-01-27 13:40:05',
-                'updated_at' => '2016-01-27 13:40:05',
+                'updated_at' => '2016-02-22 16:37:58',
             ),
             419 => 
             array (
@@ -5543,11 +5543,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Malone',
                 'birthday' => '1984-11-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0540441',
                 'image' => 'Jena_Malone_1453902019.jpg',
             'bio' => 'Jena Malone was born in Sparks, Nevada, to Deborah Malone and Edward Berge. Her grandfather owned a casino, Karl&#039;s Silver Club, in Sparks. She was raised by her mother and her mother&#039;s partner. Beginning as a child actress, and then stepping up to roles as a young adult, Malone&#039;s career path has been compared to that of Jodie Foster, herself a former child actress and who has co-starred with Malone in two movies. Jena is often described as having a maturity beyond her years and, in her career thus far, she has often tackled roles that are difficult and are not standard fare for actors her age. Malone&#039;s first claim to fame was in performing the title role in Bastard Out of Carolina (1996) for which she won the Young Artist Award, and which she filmed when she was merely ten years old. This movie dealt with issues of child abuse, violence and sex. Jena has said in later interviews that this movie and her participation in it continue to influence her life substantially. Showing self-assurance and a clear vision of personal goals from an early age, Jena, at age 14, was encouraged to try out for Air Force One (1997), a movie that was virtually guaranteed to be a success since box-office king Harrison Ford was cast in the lead, but Jena said she&#039;d prefer to seek other roles that were of more interest to her. In the following years, Malone appeared in several made-for-TV movies for which she won or was nominated for many awards. In 1997, she lucked in to being cast in the blockbuster Contact (1997) where she portrayed the child version of Jodie Foster&#039;s lead character. Foster stated that she built her character by mimicking Jena. And, in 1998, Jena was cast in the major film Stepmom (1998) where she co-starred with Julia Roberts, Susan Sarandon and Ed Harris. Jena was given what was likely the best line in that movie where her character, bitter over her parents&#039; divorce, confronts her father who has returned home briefly; at a moment of crisis, her dad tells her &quot;You do NOT run out on your mother&quot;, and the rueful Malone exclaims &quot;No -- that&#039;s YOUR job&quot;. Also, in 1998, Malone appeared in a two-part episode of the critically acclaimed TV series Homicide: Life on the Street (1993). Contrary to what might usually be expected of a teenage actress, in this episode, Jena played the complex role of the perpetrator of a crime, which she portrayed with subtlety. At age 15, Jena was legally emancipated and thus took direct control of her finances and her career. Malone began getting more attention and acclaim in her next set of films: the artistic cult film Donnie Darko (2001); the teenage journey The Dangerous Lives of Altar Boys (2002) where she again co-starred with Jodie Foster; and the satirical Saved! (2004) which debuted Jena as the lead in a movie. Jena has expressed an interest in directing some day, and so she is preparing for roles behind the camera as well as in front. In 2002, she co-produced American Girl (2002) while also starring in it. And, in 2003, she undertook a formal study of photography. In early 2006, Malone debuted on the Broadway stage in the play &quot;Doubt&quot;. A review by Broadway.com characterized her performance as &quot;astonishing&quot;. Many people in Hollywood have jobs as actors. Watch for Jena Malone. She is an artist.',
                 'created_at' => '2016-01-27 13:40:19',
-                'updated_at' => '2016-01-27 13:40:19',
+                'updated_at' => '2016-02-22 16:38:01',
             ),
             420 => 
             array (
@@ -5556,11 +5556,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Wright',
                 'birthday' => '1965-12-07',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0942482',
                 'image' => 'Jeffrey_Wright_1453902044.jpg',
             'bio' => 'Quite possibly the most underrated and underexposed actor of his caliber and generation, Jeffrey Wright&#039;s undeniable talent and ability to successfully bring to life any role he undertakes is on a par with the most praised and revered A-list actors in the business. Born and raised in Washington DC, Wright graduated from the prestigious Amherst college in 1987. Although he studied Political Science while at Amherst, Wright left the school with something that would prove to be more valuable: a love for acting. Shortly after graduating he won an acting scholarship to NYU, but dropped out after only two months to pursue acting full time. With roles in 1990&#039;s Presumed Innocent, and the Broadway production of Angels in America, (in which he won a well deserved Tony award), within a relatively short time Wright was able to show off his exceptional talent and ability on both stage and screen alike. His first major on-screen performance came in 1996 in the Julian Schnabel directed film Basquiat. Wright&#039;s harrowing performance as the late painter Jean Michele Basquiat was critically acclaimed for its haunting accuracy and raw emotion. With a Tony, a Golden Globe, and an AFI award under his belt, the intensity of Wright&#039;s skill has been proven over and over again. Hopefully the near future will bring an influx of more varied lead roles for black actors so that Wright can continue to astonish his colleagues, critics and fans alike with the intensity of his skill.',
                 'created_at' => '2016-01-27 13:40:44',
-                'updated_at' => '2016-01-27 13:40:44',
+                'updated_at' => '2016-02-22 16:38:05',
             ),
             421 => 
             array (
@@ -5569,11 +5569,11 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Ali',
                 'birthday' => '1974-02-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0991810',
                 'image' => 'Mahershala_Ali_1453902057.jpg',
             'bio' => 'Born in Oakland, California, Mahershala Ali was raised in the neighboring city of Hayward by his parents and extended family. His father, Phillip, appeared in musical theater. Ali played basketball for St. Mary&#039;s College in Moraga, California (just east of Berkeley), where he received his bachelor of arts degree in mass communications. He began taking acting classes in his junior year, and in his senior year, he had a featured role in the school&#039;s production of Spunk. The summer after his graduation, Ali made his professional debut performing for a season with the California Shakespeare Festival in Orinda, California, where he also served as an apprentice. Soon after, he was accepted into graduate school at New York University, where he received a master&#039;s degree in acting. While at NYU, Maheshala appeared in productions of Blues for an Alabama Sky, The School for Scandal, A Lie of the Mind, A Doll&#039;s House, Monkey in the Middle, The Merchant of Venice, The New Place and Secret Injury, Secret Revenge. His additional stage credits include appearing in Washington, D.C. at the Arena Stage in the title role of The Great White Hope and in The Long Walk and Jack and Jill. His first TV appearance was as Dr. Trey Sanders on the television drama series Crossing Jordan. This was followed by other roles on shows like NYPD Blue, Threat Matrix, CSI: Crime Scene Investigation and The Haunted. Subsequently, Ali landed the role of Richard Tyler, a Korean War pilot on the critically acclaimed drama The 4400 on USA Network for three seasons. Ali has guest starred on a number of shows including Lie To Me on FOX and Law and Order SVU. In addition to his numerous television credits, Mahershala can be seen in David Fincher&#039;s Academy Award Winning film The Curious Case of Benjamin Button playing the role of Tizzy with Brad Pitt and Cate Blanchett, in Wayne Kramer&#039;s film Crossing Over with starring Harrison Ford, opposite Julia Ormond in the Sony Pictures Television Lifetime movie The Wronged Man and in the 20th Century Fox film Predators. More recently Ali co-starred in the HBO pilot All Signs of Death directed by Alan Ball, guest stars in several episodes of the second season of the hit HBO series Treme, opposite Academy Award winner Melissa Leo and is guest starring in the new SyFy original series Alphas. Mahershala is co-starring in &quot;The Place Beyond The Pines&quot; with Ryan Gosling, Eva Mendes and Bradley Cooper. The film is directed by Derek Cianfrance and is due out in early 2012.',
                 'created_at' => '2016-01-27 13:40:57',
-                'updated_at' => '2016-01-27 13:40:57',
+                'updated_at' => '2016-02-22 16:38:08',
             ),
             422 => 
             array (
@@ -5582,7 +5582,7 @@ By the age of ten, she had performed and taken the lead in various Stagecoach pr
                 'surname' => 'Smith',
                 'birthday' => '1968-09-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000226',
                 'image' => 'Will_Smith_1453902075.jpg',
             'bio' => 'Willard Carroll Smith, Jr. was born in West Philadelphia, Pennsylvania, the second of four children of Caroline (Bright), a school board employee, and Willard Carroll Smith, Sr., who owned a refrigeration company. He grew up in a middle class area in West Philadelphia called Wynnefield. 
 
@@ -5590,7 +5590,7 @@ In 1989, he met Benny Medina, who had an idea for a sitcom based on his life in 
 
 With the success that came with the action picture {{Bad Boys (1995)}}, Will&#039;s movie career was set. He had a huge Blockbuster hit with {{Independence Day (1996)}}.',
                 'created_at' => '2016-01-27 13:41:15',
-                'updated_at' => '2016-01-29 13:41:38',
+                'updated_at' => '2016-02-22 16:38:11',
             ),
             423 => 
             array (
@@ -5599,11 +5599,11 @@ With the success that came with the action picture {{Bad Boys (1995)}}, Will&#03
                 'surname' => 'Moynahan',
                 'birthday' => '1971-04-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005256',
                 'image' => 'Bridget_Moynahan_1453902084.jpg',
             'bio' => 'Bridget Moynahan was born on April 28, 1971 in Binghamton, New York, USA as Kathryn Bridget Moynahan. She is an actress, known for I, Robot (2004), Blue Bloods (2010) and Lord of War (2005). She has been married to Andrew Frankel since October 17, 2015.',
                 'created_at' => '2016-01-27 13:41:24',
-                'updated_at' => '2016-01-27 13:41:24',
+                'updated_at' => '2016-02-22 16:38:14',
             ),
             424 => 
             array (
@@ -5612,7 +5612,7 @@ With the success that came with the action picture {{Bad Boys (1995)}}, Will&#03
                 'surname' => 'Tudyk',
                 'birthday' => '1971-03-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0876138',
                 'image' => 'Alan_Tudyk_1453902092.jpg',
                 'bio' => 'Alan Tudyk was born in El Paso, Texas, and grew up in Plano, where he attended Plano Sr. High. In 1990, he went on to study drama at Lon Morris Jr. College.
 
@@ -5620,7 +5620,7 @@ He quickly became a sought-after comedic actor, with roles in such films as 28 D
 
 Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog Story (2004) and the voice of the robot Sonny in {{I, Robot (2004)}}. In 2005, Alan finally reprised the role of Wash in {{Serenity (2005)}}, the feature-film version of the series Firefly.',
                 'created_at' => '2016-01-27 13:41:32',
-                'updated_at' => '2016-01-29 13:38:43',
+                'updated_at' => '2016-02-22 16:38:17',
             ),
             425 => 
             array (
@@ -5629,11 +5629,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Cromwell',
                 'birthday' => '1940-01-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000342',
                 'image' => 'James_Cromwell_1453902101.jpg',
             'bio' => 'Born in Los Angeles but raised in Manhattan and educated at Middlebury College and Carnegie-Mellon University, James Cromwell, the son of famous film director John Cromwell, studied acting at Carnegie-Mellon. He went into the theater (like both his parents) doing everything from Shakespeare to experimental plays. He started doing television in 1974, gaining some notice in a recurring role as Archie Bunker&#039;s friend Stretch Cunningham on All in the Family (1971), made his film debut in 1976, and goes back to the stage periodically. Some of his more noted film roles have been in Revenge of the Nerds (1984), Star Trek: First Contact (1996) and the surprise classic about a charming pig, Babe, le cochon devenu berger (1995). He garnered some of the best reviews of his career (many of which said he should have received an Oscar) for his role as a corrupt, conniving police captain in L.A. Confidential (1997).',
                 'created_at' => '2016-01-27 13:41:41',
-                'updated_at' => '2016-01-27 13:41:41',
+                'updated_at' => '2016-02-22 16:38:20',
             ),
             426 => 
             array (
@@ -5642,11 +5642,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Greenwood',
                 'birthday' => '1956-08-12',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0339304',
                 'image' => 'Bruce_Greenwood_1453902112.jpg',
             'bio' => 'Bruce Greenwood was born on August 12, 1956 in Noranda, Qu&eacute;bec, Canada as Stuart Bruce Greenwood. He is an actor and producer, known for Star Trek (2009), I, Robot (2004) and Star Trek Into Darkness (2013). He has been married to Susan Devlin since 1985. They have one child.',
                 'created_at' => '2016-01-27 13:41:52',
-                'updated_at' => '2016-01-27 13:41:52',
+                'updated_at' => '2016-02-22 16:38:23',
             ),
             427 => 
             array (
@@ -5655,11 +5655,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Carrey',
                 'birthday' => '1962-01-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000120',
                 'image' => 'Jim_Carrey_1453902161.jpg',
             'bio' => 'Jim Carrey, Canadian-born and a U.S. citizen since 2004, is an actor and producer famous for his rubbery body movements and flexible facial expressions. The two-time Golden Globe-winner rose to fame as a cast member of the Fox sketch comedy In Living Color (1990) but leading roles in Ace Ventura: Pet Detective (1994), Dumb &amp; Dumber (1994) and The Mask (1994) established him as a bankable comedy actor. James Eugene Carrey was born on January 17, 1962 in Newmarket, Ontario, Canada, and is the youngest of four children of Kathleen (Oram), a homemaker, and Percy Carrey, an accountant and jazz musician. The family surname was originally &quot;Carr&eacute;&quot;, and he has French-Canadian, Scottish, and Irish ancestry. Carrey was an incurable extrovert from day one. As a child, he performed constantly, for anyone who would watch, and even mailed his r&eacute;sum&eacute; to The Carol Burnett Show (1967) at age 10. In junior high, he was granted a few precious minutes at the end of each school day to do stand-up routines for his classmates (provided, of course, that he kept a lid on it the rest of the day). Carrey&#039;s early adolescence took a turn for the tragic, however, when the family was forced to relocate from their cozy town of Newmarket to Scarborough (a Toronto suburb). They all took security and janitorial jobs in the Titan Wheels factory, Jim working 8-hour shifts after school let out (not surprisingly, his grades and morale both suffered). When they finally deserted the factory, the family lived out of a Volkswagen camper van until they could return to Toronto. Carrey made his stand-up debut in Toronto after his parents and siblings got back on their feet. He made his (reportedly awful) professional stand-up debut at Yuk-Yuk&#039;s, one of the many local clubs that would serve as his training ground in the years to come. He dropped out of high school, worked on his celebrity impersonations (among them Michael Landon and James Stewart), and in 1979 worked up the nerve to move to Los Angeles. He finessed his way into a regular gig at The Comedy Store, where he impressed Rodney Dangerfield so much that the veteran comic signed him as an opening act for an entire season. During this period Carrey met and married waitress Melissa Womer, with whom he had a daughter (Jane). The couple would later go through a very messy divorce, freeing Carrey up for a brief second marriage to actress Lauren Holly. Wary of falling into the lounge act lifestyle, Carrey began to look around for other performance outlets. He landed a part as a novice cartoonist in the short-lived sitcom The Duck Factory (1984); while the show fell flat, the experience gave Carrey the confidence to pursue acting more vigorously. Carrey also worked on breaking into film around this time. He scored the male lead in the ill-received Lauren Hutton vehicle Once Bitten (1985), and had a supporting role in Peggy Sue Got Married (1986), before making a modest splash with his appearance as the alien Wiploc in Earth Girls Are Easy (1988). Impressed with Carrey&#039;s lunacy, fellow extraterrestrial Damon Wayans made a call to his brother, Keenen Ivory Wayans, who was in the process of putting together the sketch comedy show In Living Color (1990). Carrey joined the cast and quickly made a name for himself with outrageous acts (one of his most popular characters, psychotic Fire Marshall Bill, was attacked by watchdog groups for dispensing ill- advised safety tips). Following his time on In Living Color (1990), Carrey&#039;s transformation from TV goofball to marquee headliner happened within the course of a single year. He opened 1994 with a starring turn in Ace Ventura: Pet Detective (1994), a film that cashed in on his extremely physical brand of humor (the character&#039;s trademark was talking out his derri&egrave;re). Next up was the manic superhero movie The Mask (1994), which had audiences wondering just how far Carrey&#039;s features could stretch. Finally, in December 1994, he hit theaters as a loveable dolt in the Farrelly brothers&#039; Dumb &amp; Dumber (1994) (his first multi-million dollar payday). Now a box-office staple, Carrey brought his manic antics onto the set of Batman Forever (1995), replacing Robin Williams as The Riddler. He also filmed the follow-up to his breakthrough, Ace Ventura: When Nature Calls (1995), and inked a deal with Sony to star in The Cable Guy (1996) (replacing Chris Farley) for a cool $20 million--at the time, that was the biggest up-front sum that had been offered to any comic actor. The movie turned out to be a disappointment, both critically and financially, but Carrey bounced back the next year with the energetic hit Liar Liar (1997). Worried that his comic shtick would soon wear thin, Carrey decided to change course. In 1998, he traded in the megabucks and silly grins to star in Peter Weir&#039;s The Truman Show (1998) playing a naive salesman who discovers that his entire life is the subject of a TV show, Carrey demonstrated an uncharacteristic sincerity that took moviegoers by surprise. He won a Golden Globe for the performance, and fans anticipated an Oscar nomination as well--when it didn&#039;t materialize, Carrey lashed out at Academy members for their narrow-minded selection process. Perhaps inspired by the snub, Carrey threw himself into his next role with abandon. After edging out a handful of other hopefuls (including Edward Norton) to play eccentric funnyman Andy Kaufman in Man on the Moon (1999), Carrey disappeared into the role, living as Kaufman -- and his blustery alter-ego Tony Clifton -- for months (Carrey even owned Kaufman&#039;s bongo drums, which he&#039;d used during his audition for director Milos Forman). His sometimes uncanny impersonation was rewarded with another Golden Globe, but once again the Academy kept quiet. An indignant Carrey next reprised his bankable mania for the Farrelly brothers in Me, Myself &amp; Irene (2000), playing a state trooper whose Jekyll and Hyde personalities both fall in love with the same woman (Ren&eacute;e Zellweger). Carrey&#039;s real-life persona wound up falling for her too--a few months after the film wrapped, the pair announced they were officially a couple. By then, Carrey had already slipped into a furry green suit to play the stingy antihero of Ron Howard&#039;s How the Grinch Stole Christmas (2000). Although Carrey maintains a foothold in the comedy world with films such as Bruce Almighty (2003) and Mr. Popper&#039;s Penguins (2011), he is also capable of turning in nuanced dramatic performances, as demonstrated in films like Eternal Sunshine of the Spotless Mind (2004) and the drama/comedy Yes Man (2008). In 2013, he costars with Steve Carell in The Incredible Burt Wonderstone (2013). Carrey has one child with his first wife, Melissa Carrey, whom he divorced in 1995. He married actress Lauren Holly in 1996, but they split less than a year later.',
                 'created_at' => '2016-01-27 13:42:41',
-                'updated_at' => '2016-01-27 13:42:41',
+                'updated_at' => '2016-02-22 16:38:26',
             ),
             428 => 
             array (
@@ -5668,11 +5668,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'McGregor',
                 'birthday' => '1971-03-31',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000191',
                 'image' => 'Ewan_Mcgregor_1453902171.jpg',
             'bio' => 'Ewan Gordon McGregor was born on March 31, 1971 in Crieff, Scotland, to Carol Diane (Lawson) and James Charles McGregor, both teachers. His uncle is actor Denis Lawson. At age 16, he left Crieff and Morrison Academy to join the Perth Repertory Theatre. His parents encouraged him to leave school and pursue his acting goals rather than be unhappy. McGregor studied drama for a year at Kirkcaldly in Fife, then enrolled at London&#039;s Guildhall School of Music and Drama for a three-year course. He studied alongside Daniel Craig and Alistair McGowan, among others, and left right before graduating after snagging the role of Private Mick Hopper in Dennis Potter&#039;s six-part Channel 4 series Lipstick on Your Collar (1993). His first notable role was that of Alex Law in Shallow Grave (1994), directed by Danny Boyle, written by John Hodge and produced by Andrew MacDonald. This was followed by The Pillow Book (1996) and Trainspotting (1996), the latter of which brought him to the public&#039;s attention. He is now one of the most critically acclaimed actors of his generation, and portrays Obi-Wan Kenobi in the first three Star Wars episodes. McGregor is married to French production designer Eve Mavrakis, whom he met while working on the television series Kavanagh QC (1995). They married in France in the summer of 1995 and have two daughters, Clara Mathilde and Esther Rose. McGregor formed a production company, with friends Jonny Lee Miller, Sean Pertwee, Jude Law, Sadie Frost, Damon Bryant, Bradley Adams and Geoff Deehan, called &quot;Natural Nylon&quot;, and hoped it would make innovative films that do not conform to Hollywood standards. McGregor and Bryant left the company in 2002. He was awarded Officer of the Order of the British Empire in the 2013 Queen&#039;s New Years Honours List for his services to drama and charity.',
                 'created_at' => '2016-01-27 13:42:51',
-                'updated_at' => '2016-01-28 12:22:54',
+                'updated_at' => '2016-02-22 16:38:29',
             ),
             429 => 
             array (
@@ -5681,11 +5681,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Mann',
                 'birthday' => '1972-03-26',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005182',
                 'image' => 'Leslie_Mann_1453902191.jpg',
             'bio' => 'Actress Leslie Mann was born in San Francisco, California. She was raised by her mother, Janet, a realtor, and was educated at Corona del Mar High School in Newport Beach, California. At the age of 17 she launched her career, appearing in various TV commercials. Her screen break came when she was cast as Nurse Mary in the short-lived Birdland (1994). Further TV and film roles followed, including The Cable Guy (1996), where she met her husband, Judd Apatow, who was a producer on the film. The story goes that after Mann left her audition for the role, Apatow turned to his colleagues and said &quot;there goes the future Mrs. Apatow&quot;. Further successes followed for Mann in such projects as George of the Jungle (1997) and The 40-Year-Old Virgin (2005). She also appeared alongside her daughters - Maude Apatow and Iris Apatow - in Knocked Up (2007), Funny People (2009) and This Is 40 (2012). Leslie is of Finnish (from her maternal grandmother), Scottish, English, Irish, and German descent.',
                 'created_at' => '2016-01-27 13:43:11',
-                'updated_at' => '2016-01-27 13:43:11',
+                'updated_at' => '2016-02-22 16:38:32',
             ),
             430 => 
             array (
@@ -5694,11 +5694,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Laurent',
                 'birthday' => '1983-02-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000187',
                 'image' => 'M_eacute_lanie_Laurent_1453902218.jpg',
             'bio' => 'M&eacute;lanie Laurent was born in Paris, France. She is the daughter of Annick, a ballet teacher, and Pierre, a voice actor, who is most recognized for the French version of The Simpsons (1989). She has a younger brother, Mathieu, and has both Sephardi Jewish (from Tunisia) and Ashkenazi Jewish (from Poland) ancestry. In 1998, Laurent was visiting the set of Asterix and Obelix vs. Caesar (1999) with a friend when she caught the attention of G&eacute;rard Depardieu. He offered her a role in his next film Un pont entre deux rives (1999). She only played a small role, but it was enough to further M&eacute;lanie&#039;s interest in acting.',
                 'created_at' => '2016-01-27 13:43:38',
-                'updated_at' => '2016-01-27 13:43:38',
+                'updated_at' => '2016-02-22 16:38:35',
             ),
             431 => 
             array (
@@ -5707,11 +5707,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Roth',
                 'birthday' => '1972-04-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0744834',
                 'image' => 'Eli_Roth_1453902250.jpg',
             'bio' => 'Eli Raphael Roth was born in Newton, Massachusetts, to Cora (Bialis), a painter, and Sheldon H. Roth, a psychoanalyst, psychiatrist, and clinical professor. His family is Jewish (from Austria, Hungary, Russia, and Poland). He began shooting Super 8 films at the age of eight, after watching Ridley Scott&#039;s Alien (1979) and vomiting, and deciding he wanted to be a producer/director. With his brothers and friends, ketchup for blood and his father&#039;s power tools, he made over fifty short films before attending film school at N.Y.U., where he won a student Academy Award and graduated Summa Cum Laude in 1994. Eli worked in film and theater production in New York City for many years, doing every job from production assistant to assistant editor to assistant to the director. At the age of 20 Roth was development head for producer Fred Zollo, a position he soon left to write full time. To earn a living, Roth did budgets and schedules for the films A Price Above Rubies (1998) and Illuminata (1998) and often worked as a stand-in, where he could watch directors work with the actors. In 1995, Roth co-wrote the script that would eventually become Cabin Fever (2002) with friend Randy Pearlstein, and the two spent many years unsuccessfully trying to get the film financed. Roth left New York in 1999 to live in Los Angeles, and within four months got funding for his animation series Chowdaheads (1999). Roth and friend Noah Belson (Cabin Fever (2002)&#039;s Guitar Man) wrote and voiced the episodes, which Roth produced, directed and designed. The episodes were due to run on W.C.W.&#039;s #1 rated series WCW Monday Nitro (1995) but the C.E.O. was fired a day before they were scheduled to air, and the episodes never ran. Roth used the episodes to set up a stop motion series called The Rotten Fruit (2003) which he produced, directed and animated, as well as co-wrote and voiced with friend Belson. Between the two animated series, Roth worked closely with director David Lynch, producing content for the website davidlynch.com. In 2001, Roth filmed Cabin Fever (2002) on a shoestring budget of $1.5 million, with private equity he and his producers raised from friends and family. The film was the subject of a bidding war at the 2002 Toronto Film Festival, eventually won by Lion&#039;s Gate, instantly doubling their investors&#039; money. It went on to not only be the highest grossing film for Lion&#039;s Gate in 2003, but the most profitable horror film released that year, garnering critical acclaim from The New York Times, Rolling Stone, Empire Magazine, and such filmmakers as Peter Jackson, Quentin Tarantino and Tobe Hooper. Roth used the film&#039;s success to launch a slew of projects, including The Box (2009), a horror thriller he co-wrote with Richard Kelly. In May of 2003, Roth joined forces with filmmakers Boaz Yakin, Scott Spiegel, and Greenestreet Films in New York to form Raw Nerve, LLC, a horror film production company. In 2014, Eli married Chilean model and actress Lorenza Izzo.',
                 'created_at' => '2016-01-27 13:44:10',
-                'updated_at' => '2016-01-27 13:44:10',
+                'updated_at' => '2016-02-22 16:38:39',
             ),
             432 => 
             array (
@@ -5720,11 +5720,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Fassbender',
                 'birthday' => '1977-04-02',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1055413',
                 'image' => 'Michael_Fassbender_1453902278.jpg',
             'bio' => 'Michael Fassbender was born in Heidelberg, Germany, to a German father, Josef, and an Irish mother, Adele (originally from Larne, County Antrim, in Northern Ireland). Michael was raised in the town of Killarney, Co. Kerry, in south-west Ireland, where his family moved to when he was two years old. His parents ran a restaurant (his father is a chef). Fassbender is based in London, England, and is known for his roles in the films Inglourious Basterds (2009), X-Men: First Class (2011), Shame (2011) and 12 Years a Slave (2013).',
                 'created_at' => '2016-01-27 13:44:38',
-                'updated_at' => '2016-01-27 13:44:38',
+                'updated_at' => '2016-02-22 16:38:43',
             ),
             433 => 
             array (
@@ -5733,11 +5733,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Kruger',
                 'birthday' => '1976-07-15',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1208167',
                 'image' => 'Diane_Kruger_1453902286.jpg',
             'bio' => 'Diane Kruger was born Diane Heidkr&uuml;ger in Algermissen, near Hildesheim, Germany, to Maria-Theresa, a bank employee, and Hans-Heinrich Heidkr&uuml;ger, a computer specialist. She studied ballet with the Royal Ballet in London before an injury ended her career. She returned to Germany and became a top fashion model. She later pursued acting and relocated to Paris at the suggestion of filmmaker Luc Besson (The Fifth Element (1997)). She married French actor Guillaume Canet (The Beach (2000)) in 2001.',
                 'created_at' => '2016-01-27 13:44:46',
-                'updated_at' => '2016-01-27 13:44:46',
+                'updated_at' => '2016-02-22 16:38:46',
             ),
             434 => 
             array (
@@ -5746,11 +5746,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Page',
                 'birthday' => '1987-02-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0680983',
                 'image' => 'Ellen_Page_1453902331.jpg',
             'bio' => 'Ellen Philpotts-Page was born on February 21, 1987, in Halifax, Nova Scotia, to Martha Philpotts, a teacher, and Dennis Page, a graphic designer. Page wanted to start acting at an early age and attended the Neptune Theater School. She began her career at the age of 10 on the award-winning television series Pit Pony (1999), for which she received a Gemini nomination and a Young Artist Awards nomination. Later, Page appeared in Marion Bridge (2002), which won the award for Best Canadian First Feature at the Toronto International Film Festival. She won a Gemini Award for her role of Lilith in the first season of ReGenesis (2004), a one-hour drama for TMN/Movie Central, and for the cable feature, Mrs. Ashboro&#039;s Cat (2004), for Best Performance in a Children&#039;s or Youth Program or Series. In addition, Page appeared in the cult hit TV series Trailer Park Boys (2001). As the lead in David Slade&#039;s Hard Candy (2005), which premiered at the Sundance Film Festival, Page garnered much praise for her tour de force performance as a 14-year-old girl who meets a 30-year-old photographer on the Internet and then looks to expose him as pedophile. Films that followed included the title role of Bruce McDonald&#039;s The Tracey Fragments (2007); An American Crime (2007), also starring Catherine Keener; and the third installation of the X-Men franchise, X-Men - L&#039;affrontement final (2006), where she played Kitty Pryde. With her breakout role in Jason Reitman&#039;s hit comedy Juno (2007), about an offbeat teenager who finds herself unexpectedly pregnant, Page received Academy Award, BAFTA, Golden Globe and SAG Best Actress nominations, and won the Independent Spirit Award for her performance. She followed up that turn with the lead in Drew Barrymore&#039;s directorial debut, the roller-derby comedy-drama Whip It (2009), Christopher Nolan&#039;s psychological thriller Inception (2010), the independent film Peacock (2010), and the dark comedy Super (2010), opposite Rainn Wilson and Liv Tyler. Page co-starred alongside Jesse Eisenberg, Alec Baldwin, and Greta Gerwig in the Woody Allen ensemble comedy To Rome with Love (2012), and appeared in the thriller The East (2013), a story centered on a contract worker tasked with infiltrating an anarchist group, only to find herself falling for its leader.',
                 'created_at' => '2016-01-27 13:45:31',
-                'updated_at' => '2016-01-27 13:45:31',
+                'updated_at' => '2016-02-22 16:38:49',
             ),
             435 => 
             array (
@@ -5759,11 +5759,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Rao',
                 'birthday' => '1973-07-29',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2438307',
                 'image' => 'Dileep_Rao_1453902340.jpg',
             'bio' => 'Dileep Rao was born on July 29, 1973 in Los Angeles, California, USA as Dileep A. Rao. He is an actor and producer, known for Inception (2010), Avatar (2009) and Drag Me to Hell (2009).',
                 'created_at' => '2016-01-27 13:45:40',
-                'updated_at' => '2016-01-27 13:45:40',
+                'updated_at' => '2016-02-22 16:38:52',
             ),
             436 => 
             array (
@@ -5772,11 +5772,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Berenger',
                 'birthday' => '1949-05-31',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000297',
                 'image' => 'Tom_Berenger_1453902352.jpg',
             'bio' => 'Born in Chicago, Oscar nominee, Golden Globe and Emmy winner Tom Berenger was raised in a working class home as the son of a printer for the Chicago Sun-Times. Tom attended the University of Missouri to study journalism. It was there he first auditioned for a role in &quot;Who&#039;s Afraid of Virginia Woolf&quot; at the college theater on a whim and a bet with a roommate. He was accepted for the role of &quot;Nick.&quot; After several stints in regional theater, Tom then attended the Herbert Berghof Studio School for Acting in New York City. While in New York, he pursued his professional career in theater and television. Tom&#039;s auspicious film debut in Looking for Mr. Goodbar (1977) led to other roles in films such as Eddie and the Cruisers (1983), The Big Chill (1983), Platoon (1986), Someone to Watch Over Me (1987), Shoot to Kill (1988), _Betrayed_, Last Rites (1988), Major League (1989), Shattered (1991), Gettysburg (1993), The Substitute (1996), Sniper (1993), Rough Riders (1997), Inception (2010), Hatfields &amp; McCoys (2012), among many others.',
                 'created_at' => '2016-01-27 13:45:52',
-                'updated_at' => '2016-01-27 13:45:52',
+                'updated_at' => '2016-02-22 16:38:55',
             ),
             437 => 
             array (
@@ -5785,11 +5785,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Haas',
                 'birthday' => '1976-04-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001305',
                 'image' => 'Lukas_Haas_1453902360.jpg',
             'bio' => 'Lukas was born on April 16, 1976 in West Hollywood, California. His Texas-born mother, Emily Tracy, is a writer, and his German-born father, Berthold Haas, is an artist. He has twin brothers, Simon and Nikolai. It&#039;s widely noted that Lukas was discovered at the age of 5 by casting director Margery Simkin while he was in kindergarten. While his first screen role was in the 1983 nuclear holocaust film Testament (1983), it was his second appearance, in Witness (1985) opposite Harrison Ford and Kelly McGillis, that earned attention and acclaim. In Peter Weir&#039;s 1985 film, Lukas portrayed an Amish child who was the sole witness to an undercover cop&#039;s murder, and his work earned him starring roles in such films as Lady in White (1988), The Wizard of Loneliness (1988), and Alan &amp; Naomi (1992) - the latter film co-written by his mother. Lukas was subsequently nominated for an Emmy for his portrayal of AIDS victim, Ryan White, in the controversial TV movie, The Ryan White Story (1989). He continued to distinguish himself in film in starring roles including: Music Box (1989) with Jessica Lange and director Costa-Gavras; Convicts (1991) and Rambling Rose (1991) (both with Robert Duvall); and Boys (1996) with John C. Reilly and Winona Ryder. On stage, in 1988, Lukas performed alongside Steve Martin and Robin Williams in Samuel Beckett&#039;s &quot;Waiting for Godot&quot; at Lincoln Center in New York City for director Mike Nichols. Lukas went on to work with directors Woody Allen in Everyone Says I Love You (1996), Tim Burton in Mars Attacks! (1996), and Alan Rudolph in Breakfast of Champions (1999). He had a pivotal role in Brick (2005), Rian Johnson&#039;s directorial debut with Joseph Gordon-Levitt. He next appeared in the Kurt Cobain-inspired Last Days (2005), directed by Gus Van Sant, which premiered at the Cannes Film Festival. Roles in Material Girls (2006), slasher movie send-up The Tripper (2006), Who Loves the Sun (2006), Gardener of Eden (2007), While She Was Out (2008), and Death in Love (2008) followed. Recently, Lukas had a supporting role in Christopher Nolan&#039;s Inception (2010) opposite Leonardo DiCaprio, Ellen Page, Joseph Gordon-Levitt, Michael Caine and Marion Cotillard. He then appeared in Red Riding Hood (2011) for director Catherine Hardwicke, and Contraband (2012), director Baltasar Korm&aacute;kur&#039;s English-language remake of the movie he starred in, Reykjavik - Rotterdam (2008). Lukas was most recently seen in Crazy Eyes (2012). He has several projects in production, including Meth Head (2013) written and directed by Jane Clark. Also a talented musician, Lukas plays drums and piano in the band The Rogues.',
                 'created_at' => '2016-01-27 13:46:00',
-                'updated_at' => '2016-01-27 13:46:00',
+                'updated_at' => '2016-02-22 16:38:58',
             ),
             438 => 
             array (
@@ -5798,11 +5798,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Howard',
                 'birthday' => '1969-03-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005024',
                 'image' => 'Terrence_Howard_1453902377.jpg',
             'bio' => 'Terrence Howard was born in Chicago, Illinois, to Anita Jeanine Williams (n&eacute;e Hawkins) and Tyrone Howard. He was raised in Cleveland, Ohio. His love for acting came naturally, through summers spent with his great-grandmother, New York stage actress Minnie Gentry. He later began his acting career after being discovered on a New York City street by a casting director. Soon, he followed with several notable TV appearances on shows such as Living Single (1993), NYPD Blue (1993) and Soul Food (2000). He became well known for his lead role in the UPN TV series Sparks (1996). Howard broke onto the big screen with his riveting performance in Mr. Holland&#039;s Opus (1995). Howard&#039;s most memorable performances to date are of scene-stealing characters such as &quot;Cowboy&quot; in the Hughes brother&#039;s film Dead Presidents (1995) and as &quot;Quentin&quot; in Malcolm D. Lee&#039;s Independent film The Best Man (1999). The latter earning him a NAACP Image Award, Independent Spirit Award nomination and a Chicago Film Critics Award nomination. A self taught musician, Howard plays both the piano and the guitar. You can see Terrence display his musical talents opposite Jamie Foxx in this year&#039;s breakout film Ray (2004). A promising songwriter, Howard&#039;s lyrics are soon to be acquired by some of today&#039;s biggest artists. In addition to his musical talents, Howard also has a strong interest in science.',
                 'created_at' => '2016-01-27 13:46:17',
-                'updated_at' => '2016-01-27 13:46:17',
+                'updated_at' => '2016-02-22 16:39:01',
             ),
             439 => 
             array (
@@ -5811,11 +5811,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Bridges',
                 'birthday' => '1949-12-04',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000313',
                 'image' => 'Jeff_Bridges_1453902386.jpg',
             'bio' => 'Jeffrey Leon Bridges was born on December 4, 1949 in Los Angeles, California, the son of well-known film and TV star Lloyd Bridges and his long-time wife Dorothy Dean Bridges (n&eacute;e Simpson). He grew up amid the happening Hollywood scene with big brother Beau Bridges. Both boys popped up, without billing, alongside their mother in the film The Company She Keeps (1951), and appeared on occasion with their famous dad on his popular underwater TV series Sea Hunt (1958) while growing up. At age 14, Jeff toured with his father in a stage production of &quot;Anniversary Waltz&quot;. The &quot;troublesome teen&quot; years proved just that for Jeff and his parents were compelled at one point to intervene when problems with drugs and marijuana got out of hand. He recovered and began shaping his nascent young adult career appearing on TV as a younger version of his father in the acclaimed TV-movie Silent Night, Lonely Night (1969), and in the strange Burgess Meredith film Le 3eme oeil (1970). Following fine notices for his portrayal of a white student caught up in the racially-themed Halls of Anger (1970), his career-maker arrived just a year later when he earned a coming-of-age role in the critically-acclaimed ensemble film The Last Picture Show (1971). The Peter Bogdanovich- directed film made stars out off its young leads (Bridges, Timothy Bottoms, Cybill Shepherd) and Oscar winners out of its older cast (Ben Johnson, Cloris Leachman). The part of Duane Jackson, for which Jeff received his first Oscar-nomination (for &quot;best supporting actor&quot;), set the tone for the types of roles Jeff would acquaint himself with his fans -- rambling, reckless, rascally and usually unpredictable). Owning a casual carefree handsomeness and armed with a perpetual grin and sly charm, he started immediately on an intriguing 70s sojourn into offbeat filming. Chief among them were his boxer on his way up opposite a declining Stacy Keach in Fat City (1972); his Civil War-era conman in the western Bad Company (1972); his redneck stock car racer in The Last American Hero (1973); his young student anarchist opposite a stellar veteran cast in Eugene O&#039;Neill&#039;s The Iceman Cometh (1973); his bank-robbing (also Oscar-nominated) sidekick to Clint Eastwood in Thunderbolt and Lightfoot (1974); his aimless cattle rustler in Rancho Deluxe (1975); his low-level western writer who wants to be a real-life cowboy in Hearts of the West (1975); and his brother of an assassinated President who pursues leads to the crime in Winter Kills (1979). All are simply marvelous characters that should have propelled him to the very top rungs of stardom...but strangely didn&#039;t. Perhaps it was his trademark ease and naturalistic approach that made him somewhat under appreciated at that time when Hollywood was run by a Dustin Hoffman, Robert De Niro and Al Pacino-like intensity. Neverthless, Jeff continued to be a scene-stealing favorite into the next decade, notably as the video game programmer in the 1982 science-fiction cult classic TRON (1982), and the struggling musician brother vying with brother Beau Bridges over the attentions of sexy singer Michelle Pfeiffer in The Fabulous Baker Boys (1989). Jeff became a third-time Oscar nominee with his highly intriguing (and strangely sexy) portrayal of a blank-faced alien in Starman (1984), and earned even higher regard as the ever-optimistic inventor Preston Tucker in Tucker: The Man and His Dream (1988). Since then Jeff has continued to pour on the Bridges magic on film. Few enjoy such an enduring popularity while maintaining equal respect with the critics. The Fisher King (1991), American Heart (1992), Fearless (1993), The Big Lebowski (1998) (now a cult phenomenon) and The Contender (2000) (which gave him a fourth Oscar nomination) are prime examples. More recently he seized the moment as a bald-pated villain as Robert Downey Jr.&#039;s nemesis in Iron Man (2008) and then, at age 60, he capped his rewarding career by winning the elusive Oscar, plus the Golden Globe and Screen Actor Guild awards (among many others), for his down-and-out country singer Bad Blake in Crazy Heart (2009). Bridges next starred in TRON: Legacy (2010), reprising one of his more famous roles, and received another Oscar nomination for Best Actor for his role in the Western remake True Grit (2010). In 2014, he co-produced and starred in an adaptation of the Lois Lowry science fiction drama The Giver (2014). Jeff has been married since 1977 to non-professional Susan Geston (they met on the set of Rancho Deluxe (1975)). The couple have three daughters, Isabelle (born 1981), Jessica (born 1983), and Hayley (born 1985). He hobbies as a photographer on and off his film sets, and has been known to play around as a cartoonist and pop musician. His ancestry is English, as well as some Irish and Swiss-German.',
                 'created_at' => '2016-01-27 13:46:26',
-                'updated_at' => '2016-01-27 13:46:26',
+                'updated_at' => '2016-02-22 16:39:04',
             ),
             440 => 
             array (
@@ -5824,11 +5824,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Bibb',
                 'birthday' => '1974-11-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0004753',
                 'image' => 'Leslie_Bibb_1453902394.jpg',
             'bio' => 'Leslie Louise Bibb was born in Bismarck, North Dakota, on November 17, 1974, and raised in Nelson County, Virginia. Later she and her mother, along with her three older sisters, moved to Richmond, where Leslie attended an all-girls Catholic high school, St. Gertrude. In 1990 The Oprah Winfrey Show (1986) and the Elite Agency held a nationwide modeling search; Leslie&#039;s mother took photos of her then 16-year-old daughter and sent them in. Although Leslie wasn&#039;t impressed with the photos, the judges--John Casablancas, Naomi Campbell, Linda Evangelista and Iman--were, and they picked her as the winner. After finishing her junior year, Leslie flew to New York City and signed a contract with Elite. She modeled over the summer, and went on a trip to Japan. She returned home for her senior year and graduated in 1992, then decided to forgo a full-time modeling career to attend the University of Virginia. After a single semester, however, she dropped out and moved to New York City. She attended the William Esper acting studio for three years and took nine months off in which she did more modeling in Europe. Her photographs have appeared in such magazine as Maxim and FHM. Leslie had her first film role in the comedy Private Parts (1997), which was followed by her first television series (where she replaced the departed Susan Walters as the female lead) in the second season of The Big Easy (1996) on USA. Unfortunately, the show was canceled just months later. In 1999 she appeared as the lead character on the WB Network television series Popular (1999). The show was a success among teenagers, and led Leslie to more recognizable film roles, such as The Skulls (2000) and See Spot Run (2001). Most recently she has appeared as intern Erin Harkins in ER (1994).',
                 'created_at' => '2016-01-27 13:46:34',
-                'updated_at' => '2016-01-27 13:46:34',
+                'updated_at' => '2016-02-22 16:39:06',
             ),
             441 => 
             array (
@@ -5837,11 +5837,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Favreau',
                 'birthday' => '1966-10-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0269463',
                 'image' => 'Jon_Favreau_1453902405.jpg',
             'bio' => 'Initially an indie film favorite, actor Jon Favreau has progressed to strong mainstream visibility into the millennium and, after nearly two decades in the business, is still enjoying character stardom as well as earning notice as a writer/producer/director. The amiable, husky-framed actor with the tight, crinkly hair was born in Queens, New York on October 19, 1966, the only child of Madeleine, an elementary school teacher, and Charles Favreau, a special education teacher. His father has French-Canadian, German, and Italian ancestry, and his mother was from a Jewish family. He attended the Bronx High School of Science before furthering his studies at Queens College in 1984. Dropping out just credits away from receiving his degree, Jon moved to Chicago where he focused on comedy and performed at several Chicago improvisational theaters, including the ImprovOlympic and the Improv Institute. He also found a couple of bit parts in films. While there, he earned another bit role in the film, Rudy (1993), and met fellow castmate Vince Vaughn. Their enduring personal friendship would play an instrumental role in furthering both their professional careers within just a few years. Jon broke into TV with a role on the classic series, Seinfeld (1989) (as &quot;Eric the Clown&quot;). After filming rudimentary roles in the movies Mrs. Parker and the Vicious Circle (1994), Notes from Underground (1995) and Batman Forever (1995), he decided to do some risk taking by writing himself and friend Vaughn into what would become their breakthrough film. Swingers (1996), which he also co-produced, centers on Jon as a luckless, struggling actor type who is emotionally shattered after losing his girlfriend, but is pushed back into the L.A. social scene via the help of cool, worldly, outgoing actor/buddy Vaughn. These two blueprint roles went on to define the character types of both actors on film. In 1997, Jon appeared favorably on several episodes of the popular TV sitcom, Friends (1994), as &quot;Pete Becker&quot;, the humdrum but extremely wealthy suitor for Courteney Cox&#039;s &quot;Monica&quot; character, and also appeared to fine advantage on the Tracey Takes On... (1996) comedy series. He later took on the biopic mini-movie, Rocky Marciano (1999), portraying the prizefighter himself in a highly challenging dramatic role and received excellent reviews. Other engagingly offbeat &quot;everyman&quot; films roles came Jon&#039;s way -- the ex-athlete in the working class film, Dogtown (1997); a soon-to-be groom whose bachelor party goes horribly awry in the comedy thriller Very Bad Things (1998); a newlywed opposite Famke Janssen in Love &amp; Sex (2000); a wild and crazy linebacker in The Replacements (2000); as Ben Affleck&#039;s legal partner in Daredevil (2003); and another down-and-out actor in The Big Empty (2003). He wrote and directed himself and Vaughn as two fellow boxers who involve themselves in criminal activity in Made (2001). Both he and Vaughn produced. He also directed the highly popular Will Ferrell comedy, Elf (2003), in which he had a small part. Jon went on to re-team favorably with his friend, Vince Vaughn, who enjoyed a meteoric rise into the comedy star ranks, in such light-weight features as The Break-Up (2006), Tout... sauf en famille (2008) and Couples Retreat (2009), the last of which he co-wrote with Vaughn. He also made great strides as a producer/director in recent years with the exciting mega-box office action-packed Iron Man (2008), starring Robert Downey Jr. and its sequel, Iron Man 2 (2010). Favreau&#039;s marriage to Joya Tillem on November 24, 2000, produced son Max and two daughters, Madeleine and Brighton Rose. Joya is the niece of KGO (AM) lawyer and talk show host, Len Tillem. On the sly, the actor/writer/producer/director enjoys playing on the World Poker Tour.',
                 'created_at' => '2016-01-27 13:46:46',
-                'updated_at' => '2016-01-27 13:46:46',
+                'updated_at' => '2016-02-22 16:39:09',
             ),
             442 => 
             array (
@@ -5850,11 +5850,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Cheadle',
                 'birthday' => '1964-11-29',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000332',
                 'image' => 'Don_Cheadle_1453902428.jpg',
             'bio' => 'Don Cheadle was born in Kansas City, Missouri on November 29, 1964. His childhood found him moving from city to city with his family: mother Bettye (North), a teacher, father Donald Frank Cheadle, Sr., a clinical psychologist, sister Dawn, and brother Colin. After graduating high school in Denver, Colorado, Cheadle attended and graduated from the California Institute of the Arts with a Bachelor&sup1;s Degree in Fine Arts. Encouraged by his college friends, he attended a variety of auditions and landed a recurring role on the hit series Fame (1982), which led to feature film roles in Dennis Hopper&#039;s Colors (1988) and John Irvin&#039;s Hamburger Hill (1987). Early in his career, Cheadle was named Best Supporting Actor by the Los Angeles Film Critics for his breakout performance opposite Denzel Washington in Devil in a Blue Dress (1995). His subsequent film credits include: Traitor (2008), an international thriller which he produced, starring opposite Guy Pearce; Kasi Lemmons&#039;s Talk to Me (2007), with Chiwetel Ejiofor; the 2006 Oscar-winning Best Picture, Collision (2004), which Cheadle also produced; Hotel Rwanda (2004), for which his performance garnered Oscar, Golden Globe, Broadcast Film Critics and Screen Actors Guild award nominations for Best Actor; Steven Soderbergh&#039;s Ocean&#039;s Eleven (2001), Ocean&#039;s Twelve (2004) and Ocean&#039;s Thirteen (2007), starring Brad Pitt and George Clooney; Mike Binder&#039;s Reign Over Me (2007) with Adam Sandler; the Academy Award-winning Traffic (2000) and Out of Sight (1998), with George Clooney and Jennifer Lopez, both films also directed by Soderbergh; Paul Thomas Anderson&#039;s acclaimed Boogie Nights (1997) with Julianne Moore and Mark Wahlberg; Bulworth (1998), directed by and starring Warren Beatty; Swordfish (2001), with John Travolta and Halle Berry; Mission to Mars (2000) with Tim Robbins and Gary Sinise; John Singleton&#039;s Rosewood (1997), for which Cheadle earned an NAACP Image Award nomination; Brett Ratner&#039;s The Family Man (2000), starring Nicolas Cage; and the independent features Manic (2001) and Things Behind the Sun (2001). Cheadle was honored by the CineVegas Film Festival and the Los Angeles Film Festival and received ShoWest&#039;s Male Star of the Year award. He is also well-recognized for his television work, including his portrayal of Sammy Davis Jr. in HBO&#039;s The Rat Pack (1998), for which he received a Golden Globe Award and a Best Supporting Actor Emmy nomination. That same year, he also received an Emmy nomination for his starring role in HBO&#039;s adaptation of the best-selling novel A Lesson Before Dying (1999), opposite Cicely Tyson and Mekhi Phifer. He also starred for HBO in Eriq La Salle&#039;s Rebound: The Legend of Earl &#039;The Goat&#039; Manigault (1996). Cheadle&#039;s TV series credits include his two-year stint in David E. Kelley&#039;s acclaimed series Picket Fences (1992), a guest-starring role on ER (1994) (earning yet another Emmy nomination) and a regular role on The Golden Palace (1992) He also starred in the live television broadcast of Fail Safe (2000) opposite George Clooney, James Cromwell, Brian Dennehy, Richard Dreyfuss and Harvey Keitel. He also co-executive produced the TV version of Crash (2008). His most recent big screen appearances have been in Antoine Fuqua&#039;s ensemble crime thriller Brooklyn&#039;s Finest (2009) and Jon Favreau&#039;s Iron Man 2 (2010), another mainstream breakthrough where he played Lt. Col. James &#039;Rhodey&#039; Rhodes, replacing Terrence Howard from the first film. L&#039;Irlandais (2011), an art-house hit directed by John Michael McDonagh and co-starring Brendan Gleeson, followed. Cheadle stars in House of Lies (2012) on Showtime. Late in 2012, he was seen in Flight (2012), Robert Zemeckis&#039;s return to live-action filmmaking. In 2013, he reprised his role as Rhodey in Iron Man 3 (2013). Among his projects in development is a movie based on the life of jazz legend Miles Davis. A talented musician who plays saxophone, writes music and sings, he is also an accomplished stage actor and director and was nominated for a Grammy Award in 2004 for Best Spoken Word Album for his narration/dramatization of the Walter Mosley novel &quot;Fear Itself&quot;. Other notable off-stage achievements include the 2007 BET Humanitarian Award for the cause of the people of Darfur and Rwanda, and sharing the Summit Peace Award by the Nobel Peace Prize Laureates in Rome with George Clooney for their work in Darfur.',
                 'created_at' => '2016-01-27 13:47:08',
-                'updated_at' => '2016-01-27 13:47:08',
+                'updated_at' => '2016-02-22 16:39:12',
             ),
             443 => 
             array (
@@ -5863,11 +5863,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Rockwell',
                 'birthday' => '1968-11-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005377',
                 'image' => 'Sam_Rockwell_1453902441.jpg',
             'bio' => 'Sam Rockwell was born on November 5, 1968, in San Mateo, California, the child of two actors, Pete Rockwell and Penny Hess. The family moved to New York when he was two years old, living first in the Bronx and later in Manhattan. When Sam was five years old, his parents split up, at which point he and his father moved to San Francisco, where he subsequently grew up, while summers and other times were spent with his mother in New York. He made his acting debut when he was ten years old, alongside his mother, and later attended J Eugene McAteer High School in a program called SOTA. While still in high school, he got his first big break when he appeared in the independent film Clownhouse (1989). The plot revolved around three escaped mental patients who dressed up as clowns and terrorized three brothers home alone--Sam played the eldest of the brothers. His next big break was supposed to have come when he was slated to star in a short-lived NBC TV-series called Dream Street (1989), but he was soon fired. After graduating from high school, Sam returned to New York for good and for two years he had private training at the William Esper Acting Studio. During this period he appeared in a variety of roles, such as the ABC Afterschool Specials (1972): Over the Limit (1990) (TV) and HBO&#039;s Lifestories: Families in Crisis (1992): Dead Drunk: The Kevin Tunell Story (Season 1 Episode 7: 15 March 1993); the head thug in Teenage Mutant Ninja Turtles (1990); and a guest-star turn in an Emmy-winning episode of Law &amp; Order (1990), while working a string of regular day jobs and performing in plays. In 1994, a Miller Ice beer commercial finally enabled him to quit his other jobs to concentrate on his acting career, which culminated in him having five movies out by 1996: Basquiat (1996); The Search for One-eye Jimmy (1994); Glory Daze (1995); Mercy (1995); and Box of Moon Light (1996). It was the latter film that would prove to be his real break-out in the industry. In Tom DiCillo&#039;s film, he found himself playing an eccentric named the Kid, a man-child living in a half-built mobile home in the middle of nowhere with a penchant for dressing like Davy Crockett, who manages to bring some much-needed chaos into the life of an electrical engineer played by John Turturro. The movie was not a box-office success, but it managed to generate a lot of critical acclaim for itself and Sam. In 1997 he found himself the star of another critically lauded film, Lawn Dogs (1997). Once again he portrayed a societal outcast as Trent, a working-class man living in a trailer, earning a living mowing lawns inside a wealthy, gated Kentucky community. Soon Trent finds himself befriended by 10-year-old Devon (Mischa Barton), and the movie deals with the difficulties in their friendship and the outside world. He also gave strong performances in the quirky independent comedy Safe Men (1998), in which he plays one half of a pretty awful singing duo (the other half being played by Steve Zahn) that gets mistaken for two safe-crackers by Jewish gangsters; and the offbeat hit-man trainee in Jerry and Tom (1998) against Joe Mantegna. After a few smaller appearances in films such as Woody Allen&#039;s Celebrity (1998) and the 1999 version of Le songe d&#039;une nuit d&#039;&eacute;t&eacute; (1999), in which he played Francis Flute, he had larger parts in two of the bigger hit movies to emerge in 1999: The Green Mile (1999) and Galaxy Quest (1999), wowing audiences and critics alike with his chameleon-like performances as a crazed killer in the former and a goofy actor in the latter. More recently, he appeared in another string of mainstream films, most notably as Eric Knox in Charlie&#039;s Angels (2000) and as Zaphod Beeblebrox in The Hitchhiker&#039;s Guide to the Galaxy (2005), while continuing to perform in smaller independent movies. After more than ten years in the business, Sam has earned his success.',
                 'created_at' => '2016-01-27 13:47:22',
-                'updated_at' => '2016-01-27 13:47:22',
+                'updated_at' => '2016-02-22 16:39:15',
             ),
             444 => 
             array (
@@ -5876,11 +5876,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Rourke',
                 'birthday' => '1952-09-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000620',
                 'image' => 'Mickey_Rourke_1453902452.jpg',
             'bio' => 'Mickey Rourke was born Phillip Andre Rourke, Jr. on September 16, 1952, in Schenectady, New York, the son of Annette (Cameron) and Phillip Andre Rourke. His father was of Irish and German descent, and his mother had French, Scottish, English, and German ancestry. When he was six years old, his parents divorced. A year later, his mother married Eugene Addis, a Miami Beach police officer, and moved to Miami Shores, Florida. After graduating from Horace Mann Junior High School, Rourke&#039;s family moved to a house located on 47th Street and Prairie Avenue in Miami Beach. In 1969 Rourke attended Miami Beach Senior High School, where he played second-string first baseman under coach Skip Berkman. He also acted in a school play, &quot;The Serpent,&quot; directed by legendary &quot;Teacher To The Stars&quot; Jay W. Jensen. In 1971 he graduated from Miami Beach Senior High School, and after working for a short time as a bus boy at the famed Forge Restaurant on Miami Beach, Rourke moved back to New York to seek out a career in acting. Rourke&#039;s teenage years were more aimed toward sports more than acting. He took up self-defense training at the Boys Club of Miami. It was there he learned boxing skills and decided on an amateur career. At the age of 12, Rourke won his first boxing match as an 118-pound bantamweight, defeating Javier Villanueva. Some of his early matches were fought as Andre Rourke. He continued his boxing training at the famed 5th Street Gym in Miami Beach,soon joining the Police Athletic League boxing program. In 1969 Rourke, now weighing 140 pounds, sparred with former World Welterweight champion Luis Rodriguez. Rodriguez was the number one-rated middleweight boxer in the world and was training for his match with world champion Nino Benvenuti. Rourke claims to have received a concussion in this sparring match. In 1971, at the Florida Golden Gloves, Rourke received another concussion from a boxing match. Doctors told him to take a year off and rest. In 1972 Rourke knocked out Ron Robinson in 18 seconds and John Carver in 39 seconds. On Aug. 20, 1973, Rourke knocked out &#039;Sherman &quot;Big Train&quot;&#039; Bergman&#039; in 31 seconds. Shortly after, Rourke decided to retire from amateur boxing. From 1964 to 1973, Rourke compiled an amateur boxing record of 27 wins (17 by knockout) and 3 defeats. At one point, he reportedly scored 12 consecutive first-round knockouts. As an amateur, Rourke had been friendly with pro-boxer Tommy Torino. When Rourke decided to return to boxing as a professional in 1991, Torino promoted some of Rourke&#039;s fights. Rourke was trained by former pro-boxer Freddie Roach at Miami Beach&#039;s 5th Street Gym and the Outlaw Boxing Club Gym in Los Angeles. He made $250 for his pro debut, but by the end of his second year of boxing, he had earned a million dollars. In June 1994, Rourke appeared on the cover of World Boxing Magazine. He sparred with world champions James Toney, John David Jackson, and Tommy Morrison. Rourke wished to have 16 professional fights and then fight for a world title. However, he retired in 1994 after eight bouts and never got his desired title fight. His boxing career resulted in severe facial injuries that required a number of operations to repair his damaged face. Rourke went back to acting but worked in relative obscurity until he won a Golden Globe Award for his role as Randy &quot;The Ram&quot; Robinson in The Wrestler (2008). He was nominated for Best Actor, as well, but lost.',
                 'created_at' => '2016-01-27 13:47:32',
-                'updated_at' => '2016-01-27 13:47:32',
+                'updated_at' => '2016-02-22 16:39:18',
             ),
             445 => 
             array (
@@ -5889,11 +5889,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Mara',
                 'birthday' => '1983-02-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0544718',
                 'image' => 'Kate_Mara_1453902502.jpg',
             'bio' => 'Kate was born in Bedford, New York. She is one of four children of Kathleen McNulty (Rooney) and NFL football team New York Giants executive Timothy Christopher Mara. Her sister is actress Rooney Mara. Her grandfathers were Wellington Mara, co-owner of the Giants, and Timothy Rooney, owner of Yonkers Raceway, and her grand-uncle is Steelers Chairman Dan Rooney, the former Ambassador to Ireland. She is the great-granddaughter of Art Rooney, Sr., the founder of the Pittsburgh Steelers football franchise. She often sings the national anthem at Giants home games. Her father has Irish, German, and French-Canadian ancestry, and her mother is of Irish and Italian descent. Mara graduated from high school a year early. She was accepted at the prestigious NYU Tisch School of the Arts but deferred for 3 consecutive years due to acting and singing.',
                 'created_at' => '2016-01-27 13:48:22',
-                'updated_at' => '2016-01-27 13:48:22',
+                'updated_at' => '2016-02-22 16:39:21',
             ),
             446 => 
             array (
@@ -5902,11 +5902,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Cleese',
                 'birthday' => '1939-10-27',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000092',
                 'image' => 'John_Cleese_1453902576.jpg',
             'bio' => 'John Cleese was born on October 27, 1939, in Weston-Super-Mare, England, to Muriel Evelyn (Cross) and Reginald Francis Cleese. He was born into a family of modest means, his father being an insurance salesman; but he was nonetheless sent off to private schools to obtain a good education. Here he was often tormented for his height, having reached a height of six feet by the age of twelve, and eventually discovered that being humorous could deflect aggressive behavior in others. He loved humor in and of itself, collected jokes, and, like many young Britons who would grow up to be comedians, was devoted to the radio comedy show, &quot;The Goon Show,&quot; starring the legendary Peter Sellers, Spike Milligan, and Harry Secombe. Cleese did well in both sports and academics, but his real love was comedy. He attended Cambridge to read (study) Law, but devoted a great deal of time to the university&#039;s legendary Footlights group, writing and performing in comedy reviews, often in collaboration with future fellow Python Graham Chapman. Several of these comedy reviews met with great success, including one in particular which toured under the name &quot;Cambridge Circus.&quot; When Cleese graduated, he went on to write for the BBC, then rejoined Cambridge Circus in 1964, which toured New Zealand and America. He remained in America after leaving Cambridge Circus, performing and doing a little journalism, and here met Terry Gilliam, another future Python. Returning to England, he began appearing in a BBC radio series, &quot;I&#039;m Sorry, I&#039;ll Read That Again&quot;, based on Cambridge Circus. It ran for several years and also starred future Goodies Tim Brooke-Taylor, Bill Oddie and Graeme Garden. He also appeared, briefly, with Brooke-Taylor, Graham Chapman and Marty Feldman in At Last the 1948 Show (1967), for television, and a series of collaborations with some of the finest comedy-writing talent in England at the time, some of whom - Eric Idle, Terry Gilliam, Terry Jones, Michael Palin, and Chapman - eventually joined him in Monty Python. These programs included The Frost Report (1966) and Marty Feldman&#039;s program Marty (1968). Eventually, however, the writers were themselves collected to be the talent for their own program, Monty Python&#039;s Flying Circus (1969), which displayed a strange and completely absorbing blend of low farce and high-concept absurdist humor, and remains influential to this day. After three seasons of the intensity of Monty Python, Cleese left the show, though he collaborated with one or more of the other Pythons for decades to come, including the Python movies released in the mid-70s to early 80s - Monty Python and the Holy Grail (1975), Life of Brian (1979), Monty Python Live at the Hollywood Bowl (1982), and The Meaning of Life (1983). Cleese and then-wife Connie Booth collaborated in the legendary television series Fawlty Towers (1975), as the sharp-tongued, rude, bumbling yet somehow lovable proprietor of an English seaside hotel. Cleese based this character on a proprietor he had met while staying with the other Pythons at a hotel in Torquay, England. Only a dozen episodes were made, but each is truly hilarious, and he is still closely associated with the program to this day. Meanwhile Cleese had established a production company, Video Arts, for clever business training videos in which he generally starred, which were and continue to be enormously successful in the English-speaking world. He continues to act prolifically in movies, including in the hit comedy A Fish Called Wanda (1988), in the Harry Potter series, and in the James Bond series as the new Q, starting with The World Is Not Enough (1999), in which he began as R before graduating to Q. Cleese also supplies his voice to numerous animated and video projects, and frequently does commercials. Besides the infamous Basil Fawlty character, Cleese&#039;s other well-known trademark is his rendition of an English upper-class toff. He has a daughter with Connie Booth and a daughter with his second wife, Barbara Trentham. Education and learning are important elements of his life - he was Rector of the University of Saint Andrews from 1973 until 1976, and continues to be a professor-at-large of Cornell University in New York. Cleese lives in Santa Barbara, California.',
                 'created_at' => '2016-01-27 13:49:36',
-                'updated_at' => '2016-01-27 13:49:36',
+                'updated_at' => '2016-02-22 16:39:24',
             ),
             447 => 
             array (
@@ -5915,11 +5915,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Bradley',
                 'birthday' => '1942-04-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0103195',
                 'image' => 'David_Bradley_1453902592.jpg',
             'bio' => 'David Bradley was born on April 17, 1942 in Yorkshire, England. He is an actor, known for Harry Potter and the Prisoner of Azkaban (2004), Captain America: The First Avenger (2011) and Harry Potter and the Sorcerer&#039;s Stone (2001).',
                 'created_at' => '2016-01-27 13:49:53',
-                'updated_at' => '2016-01-27 13:49:53',
+                'updated_at' => '2016-02-22 16:39:27',
             ),
             448 => 
             array (
@@ -5928,11 +5928,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Thewlis',
                 'birthday' => '1963-03-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000667',
                 'image' => 'David_Thewlis_1453902686.jpg',
             'bio' => 'David Thewlis was born David Wheeler in 1963 in Blackpool, Lancashire, to Maureen (Thewlis) and Alec Raymond Wheeler, and lived with his parents above their combination wallpaper and toy shop during his childhood. Originally, he came to London with his band Door 66, however he changed his plans and entered Guildhall School of Drama. He had minor roles in films and TV until he took the main role in Naked (1993). The film won him several awards including the New York Critics Award. He has since been in many other films including DragonHeart (1996), Restoration (1995), Black Beauty (1994) and recently took the part of Professor Remus John Lupin in Harry Potter and the Prisoner of Azkaban (2004). He has lived with the British actress Anna Friel since 2001.',
                 'created_at' => '2016-01-27 13:51:26',
-                'updated_at' => '2016-01-27 13:51:26',
+                'updated_at' => '2016-02-22 16:39:30',
             ),
             449 => 
             array (
@@ -5941,11 +5941,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Thompson',
                 'birthday' => '1959-04-15',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000668',
                 'image' => 'Emma_Thompson_1453902702.jpg',
             'bio' => 'Emma Thompson was born in London on April 15, 1959, into a family of actors - her father was Eric Thompson, who has passed away, and her mother, Phyllida Law, has co-starred with Thompson in several films (her sister, Sophie Thompson, is an actor as well). Her father was English-born and her mother is Scottish-born. Thompson&#039;s wit was cultivated by a cheerful, clever, creative family atmosphere, and she was a popular and successful student. She attended Cambridge University, studying English Literature, and was part of the university&#039;s Footlights Group, the famous group where, previously, many of the Monty Python members had first met. Thompson graduated in 1980 and embarked on her career in entertainment, beginning with stints on BBC radio and touring with comedy shows. She soon got her first major break in television, on the comedy skit program Alfresco (1983), writing and performing along with her fellow Footlights Group alums Stephen Fry and Hugh Laurie. She also worked on other TV comedy review programs in the mid-1980s, occasionally with some of her fellow Footlights alums, and often with actor Robbie Coltrane. Thompson found herself collaborating again with Fry in 1985, this time in his stage adaptation of the play &quot;Me and My Girl&quot; in London&#039;s West End, in which she had a leading role, playing Sally Smith. The show was a success and she received favorable reviews, and the strength of her performance led to her casting as the lead in the BBC television miniseries Fortunes of War (1987), in which Thompson and her co-star, Kenneth Branagh, play an English ex-patriate couple living in Eastern Europe as the Second World War erupts. Thompson won a BAFTA award for her work on the program. She married Branagh in 1989, continued to work with him professionally, and formed a production company with him. In the late 80s and early 90s, she starred in a string of well-received and successful television and film productions, most notably her lead role in the Merchant-Ivory production of Howards End (1992), which confirmed her ability to carry a movie on both sides of the Atlantic and appropriately showered her with trans-Atlantic honors - both an Oscar and a BAFTA award. Since then, Thompson has continued to move effortlessly between the art film world and mainstream Hollywood, though even her Hollywood roles tend to be in more up-market productions. She continues to work on television as well, but is generally very selective about which roles she takes. She writes for the screen as well, such as the screenplay for Ang Lee&#039;s Sense and Sensibility (1995), in which she also starred as Elinor Dashwood, and the teleplay adaptation of Margaret Edson&#039;s acclaimed play Wit (2001), in which she also starred. Thompson is known for her sophisticated, skillful, though her critics say somewhat mannered, performances, and of course for her arch wit, which she is unafraid to point at herself - she is a fearless self-satirist. Thompson and Branagh divorced in 1994, and Thompson is now married to fellow actor Greg Wise, who had played Willoughby in Ang Lee&#039;s Sense and Sensibility (1995). Thompson and Wise have one child, Gaia, born in 1999.',
                 'created_at' => '2016-01-27 13:51:42',
-                'updated_at' => '2016-01-27 13:51:42',
+                'updated_at' => '2016-02-22 16:39:34',
             ),
             450 => 
             array (
@@ -5954,11 +5954,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Plummer',
                 'birthday' => '1957-03-23',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001625',
                 'image' => 'Amanda_Plummer_1453903191.jpg',
             'bio' => 'The daughter of Canadian actor Christopher Plummer and American actress Tammy Grimes, Amanda Plummer was born in New York City on March 23, 1957. Her breakthrough role came when she starred opposite Robin Williams in The Fisher King (1991). However, Plummer may be best remembered for her work in the Quentin Tarantino classic Pulp Fiction (1994). Tarantino wrote the parts of two robbers who hold up a restaurant specifically for Plummer and her partner-in-screen-crime Tim Roth. Since that stand-out role, Plummer has continued to appear in a wide variety of films, including The Prophecy (1995), Freeway (1996), and Ma vie sans moi (2003). Plummer has also appeared in the films Butterfly Kiss (1995) as &quot;Eunice&quot; by Michael Winterbottom, Ma vie sans moi (2003) by Isabel Coixet, Pax (1994) by Eduardo Guedes, Daniel (1983) by Sidney Lumet, Ken Park (2002) by Larry Clark and, lately, The Making of Plus One (2010) and Inconceivable (2008) both by &#039;Mary Mcguckian&#039;, among others. She has often performed on stage. Her highly acclaimed work on Broadway has garnered her a Tony award and two Tony Award nominations as well as the Outer Critics Circle Award and Drama Desk Award. She was honored with three Emmy awards, and one Emmy nomination, a Saturn Award, and DVDX nomination, CableAce Award and Golden Globe nomination. In 1988, she was honored with the Anti-Defamation League Award for Woman of Achievement. On stage, Plummer appeared as Alma in Tennessee Williams&#039;s &quot;Summer and Smoke&quot; with Kevin Anderson, directed by Michael Wilson. At the Stratford Theater in Ontario, she was Joan of Arc in an original adaptation of &quot;The Lark&quot; by Jean Anouilh, directed by Michael Lindsay-Hogg. She appeared as Polly in &quot;The Gnadiges Fraulein&quot; with Elizabeth Ashley, and as Kyra in the world premiere of &quot;One Exception&quot;, both by by Tennessee Williams, at the Hartford Stage. On Broadway: &quot;A Taste of Honey&quot; as Jo (nominated for a Tony Award, and Drama Desk Award, and received the Outer Critics Circle, and Theatre World Awards); as Agnes in &quot;Agnes of God&quot; with Geraldine Page (Tony Award, Drama Desk Award, Outer Critics Circle, and Boston Critics Awards); as Eliza in &quot;Pygmalion&quot; with Peter O&#039;Toole and John Mills (Tony Award nomination); as Laura in &quot;The Glass Menagerie&quot; with Jessica Tandy; as Dolly in &quot;You Never Can Tell&quot; by George Bernard Shaw. Among her off-Broadway shows are &quot;A Lie of the Mind&quot; as Beth, directed and written by Sam Shepard with Harvey Keitel, Aidan Quinn and Geraldine Page, &quot;Killer Joe&quot; by Tracy Letts, &quot;The Milk Train Doesn&#039;t Stop Here Any More&quot; by Tennessee Williams, and &quot;A Taste of Honey&quot; with Valerie French. In England, at the Guilford Theatre she appeared as Eliza Doolittle in &quot;Pygmalion,&quot; and at the Royal Court Theatre did &quot;This Is a Chair&quot;, directed by Stephen Daldry and written by Carol Churchill. Her regional work includes Juliet in &quot;Romeo &amp; Juliet&quot; (Hollywood Dramalogue Award) and Sonya in &quot;Uncle Vanya,&quot; Frankie in &quot;A Member of the Wedding,&quot; &quot;Two Rooms,&quot; and &quot;The Wake of Jamey Foster&quot; by Beth Henley. In television, she is the recipient of three Emmy Awards, one Emmy nomination, a Cable Ace Award, and a Golden Globe nomination. She appeared as Lucky in the filmed workshop, &quot;Core Sample - Goli Otok&quot; with Vanessa Redgrave and Lynn Redgrave, directed by Lenka Udovicki, the artistic director of The Ulysses Theater on Brijuni, Croatia, and also in Lucky McKee&#039;s film Red (2008).',
                 'created_at' => '2016-01-27 13:59:51',
-                'updated_at' => '2016-01-27 13:59:51',
+                'updated_at' => '2016-02-22 16:39:37',
             ),
             451 => 
             array (
@@ -5967,11 +5967,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Dormer',
                 'birthday' => '1982-02-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1754059',
                 'image' => 'Natalie_Dormer_1453903226.jpg',
             'bio' => 'Natalie Dormer was born on February 11, 1982 in Reading, Berkshire, England. She is an actress and writer, known for Rush (2013), Captain America: The First Avenger (2011) and The Hunger Games: Mockingjay - Part 1 (2014).',
                 'created_at' => '2016-01-27 14:00:26',
-                'updated_at' => '2016-01-27 14:00:26',
+                'updated_at' => '2016-02-22 16:39:41',
             ),
             452 => 
             array (
@@ -5980,11 +5980,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Knepper',
                 'birthday' => '1959-07-08',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0460694',
                 'image' => 'robert_knepper_1455359001.jpg',
             'bio' => 'Robert Knepper, the son of a veterinarian, was born in Fremont, Ohio, and raised in Maumee (near Toledo). When he was growing up, his mother worked in the props department for the community theater, and because of her involvement, he became interested in acting. Knepper spent many years working in community theater and high school productions. Later, he studied drama at Northwestern University. He is a resident of Southern California.',
                 'created_at' => '2016-01-27 14:00:42',
-                'updated_at' => '2016-02-13 10:23:21',
+                'updated_at' => '2016-02-22 16:39:44',
             ),
             453 => 
             array (
@@ -5993,11 +5993,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Labeouf',
                 'birthday' => '1986-06-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0479471',
                 'image' => 'Shia_Labeouf_1453903374.jpg',
             'bio' => 'Shia Saide LaBeouf was born in Los Angeles, California, to Shayna (Saide) and Jeffrey Craig LaBeouf, and is an only child. His mother is from an Ashkenazi Jewish family, while his father has Cajun (French) ancestry. His parents are divorced. He started his career by doing stand-up comedy around places in his neighborhood, such as coffee clubs. One day, he saw a friend of his acting on Dr. Quinn, Medicine Woman (1993), and wanted to become an actor. Shia and his mother talked it over, and the next day, he started looking for an agent. He searched in the yellow pages, called one up, and did a stand-up routine in front of him. They liked him and signed him, and then he started auditioning. He is well known for playing Louis Stevens on the popular Disney Channel series Even Stevens (1999) and has won a Daytime Emmy Award for his performance. His best known role is as Sam Witwicky, the main protagonist of the first three installments of the Transformers series: Transformers (2007), Transformers: Revenge of the Fallen (2009) and Transformers: Dark of the Moon (2011).',
                 'created_at' => '2016-01-27 14:02:54',
-                'updated_at' => '2016-01-27 14:02:54',
+                'updated_at' => '2016-02-22 16:39:47',
             ),
             454 => 
             array (
@@ -6006,11 +6006,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Myers',
                 'birthday' => '1963-05-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000196',
                 'image' => 'Mike_Myers_1453903673.jpg',
             'bio' => 'Michael John Myers was born in 1963 in Scarborough, Ontario, to Alice E. (Hind), an officer supervisor, and Eric Myers, an insurance agent. His parents were both English, and had served in the Royal Air Force and British Army, respectively. Myers&#039; television career really started in 1988, when he joined Saturday Night Live (1975), where he spent six seasons. He brought to life many memorable characters, such as Dieter and Wayne Cambell. His major movies include Wayne&#039;s World (1992), Wayne&#039;s World 2 (1993), So I Married an Axe Murderer (1993), the Austin Powers movies and Dr. Seuss&#039; The Cat in the Hat (2003).',
                 'created_at' => '2016-01-27 14:07:53',
-                'updated_at' => '2016-01-27 14:07:53',
+                'updated_at' => '2016-02-22 16:39:50',
             ),
             455 => 
             array (
@@ -6019,11 +6019,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Lee',
                 'birthday' => '1922-12-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0498278',
                 'image' => 'Stan_Lee_1453903931.jpg',
             'bio' => 'Stan Lee was born on December 28, 1922 in New York City, New York, USA as Stanley Martin Lieber. He is a writer and producer, known for Iron Man (2008), Spider-Man (2002) and Iron Man 3 (2013). He has been married to Joan Lee since December 5, 1947. They have two children.',
                 'created_at' => '2016-01-27 14:12:12',
-                'updated_at' => '2016-01-27 14:12:12',
+                'updated_at' => '2016-02-22 16:39:53',
             ),
             456 => 
             array (
@@ -6032,11 +6032,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Munn',
                 'birthday' => '1980-07-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1601397',
                 'image' => 'Olivia_Munn_1453903946.jpg',
             'bio' => 'Lisa Olivia Munn was born in Oklahoma City, Oklahoma. Her mother, Kim, lived in Vietnam, and is of Chinese descent, while her father, Winston Barrett Munn, is from a family with deep roots in the American South. She has four older siblings. Olivia&#039;s parents divorced when she was two, and she was raised by her mother and stepfather, an Air Force serviceman. They left Oklahoma and lived in many locations, including Tokyo, Japan. When the family eventually returned to the US, Olivia moved to Los Angeles to pursue her dream of becoming an actress. After a few small roles her career took a very promising turn in 2006 when she landed the role of Mily Acuna in the Hawaii-lensed TV series Beyond the Break (2006) and the part of Rob Schneider&#039;s receptionist Maria in Big Stan (2007). She hosts &quot;The Daily Nut&quot; and the &quot;Formula D&quot; Podcasts on G4.',
                 'created_at' => '2016-01-27 14:12:26',
-                'updated_at' => '2016-01-27 14:12:26',
+                'updated_at' => '2016-02-22 16:39:57',
             ),
             457 => 
             array (
@@ -6045,11 +6045,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Pearce',
                 'birthday' => '1967-10-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001602',
                 'image' => 'Guy_Pearce_1453904049.jpg',
             'bio' => 'Guy Edward Pearce was born 5 October, 1967 in Cambridgeshire, England, UK to Anne (Pickering) and Stuart Graham Pearce. His father was born in Auckland, New Zealand, to English and Scottish parents, while Guy&#039;s mother is English. Pearce and his family initially traveled to Australia for two years, after his father was offered the position of Chief test pilot for the Australian Government. Guy was just 3-years-old. After deciding to stay in Australia and settling in the Victorian city of Geelong, Guy&#039;s father was killed 5 years later in an aircraft test flight, leaving Guy&#039;s mother, a schoolteacher, to care for him and his older sister, Tracy. Having little interest in subjects at school like math or science, Guy favored art, drama and music. He joined local theatre groups at a young age and appeared in such productions as &quot;The King and I&quot;, &quot;Fiddler on the Roof&quot; and &quot;The Wizard of Oz&quot;. In 1985, just two days after his final high school exam, Guy started a four-year stint as &quot;Mike Young&quot; on the popular Aussie soap Les voisins (1985). At age 20, Guy appeared in his first film, Heaven Tonight (1990), then, after a string of appearances in film, television and on the stage, he won the role of an outrageous drag queen in Priscilla, folle du d&eacute;sert (1994). Most recently, he has amazed film critics and audiences, alike, with his magnificent performances in L.A. Confidential (1997), Memento (2000), The Proposition (2005), Factory Girl (2006), The Hurt Locker (2008), The King&#039;s Speech (2010) and the HBO mini-series, Mildred Pierce (2011). Next to acting, Guy has had a life-long passion for music and songwriting. Guy likes to keep his private life very private. He lives in Melbourne, Australia, which is also where he married his childhood sweetheart, Kate Mestitz in March 1997.',
                 'created_at' => '2016-01-27 14:14:10',
-                'updated_at' => '2016-01-27 14:14:10',
+                'updated_at' => '2016-02-22 16:40:01',
             ),
             458 => 
             array (
@@ -6058,11 +6058,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Hall',
                 'birthday' => '1982-05-03',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0356017',
                 'image' => 'Rebecca_Hall_1453904058.jpg',
                 'bio' => 'Rebecca Hall was born in London, UK, the daughter of Peter Hall, a stage director and founder of the Royal Shakespeare Company, and Maria Ewing, an opera singer. Her father is English. Her mother, who is American, is of Dutch, Scottish, Sioux, and African American origin. Her parents separated when she was still young, and they divorced in 1990. She has a half-brother, Edward Hall, who is a theatre director, and four other half-siblings, including theatre designer Lucy Hall, veteran TV drama producer Christopher Hall, and Jennifer Caron Hall, a writer and painter.',
                 'created_at' => '2016-01-27 14:14:18',
-                'updated_at' => '2016-01-27 14:14:18',
+                'updated_at' => '2016-02-22 16:40:04',
             ),
             459 => 
             array (
@@ -6071,11 +6071,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Sadler',
                 'birthday' => '1950-04-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0006669',
                 'image' => 'William_Sadler_1453904071.jpg',
             'bio' => 'William Thomas Sadler was born on April 13, 1950 in Buffalo, New York, to Jane and William Sadler. He began his acting career in New York theaters, appearing in more than 75 productions over the course of 12 years. His roles included that of Sgt. Merwin J. Toomey in Neil Simon&#039;s Tony Award winning play &quot;Biloxi Blues&quot;. He is best remembered for his roles in Die Hard 2 (1990), Bill &amp; Ted&#039;s Bogus Journey (1991), The Shawshank Redemption (1994) and Tales from the Crypt: Demon Knight (1995). He is also a television star, appearing in such sitcoms as Roseanne (1988) and Murphy Brown (1988) and such movies-of-the weeks as Charlie and the Great Balloon Chase (1981). Sadler also starred as Sheriff Jim Valenti on the WB science fiction television series Roswell (1999).',
                 'created_at' => '2016-01-27 14:14:31',
-                'updated_at' => '2016-01-27 14:14:31',
+                'updated_at' => '2016-02-22 16:40:07',
             ),
             460 => 
             array (
@@ -6084,11 +6084,11 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Ferrer',
                 'birthday' => '1955-02-07',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001208',
                 'image' => 'Miguel_Ferrer_1453904088.jpg',
             'bio' => 'Miguel Ferrer was born on February 7, 1955 in Santa Monica, California, USA as Miguel Jos&eacute; Ferrer. He is an actor and director, known for Crossing Jordan (2001), Iron Man 3 (2013) and RoboCop (1987). He has been married to Lori Weintraub since September 2, 2005. He was previously married to Leilani Sarelle.',
                 'created_at' => '2016-01-27 14:14:48',
-                'updated_at' => '2016-01-27 14:14:48',
+                'updated_at' => '2016-02-22 16:40:10',
             ),
             461 => 
             array (
@@ -6097,13 +6097,13 @@ Alan played the beloved Steve the Pirate in the movie Dodgeball: A True Underdog
                 'surname' => 'Taylor-Johnson',
                 'birthday' => '1990-06-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1093951',
                 'image' => 'Aaron_Taylor_Johnson_1453904130.jpg',
             'bio' => 'Aaron Taylor-Johnson is an English stage, television, and film actor. He was born Aaron Perry Johnson in High Wycombe, Buckinghamshire, to Sarah and Robert Johnson, a civil engineer. He has a sister, Gemma Johnson, who had a small role in his movie Tom &amp; Thomas (2002). 
 
 Aaron is of English-Russian Jewish background. He began performing at age six, appearing in plays like Macbeth and All My Sons. He worked frequently on television as a young actor, having roles in the TV films The Apocalypse (2000), Behind Closed Doors (2003), The Best Man (2006), and Sherlock Holmes and the Baker Street Irregulars (2007), and series The Bill (1984), Family Business (2003), Feather Boy (2004), Casualty (1986), Talk to Me (2007), and Nearly Famous (2007). He made his feature debut in the British film Tom &amp; Thomas (2002), where he played the dual title roles. ',
                 'created_at' => '2016-01-27 14:15:30',
-                'updated_at' => '2016-01-28 09:28:28',
+                'updated_at' => '2016-02-22 16:40:13',
             ),
             462 => 
             array (
@@ -6112,11 +6112,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Mintz-Plasse',
                 'birthday' => '1989-06-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm2395586',
                 'image' => 'Christopher_Mintz_Plasse_1453904156.jpg',
             'bio' => 'Christopher Mintz-Plasse was born on June 20, 1989 in Los Angeles, California, USA as Christopher Charles Mintz-Plasse. He is an actor, known for Superbad (2007), How to Train Your Dragon (2010) and Kick-Ass (2010).',
                 'created_at' => '2016-01-27 14:15:56',
-                'updated_at' => '2016-01-27 14:15:56',
+                'updated_at' => '2016-02-22 16:40:15',
             ),
             463 => 
             array (
@@ -6125,11 +6125,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Strong',
                 'birthday' => '1963-08-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0835016',
                 'image' => 'Mark_Strong_1453904176.jpg',
             'bio' => 'British actor Mark Strong, who played Jim Prideaux in the 2011 remake of La taupe (2011), is often cast as cold, calculating villains. But before he became a famous actor, he intended to pursue a career in law. Strong was born Marco Giuseppe Salussolia in London, England, to an Austrian mother and an Italian father. His father left the family not long after he was born, and his mother worked as an au pair to raise the boy on her own. Strong&#039;s mother had his name legally changed when he was young in order to help him better assimilate with his peers. Strong attended Wymondham College in Norfolk, and studied at the university level in Munich with the intent of becoming a lawyer. After a year, he returned to London to study English and Drama at Royal Holloway. He went on to further master his craft of at Bristol Old Vic Theatre School. Although Americans are most familiar with Strong&#039;s roles as Sinestro in Green Lantern (2011), mob boss Frank D&#039;Amico in Kick-Ass (2010), and Lord Blackthorn in Sherlock Holmes (2009), British audiences know him from his long history as a television actor. He also starred in as numerous British stage productions, including plays at the Royal National Theatre and the RSC. His most prominent television parts include Prime Suspect 3 (1993) and Prime Suspect 6: The Last Witness (2003) as Inspector Larry Hall, and starring roles in the BBC Two dramas Our Friends in the North (1996) and The Long Firm (2004), the latter of which netted Strong a BAFTA nomination. He also played Mr. Knightley in the 1996 adaptation of Jane Austen&#039;s classic tale Emma (1996). Strong resides in London with his wife Liza Marshall, with whom he has two sons, the younger of which is the godson of his longtime friend Daniel Craig.',
                 'created_at' => '2016-01-27 14:16:17',
-                'updated_at' => '2016-01-27 14:16:17',
+                'updated_at' => '2016-02-22 16:40:18',
             ),
             464 => 
             array (
@@ -6138,11 +6138,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Fletcher',
                 'birthday' => '1966-01-31',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0002077',
                 'image' => 'Dexter_Fletcher_1453904192.jpg',
             'bio' => 'Dexter Fletcher made his way in many screen and television performances, the most well-liked and well-known of these being in &quot;Press Gang&quot; (1989) where he played opposite real-life love (at the time) Julia Sawalha (Lynda Day on &quot;Press Gang&quot;).',
                 'created_at' => '2016-01-27 14:16:32',
-                'updated_at' => '2016-01-27 14:16:32',
+                'updated_at' => '2016-02-22 16:40:21',
             ),
             465 => 
             array (
@@ -6151,11 +6151,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Flemyng',
                 'birthday' => '1966-09-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0002076',
                 'image' => 'Jason_Flemyng_1453904228.jpg',
             'bio' => 'Jason Flemyng was born on September 25, 1966 in Putney, London, England as Jason Iain Flemyng. He is an actor, known for Lock, Stock and Two Smoking Barrels (1998), The Curious Case of Benjamin Button (2008) and Snatch. (2000). He has been married to Elly Fairman since June 6, 2008.',
                 'created_at' => '2016-01-27 14:17:08',
-                'updated_at' => '2016-01-27 14:17:08',
+                'updated_at' => '2016-02-22 16:40:25',
             ),
             466 => 
             array (
@@ -6164,11 +6164,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'McGovern',
                 'birthday' => '1961-07-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001527',
                 'image' => 'Elizabeth_Mcgovern_1453904259.jpg',
             'bio' => 'Daughter of a law professor at Northwestern University, she moved with her family to Los Angeles when he transferred to the University of California at Los Angeles (U.C.L.A.). She began acting in school plays at North Hollywood High, graduated from The Oakwood School and then continued her stage training at the American Conservatory Theatre in San Francisco and the drama division of The Juilliard School in New York. Following a pleasant screen debut in Robert Redford&#039;s Oscar-winning Ordinary People (1980), McGovern gave a great performance as Evelyn Nesbit in Ragtime (1981) for which she earned an Academy Award nomination as Best Supporting Actress. She has continued performing on stage between film assignments rather than concentrate on being a film star.',
                 'created_at' => '2016-01-27 14:17:39',
-                'updated_at' => '2016-01-28 12:22:37',
+                'updated_at' => '2016-02-22 16:40:28',
             ),
             467 => 
             array (
@@ -6177,11 +6177,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Blunt',
                 'birthday' => '1983-02-23',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm1289434',
                 'image' => 'Emily_Blunt_1453904278.jpg',
             'bio' => 'Emily Olivia Leah Blunt is a British actress known for her roles in The Young Victoria (2009) and The Devil Wears Prada (2006). Blunt was born on February 23, 1983, in Roehampton, South West London, England, the second of four children in the family of Joanna (Joanna Mackie ), a former actress and teacher, and Oliver Simon Peter Blunt, a barrister. Her grandfather was Major General Peter Blunt, and her uncle is MP Crispin Blunt. Emily received a rigorous education at Ibstock Place School, a co-ed private school at Roehampton. However, young Emily Blunt had a stammer, since she was a kid of 8. Her mother took her to relaxation classes, which did not do anything. She reached a turning point at 12, when a teacher cleverly asked her to play a character with a different voice and said, &quot;I really believe in you&quot;. Blunt ended up using a northern accent, and it did the trick, her stammer disappeared. From 1999 - 2001, Blunt went to Hurtwood House, the top co-ed boarding school where she would excel at sport, cello and singing. She also had two years of drama studies at Hurtwood&#039;s theatre course. In August 2000, she was chosen to perform at the Edinburgh Festival. She was signed up by an agent, Kenneth Mcreddie, who led her to the West End and the BBC, scoring her roles in several period dramas on stage as well as on TV productions, such as Foyle&#039;s War (2002), Henry VIII (2003) and Empire (2005). In 2001, she appeared as &quot;Gwen Cavendish&quot; opposite Dame Judi Dench in Sir Peter Hall&#039;s production of &quot;The Royal Family&quot; at Haymarket Theatre. For that role, she won the Evening Standard Award for Best Newcomer. In 2002, she played &quot;Juliet&quot; in &quot;Romeo and Juliet&quot; at the prestigious Chichester Festival. Blunt&#039;s career ascended to international fame after she starred as &quot;Isolda&quot; opposite Alex Kingston in Warrior Queen (2003). A year later, she won critical acclaim for her breakout performance as &quot;Tamsin&quot;, a well-educated, cynical and deceptive 16-year-old beauty in My Summer of Love (2004), a story of two lonely girls from the opposite ends of the social heap. Emily Blunt and her co-star, Natalie Press, shared an Evening Standard British Film award for Most Promising Newcomer. In 2005, she spent a few months in Australia filming Irresistible (2006) with Susan Sarandon and Sam Neill. Blunt gave an impressive performance as &quot;Mara&quot;, a cunning young destroyer who acts crazy and surreptitiously provokes paranoia in others. She also continued her work on British television, starring as &quot;Natasha&quot; in Stephen Poliakoff&#039;s Gideon&#039;s Daughter (2005), opposite Bill Nighy, a role that won her a 2007 Golden Globe Award for Best Performance by an Actress in a Supporting Role. She continued the line of playing manipulative characters as &quot;Emily&quot;, a caustic put-upon assistant to Meryl Streep&#039;s lead in The Devil Wears Prada (2006). Blunt&#039;s performance with a neurotic twist added a dimension of sarcasm to the comedy, and gained her much attention as well as new jobs: in two dramas opposite Tom Hanks, then in the title role in the period drama, The Young Victoria (2009). Her most recent works include appearances as antiques dealer &quot;Gwen Conliffe&quot; in The Wolfman (2010) and as the ballerina in The Adjustment Bureau (2011). Emily Blunt is a highly versatile actress and a multifaceted person. Her talents include singing and playing cello; she is also skilled at horseback riding. She was in a relationship with Canadian singer Michael Bubl&eacute;, whom she met at the Australian Logie Awards in 2005 and, again, a few months later, backstage at his Los Angeles concert. Their relationship ended in 2008. Blunt&#039;s friend, Anne Hathaway, introduced her to John Krasinski, and they have been together since November 2008. On August 28, 2009, Blunt and Krasinski announced their engagement. The couple married on July 10, 2010, at the estate of their friend, George Clooney, on Lake Como in Italy. Emily Blunt and John Krasinski are living in the Los Angeles area, California.',
                 'created_at' => '2016-01-27 14:17:58',
-                'updated_at' => '2016-01-27 14:17:58',
+                'updated_at' => '2016-02-22 16:40:31',
             ),
             468 => 
             array (
@@ -6190,11 +6190,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Dano',
                 'birthday' => '1984-06-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0200452',
                 'image' => 'Paul_Dano_1453904289.jpg',
             'bio' => 'Paul Dano was born on June 19, 1984 in New York City, New York, USA as Paul Franklin Dano. He is an actor, known for Little Miss Sunshine (2006), Looper (2012) and Prisoners (2013).',
                 'created_at' => '2016-01-27 14:18:09',
-                'updated_at' => '2016-01-27 14:18:09',
+                'updated_at' => '2016-02-22 16:40:34',
             ),
             469 => 
             array (
@@ -6203,11 +6203,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Daniels',
                 'birthday' => '1955-02-19',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001099',
                 'image' => 'Jeff_Daniels_1453904314.jpg',
             'bio' => 'Actor Jeff Daniels was born in Athens, Georgia but raised in Chelsea, Michigan. He is the son of Marjorie J. (Ferguson) and Robert Lee Daniels, who owned The Chelsea Lumber Company and was also mayor of Chelsea. Jeff attended Central Michigan University, but became involved in acting and dropped out to pursue a career as an actor. Daniels made his feature film debut in Milos Forman&#039;s Ragtime (1981). Daniels went on to prove himself to be one of Hollywood&#039;s most reliable and versatile actors with roles in successes such as Terms of Endearment (1983), The Purple Rose of Cairo (1985), Something Wild (1986), Arachnophobia (1990), Dumb &amp; Dumber (1994), Pleasantville (1998), The Hours (2002) and Good Night, and Good Luck. (2005), to name a few. Alongside screen work, Daniels has many stage credits to his name and is the founder of The Purple Rose Theater Company in Chelsea, Michigan. He is also a musician and songwriter and has recorded two albums. Daniels is married to his childhood sweetheart, Kathleen Treado and they have three children.',
                 'created_at' => '2016-01-27 14:18:34',
-                'updated_at' => '2016-01-27 14:18:34',
+                'updated_at' => '2016-02-22 16:40:37',
             ),
             470 => 
             array (
@@ -6216,11 +6216,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Bean',
                 'birthday' => '1959-04-17',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000293',
                 'image' => 'Sean_Bean_1453904357.jpg',
             'bio' => 'Sean Bean, England&#039;s most versatile actor, holds a stellar career spanning every medium for approximately 20 years, in theater, radio, television and movies. Bean was born in Handsworth, Sheffield, West Riding of Yorkshire, to Rita (Tuckwood) and Brian Bean. He worked for his father&#039;s welding firm before he decided to become an actor. He attended RADA in London and appeared in a number of West End stage productions including RSC&#039;s &quot;Fair Maid of the West&quot; (Spencer), (1986) and &quot;Romeo and Juliet&quot; (1987) (Romeo) , as well as &quot;Deathwatch&quot; (Lederer) (1985) at the Young Vic and &quot;Killing the Cat&quot; (Danny) (1990) at the Theatre Upstairs. This soulful, green-eyed blonde&#039;s roles are so varied that his magnetic persona convincing plays angst-ridden villains, as in &quot;Clarissa,&quot; passionate lovers like Mellors in &quot;Lady Chatterley&#039;s Lover,&quot; rough-and-ready soldiers such as Richard Sharpe, heartwrenching warriors as the emotionally torn Boromir in &quot;The Lord of the Rings,&quot; and noble Greeks, like Odysseus in &quot;Troy,&quot; where his very presence in the film adds grace and validity to the rest of the movie. Recently, he did a turn in Shakespeare&#039;s &quot;Macbeth,&quot; where as the principal lead, he so transfixed the audience that the show was extended in London and critically acclaimed. Bean, however, remains himself, a man&#039;s man, and in the glizty world of movies this is a rare thing indeed. Bean resides in London where he enjoys raising his beautiful daughters, his beloved football, and the occasional pint. Bean has three daughters, Lorna, Molly and Evie.',
                 'created_at' => '2016-01-27 14:19:17',
-                'updated_at' => '2016-01-27 14:19:17',
+                'updated_at' => '2016-02-22 16:40:40',
             ),
             471 => 
             array (
@@ -6229,11 +6229,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Blanchett',
                 'birthday' => '1969-05-14',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000949',
                 'image' => 'Cate_Blanchett_1453904366.jpg',
             'bio' => 'Cate Blanchett was born on May 14, 1969 in Melbourne, Victoria, Australia, to June (Gamble), an Australian teacher and property developer, and Robert DeWitt Blanchett, Jr., an American advertising executive, originally from Texas. She has an older brother and a younger sister. When she was ten years old, her 40-year-old father died of a sudden heart attack. Her mother never remarried, and her grandmother moved in to help her mother. Cate graduated from Australia&#039;s National Institute of Dramatic Art in 1992 and, in a little over a year, had won both critical and popular acclaim. On graduating from NIDA, she joined the Sydney Theatre Company&#039;s production of Caryl Churchill&#039;s &quot;Top Girls&quot;, then played Felice Bauer, the bride, in Tim Daly&#039;s &quot;Kafka Dances&quot;, winning the 1993 Newcomer Award from the Sydney Theatre Critics Circle for her performance. From there, Blanchett moved to the role of Carol in David Mamet&#039;s searing polemic &quot;Oleanna&quot;, also for the Sydney Theatre Company, and won the Rosemont Best Actress Award, her second award that year. She then co-starred in the ABC Television&#039;s prime time drama Heartland (1994), again winning critical acclaim. In 1995, she was nominated for Best Female Performance for her role as Ophelia in the Belvoir Street Theatre Company&#039;s production of &quot;Hamlet&quot;. Other theatre credits include Helen in the Sydney Theatre Company&#039;s &quot;Sweet Phoebe&quot;, Miranda in &quot;The Tempest&quot; and Rose in &quot;The Blind Giant is Dancing&quot;, both for the Belvoir Street Theatre Company. In other television roles, Blanchett starred as Bianca in ABC&#039;s Bordertown (1995), as Janie Morris in G.P. (1989) and in ABC&#039;s popular series Police Rescue (1994). She made her feature film debut in Paradise Road (1997). She also married writer Andrew Upton in 1997. She had met him a year earlier on a movie set, and they didn&#039;t like each other at first. He thought she was aloof, and she thought he was arrogant, but then they connected over a poker game at a party, and she went home with him that night. Three weeks later he proposed marriage and they quickly married before she went off to England to play her breakthrough role in films: the title character in Elizabeth (1998) for which she won numerous awards for her performance, including the Golden Globe for Best Actress in a Drama. Cate was also nominated for an Academy Award for the role but lost out to Gwyneth Paltrow. 2001 was a particularly busy year, with starring roles in Bandits (2001), The Shipping News (2001), Charlotte Gray (2001) and playing Elf Queen Galadriel in the &quot;Lord Of The Rings&quot; trilogy. She also gave birth to her first child, son Dashiell, in 2001. In 2004, she gave birth to her second son Roman. Also, in 2004, she played actress Katharine Hepburn in Martin Scorsese&#039;s film &quot;Aviator&quot; (2004), for which she received an Academy Award as Best Supporting Actress. Two years later, she received an Academy Award nomination as Best Supporting Actress for playing a teacher having an affair with an underage student in &quot;Notes on a Scandal&quot; (2006). In 2007, she returned to the role that made her a star in &quot;Elizabeth: The Golden Age&quot; (2007). It earned her an Oscar nomination as Best Actress. She was nominated for another Oscar that same year as Best Supporting Actress for playing Bob Dylan in &quot;I&#039;m Not There&quot; (2007). In 2008, she gave birth to her third child, son Ignatius. She and her husband became artistic directors of the Sydney Theatre Company, choosing to spend more time in Australia raising their three sons. She also purchased a multi-million dollar home in Sydney, Australia and named it Bulwarra and made extensive renovations to it. Because of her life in Australia, her film work became sporadic, until Woody Allen cast her in the title role in Blue Jasmine (2013), which won her the Academy Award as Best Actress. She ended her job as artistic director of the Sydney Theatre Company, while her husband continued there for two more years before he too resigned. In 2015, she adopted her daughter Edith in her father&#039;s homeland of America. That same year, she and her husband sold their multi-million dollar home in Australia at a profit and moved to America. Reasons varied from her wanting to work more in America to wanting to familiarize herself with her late father&#039;s American heritage. She played the title role of Carol (2015), a 1950s American housewife in a lesbian affair with a younger woman. She won rave reviews for the role, and may again be an Oscar contender.',
                 'created_at' => '2016-01-27 14:19:26',
-                'updated_at' => '2016-01-27 14:19:26',
+                'updated_at' => '2016-02-22 16:40:43',
             ),
             472 => 
             array (
@@ -6242,11 +6242,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Bloom',
                 'birthday' => '1977-01-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0089217',
                 'image' => 'Orlando_Bloom_1453904375.jpg',
             'bio' => 'Orlando Jonathan Blanchard Bloom was born in Canterbury, Kent, England on January 13, 1977. His mother, Sonia Constance Josephine (Copeland), was born in Kolkata, India, to an English family then-resident there. The man he briefly knew as his father, Harry Bloom, was a legendary political activist who fought for civil rights in South Africa. But Harry died of a stroke when Orlando was only four years old. After that, Orlando and his older sister, Samantha Bloom, were raised by their mother and family friend, Colin Stone. When Orlando was 13, Sonia revealed to him that Colin was actually his biological father. Orlando attended St. Edmunds School in Canterbury but struggled in many courses because of dyslexia. He did embrace the arts, however, and enjoyed pottery, photography and sculpturing. He also participated in school plays and was active at his local theater. As a teen, Orlando landed his first job: he was a clay trapper at a pigeon shooting range. Encouraged by his mother, he and his sister began studying poetry and prose, eventually giving readings at Kent Festival. Orlando and Samantha won many poetry and Bible reciting competitions. Then Orlando, who always idolized larger-than-life characters, gravitated towards serious acting. At the age of 16, he moved to London and joined the National Youth Theatre, spending two seasons there and gaining a scholarship to train with the British American Drama Academy. Like many young actors, he also auditioned for a number of television roles to further his career, landing bit parts in British television shows Casualty (1986), Midsomer Murders (1997) and Smack the Pony (1999). He also appeared in the critically acclaimed movie Wilde (1997). He then attended the Guildhall School of Music and Drama. It was there, in 1998, that Orlando fell three stories from a rooftop terrace and broke his back. Despite fears that he would be permanently paralyzed, he quickly recovered and returned to the stage. As fate would have it, seated in the audience one night in 1999 was a director named Peter Jackson. After the show, he met with Orlando and asked him to audition for his new set of movies. After graduating from Guildhall, Orlando began work on the &quot;Lord of the Rings&quot; trilogy, spending 18 months in New Zealand bringing to life &quot;Legolas&quot;, a part which made him a household name. Today, he is one of the busiest and most sought-after actors in the industry.',
                 'created_at' => '2016-01-27 14:19:35',
-                'updated_at' => '2016-01-27 14:19:35',
+                'updated_at' => '2016-02-22 16:40:46',
             ),
             473 => 
             array (
@@ -6255,11 +6255,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Boyd',
                 'birthday' => '1968-08-28',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0101710',
                 'image' => 'Billy_Boyd_1453904383.jpg',
                 'bio' => 'Billy Boyd was born in 1968 in Glasgow, Scotland, to Mary and William Boyd. The talented young boy, inspired by Star Wars to try acting, got his first taste of it in his school&#039;s production of Oliver Twist when he was 10. Boyd&#039;s parents were extremely supportive, driving over two hours to get him to the performances, but sadly they passed away when he was 12. He was thereafter raised by his grandmother. He realized that he enjoyed acting very much and told his school counselor that was what he wanted to be, but the counselor discouraged this choice and told him to &quot;keep it secret&quot;. When he was 17 he left school and went to work in a book-binding workshop. He worked there 4 years as an apprentice and 2 years as a workman. Ironically, during the years he worked at the book-binders, the Lord of the Rings trilogy was printed and bound there, many copies bound by his hands. After the 6 years as a book-binder, he was thoroughly sick of it. Billy planned on going to America for a year, but before he went he called the Royal Scottish Academy of Music and Drama and asked about applying for when he got back. But it so happened that they still had space for this year and they asked him if he wanted to apply and he did. He was at the drama school in a 3-year course for his bachelor of arts degree, meanwhile studying everything from Shakespeare to puppet-making. During this time Billy had a few small roles in TV series such as &quot;Down Amongst The Boys&quot; and &quot;Taggart&quot;. After graduating he performed in many plays like &#039;The Slab Boys&#039;, &#039;The Diary of Adrian Mole&#039; etc. at The St. Andrews theatre which were his first paying roles. He then received a call from his agent about the Lord of the Rings movies and if he would like to audition for them. He went along not expecting much, but within a few months Peter Jackson came out to Scotland to meet him and to audition him personally. While rehearsing for a show he received a call from his agent who said that the part of Pippin had been offered to him - if he wanted it. The rest is history.',
                 'created_at' => '2016-01-27 14:19:43',
-                'updated_at' => '2016-01-27 14:19:43',
+                'updated_at' => '2016-02-22 16:40:49',
             ),
             474 => 
             array (
@@ -6268,11 +6268,11 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'Serkis',
                 'birthday' => '1964-04-20',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0785227',
                 'image' => 'Andy_Serkis_1453904397.jpg',
                 'bio' => 'Andrew Clement G. Serkis was born April 20, 1964, in Ruislip Manor, West London, England. He has three sisters and a brother. His father, Clement Serkis, an ethnic Armenian whose original family surname was &quot;Serkissian&quot;, was a Medical Doctor working abroad, in Iraq; the Serkis family spent a lot of time traveling around the Middle East.',
                 'created_at' => '2016-01-27 14:19:57',
-                'updated_at' => '2016-01-28 09:38:11',
+                'updated_at' => '2016-02-22 16:40:53',
             ),
             475 => 
             array (
@@ -6281,7 +6281,7 @@ Aaron is of English-Russian Jewish background. He began performing at age six, a
                 'surname' => 'McKellen',
                 'birthday' => '1939-05-25',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005212',
                 'image' => 'Ian_Mckellen_1453904406.jpg',
             'bio' => 'Ian Murray McKellen was born on May 25, 1939 in Burnley, Lancashire, England, to Margery Lois (Sutcliffe) and Denis Murray McKellen, a civil engineer. He is of Scottish, Northern Irish, and English descent. 
 
@@ -6289,7 +6289,7 @@ At Bolton School in particular, he developed his skills early on. Indeed, his fi
 
 However, it has only been recently that his star has finally begun to shine in the eyes of North American audiences. Roles in various films, Cold Comfort Farm (1995), Apt Pupil (1998) and Gods and Monsters (1998), riveted audiences. The latter, in particular, created a sensation in Hollywood, and McKellen&#039;s role garnered him several of awards and nominations, including a Golden Globe and an Oscar nod.',
                 'created_at' => '2016-01-27 14:20:06',
-                'updated_at' => '2016-01-28 16:04:13',
+                'updated_at' => '2016-02-22 16:40:56',
             ),
             476 => 
             array (
@@ -6298,24 +6298,24 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Monaghan',
                 'birthday' => '1976-12-08',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0597480',
                 'image' => 'Dominic_Monaghan_1453904419.jpg',
             'bio' => 'Dominic Monaghan is best known for his role in the movie adaptations of &quot;Lord of the Rings&quot;. Before that, he became known in England for his role in the British television drama Hetty Wainthropp Investigates (1996). Monaghan was born in Berlin, West Germany, to British parents Maureen, a nurse, and Austin Monaghan, a science teacher. His family moved back to England when he was eleven. He was studying English Literature, Drama and Geography at Sixth Form College when he was offered the co-starring role in the series, which ran for four seasons. His other television credits include This Is Personal: The Hunt for the Yorkshire Ripper (2000) and a leading role in Monsignor Renard (2000), a series starring John Thaw. On the stage Monaghan has performed in the world premiere UK production of The Resurrectionists, Whale and Annie and Fanny from Bolton to Rome. Since watching Star Wars when he was six years old, Dominic has been consumed by films. His other obsessions include writing, music, fashion, playing/watching soccer and surfing. Utilizing his writing skills, he and LOTR co-star Billy Boyd are collaborating on a script. Born and raised in Berlin, Monaghan and his family moved to England when he was twelve. In addition to speaking fluent German, he has a knack at impersonations and accents. He frequently returns to his hometown of Manchester, England.',
                 'created_at' => '2016-01-27 14:20:19',
-                'updated_at' => '2016-01-27 14:20:19',
+                'updated_at' => '2016-02-22 16:40:59',
             ),
             477 => 
             array (
                 'person_id' => 481,
                 'forename' => 'John',
-                'surname' => 'Rhys-davies',
+                'surname' => 'Rhys-Davies',
                 'birthday' => '1944-05-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0722636',
                 'image' => 'John_Rhys_davies_1453904429.jpg',
             'bio' => 'Acclaimed Welsh actor John Rhys-Davies was born in Ammanford, Carmarthenshire, Wales, to Mary Margaretta Phyllis (Jones), a nurse, and Rhys Davies, a mechanical engineer and Colonial Officer. He graduated from the University of East Anglia and is probably best known to film audiences for his roles in the blockbuster hits Raiders of the Lost Ark (1981) and Indiana Jones and the Last Crusade (1989). Rhys-Davies was introduced to a new generation of fans in the blockbuster trilogy &quot;The Lord of the Rings&quot; (The Lord of the Rings: The Fellowship of the Ring (2001), (The Lord of the Rings: The Two Towers (2002), and (The Lord of the Rings: The Return of the King (2003)) in the role of Gimli the dwarf. He has also had leading roles in Victor Victoria (1982), The Living Daylights (1987) and King Solomon&#039;s Mines (1985). Rhys-Davies, who was raised in England, Africa and Wales, credits his early exposure to classic literature for his decision to pursue acting and writing. he later refined his craft at London&#039;s renowned Royal Academy of Dramatic Arts. His television credits include James Clavell&#039;s Shogun (1980) and Noble House (1988), Great Expectations (1989), War and Remembrance (1988) and Archaeology (1991). An avid collector of vintage automobiles, Rhys-Davies has a host of theater roles to his credit, including &quot;The Misanthrope&quot;, &quot;Hedda Gabler&quot; and most of Shakespeare&#039;s works. He divides his time between Los Angeles and the Isle of Man.',
                 'created_at' => '2016-01-27 14:20:29',
-                'updated_at' => '2016-01-27 14:20:29',
+                'updated_at' => '2016-02-22 16:42:46',
             ),
             478 => 
             array (
@@ -6324,11 +6324,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Tyler',
                 'birthday' => '1977-07-01',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000239',
                 'image' => 'Liv_Tyler_1453904445.jpg',
             'bio' => 'Liv Tyler was born in New York City, New York. She is the daughter of Steven Tyler of the band Aerosmith and Bebe Buell, former model (and Playboy Playmate of the Month) and stalwart of the backstage rock scene of the 1970s. Liv grew up thinking that rock star Todd Rundgren was her father. But as she was growing up, Tyler began dropping by to visit, and Liv noticed that his daughter Mia Tyler looked enough like her to be her twin. She confronted her mother, and was told the truth; by the time she was 12, she had taken her father&#039;s name. At 14, she and her mother left Portland, Maine, for New York, where she got her start as a model. A year was enough of the modeling grind, and she decided to become an actress. She was offered the part of &quot;Callie&quot; in Heavy (1995) after a single reading and, only three weeks later, was cast in Silent Fall (1994); James Mangold, director of Heavy (1995), decided to delay shooting until Liv was available. With seven films in the 1993-96 period, her career took off. Liv is of Italian, German, Polish, English, Welsh, and Scottish descent.',
                 'created_at' => '2016-01-27 14:20:45',
-                'updated_at' => '2016-01-27 14:20:45',
+                'updated_at' => '2016-02-22 16:41:05',
             ),
             479 => 
             array (
@@ -6337,11 +6337,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Jackson',
                 'birthday' => '1961-10-31',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001392',
                 'image' => 'Peter_Jackson_1453904467.jpg',
             'bio' => 'Peter Jackson was born as an only child in a small coast-side town in New Zealand in 1961. When a friend of his parents bought him a super 8 movie camera (because she saw how much he enjoyed taking photos), the then eight-year-old Peter instantly grabbed the thing to start recording his own movies, which he made with his friends. They were usually short, but they already had the trademark that would make Jackson famous: impressive special effects, made at a very low cost. For example, for his film &quot;World War Two&quot; which he made as a teenager, he used to simulate a firing gun by punching little holes into the celluloid, so that, once projected, the gun gave the impression of displaying a small fire. Jackson&#039;s first step towards more serious film-making came with an entry in a local contest to stimulate amateur and children&#039;s films. For this film, he used stop-motion animation to create a monster that ruins a city in the style of Ray Harryhausen. Unfortunately, he didn&#039;t win. At twenty-two, he embarked on a movie-making adventure that would change his life. This film, Bad Taste (1987), was begun as any other Jackson film, in an amateur style, at a low budget and using friends and local people to star in his film. Jackson himself did nearly everything in the movie; he directed, produced, filmed and starred in it, in a number of roles, amongst them that of the hero, &quot;Derek&quot;. And everything was filmed on a second-hand, $250 camera. It took Jackson and his friends four years to complete the movie. What had started as a joke in a group of friends, then became a cult classic. A friend of Jackson who was working in the movie industry convinced him the film had commercial prospects and arranged for it to be shown at the Cannes film festival, where it won a lot of acclaim, as well as a number of prizes. The movie soon became a hit because of its bizarre humor and overdose of special effects, some realistic, some comedically amateur. After the success of Bad Taste (1987), Jackson became recognized as a director and the door to fame and fortune was opened. He gave up his job at a local photographer&#039;s shop and became a well-known director of horror-movies, after the success of his first professionally made movie, Dead Alive (1992).',
                 'created_at' => '2016-01-27 14:21:07',
-                'updated_at' => '2016-01-27 14:21:07',
+                'updated_at' => '2016-02-22 16:41:09',
             ),
             480 => 
             array (
@@ -6350,11 +6350,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Otto',
                 'birthday' => '1967-12-16',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001584',
                 'image' => 'Miranda_Otto_1453904563.jpg',
             'bio' => 'Miranda Otto was born on December 16, 1967 in Brisbane, Queensland, Australia. She is an actress, known for War of the Worlds (2005), The Lord of the Rings: The Return of the King (2003) and The Lord of the Rings: The Two Towers (2002). She has been married to Peter O&#039;Brien since January 1, 2003. They have one child.',
                 'created_at' => '2016-01-27 14:22:43',
-                'updated_at' => '2016-01-27 14:22:43',
+                'updated_at' => '2016-02-22 16:41:12',
             ),
             481 => 
             array (
@@ -6363,11 +6363,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Wenham',
                 'birthday' => '1965-09-21',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0920992',
                 'image' => 'David_Wenham_1453904617.jpg',
             'bio' => 'David Wenham was born on September 21, 1965 in Marrickville, Sydney, New South Wales, Australia. He is an actor and producer, known for 300 (2006), Public Enemies (2009) and The Lord of the Rings: The Return of the King (2003).',
                 'created_at' => '2016-01-27 14:23:37',
-                'updated_at' => '2016-01-27 14:23:37',
+                'updated_at' => '2016-02-22 16:41:15',
             ),
             482 => 
             array (
@@ -6376,11 +6376,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Cavill',
                 'birthday' => '1983-05-05',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0147147',
                 'image' => 'Henry_Cavill_1453904787.jpg',
             'bio' => 'Henry William Dalgliesh Cavill is a British actor. He was born on the Bailiwick of Jersey, a British Crown dependency in the Channel Islands. His mother, Marianne (Dalgliesh), a housewife, was also born on Jersey, and is of Irish, Scottish, and English ancestry. Henry&#039;s father, Colin Richard Cavill, a stockbroker, is of English origin (born in Chester, England). Henry is the second youngest son, with four brothers. He was privately educated at St. Michael&#039;s Preparatory School in Saint Saviour, Jersey before attending Stowe School in Buckinghamshire, England. Henry&#039;s interest in acting started at an early age with school play renditions of Shakespeare&#039;s &quot;A Midsummer Night&#039;s Dream&quot;, and Sonny in &quot;Grease&quot;. He also starred and directed Hamlet in &quot;40 Minutes&quot;. It was at the age of seventeen when Henry was discovered by casting directors at school who were looking for a young boy to play Albert Mondego in The Count of Monte Cristo (2002). He went on to star in Laguna (2001), appear in BBC&#039;s &quot;The Inspector Lynley Mysteries&quot;, TV film Goodbye, Mr. Chips (2002), and TV series Midsomer Murders (1997). When Henry was twenty years old, he gained starring roles in I Capture the Castle (2003), Red Riding Hood (2006), Hellraiser: Hellworld (2005) (V)Tristan + Isolde (2006). He also had a minor role in Stardust (2007) alongside Sienna Miller and Ben Barnes. During 2007-2010, Henry had a leading role in TV series Les Tudors (2007) as Charles Brandon, 1st Duke of Suffolk. The series was a hit and was nominated for a Golden Globe in 2007 and won an Emmy in 2008. Entertainment Weekly named him &#039;Most Dashing Duke&#039;. He also starred in Blood Creek (2006) and Woody Allen&#039;s comedy film Whatever Works (2009). On January 30, 2011, it was announced that Henry Cavill had been cast as the next Superman in Man of Steel (2013), making him the first non-American actor to play Superman. Man of Steel (2013) was directed by Zach Snyder, produced by Christopher Nolan, and scripted by David S. Goyer. On November 7, 2011, Henry starred in Tarsem Singh&#039;s mythological special effects film Immortals (2011) alongside Mickey Rourke, Freida Pinto, and Luke Evans. On September 7, 2012, Henry starred in action-thriller Cold Light of Day (2003) alongside Bruce Willis and Sigourney Weaver. On June 10, 2013, Man of Steel (2013) kicked off its world premiere in New York City followed by London, Bailiwick of Jersey, Sicily, Madrid, Shanghai, Sydney, and Tokyo. Man of Steel (2013) became the highest-grossing Superman film to date, and the second-highest-grossing reboot of all time behind The Amazing Spider-Man (2012). Glamour magazine ranked him the #1 &quot;Sexiest Man&quot;. In August 2014, Henry became the Ambassador for Durrell Wildlife Park and created a website and social media called #CavillConservation to help raise funds and awareness for his love of animals and conservation. On November 3, 2014, it was announced that Cavill, his brother Charlie, and London-based producer Rex Glensy, have formed their own British production company, Promethean Productions. On August 7, 2015, The Man from U.N.C.L.E. began its premiere tour with a people&#039;s premiere at the famous Somerset House in London, followed by its world premiere in New York City, then Toronto, and Rio de Janeiro.',
                 'created_at' => '2016-01-27 14:26:27',
-                'updated_at' => '2016-01-27 14:26:27',
+                'updated_at' => '2016-02-22 16:41:18',
             ),
             483 => 
             array (
@@ -6389,11 +6389,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Lane',
                 'birthday' => '1965-01-22',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000178',
                 'image' => 'Diane_Lane_1453904806.jpg',
             'bio' => 'Diane Lane was born on January 22, 1965, in New York. She is the daughter of acting coach Burton Eugene &quot;Burt&quot; Lane and nightclub singer/centerfold Colleen Farrington. Her parents&#039; families were both from the state of Georgia. Diane was acting from a very young age and made her stage debut at the age of six. Her work in such acclaimed theater productions as &quot;The Cherry Orchard&quot; and &quot;Medea&quot; led to her being called to Hollywood. She was 13 when she was cast by director George Roy Hill in his wonderful 1979 film I love you, je t&#039;aime (1979), opposite Sir Laurence Olivier. The film only did so-so commercially, but Olivier praised his young co-star, calling her the new Grace Kelly. After her well-received debut, Diane found herself on magazine covers all over the world, including &quot;Time&quot;, which declared her the &quot;new young acting sensation&quot;. However, things quietened down a bit when she found herself in such critical and financial flops as Touched by Love (1980), Cattle Annie and Little Britches (1981), National Lampoon&#039;s Movie Madness (1982), Ladies and Gentlemen, the Fabulous Stains (1982) and, most unmemorably, Six Pack (1982), all of which failed to set her career on fire. She also made several TV movies during this period, but it was in 1983 that she finally began to fulfill the promise of stardom that had earlier been predicted for her. Acclaimed director Francis Ford Coppola took note of Diane&#039;s appeal and cast her in two &quot;youth&quot;-oriented films based on S.E. Hinton novels. Indeed, Rumble Fish (1983) and The Outsiders (1983) have become cult classics and resulted in her getting a loyal fan base. The industry was now taking notice of Diane Lane, and she soon secured lead roles in three big-budget studio epics. She turned down the first, Splash (1984) (which was a surprise hit for Daryl Hannah). Unfortunately, the other two were critical and box-office bombs: Walter Hill&#039;s glossy rock &#039;n&#039; roll fable Streets of Fire (1984) was not the huge summer success that many had thought it would be, and the massively troubled Coppola epic The Cotton Club (1984) co-starring Richard Gere was also a high-profile flop. The back-to-back failure of both of these films could have ended her career there and then -- but thankfully it didn&#039;t. Possibly &quot;burned out&quot; by the lambasting these films received and unhappy with the direction her career was taking, she &quot;retired&quot; from the film business at age 19, saying that she had forgotten what she had started acting for. She stayed away from the screen for the next three years. Ironically, the two films that were the main causes of her &quot;retirement&quot; have since grown in popularity, and &quot;Streets of Fire&quot; especially seems to have found the kind of audience it couldn&#039;t get when it was first released. The process of rebuilding her career was a slow and gradual one. First came the obscure and very sexy straight-to-video thriller Lady Beware (1987), followed by the critically acclaimed but little seen The Big Town (1987) with Matt Dillon and Tommy Lee Jones. In the former, Diane plays a very mysterious and sexy stripper and her memorable strip sequence is a highlight of the film. Despite her sexy new on-screen image, it wasn&#039;t until 1989&#039;s smash hit TV mini-series Lonesome Dove (1989) that Diane made another big impression on a sizable audience. Her performance in the hugely popular and critically acclaimed western epic as a vulnerable &quot;whore with a heart&quot; won her an Emmy nomination and much praise. Film producers were interested in her again. Another well-received TV production, Descending Angel (1990), was followed by smaller roles in major films like Richard Attenborough&#039;s Chaplin (1992) and Mike Binder&#039;s Indian Summer (1993), and larger parts in small independent films like My New Gun (1992), Vital Signs (1990) and Face &agrave; face (1992). Indeed, the latter two films co-starred her then-husband, Christopher Lambert, with whom she had a daughter named Eleanor. Diane was now re-established in Hollywood and started to appear in higher-profile co-starring roles in some big-budget, major movies like Walter Hill&#039;s Wild Bill (1995), the Sylvester Stallone actioner Judge Dredd (1995), the Robin Williams&#039;s comedy Jack (1996) and Murder at 1600 (1997) co-starring Wesley Snipes. However, all of these still did not quite make Diane a &quot;big-name star&quot; and, by 1997, she found herself, possibly by choice, back in smaller, personal projects. Her next role as a frustrated 1960s housewife in the independent hit Le choix d&#039;une vie (1999) deservedly won her rave notices and, at last, gave her career the big lift it needed. The cute but tear-jerking comedy My Dog Skip (2000) also proved to be a small-scale success. However, it was the &pound;330-million worldwide grossing blockbuster hit The Perfect Storm (2000) that finally made Diane Lane the household name that she always should have been. After the worldwide success of &quot;The Perfect Storm&quot;, she was more in demand than ever. She played Leelee Sobieski&#039;s sinister junkie guardian in the slick thriller The Glass House (2001), and co-starred with Keanu Reeves in the #1 smash hit Hard Ball (2001). However, her greatest career moment was still to come with her lead role in the enormous critical and commercial hit Unfaithful (2002), in which she superbly portrayed Richard Gere&#039;s adulterous wife. Her performance won the respect of critics and audiences alike, as well as many awards and nominations including Best Actress Oscar and Golden Globe nominations. Her follow-up films including Under the Tuscan Sun (2003), Must Love Dogs (2005), Hollywoodland (2006), Secretariat (2010), and the blockbuster, Man of Steel (2013), were all received and her performances were highly praised. She won further Best Actress Golden Globe nominations for her roles in Under the Tuscan Sun (2003) and Cinema Verite (2011). She is very well regarded within the industry, adored by film fans, and has a credibility and quality that is all too rare today. Her immense talent at playing human and real characters, her &quot;drop dead gorgeous&quot; beauty and down-to-earth grittiness guarantees that she will stay on top, and she guarantee has already shown the kind of resilience that will keep her working for a long, long time.',
                 'created_at' => '2016-01-27 14:26:46',
-                'updated_at' => '2016-01-27 14:26:46',
+                'updated_at' => '2016-02-22 16:41:21',
             ),
             484 => 
             array (
@@ -6402,11 +6402,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Crowe',
                 'birthday' => '1964-04-07',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000128',
                 'image' => 'Russell_Crowe_1453904817.jpg',
             'bio' => 'Russell Ira Crowe was born in Wellington, New Zealand, to Jocelyn Yvonne (Wemyss) and John Alexander Crowe, both of whom catered movie sets. His maternal grandfather, Stanley Wemyss, was a cinematographer. Crowe&#039;s recent ancestry includes Welsh (where his paternal grandfather was born, in Wrexham), English, Irish, Scottish, Norwegian, Swedish, and Maori (one of Crowe&#039;s maternal great-grandmothers, Erana Putiputi Hayes Heihi, was Maori). Crowe&#039;s family moved to Australia when he was a small child, and Russell got the acting bug early in life. Beginning as a child star on a local Australian TV show, Russell&#039;s first big break came with two films ... the first, Romper Stomper (1992), gained him a name throughout the film community in Australia and the neighboring countries. The second, The Sum of Us (1994), helped put him on the American map, so to speak. Sharon Stone heard of him from Romper Stomper (1992) and wanted him for her film, Mort ou vif (1995). But filming on The Sum of Us (1994) had already begun. Sharon is reported to have held up shooting until she had her gunslinger-Crowe, for her film. With Mort ou vif (1995) under his belt as his first American film, the second was offered to him soon after. Virtuosity (1995), starring Denzel Washington, put Russell in the body of a Virtual Serial Killer, Sid6.7 ... a role unlike any he had played so far. Virtuosity (1995), a Sci-Fi extravaganza, was a fun film and, again, opened the door to even more American offers. L.A. Confidential (1997), Russell&#039;s third American film, brought him the US fame and attention that his fans have felt he deserved all along. Missing the Oscar nod this time around, he didn&#039;t seem deterred and signed to do his first film with The Walt Disney Company, Mystery, Alaska (1999). He achieved even more success and awards for his performances in Gladiator (2000) and A Beautiful Mind (2001).',
                 'created_at' => '2016-01-27 14:26:57',
-                'updated_at' => '2016-01-27 14:26:57',
+                'updated_at' => '2016-02-22 16:41:24',
             ),
             485 => 
             array (
@@ -6415,11 +6415,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Meloni',
                 'birthday' => '1961-04-02',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0005221',
                 'image' => 'Christopher_Meloni_1453904838.jpg',
             'bio' => 'Blessed with a piercing, blue-eyed glint, brawny looks, cocky &quot;tough guy&quot; stance and effortless charisma, TV&#039;s Christopher Meloni has grabbed audiences&#039; attention, male and female alike, finding breakthrough small screen stardom playing both sides of the law. Audiences first were taken in by his sexually arresting portrayal of a sociopathic killer in the gripping prison drama Oz (1997) on cable TV. Although his small screen roots were in 90s situation comedy, the network powers-that-be wisely discovered his power and allure as a dramatic star and quickly handed him his own prime-time crime series, Law &amp; Order: Special Victims Unit (1999), as a not-quite-by-the-book crime detective. This one-two punch of &quot;Oz&quot; and &quot;Law &amp; Order: SVU&quot; put Meloni, who seems to grow sexier with age, on the map and well on top, where he remains today. Christopher Peter Meloni was born on April 2, 1961, in Washington, D.C., the son of Cecile (Chagnon) and Robert Meloni, an endocrinologist. Of Italian and French-Canadian parentage, he attended St. Stephen&#039;s School and played quarterback for his high school team. Developing an interest in acting rather early in life, he attended the University of Colorado at Boulder following high school graduation. He initially majored in acting but wound up earning a degree in history in 1983. Acting won out in the long run, however, and Chris relocated to New York where he studied with acting guru Sanford Meisner at the renowned Neighborhood Playhouse. Supplementing his income during these lean years by taking advantage of his powerful physique (as construction worker, bouncer, personal trainer), Meloni worked his way up the acting ladder via parts in commercials. With a full head of hair in the early days, he broke into series TV in 1989, the first being the already-established cable football comedy 1st &amp; Ten: The Championship (1984). In this sitcom, which was HBO&#039;s very first back in 1984, Chris played ex-con quarterback Vito Del Greco (aka &quot;Johnny Gunn&quot;). The series&#039; star Delta Burke had already left the cast by the time Chris came aboard in its final season. A second sitcom arrived almost immediately with the stereotypical Italian family sitcom The Fanelli Boys (1990) featuring Chris as dim-eyed, skirt-chasing Frankie Fanelli, one of the four &quot;dees, dem and dos&quot; sons of Brooklynite widow Theresa Fanelli (Ann Morgan Guilbert). Despite a strong, boisterous cast, the show was painfully obvious and met an early demise. True to nature, Chris gave voice and added to the fun as a cocky, mooching high school teen who knows the &quot;how to&#039;s&quot; of attracting pretty girl dinos in the animated prehistoric series Dinosaurs (1991). He also made a manly mark in mini-movies with co-starring roles in such &quot;women&quot; dramas as In a Child&#039;s Name (1991) starring Valerie Bertinelli, Something to Live for: The Alison Gertz Story (1992), which top-lined Molly Ringwald, Without a Kiss Goodbye (1993) as the caring husband of Lisa Hartman, and the Connie Sellecca starrer A Dangerous Affair (1995). An interchangeable ability to convey both heartfelt sympathy and virile menace did not go by unnoticed. After minor parts on the big screen with Clean Slate (1994), Junior (1994) and Twelve Monkeys (1995), Chris drew strong notices in the featured role of gangster Johnnie Marzzone in the classic neo-noir Bound (1996), which earned cult status for its sexually-charged lesbian sub-storyline. A tough recurring part on &quot;NYPD Blue&quot;, a typical mafia role in the mini-series The Last Don (1997) and another short-lived comedic series lead (Leaving L.A. (1997)) finally led to a big payoff in the brutal and brilliant cable series Oz (1997). Christopher&#039;s introduction to the Oz prison as bisexual psychopath Chris Keller was powerhouse casting and he drew immediate notice and critical applause into the show&#039;s second season. Unflinching in its blood-soaked presentation of life behind bars, Chris&#039; raw animal magnetism was unparalleled on the show and his steamy, erotic couplings with another male prisoner on screen promoted him swiftly to gay icon status. Undaunted by the possible career-damaging effects that could occur, Chris&#039; frank acceptance and acknowledgment was admirable indeed and his outright support of human rights causes earned him high marks. The father of two (daughter Sophia Eva Pietra (born March 23, 2001), and son Dante Amadeo (born January 2, 2004), he has been married since 1995 to production designer &#039;Sherman Williams&#039; (The Dark Backward (1991)). Chris&#039; sudden burst of cable notoriety earned him his own prime time NBC series. With the veteran &quot;Law &amp; Order&quot; program developing a sister spin-off, Law &amp; Order: Special Victims Unit (1999), Meloni raised the bar with his trenchant pairing with co-star Mariska Hargitay as partners of a special victims crime unit. Despite the show&#039;s reality-driven approach, Meloni and Hargitay&#039;s dynamite chemistry carried the show to a new level. Allowing their characters&#039; more serious flaws to surface, Meloni, in particular, managed to convey Detective Stabler&#039;s private pain and personal turmoil with a raw poignancy. Both he and Hargitay have been honored with Emmy award nominations for their work here (she has won). Occasionally appearing on stage, Chris&#039; theater credits include &quot;The Rainmaker&quot; (as Starbuck) (1998) and &quot;Comers&quot; (1998), both at the Williamstown Theatre Festival. He earned standout reviews as Eddie Carbone in Arthur Miller&#039;s &quot;A View from the Bridge,&quot; which he performed at Dublin&#039;s Gate Theatre in 2005. In 2006 he joined the campy proceedings at an Actors&#039; Fund of America Benefit of the soap opera spoof &quot;Die, Mommie Die!&quot; starring drag illusionist and &quot;Oz&quot; alumnus Charles Busch. Going well over a decade&#039;s worth of service to the series that made him a household name, Meloni finally retired his TV detective in 2011. Throughout the show&#039;s run he continued to flaunt his humorous side, showing up on such parody shows as &quot;Mad TV&quot; and cracking up on the various night time TV haunts. On film he continues to shatter his dramatic image in such fare as The Souler Opposite (1998), Wet Hot American Summer (2001), Harold &amp; Kumar Go to White Castle (2004) and its sequel Harold &amp; Kumar Escape from Guantanamo Bay (2008). While he has not found outright stardom on the big screen (he has nominally played &quot;other man&quot; roles in such popular films as Runaway Bride (1999) and Nights in Rodanthe (2008)), Chris has more than proved his staying power since he left the popular series. More recently, he moved forward as a writer/producer/director/star of the comedy film Dirty Movie (2011), which also has in its cast &quot;L&amp;O: SVU&quot; co-star Diane Neal. In addition, Chris supplied the voice of DC Comics classic character Hal Jordan (aka Green Lantern) in the animated movie Green Lantern: First Flight (2009). He also has held regular roles on the series True Blood (2008) in 2012 and Surviving Jack (2014) as well as strong cinematic parts in the Superman film Man of Steel (2013) and in Small Time (2014).',
                 'created_at' => '2016-01-27 14:27:19',
-                'updated_at' => '2016-01-27 14:27:19',
+                'updated_at' => '2016-02-22 16:41:27',
             ),
             486 => 
             array (
@@ -6428,11 +6428,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Costner',
                 'birthday' => '1955-01-18',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000126',
                 'image' => 'Kevin_Costner_1453904847.jpg',
             'bio' => 'Kevin was born in Lynwood, California, on January 18, 1955, the third child of Bill Costner, a ditch digger and ultimately an electric line servicer for Southern California Edison, and Sharon Costner (n&eacute;e Tedrick), a welfare worker. His older brother, Dan, was born in 1950. A middle brother died at birth in 1953. His father&#039;s job required him to move regularly, which caused Kevin to feel like an Army kid, always the new kid at school, which led to him being a daydreamer. As a teen, he sang in the Baptist church choir, wrote poetry, and took writing classes. At 18, he built his own canoe and paddled his way down the rivers that Lewis &amp; Clark followed to the Pacific. Despite his present height, he was only 5&#039;2&quot; when he graduated high school. Nonetheless, he still managed to be a basketball, football and baseball star. In 1973, he enrolled at California State University at Fullerton, where he majored in business. During that period, Kevin decided to take acting lessons five nights a week. He graduated with a business degree in 1978 and married his college sweetheart, Cindy Costner. He initially took a marketing job in Orange County. Everything changed when he accidentally met Richard Burton on a flight from Mexico. Burton advised him to go completely after acting if that is what he wanted. He quit his job and moved to Hollywood soon after. He drove a truck, worked on a deep sea fishing boat, and gave bus tours to stars&#039; homes before finally making his own way into the films. After making one soft core sex film, he vowed to not work again if that was the only work he could do. He didn&#039;t work for nearly six years, while he waited for a proper break. That break came with The Big Chill (1983), even though his scenes ended up on the cutting room floor -- he was remembered by director Lawrence Kasdan when he decided to make Silverado (1985). Costner&#039;s career took off after that.',
                 'created_at' => '2016-01-27 14:27:27',
-                'updated_at' => '2016-01-27 14:27:27',
+                'updated_at' => '2016-02-22 16:41:31',
             ),
             487 => 
             array (
@@ -6441,11 +6441,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Jones',
                 'birthday' => '1946-09-15',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000169',
                 'image' => 'Tommy_Lee_Jones_1453904901.jpg',
             'bio' => 'Tommy Lee Jones was born in San Saba, Texas, the son of Lucille Marie (Scott), a police officer and beauty shop owner, and Clyde C. Jones, who worked on oil fields. Tommy himself worked in underwater construction and on an oil rig. He attended St. Mark&#039;s School of Texas, a prestigious prep school for boys in Dallas, on a scholarship, and went to Harvard on another scholarship. He roomed with future Vice President Al Gore and played offensive guard in the famous 29-29 Harvard-Yale football game of &#039;68 known as &quot;The Tie.&quot; He received a B.A. in English literature and graduated cum laude from Harvard in 1969. Following college, he moved to New York and began his theatrical career on Broadway in &quot;A Patriot for Me&quot; (1969). In 1970, he made his film debut in Love Story (1970). While living in New York, he continued to appear in various plays, both on- and off-Broadway: &quot;Fortune and Men&#039;s Eyes&quot; (1969); &quot;Four on a Garden&quot; (1971); &quot;Blue Boys&quot; (1972); &quot;Ulysses in Nighttown&quot; (1974). During this time, he also appeared on a daytime soap opera, One Life to Live (1968) as Dr. Mark Toland from 1971-75. He moved with wife Kate Lardner, granddaughter of short-story writer/columnist Ring Lardner, and her two children from a previous marriage, to Los Angeles. There he began to get some roles on television: Charlie&#039;s Angels (1976) (pilot episode); Smash-Up on Interstate 5 (1976); and The Amazing Howard Hughes (1977). While working on the movie Back Roads (1981), he met and fell in love with Kimberlea Cloughley, whom he later married. More roles in television--both on network and cable--stage and film garnered him a reputation as a strong, explosive, thoughtful actor who could handle supporting as well as leading roles. He made his directorial debut in The Good Old Boys (1995) on TNT. In addition to directing and starring in the film, he co-wrote the teleplay (with J.T. Allen). The film, based on Elmer Kelton&#039;s novel, is set in west Texas where Jones has strong family ties. Consequently, this story of a cowboy facing the end of an era has special meaning for him.',
                 'created_at' => '2016-01-27 14:28:21',
-                'updated_at' => '2016-01-27 14:28:21',
+                'updated_at' => '2016-02-22 16:41:34',
             ),
             488 => 
             array (
@@ -6454,11 +6454,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Fiorentino',
                 'birthday' => '1958-03-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0000400',
                 'image' => 'Linda_Fiorentino_1453904911.jpg',
             'bio' => 'Linda Fiorentino was born on March 9, 1958 in Philadelphia, Pennsylvania, USA as Clorinda Fiorentino. She is an actress, known for Men in Black (1997), The Last Seduction (1994) and Dogma (1999). She was previously married to John Byrum.',
                 'created_at' => '2016-01-27 14:28:31',
-                'updated_at' => '2016-01-27 14:28:31',
+                'updated_at' => '2016-02-22 16:41:37',
             ),
             489 => 
             array (
@@ -6467,11 +6467,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Torn',
                 'birthday' => '1931-02-06',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001800',
                 'image' => 'Rip_Torn_1453904996.jpg',
             'bio' => 'Rip Torn was born Elmore Rual Torn, Jr. on February 6, 1931 in Temple, Texas. &quot;Rip&quot; is a family name, taken by generations of Torn men and bestowed on Elmore by his father, who was also called &quot;Rip&quot;. Torn attended Texas A &amp; M and the University of Texas, where he majored in animal husbandry. Extremely naive when he was young, Torn hitchhiked to Hollywood with the idea of becoming a movie star; he wanted to make enough money in order to buy a ranch. Success did not come overnight, as he had hoped, and Torn had to work many odd jobs while occasionally being cast in television roles. He made his feature film debut in Elia Kazan&#039;s Baby Doll (1956) in a small part. Serious about learning his craft, he moved to New York City where he studied under Lee Strasberg at the Actors Studio. Torn also studied dance with Martha Graham. His serious acting career began on the small screen, where he made a name for himself in the Golden Age of Television; between 1957 and 1960, he appeared regularly on such prestigious live shows as Omnibus (1952) and Playhouse 90 (1956). Torn made his Broadway debut in Kazan&#039;s staging of Tennessee Williams&#039; &quot;Sweet Bird of Youth&quot; on March 10, 1959, in support of Paul Newman, Sidney Blackmer and Geraldine Page, who would become his second wife. The play was a hit, closing on January 30, 1960 after 375 performances. He won a 1960 Tony Award nomination as Best Featured Actor in a Play and a Theater World award for his role as &quot;Tom, Jr.&quot;, a role he recreated in the 1962 film. (Torn also starred as &quot;Boss Finley&quot; in a later television adaptation of the play). Torn earned a reputation as an actor&#039;s actor on stage, both Broadway and off-Broadway, as well as on screen. He continues to work in the New York theater despite his demanding TV and movie schedule as both an actor and director. He has won two Obie awards for his work off-Broadway, for Distinguished Performance in Norman Mailer&#039;s &quot;The Deer Park&quot; (for the 1966-1967 season), and for Distinguished Direction for &quot;The Beard&quot; (1967-1968). He has his own stage company, and directed his daughter Angelica Page(by Geraldine Page) in John Paul Alexander&#039;s &quot;Strangers in the Land of Canaan&quot; at the Actors Studio. Torn made his feature film directorial debut with The Telephone (1988). He has constantly been in demand as a character actor, in supporting, second lead and occasional lead roles. His best performance on film came in Payday (1973), and he was nominated for a best supporting actor Oscar for Cross Creek (1983). Most of Torn&#039;s roles have been in drama, though he is adept in comedy. His role in Albert Brooks&#039; comedy Defending Your Life (1991) led to his being cast in The Larry Sanders Show (1992), on which he played talk show producer &quot;Artie&quot;. Torn won six consecutive Emmy nominations for the role, winning once for Best Supporting Actor in a comedy series in 1996. Rip Torn was married to actress Ann Wedgeworth from 1956 to 1961, whom he divorced to marry Geraldine Page. They remained married until her death in 1987. Torn helped his cousin, Oscar-winner Sissy Spacek, to make her way as an actress, seeing to it that she was accepted by the Lee Strasberg&#039;s Actors Studio and then the Lee Strasberg Institute.',
                 'created_at' => '2016-01-27 14:29:56',
-                'updated_at' => '2016-01-27 14:29:56',
+                'updated_at' => '2016-02-22 16:41:41',
             ),
             490 => 
             array (
@@ -6480,11 +6480,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Shalhoub',
                 'birthday' => '1953-10-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001724',
                 'image' => 'Tony_Shalhoub_1453905004.jpg',
             'bio' => 'Anthony Marcus Shalhoub was born and raised in Green Bay, Wisconsin. His father, Joe Shalhoub, who owned a grocery chain, emigrated from Lebanon to the United States as an orphan at the age of ten, later marrying Shalhoub&#039;s mother, Helen (Seroogy), who herself was born in Wisconsin, to Lebanese parents. When Tony was six, he was introduced to the theater, in a school production of &quot;The King and I&quot;. He graduated from Green Bay East High, and then graduated with a bachelor&#039;s degree in drama from the University of Southern Maine before progressing to the Yale School of Drama, which he left with a Masters in 1980. After a time in the American Repertory Theatre, he moved to Broadway where he met his future wife, Brooke Adams, whom he married in 1992. She had an adopted daughter, Josie, who was three years old at the time that Tony and Brooke married. Tony adopted Brooke&#039;s own adopted child, Josie Lynn (b. 1989) when she was eight. In 1994, the couple adopted another daughter, Sophie. Tony&#039;s first audition after arriving in Los Angeles was for Italian cabdriver Antonio Scarpacci in the long-running sitcom Wings (1990), which also starred Tim Daly and Steven Weber. Next, Tony had roles in Men in Black (1997), Men in Black II (2002), and Thir13en Ghosts (2001). His biggest break came, however, playing the obsessive-compulsive detective Adrian Monk in Monk (2002). The series made him a star and earned him four straight Emmy Award nominations between 2003 and 2006, for Outstanding Lead Actor in a Comedy Series. Tony won the trophy in 2003, 2005 and 2006, proving how popular he has become after the success of Monk (2002), which continues to be very popular into its fifth year.',
                 'created_at' => '2016-01-27 14:30:04',
-                'updated_at' => '2016-01-27 14:30:04',
+                'updated_at' => '2016-02-22 16:41:44',
             ),
             491 => 
             array (
@@ -6493,11 +6493,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Hogan',
                 'birthday' => '1961-05-13',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0266441',
                 'image' => 'Siobhan_Fallon_Hogan_1453905012.jpg',
             'bio' => 'Siobhan Fallon Hogan has been seen in several blockbusters over the past twenty years. She is playing Arlene Moran, Sheriff Arnold Pope&#039;s (Terrence Howard) secretary in FX&#039;s Wayward Pines by Chad Hodge and Blake Crouch. The redheaded character actress has had many memorable roles in film and television.Siobhan is the daughter of attorney William J. Fallon and Jane Fallonof Syracuse, New York. She was born in 1961 in Syracuse, New York, to Jane (Eagan) and William J. Fallon, an attorney, and is the second of five children. A graduate of Le Moyne College in Syracuse, she received her M.F.A. from Catholic University. She began her career on stage in her own character-driven, one-women shows. After appearing in her show, &quot;Bat Girl,&quot; she was cast on _&quot;Saturday Night Live&quot; in 1992. This show opened many doors for Fallon, and she then began to work steadily in film. Although she began in comedy, Fallon has a following in dramatic foreign films, notably Lars von Trier&#039;s Dancer in the Dark (2000) and Dogville (2003). She also played in Michael Haneke&#039;s Funny Games (2007). Her television credits include a recurring role on Seinfeld (1989) as Elaine&#039;s roommate, Alec Baldwin&#039;s sister on 30 Rock (2006) and several other guest spots. She has been happily married to commodities trader Peter Hogan for over twenty years. They have three children: Bernadette, Peter and Sinead.',
                 'created_at' => '2016-01-27 14:30:12',
-                'updated_at' => '2016-01-27 14:30:12',
+                'updated_at' => '2016-02-22 16:41:47',
             ),
             492 => 
             array (
@@ -6506,11 +6506,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Cross',
                 'birthday' => '1964-04-04',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0189144',
                 'image' => 'David_Cross_1453905035.jpg',
             'bio' => 'David Cross was born on April 4, 1964 in Atlanta, Georgia, USA. He is an actor and writer, known for Eternal Sunshine of the Spotless Mind (2004), Small Soldiers (1998) and Kung Fu Panda (2008). He has been married to Amber Tamblyn since October 6, 2012.',
                 'created_at' => '2016-01-27 14:30:35',
-                'updated_at' => '2016-01-27 14:30:35',
+                'updated_at' => '2016-02-22 16:41:50',
             ),
             493 => 
             array (
@@ -6519,11 +6519,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Boyle',
                 'birthday' => '1970-03-24',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0001223',
                 'image' => 'Lara_Flynn_Boyle_1453905067.jpg',
             'bio' => 'Lara Flynn Boyle was born in Davenport, Iowa on March 24, 1970 to 21-year old Sally Boyle. For Sally and young Lara, money was not plentiful so Sally was required to work three jobs in addition to raising baby Lara by herself. Since Lara was mostly around Sally, they developed a bond that still binds Lara and Sally today. Until recently, Sally lived with Lara. Now they only live 10 minutes away from each other. Growing up, Lara had many struggles including dyslexia and a learning disability. Still, she could not let that get to her and she knew she had to be strong. She finally graduated, and, the day after doing so, she and her mother, Sally, moved. They drove on what would be &quot;the road to fame&quot;. She soon landed roles in movies like Poltergeist III (1988) and Wayne&#039;s World (1992). Since then, she has become a prolific actress on both the small screen and the big screen.',
                 'created_at' => '2016-01-27 14:31:07',
-                'updated_at' => '2016-01-27 14:31:07',
+                'updated_at' => '2016-02-22 16:41:54',
             ),
             494 => 
             array (
@@ -6532,11 +6532,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Knoxville',
                 'birthday' => '1971-03-11',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0424216',
                 'image' => 'Johnny_Knoxville_1453905075.jpg',
             'bio' => 'Johnny Knoxville was born on March 11, 1971 in Knoxville, Tennessee, USA as Philip John Clapp. He is a writer and producer, known for Jackass: The Movie (2002), Jackass Number Two (2006) and Jackass Presents: Bad Grandpa (2013). He has been married to Naomi Nelson since September 24, 2010. They have two children. He was previously married to Melanie Lynn Cates.',
                 'created_at' => '2016-01-27 14:31:15',
-                'updated_at' => '2016-01-27 14:31:15',
+                'updated_at' => '2016-02-22 16:41:57',
             ),
             495 => 
             array (
@@ -6545,11 +6545,11 @@ However, it has only been recently that his star has finally begun to shine in t
                 'surname' => 'Dawson',
                 'birthday' => '1979-05-09',
                 'deceased' => NULL,
-                'imdb_id' => NULL,
+                'imdb_id' => 'nm0206257',
                 'image' => 'Rosario_Dawson_1453905084.jpg',
             'bio' => 'This stunning and resourceful actress has been primarily a film player thus far. Only recently has she been opening herself up more to doing television (the series Gemini Division (2008), which she executive-produced), and animated voice-overs. Dawson&#039;s powerhouse talent stands out the most in edgy, urban filming that dates back to 1995 when she was only sixteen. A rags-to-riches article entitled &quot;Rosario Dawson: From Tenement to Tinseltown&quot; probably says it all. Rosario was born in New York City on May 9, 1979. Her mother, Isabel Celeste, of Puerto Rican and Afro-Cuban descent, is a singer, and her stepfather, who raised her, Greg Dawson, of Irish descent, is a construction laborer. Her parents, who married when both were teenagers, eventually divorced. Rosario and her younger brother, Clay Dawson, had it hard while growing up and was cared for by family members, most of whom were poverty-stricken and some of whom were HIV-positive. Her career actually started as a child when she made a minor showing on the children&#039;s show, Sesame Street (1969). As the story goes, she was &quot;discovered&quot; as an adolescent on her front porch step by two photographers. One of them, Harmony Korine, was an aspiring screenwriter who thought the inexperienced sixteen-year-old was ideal for the controversial cult film Kids (1995), in which she would portray a sexually active adolescent. It took time for Rosario&#039;s film career to kick in after that, but by the late 1990s, she had nabbed several independent films. Since then, she has moved into main-stream hits (and misses) and has surprised viewers with her earthy, provocative, uninhibited approach to her roles. Reflecting New York&#039;s tougher, tawdrier side as assorted streetwalkers, homeless mothers, drug addicts, etc., her film highlights have included Light It Up (1999), Edward Burns&#039; Sidewalks of New York (2001), Spike Lee&#039;s 25th Hour (2002) and Shattered Glass (2003). For Oliver Stone, she portrayed the duped bride of Colin Farrell&#039;s famed B.C. Macedonian warrior, Alexander (2004) (as in &quot;...the Great&quot;), which featured a notoriously violent-tinged nude/sex scene. Expanding her horizons beyond film, she has always expressed interest in singing. She hooked up with Prince for the re-release of his 1980s hit &quot;1999&quot; and appeared in The Chemical Brothers&#039; video for the song &quot;Out of Control&quot; from the album &quot;Surrender&quot;. She is also featured on the Outkast track, &quot;She Lives in My Lap&quot;. On stage, she co-starred as Julia in a revival of &quot;Two Gentlemen of Verona&quot; at the Public Theater&#039;s &quot;Shakespeare in the Park&quot; and appeared in &quot;The Vagina Monologues&quot;. She lucked into and got to show off her singing chops in the film adaptation of the hit New York musical Rent (2005), when Daphne Rubin-Vega, the original Mimi, became pregnant and was unable to reprise her exotic dancer role. Rosario also appeared as a prostitute in the adaptation of the graphic novel Sin City (2005). Of late, she has turned to producing. One of those, Descent (2007), had her playing a college coed who is brutally attacked and raped by a fellow student. Her more popular ventures have thus far included the role of Valerie Brown in the live-action version of the comic strip Josie et les Pussycats (2001), the Will Smith starrer Men in Black II (2002), Eagle Eye (2008) with Shia LaBeouf and Seven Pounds (2008), again with Smith, in which she offered one of her more tender-hearted performances as a woman with a potentially fatal heart condition. Off-camera, the still-single Dawson is highly active in political, social and environmental causes and has been involved with such organizations/charities/campaigns as the Lower East Side Girls Club, Global Cool, the O.N.E. Campaign, Oxfam, Amnesty International, Parents, Families and Friends of Lesbians and Gays, Control Arms, International Rescue Committee, Voto Latino (which she founded), Conservation International, Doctors Without Borders, National Geographic Society, The Nature Conservancy and Save the Children. In October 2008, she lent her voice to the RESPECT! Campaign, a movement aimed at preventing domestic violence.',
                 'created_at' => '2016-01-27 14:31:24',
-                'updated_at' => '2016-01-27 14:31:24',
+                'updated_at' => '2016-02-22 16:41:59',
             ),
             496 => 
             array (
