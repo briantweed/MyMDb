@@ -427,8 +427,14 @@ div.search-bar-container {
    a {
       padding: 0 6px;
       line-height: 1.5;
-      margin-right: 10px;
+      margin: 1px 10px -6px 0;
       text-decoration: none;
+
+      span {
+         position: relative;
+         top: -3px
+      }
+
    }
 
    #filter-movie-start {

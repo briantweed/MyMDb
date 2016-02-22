@@ -128,14 +128,15 @@ class Persons extends Model {
 	public static function getActorCount($limit)
 	{
 		return DB::select(
-			DB::raw('SELECT `cast`.`movie_id` , `persons`.`person_id`, count(*) as count, CONCAT(`forename`, " ", `surname`) as name, `image` from `persons`
-			INNER JOIN `cast` on `cast`.`person_id` = `persons`.`person_id`
+			DB::raw('SELECT `cast`.`movie_id` , `persons`.`person_id`, count(*) AS count, CONCAT(`forename`, " ", `surname`) AS name, `image` FROM `persons`
+			INNER JOIN `cast` ON `cast`.`person_id` = `persons`.`person_id`
 			WHERE(
 				SELECT count(*) FROM tags
-				WHERE `tags`.`movie_id` = `cast`.`movie_id` and `tags`.`keyword_id` = 6
+				WHERE `tags`.`movie_id` = `cast`.`movie_id`
+				AND `tags`.`keyword_id` = 6
 			) = 0
 			GROUP BY `cast`.`person_id`
-			ORDER BY `count` desc, `forename` asc
+			ORDER BY `count` DESC, `forename` ASC, `surname` ASC
 			LIMIT 24')
 		);
 	}
@@ -155,6 +156,7 @@ class Persons extends Model {
 			->groupBy('crew.person_id')
 			->orderBy('count', 'desc')
 			->orderBy('forename', 'asc')
+			->orderBy('surname', 'asc')
 			->take($limit)
 			->get();
 	}
@@ -170,6 +172,7 @@ class Persons extends Model {
 		return Persons::select('persons.person_id', 'birthday', 'deceased', DB::raw('CONCAT(forename, " ", surname) as name'), 'image')
 			->where(DB::raw('DATE_FORMAT(birthday,"%m-%d")'),DB::raw('DATE_FORMAT(NOW(),"%m-%d")'))
 			->orderBy('forename', 'asc')
+			->orderBy('surname', 'asc')
 			->get();
 	}
 

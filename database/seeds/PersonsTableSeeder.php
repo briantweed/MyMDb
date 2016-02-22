@@ -27394,6 +27394,45 @@ At age seventeen, she was cast as a series regular in the CBC drama 9B (1988). N
                 'created_at' => '2016-02-21 17:20:09',
                 'updated_at' => '2016-02-21 17:20:09',
             ),
+            98 => 
+            array (
+                'person_id' => 2107,
+                'forename' => 'Michael',
+                'surname' => 'Copon',
+                'birthday' => '1982-11-13',
+                'deceased' => NULL,
+                'imdb_id' => 'nm0178757',
+                'image' => 'Michael_Copon_1456144563.jpg',
+            'bio' => 'Michael Copon was born on November 13, 1982 in Chesapeake, Virginia, USA as Michael Sowell Copon. He is an actor and producer, known for Power Rangers Time Force (2001), The Scorpion King: Rise of a Warrior (2008) and 247&deg;F (2011).',
+                'created_at' => '2016-02-22 12:36:03',
+                'updated_at' => '2016-02-22 12:36:03',
+            ),
+            99 => 
+            array (
+                'person_id' => 2108,
+                'forename' => 'Natalie',
+                'surname' => 'Becker',
+                'birthday' => NULL,
+                'deceased' => NULL,
+                'imdb_id' => 'nm1799082',
+                'image' => 'Natalie_Becker_1456144577.jpg',
+            'bio' => 'Natalie Becker is an actress, known for Disgrace (2008), Tremors 5: Bloodlines (2015) and The Scorpion King: Rise of a Warrior (2008).',
+                'created_at' => '2016-02-22 12:36:17',
+                'updated_at' => '2016-02-22 12:36:17',
+            ),
+            100 => 
+            array (
+                'person_id' => 2109,
+                'forename' => 'Randy',
+                'surname' => 'Couture',
+                'birthday' => '1963-06-22',
+                'deceased' => NULL,
+                'imdb_id' => 'nm1330276',
+                'image' => 'Randy_Couture_1456144586.jpg',
+                'bio' => 'Randy Couture is a collegiate wrestler and fighter turned actor from Everett, Washington. He served as a four time US Olympic wrestling team alternate as a soldier in the U.S. Army, and is also a 6 time world heavyweight and light heavyweight UFC champion and Hall of Famer. He is a graduate of Oklahoma State University with a bachelor&#039;s degree in foreign language literature and is also fluent in German. Randy&#039;s current girlfriend is actress Mindy Robinson. He is best known for starring in all three of The Expendables, Ambushed, and The Scorpion King 2.',
+                'created_at' => '2016-02-22 12:36:26',
+                'updated_at' => '2016-02-22 12:36:26',
+            ),
         ));
         
         

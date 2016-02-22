@@ -53447,6 +53447,96 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            341 => 
+            array (
+                'cast_id' => 5994,
+                'movie_id' => 739,
+                'person_id' => 794,
+                'character' => 'Scrooge McDuck',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            342 => 
+            array (
+                'cast_id' => 5998,
+                'movie_id' => 740,
+                'person_id' => 2107,
+                'character' => 'Mathayus',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            343 => 
+            array (
+                'cast_id' => 5999,
+                'movie_id' => 740,
+                'person_id' => 2108,
+                'character' => 'Astarte',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            344 => 
+            array (
+                'cast_id' => 6000,
+                'movie_id' => 740,
+                'person_id' => 2109,
+                'character' => 'Sargon',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            345 => 
+            array (
+                'cast_id' => 6001,
+                'movie_id' => 741,
+                'person_id' => 354,
+                'character' => 'Argomael',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            346 => 
+            array (
+                'cast_id' => 6002,
+                'movie_id' => 741,
+                'person_id' => 587,
+                'character' => 'Ramusan',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            347 => 
+            array (
+                'cast_id' => 6003,
+                'movie_id' => 741,
+                'person_id' => 46,
+                'character' => 'Horus',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            348 => 
+            array (
+                'cast_id' => 6004,
+                'movie_id' => 741,
+                'person_id' => 136,
+                'character' => 'Talus',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            349 => 
+            array (
+                'cast_id' => 6005,
+                'movie_id' => 741,
+                'person_id' => 670,
+                'character' => 'The Sorceress',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

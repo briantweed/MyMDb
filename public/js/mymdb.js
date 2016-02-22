@@ -383,6 +383,8 @@ license: http://www.wtfpl.net
 // Initial setup of wave buttons
 Waves.attach('li.image-thumbnail, .slidee li, div.slick-purchased div', ['waves-light']);
 Waves.attach('.feature-content img', ['waves-light', 'waves-block']);
+Waves.attach('.nav li, .search-bar-container a', ['waves-button']);
+Waves.attach('.btn', ['waves-circle']);
 Waves.init();
 
 // Hide success message

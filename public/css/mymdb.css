@@ -6555,8 +6555,11 @@ div.search-bar-container {
   div.search-bar-container a {
     padding: 0 6px;
     line-height: 1.5;
-    margin-right: 10px;
+    margin: 1px 10px -6px 0;
     text-decoration: none; }
+    div.search-bar-container a span {
+      position: relative;
+      top: -3px; }
   div.search-bar-container #filter-movie-start {
     width: 4em; }
   div.search-bar-container #filter-movie-options {
