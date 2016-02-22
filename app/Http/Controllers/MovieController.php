@@ -267,6 +267,28 @@ class MovieController extends Controller {
 	}
 
 
+	public function filterMovies($request)
+	{
+		$data = $request->all();
+		$search_string = trim($data['val']);
+		if($search_string!="")
+		{
+			$movies = Movies::select('movies.*')
+						->where('name', 'LIKE', '%'.$search_string.'%')
+						->orderBy('sort_name')
+						->get();
+
+			$people = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
+						->orderBy('forename')
+						->get();
+
+			$user = $this->isAdmin;
+			$quote = count($movies) ? "" : $this->getRandomQuote();
+
+			return view('ajax.movie_filter', compact('movies', 'people', 'quote', 'user'));
+		}
+	}
+
 	/**
 	*
 	* Add actor and character name to cast pivot table

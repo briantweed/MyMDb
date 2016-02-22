@@ -20,67 +20,34 @@ class AjaxController extends Controller
   	  $this->isAdmin = $this->checkUserDetails();
    }
 
+   public function index()
+   {
+      return redirect()->action('WelcomeController@index');
+   }
+
    public function filterMovies()
    {
-      if(Request::ajax())
+      $data = Request::all();
+      $search_string = trim($data['filter-movie-text']);
+      if($search_string!="")
       {
-         $data = Request::all();
-         $type = $data['type'];
-         $search_string = trim($data['val']);
-         if($search_string!="")
-         {
-            $query = Movies::select('movies.*');
-            switch($type)
-            {
-               case "all":
-                  $query->where('name', 'LIKE', '%'.$search_string.'%');
-               break;
+         $movies = Movies::where('name', 'LIKE', '%'.$search_string.'%')
+                  ->orderBy('sort_name')
+                  ->get();
+         $people = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
+                  ->orderBy('forename')
+                  ->get();
 
-               case "studio":
-                  $query->where('studios.name', 'LIKE', '%'.$search_string.'%')
-                        ->join('studios', 'movies.studio_id', '=', 'studios.studio_id');
-               break;
+         $tags = Movies::where('keywords.word', 'LIKE', '%'.$search_string.'%')
+               ->join('tags', 'movies.movie_id', '=', 'tags.movie_id')
+               ->join('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id')
+               ->orderBy('sort_name')
+               ->get();
 
-               case "format":
-                  $query->where('formats.type', 'LIKE', '%'.$search_string.'%')
-                        ->join('formats', 'movies.format_id', '=', 'formats.format_id');
-               break;
+         $user = $this->isAdmin;
+         $quote = count($movies) ? "" : $this->getRandomQuote();
 
-               case "certificate":
-                  $query->where('certificate_id', $search_string);
-               break;
-
-               case "year":
-                  $query->where('released', $search_string);
-               break;
-
-               case "rating":
-                  $query->where('rating', $search_string);
-               break;
-
-               case "tag":
-                  $query->where('keywords.word', 'LIKE', '%'.$search_string.'%')
-                     ->join('tags', 'movies.movie_id', '=', 'tags.movie_id')
-                     ->join('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id');
-            break;
-            }
-
-            $query->orderBy('sort_name');
-            $movies = $query->get();
-
-            if($type=="all")
-            {
-               $people = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
-                        ->orderBy('forename')
-                        ->get();
-      		}
-            else $people = [];
-            $user = $this->isAdmin;
-            $quote = count($movies) ? "" : $this->getRandomQuote();
-
-            return (String) view('ajax.movie_filter', compact('movies', 'people', 'quote', 'user'));
-         }
-         else return "blank";
+         return view('ajax.filter', compact('movies', 'people', 'tags', 'quote', 'user'));
       }
    }
 

@@ -1,9 +1,8 @@
 
 // Initial setup of wave buttons
 Waves.attach('li.image-thumbnail, .slidee li, div.slick-purchased div', ['waves-light']);
+Waves.attach('#movieTabs li, .search-bar-container a, a.btn', ['waves-button']);
 Waves.attach('.feature-content img', ['waves-light', 'waves-block']);
-Waves.attach('.nav li, .search-bar-container a', ['waves-button']);
-Waves.attach('.btn', ['waves-circle']);
 Waves.init();
 
 // Hide success message
@@ -89,35 +88,12 @@ $(document).ready(function() {
 });
 
 // Movie search filter
-function startFilter(type, val) {
-   if(val.length==0) val = $('#filter-movie').val();
-   else $('#filter-movie').val('');
-   $('#filter-movie-start').html('<i class="ft icon-loading spin"></i>');
-   $.ajax({
-      type: 'POST',
-      url: '/filter',
-      data: {
-         _token: $('meta[name="_token"]').attr('content'),
-         val: val,
-         type: type
-      }
-   }).done(function(html){
-      $('#filter-movie-start').html('Go');
-      switch(html) {
-         case "blank":
-            // location.reload();
-         break;
-         default:
-            $('.main-content, .purchased-content, .ratings-content, .feature-content, .secondary-content, .chart-content, footer').hide();
-            $('.filtered-content').html(html);
-            $('html, body').animate({ scrollTop: 0 }, 0);
-            Waves.attach('li.image-thumbnail', ['waves-light']);
-            $('img.lazy').lazyload({
-               effect : "fadeIn",
-               threshold : 100
-            });
-      }
-   });
+function startFilter() {
+   if($('#filter-movie').val().length!=0)
+   {
+      $('#filter-movie-start').html('<i class="ft icon-loading spin"></i>');
+      $('#filter-movie-form').submit();
+   }
 }
 
 function previewImage(input, output) {

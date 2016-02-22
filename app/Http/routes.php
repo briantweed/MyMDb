@@ -25,6 +25,7 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 
 	// AJAX QUERIES
 	Route::post('aviary', 'AviaryController@replaceImage');
+	Route::get('filter', 'AjaxController@index');
 	Route::post('filter', 'AjaxController@filterMovies');
 	Route::post('getCastDetails', 'AjaxController@getCastDetails');
 	Route::post('movieFormatCount', 'AjaxController@movieFormatCount');

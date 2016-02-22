@@ -6559,7 +6559,9 @@ div.search-bar-container {
     text-decoration: none; }
     div.search-bar-container a span {
       position: relative;
-      top: -3px; }
+      top: -2px; }
+    div.search-bar-container a i::before {
+      margin-left: 0.1em; }
   div.search-bar-container #filter-movie-start {
     width: 4em; }
   div.search-bar-container #filter-movie-options {
