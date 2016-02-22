@@ -289,7 +289,7 @@ function displayMoviesByGenre() {
                labelFontSize: 12
 			   },
             axisY: {
-               interval: 50,
+               interval: 20,
                maximum: 300,
                labelFontSize: 12,
                gridColor: '#ddd',
@@ -334,8 +334,8 @@ function displayMoviesByRating() {
             axisY:{
                gridColor: '#ddd',
                gridThickness: 1,
-               interval: 10
-            },
+               interval: 20,
+               maximum: 300,            },
             animationEnabled: true,
             animationDuration: 1500,
             toolTip: {
