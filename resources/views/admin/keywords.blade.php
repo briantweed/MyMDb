@@ -4,12 +4,12 @@
 </div>
 
 @foreach( $keywords as $i=>$keyword )
-   <div class="row" style="padding:0.5em 0; background-color: {{ $i % 2 == 0 ? '#ffffff': '#f9f9f9' }};">
-      <div class="col-xs-2">
+   @if($i % 2 == 0)<div class="row" style="padding:0.5em 0; background-color: {{ $i % 4 == 0 ? '#ffffff': '#f9f9f9' }};">@endif
+      <div class="col-xs-1">
          {{$keyword->keyword_id}}
       </div>
-      <div class="col-xs-10">
+      <div class="col-xs-5">
          {{$keyword->word}}
       </div>
-   </div>
+   @if($i % 2 == 1)</div>@endif
 @endforeach
