@@ -3,10 +3,13 @@
    <div class="col-xs-12"><h4>Genres</h4></div>
 </div>
 
-<div class="row">
-   @foreach( $genres as $genre )
-      <div class="col-xs-4">
-         {{$genre->genre_id}} : {{$genre->type}}
+@foreach( $genres as $i=>$genre )
+   <div class="row" style="padding:0.5em 0; background-color: {{ $i % 2 == 0 ? '#ffffff': '#f9f9f9' }};">
+      <div class="col-xs-2">
+         {{$genre->genre_id}}
       </div>
-   @endforeach
-</div>
+      <div class="col-xs-10">
+         {{$genre->type}}
+      </div>
+   </div>
+@endforeach

@@ -10,14 +10,17 @@
 
    <div class="row">
       <div class="col-xs-2">
-         @include('segments.links.add_movie')<br/>
-         @include('segments.links.add_person')<br/><hr/>
-         @include('segments.links.genres')<br/>
-         @include('segments.links.studios')<br/>
-         @include('segments.links.keywords')<br/>
-         @include('segments.links.viewings')<br/><hr/>
-         @include('segments.links.seed')<br/><hr/>
-         @include('segments.links.logout')
+         <div style="position:fixed">
+            @include('segments.links.genres')<br/>
+            @include('segments.links.studios')<br/>
+            @include('segments.links.keywords')<br/>
+            @include('segments.links.viewings')<br/>
+            @include('segments.links.quotes')<br/><hr/>
+            @include('segments.links.add_movie')<br/>
+            @include('segments.links.add_person')<br/><hr/>
+            @include('segments.links.seed')<br/><hr/>
+            @include('segments.links.logout')
+         </div>
       </div>
       <div class="col-xs-offset-1 col-xs-9">
          @if(session('status'))

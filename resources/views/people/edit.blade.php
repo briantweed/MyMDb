@@ -34,9 +34,7 @@
                      <img id="person-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text={{$person->cover}}"  />
                   @else
                      <img id="person-poster" class="img-responsive img-rounded" src="{{asset($person->cover)}}" />
-                     @if( Request::is('people/*/edit'))
-                        @include('segments.buttons.edit_image')
-                     @endif
+                     @include('segments.buttons.edit_image')
                   @endif
                @else
                   <img id="person-poster" class="img-responsive img-rounded" src="http://placehold.it/300x450/cccccc/ffffff?text=no+image">
@@ -45,15 +43,10 @@
          </div>
 
          <div class="side-buttons">
-
-            {{-- delete button --}}
-            @if(Request::is('people/*/edit'))
-               <hr/>
-               @include('segments.buttons.delete_person')
-            @endif
-
+            <hr/>
+            @include('segments.buttons.view_person')
+            @include('segments.buttons.delete_person')
             @include('segments.layout.padding')
-
          </div>
 
       </div>
@@ -139,6 +132,7 @@
    @include('modal.add_role')
    @include('modal.edit_character')
    @include('modal.remove_role')
+   @include('modal.delete_person')
 
 @stop
 

@@ -20,9 +20,6 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 	Route::post('getCastFromIMDb', 'ApiController@getCastFromIMDb');
 	Route::post('createImdbActor', 'ApiController@createImdbActor');
 	Route::post('searchForMovie', 'ApiController@searchForMovie');
-	Route::get('getDirectors', 'ApiController@getDirectors');
-	Route::get('getGenres', 'ApiController@getGenres');
-	Route::get('actorID', 'ApiController@actorID');
 
 	// AJAX QUERIES
 	Route::post('aviary', 'AviaryController@replaceImage');
@@ -73,6 +70,7 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 		Route::post('/genres', 'GenreController@index');
 		Route::post('/studios', 'StudioController@index');
 		Route::post('/keywords', 'KeywordController@index');
+		Route::post('/quotes', 'QuoteController@index');
 	});
 
 	// SEED CREATOR

@@ -3,10 +3,13 @@
    <div class="col-xs-12"><h4>Studios</h4></div>
 </div>
 
-<div class="row">
-   @foreach( $studios as $studio )
-      <div class="col-xs-4">
-         {{$studio->studio_id}} : {{$studio->name}}
+@foreach( $studios as $i=>$studio )
+   <div class="row" style="padding:0.5em 0; background-color: {{ $i % 2 == 0 ? '#ffffff': '#f9f9f9' }};">
+      <div class="col-xs-2">
+         {{$studio->studio_id}}
       </div>
-   @endforeach
-</div>
+      <div class="col-xs-10">
+         {{$studio->name}}
+      </div>
+   </div>
+@endforeach

@@ -6211,6 +6211,24 @@ class CrewTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            188 => 
+            array (
+                'crew_id' => 694,
+                'movie_id' => 740,
+                'person_id' => 1724,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            189 => 
+            array (
+                'crew_id' => 695,
+                'movie_id' => 741,
+                'person_id' => 2110,
+                'position' => 'Director',
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

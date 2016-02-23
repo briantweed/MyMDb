@@ -48,13 +48,10 @@
          </div>
 
          <div class="side-buttons">
-
             <hr/>
-
+            @include('segments.buttons.view_movie')
             @include('segments.buttons.delete_movie')
-
             @include('segments.layout.padding')
-
          </div>
 
       </div>
