@@ -13948,6 +13948,25 @@ Yippee Kayaye Maggot Farmer!',
                 'created_at' => '2016-02-22 12:34:25',
                 'updated_at' => '2016-02-22 12:34:35',
             ),
+            233 => 
+            array (
+                'movie_id' => 742,
+                'name' => 'The Scorpion King',
+                'sort_name' => 'The Scorpion King',
+                'imdb_id' => 'tt0277296',
+                'released' => 2002,
+                'rating' => 5,
+                'running_time' => 92,
+                'image' => 'The_Scorpion_King_1456309301.jpg',
+                'certificate_id' => 4,
+                'format_id' => 1,
+                'studio_id' => 18,
+                'duplicate' => 0,
+                'bio' => 'In an ancient time, predating the pyramids, the evil king Memnon is using the psychic powers of his sorceress Cassandra to fortell his great victories. In a last ditch effort to stop Memnon from taking over the world, the leaders of the remaining free tribes hire the assassin Mathayus to kill the sorceress. But Mathayus ends up getting much more than he bargained for. Now with the help of the trickster Arpid, tribal leader Balthazar and an unexpected ally, it&#039;s up to Mathayus to fufill his destiny and become the great Scorpion King.',
+                'purchased' => '2015-01-01 00:00:00',
+                'created_at' => '2016-02-24 10:21:42',
+                'updated_at' => '2016-02-24 10:21:42',
+            ),
         ));
         
         

@@ -53537,6 +53537,66 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            350 => 
+            array (
+                'cast_id' => 6012,
+                'movie_id' => 742,
+                'person_id' => 344,
+                'character' => 'Mathayus',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            351 => 
+            array (
+                'cast_id' => 6013,
+                'movie_id' => 742,
+                'person_id' => 1002,
+                'character' => 'Balthazar',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            352 => 
+            array (
+                'cast_id' => 6014,
+                'movie_id' => 742,
+                'person_id' => 670,
+                'character' => 'The Sorceress',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            353 => 
+            array (
+                'cast_id' => 6015,
+                'movie_id' => 742,
+                'person_id' => 139,
+                'character' => 'Philos',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            354 => 
+            array (
+                'cast_id' => 6016,
+                'movie_id' => 742,
+                'person_id' => 922,
+                'character' => 'Arpid',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            355 => 
+            array (
+                'cast_id' => 6017,
+                'movie_id' => 742,
+                'person_id' => 666,
+                'character' => 'Barbarian Chieftain',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
