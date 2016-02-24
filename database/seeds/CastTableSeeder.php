@@ -53597,6 +53597,66 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            356 => 
+            array (
+                'cast_id' => 6018,
+                'movie_id' => 743,
+                'person_id' => 2007,
+                'character' => 'Daisy Steiner',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            357 => 
+            array (
+                'cast_id' => 6019,
+                'movie_id' => 743,
+                'person_id' => 1522,
+                'character' => 'Brian Topp',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            358 => 
+            array (
+                'cast_id' => 6020,
+                'movie_id' => 743,
+                'person_id' => 513,
+                'character' => 'Mike Watt',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            359 => 
+            array (
+                'cast_id' => 6021,
+                'movie_id' => 743,
+                'person_id' => 512,
+                'character' => 'Tim Bisley',
+                'star' => 1,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            360 => 
+            array (
+                'cast_id' => 6023,
+                'movie_id' => 743,
+                'person_id' => 2008,
+                'character' => 'Bilbo Bagshot',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            361 => 
+            array (
+                'cast_id' => 6026,
+                'movie_id' => 743,
+                'person_id' => 363,
+                'character' => 'Duane Benzie',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

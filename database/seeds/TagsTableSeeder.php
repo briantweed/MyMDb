@@ -1019,21 +1019,13 @@ class TagsTableSeeder extends Seeder
             ),
             125 => 
             array (
-                'tag_id' => 129,
-                'movie_id' => 583,
-                'keyword_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            126 => 
-            array (
                 'tag_id' => 130,
                 'movie_id' => 716,
                 'keyword_id' => 6,
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            127 => 
+            126 => 
             array (
                 'tag_id' => 131,
                 'movie_id' => 717,
@@ -1041,7 +1033,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            128 => 
+            127 => 
             array (
                 'tag_id' => 132,
                 'movie_id' => 718,
@@ -1049,7 +1041,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            129 => 
+            128 => 
             array (
                 'tag_id' => 133,
                 'movie_id' => 722,
@@ -1057,7 +1049,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            130 => 
+            129 => 
             array (
                 'tag_id' => 134,
                 'movie_id' => 722,
@@ -1065,7 +1057,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            131 => 
+            130 => 
             array (
                 'tag_id' => 135,
                 'movie_id' => 723,
@@ -1073,7 +1065,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            132 => 
+            131 => 
             array (
                 'tag_id' => 136,
                 'movie_id' => 723,
@@ -1081,7 +1073,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            133 => 
+            132 => 
             array (
                 'tag_id' => 137,
                 'movie_id' => 724,
@@ -1089,7 +1081,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            134 => 
+            133 => 
             array (
                 'tag_id' => 138,
                 'movie_id' => 724,
@@ -1097,7 +1089,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            135 => 
+            134 => 
             array (
                 'tag_id' => 139,
                 'movie_id' => 725,
@@ -1105,7 +1097,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            136 => 
+            135 => 
             array (
                 'tag_id' => 140,
                 'movie_id' => 725,
@@ -1113,7 +1105,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            137 => 
+            136 => 
             array (
                 'tag_id' => 141,
                 'movie_id' => 726,
@@ -1121,7 +1113,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            138 => 
+            137 => 
             array (
                 'tag_id' => 142,
                 'movie_id' => 726,
@@ -1129,7 +1121,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            139 => 
+            138 => 
             array (
                 'tag_id' => 143,
                 'movie_id' => 727,
@@ -1137,7 +1129,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            140 => 
+            139 => 
             array (
                 'tag_id' => 144,
                 'movie_id' => 727,
@@ -1145,7 +1137,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            141 => 
+            140 => 
             array (
                 'tag_id' => 145,
                 'movie_id' => 728,
@@ -1153,7 +1145,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            142 => 
+            141 => 
             array (
                 'tag_id' => 146,
                 'movie_id' => 728,
@@ -1161,7 +1153,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            143 => 
+            142 => 
             array (
                 'tag_id' => 147,
                 'movie_id' => 729,
@@ -1169,7 +1161,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            144 => 
+            143 => 
             array (
                 'tag_id' => 148,
                 'movie_id' => 729,
@@ -1177,7 +1169,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            145 => 
+            144 => 
             array (
                 'tag_id' => 149,
                 'movie_id' => 730,
@@ -1185,7 +1177,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            146 => 
+            145 => 
             array (
                 'tag_id' => 150,
                 'movie_id' => 730,
@@ -1193,7 +1185,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            147 => 
+            146 => 
             array (
                 'tag_id' => 151,
                 'movie_id' => 731,
@@ -1201,7 +1193,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            148 => 
+            147 => 
             array (
                 'tag_id' => 152,
                 'movie_id' => 731,
@@ -1209,7 +1201,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            149 => 
+            148 => 
             array (
                 'tag_id' => 153,
                 'movie_id' => 732,
@@ -1217,7 +1209,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            150 => 
+            149 => 
             array (
                 'tag_id' => 154,
                 'movie_id' => 732,
@@ -1225,7 +1217,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            151 => 
+            150 => 
             array (
                 'tag_id' => 155,
                 'movie_id' => 733,
@@ -1233,7 +1225,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            152 => 
+            151 => 
             array (
                 'tag_id' => 156,
                 'movie_id' => 733,
@@ -1241,7 +1233,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            153 => 
+            152 => 
             array (
                 'tag_id' => 157,
                 'movie_id' => 734,
@@ -1249,7 +1241,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            154 => 
+            153 => 
             array (
                 'tag_id' => 158,
                 'movie_id' => 734,
@@ -1257,7 +1249,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            155 => 
+            154 => 
             array (
                 'tag_id' => 159,
                 'movie_id' => 735,
@@ -1265,7 +1257,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            156 => 
+            155 => 
             array (
                 'tag_id' => 160,
                 'movie_id' => 735,
@@ -1273,7 +1265,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            157 => 
+            156 => 
             array (
                 'tag_id' => 161,
                 'movie_id' => 736,
@@ -1281,7 +1273,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            158 => 
+            157 => 
             array (
                 'tag_id' => 162,
                 'movie_id' => 736,
@@ -1289,7 +1281,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            159 => 
+            158 => 
             array (
                 'tag_id' => 163,
                 'movie_id' => 737,
@@ -1297,7 +1289,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            160 => 
+            159 => 
             array (
                 'tag_id' => 164,
                 'movie_id' => 329,
@@ -1305,7 +1297,7 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            161 => 
+            160 => 
             array (
                 'tag_id' => 165,
                 'movie_id' => 56,
@@ -1313,11 +1305,27 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            162 => 
+            161 => 
             array (
                 'tag_id' => 166,
                 'movie_id' => 706,
                 'keyword_id' => 4,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            162 => 
+            array (
+                'tag_id' => 167,
+                'movie_id' => 583,
+                'keyword_id' => 2,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            163 => 
+            array (
+                'tag_id' => 168,
+                'movie_id' => 743,
+                'keyword_id' => 6,
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
