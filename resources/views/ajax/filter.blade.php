@@ -43,7 +43,7 @@
 
       @if(count($tags))
          <div class="col-xs-12">
-            <h4>By Tag ({{count($tags)}})</h4>
+            <h4>Tag results for '{{$quote}}' ({{count($tags)}})</h4>
             <ul  id="movie-filter-results" class="xs-block-grid-3 sm-block-grid-6 md-block-grid-8 lg-block-grid-8">
                @foreach($tags as $movie)
                   <li class="image-thumbnail text-center">

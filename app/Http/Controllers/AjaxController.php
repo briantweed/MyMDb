@@ -50,7 +50,7 @@ class AjaxController extends Controller
                   ->orderBy('forename')
                   ->get();
 
-         $tags = Movies::where('keywords.word', 'LIKE', '%'.$search_string.'%')
+         $tags = Movies::where('keywords.word', $search_string)
                ->join('tags', 'movies.movie_id', '=', 'tags.movie_id')
                ->join('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id')
                ->orderBy('sort_name')
