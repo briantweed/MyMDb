@@ -27,7 +27,7 @@
 
       @if(count($movies))
          <div class="col-xs-12">
-            <h4>Movies ({{count($movies)}})</h4>
+            <h4>Movies results for '{{$quote}}' ({{count($movies)}})</h4>
             <ul  id="movie-filter-results" class="xs-block-grid-3 sm-block-grid-6 md-block-grid-8 lg-block-grid-8">
                @foreach($movies as $movie)
                   <li class="image-thumbnail text-center">
@@ -59,7 +59,7 @@
 
       @if(count($people))
          <div class="col-xs-12">
-            <h4>People ({{count($people)}})</h4>
+            <h4>People results for '{{$quote}}' ({{count($people)}})</h4>
             <ul id="people-filter-results"class="xs-block-grid-3 sm-block-grid-6 md-block-grid-8 lg-block-grid-8">
                @foreach($people as $person)
                   <li class="image-thumbnail text-center">
