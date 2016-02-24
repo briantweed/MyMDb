@@ -20,10 +20,9 @@
 
 {{-- Main Body --}}
 @section('content')
-@include('segments.layout.padding')
 
 <div class="row">
-   
+
    @if(count($movies) || count($people) || count($tags))
 
       @if(count($movies))

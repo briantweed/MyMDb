@@ -29,11 +29,23 @@ class AjaxController extends Controller
    {
       $data = Request::all();
       $search_string = trim($data['filter-movie-text']);
+      $type = trim($data['filter-movie-by']);
       if($search_string!="")
       {
-         $movies = Movies::where('name', 'LIKE', '%'.$search_string.'%')
-                  ->orderBy('sort_name')
-                  ->get();
+         $query = Movies::select('movies.*');
+         switch($type)
+         {
+            case "all":
+               $query->where('name', 'LIKE', '%'.$search_string.'%');
+            break;
+
+            case "year":
+               $query->where('released', $search_string);
+            break;
+         }
+         $query->orderBy('sort_name');
+         $movies = $query->get();
+
          $people = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
                   ->orderBy('forename')
                   ->get();

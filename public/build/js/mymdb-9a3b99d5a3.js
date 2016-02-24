@@ -469,9 +469,11 @@ $(document).ready(function() {
 });
 
 // Movie search filter
-function startFilter() {
+function startFilter(type, val) {
+   if(val!="") $('#filter-movie').val(val);
    if($('#filter-movie').val().length!=0)
    {
+      $('#filter-movie-by').val(type);
       $('#filter-movie-start').html('<i class="ft icon-loading spin"></i>');
       $('#filter-movie-form').submit();
    }

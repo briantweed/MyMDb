@@ -1,6 +1,7 @@
 {!! Form::open(['url'=>'filter', 'id'=>'filter-movie-form']) !!}
 <div class="input-group">
-      <input class="form-control" id="filter-movie" name="filter-movie-text" type="text" autocomplete="off" placeholder="Search ...">
+      <input class="form-control" id="filter-movie" name="filter-movie-text" type="text" autocomplete="off" placeholder="Search ..." />
+      <input id="filter-movie-by" name="filter-movie-by" type="hidden"/>
       <span class="input-group-btn">
          <button class="btn btn-info" type="button" id="filter-movie-start" onclick="startFilter('all','')">Go</button>
          <button id="filter-movie-options" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" class="btn btn-info dropdown-toggle" type="button">
