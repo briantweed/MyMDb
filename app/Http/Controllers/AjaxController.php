@@ -36,6 +36,7 @@ class AjaxController extends Controller
          switch($type)
          {
             case "all":
+            default:
                $query->where('name', 'LIKE', '%'.$search_string.'%');
             break;
 
@@ -50,14 +51,14 @@ class AjaxController extends Controller
                   ->orderBy('forename')
                   ->get();
 
-         $tags = Movies::where('keywords.word', $search_string)
+         $tags = Movies::where('keywords.word', 'LIKE', '%'.$search_string.'%')
                ->join('tags', 'movies.movie_id', '=', 'tags.movie_id')
                ->join('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id')
                ->orderBy('sort_name')
                ->get();
 
          $user = $this->isAdmin;
-         $quote = count($movies) ? $search_string : $this->getRandomQuote();
+         $quote = count($movies) ? "" : $this->getRandomQuote();
 
          return view('ajax.filter', compact('movies', 'people', 'tags', 'quote', 'user'));
       }
