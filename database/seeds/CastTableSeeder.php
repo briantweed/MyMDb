@@ -53489,56 +53489,6 @@ class CastTableSeeder extends Seeder
             ),
             345 => 
             array (
-                'cast_id' => 6001,
-                'movie_id' => 741,
-                'person_id' => 354,
-                'character' => 'Argomael',
-                'star' => 0,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            346 => 
-            array (
-                'cast_id' => 6002,
-                'movie_id' => 741,
-                'person_id' => 587,
-                'character' => 'Ramusan',
-                'star' => 0,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            347 => 
-            array (
-                'cast_id' => 6003,
-                'movie_id' => 741,
-                'person_id' => 46,
-                'character' => 'Horus',
-                'star' => 0,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            348 => 
-            array (
-                'cast_id' => 6004,
-                'movie_id' => 741,
-                'person_id' => 136,
-                'character' => 'Talus',
-                'star' => 0,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            349 => 
-            array (
-                'cast_id' => 6005,
-                'movie_id' => 741,
-                'person_id' => 670,
-                'character' => 'The Sorceress',
-                'star' => 0,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
-            ),
-            350 => 
-            array (
                 'cast_id' => 6006,
                 'movie_id' => 56,
                 'person_id' => 243,
@@ -53547,7 +53497,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            351 => 
+            346 => 
             array (
                 'cast_id' => 6007,
                 'movie_id' => 56,
@@ -53557,7 +53507,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            352 => 
+            347 => 
             array (
                 'cast_id' => 6008,
                 'movie_id' => 56,
@@ -53567,7 +53517,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            353 => 
+            348 => 
             array (
                 'cast_id' => 6010,
                 'movie_id' => 56,
@@ -53577,7 +53527,7 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
-            354 => 
+            349 => 
             array (
                 'cast_id' => 6011,
                 'movie_id' => 56,

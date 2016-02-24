@@ -10,15 +10,15 @@
 
    <div class="row">
       <div class="col-xs-2">
-         <div style="position:fixed">
-            @include('segments.links.genres')<br/>
-            @include('segments.links.studios')<br/>
-            @include('segments.links.keywords')<br/>
-            @include('segments.links.viewings')<br/>
-            @include('segments.links.quotes')<br/><hr/>
-            @include('segments.links.add_movie')<br/>
-            @include('segments.links.add_person')<br/><hr/>
-            @include('segments.links.seed')<br/><hr/>
+         <div class="admin-side-links">
+            @include('segments.links.genres')
+            @include('segments.links.studios')
+            @include('segments.links.keywords')
+            @include('segments.links.viewings')
+            @include('segments.links.quotes')<hr/>
+            @include('segments.links.add_movie')
+            @include('segments.links.add_person')<hr/>
+            @include('segments.links.seed')<hr/>
             @include('segments.links.logout')
          </div>
       </div>

@@ -6777,15 +6777,23 @@ i.main_actor, i.main_star {
   color: #3DB5DB;
   cursor: pointer; }
 
+.admin-side-links a {
+  display: block;
+  margin: 0.75em 0; }
+
 @media (min-width: 768px) and (max-width: 991px) {
   #left-hand-column {
     position: fixed;
-    width: 188px; } }
+    width: 188px; }
+  .admin-side-links {
+    position: fixed; } }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   #left-hand-column {
     position: fixed;
-    width: 242px; } }
+    width: 242px; }
+  .admin-side-links {
+    position: fixed; } }
 
 /*
 |----------------------------------------------------------------------

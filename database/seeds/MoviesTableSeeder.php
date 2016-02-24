@@ -6710,7 +6710,7 @@ Yippee Kayaye Maggot Farmer!',
             352 => 
             array (
                 'movie_id' => 357,
-                'name' => 'Matrix Revolutions ',
+                'name' => 'The Matrix Revolutions ',
                 'sort_name' => 'Matrix 3',
                 'imdb_id' => 'tt0242653',
                 'released' => 2003,
@@ -13457,7 +13457,7 @@ Yippee Kayaye Maggot Farmer!',
             207 => 
             array (
                 'movie_id' => 715,
-                'name' => 'Maze Runner: The Scorch Trials',
+                'name' => 'The Maze Runner: The Scorch Trials',
                 'sort_name' => 'maze runner 2',
                 'imdb_id' => 'tt4046784',
                 'released' => 2015,
@@ -13947,25 +13947,6 @@ Yippee Kayaye Maggot Farmer!',
                 'purchased' => '0000-00-00 00:00:00',
                 'created_at' => '2016-02-22 12:34:25',
                 'updated_at' => '2016-02-22 12:34:35',
-            ),
-            233 => 
-            array (
-                'movie_id' => 741,
-                'name' => 'The Scorpion King: Battle for Redemption',
-                'sort_name' => 'Scorpion King 3',
-                'imdb_id' => 'tt1781896',
-                'released' => 2012,
-                'rating' => 2,
-                'running_time' => 106,
-                'image' => 'The_Scorpion_King_3__Battle_for_Redemption_1456144633.jpg',
-                'certificate_id' => 4,
-                'format_id' => 1,
-                'studio_id' => 18,
-                'duplicate' => 0,
-                'bio' => 'Mathayus\'s sorceress-queen is killed by a pest which ravaged his kingdom until it fell. Feeling guilty and a failure, the Akkadian resumed the life of mercenary. He\'s hired by Horus, king of the now dominant Near eastern kingdom, to help out defend the palace of Hindu king Ramusan, guardian of the Book of the Death, the last ally barring the bid for Hrus\'s throne by his rogue brother Talus, whose raids in the Far East yielded the largest army ever. Mathuyas is instructed to team up with simpleton Teutonic giant Olaf. Ramusan can\'t pay them the promised gold, but offers the hand of his daughter Silda, whose portrait shows a priceless medallion. Their fight is complicated by the mysterious Cobra, hired by Talus, who captured the princess, so they pair pretends to enter Talus\'s service, but finds out about an even more devious deception, while Talus captures the book and thus is able to conjure the warrior ghosts.',
-                'purchased' => '2015-01-01 00:00:00',
-                'created_at' => '2016-02-22 12:37:14',
-                'updated_at' => '2016-02-22 12:37:27',
             ),
         ));
         
