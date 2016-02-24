@@ -18777,6 +18777,22 @@ class CategoriesTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            344 => 
+            array (
+                'category_id' => 2346,
+                'movie_id' => 745,
+                'genre_id' => 3,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            345 => 
+            array (
+                'category_id' => 2347,
+                'movie_id' => 745,
+                'genre_id' => 13,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

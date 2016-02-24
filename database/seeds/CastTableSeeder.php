@@ -53657,6 +53657,106 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            362 => 
+            array (
+                'cast_id' => 6027,
+                'movie_id' => 744,
+                'person_id' => 12,
+                'character' => 'Elwin \'Bix\' Bixby',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            363 => 
+            array (
+                'cast_id' => 6028,
+                'movie_id' => 744,
+                'person_id' => 686,
+                'character' => 'Eve Dillon',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            364 => 
+            array (
+                'cast_id' => 6029,
+                'movie_id' => 744,
+                'person_id' => 2111,
+                'character' => 'Jan Wilson',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            365 => 
+            array (
+                'cast_id' => 6030,
+                'movie_id' => 744,
+                'person_id' => 2112,
+                'character' => 'Tom Fletcher',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            366 => 
+            array (
+                'cast_id' => 6031,
+                'movie_id' => 744,
+                'person_id' => 2113,
+                'character' => 'Hal Courtland',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            367 => 
+            array (
+                'cast_id' => 6032,
+                'movie_id' => 745,
+                'person_id' => 620,
+                'character' => 'Venger',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            368 => 
+            array (
+                'cast_id' => 6033,
+                'movie_id' => 745,
+                'person_id' => 2114,
+                'character' => 'Hank the Ranger',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            369 => 
+            array (
+                'cast_id' => 6034,
+                'movie_id' => 745,
+                'person_id' => 2115,
+                'character' => 'Eric the Cavalier',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            370 => 
+            array (
+                'cast_id' => 6035,
+                'movie_id' => 745,
+                'person_id' => 2116,
+                'character' => 'Sheila the Thief',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            371 => 
+            array (
+                'cast_id' => 6036,
+                'movie_id' => 745,
+                'person_id' => 2117,
+                'character' => 'Presto the Magician',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         
