@@ -69,7 +69,9 @@
          </div>
 
          <div class="row">
-            <div class="col-xs-12"><p>{!! $person->bio !!} <a href="http://www.imdb.com/name/{{$person->imdb_id}}/bio" target="_blank">view full bio on IMDb</a></p></div>
+            <div class="col-xs-12">
+               <p>{!! $person->bio !!} </p>
+            </div>
          </div>
 
          @if(count($person->roles)!==0)
