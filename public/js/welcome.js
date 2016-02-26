@@ -14,7 +14,7 @@ var runRating = true,
     runFormat = true;
 
 $(document).resize(function(event) {
-   $('#actor-slidee, #director-slidee').sly('reload');
+   $('#actor-slidee, #director-slidee, #birthday-slidee').sly('reload');
 });
 
 $(document).scroll(function(){
@@ -113,11 +113,8 @@ $(document).ready(function() {
 });
 
 function displayCharts() {
-   if( $('#ratingChart').onScreen() ) displayMoviesByRating();
-   if( $('#yearChart').onScreen() )   displayMoviesByDecade();
-   if( $('#formatChart').onScreen() ) displayMoviesByFormat();
    displayMoviesByCertificate();
-   if( $('#genreChart').onScreen() ) displayMoviesByGenre();
+   if( $('#yearChart').onScreen() )   displayMoviesByDecade();
 }
 
 function displayMoviesByDecade() {

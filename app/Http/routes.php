@@ -10,8 +10,8 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 	// LANDING PAGE
 	Route::get('/', 'WelcomeController@index');
 
-	// CHARTS PAGE
-	Route::get('charts', 'ChartController@index');
+	// STATS PAGE
+	Route::get('charts', 'StatsController@index');
 
 	// Search PAGE
 	Route::get('search', 'SearchController@index');

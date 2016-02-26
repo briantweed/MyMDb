@@ -7,7 +7,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ValidateCreateMovie;
 
-class ChartController extends Controller {
+class StatsController extends Controller {
 
 	use SharedFunctions, AdminChecks;
 
@@ -27,7 +27,7 @@ class ChartController extends Controller {
 
 		$user = $this->isAdmin;
 
-		return view('charts', compact('details', 'user'));
+		return view('stats.index', compact('details', 'user'));
 	}
 
 

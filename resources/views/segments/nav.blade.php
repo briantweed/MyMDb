@@ -28,7 +28,7 @@
                </a>
             </li>
             <li class="{{Request::is('charts*') ? 'people-active' : 'people-normal'}}">
-               <a href="{{ action('ChartController@index') }}">
+               <a href="{{ action('StatsController@index') }}">
                   <i style="font-size:1.5em" class="ft icon-comm"></i>
                   <span> Stats</span>
                </a>
