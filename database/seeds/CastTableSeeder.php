@@ -53757,6 +53757,676 @@ class CastTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            372 => 
+            array (
+                'cast_id' => 6037,
+                'movie_id' => 746,
+                'person_id' => 1060,
+                'character' => 'Det. James \'Jimmy\' McNulty',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            373 => 
+            array (
+                'cast_id' => 6038,
+                'movie_id' => 746,
+                'person_id' => 1257,
+                'character' => 'Det. William \'Bunk\' Moreland',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            374 => 
+            array (
+                'cast_id' => 6039,
+                'movie_id' => 746,
+                'person_id' => 1525,
+                'character' => 'Sgt. Ellis Carver',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            375 => 
+            array (
+                'cast_id' => 6042,
+                'movie_id' => 746,
+                'person_id' => 277,
+                'character' => 'Wallace',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            376 => 
+            array (
+                'cast_id' => 6044,
+                'movie_id' => 746,
+                'person_id' => 2062,
+                'character' => 'Homeless Man',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            377 => 
+            array (
+                'cast_id' => 6045,
+                'movie_id' => 746,
+                'person_id' => 2118,
+                'character' => 'Stringer Bell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            378 => 
+            array (
+                'cast_id' => 6046,
+                'movie_id' => 746,
+                'person_id' => 2119,
+                'character' => 'Det Lester Freamon',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            379 => 
+            array (
+                'cast_id' => 6047,
+                'movie_id' => 746,
+                'person_id' => 2120,
+                'character' => 'Det Thomas Herc Hauk',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            380 => 
+            array (
+                'cast_id' => 6048,
+                'movie_id' => 746,
+                'person_id' => 2121,
+                'character' => 'Det Shakima Kima Greggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            381 => 
+            array (
+                'cast_id' => 6049,
+                'movie_id' => 746,
+                'person_id' => 2122,
+                'character' => 'Omar Little',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            382 => 
+            array (
+                'cast_id' => 6050,
+                'movie_id' => 746,
+                'person_id' => 2123,
+                'character' => 'Lt Cedric Daniels',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            383 => 
+            array (
+                'cast_id' => 6051,
+                'movie_id' => 746,
+                'person_id' => 2124,
+                'character' => 'Bubbles',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            384 => 
+            array (
+                'cast_id' => 6052,
+                'movie_id' => 746,
+                'person_id' => 2125,
+                'character' => 'Avon Barksdale',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            385 => 
+            array (
+                'cast_id' => 6053,
+                'movie_id' => 746,
+                'person_id' => 2126,
+                'character' => 'DAngelo Barksdale',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            386 => 
+            array (
+                'cast_id' => 6054,
+                'movie_id' => 747,
+                'person_id' => 2124,
+                'character' => 'Bubbles',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            387 => 
+            array (
+                'cast_id' => 6055,
+                'movie_id' => 747,
+                'person_id' => 2119,
+                'character' => 'Det Lester Freamon',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            388 => 
+            array (
+                'cast_id' => 6056,
+                'movie_id' => 747,
+                'person_id' => 2120,
+                'character' => 'Det Thomas Herc Hauk',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            389 => 
+            array (
+                'cast_id' => 6057,
+                'movie_id' => 747,
+                'person_id' => 1060,
+                'character' => 'Det. James \'Jimmy\' McNulty',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            390 => 
+            array (
+                'cast_id' => 6058,
+                'movie_id' => 747,
+                'person_id' => 2118,
+                'character' => 'Stringer Bell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            391 => 
+            array (
+                'cast_id' => 6059,
+                'movie_id' => 747,
+                'person_id' => 2123,
+                'character' => 'Lt Cedric Daniels',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            392 => 
+            array (
+                'cast_id' => 6060,
+                'movie_id' => 747,
+                'person_id' => 2126,
+                'character' => 'DAngelo Barksdale',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            393 => 
+            array (
+                'cast_id' => 6061,
+                'movie_id' => 747,
+                'person_id' => 277,
+                'character' => 'Wallace',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            394 => 
+            array (
+                'cast_id' => 6062,
+                'movie_id' => 747,
+                'person_id' => 2062,
+                'character' => 'Homeless Man',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            395 => 
+            array (
+                'cast_id' => 6063,
+                'movie_id' => 747,
+                'person_id' => 2122,
+                'character' => 'Omar Little',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            396 => 
+            array (
+                'cast_id' => 6064,
+                'movie_id' => 747,
+                'person_id' => 1525,
+                'character' => 'Sgt. Ellis Carver',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            397 => 
+            array (
+                'cast_id' => 6065,
+                'movie_id' => 747,
+                'person_id' => 2121,
+                'character' => 'Det Shakima Kima Greggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            398 => 
+            array (
+                'cast_id' => 6066,
+                'movie_id' => 747,
+                'person_id' => 1257,
+                'character' => 'Det. William \'Bunk\' Moreland',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            399 => 
+            array (
+                'cast_id' => 6067,
+                'movie_id' => 747,
+                'person_id' => 2125,
+                'character' => 'Avon Barksdale',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            400 => 
+            array (
+                'cast_id' => 6068,
+                'movie_id' => 748,
+                'person_id' => 2124,
+                'character' => 'Bubbles',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            401 => 
+            array (
+                'cast_id' => 6069,
+                'movie_id' => 748,
+                'person_id' => 2119,
+                'character' => 'Det Lester Freamon',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            402 => 
+            array (
+                'cast_id' => 6070,
+                'movie_id' => 748,
+                'person_id' => 2120,
+                'character' => 'Det Thomas Herc Hauk',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            403 => 
+            array (
+                'cast_id' => 6071,
+                'movie_id' => 748,
+                'person_id' => 1060,
+                'character' => 'Det. James \'Jimmy\' McNulty',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            404 => 
+            array (
+                'cast_id' => 6072,
+                'movie_id' => 748,
+                'person_id' => 2118,
+                'character' => 'Stringer Bell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            405 => 
+            array (
+                'cast_id' => 6073,
+                'movie_id' => 748,
+                'person_id' => 2123,
+                'character' => 'Lt Cedric Daniels',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            406 => 
+            array (
+                'cast_id' => 6075,
+                'movie_id' => 748,
+                'person_id' => 277,
+                'character' => 'Wallace',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            407 => 
+            array (
+                'cast_id' => 6077,
+                'movie_id' => 748,
+                'person_id' => 2122,
+                'character' => 'Omar Little',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            408 => 
+            array (
+                'cast_id' => 6078,
+                'movie_id' => 748,
+                'person_id' => 1525,
+                'character' => 'Sgt. Ellis Carver',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            409 => 
+            array (
+                'cast_id' => 6079,
+                'movie_id' => 748,
+                'person_id' => 2121,
+                'character' => 'Det Shakima Kima Greggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            410 => 
+            array (
+                'cast_id' => 6080,
+                'movie_id' => 748,
+                'person_id' => 1257,
+                'character' => 'Det. William \'Bunk\' Moreland',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            411 => 
+            array (
+                'cast_id' => 6081,
+                'movie_id' => 748,
+                'person_id' => 2125,
+                'character' => 'Avon Barksdale',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            412 => 
+            array (
+                'cast_id' => 6082,
+                'movie_id' => 748,
+                'person_id' => 1014,
+                'character' => 'Tommy Carcetti',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            413 => 
+            array (
+                'cast_id' => 6085,
+                'movie_id' => 749,
+                'person_id' => 1014,
+                'character' => 'Tommy Carcetti',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            414 => 
+            array (
+                'cast_id' => 6086,
+                'movie_id' => 749,
+                'person_id' => 2124,
+                'character' => 'Bubbles',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            415 => 
+            array (
+                'cast_id' => 6087,
+                'movie_id' => 749,
+                'person_id' => 2119,
+                'character' => 'Det Lester Freamon',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            416 => 
+            array (
+                'cast_id' => 6088,
+                'movie_id' => 749,
+                'person_id' => 2120,
+                'character' => 'Det Thomas Herc Hauk',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            417 => 
+            array (
+                'cast_id' => 6089,
+                'movie_id' => 749,
+                'person_id' => 1060,
+                'character' => 'Det. James \'Jimmy\' McNulty',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            418 => 
+            array (
+                'cast_id' => 6090,
+                'movie_id' => 749,
+                'person_id' => 2118,
+                'character' => 'Stringer Bell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            419 => 
+            array (
+                'cast_id' => 6091,
+                'movie_id' => 749,
+                'person_id' => 2123,
+                'character' => 'Lt Cedric Daniels',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            420 => 
+            array (
+                'cast_id' => 6092,
+                'movie_id' => 749,
+                'person_id' => 277,
+                'character' => 'Wallace',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            421 => 
+            array (
+                'cast_id' => 6093,
+                'movie_id' => 749,
+                'person_id' => 2122,
+                'character' => 'Omar Little',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            422 => 
+            array (
+                'cast_id' => 6094,
+                'movie_id' => 749,
+                'person_id' => 1525,
+                'character' => 'Sgt. Ellis Carver',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            423 => 
+            array (
+                'cast_id' => 6095,
+                'movie_id' => 749,
+                'person_id' => 2121,
+                'character' => 'Det Shakima Kima Greggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            424 => 
+            array (
+                'cast_id' => 6096,
+                'movie_id' => 749,
+                'person_id' => 1257,
+                'character' => 'Det. William \'Bunk\' Moreland',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            425 => 
+            array (
+                'cast_id' => 6097,
+                'movie_id' => 749,
+                'person_id' => 2125,
+                'character' => 'Avon Barksdale',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            426 => 
+            array (
+                'cast_id' => 6098,
+                'movie_id' => 750,
+                'person_id' => 1014,
+                'character' => 'Tommy Carcetti',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            427 => 
+            array (
+                'cast_id' => 6099,
+                'movie_id' => 750,
+                'person_id' => 2124,
+                'character' => 'Bubbles',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            428 => 
+            array (
+                'cast_id' => 6100,
+                'movie_id' => 750,
+                'person_id' => 2119,
+                'character' => 'Det Lester Freamon',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            429 => 
+            array (
+                'cast_id' => 6101,
+                'movie_id' => 750,
+                'person_id' => 2120,
+                'character' => 'Det Thomas Herc Hauk',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            430 => 
+            array (
+                'cast_id' => 6102,
+                'movie_id' => 750,
+                'person_id' => 1060,
+                'character' => 'Det. James \'Jimmy\' McNulty',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            431 => 
+            array (
+                'cast_id' => 6103,
+                'movie_id' => 750,
+                'person_id' => 2118,
+                'character' => 'Stringer Bell',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            432 => 
+            array (
+                'cast_id' => 6104,
+                'movie_id' => 750,
+                'person_id' => 2123,
+                'character' => 'Lt Cedric Daniels',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            433 => 
+            array (
+                'cast_id' => 6105,
+                'movie_id' => 750,
+                'person_id' => 277,
+                'character' => 'Wallace',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            434 => 
+            array (
+                'cast_id' => 6106,
+                'movie_id' => 750,
+                'person_id' => 2122,
+                'character' => 'Omar Little',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            435 => 
+            array (
+                'cast_id' => 6107,
+                'movie_id' => 750,
+                'person_id' => 1525,
+                'character' => 'Sgt. Ellis Carver',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            436 => 
+            array (
+                'cast_id' => 6108,
+                'movie_id' => 750,
+                'person_id' => 2121,
+                'character' => 'Det Shakima Kima Greggs',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            437 => 
+            array (
+                'cast_id' => 6109,
+                'movie_id' => 750,
+                'person_id' => 1257,
+                'character' => 'Det. William \'Bunk\' Moreland',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            438 => 
+            array (
+                'cast_id' => 6110,
+                'movie_id' => 750,
+                'person_id' => 2125,
+                'character' => 'Avon Barksdale',
+                'star' => 0,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

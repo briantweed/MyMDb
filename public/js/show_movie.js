@@ -8,7 +8,7 @@ function storeMovieViewing() {
       }
    }).done(function(html){
       $('.modal').modal('hide');
-      $('.main-content').prepend(html);
+      $('.viewing-message').html(html);
       $('html, body').animate({scrollTop: 0});
    });
 }
