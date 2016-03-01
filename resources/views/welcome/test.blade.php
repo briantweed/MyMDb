@@ -70,6 +70,7 @@
       div.icon-div.front {
          animation: spin 2.5s infinite linear 1s;
          backface-visibility: hidden;
+         -webkit-backface-visibility: hidden;
          position: absolute;
       }
 
@@ -77,6 +78,7 @@
          transform: rotateY(180deg);
          animation: backspin 2.5s infinite linear 1s;
          backface-visibility: hidden;
+         -webkit-backface-visibility: hidden;
       }
 
       @keyframes spin {
