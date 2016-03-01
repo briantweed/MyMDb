@@ -19,20 +19,23 @@
          font-family: Veneer !important;
          border:none !important;
          font-size: 10em;
-         text-shadow: 1px 1px 4px #666;
+         line-height: 0.9;
+         margin-bottom: 0;
+         text-shadow: -2px 2px 4px #000;
       }
 
       h2{
          font-family: Coves !important;
          border:none !important;
          font-size: 4em;
-         margin: -30px 0 20px;
+         margin: 0px 0 20px;
+         text-shadow: -2px 2px 4px #000;
       }
 
       h3{
-         font-family: Verdana !important;
+         font-family: Moon !important;
          border:none !important;
-         font-size: 1.5em;
+         font-size: 2em;
          font-weight: bold;
       }
 
@@ -42,7 +45,7 @@
          line-height: 2;
       }
 
-      div.title-section { background: #211616;}
+      div.title-section { background: #4b545e; background-image: url('/images/diamond-bg.png')}
 
       div.flex-div {
          font-size: 100%;
@@ -52,10 +55,10 @@
          transform: rotateZ(45deg);
          width: 140px;
          height: 140px;
-         background: #678aab;
+         background: #a29e37;
          border-radius: .5em;
          color: #fafafa;
-         box-shadow: 0 0 0 .3em #211616, 0 0 0 .6em #477cad;
+         box-shadow: 0 0 0 .3em #4b545e, 0 0 0 .6em #a29e37;
          margin: 4em;
       }
 
@@ -90,7 +93,7 @@
 
    <div class="row">
       <div class="col-xs-12">
-
+         <br/><br/><br/>
       </div>
    </div>
 </div>
@@ -129,11 +132,27 @@
                id tristique. Phasellus est augue, posuere a gravida eu, pretium vel dolor. Cras maximus aliquet turpis,
                in tempor tortor cursus vel. Quisque feugiat at nibh sed elementum. Sed elementum dolor id nibh convallis
                fermentum. Vestibulum vel quam suscipit est semper tincidunt. Nullam fermentum sagittis ipsum ac finibus.
-               Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+               Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            </p>
          </div>
       </div>
    </div>
 </div>
+<br/>
+<div class="work-section">
+   <div class="container">
+      <div class="row">
+         <div class="col-xs-12">
+            <h3>Work Experience</h3>
+
+         </div>
+      </div>
+   </div>
+</div>
+
+
+
+
 
 @stop
 

@@ -28,3 +28,9 @@
 	font-weight: 400;
 	src: url('../../font/Veneer.ttf');
 }
+@font-face {
+	font-family: 'Moon';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../font/Moon.otf');
+}
