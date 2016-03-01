@@ -22,3 +22,9 @@
 	font-weight: 400;
 	src: url('../../font/Coves.otf');
 }
+@font-face {
+	font-family: 'Veneer';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../font/Veneer.ttf');
+}
