@@ -1337,6 +1337,46 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '0000-00-00 00:00:00',
                 'updated_at' => '0000-00-00 00:00:00',
             ),
+            165 => 
+            array (
+                'tag_id' => 170,
+                'movie_id' => 750,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            166 => 
+            array (
+                'tag_id' => 171,
+                'movie_id' => 746,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            167 => 
+            array (
+                'tag_id' => 172,
+                'movie_id' => 747,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            168 => 
+            array (
+                'tag_id' => 173,
+                'movie_id' => 748,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
+            169 => 
+            array (
+                'tag_id' => 174,
+                'movie_id' => 749,
+                'keyword_id' => 6,
+                'created_at' => '0000-00-00 00:00:00',
+                'updated_at' => '0000-00-00 00:00:00',
+            ),
         ));
         
         

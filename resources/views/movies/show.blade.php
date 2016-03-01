@@ -53,11 +53,7 @@
       {{-- right column --}}
       <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-1 col-lg-8">
 
-         @if (session('status'))
-             <div class="alert alert-success">
-                 {{ session('status') }}
-             </div>
-         @endif
+        <div class="viewing-message"></div>
 
          <h1>{{$movie->name}}<br/></h1>
 
