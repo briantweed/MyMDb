@@ -33,6 +33,8 @@
          @endif
          <div id="admin-details">
             @include('segments.layout.padding')
+            <a href="{{ action('TestController@index') }}"><i class="ft ft-2x icon-actor"></i> Test Page</a>
+            @include('segments.layout.padding')
             <div class="row">
                <div class="col-xs-5"><b>Total movies in collection :</b></div>
                <div class="col-xs-7"><span class="add-commas">{{$data->movie_total}}</span></div>

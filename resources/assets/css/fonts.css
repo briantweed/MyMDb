@@ -16,3 +16,21 @@
 	font-weight: 400;
 	src: url('../../font/Philosopher-Bold.ttf');
 }
+@font-face {
+	font-family: 'Coves';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../font/Coves.otf');
+}
+@font-face {
+	font-family: 'Veneer';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../font/Veneer.ttf');
+}
+@font-face {
+	font-family: 'Moon';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../font/Moon.otf');
+}

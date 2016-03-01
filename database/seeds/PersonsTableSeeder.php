@@ -11139,12 +11139,12 @@ He debuted on screen in the low budget Hercules in New York (1970), but it was {
                 'forename' => 'George',
                 'surname' => 'Kennedy',
                 'birthday' => '1925-02-18',
-                'deceased' => NULL,
+                'deceased' => '2016-02-29',
                 'imdb_id' => 'nm0001421',
                 'image' => 'George_Kennedy_1453992898.jpg',
             'bio' => 'Sandy-haired, tall and burly George Harris Kennedy, Jr. was born in New York City, to Helen A. (Kieselbach), a ballet dancer, and George Harris Kennedy, an orchestra leader and musician. He has German, Irish, and English ancestry. A World War II veteran, Kennedy at one stage in his career cornered the market at playing tough, no-nonsense characters who were either quite crooked or possessed hearts of gold. Kennedy has notched up an impressive 200+ appearances in both TV and film, and is well respected within the Hollywood community. He started out in TV westerns in the late 1950s and early 1960s (Have Gun - Will Travel (1957), Rawhide (1959), Maverick (1957), Colt .45 (1957), among others) before scoring minor roles in films including Lonely Are the Brave (1962), The Sons of Katie Elder (1965) and The Flight of the Phoenix (1965). The late 1960s was a very busy period for Kennedy, and he was strongly in favor with casting agents, appearing in Hurry Sundown (1967), The Dirty Dozen (1967 ....',
                 'created_at' => '2016-01-28 14:54:58',
-                'updated_at' => '2016-02-23 09:36:57',
+                'updated_at' => '2016-03-01 12:05:09',
             ),
             349 => 
             array (

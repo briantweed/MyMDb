@@ -7,70 +7,73 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 		'password' => 'Auth\PasswordController',
 	]);
 
+	// CV TEST PAGE
+	Route::get('test', 'TestController@index');
+
 	// LANDING PAGE
 	Route::get('/', 'WelcomeController@index');
 
 	// STATS PAGE
 	Route::get('charts', 'StatsController@index');
 
-	// Search PAGE
+	// SEARCH PAGE
 	Route::get('search', 'SearchController@index');
 
 	// API CALLS
+	Route::post('searchForMovie', 'ApiController@searchForMovie');
 	Route::post('getCastFromIMDb', 'ApiController@getCastFromIMDb');
 	Route::post('createImdbActor', 'ApiController@createImdbActor');
-	Route::post('searchForMovie', 'ApiController@searchForMovie');
 
 	// AJAX QUERIES
-	Route::post('aviary', 'AviaryController@replaceImage');
 	Route::get('filter', 'AjaxController@index');
 	Route::post('filter', 'AjaxController@filterMovies');
+	Route::post('aviary', 'AviaryController@replaceImage');
+	Route::post('movieYearCount', 'AjaxController@movieYearCount');
 	Route::post('getCastDetails', 'AjaxController@getCastDetails');
+	Route::post('movieGenreCount', 'AjaxController@movieGenreCount');
 	Route::post('movieFormatCount', 'AjaxController@movieFormatCount');
 	Route::post('movieRatingCount', 'AjaxController@movieRatingCount');
-	Route::post('movieCertificateCount', 'AjaxController@movieCertificateCount');
-	Route::post('movieGenreCount', 'AjaxController@movieGenreCount');
-	Route::post('movieYearCount', 'AjaxController@movieYearCount');
 	Route::post('movieDecadeCount', 'AjaxController@movieDecadeCount');
+	Route::post('movieCertificateCount', 'AjaxController@movieCertificateCount');
 
 	// MOVIES
 	Route::post('addtag', 'MovieController@addNewTag');
 	Route::post('addNewCast', 'MovieController@addCastMember');
-	Route::post('editCastMember', 'MovieController@editCastMember');
 	Route::post('addNewCrew', 'MovieController@addCrewMember');
 	Route::post('removeCast', 'MovieController@removeCastMember');
 	Route::post('removeCrew', 'MovieController@removeCrewMember');
-	Route::post('confirmDuplicateCast', 'MovieController@confirmDuplicateCast');
 	Route::post('duplicateCast', 'MovieController@duplicateCast');
+	Route::post('editCastMember', 'MovieController@editCastMember');
+	Route::post('confirmDuplicateCast', 'MovieController@confirmDuplicateCast');
 	Route::resource('movies', 'MovieController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 
 	// PERSONS
-	Route::post('addNewPerson', 'PersonController@addNewPerson');
-	Route::post('createNewPerson', 'PersonController@createNewPerson');
-	Route::post('addNewRole', 'PersonController@addNewRole');
 	Route::post('editRole', 'PersonController@editRole');
+	Route::post('addNewRole', 'PersonController@addNewRole');
+	Route::post('addNewPerson', 'PersonController@addNewPerson');
 	Route::post('removeRole', 'PersonController@removeMovieRole');
-	Route::post('createPosition', 'PersonController@createPersonPosition');
 	Route::post('editPosition', 'PersonController@editPersonPosition');
+	Route::post('createNewPerson', 'PersonController@createNewPerson');
+	Route::post('createPosition', 'PersonController@createPersonPosition');
 	Route::post('removePosition', 'PersonController@destroyPersonPosition');
 	Route::resource('people', 'PersonController', ['only'=>['index','show','create','store','edit','update','destroy']]);
 
 	// GENRES
-	Route::post('createNewGenre', 'GenreController@createNewGenre');
 	Route::post('storeNewGenre', 'GenreController@storeNewGenre');
+	Route::post('createNewGenre', 'GenreController@createNewGenre');
 
 	// VIEWINGS
-	Route::post('createMovieViewing', 'ViewingController@createMovieViewing');
 	Route::post('storeMovieViewing', 'ViewingController@storeMovieViewing');
+	Route::post('createMovieViewing', 'ViewingController@createMovieViewing');
 
 	// ADMIN
 	Route::group(['prefix' => 'admin'], function () {
 		Route::get('/', 'AdminController@index');
-		Route::post('/viewings', 'ViewingController@index');
+		Route::post('/quotes', 'QuoteController@index');
 		Route::post('/genres', 'GenreController@index');
 		Route::post('/studios', 'StudioController@index');
 		Route::post('/keywords', 'KeywordController@index');
-		Route::post('/quotes', 'QuoteController@index');
+		Route::post('/viewings', 'ViewingController@index');
 	});
 
 	// SEED CREATOR
