@@ -16,3 +16,9 @@
 	font-weight: 400;
 	src: url('../../font/Philosopher-Bold.ttf');
 }
+@font-face {
+	font-family: 'Coves';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../font/Coves.otf');
+}
