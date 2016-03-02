@@ -39,6 +39,11 @@
          font-weight: bold;
       }
 
+      h4{
+         border:none !important;
+         font-weight: bold;
+      }
+
       p{
          font-family: Raleway !important;
          font-size: 1.2em;
@@ -53,18 +58,29 @@
          align-items: center;
          justify-content: center;
          transform: rotateZ(45deg);
-         width: 140px;
-         height: 140px;
-         background: #a29e37;
+         width: 100px;
+         height: 100px;
+         background: #69f;
          border-radius: .5em;
          color: #fafafa;
-         box-shadow: 0 0 0 .3em #4b545e, 0 0 0 .6em #a29e37;
-         margin: 4em 0;
+         box-shadow: 0 0 0 .3em #333, 0 0 0 .6em #69f;
+         margin: 4em 0 4em 2.5em;
+      }
+
+      div.flex-div.small {
+         width:40px;
+         height:40px;
+         margin:0;
+         box-shadow: 0 0 0 .2em #333, 0 0 0 .4em #69f;
       }
 
       div.child-div {
-         font-size: 6em;
+         font-size: 4em;
          transform: rotateZ(-45deg);
+      }
+
+      div.child-div.small {
+         font-size: 2em;
       }
 
       div.icon-div.front {
@@ -91,6 +107,73 @@
         100% { transform: rotateY(-179deg); }
       }
 
+      #timeline {
+      	width: 100%;
+        margin: 30px auto;
+      	position: relative;
+        padding: 0 10px;
+     }
+      #timeline::before {
+      		content:"";
+      		width: 3px;
+      		height: 100%;
+      		background: #69f;
+      		left: 0%;
+      		top: 0;
+      		position: absolute;
+      	}
+      .timeline-item {
+         display:block;
+         margin-left:2em;
+      }
+
+      .timeline-header {
+         margin-left: 30px
+      }
+
+      .timeline-content::before {
+         border-bottom: 7px solid transparent;
+         border-left: 14px solid #69f;
+         border-top: 7px solid transparent;
+         position: absolute;
+         left:3px;
+         top:20px;
+      }
+
+      .timeline-icon {
+         position: absolute;
+			top: -7px;
+			left: -19px;
+      }
+
+      #left-column {
+         font-size: 85%
+      }
+
+
+      @media  (max-width: 767px) {
+
+         div.flex-div { margin: 4em 0 4em 0; }
+         .xs-text-center { text-align: center }
+
+      }
+
+      @media (min-width: 768px) and (max-width: 991px) {
+
+         h1 { font-size: 8em }
+         h2 { font-size: 3.2em }
+
+      }
+
+      @media (min-width: 992px) and (max-width: 1199px) {
+
+      }
+
+
+      @media (min-width: 1200px) {
+
+      }
+
    </style>
 
    <div class="row">
@@ -104,7 +187,7 @@
 <div class="title-section">
    <div class="container">
       <div class="row">
-         <div class="col-xs-3">
+         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 xs-text-center">
             <div class="flex-div">
                <div class="child-div">
                   <div class="icon-div front">
@@ -116,7 +199,7 @@
                </div>
             </div>
          </div>
-         <div class="col-xs-9">
+         <div class="col-xs-12 col-sm-9 col-md-9 col-lg-10 xs-text-center">
             <h1>Brian Tweed</h1>
             <h2>web designer / developer</h2>
          </div>
@@ -124,34 +207,64 @@
    </div>
 </div>
 
-<div class="info-section">
    <div class="container">
-      <div class="row">
-         <div class="col-xs-12">
-            <h3>About Me</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero magna, tristique eget placerat a,
-               eleifend quis ligula. Praesent in ante nec lorem sollicitudin vulputate. Vestibulum malesuada vitae orci
-               id tristique. Phasellus est augue, posuere a gravida eu, pretium vel dolor. Cras maximus aliquet turpis,
-               in tempor tortor cursus vel. Quisque feugiat at nibh sed elementum. Sed elementum dolor id nibh convallis
-               fermentum. Vestibulum vel quam suscipit est semper tincidunt. Nullam fermentum sagittis ipsum ac finibus.
-               Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-            </p>
-         </div>
-      </div>
-   </div>
-</div>
-<br/>
-<div class="work-section">
-   <div class="container">
-      <div class="row">
-         <div class="col-xs-12">
-            <h3>Work Experience</h3>
 
-         </div>
-      </div>
-   </div>
-</div>
+      <div class="row">
 
+         <div id="left-column" class="col-xs-4">
+
+            <div class="row">
+               <div class="col-xs-12">
+                  <h3>About Me</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero magna, tristique eget placerat a,
+                     eleifend quis ligula. Praesent in ante nec lorem sollicitudin vulputate. Vestibulum malesuada vitae orci
+                     id tristique. Phasellus est augue, posuere a gravida eu, pretium vel dolor. Cras maximus aliquet turpis,
+                     in tempor tortor cursus vel. Quisque feugiat at nibh sed elementum. Sed elementum dolor id nibh convallis
+                     fermentum. Vestibulum vel quam suscipit est semper tincidunt. Nullam fermentum sagittis ipsum ac finibus.
+                     Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                  </p>
+               </div>
+            </div>
+
+         </div> {{-- left column --}}
+
+         <div id="right-column" class="col-xs-offset-1 col-xs-7">
+
+            <div class="row">
+               <div class="col-xs-12">
+                  <div id="timeline">
+                     <div class="timeline-header">
+                        <h3>Work Experience</h3><br/>
+                     </div>
+                     <div class="timeline-icon">
+                        <div class="flex-div small">
+                           <div class="child-div small">
+                              <div class="icon-div front">
+                                 <i class="ft icon-empire"></i>
+                              </div>
+                              <div class="icon-div back">
+                                 <i class="ft icon-rebel"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="timeline-item">
+                        <div class="timeline-content">
+                           <h4>Instagiv</h4>
+                           <p>fskdjflksjdlf kjsdl fkjsld kfjsl dkfj lskdj flksjf fskdjflksjdlf kjsdl fkjsld kfjsl dkfj lskdj flksjf fskdjflksjdlf kjsdl fkjsld kfjsl dkfj lskdj flksjf</p>
+                        </div>
+                     </div>
+
+                  </div> <!-- timeline -->
+               </div>
+            </div>
+
+         </div> <!-- right column -->
+
+      </div>
+
+   </div> <!-- container -->
 
 
 
