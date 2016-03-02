@@ -82,7 +82,7 @@
          background: #69f;
          border-radius: .5em;
          color: #fafafa;
-         box-shadow: 0 0 0 .3em #333, 0 0 0 .6em #69f;
+         box-shadow: 0 0 0 .3em #4b545e, 0 0 0 .6em #69f;
          margin: 4em 0 4em 2.5em;
       }
 
