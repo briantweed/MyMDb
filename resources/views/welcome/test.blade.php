@@ -59,7 +59,7 @@
          border-radius: .5em;
          color: #fafafa;
          box-shadow: 0 0 0 .3em #4b545e, 0 0 0 .6em #a29e37;
-         margin: 4em;
+         margin: 4em 0;
       }
 
       div.child-div {
