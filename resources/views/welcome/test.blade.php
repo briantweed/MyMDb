@@ -9,6 +9,25 @@
 
    <style>
 
+      @font-face {
+      	font-family: 'Coves';
+      	font-style: normal;
+      	font-weight: 400;
+      	src: url('../../font/Coves.otf');
+      }
+      @font-face {
+      	font-family: 'Veneer';
+      	font-style: normal;
+      	font-weight: 400;
+      	src: url('../../font/Veneer.ttf');
+      }
+      @font-face {
+      	font-family: 'OpenSans';
+      	font-style: normal;
+      	font-weight: 400;
+      	src: url('../../font/OpenSans.ttf');
+      }
+
       body {
          font-size: 13px;
          background: #3b3838;
@@ -33,19 +52,19 @@
       }
 
       h3{
-         font-family: Moon !important;
+         font-family: Veneer !important;
          border:none !important;
-         font-size: 2em;
-         font-weight: bold;
+         font-size: 3em;
       }
 
       h4{
-         border:none !important;
+         border: none !important;
          font-weight: bold;
+         font-size: 1.5em
       }
 
       p{
-         font-family: Raleway !important;
+         font-family: OpenSans !important;
          font-size: 1.2em;
          line-height: 2;
       }
@@ -133,12 +152,12 @@
       }
 
       .timeline-content h4{
-         margin: 0 0 0.5em 1em;
+         margin: 0 0 0.5em 16px;
       }
       .timeline-content h4 span{
          font-weight: bold;
-         font-size: 90%;
-         font-family: "Raleway"
+         font-size: 70%;
+         font-family: "OpenSans"
       }
 
       .timeline-content p {
@@ -159,7 +178,7 @@
 
       .timeline-icon {
          position: absolute;
-			top: -7px;
+			top: 2px;
 			left: -19px;
       }
 
