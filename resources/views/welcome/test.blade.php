@@ -10,7 +10,7 @@
    <style>
 
       body {
-         font-size: 14px;
+         font-size: 13px;
          background: #3b3838;
          color: #ffffff;
       }
@@ -124,30 +124,43 @@
       	}
       .timeline-item {
          display:block;
-         margin-left:2em;
+         position: relative;
+         margin-bottom: 3em;
       }
 
       .timeline-header {
          margin-left: 30px
       }
 
+      .timeline-content h4{
+         margin: 0 0 0.5em 1em;
+      }
+      .timeline-content h4 span{
+         font-weight: bold;
+         font-size: 90%;
+         font-family: "Raleway"
+      }
+
+      .timeline-content p {
+         margin-left: 1em;
+      }
+
       .timeline-content::before {
-         border-bottom: 7px solid transparent;
-         border-left: 14px solid #69f;
-         border-top: 7px solid transparent;
-         position: absolute;
-         left:3px;
-         top:20px;
+            content: '';
+				position: absolute;
+				left: -7px;
+				top: 3px;
+				width: 0;
+				height: 0;
+				border-top: 7px solid transparent;
+				border-bottom: 7px solid transparent;
+				border-left:7px solid #69f
       }
 
       .timeline-icon {
          position: absolute;
 			top: -7px;
 			left: -19px;
-      }
-
-      #left-column {
-         font-size: 85%
       }
 
 
@@ -251,8 +264,21 @@
 
                      <div class="timeline-item">
                         <div class="timeline-content">
+                           <h4>Instagiv <span>(Jan 2015 - Present)</span></h4>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero magna, tristique eget placerat a,
+                              eleifend quis ligula. Praesent in ante nec lorem sollicitudin vulputate.
+                              Vestibulum malesuada vitae orci id tristique. Phasellus est augue, posuere a gravida eu, pretium vel dolor.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="timeline-item">
+                        <div class="timeline-content">
                            <h4>Instagiv</h4>
-                           <p>fskdjflksjdlf kjsdl fkjsld kfjsl dkfj lskdj flksjf fskdjflksjdlf kjsdl fkjsld kfjsl dkfj lskdj flksjf fskdjflksjdlf kjsdl fkjsld kfjsl dkfj lskdj flksjf</p>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero magna, tristique eget placerat a,
+                              eleifend quis ligula. Praesent in ante nec lorem sollicitudin vulputate.
+                              Vestibulum malesuada vitae orci id tristique. Phasellus est augue, posuere a gravida eu, pretium vel dolor.
+                           </p>
                         </div>
                      </div>
 
