@@ -30,8 +30,8 @@
 
       body {
          font-size: 13px;
-         background: #3b3838;
-         color: #ffffff;
+         background: #f0f0f5;
+         color: #333333;
       }
 
       h1{
@@ -69,7 +69,7 @@
          line-height: 2;
       }
 
-      div.title-section { background: #4b545e; background-image: url('/images/diamond-bg.png')}
+      div.title-section { background: #4b545e; color: #f0f0f5; background-image: url('/images/diamond-bg.png')}
 
       div.flex-div {
          font-size: 100%;
@@ -90,7 +90,7 @@
          width:40px;
          height:40px;
          margin:0;
-         box-shadow: 0 0 0 .2em #333, 0 0 0 .4em #69f;
+         box-shadow: 0 0 0 .2em #f0f0f5, 0 0 0 .4em #69f;
       }
 
       div.child-div {
@@ -134,7 +134,7 @@
      }
       #timeline::before {
       		content:"";
-      		width: 3px;
+      		width: 4px;
       		height: 100%;
       		background: #69f;
       		left: 0%;
@@ -167,19 +167,19 @@
       .timeline-content::before {
             content: '';
 				position: absolute;
-				left: -7px;
-				top: 3px;
+				left: -6px;
+				top: 2px;
 				width: 0;
 				height: 0;
-				border-top: 7px solid transparent;
-				border-bottom: 7px solid transparent;
-				border-left:7px solid #69f
+				border-top: 10px solid transparent;
+				border-bottom: 10px solid transparent;
+				border-left: 11px solid #69f
       }
 
       .timeline-icon {
          position: absolute;
 			top: 2px;
-			left: -19px;
+			left: -18px;
       }
 
 
@@ -283,7 +283,7 @@
 
                      <div class="timeline-item">
                         <div class="timeline-content">
-                           <h4>Instagiv <span>(Jan 2015 - Present)</span></h4>
+                           <h4>Instagiv</h4>
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero magna, tristique eget placerat a,
                               eleifend quis ligula. Praesent in ante nec lorem sollicitudin vulputate.
                               Vestibulum malesuada vitae orci id tristique. Phasellus est augue, posuere a gravida eu, pretium vel dolor.
@@ -293,7 +293,27 @@
 
                      <div class="timeline-item">
                         <div class="timeline-content">
-                           <h4>Instagiv</h4>
+                           <h4>Team Solutions</h4>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero magna, tristique eget placerat a,
+                              eleifend quis ligula. Praesent in ante nec lorem sollicitudin vulputate.
+                              Vestibulum malesuada vitae orci id tristique. Phasellus est augue, posuere a gravida eu, pretium vel dolor.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="timeline-item">
+                        <div class="timeline-content">
+                           <h4>FunctionBookers</h4>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero magna, tristique eget placerat a,
+                              eleifend quis ligula. Praesent in ante nec lorem sollicitudin vulputate.
+                              Vestibulum malesuada vitae orci id tristique. Phasellus est augue, posuere a gravida eu, pretium vel dolor.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="timeline-item">
+                        <div class="timeline-content">
+                           <h4>Eastwood Bookmakers</h4>
                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero magna, tristique eget placerat a,
                               eleifend quis ligula. Praesent in ante nec lorem sollicitudin vulputate.
                               Vestibulum malesuada vitae orci id tristique. Phasellus est augue, posuere a gravida eu, pretium vel dolor.
