@@ -21,8 +21,6 @@ $(document).scroll(function(){
    displayCharts();
 });
 
-$.when($('.doc-loader').delay(2000).fadeOut('slow')).done(function(){ $(this).remove(); });
-
 $(document).ready(function() {
 
    $('#decadeSelectFilter').change(function() {
@@ -116,8 +114,12 @@ $(document).ready(function() {
 });
 
 function displayCharts() {
-   displayMoviesByCertificate();
-   if( $('#yearChart').onScreen() )   displayMoviesByDecade();
+   $.when($('.doc-loader').delay(1000).fadeOut('slow')).done(function(){
+      $(this).remove();
+      displayMoviesByCertificate();
+   });
+
+   if( $('#yearChart').onScreen() ) displayMoviesByDecade();
 }
 
 function displayMoviesByDecade() {
