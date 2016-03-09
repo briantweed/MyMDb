@@ -56,9 +56,9 @@ $(document).ready(function() {
          {breakpoint: 400, settings: {slidesToShow: 1}},
       ]
    }).hide().removeClass('hide').fadeIn();
-   
-   jQuery(window).load(function() {
-      $.when($('.doc-loader').delay(1000).fadeOut('slow')).done(function(){ $(this).remove(); });
+
+   $.when($('.doc-loader').delay(1000).fadeOut('slow')).done(function(){ 
+      $(this).remove();
    });
 
    $('#actor-slidee').sly({
