@@ -451,9 +451,11 @@ $(document).ready(function() {
             document.location.href = link.href;
          }
       }, false);
+      $('.doc-loader').remove();
    }
    else {
 	 $('.parallax').simpleParallax();
+    $.when($('.doc-loader').fadeOut('slow')).done(function(){ $(this).remove(); });
    }
 
    // $('#ajaxContent').load('http://www.example.com/paginated/data');
