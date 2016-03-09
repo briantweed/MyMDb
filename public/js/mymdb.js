@@ -451,7 +451,7 @@ $(document).ready(function() {
             document.location.href = link.href;
          }
       }, false);
-      $('.doc-loader').remove();
+      $.when($('.doc-loader').fadeOut('slow')).done(function(){ $(this).remove(); });
    }
    else {
 	 $('.parallax').simpleParallax();
