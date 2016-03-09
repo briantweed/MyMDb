@@ -451,11 +451,9 @@ $(document).ready(function() {
             document.location.href = link.href;
          }
       }, false);
-      $.when($('.doc-loader').fadeOut('slow')).done(function(){ $(this).remove(); });
    }
    else {
 	 $('.parallax').simpleParallax();
-    $.when($('.doc-loader').fadeOut('slow')).done(function(){ $(this).remove(); });
    }
 
    // $('#ajaxContent').load('http://www.example.com/paginated/data');
@@ -467,6 +465,9 @@ $(document).ready(function() {
    //         $('#ajaxContent').load($(this).attr('href'));
    //     }
    // });
+
+   $.when($('.doc-loader').delay(2000).fadeOut('slow')).done(function(){ $(this).remove(); });
+
 
 });
 
