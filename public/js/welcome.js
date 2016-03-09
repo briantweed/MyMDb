@@ -57,6 +57,10 @@ $(document).ready(function() {
       ]
    }).hide().removeClass('hide').fadeIn();
 
+   jQuery(window).load(function() {
+      $.when($('.doc-loader').fadeOut('slow')).done(function(){ $(this).remove(); });
+   });
+
    $('#actor-slidee').sly({
       speed : 600,
       dragHandle : 1,
@@ -114,12 +118,8 @@ $(document).ready(function() {
 });
 
 function displayCharts() {
-   $.when($('.doc-loader').delay(1000).fadeOut('slow')).done(function(){
-      $(this).remove();
-      displayMoviesByCertificate();
-   });
-
-   if( $('#yearChart').onScreen() ) displayMoviesByDecade();
+   displayMoviesByCertificate();
+   if( $('#yearChart').onScreen() )   displayMoviesByDecade();
 }
 
 function displayMoviesByDecade() {
