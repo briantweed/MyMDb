@@ -468,7 +468,6 @@ $(document).ready(function() {
 
    $.when($('.doc-loader').delay(3000).fadeOut('slow')).done(function(){ $(this).remove(); });
 
-
 });
 
 // Movie search filter

@@ -31,15 +31,12 @@
    <body>
 
       @if(!Session::get('counter'))
-         <table class="doc-loader">
-            <tr>
-               <td>
-                  <div class="loader">
-                     <img src="images/rings.svg"/>
-                  </div>
-               </td>
-            </tr>
-         </table>
+         <div class="doc-loader">
+            <div class="loader">
+               <h2 style="font-family:Philosopher;color:#fafafa;text-align:center;font-size:5em;line-height:0.9em">MyMDb</h2>
+               <img src="images/svg/rings.svg"/>
+            </div>
+         </div>
       @endif
 
       @include('segments.nav')

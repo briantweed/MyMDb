@@ -257,10 +257,10 @@ $required: #c81d1d;
    z-index: 9999;
 
    .loader {
-      position: relative;
-      width: 200px;
-      height:200px;
-      margin: auto;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -60%);
 
       img {
          width:100%;
