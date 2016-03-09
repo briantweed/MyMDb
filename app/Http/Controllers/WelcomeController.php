@@ -18,8 +18,7 @@ class WelcomeController extends Controller {
 	public function __construct()
    {
   	  $this->isAdmin = $this->checkUserDetails();
-	  $counter = Session::has('counter') ? Session::get('counter') + 1 : 0;
-	  Session::put('counter', $counter);
+	  Session::put('counter', Session::has('counter') ? 1 : 0);
    }
 
 	public function index()
