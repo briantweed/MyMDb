@@ -21,6 +21,8 @@ $(document).scroll(function(){
    displayCharts();
 });
 
+$.when($('.doc-loader').delay(2000).fadeOut('slow')).done(function(){ $(this).remove(); });
+
 $(document).ready(function() {
 
    $('#decadeSelectFilter').change(function() {
@@ -56,8 +58,6 @@ $(document).ready(function() {
          {breakpoint: 400, settings: {slidesToShow: 1}},
       ]
    }).hide().removeClass('hide').fadeIn();
-
-   $('.doc-loader').delay(2000).fadeOut('slow');
 
    $('#actor-slidee').sly({
       speed : 600,
