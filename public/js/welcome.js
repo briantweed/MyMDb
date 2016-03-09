@@ -57,9 +57,7 @@ $(document).ready(function() {
       ]
    }).hide().removeClass('hide').fadeIn();
 
-   $.when($('.doc-loader').delay(1000).fadeOut('slow')).done(function(){ 
-      $(this).remove();
-   });
+   $('.doc-loader').delay(2000).fadeOut('slow');
 
    $('#actor-slidee').sly({
       speed : 600,
