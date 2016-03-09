@@ -110,6 +110,10 @@ $(document).ready(function() {
 
    displayCharts();
 
+   jQuery(window).load(function() {
+      $.when($('.doc-loader').delay(1000).fadeOut('slow')).done(function(){ $(this).remove(); });
+   });
+
 });
 
 function displayCharts() {

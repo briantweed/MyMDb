@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use DB;
+use Session;
 use App\Crew;
 use App\Movies;
 use App\Persons;
@@ -17,6 +18,8 @@ class WelcomeController extends Controller {
 	public function __construct()
    {
   	  $this->isAdmin = $this->checkUserDetails();
+	  $counter = Session::has('counter') ? Session::get('counter') + 1 : 0;
+	  Session::put('counter', $counter);
    }
 
 	public function index()

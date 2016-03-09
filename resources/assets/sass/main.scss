@@ -247,6 +247,27 @@ $required: #c81d1d;
 |----------------------------------------------------------------------
 */
 
+.doc-loader {
+   background-color: #444;
+   position: fixed;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+
+   .loader {
+      position: relative;
+      width: 200px;
+      height:200px;
+      margin: auto;
+
+      img {
+         width:100%;
+      }
+   }
+}
+
 body {
    font-size: 15px;
    font-family: $main-font;
@@ -838,7 +859,7 @@ i.main_actor,i.main_star {
    .admin-side-links {
       position: fixed;
    }
-   
+
 }
 
 /*

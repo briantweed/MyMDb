@@ -30,6 +30,18 @@
 
    <body>
 
+      @if(!Session::get('counter'))
+         <table class="doc-loader">
+            <tr>
+               <td>
+                  <div class="loader">
+                     <img src="images/rings.svg"/>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      @endif
+
       @include('segments.nav')
 
       @include('segments.subnav')
