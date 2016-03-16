@@ -21,6 +21,7 @@ class AdminController extends Controller
 
    public function index()
    {
+      if(!$this->isAdmin) return redirect()->action('WelcomeController@index');
       $app = app();
       $data = $app->make('stdClass');
       $data->movie_total = Movies::all()->count();

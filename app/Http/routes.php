@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['domain' => env('DOMAIN_NAME')], function () {
+Route::group(['domain' => env('DOMAIN_NAME'), 'after' => 'no-cache'], function () {
 
 	Route::controllers([
 		'auth' => 'Auth\AuthController',
@@ -100,4 +100,10 @@ Route::group(['domain' => env('DOMAIN_NAME')], function () {
 		return Redirect::to('/admin')->with('status', 'Viewings backed up');
 	});
 
+});
+
+Route::filter('no-cache', function($route, $request, $response){
+    $response->headers->set('Cache-Control','nocache, no-store, max-age=0, must-revalidate');
+    $response->headers->set('Pragma','no-cache');
+    $response->headers->set('Expires','Fri, 01 Jan 1990 00:00:00 GMT');
 });
