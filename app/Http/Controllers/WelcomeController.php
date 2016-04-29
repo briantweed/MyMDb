@@ -88,7 +88,7 @@ class WelcomeController extends Controller {
 	private function makeDecades()
 	{
 		$decades = [];
-		$start = 1930;
+		$start = 1920;
 		$end = floor(date("Y")/10)*10;
 		for($decade=$start; $decade<=$end; $decade+=10)
 		{
