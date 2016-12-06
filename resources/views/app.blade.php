@@ -14,9 +14,6 @@
       <meta name="apple-mobile-web-app-status-bar-style" content="black">
       <meta name="apple-mobile-web-app-title" content="MyMDb">
       <meta name="mobile-web-app-capable" content="yes">
-      <meta name="_token" content="{!! csrf_token() !!}" />
-
-      @yield('meta_tags')
 
       <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ URL::asset('images/app-icon.png') }}">
 
