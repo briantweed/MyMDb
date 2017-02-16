@@ -11,7 +11,7 @@ function storeMovieViewing() {
       $('.viewing-message').html(html);
       $('html, body').animate({scrollTop: 0});
    });
-}
+} 
 
 function showModal(type) {
    var route = "";

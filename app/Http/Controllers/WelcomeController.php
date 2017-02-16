@@ -27,7 +27,7 @@ class WelcomeController extends Controller {
 		$details = $app->make('stdClass');
 
 		// most recent purchases
-		$details->most_recent = Movies::getMovieRecords('purchased', 'DESC', 10);
+		$details->most_recent = Movies::getMovieRecords('purchased', 'DESC', 20);
 
 		// top rated movies
 		$details->top_rated = Movies::getTopRated();
