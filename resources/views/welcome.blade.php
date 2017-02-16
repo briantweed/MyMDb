@@ -168,7 +168,7 @@
                            <li>
                               <a href="{{ action('PersonController@show', $actor->person_id) }}">
                                  <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" alt="Image of {{$actor->name}}" />
-                                 <span class="title-wrapper hidden-xs text-center">
+                                 <span class="title-wrapper text-center">
                                     {{$actor->name}}<br/>
                                     @if($actor->count == 1) 1 movie
                                     @else {{$actor->count}} movies
@@ -199,7 +199,7 @@
                            <li>
                               <a href="{{action('PersonController@show', $director->person_id) }}">
                                     <img class="img-rounded img-responsive" src="{{asset('images/people/'.$director->image)}}" alt="Image of {{$director->name}}" />
-                                 <span class="title-wrapper hidden-xs text-center">
+                                 <span class="title-wrapper text-center">
                                     {{$director->name}}<br/>
                                     @if($director->count == 1) 1 movie
                                     @else {{$director->count}} movies
@@ -230,7 +230,7 @@
                            <li>
                               <a href="{{action('PersonController@show', $actor->person_id) }}">
                                     <img class="img-rounded img-responsive" src="{{asset('images/people/'.$actor->image)}}" alt="Image of {{$actor->name}}" />
-                                 <span class="title-wrapper hidden-xs text-center">
+                                 <span class="title-wrapper text-center">
                                     {{$actor->name}}<br/>
                                     @if($actor->deceased) ( @endif {{$actor->age}} @if($actor->deceased) ) @endif
                                  </span>
