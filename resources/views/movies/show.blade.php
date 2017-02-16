@@ -100,6 +100,11 @@
          </div>
 
          <div class="row">
+            <div class="{{$label_class}}"><b>Purchased</b></div>
+            <div class="{{$input_class}}">{{  Carbon\Carbon::parse($movie->purchased)->format('jS F Y') }}</div>
+         </div>
+
+         <div class="row">
             <div class="{{$label_class}}"><b>Studio</b></div>
             <div class="{{$input_class}}">@if($movie->studio){{$movie->studio->name}}@endif</div>
          </div>
