@@ -7,9 +7,6 @@ Route::group(['domain' => env('DOMAIN_NAME'), 'after' => 'no-cache'], function (
 		'password' => 'Auth\PasswordController',
 	]);
 
-	// CV TEST PAGE
-	Route::get('test', 'TestController@index');
-
 	// LANDING PAGE
 	Route::get('/', 'WelcomeController@index');
 
