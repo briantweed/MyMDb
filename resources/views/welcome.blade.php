@@ -31,12 +31,12 @@
    <body>
 
       @if(!Session::get('counter'))
-         {{-- <div class="doc-loader">
+         <div class="doc-loader">
             <div class="loader">
                <h2 style="font-family:Philosopher;color:#fafafa;text-align:center;font-size:5em;line-height:0.9em">MyMDb</h2>
                <img src="images/svg/rings.svg"/>
             </div>
-         </div> --}}
+         </div>
       @endif
 
       @include('segments.nav')
