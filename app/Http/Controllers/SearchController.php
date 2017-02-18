@@ -39,7 +39,7 @@ class SearchController extends Controller
             switch($type)
             {
                case "all":
-                  $query->where('name', 'LIKE', '%'.$search_string.'%');
+                  $query->where('search_name', 'LIKE', '%'.$search_string.'%');
                break;
 
                case "studio":

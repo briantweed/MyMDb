@@ -71,7 +71,6 @@ Route::group(['domain' => env('DOMAIN_NAME'), 'after' => 'no-cache'], function (
 		Route::post('/studios', 'StudioController@index');
 		Route::post('/keywords', 'KeywordController@index');
 		Route::post('/viewings', 'ViewingController@index');
-		Route::get('/strip', 'MovieController@strip');
 	});
 
 	// SEED CREATOR

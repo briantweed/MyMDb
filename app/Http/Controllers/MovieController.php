@@ -130,6 +130,7 @@ class MovieController extends Controller {
 		else $data['studio_id'] = 21;
 		$data['duplicate'] = $this->checkForDuplicateTitle($request->name);
 		$data['purchased'] = date("Y-m-d", strtotime($data['purchased'] ));
+		$data['search_name'] = preg_replace('/[^A-Za-z0-9\s]/', '', $data['name']);
 
 		foreach($data as &$value) $value = htmlentities(trim($value), ENT_QUOTES);
 		unset($value);
@@ -137,18 +138,6 @@ class MovieController extends Controller {
 		$created = Movies::create($data);
 
 		return redirect()->action('MovieController@edit', [$created->movie_id])->with('status', 'Movie Added Successfully');
-	}
-
-
-	public function strip()
-	{
-		$movies = Movies::all();
-		foreach($movies as $movie)
-		{
-			$data['id'] = $movie['id'];
-			$data['search_name'] = preg_replace('/[^A-Za-z0-9\s]/', '', $movie['name']);
-			$movie->update($data);
-		}
 	}
 
 
@@ -227,6 +216,7 @@ class MovieController extends Controller {
 		$movie = Movies::findorfail($movie_id);
 		$data = $request->all();
 		$data['sort_name'] = $data['sort_name'] =='' ? $data['name'] : $data['sort_name'];
+		$data['search_name'] = preg_replace('/[^A-Za-z0-9\s]/', '', $data['name']);
 		if($request->hasFile('image_upload'))
 		{
 			if($request->file('image_upload')->isValid())
