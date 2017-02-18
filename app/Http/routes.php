@@ -10,11 +10,6 @@ Route::group(['domain' => env('DOMAIN_NAME'), 'after' => 'no-cache'], function (
 	// LANDING PAGE
 	Route::get('/', 'WelcomeController@index');
 
-	// STATS PAGE
-	Route::get('charts', 'StatsController@index');
-
-	// SEARCH PAGE
-	Route::get('search', 'SearchController@index');
 
 	// API CALLS
 	Route::post('searchForMovie', 'ApiController@searchForMovie');
