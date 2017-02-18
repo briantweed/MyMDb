@@ -11,6 +11,7 @@
          <ul class="dropdown-menu dropdown-menu-right">
             <li><a href="javascript:void(0)" onclick="startFilter('rating','')">Rating</a></li>
             <li><a href="javascript:void(0)" onclick="startFilter('year','')">Year</a></li>
+            <li role="separator" class="divider"></li>
             <li><a href="javascript:location.reload()">Clear</a></li>
          </ul>
       </span>
