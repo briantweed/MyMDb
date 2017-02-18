@@ -9,6 +9,7 @@ class Movies extends Model {
 	protected $fillable = array(
 		'name',
 		'sort_name',
+		'search_name',
 		'imdb_id',
 		'released',
 		'purchased',

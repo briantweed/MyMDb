@@ -140,6 +140,18 @@ class MovieController extends Controller {
 	}
 
 
+	public function strip()
+	{
+		$movies = Movies::all();
+		foreach($movies as $movie)
+		{
+			$data['id'] = $movie['id'];
+			$data['search_name'] = preg_replace('/[^A-Za-z0-9]/', '', $movie['name']);
+			$movie->update($data);
+		}
+	}
+
+
 	/**
 	*
 	* Show form to edit existing movie
