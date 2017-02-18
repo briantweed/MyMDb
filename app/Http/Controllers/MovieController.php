@@ -45,6 +45,16 @@ class MovieController extends Controller {
 		return view('movies.index', compact('movies', 'user'));
 	}
 
+	public function strip()
+	{
+		$movies = Movies::all();
+		foreach($movies as $movie)
+		{
+			$data['id'] = $movie['id'];
+			$data['search_name'] = preg_replace('/[^A-Za-z0-9\s]/', '', html_entity_decode($data['name']);
+		}
+	}
+
 
 	/**
 	*
