@@ -64,7 +64,7 @@ class AjaxController extends Controller
          $user = $this->isAdmin;
          $quote = count($movies) ? "" : $this->getRandomQuote();
 
-         return view('filter.results', compact('movies', 'people', 'tags', 'quote', 'user'));
+         return view('filter.results', compact('movies', 'people', 'tags', 'quote', 'user', 'search_string'));
       }
    }
 
