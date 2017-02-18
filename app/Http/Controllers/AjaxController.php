@@ -37,7 +37,11 @@ class AjaxController extends Controller
          {
             case "all":
             default:
-               $query->where('name', 'LIKE', '%'.$search_string.'%');
+               $query->where('search_name', 'LIKE', '%'.$search_string.'%');
+            break;
+
+            case "rating":
+               $query->where('rating', $search_string);
             break;
 
             case "year":
