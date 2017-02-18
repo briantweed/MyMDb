@@ -68,7 +68,7 @@ class SearchController extends Controller
                   $query->where('keywords.word', 'LIKE', '%'.$search_string.'%')
                      ->join('tags', 'movies.movie_id', '=', 'tags.movie_id')
                      ->join('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id');
-            break;
+               break;
             }
 
             $query->orderBy('sort_name');
