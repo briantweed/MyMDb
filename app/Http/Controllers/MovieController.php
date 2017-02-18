@@ -51,7 +51,7 @@ class MovieController extends Controller {
 		foreach($movies as $movie)
 		{
 			$data['id'] = $movie['id'];
-			$data['search_name'] = preg_replace('/[^A-Za-z0-9\s]/', '', html_entity_decode($movie['name']));
+			$data['search_name'] = preg_replace('/[^A-Za-z0-9\s]/', '', html_entity_decode($movie['name'], ENT_QUOTES));
 			$movie->update($data);
 		}
 	}
