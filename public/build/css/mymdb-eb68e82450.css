@@ -6390,7 +6390,7 @@ button.close {
 body {
   font-size: 15px;
   font-family: "Raleway", Arial, sans-serif;
-  margin-top: 92px; }
+  margin-top: 91px; }
 
 h1 {
   margin: 10px 0 15px 0;
@@ -6552,7 +6552,7 @@ div.feature-content {
   color: #f0f0f0;
   background: url(../../images/matrix.jpg);
   background-size: cover;
-  padding: 50px 0; }
+  padding: 70px 0; }
   div.feature-content a i {
     box-shadow: 0px 0px 10px #666;
     border-radius: 10px; }
@@ -6613,7 +6613,7 @@ div.top-rated span.rating-display, div.lowest-rated span.rating-display {
 div.purchased-content {
   background: url(../../images/237.png) top left no-repeat;
   background-size: cover;
-  padding: 20px 0 40px;
+  padding: 40px 0 60px;
   color: #f0f0f1; }
   div.purchased-content .slick-slider {
     margin: 0; }

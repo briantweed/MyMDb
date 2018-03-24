@@ -51,16 +51,21 @@ class AjaxController extends Controller
          $query->orderBy('sort_name');
          $movies = $query->get();
 
-         $people = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
-                  ->orderBy('forename')
+         $people = array();
+         $tags = array();
+
+         if($type=="all")
+         {
+            $people = Persons::where(DB::raw("CONCAT(`forename`, ' ', `surname`)"), 'LIKE', '%'.$search_string.'%')
+                     ->orderBy('forename')
+                     ->get();
+
+            $tags = Movies::where('keywords.word', 'LIKE', '%'.$search_string.'%')
+                  ->join('tags', 'movies.movie_id', '=', 'tags.movie_id')
+                  ->join('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id')
+                  ->orderBy('sort_name')
                   ->get();
-
-         $tags = Movies::where('keywords.word', 'LIKE', '%'.$search_string.'%')
-               ->join('tags', 'movies.movie_id', '=', 'tags.movie_id')
-               ->join('keywords', 'keywords.keyword_id', '=', 'tags.keyword_id')
-               ->orderBy('sort_name')
-               ->get();
-
+         }
          $user = $this->isAdmin;
          $quote = count($movies) ? "" : $this->getRandomQuote();
 
