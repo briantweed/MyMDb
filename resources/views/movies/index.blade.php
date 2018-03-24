@@ -1,22 +1,5 @@
 @extends('app')
 
-{{-- Page Title --}}
-@section('title')
-   All Movies
-@stop
-
-{{-- Page Heading --}}
-@section('heading')
-   <h1>Movies</h1>
-@stop
-
-{{-- Subnav --}}
-@section('subnav-left')
-   @include('segments.links.back')
-   @include('segments.links.add_movie')
-@stop
-
-{{-- Main Body --}}
 @section('content')
 
    @if (session('status'))

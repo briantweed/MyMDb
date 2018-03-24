@@ -84,7 +84,7 @@ $(document).ready(function() {
    //         $('#ajaxContent').load($(this).attr('href'));
    //     }
    // });
-
+ 
    $.when($('.doc-loader').delay(1250).fadeOut('slow')).done(function(){ $(this).remove(); });
 
 });

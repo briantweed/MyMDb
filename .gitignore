@@ -3,10 +3,10 @@
 Homestead.yaml
 Homestead.json
 .env
-.jpg
-.jpg
-.jpeg
-.JPEG
-.png
-.PNG
-/database/seeds/
+*.jpg
+*.jpg
+*.jpeg
+*.JPEG
+*.png
+*.PNG
+database
